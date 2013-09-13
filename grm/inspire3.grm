@@ -1,0 +1,150 @@
+I ::=   "title:    INSPIRE\n"
+    ^ "version 3.0"
+    ^ "last update: 12/09/2013 previous: 29/08/2013 "
+    ^ "further updates: words from http://blog.iso50.com/" 
+    ^ "reference: http://www.polygen.org/it/manuale"
+    ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles";
+
+S ::= \ "Do" Chars ActionT Qlif Items "[t1]" 
+  	| Pronoun Qlif this way Acmoves "[t2]"
+  	| "Guide" to TPlace "[t3]"
+  	| QTime TTPlace "[t4]"
+  	| QTime of Item "[t5]"
+  	| [ "The" Qlif ] NQlif of Item "[t6]"
+  	| Item ^ CharA "[t7]"
+  	| "To" Actiond [and Actiond] TTPlace "[t8]"
+  	| "To" (dream | kill) AItem "[t9]"
+  	| AItem NQlif "[t10]"
+  	| _ "[tn]"
+;
+
+Char	::= CharA | Charsp.S;
+
+Chars	::= CharA ^s | Charsp.P;
+
+Charsp	::= child ^(S: _ | P: ren) | someone | everyone | people | lad ^(S: y | P: ies) | wom ^(S: an | P: en); 
+
+CharA 	::= android | architect | artist | blonde | bride | boy | brother   
+        | friend | girl | guy | host | kid | lady | leader | maiden | master | redhead 
+        | retailer ;
+
+ActionT	::= dream of | think about ;
+
+Actionr	::= dream | kill;
+
+Acmove	::= come;
+
+Acmoves	::= Acmove ^s; 
+
+Actiond ::= live | die ; 
+
+NQlif 	::= Qlifity ^ity | Qlifns ^ness;
+
+Qlif 	::= Qlifity | Qlifns ;
+
+Qlifity ::= atomic | artificial | chemical | circular | critical | curious | electric | experimental
+	| ethereal | exceptional | familiar | holographic | minimal | natural | original | real 
+	| social;
+		
+Qlifns 	::= american | angular | abstract | analog 
+        | atlantic | awesome | azure | beautiful | big | bitter
+        | blonde | black | blue | breathtaking | bright | broken
+        | cold | chill | cool
+        | collective | compact | complete | cracked | cyan
+        | dark | dazed | deep | different | digital
+        | easy | eerie | electronic | elegant | english | enormous 
+        | false | far | fast | favorite | flat | french | fresh | full
+        | green | german | golden | good | goth | great 
+        | hard | hazy | heavy | hidden | high | hot | hypnotic | huge | human | immediate | impossible
+        | incredible | intense | invisible | italian | japanese | kind | layered
+        | light | little | live | long | lost | lucky | luminous | maniac
+        | mechanical | mixed | modern | mute
+        | new | nice | nordic | notable | nuclear
+        | old | organic | outstanding
+        | pacific | perfect | pink | plenty | pop 
+	| possible | pretty | progressive | probable | psychedelic | punk
+        | quick | refreshing | reflecting | remarkable
+        | repetitive | revolutionary | rich
+        | safe | seamless | serious | short | simple | single | slippery | smooth
+        | slow | small | smart  | solid | stellar | sweet | third | transparent
+        | visual | warm | wiked;
+
+
+Matrl	::= copper | gold | iron | silver | wooden ; 
+
+Items	::= Item ^ s | Itemsp.P ;
+
+Pronoun	::= something | someone | anyone | everyone ;
+
+City    ::= "Baires" | "Berlin" | "Caracas" | "Hong Kong" | "Honolulu" | "London" | "Los Angeles"
+        | "Madrid" | "Melbourne" | "Moscow" | "New York" | "Paris"
+        | "Rome" | "San Francisco" | "Shanghai" | "Seattle" | "Tokyo" | "Vancouver" | "Vegas" | "Space";
+
+Plaat 	::= crossing | edge | gap | market | ocean | pool | river | school | shop | waterfall; 
+
+Plaont	::= cliff | coastline | floor | planet | side | stage | star | wall;
+
+Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn";
+
+Plaint	::= alley | arbor | arcade | castle | circus | desert | field | fortress | galaxy | garden
+	| haven | house | underground | world;
+
+TTPlace	::= at the Plaat | on the Plaont | on Plaon | in the Plaint | in City ; 
+
+TPlace	::= the Plaat | the Plaont | Plaon | the Plaint ; 
+
+
+Itemsp	::= alchem ^(S: y | P: ies) | analis ^(S: ys | P: es) | (S: bit | P: byte) | bod ^(S: y | P: ies) | bonus ^(S: _ | P: es) 
+	| business ^(S: _ | P: es) | cargo ^(S: _ | P: es) | cand ^(S: y | P: ies) | compan ^(S: y | P: ies) | deliri ^(S: um | P: a) 
+	| destin^(S: y | P: ies) | dut ^(S: y | P: ies) | echo ^(S: _ | P: es) | energ ^(S: y | P: ies) | guess ^(S: _ | P: es) 
+	| identit ^(S: y | P: ies) | kni ^(S: fe | P: ves) | lea ^(S: f | P: ves) | jinx ^(S: _ | P: es) | melod ^(S: y | P: ies) 
+	| ministr ^(S: y | P: ies) | part ^(S: y | P: ies) | stor ^(S: y | P: ies) | technolog ^(S: y | P: ies) | zero ^(S: _ | P: es);
+
+Item	::= Itemn | Iteman | Itema ; 
+
+AItem	::= Itemn | an Iteman | a Itema ;
+
+Itemn	::= everything ;
+
+Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle |  apocalypse | art | artwork | attitude
+        | effect | engine | end | environment | experiment | expression | existence | eye
+        | icon | idea | information | image 
+        | operation | opinion ;
+
+Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom | bomb | bell | bubble
+        | call | camera | can | carbon | case
+        | card | catalog | check | chance | chime | chip | chrome | click | clock | cloud | code
+        | computer | color | collection | competition | compression | concept
+        | content | context | count | cover | crack | culture
+        | dance | desire | death | design | disc | dollar | doubt | dream | destruction |  drop | drug
+        | face | factor | fan | fault | feeling | fear | fence | fiber | finger | fire | flower | fragment
+        | girl | game | getaway | guide | guitar
+        | hardware | halo | hate | hazard | head | heap | heart | hologram | horror | hop | hope | hour
+        | label | land | language | lap | light | life | line | link | lip | list | logic | logo | love
+        | key | lead | level
+        | magazine | magic | mass | meaning | medley
+        | mind | miniature |  mission
+        | money | mood | motion | move | music | name | need | note | nothing | network | nuke
+        | pace | package | page | part | passage | pattern | pearl | performance
+        | personal | perspective | photo | piece | platform
+        | point | polaroid | poster | potential | power | product | project | promise
+        | race | rainbow | reason | rebellion | record | rendering | resolution
+        | rest | return | rhythm | ring | riot | rock | scan | scene | scroll
+        | screw | sequence | serie | sleep
+        | session | setting | share | show | size | skin | sleep | slot | solitude | something | sound
+        | software | song | source | spell | sphere | spirit | square | stop
+        | tape | tarot | tattoo | touch | track | tree | triangle
+        | vault | vitamin | work;
+
+
+Time1 	::= childhood | summer | winter | spring | second ; 
+Time1o	::= hundred years | century | rainy season | morning ;
+Time2 	::= day | night | moment | instant ;
+Time2n 	::= instant | autumn ;
+Time3 	::= yesterday | tomorrow | dawn | dusk | future | now | present ;
+Time4	::= sometime ;
+Time5 	::= minutes ;
+
+QTime ::= (a | the) Time1 | one Time1o | an Time2n | Time3 | Time4 | some Time5;
+XTime ::= Time1 | Time2 | Time3 ;
+
