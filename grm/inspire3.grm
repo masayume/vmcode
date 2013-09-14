@@ -11,10 +11,16 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]"
   	| QTime TTPlace "[t4]"
   	| QTime of Item "[t5]"
   	| [ "The" Qlif ] NQlif of Item "[t6]"
-  	| Item ^ CharA "[t7]"
+  	| Item [^] CharA "[t7]"
   	| "To" Actiond [and Actiond] TTPlace "[t8]"
   	| "To" (dream | kill) AItem "[t9]"
   	| AItem NQlif "[t10]"
+  	| "Another" [Qlif] XTime TTPlace "[t11]"
+  	| "The" Effect ^ s of State AItem "[t12]"
+  	| "When" you are Qlif "[t13]"
+  	| ["A" | "The"] Qlif Item "[t14]"
+  	| "A" thousand Qlif Item ^ s"[t15]"
+  	| "The" Items of Emotion "[t16]"
   	| _ "[tn]"
 ;
 
@@ -28,7 +34,7 @@ CharA 	::= android | architect | artist | blonde | bride | boy | brother
         | friend | girl | guy | host | kid | lady | leader | maiden | master | redhead 
         | retailer ;
 
-ActionT	::= dream of | think about ;
+ActionT	::= consider | believe in | dream of | imagine | (mind | think) about ;
 
 Actionr	::= dream | kill;
 
@@ -37,6 +43,25 @@ Acmove	::= come;
 Acmoves	::= Acmove ^s; 
 
 Actiond ::= live | die ; 
+
+Emotion	::= Emlove | Emlust | Emjoy | Emanger  | Emsad | Emdisg | Emfear ;
+Emlove	::= affection | adoration | fondness | liking | attractiveness | longing | caring | tenderness | compassion | sentimentality ;
+Emlust	::= desire | passion | infatuation ;
+Emjoy	::= cheerfulness | amusement | bliss | glee | jolliness | joviality | joy | delight | enjoyment | gladness 
+	| happiness | jubilation | elation | satisfaction | ecstasy | euphoria | enthusiasm | zeal | excitement | thrill | exhilaration 
+	| contentment | pleasure | pride | triumph |optimism	| eagerness | hope | enthrallment | rapture| relief| surprise | amazement | astonishment ;
+Emanger	::= anger | irritability | aggravation | agitation | annoyance | grouchy | grumpy | crosspatch 
+	| exasperation | frustration | rage | outrage | fury | wrath | hostility | ferocity | bitter 
+	| hatred | scorn | spite | vengefulness | dislike | resentment | disgust | revulsion | contempt | loathing | envy | jealousy ;
+Emsad	::= sadness | depression | despair | gloom | glumness | unhappy | grief | sorrow | woe | misery 
+	| melancholy | torment | suffering | agony | anguish | hurt | disappointment | dismay | displeasure ;
+Emdisg	::= shame | guilt | regret | remorse | neglect	 | alienation | defeatism | dejection | embarrassment 
+	| humiliation | insecurity | insult | isolation | loneliness | rejection | pity | sympathy ;
+Emfear	::= fear | horror | alarm | shock | fear | fright | horror | terror | panic | hysteria | mortification 
+	| nervousness | anxiety | suspense | uneasiness | apprehension | worry | distress | dread ;
+
+State	::= being | becoming ;
+Effect	::= advantage | benefit | convenience | disadvantage | drawback | perk | virtue ; 
 
 NQlif 	::= Qlifity ^ity | Qlifns ^ness;
 
@@ -49,7 +74,7 @@ Qlifity ::= atomic | artificial | chemical | circular | critical | curious | ele
 Qlifns 	::= american | angular | abstract | analog 
         | atlantic | awesome | azure | beautiful | big | bitter
         | blonde | black | blue | breathtaking | bright | broken
-        | cold | chill | cool
+        | clockwork | cold | chill | cool
         | collective | compact | complete | cracked | cyan
         | dark | dazed | deep | different | digital
         | easy | eerie | electronic | elegant | english | enormous 
@@ -84,7 +109,7 @@ Plaat 	::= crossing | edge | gap | market | ocean | pool | river | school | shop
 
 Plaont	::= cliff | coastline | floor | planet | side | stage | star | wall;
 
-Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn";
+Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
 
 Plaint	::= alley | arbor | arcade | castle | circus | desert | field | fortress | galaxy | garden
 	| haven | house | underground | world;
