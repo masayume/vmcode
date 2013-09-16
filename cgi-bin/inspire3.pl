@@ -8,15 +8,17 @@ $check = "";
 my (%POST, %QUERY);
 %QUERY = &parse_args;
 
-$collen = 35;	# column length
-$colnum = 4;	# column number
-$insnum = $collen * $colnum;
+$collen 	= 35;	# column length
+$colnum 	= 4;	# column number
+$insnum 	= $collen * $colnum;
+$maxnum 	= 4 * $collen * $colnum;
+$maxtype	= 25;
 
-$version = "0.70";
+$version = "0.80";
 $grammar = "/home/masayume/polygen/inspire3.grm";
 
-$result = `polygen $grammar -X $insnum`;
-$result =~ s/(\[t\d*\])/<span style="color:#aaa;"><small><small>$1<\/small><\/small><\/span>/g;
+$result = `polygen $grammar -X $maxnum`;
+$result =~ s/(\[t\d*\])/<span style="color:#ccc;"><small><small>$1<\/small><\/small><\/span>/g;
 
 $matchstring = "t" . $QUERY{'t'} . "";
 
@@ -202,7 +204,7 @@ sub parse_args {
 sub header {
 
 	$header = "<center><table style=\"background-color: #aaaaaa; \"><tr><td colspan=$colnum><span style='color:#999;'><a href='/cgi-bin/inspire3.pl'>ALL</a>  ";
-	for ($i=1; $i<22; $i++) {
+	for ($i=1; $i<$maxtype; $i++) {
 		$header .= "\n<a href='/cgi-bin/inspire3.pl?t=$i'>T$i</a> ";
 	}
 	$header .= "</span></td></tr><tr></table>";

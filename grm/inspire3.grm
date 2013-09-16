@@ -6,7 +6,7 @@ I ::=   "title:    INSPIRE\n"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles";
 
 S ::= \ "Do" Chars ActionT Qlif Items "[t1]" 
-  	| Pronoun Qlif this way Acmoves "[t2]"
+  	| Pronoun Qlif this way Acmove3 "[t2]"
   	| "Guide" to TPlace "[t3]"
   	| QTime TTPlace "[t4]"
   	| QTime of Item "[t5]"
@@ -14,33 +14,63 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]"
   	| Item [^] CharA "[t7]"
   	| "To" Actiond [and Actiond] TTPlace "[t8]"
   	| "To" (dream | kill) AItem "[t9]"
-  	| AItem NQlif "[t10]"
+  	| Item NQlif "[t10]"
   	| "Another" [Qlif] XTime TTPlace "[t11]"
   	| "The" Effect ^ s of State AItem "[t12]"
   	| "When" you are Qlif "[t13]"
   	| ["A" | "The"] Qlif Item "[t14]"
   	| "A" thousand Qlif Item ^ s"[t15]"
   	| "The" Items of Emotion "[t16]"
+  	| Adverb Qlif and Adverb Qlif "[t17]"
+  	| [PreQlif] Qlif Char "[t18]"
+  	| ["The"] Char PostQlif "[t19]"
+  	| "The" Char who VerbPa [AItem] "[t20]"
   	| _ "[tn]"
 ;
 
-Char	::= CharA | Charsp.S;
+Char	::= CharX | CharAni | >CharA | Charsp.S;
 
-Chars	::= CharA ^s | Charsp.P;
+Chars	::= CharX ^ s | CharA ^s | Charsp.P;
 
-Charsp	::= child ^(S: _ | P: ren) | someone | everyone | people | lad ^(S: y | P: ies) | wom ^(S: an | P: en); 
+Charsp	::= child ^(S: _ | P: ren) 
+	| ( bull | faer | fair | lad | mercenar | revolutionar | secretar | sp | visionar ) ^(S: y | P: ies) 
+	| ( enchantress | hero | empress | seductress | priestess | princess | witch ) ^(S: _ | P: es) | wom ^(S: an | P: en) 
+	| dilettant ^(S: e | P: i ) | thie ^(S: f | P: ves); 
 
-CharA 	::= android | architect | artist | blonde | bride | boy | brother   
-        | friend | girl | guy | host | kid | lady | leader | maiden | master | redhead 
-        | retailer ;
+Char1	::= "Alice" | "Casanova" | "Circe" | someone | everyone | people ;
+
+CharA 	::= blonde | bride | brunette | boy | brother | friend | girl | guy | host | kid | leader | maiden | redhead | android 
+	| addict | consumer | glutton | workaholic | advocate | attorney | defender | alchemist | wizard | magician | scientist | inventor
+	| angel | godmother | godfather | artist | artisan | craftsperson | sculptor | weaver | athlete | olympian | avenger 
+	| savior | beggar | coward | orphan | wounded | innocent | clown | jester | fool | companion 
+	| friend | sidekick | right arm | consort | damsel | destroyer | mad scientist | serial killer | detective  
+	| double agent | sleuth | snoop | private eye | profiler | amateur | gigolo | seducer | sex addict 
+	| engineer | architect | builder | schemer | exorcist | shaman | father | patriarch | progenitor | femme fatale | black widow 
+	| flirt | siren | seductress | enchantress | gambler | god | networker | guide | guru | sage | crone 
+	| evangelist | preacher | doctor | healer | caregiver | nurse | therapist | analyst | counselor 
+	| hedonist | chef | gourmet | mystic | heroine | knight | warrior | judge | critic | examiner | mediator | king | emperor 
+	| ruler | leader | chief | lover | martyr | ambassador | diplomat | mentor | master | counselor | tutor | miser | monk 
+	| nun | mother | matriarch | nature | mystic | hermit | networker | messenger | herald | courier | journalist | communicator 
+	| medium | pioneer | explorer | settler | pilgrim | innovator | poet | priest | minister | prince 
+	| prostitute | queen | rebel | anarchist | politician | protester | pirate | rescuer | saboteur 
+	| samaritan | scribe | copyist | accountant | seeker | wanderer | vagabond | nomad | servant | shapeshifter 
+	| spellcaster | trickster | slave | storyteller | minstrel | narrator | student | disciple | devotee | follower | apprentice 
+	| teacher | swindler | artist | pickpocket | burglar | trickster | puck | provocateur | vampire | victim | virgin 
+	| dreamer | prophet | seer | guide | warrior | soldier | amazon | gunslinger | samurai | retailer ;
+
+CharAni	::= bat | cat | fox | dog | tiger ;  
+
+CharX	::= angel | controller | creature | ghost | god | guardian | king
+        | mother | pirate | queen | star | trinity | zombie ;
+
 
 ActionT	::= consider | believe in | dream of | imagine | (mind | think) about ;
 
 Actionr	::= dream | kill;
 
-Acmove	::= come;
-
-Acmoves	::= Acmove ^s; 
+Acmovs	::= come | get | arrive ;
+Acmoves	::= reach ;
+Acmove3	::= Acmovs ^s | Acmoves ^ es ; 
 
 Actiond ::= live | die ; 
 
@@ -60,12 +90,22 @@ Emdisg	::= shame | guilt | regret | remorse | neglect	 | alienation | defeatism 
 Emfear	::= fear | horror | alarm | shock | fear | fright | horror | terror | panic | hysteria | mortification 
 	| nervousness | anxiety | suspense | uneasiness | apprehension | worry | distress | dread ;
 
+Adverb ::= accidentally | always | angrily | anxiously | awkwardly | badly | blindly | boastfully | boldly | bravely | brightly
+	| cheerfully | coyly | crazily | defiantly | deftly | deliberately | devotedly | doubtfully | dramatically | dutifully
+	| eagerly | elegantly | enormously | evenly | eventually | exactly | extremely | faithfully | finally | foolishly | fortunately
+	| frantically | frequently | gleefully | gracefully | happily | hastily | honestly | hopelessly | hourly | hungrily | innocently
+	| incredibly | inquisitively | irritably | jealously | justly | kindly | lazily | loosely | madly | merrily | mortally | mysteriously	
+	| nervously | never	| obediently | obnoxiously | occasionally | often | only | perfectly | politely | poorly | powerfully | promptly
+	| quickly | rapidly | rarely | really | regularly | rudely | safely | seldom | selfishly | seriously | shakily | sharply | silently
+	| slowly | solemnly | sometimes | speedily | steadily | sternly | technically | tediously | tenderly | terrifically | tightly
+	| totally | tremendously | unexpectedly | usually | victoriously | vivaciously | warmly | wearily | weekly | wildly | yearly ;
+
 State	::= being | becoming ;
 Effect	::= advantage | benefit | convenience | disadvantage | drawback | perk | virtue ; 
 
 NQlif 	::= Qlifity ^ity | Qlifns ^ness;
 
-Qlif 	::= Qlifity | Qlifns ;
+Qlif 	::= >Qlifity | >Qlifns ;
 
 Qlifity ::= atomic | artificial | chemical | circular | critical | curious | electric | experimental
 	| ethereal | exceptional | familiar | holographic | minimal | natural | original | real 
@@ -95,7 +135,7 @@ Qlifns 	::= american | angular | abstract | analog
         | visual | warm | wiked;
 
 
-Matrl	::= copper | gold | iron | silver | wooden ; 
+Matrl	::= cobalt | copper | gold | iron | silver | wooden ; 
 
 Items	::= Item ^ s | Itemsp.P ;
 
@@ -125,9 +165,9 @@ Itemsp	::= alchem ^(S: y | P: ies) | analis ^(S: ys | P: es) | (S: bit | P: byte
 	| identit ^(S: y | P: ies) | kni ^(S: fe | P: ves) | lea ^(S: f | P: ves) | jinx ^(S: _ | P: es) | melod ^(S: y | P: ies) 
 	| ministr ^(S: y | P: ies) | part ^(S: y | P: ies) | stor ^(S: y | P: ies) | technolog ^(S: y | P: ies) | zero ^(S: _ | P: es);
 
-Item	::= Itemn | Iteman | Itema ; 
+Item	::= Itemn | >Iteman | >Itema ; 
 
-AItem	::= Itemn | an Iteman | a Itema ;
+AItem	::= Itemn | an >Iteman | a >Itema ;
 
 Itemn	::= everything ;
 
@@ -161,6 +201,58 @@ Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom |
         | tape | tarot | tattoo | touch | track | tree | triangle
         | vault | vitamin | work;
 
+VerbPa  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Past ;
+
+Verbed  ::= accept | account | act | add | count | cover | cross | enjoy | exist | expect
+        | happen | head | learn | open | order | own | reflect | test | admit | affect | check
+        | claim | explain | express | extend | help | limit | pass | perform | pick
+        | regard | release | remain | shout | show | thank | touch
+	| aim | allow | answer | clean | clear | fail | hurt | link | listen | live | remember | repeat | train | treat
+	| appear | climb | collect | deliver | demand | look | point | report | sort | turn
+	| ask | complain | depend | design | fill | finish | mark | present | press | prevent | represent | rest | sound | visit
+	| attack | avoid | call | matter | result  | concern | confirm | connect | correct | cost | develop | consider | consist 
+	| contact | contain | disappear | discover | discuss | draw | dress | fold | follow | found | gain | form | inform | intend | join | jump | keep | kick 
+	| kill | knock | last | laugh | mention | mind | miss | must | need | obtain | occur | offer | protect | publish | pull | push 
+	| reach | record | return | reveal | roll | seem | start | succeed | suffer | suggest | suit | support | wait 
+	| walk | want | warn | wash | watch | will | wish | wonder | work 
+;
+
+Verb1   ::= achieve | care | cause | change | create | examine | experience | hate
+	| reduce | refuse | settle | shake | share | agree | charge | damage | dance | face | lie | like | relate 
+	| argue | close | decide | hope | imagine | improve | love | place | prepare | remove | replace | smile 
+	| arrange | arrive | compare | describe | increase | indicate | include | influence | make | manage | require | use
+	| base | belong | become | believe | complete | continue | contribute | die | divide | enable | encourage | produce
+	| force | handle | introduce | invite | involve | measure | move | notice  | promise | prove | provide
+	| raise | realize | receive | recognize | rise | save | separate | serve | suppose | survive | vote | state 
+;
+
+Verb2   ::= (appl | bu | carr | cop | cr | den | destro | fl | identif | la | ma | pa | pla | repl | sta | stud | worr | tr ) ^(Pres: y | Past: ied);
+
+VerbIr  ::= (Pres: can | Part: could | Past: could) | (Pres: lead | Part: led | Past: led ) | (Pres: teach | Part: taught | Past: taught )
+        | (Pres: tell | Part: told | Past: told ) | (Pres: catch | Part: caight | Past: caught ) | (Pres: have | Part: had | Past: had)
+        | (Pres: lend | Part: lent | Past: lent ) | (Pres: hear | Part: heard | Past: heard) | (Pres: shoot | Part: shot | Past: shot )
+        | (Pres: cut | Part: cut | Past: cut ) | (Pres: choose | Part: chosen | Past: chose) | (Pres: hide | Part: hidden | Past: hid )
+        | (Pres: hit | Part: hit | Past: hit) | (Pres: think | Part: thought | Past: thought ) | (Pres: throw | Part: thrown | Past: threw )
+        | (Pres: hold | Part: held | Past: held ) | (Pres: let | Part: let | Past:let) | (Pres: leave | Part: left | Past:left)
+        | (Pres: deal | Part: dealt | Past: dealt ) | (Pres: plan | Part: planned | Past: planned) | (Pres: sing | Part: sang | Past: sung)
+        | (Pres: travel | Part: travelled | Past: travelled ) | (Pres: sleep | Part: slept | Past: slept) | (Pres: feed | Part: fed | Past:fed)
+        | (Pres: lose | Part: lost | Past: lost ) | (Pres: prefer | Part: preferred | Past:preferred) | (Pres: feel | Part: felt | Past:felt)
+        | (Pres: understand | Part: understood | Past: understood ) | (Pres: speak | Part: spoken | Past:spoke) | (Pres: begin | Part: begun | Past:began)
+        | (Pres: come | Part: came | Past: come ) | (Pres: fight | Part: fought | Past: fought) | (Pres: commit | Part: committed | Past:committed)
+        | (Pres: find | Part: found | Past: found ) | (Pres: stand | Part: stood | Past:stood) | (Pres: beat | Part: beaten | Past:beat)
+        | (Pres: build | Part: built | Past: built ) | (Pres: break | Part: broken | Past: broke) | (Pres: burn | Part: burnt | Past: burned)
+        | (Pres: control | Part: controlled | Past: controlled ) | (Pres: do | Part: done | Past: did) | (Pres: draw | Part: drawn | Past:drew)
+        | (Pres: drink | Part: drunk | Past: drank ) | (Pres: drop | Part: dropped | Past:dropped) | (Pres: eat | Part: eaten | Past:ate) 
+        | (Pres: say | Part: said | Past: said ) | (Pres: drive | Part: driven | Past:drove) | (Pres: get | Part: gotten | Past:got)
+        | (Pres: forget | Part: forgotten | Past: forgot ) | (Pres: forgive | Part: forgiven | Past:forgave) | (Pres: give | Part: given | Past:gave)
+        | (Pres: go | Part: gone | Past: went ) | (Pres: grow | Part: grown | Past:grew) | (Pres: know | Part: known | Past:knew)
+        | (Pres: mean | Part: meant | Past: meant ) | (Pres: put | Part: put | Past:put) | (Pres: aaa | Part: aaa | Past:aaa)
+        | (Pres: read | Part: read | Past: read ) | (Pres: ring | Part: rung | Past:rang) | (Pres: meet | Part: met | Past:met)
+        | (Pres: run | Part: run | Past: ran ) | (Pres: see | Part: seen | Past:saw) | (Pres: sell | Part: sold | Past:sold)
+        | (Pres: send | Part: sent | Past: sent ) | (Pres: set | Part: set | Past:set) | (Pres: stick | Part: stuck | Past:stuck)
+        | (Pres: wear | Part: worn | Past: worn ) | (Pres: win | Part: won | Past:won) | (Pres: write | Part: written | Past:wrote);
+
+
 
 Time1 	::= childhood | summer | winter | spring | second ; 
 Time1o	::= hundred years | century | rainy season | morning ;
@@ -172,4 +264,11 @@ Time5 	::= minutes ;
 
 QTime ::= (a | the) Time1 | one Time1o | an Time2n | Time3 | Time4 | some Time5;
 XTime ::= Time1 | Time2 | Time3 ;
+
+Prefix ::= anti | hyper | hemi | mega | hypo | extra | inter | infra | out | over | mini | maxi | pre | post | trans | ultra;
+
+PreQlif	::= "The first" | "The last" | "All" | "After" | "Alternative"
+        | "Always" | "Any" | "Before" | "Certainly" | "Pre -" | "Post -";
+
+PostQlif ::= again | around | away | everywhere | in the machine | magic | over and over ; 
 
