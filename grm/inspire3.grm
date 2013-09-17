@@ -5,26 +5,18 @@ I ::=   "title:    INSPIRE\n"
     ^ "reference: http://www.polygen.org/it/manuale"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles";
 
-S ::= \ "Do" Chars ActionT Qlif Items "[t1]" 
-  	| Pronoun Qlif this way Acmove3 "[t2]"
-  	| "Guide" to TPlace "[t3]"
-  	| QTime TTPlace "[t4]"
-  	| QTime of Item "[t5]"
-  	| [ "The" Qlif ] NQlif of Item "[t6]"
-  	| Item [^] CharA "[t7]"
-  	| "To" Actiond [and Actiond] TTPlace "[t8]"
-  	| "To" (dream | kill) AItem "[t9]"
-  	| Item NQlif "[t10]"
-  	| "Another" [Qlif] XTime TTPlace "[t11]"
-  	| "The" Effect ^ s of State AItem "[t12]"
-  	| "When" you are Qlif "[t13]"
-  	| ["A" | "The"] Qlif Item "[t14]"
-  	| "A" thousand Qlif Item ^ s"[t15]"
-  	| "The" Items of Emotion "[t16]"
-  	| Adverb Qlif and Adverb Qlif "[t17]"
-  	| [PreQlif] Qlif Char "[t18]"
-  	| ["The"] Char PostQlif "[t19]"
-  	| "The" Char who VerbPa [AItem] "[t20]"
+S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t2]" | "Guide" to TPlace "[t3]" | QTime TTPlace "[t4]"
+  	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTPlace "[t8]"
+  	| "To" (dream | kill) AItem "[t9]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
+  	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif Item "[t14]" | "A" thousand Qlif Item ^ s"[t15]" | "The" Items of Emotion "[t16]"
+  	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | [PreQlif] Qlif Char "[t18]" | ["The"] Char PostQlif "[t19]" | "The" Char who VerbPa [AItem] "[t20]"
+  	| "For whom the " Item Verb ^s "[t21]" | "Zen and the art of " VerbIng Items "[t22]" | ["The" | "A"] Item in QTime of Item "[t23]"
+  	| VerbIng (AItem| Item | Items) "[t24]" | ["The"] Item (among | of the) Chars "[t25]" | Qlif Qlif Place "[t26]" | [Qlif] Chars Adverb Verb Items "[t27]"
+  	| Emotion [and Emotion] TTPlace "[t28]"
+  	| "What" to Verb when you Verb  "[t29]"
+  	| "No" ( >Plaat | >Plaont | >Plaon | >Plaint ) for [Qlif] Chars "[t30]"
+  	| "The" Char who VerbPa TTPlace  "[t31]"
+  	| "The" Item and the Item  "[t32]"
   	| _ "[tn]"
 ;
 
@@ -103,7 +95,7 @@ Adverb ::= accidentally | always | angrily | anxiously | awkwardly | badly | bli
 State	::= being | becoming ;
 Effect	::= advantage | benefit | convenience | disadvantage | drawback | perk | virtue ; 
 
-NQlif 	::= Qlifity ^ity | Qlifns ^ness;
+NQlif 	::= >Qlifity ^ity | >Qlifns ^ness;
 
 Qlif 	::= >Qlifity | >Qlifns ;
 
@@ -113,7 +105,7 @@ Qlifity ::= atomic | artificial | chemical | circular | critical | curious | ele
 		
 Qlifns 	::= american | angular | abstract | analog 
         | atlantic | awesome | azure | beautiful | big | bitter
-        | blonde | black | blue | breathtaking | bright | broken
+        | blonde | black | blue | breathtaking | brave | bright | broken
         | clockwork | cold | chill | cool
         | collective | compact | complete | cracked | cyan
         | dark | dazed | deep | different | digital
@@ -132,12 +124,10 @@ Qlifns 	::= american | angular | abstract | analog
         | repetitive | revolutionary | rich
         | safe | seamless | serious | short | simple | single | slippery | smooth
         | slow | small | smart  | solid | stellar | sweet | third | transparent
-        | visual | warm | wiked;
+        | visual | warm | wicked;
 
 
 Matrl	::= cobalt | copper | gold | iron | silver | wooden ; 
-
-Items	::= Item ^ s | Itemsp.P ;
 
 Pronoun	::= something | someone | anyone | everyone ;
 
@@ -152,22 +142,28 @@ Plaont	::= cliff | coastline | floor | planet | side | stage | star | wall;
 Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
 
 Plaint	::= alley | arbor | arcade | castle | circus | desert | field | fortress | galaxy | garden
-	| haven | house | underground | world;
+	| haven | house | restaurant | underground | universe | world;
 
-TTPlace	::= at the Plaat | on the Plaont | on Plaon | in the Plaint | in City ; 
+TTPlace	::= at the >Plaat | on the >Plaont | on >Plaon | in the >Plaint | in >City ; 
 
-TPlace	::= the Plaat | the Plaont | Plaon | the Plaint ; 
+TPlace	::= the >Plaat | the >Plaont | >Plaon | the >Plaint | >City; 
 
-
-Itemsp	::= alchem ^(S: y | P: ies) | analis ^(S: ys | P: es) | (S: bit | P: byte) | bod ^(S: y | P: ies) | bonus ^(S: _ | P: es) 
-	| business ^(S: _ | P: es) | cargo ^(S: _ | P: es) | cand ^(S: y | P: ies) | compan ^(S: y | P: ies) | deliri ^(S: um | P: a) 
-	| destin^(S: y | P: ies) | dut ^(S: y | P: ies) | echo ^(S: _ | P: es) | energ ^(S: y | P: ies) | guess ^(S: _ | P: es) 
-	| identit ^(S: y | P: ies) | kni ^(S: fe | P: ves) | lea ^(S: f | P: ves) | jinx ^(S: _ | P: es) | melod ^(S: y | P: ies) 
-	| ministr ^(S: y | P: ies) | part ^(S: y | P: ies) | stor ^(S: y | P: ies) | technolog ^(S: y | P: ies) | zero ^(S: _ | P: es);
+Place	::= >Plaat | >Plaont | >Plaon | >Plaint | >City; 
 
 Item	::= Itemn | >Iteman | >Itema ; 
 
 AItem	::= Itemn | an >Iteman | a >Itema ;
+
+Items   ::= >Item ^ s | >Itemsp.P ;
+
+Itemsp  ::= (alchem | bod | cand | compan | destin | dut | energ | identit | melod | ministr | part | stor | technolog)^(S: y | P: ies)
+        | (echo | guess | jinx | touch | zero) ^(S: _ | P: es)
+        | analis ^(S: ys | P: es) | (S: bit | P: byte)
+        | (business | bonus | cargo | mass) ^(S: _ | P: es)
+        | deliri ^(S: um | P: a)
+        | (li | kni) ^(S: fe | P: ves)
+        | lea ^(S: f | P: ves)
+;
 
 Itemn	::= everything ;
 
@@ -185,26 +181,30 @@ Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom |
         | face | factor | fan | fault | feeling | fear | fence | fiber | finger | fire | flower | fragment
         | girl | game | getaway | guide | guitar
         | hardware | halo | hate | hazard | head | heap | heart | hologram | horror | hop | hope | hour
-        | label | land | language | lap | light | life | line | link | lip | list | logic | logo | love
+        | label | land | language | lap | light | line | link | lip | list | logic | logo | love
         | key | lead | level
-        | magazine | magic | mass | meaning | medley
+        | magazine | magic | meaning | medley
         | mind | miniature |  mission
         | money | mood | motion | move | music | name | need | note | nothing | network | nuke
         | pace | package | page | part | passage | pattern | pearl | performance
-        | personal | perspective | photo | piece | platform
+        | personal | perspective | photo | piece | platform | plug
         | point | polaroid | poster | potential | power | product | project | promise
         | race | rainbow | reason | rebellion | record | rendering | resolution
         | rest | return | rhythm | ring | riot | rock | scan | scene | scroll
         | screw | sequence | serie | sleep
-        | session | setting | share | show | size | skin | sleep | slot | solitude | something | sound
+        | session | setting | share | show | silence | size | skin | sleep | slot | solitude | something | sound
         | software | song | source | spell | sphere | spirit | square | stop
-        | tape | tarot | tattoo | touch | track | tree | triangle
+        | tape | tarot | tattoo | track | tree | triangle
         | vault | vitamin | work;
+
+Verb  	::= >Verbed | >Verb1 | >VerbIr.Pres ;
 
 VerbPa  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Past ;
 
+VerbIng ::= >Verb11 ^ing | >Verbed ^ing | >VerbIr.Ing ;
+
 Verbed  ::= accept | account | act | add | count | cover | cross | enjoy | exist | expect
-        | happen | head | learn | open | order | own | reflect | test | admit | affect | check
+        | happen | head | learn | open | order | own | reflect | test | affect | check
         | claim | explain | express | extend | help | limit | pass | perform | pick
         | regard | release | remain | shout | show | thank | touch
 	| aim | allow | answer | clean | clear | fail | hurt | link | listen | live | remember | repeat | train | treat
@@ -217,42 +217,41 @@ Verbed  ::= accept | account | act | add | count | cover | cross | enjoy | exist
 	| walk | want | warn | wash | watch | will | wish | wonder | work 
 ;
 
-Verb1   ::= achieve | care | cause | change | create | examine | experience | hate
-	| reduce | refuse | settle | shake | share | agree | charge | damage | dance | face | lie | like | relate 
-	| argue | close | decide | hope | imagine | improve | love | place | prepare | remove | replace | smile 
-	| arrange | arrive | compare | describe | increase | indicate | include | influence | make | manage | require | use
-	| base | belong | become | believe | complete | continue | contribute | die | divide | enable | encourage | produce
-	| force | handle | introduce | invite | involve | measure | move | notice  | promise | prove | provide
-	| raise | realize | receive | recognize | rise | save | separate | serve | suppose | survive | vote | state 
+Verb1	::= Verb11 ^e ;
+Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
+        | reduc | refus | settl | shak | shar | charg | damag | danc | fac | li | lik | relat
+        | argu | clos | decid | hop | imagin | improv | lov | plac | prepar | remov | replac | smil
+        | arrang | arriv | compar | describ | increas | indicat | includ | influenc | mak | manag | requir | us
+        | bas | belong | becom | believ | complet | continu | contribut | di | divid | enabl | encourag | produc
+        | forc | handl | introduc | invit | involv | measur | mov | notic  | promis | prov | provid
+        | rais | realiz | receiv | recogniz | ris | sav | separat | serv | suppos | surviv | vot | stat
 ;
 
 Verb2   ::= (appl | bu | carr | cop | cr | den | destro | fl | identif | la | ma | pa | pla | repl | sta | stud | worr | tr ) ^(Pres: y | Past: ied);
 
-VerbIr  ::= (Pres: can | Part: could | Past: could) | (Pres: lead | Part: led | Past: led ) | (Pres: teach | Part: taught | Past: taught )
-        | (Pres: tell | Part: told | Past: told ) | (Pres: catch | Part: caight | Past: caught ) | (Pres: have | Part: had | Past: had)
-        | (Pres: lend | Part: lent | Past: lent ) | (Pres: hear | Part: heard | Past: heard) | (Pres: shoot | Part: shot | Past: shot )
-        | (Pres: cut | Part: cut | Past: cut ) | (Pres: choose | Part: chosen | Past: chose) | (Pres: hide | Part: hidden | Past: hid )
-        | (Pres: hit | Part: hit | Past: hit) | (Pres: think | Part: thought | Past: thought ) | (Pres: throw | Part: thrown | Past: threw )
-        | (Pres: hold | Part: held | Past: held ) | (Pres: let | Part: let | Past:let) | (Pres: leave | Part: left | Past:left)
-        | (Pres: deal | Part: dealt | Past: dealt ) | (Pres: plan | Part: planned | Past: planned) | (Pres: sing | Part: sang | Past: sung)
-        | (Pres: travel | Part: travelled | Past: travelled ) | (Pres: sleep | Part: slept | Past: slept) | (Pres: feed | Part: fed | Past:fed)
-        | (Pres: lose | Part: lost | Past: lost ) | (Pres: prefer | Part: preferred | Past:preferred) | (Pres: feel | Part: felt | Past:felt)
-        | (Pres: understand | Part: understood | Past: understood ) | (Pres: speak | Part: spoken | Past:spoke) | (Pres: begin | Part: begun | Past:began)
-        | (Pres: come | Part: came | Past: come ) | (Pres: fight | Part: fought | Past: fought) | (Pres: commit | Part: committed | Past:committed)
-        | (Pres: find | Part: found | Past: found ) | (Pres: stand | Part: stood | Past:stood) | (Pres: beat | Part: beaten | Past:beat)
-        | (Pres: build | Part: built | Past: built ) | (Pres: break | Part: broken | Past: broke) | (Pres: burn | Part: burnt | Past: burned)
-        | (Pres: control | Part: controlled | Past: controlled ) | (Pres: do | Part: done | Past: did) | (Pres: draw | Part: drawn | Past:drew)
-        | (Pres: drink | Part: drunk | Past: drank ) | (Pres: drop | Part: dropped | Past:dropped) | (Pres: eat | Part: eaten | Past:ate) 
-        | (Pres: say | Part: said | Past: said ) | (Pres: drive | Part: driven | Past:drove) | (Pres: get | Part: gotten | Past:got)
-        | (Pres: forget | Part: forgotten | Past: forgot ) | (Pres: forgive | Part: forgiven | Past:forgave) | (Pres: give | Part: given | Past:gave)
-        | (Pres: go | Part: gone | Past: went ) | (Pres: grow | Part: grown | Past:grew) | (Pres: know | Part: known | Past:knew)
-        | (Pres: mean | Part: meant | Past: meant ) | (Pres: put | Part: put | Past:put) | (Pres: aaa | Part: aaa | Past:aaa)
-        | (Pres: read | Part: read | Past: read ) | (Pres: ring | Part: rung | Past:rang) | (Pres: meet | Part: met | Past:met)
-        | (Pres: run | Part: run | Past: ran ) | (Pres: see | Part: seen | Past:saw) | (Pres: sell | Part: sold | Past:sold)
-        | (Pres: send | Part: sent | Past: sent ) | (Pres: set | Part: set | Past:set) | (Pres: stick | Part: stuck | Past:stuck)
-        | (Pres: wear | Part: worn | Past: worn ) | (Pres: win | Part: won | Past:won) | (Pres: write | Part: written | Past:wrote);
-
-
+VerbIr  ::= (Pres: can | Part: could | Past: could | Ing: staying) | (Pres: lead | Part: led | Past: led  | Ing: leading) | (Pres: teach | Part: taught | Past: taught  | Ing: teaching)
+        | (Pres: tell | Part: told | Past: told  | Ing: telling) | (Pres: catch | Part: caught | Past: caught  | Ing: catching) | (Pres: have | Part: had | Past: had | Ing: having)
+        | (Pres: lend | Part: lent | Past: lent  | Ing: lending) | (Pres: hear | Part: heard | Past: heard | Ing: hearing) | (Pres: shoot | Part: shot | Past: shot  | Ing: shooting)
+        | (Pres: cut | Part: cut | Past: cut  | Ing: cutting) | (Pres: choose | Part: chosen | Past: chose | Ing: choosing) | (Pres: hide | Part: hidden | Past: hid  | Ing: hiding)
+        | (Pres: hit | Part: hit | Past: hit | Ing: hitting) | (Pres: think | Part: thought | Past: thought  | Ing: thinking) | (Pres: throw | Part: thrown | Past: threw  | Ing: throwing)
+        | (Pres: hold | Part: held | Past: held  | Ing: holding) | (Pres: let | Part: let | Past:let | Ing: letting) | (Pres: leave | Part: left | Past:left | Ing: leaving)
+        | (Pres: deal | Part: dealt | Past: dealt  | Ing: dealing) | (Pres: plan | Part: planned | Past: planned | Ing: planning) | (Pres: sing | Part: sang | Past: sung | Ing: singing)
+        | (Pres: travel | Part: travelled | Past: travelled  | Ing: travelling) | (Pres: sleep | Part: slept | Past: slept | Ing: sleeping) | (Pres: feed | Part: fed | Past:fed | Ing: feeding)
+        | (Pres: lose | Part: lost | Past: lost  | Ing: losing) | (Pres: prefer | Part: preferred | Past:preferred | Ing: preferring) | (Pres: feel | Part: felt | Past:felt | Ing: feeling)
+        | (Pres: understand | Part: understood | Past: understood  | Ing: understanding) | (Pres: speak | Part: spoken | Past:spoke | Ing: speaking) | (Pres: begin | Part: begun | Past:began | Ing: beginning)
+        | (Pres: come | Part: came | Past: come  | Ing: coming) | (Pres: fight | Part: fought | Past: fought | Ing: fighting) | (Pres: commit | Part: committed | Past:committed | Ing: committing)
+        | (Pres: find | Part: found | Past: found  | Ing: finding) | (Pres: stand | Part: stood | Past:stood | Ing: standing) | (Pres: beat | Part: beaten | Past:beat | Ing: beating)
+        | (Pres: build | Part: built | Past: built  | Ing: building) | (Pres: break | Part: broken | Past: broke | Ing: breaking) | (Pres: burn | Part: burnt | Past: burned | Ing: burning)
+        | (Pres: control | Part: controlled | Past: controlled  | Ing: controlling) | (Pres: do | Part: done | Past: did | Ing: doing) | (Pres: draw | Part: drawn | Past:drew | Ing: drawing)
+        | (Pres: drink | Part: drunk | Past: drank  | Ing: drinking) | (Pres: drop | Part: dropped | Past:dropped | Ing: dropping) | (Pres: eat | Part: eaten | Past:ate | Ing: eating)
+        | (Pres: say | Part: said | Past: said  | Ing: saying) | (Pres: drive | Part: driven | Past:drove | Ing: driving) | (Pres: get | Part: gotten | Past:got | Ing: getting)
+        | (Pres: forget | Part: forgotten | Past: forgot  | Ing: forgetting) | (Pres: forgive | Part: forgiven | Past:forgave | Ing: forgiving) | (Pres: give | Part: given | Past:gave | Ing: giving)
+        | (Pres: go | Part: gone | Past: went  | Ing: going) | (Pres: grow | Part: grown | Past:grew | Ing: growing) | (Pres: know | Part: known | Past:knew | Ing: knowing)
+        | (Pres: mean | Part: meant | Past: meant  | Ing: meaning) | (Pres: put | Part: put | Past:put | Ing: putting) 
+        | (Pres: read | Part: read | Past: read  | Ing: reading) | (Pres: ring | Part: rung | Past:rang | Ing: ringing) | (Pres: meet | Part: met | Past:met | Ing: meeting)
+        | (Pres: run | Part: run | Past: ran  | Ing: running) | (Pres: see | Part: seen | Past:saw | Ing: seeing) | (Pres: sell | Part: sold | Past:sold | Ing: selling)
+        | (Pres: send | Part: sent | Past: sent  | Ing: sending) | (Pres: set | Part: set | Past:set | Ing: setting) | (Pres: stick | Part: stuck | Past:stuck | Ing: sticking)
+        | (Pres: wear | Part: worn | Past: worn  | Ing: wearing) | (Pres: win | Part: won | Past:won | Ing: winning) | (Pres: write | Part: written | Past:wrote | Ing: writing);
 
 Time1 	::= childhood | summer | winter | spring | second ; 
 Time1o	::= hundred years | century | rainy season | morning ;
@@ -262,8 +261,8 @@ Time3 	::= yesterday | tomorrow | dawn | dusk | future | now | present ;
 Time4	::= sometime ;
 Time5 	::= minutes ;
 
-QTime ::= (a | the) Time1 | one Time1o | an Time2n | Time3 | Time4 | some Time5;
-XTime ::= Time1 | Time2 | Time3 ;
+QTime ::= (a | the) >Time1 | one >Time1o | an >Time2n | >Time3 | some >Time5;
+XTime ::= >Time1 | >Time2 | >Time3 ;
 
 Prefix ::= anti | hyper | hemi | mega | hypo | extra | inter | infra | out | over | mini | maxi | pre | post | trans | ultra;
 

@@ -12,7 +12,7 @@ $collen 	= 35;	# column length
 $colnum 	= 4;	# column number
 $insnum 	= $collen * $colnum;
 $maxnum 	= 4 * $collen * $colnum;
-$maxtype	= 25;
+$maxtype	= 45;
 
 $version = "0.80";
 $grammar = "/home/masayume/polygen/inspire3.grm";
@@ -144,7 +144,7 @@ for ($j=0; $j<$colnum; $j++) {
 		@keyw = split /\+/, $qstring; $keyw[$#keyw] = '';
 		$qstring = join '+',  @keyw; chop $qstring; ($qstring,$NULL) = split /\+</, $qstring;
 		$preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
-		$qqhtml = "<a href='$preqstring' target='_blank'>GQ</a>";
+		$qqhtml = "<a href='$preqstring' target='_blank'>GI</a>";
                 print "\n" . $qqhtml . " <strong> " . $string2show . "</strong>";
                 if ($r % 5 == 0) {
                         print "<hr>";
