@@ -12,7 +12,7 @@ $collen 	= 35;	# column length
 $colnum 	= 4;	# column number
 $insnum 	= $collen * $colnum;
 $maxnum 	= 4 * $collen * $colnum;
-$maxtype	= 45;
+$maxtype	= 65;
 
 $version = "0.80";
 $grammar = "/home/masayume/polygen/inspire3.grm";
@@ -52,7 +52,16 @@ $page =<<"EOF";
 <html>
 <head>
 <link rel="icon" type="image/png" href="/img/image.png" />
+<link href='http://fonts.googleapis.com/css?family=Cantora+One|Kelly+Slab|Life+Savers|Raleway|Prosto+One|Kavoon|Roboto+Slab|Cinzel+Decorative' rel='stylesheet' type='text/css'>
 <style type="text/css">
+font-family: 'Cantora One', sans-serif;
+font-family: 'Kelly Slab', cursive;
+font-family: 'Life Savers', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Prosto One', cursive;
+font-family: 'Kavoon', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Cinzel Decorative', cursive;
 @media screen {
 @font-face {
   font-family: 'Philosopher';
@@ -107,6 +116,14 @@ $page =<<"EOF";
 <head>
 <link rel="icon" type="image/png" href="/img/image.png" />
 <style type="text/css">
+.cantora { font-family: 'Cantora One', sans-serif; }
+.kelly { font-family: 'Kelly Slab', cursive; }
+.life { font-family: 'Life Savers', cursive; }
+.raleway { font-family: 'Raleway', sans-serif; }
+.prosto { font-family: 'Prosto One', cursive; }
+.kavoon { font-family: 'Kavoon', cursive; }
+.roboto { font-family: 'Roboto Slab', serif; }
+.cinzel { font-family: 'Cinzel Decorative', cursive; }
 @media screen {
 @font-face {
   font-family: 'Philosopher';
@@ -119,6 +136,12 @@ strong { font-family: 'Philosopher', arial, serif; }
 #insetBgd {
   background: -moz-linear-gradient(-90deg,#3377aa,#77ccee);
   background: -webkit-gradient(linear, left top, left bottom, from(#3377aa), to(#77ccee));
+}
+table {
+  height: 18px;
+  margin: 0 0 0 0;
+  border-spacing: 0px;
+  font-family: arial narrow;
 }
 </style>
 </head>
@@ -145,7 +168,8 @@ for ($j=0; $j<$colnum; $j++) {
 		$qstring = join '+',  @keyw; chop $qstring; ($qstring,$NULL) = split /\+</, $qstring;
 		$preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
 		$qqhtml = "<a href='$preqstring' target='_blank'>GI</a>";
-                print "\n" . $qqhtml . " <strong> " . $string2show . "</strong>";
+		my $style = "<span style=\"font-family:" . &fontstyle(1) . "\">";
+                print "\n" . $qqhtml . " <strong> " . $style . $string2show . "</strong>" . "</span>";
                 if ($r % 5 == 0) {
                         print "<hr>";
                 } else {
@@ -234,4 +258,36 @@ sub image {
 
 	return @rcards;
 } # end sub 
+
+sub fontstyle {
+
+	my $use = shift;
+	my $randomelement;
+
+	if (!$use) {
+
+#	font-family: 'Philosopher';
+		my $gfonts=<<"EOF";
+.cantora { font-family: 'Cantora One', sans-serif; }
+.kelly { font-family: 'Kelly Slab', cursive; }
+.life { font-family: 'Life Savers', cursive; }
+.raleway { font-family: 'Raleway', sans-serif; }
+.prosto { font-family: 'Prosto One', cursive; }
+.kavoon { font-family: 'Kavoon', cursive; }
+.roboto { font-family: 'Roboto Slab', serif; }
+.cinzel { font-family: 'Cinzel Decorative', cursive; }
+EOF
+		return $gfonts;
+
+	} else {
+		# my @array = ('cantora','kelly','life','raleway','prosto','kavoon','roboto','cinzel');
+		my @array = ('Cantora One','Kelly Slab','Life Savers','Raleway','Prosto One','Kavoon','Roboto Slab','Cinzel Decorative');
+		$randomelement = $array[rand @array];		
+		return $randomelement;
+	}
+
+	return $gfonts;
+
+
+}
 

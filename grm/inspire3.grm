@@ -1,6 +1,6 @@
 I ::=   "title:    INSPIRE\n"
     ^ "version 3.0"
-    ^ "last update: 12/09/2013 previous: 29/08/2013 "
+    ^ "last update: 22/09/2013 previous: 29/08/2013 "
     ^ "further updates: words from http://blog.iso50.com/" 
     ^ "reference: http://www.polygen.org/it/manuale"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles";
@@ -12,48 +12,57 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
   	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | [PreQlif] Qlif Char "[t18]" | ["The"] Char PostQlif "[t19]" | "The" Char who VerbPa [AItem] "[t20]"
   	| "For whom the " Item Verb ^s "[t21]" | "Zen and the art of " VerbIng Items "[t22]" | ["The" | "A"] Item in QTime of Item "[t23]"
   	| VerbIng (AItem| Item | Items) "[t24]" | ["The"] Item (among | of the) Chars "[t25]" | Qlif Qlif Place "[t26]" | [Qlif] Chars Adverb Verb Items "[t27]"
-  	| Emotion [and Emotion] TTPlace "[t28]"
-  	| "What" to Verb when you Verb  "[t29]"
-  	| "No" ( >Plaat | >Plaont | >Plaon | >Plaint ) for [Qlif] Chars "[t30]"
-  	| "The" Char who VerbPa TTPlace  "[t31]"
-  	| "The" Item and the Item  "[t32]"
+  	| Emotion [and Emotion] TTPlace "[t28]" | "What" to Verb when you Verb  "[t29]" | "No" ( >Plaat | >Plaont | >Plaon | >Plaint ) for [Qlif] Chars "[t30]"
+  	| "The" Char who VerbPa TTPlace  "[t31]" | "The" Item and the Item  "[t32]" | (Item | Place | Verb) Number "[t33]"
+  	| TPlace is a Qlif Char "[t34]"
+	| "The" Time1 of TPlace "[t35]"
+	| ("If"  | "When" | "After") on a Time1 [Time2] AChar ^"..." "[t36]"
+	| "The" Char (Char | (was | is | as ) AChar) "[t37]"
   	| _ "[tn]"
 ;
 
-Char	::= CharX | CharAni | >CharA | Charsp.S;
+AChar	::= a >CharA | an >CharA1 | a >Charsp.S | an >Charsp1.S ;
+
+Char	::= CharX | CharAni | >CharA | >CharA1 | >Charsp.S | >Charsp1.S;
 
 Chars	::= CharX ^ s | CharA ^s | Charsp.P;
 
 Charsp	::= child ^(S: _ | P: ren) 
-	| ( bull | faer | fair | lad | mercenar | revolutionar | secretar | sp | visionar ) ^(S: y | P: ies) 
-	| ( enchantress | hero | empress | seductress | priestess | princess | witch ) ^(S: _ | P: es) | wom ^(S: an | P: en) 
+	| ( bull | faer | fair | lad | mercenar | revolutionar | secretar | sp | visionar | trinit) ^(S: y | P: ies) 
+	| ( enchantress | hero | seductress | priestess | princess | witch ) ^(S: _ | P: es) | wom ^(S: an | P: en) 
 	| dilettant ^(S: e | P: i ) | thie ^(S: f | P: ves); 
+
+Charsp1	::= empress ^(S: _ | P: es); 
 
 Char1	::= "Alice" | "Casanova" | "Circe" | someone | everyone | people ;
 
-CharA 	::= blonde | bride | brunette | boy | brother | friend | girl | guy | host | kid | leader | maiden | redhead | android 
-	| addict | consumer | glutton | workaholic | advocate | attorney | defender | alchemist | wizard | magician | scientist | inventor
-	| angel | godmother | godfather | artist | artisan | craftsperson | sculptor | weaver | athlete | olympian | avenger 
-	| savior | beggar | coward | orphan | wounded | innocent | clown | jester | fool | companion 
+CharA 	::= blonde | bride | brunette | boy | brother | friend | girl | guy | host | kid | leader | maiden | redhead  
+	| consumer | glutton | workaholic | defender | wizard | magician | scientist 
+	| godmother | godfather | craftsperson | sculptor | weaver  
+	| savior | beggar | coward | wounded | innocent | clown | jester | fool | companion 
 	| friend | sidekick | right arm | consort | damsel | destroyer | mad scientist | serial killer | detective  
-	| double agent | sleuth | snoop | private eye | profiler | amateur | gigolo | seducer | sex addict 
-	| engineer | architect | builder | schemer | exorcist | shaman | father | patriarch | progenitor | femme fatale | black widow 
-	| flirt | siren | seductress | enchantress | gambler | god | networker | guide | guru | sage | crone 
-	| evangelist | preacher | doctor | healer | caregiver | nurse | therapist | analyst | counselor 
-	| hedonist | chef | gourmet | mystic | heroine | knight | warrior | judge | critic | examiner | mediator | king | emperor 
-	| ruler | leader | chief | lover | martyr | ambassador | diplomat | mentor | master | counselor | tutor | miser | monk 
+	| double agent | sleuth | snoop | private eye | profiler | gigolo | seducer | sex addict 
+	| builder | schemer | shaman | father | patriarch | progenitor | femme fatale | black widow 
+	| flirt | siren | seductress |  gambler | god | networker | guide | guru | sage | crone 
+	| evangelist | preacher | doctor | healer | caregiver | nurse | therapist | counselor 
+	| hedonist | chef | gourmet | mystic | heroine | knight | warrior | judge | critic | mediator | king  
+	| ruler | leader | chief | lover | martyr | diplomat | mentor | master | counselor | tutor | miser | monk 
 	| nun | mother | matriarch | nature | mystic | hermit | networker | messenger | herald | courier | journalist | communicator 
-	| medium | pioneer | explorer | settler | pilgrim | innovator | poet | priest | minister | prince 
-	| prostitute | queen | rebel | anarchist | politician | protester | pirate | rescuer | saboteur 
-	| samaritan | scribe | copyist | accountant | seeker | wanderer | vagabond | nomad | servant | shapeshifter 
-	| spellcaster | trickster | slave | storyteller | minstrel | narrator | student | disciple | devotee | follower | apprentice 
-	| teacher | swindler | artist | pickpocket | burglar | trickster | puck | provocateur | vampire | victim | virgin 
-	| dreamer | prophet | seer | guide | warrior | soldier | amazon | gunslinger | samurai | retailer ;
+	| medium | pioneer | settler | pilgrim |  poet | priest | minister | prince 
+	| prostitute | queen | rebel |  politician | protester | pirate | rescuer | saboteur 
+	| samaritan | scribe | copyist |  seeker | wanderer | vagabond | nomad | servant | shapeshifter 
+	| spellcaster | trickster | slave | storyteller | minstrel | narrator | student | disciple | devotee | follower  
+	| teacher | swindler | pickpocket | burglar | trickster | puck | provocateur | vampire | victim | virgin 
+	| dreamer | prophet | seer | guide | warrior | soldier | gunslinger | samurai | retailer ;
+
+CharA1	::= angel | android | addict | advocate | attorney | alchemist | inventor | inventorangel | artist | artisan | athlete | olympian 
+	| avenger | orphan | innocent | innovator | amateur | engineer | architect | exorcist | enchantress | evangelist | analyst 
+	| examiner | ambassador | explorer | anarchist | accountant | apprentice | amazon | examiner | emperor;
 
 CharAni	::= bat | cat | fox | dog | tiger ;  
 
 CharX	::= angel | controller | creature | ghost | god | guardian | king
-        | mother | pirate | queen | star | trinity | zombie ;
+        | mother | pirate | queen | star | zombie ;
 
 
 ActionT	::= consider | believe in | dream of | imagine | (mind | think) about ;
@@ -133,9 +142,11 @@ Pronoun	::= something | someone | anyone | everyone ;
 
 City    ::= "Baires" | "Berlin" | "Caracas" | "Hong Kong" | "Honolulu" | "London" | "Los Angeles"
         | "Madrid" | "Melbourne" | "Moscow" | "New York" | "Paris"
-        | "Rome" | "San Francisco" | "Shanghai" | "Seattle" | "Tokyo" | "Vancouver" | "Vegas" | "Space";
+        | "Rome" | "San Francisco" | "Shanghai" | "Seattle" | "Tokyo" | "Vancouver" | "Vegas" | "Space"
+	| "Wonderland"
+;
 
-Plaat 	::= crossing | edge | gap | market | ocean | pool | river | school | shop | waterfall; 
+Plaat 	::= crossing | edge | gap | market | ocean | pool | river | school | shop | waterfall | world; 
 
 Plaont	::= cliff | coastline | floor | planet | side | stage | star | wall;
 
@@ -206,7 +217,7 @@ VerbIng ::= >Verb11 ^ing | >Verbed ^ing | >VerbIr.Ing ;
 Verbed  ::= accept | account | act | add | count | cover | cross | enjoy | exist | expect
         | happen | head | learn | open | order | own | reflect | test | affect | check
         | claim | explain | express | extend | help | limit | pass | perform | pick
-        | regard | release | remain | shout | show | thank | touch
+        | regard | remain | shout | show | thank | touch
 	| aim | allow | answer | clean | clear | fail | hurt | link | listen | live | remember | repeat | train | treat
 	| appear | climb | collect | deliver | demand | look | point | report | sort | turn
 	| ask | complain | depend | design | fill | finish | mark | present | press | prevent | represent | rest | sound | visit
@@ -224,7 +235,7 @@ Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
         | arrang | arriv | compar | describ | increas | indicat | includ | influenc | mak | manag | requir | us
         | bas | belong | becom | believ | complet | continu | contribut | di | divid | enabl | encourag | produc
         | forc | handl | introduc | invit | involv | measur | mov | notic  | promis | prov | provid
-        | rais | realiz | receiv | recogniz | ris | sav | separat | serv | suppos | surviv | vot | stat
+        | rais | realiz | receiv | recogniz | releas | ris | sav | separat | serv | suppos | surviv | vot | stat
 ;
 
 Verb2   ::= (appl | bu | carr | cop | cr | den | destro | fl | identif | la | ma | pa | pla | repl | sta | stud | worr | tr ) ^(Pres: y | Past: ied);
@@ -253,7 +264,7 @@ VerbIr  ::= (Pres: can | Part: could | Past: could | Ing: staying) | (Pres: lead
         | (Pres: send | Part: sent | Past: sent  | Ing: sending) | (Pres: set | Part: set | Past:set | Ing: setting) | (Pres: stick | Part: stuck | Past:stuck | Ing: sticking)
         | (Pres: wear | Part: worn | Past: worn  | Ing: wearing) | (Pres: win | Part: won | Past:won | Ing: winning) | (Pres: write | Part: written | Past:wrote | Ing: writing);
 
-Time1 	::= childhood | summer | winter | spring | second ; 
+Time1 	::= beginning | childhood | end | summer | winter | spring | second ; 
 Time1o	::= hundred years | century | rainy season | morning ;
 Time2 	::= day | night | moment | instant ;
 Time2n 	::= instant | autumn ;
@@ -271,3 +282,6 @@ PreQlif	::= "The first" | "The last" | "All" | "After" | "Alternative"
 
 PostQlif ::= again | around | away | everywhere | in the machine | magic | over and over ; 
 
+Digit	::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ;
+
+Number	::= Digit [^ Digit] [^ Digit] ;
