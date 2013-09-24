@@ -9,15 +9,15 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
   	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTPlace "[t8]"
   	| "To" (dream | kill) AItem "[t9]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
   	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif Item "[t14]" | "A" thousand Qlif Item ^ s"[t15]" | "The" Items of Emotion "[t16]"
-  	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | [PreQlif] Qlif Char "[t18]" | ["The"] Char PostQlif "[t19]" | "The" Char who VerbPa [AItem] "[t20]"
-  	| "For whom the " Item Verb ^s "[t21]" | "Zen and the art of " VerbIng Items "[t22]" | ["The" | "A"] Item in QTime of Item "[t23]"
-  	| VerbIng (AItem| Item | Items) "[t24]" | ["The"] Item (among | of the) Chars "[t25]" | Qlif Qlif Place "[t26]" | [Qlif] Chars Adverb Verb Items "[t27]"
-  	| Emotion [and Emotion] TTPlace "[t28]" | "What" to Verb when you Verb  "[t29]" | "No" ( >Plaat | >Plaont | >Plaon | >Plaint ) for [Qlif] Chars "[t30]"
-  	| "The" Char who VerbPa TTPlace  "[t31]" | "The" Item and the Item  "[t32]" | (Item | Place | Verb) Number "[t33]"
-  	| TPlace is a Qlif Char "[t34]"
-	| "The" Time1 of TPlace "[t35]"
-	| ("If"  | "When" | "After") on a Time1 [Time2] AChar ^"..." "[t36]"
-	| "The" Char (Char | (was | is | as ) AChar) "[t37]"
+  	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | ([PreQlif] Qlif Char | Char ^", " Qlif) "[t18]" | ["The"] Char PostQlif "[t19]" 
+	| "The" Char who VerbPa [AItem] "[t20]" | "For whom the " Item Verb ^s "[t21]" | "Zen and the art of " VerbIng Items "[t22]" 
+	| ["The" | "A"] Item in QTime of Item "[t23]" | VerbIng (AItem| Item | Items) "[t24]" | ["The"] Item (among | of the) Chars "[t25]" 
+	| Qlif Qlif Place "[t26]" | [Qlif] Chars Adverb Verb Items "[t27]" | Emotion [and Emotion] TTPlace "[t28]" 
+	| "What" to Verb when you Verb  "[t29]" | "No" ( >Plaat | >Plaont | >Plaon | >Plaint ) for [Qlif] Chars "[t30]" 
+	| "The" Char who VerbPa TTPlace  "[t31]" | "The" Item and the Item  "[t32]" | (Item | Place | Verb) Number "[t33]" 
+	| TPlace is a Qlif Char "[t34]" | "The" Time1 of TPlace "[t35]" | ("If"  | "When" | "After") on a Time1 [Time2] AChar ^"..." "[t36]" 
+	| "The" Char (Char | (was | is | as ) AChar) "[t37]" | "Don't" Verb (TTPlace | AChar) "[t38]" | "This is not" (a Qlif Item | AItem) "[t39]"
+	| "The" [Qlif] Item of [Qlif] Items "[t40]"
   	| _ "[tn]"
 ;
 
@@ -36,28 +36,25 @@ Charsp1	::= empress ^(S: _ | P: es);
 
 Char1	::= "Alice" | "Casanova" | "Circe" | someone | everyone | people ;
 
-CharA 	::= blonde | bride | brunette | boy | brother | friend | girl | guy | host | kid | leader | maiden | redhead  
-	| consumer | glutton | workaholic | defender | wizard | magician | scientist 
-	| godmother | godfather | craftsperson | sculptor | weaver  
-	| savior | beggar | coward | wounded | innocent | clown | jester | fool | companion 
-	| friend | sidekick | right arm | consort | damsel | destroyer | mad scientist | serial killer | detective  
-	| double agent | sleuth | snoop | private eye | profiler | gigolo | seducer | sex addict 
-	| builder | schemer | shaman | father | patriarch | progenitor | femme fatale | black widow 
-	| flirt | siren | seductress |  gambler | god | networker | guide | guru | sage | crone 
-	| evangelist | preacher | doctor | healer | caregiver | nurse | therapist | counselor 
-	| hedonist | chef | gourmet | mystic | heroine | knight | warrior | judge | critic | mediator | king  
-	| ruler | leader | chief | lover | martyr | diplomat | mentor | master | counselor | tutor | miser | monk 
-	| nun | mother | matriarch | nature | mystic | hermit | networker | messenger | herald | courier | journalist | communicator 
-	| medium | pioneer | settler | pilgrim |  poet | priest | minister | prince 
-	| prostitute | queen | rebel |  politician | protester | pirate | rescuer | saboteur 
-	| samaritan | scribe | copyist |  seeker | wanderer | vagabond | nomad | servant | shapeshifter 
-	| spellcaster | trickster | slave | storyteller | minstrel | narrator | student | disciple | devotee | follower  
-	| teacher | swindler | pickpocket | burglar | trickster | puck | provocateur | vampire | victim | virgin 
-	| dreamer | prophet | seer | guide | warrior | soldier | gunslinger | samurai | retailer ;
+CharA   ::= blonde | beggar | black widow | boy | bride | brother | brunette | builder | burglar | caregiver | chef 
+	| chief | clown | communicator| companion| consort | consumer | copyist | counselor| counselor | courier | coward 
+	| craftsperson | critic | crone| damsel | defender | destroyer | detective | devotee | diplomat | disciple | doctor 
+	| double agent | dreamer | evangelist | father | femme fatale | flirt | follower| fool | friend | gambler | gigolo | girl 
+	| glutton | god | godfather | godmother | gourmet | guide | gunslinger | guru | guy | healer | hedonist | herald | hermit 
+	| heroine | host | innocent | jester | journalist | judge | kid | king| knight | leader | lord | lover | mad scientist | magician 
+	| maiden | martyr | master | matriarch | mediator | medium | mentor | messenger | minister | miser | monk| mother 
+	| mystic | narrator | nature | networker | nomad | nun | nurse | patriarch | pickpocket | pilgrim | pioneer | pirate | poet 
+	| politician | preacher | priest | prince| private eye | profiler | progenitor | prophet | prostitute | protester | provocateur 
+	| puck | queen | rebel | redhead | rescuer | retailer | right arm | ruler | saboteur | sage | samaritan | samurai | savior 
+	| schemer | scientist| scribe | sculptor | seducer | seductress | seeker | seer | serial killer | servant | settler | sex addict
+	| shaman | shapeshifter | sidekick | siren | slave | sleuth | snoop | soldier | spellcaster | storyteller | student | swindler 
+	| teacher | therapist | trickster | tutor | vagabond | vampire | victim | virgin | wanderer | warrior | weaver| wizard | workaholic 
+	| wounded ;
 
-CharA1	::= angel | android | addict | advocate | attorney | alchemist | inventor | inventorangel | artist | artisan | athlete | olympian 
-	| avenger | orphan | innocent | innovator | amateur | engineer | architect | exorcist | enchantress | evangelist | analyst 
-	| examiner | ambassador | explorer | anarchist | accountant | apprentice | amazon | examiner | emperor;
+CharA1  ::= angel | accountant | addict | advocate | alchemist | amateur | amazon | ambassador | analyst
+	| anarchist | android | apprentice | architect | artisan | artist | athlete | attorney | avenger | emperor | enchantress 
+	| engineer | evangelist | examiner | exorcist | explorer | girl | innocent | innovator | inventor | olympian | orphan 
+;
 
 CharAni	::= bat | cat | fox | dog | tiger ;  
 
@@ -106,7 +103,7 @@ Effect	::= advantage | benefit | convenience | disadvantage | drawback | perk | 
 
 NQlif 	::= >Qlifity ^ity | >Qlifns ^ness;
 
-Qlif 	::= >Qlifity | >Qlifns ;
+Qlif 	::= >Qlifity | >Qlifns | >Material ;
 
 Qlifity ::= atomic | artificial | chemical | circular | critical | curious | electric | experimental
 	| ethereal | exceptional | familiar | holographic | minimal | natural | original | real 
@@ -136,7 +133,10 @@ Qlifns 	::= american | angular | abstract | analog
         | visual | warm | wicked;
 
 
-Matrl	::= cobalt | copper | gold | iron | silver | wooden ; 
+Material ::= artificial | brass | ceramic | chain | cinder | cobalt | concrete 
+	| copper | electric | fire | gold | gum | iron 
+	| lumber | laminate | metal | painted | plastic | plasma 
+	| silver | structured | stone | tarmac | thermal | tin | water | wooden ; 
 
 Pronoun	::= something | someone | anyone | everyone ;
 
@@ -183,30 +183,22 @@ Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle |  
         | icon | idea | information | image 
         | operation | opinion ;
 
-Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom | bomb | bell | bubble
-        | call | camera | can | carbon | case
-        | card | catalog | check | chance | chime | chip | chrome | click | clock | cloud | code
-        | computer | color | collection | competition | compression | concept
-        | content | context | count | cover | crack | culture
-        | dance | desire | death | design | disc | dollar | doubt | dream | destruction |  drop | drug
-        | face | factor | fan | fault | feeling | fear | fence | fiber | finger | fire | flower | fragment
-        | girl | game | getaway | guide | guitar
-        | hardware | halo | hate | hazard | head | heap | heart | hologram | horror | hop | hope | hour
-        | label | land | language | lap | light | line | link | lip | list | logic | logo | love
-        | key | lead | level
-        | magazine | magic | meaning | medley
-        | mind | miniature |  mission
-        | money | mood | motion | move | music | name | need | note | nothing | network | nuke
-        | pace | package | page | part | passage | pattern | pearl | performance
-        | personal | perspective | photo | piece | platform | plug
-        | point | polaroid | poster | potential | power | product | project | promise
-        | race | rainbow | reason | rebellion | record | rendering | resolution
-        | rest | return | rhythm | ring | riot | rock | scan | scene | scroll
-        | screw | sequence | serie | sleep
-        | session | setting | share | show | silence | size | skin | sleep | slot | solitude | something | sound
-        | software | song | source | spell | sphere | spirit | square | stop
-        | tape | tarot | tattoo | track | tree | triangle
-        | vault | vitamin | work;
+Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | call | camera 
+	| can | carbon | case | card | catalog | check | chance | chime | chip | chrome | circuit | click | clock 
+	| cloud | code | computer | color | collection | competition | compression | concept | content | context 
+	| count | cover | crack | culture | dance | desire | death | design | disc | dollar | doubt | dream 
+	| destruction |  drop | drug | face | factor | fan | fault | feeling | fear | fence | fiber | finger | fire 
+	| flower | fragment | girl | game | getaway | guide | guitar | hardware | halo | hate | hazard | head | heap 
+	| heart | hologram | horror | hop | hope | hour | label | land | language | lap | light | line | link | lip 
+	| list | logic | logo | love | key | lead | level | magazine | magic | meaning | medley | mind | miniature 
+	| mission | money | mood | motion | move | music | name | need | note | nothing | network | nuke | pace 
+	| package | page | part | passage | pattern | pearl | performance | personal | perspective | photo | piece 
+	| platform | plug | point | polaroid | poster | potential | power | product | project | promise | race 
+	| rainbow | reason | rebellion | record | rendering | resolution | rest | return | rhythm | ring | riot 
+	| rock | scan | scene | scroll | screw | sequence | serie | sleep | session | setting | share | show 
+	| silence | size | skin | sleep | slot | solitude | something | sound | software | song | source | spell 
+	| sphere | spirit | square | stop | switch | tape | tarot | tattoo | track | tree | triangle | vault | vitamin 
+	| wiring | work;
 
 Verb  	::= >Verbed | >Verb1 | >VerbIr.Pres ;
 
