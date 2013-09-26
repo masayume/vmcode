@@ -1,9 +1,9 @@
 I ::=   "title:    INSPIRE\n"
     ^ "version 3.0"
-    ^ "last update: 22/09/2013 previous: 29/08/2013 "
-    ^ "further updates: words from http://blog.iso50.com/" 
+    ^ "last update: 26/09/2013 previous: 29/08/2013 "
+    ^ "semantic flavor: words from http://blog.iso50.com/" 
     ^ "reference: http://www.polygen.org/it/manuale"
-    ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles";
+    ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2";
 
 S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t2]" | "Guide" to TPlace "[t3]" | QTime TTPlace "[t4]"
   	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTPlace "[t8]"
@@ -19,7 +19,8 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
 	| "The" Char (Char | (was | is | as ) AChar) "[t37]" | "Don't" Verb (TTPlace | AChar) "[t38]" | "This is not" (a Qlif Item | AItem) "[t39]"
 	| "The" [Qlif] Item of [Qlif] Items "[t40]" | "The" Verber TTPlace "[t41]" | Year Item "[t42]"
 	| "I" VerbPa (my Item | AItem) [(but | and) you VerbPa [TTPlace]] "[t43]"
-	| ("While" | "As") "I" Verb VerbIng "[t44]"
+	| ("While" | "As") "I" Verb VerbIng "[t44]" | (Qlif | Adverb) VerbIng "[t45]"
+  	| "Of" Chars and Chars "[t46]"
   	| _ "[tn]"
 ;
 
@@ -229,7 +230,7 @@ Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
         | reduc | refus | settl | shak | shar | charg | damag | danc | fac | li | lik | relat
         | argu | clos | decid | hop | imagin | improv | lov | plac | prepar | remov | replac | smil
         | arrang | arriv | compar | describ | increas | indicat | includ | influenc | mak | manag | requir | us
-        | bas | belong | becom | believ | complet | continu | contribut | di | divid | enabl | encourag | produc
+        | bas | belong | becom | believ | complet | continu | contribut | divid | enabl | encourag | produc
         | forc | handl | introduc | invit | involv | measur | mov | notic  | promis | prov | provid
         | rais | realiz | receiv | recogniz | releas | ris | sav | separat | serv | suppos | surviv | vot | stat
 ;
