@@ -17,7 +17,9 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
 	| "The" Char who VerbPa TTPlace  "[t31]" | "The" Item and the Item  "[t32]" | (Item | Place | Verb) Number "[t33]" 
 	| TPlace is a Qlif Char "[t34]" | "The" Time1 of TPlace "[t35]" | ("If"  | "When" | "After") on a Time1 [Time2] AChar ^"..." "[t36]" 
 	| "The" Char (Char | (was | is | as ) AChar) "[t37]" | "Don't" Verb (TTPlace | AChar) "[t38]" | "This is not" (a Qlif Item | AItem) "[t39]"
-	| "The" [Qlif] Item of [Qlif] Items "[t40]"
+	| "The" [Qlif] Item of [Qlif] Items "[t40]" | "The" Verber TTPlace "[t41]" | Year Item "[t42]"
+	| "I" VerbPa (my Item | AItem) [(but | and) you VerbPa [TTPlace]] "[t43]"
+	| ("While" | "As") "I" Verb VerbIng "[t44]"
   	| _ "[tn]"
 ;
 
@@ -93,7 +95,7 @@ Adverb ::= accidentally | always | angrily | anxiously | awkwardly | badly | bli
 	| eagerly | elegantly | enormously | evenly | eventually | exactly | extremely | faithfully | finally | foolishly | fortunately
 	| frantically | frequently | gleefully | gracefully | happily | hastily | honestly | hopelessly | hourly | hungrily | innocently
 	| incredibly | inquisitively | irritably | jealously | justly | kindly | lazily | loosely | madly | merrily | mortally | mysteriously	
-	| nervously | never	| obediently | obnoxiously | occasionally | often | only | perfectly | politely | poorly | powerfully | promptly
+	| nervously | never | obediently | obnoxiously | occasionally | often | only | perfectly | politely | poorly | powerfully | promptly
 	| quickly | rapidly | rarely | really | regularly | rudely | safely | seldom | selfishly | seriously | shakily | sharply | silently
 	| slowly | solemnly | sometimes | speedily | steadily | sternly | technically | tediously | tenderly | terrifically | tightly
 	| totally | tremendously | unexpectedly | usually | victoriously | vivaciously | warmly | wearily | weekly | wildly | yearly ;
@@ -180,7 +182,7 @@ Itemn	::= everything ;
 
 Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle |  apocalypse | art | artwork | attitude
         | effect | engine | end | environment | experiment | expression | existence | eye
-        | icon | idea | information | image 
+        | icon | idea | information | image | initiative 
         | operation | opinion ;
 
 Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | call | camera 
@@ -201,6 +203,8 @@ Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom |
 	| wiring | work;
 
 Verb  	::= >Verbed | >Verb1 | >VerbIr.Pres ;
+
+Verber 	::= (>Verbed | >Verb11 | >VerbIr.Pres) ^er ;
 
 VerbPa  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Past ;
 
@@ -232,29 +236,30 @@ Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
 
 Verb2   ::= (appl | bu | carr | cop | cr | den | destro | fl | identif | la | ma | pa | pla | repl | sta | stud | worr | tr ) ^(Pres: y | Past: ied);
 
-VerbIr  ::= (Pres: can | Part: could | Past: could | Ing: staying) | (Pres: lead | Part: led | Past: led  | Ing: leading) | (Pres: teach | Part: taught | Past: taught  | Ing: teaching)
-        | (Pres: tell | Part: told | Past: told  | Ing: telling) | (Pres: catch | Part: caught | Past: caught  | Ing: catching) | (Pres: have | Part: had | Past: had | Ing: having)
-        | (Pres: lend | Part: lent | Past: lent  | Ing: lending) | (Pres: hear | Part: heard | Past: heard | Ing: hearing) | (Pres: shoot | Part: shot | Past: shot  | Ing: shooting)
-        | (Pres: cut | Part: cut | Past: cut  | Ing: cutting) | (Pres: choose | Part: chosen | Past: chose | Ing: choosing) | (Pres: hide | Part: hidden | Past: hid  | Ing: hiding)
-        | (Pres: hit | Part: hit | Past: hit | Ing: hitting) | (Pres: think | Part: thought | Past: thought  | Ing: thinking) | (Pres: throw | Part: thrown | Past: threw  | Ing: throwing)
-        | (Pres: hold | Part: held | Past: held  | Ing: holding) | (Pres: let | Part: let | Past:let | Ing: letting) | (Pres: leave | Part: left | Past:left | Ing: leaving)
-        | (Pres: deal | Part: dealt | Past: dealt  | Ing: dealing) | (Pres: plan | Part: planned | Past: planned | Ing: planning) | (Pres: sing | Part: sang | Past: sung | Ing: singing)
-        | (Pres: travel | Part: travelled | Past: travelled  | Ing: travelling) | (Pres: sleep | Part: slept | Past: slept | Ing: sleeping) | (Pres: feed | Part: fed | Past:fed | Ing: feeding)
-        | (Pres: lose | Part: lost | Past: lost  | Ing: losing) | (Pres: prefer | Part: preferred | Past:preferred | Ing: preferring) | (Pres: feel | Part: felt | Past:felt | Ing: feeling)
-        | (Pres: understand | Part: understood | Past: understood  | Ing: understanding) | (Pres: speak | Part: spoken | Past:spoke | Ing: speaking) | (Pres: begin | Part: begun | Past:began | Ing: beginning)
-        | (Pres: come | Part: came | Past: come  | Ing: coming) | (Pres: fight | Part: fought | Past: fought | Ing: fighting) | (Pres: commit | Part: committed | Past:committed | Ing: committing)
-        | (Pres: find | Part: found | Past: found  | Ing: finding) | (Pres: stand | Part: stood | Past:stood | Ing: standing) | (Pres: beat | Part: beaten | Past:beat | Ing: beating)
-        | (Pres: build | Part: built | Past: built  | Ing: building) | (Pres: break | Part: broken | Past: broke | Ing: breaking) | (Pres: burn | Part: burnt | Past: burned | Ing: burning)
-        | (Pres: control | Part: controlled | Past: controlled  | Ing: controlling) | (Pres: do | Part: done | Past: did | Ing: doing) | (Pres: draw | Part: drawn | Past:drew | Ing: drawing)
-        | (Pres: drink | Part: drunk | Past: drank  | Ing: drinking) | (Pres: drop | Part: dropped | Past:dropped | Ing: dropping) | (Pres: eat | Part: eaten | Past:ate | Ing: eating)
-        | (Pres: say | Part: said | Past: said  | Ing: saying) | (Pres: drive | Part: driven | Past:drove | Ing: driving) | (Pres: get | Part: gotten | Past:got | Ing: getting)
-        | (Pres: forget | Part: forgotten | Past: forgot  | Ing: forgetting) | (Pres: forgive | Part: forgiven | Past:forgave | Ing: forgiving) | (Pres: give | Part: given | Past:gave | Ing: giving)
-        | (Pres: go | Part: gone | Past: went  | Ing: going) | (Pres: grow | Part: grown | Past:grew | Ing: growing) | (Pres: know | Part: known | Past:knew | Ing: knowing)
-        | (Pres: mean | Part: meant | Past: meant  | Ing: meaning) | (Pres: put | Part: put | Past:put | Ing: putting) 
-        | (Pres: read | Part: read | Past: read  | Ing: reading) | (Pres: ring | Part: rung | Past:rang | Ing: ringing) | (Pres: meet | Part: met | Past:met | Ing: meeting)
-        | (Pres: run | Part: run | Past: ran  | Ing: running) | (Pres: see | Part: seen | Past:saw | Ing: seeing) | (Pres: sell | Part: sold | Past:sold | Ing: selling)
-        | (Pres: send | Part: sent | Past: sent  | Ing: sending) | (Pres: set | Part: set | Past:set | Ing: setting) | (Pres: stick | Part: stuck | Past:stuck | Ing: sticking)
-        | (Pres: wear | Part: worn | Past: worn  | Ing: wearing) | (Pres: win | Part: won | Past:won | Ing: winning) | (Pres: write | Part: written | Past:wrote | Ing: writing);
+VerbIr::= (Pres:can|Part:could|Past:could|Ing:staying)|(Pres:lead|Part:led|Past:led|Ing:leading)|(Pres:teach|Part:taught|Past:taught|Ing:teaching)
+	|(Pres:die|Part:dead|Past:dead|Ing:dying)
+	|(Pres:tell|Part:told|Past:told|Ing:telling)|(Pres:catch|Part:caught|Past:caught|Ing:catching)|(Pres:have|Part:had|Past:had|Ing:having)
+	|(Pres:lend|Part:lent|Past:lent|Ing:lending)|(Pres:hear|Part:heard|Past:heard|Ing:hearing)|(Pres:shoot|Part:shot|Past:shot|Ing:shooting)
+	|(Pres:cut|Part:cut|Past:cut|Ing:cutting)|(Pres:choose|Part:chosen|Past:chose|Ing:choosing)|(Pres:hide|Part:hidden|Past:hid|Ing:hiding)
+	|(Pres:hit|Part:hit|Past:hit|Ing:hitting)|(Pres:think|Part:thought|Past:thought|Ing:thinking)|(Pres:throw|Part:thrown|Past:threw|Ing:throwing)
+	|(Pres:hold|Part:held|Past:held|Ing:holding)|(Pres:let|Part:let|Past:let|Ing:letting)|(Pres:leave|Part:left|Past:left|Ing:leaving)
+	|(Pres:deal|Part:dealt|Past:dealt|Ing:dealing)|(Pres:plan|Part:planned|Past:planned|Ing:planning)|(Pres:sing|Part:sang|Past:sung|Ing:singing)
+	|(Pres:travel|Part:travelled|Past:travelled|Ing:travelling)|(Pres:sleep|Part:slept|Past:slept|Ing:sleeping)|(Pres:feed|Part:fed|Past:fed|Ing:feeding)
+	|(Pres:lose|Part:lost|Past:lost|Ing:losing)|(Pres:prefer|Part:preferred|Past:preferred|Ing:preferring)|(Pres:feel|Part:felt|Past:felt|Ing:feeling)
+	|(Pres:understand|Part:understood|Past:understood|Ing:understanding)|(Pres:speak|Part:spoken|Past:spoke|Ing:speaking)|(Pres:begin|Part:begun|Past:began|Ing:beginning)
+	|(Pres:come|Part:came|Past:come|Ing:coming)|(Pres:fight|Part:fought|Past:fought|Ing:fighting)|(Pres:commit|Part:committed|Past:committed|Ing:committing)
+	|(Pres:find|Part:found|Past:found|Ing:finding)|(Pres:stand|Part:stood|Past:stood|Ing:standing)|(Pres:beat|Part:beaten|Past:beat|Ing:beating)
+	|(Pres:build|Part:built|Past:built|Ing:building)|(Pres:break|Part:broken|Past:broke|Ing:breaking)|(Pres:burn|Part:burnt|Past:burned|Ing:burning)
+	|(Pres:control|Part:controlled|Past:controlled|Ing:controlling)|(Pres:do|Part:done|Past:did|Ing:doing)|(Pres:draw|Part:drawn|Past:drew|Ing:drawing)
+	|(Pres:drink|Part:drunk|Past:drank|Ing:drinking)|(Pres:drop|Part:dropped|Past:dropped|Ing:dropping)|(Pres:eat|Part:eaten|Past:ate|Ing:eating)
+	|(Pres:say|Part:said|Past:said|Ing:saying)|(Pres:drive|Part:driven|Past:drove|Ing:driving)|(Pres:get|Part:gotten|Past:got|Ing:getting)
+	|(Pres:forget|Part:forgotten|Past:forgot|Ing:forgetting)|(Pres:forgive|Part:forgiven|Past:forgave|Ing:forgiving)|(Pres:give|Part:given|Past:gave|Ing:giving)
+	|(Pres:go|Part:gone|Past:went|Ing:going)|(Pres:grow|Part:grown|Past:grew|Ing:growing)|(Pres:know|Part:known|Past:knew|Ing:knowing)
+	|(Pres:mean|Part:meant|Past:meant|Ing:meaning)|(Pres:put|Part:put|Past:put|Ing:putting)
+	|(Pres:read|Part:read|Past:read|Ing:reading)|(Pres:ring|Part:rung|Past:rang|Ing:ringing)|(Pres:meet|Part:met|Past:met|Ing:meeting)
+	|(Pres:run|Part:run|Past:ran|Ing:running)|(Pres:see|Part:seen|Past:saw|Ing:seeing)|(Pres:sell|Part:sold|Past:sold|Ing:selling)
+	|(Pres:send|Part:sent|Past:sent|Ing:sending)|(Pres:set|Part:set|Past:set|Ing:setting)|(Pres:stick|Part:stuck|Past:stuck|Ing:sticking)
+	|(Pres:wear|Part:worn|Past:worn|Ing:wearing)|(Pres:win|Part:won|Past:won|Ing:winning)|(Pres:write|Part:written|Past:wrote|Ing:writing);
 
 Time1 	::= beginning | childhood | end | summer | winter | spring | second ; 
 Time1o	::= hundred years | century | rainy season | morning ;
@@ -275,5 +280,7 @@ PreQlif	::= "The first" | "The last" | "All" | "After" | "Alternative"
 PostQlif ::= again | around | away | everywhere | in the machine | magic | over and over ; 
 
 Digit	::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ;
+
+Year	::= 2 ^( 0 | 1 ) ^Digit ^Digit ;
 
 Number	::= Digit [^ Digit] [^ Digit] ;
