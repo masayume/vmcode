@@ -19,8 +19,8 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
 	| "The" Char (Char | (was | is | as ) AChar) "[t37]" | "Don't" Verb (TTPlace | AChar) "[t38]" | "This is not" (a Qlif Item | AItem) "[t39]"
 	| "The" [Qlif] Item of [Qlif] Items "[t40]" | "The" Verber TTPlace "[t41]" | Year Item "[t42]"
 	| "I" VerbPa (my Item | AItem) [(but | and) you VerbPa [TTPlace]] "[t43]"
-	| ("While" | "As") "I" Verb VerbIng "[t44]" | (Qlif | Adverb) VerbIng "[t45]"
-  	| "Of" Chars and Chars "[t46]"
+	| ("While" | "As") "I" Verb VerbIng "[t44]" | (Qlif | Adverb) VerbIng "[t45]" | "Of" Chars and Chars "[t46]" | Item ^PlaceN "[t47]"
+  	| VerbEn ^ "," VerbEn and VerbEn "[t48]"
   	| _ "[tn]"
 ;
 
@@ -151,18 +151,20 @@ City    ::= "Baires" | "Berlin" | "Caracas" | "Hong Kong" | "Honolulu" | "London
 
 Plaat 	::= crossing | edge | gap | market | ocean | pool | river | school | shop | waterfall | world; 
 
-Plaont	::= cliff | coastline | floor | planet | side | stage | star | wall;
+Plaont	::= cliff | coastline | floor | highway | planet | side | stage | star | wall;
 
 Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
 
 Plaint	::= alley | arbor | arcade | castle | circus | desert | field | fortress | galaxy | garden
-	| haven | house | restaurant | underground | universe | world;
+	| haven | house | restaurant | shop | underground | universe | world;
 
 TTPlace	::= at the >Plaat | on the >Plaont | on >Plaon | in the >Plaint | in >City ; 
 
-TPlace	::= the >Plaat | the >Plaont | >Plaon | the >Plaint | >City; 
+TPlace	::= the [[Prefix ^]] >Plaat | the [[Prefix ^]] >Plaont | [[Prefix ^]] >Plaon | the [[Prefix ^]] >Plaint | >City; 
 
-Place	::= >Plaat | >Plaont | >Plaon | >Plaint | >City; 
+PlaceN	::= [[Prefix ^]] ( >Plaat | >Plaont | >Plaon | >Plaint ) ; 
+
+Place	::= [[Prefix ^]] >Plaat | [[Prefix ^]] >Plaont | [[Prefix ^]] >Plaon | [[Prefix ^]] >Plaint | >City ; 
 
 Item	::= Itemn | >Iteman | >Itema ; 
 
@@ -209,6 +211,8 @@ Verber 	::= (>Verbed | >Verb11 | >VerbIr.Pres) ^er ;
 
 VerbPa  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Past ;
 
+VerbEn  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Part ;
+
 VerbIng ::= >Verb11 ^ing | >Verbed ^ing | >VerbIr.Ing ;
 
 Verbed  ::= accept | account | act | add | count | cover | cross | enjoy | exist | expect
@@ -227,7 +231,7 @@ Verbed  ::= accept | account | act | add | count | cover | cross | enjoy | exist
 
 Verb1	::= Verb11 ^e ;
 Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
-        | reduc | refus | settl | shak | shar | charg | damag | danc | fac | li | lik | relat
+        | reduc | refus | settl | shar | charg | damag | danc | fac | li | lik | relat
         | argu | clos | decid | hop | imagin | improv | lov | plac | prepar | remov | replac | smil
         | arrang | arriv | compar | describ | increas | indicat | includ | influenc | mak | manag | requir | us
         | bas | belong | becom | believ | complet | continu | contribut | divid | enabl | encourag | produc
@@ -259,6 +263,7 @@ VerbIr::= (Pres:can|Part:could|Past:could|Ing:staying)|(Pres:lead|Part:led|Past:
 	|(Pres:mean|Part:meant|Past:meant|Ing:meaning)|(Pres:put|Part:put|Past:put|Ing:putting)
 	|(Pres:read|Part:read|Past:read|Ing:reading)|(Pres:ring|Part:rung|Past:rang|Ing:ringing)|(Pres:meet|Part:met|Past:met|Ing:meeting)
 	|(Pres:run|Part:run|Past:ran|Ing:running)|(Pres:see|Part:seen|Past:saw|Ing:seeing)|(Pres:sell|Part:sold|Past:sold|Ing:selling)
+	|(Pres:shake|Part:shaken|Past:shook|Ing:shaking)
 	|(Pres:send|Part:sent|Past:sent|Ing:sending)|(Pres:set|Part:set|Past:set|Ing:setting)|(Pres:stick|Part:stuck|Past:stuck|Ing:sticking)
 	|(Pres:wear|Part:worn|Past:worn|Ing:wearing)|(Pres:win|Part:won|Past:won|Ing:winning)|(Pres:write|Part:written|Past:wrote|Ing:writing);
 
