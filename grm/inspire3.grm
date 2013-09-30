@@ -1,6 +1,6 @@
 I ::=   "title:    INSPIRE\n"
     ^ "version 3.0"
-    ^ "last update: 26/09/2013 previous: 29/08/2013 "
+    ^ "last update: 30/09/2013 previous: 29/08/2013 "
     ^ "semantic flavor: words from http://blog.iso50.com/" 
     ^ "reference: http://www.polygen.org/it/manuale"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2";
@@ -9,7 +9,7 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
   	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTPlace "[t8]"
   	| "To" (dream | kill) AItem "[t9]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
   	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif Item "[t14]" | "A" thousand Qlif Item ^ s"[t15]" | "The" Items of Emotion "[t16]"
-  	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | ([PreQlif] Qlif Char | Char ^", " Qlif) "[t18]" | ["The"] Char PostQlif "[t19]" 
+  	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | ([PreQlif] Qlif Char | Char ^", " Qlif | Prefix ^ (Qlif | Char)) "[t18]" | ["The"] Char PostQlif "[t19]" 
 	| "The" Char who VerbPa [AItem] "[t20]" | "For whom the " Item Verb ^s "[t21]" | "Zen and the art of " VerbIng Items "[t22]" 
 	| ["The" | "A"] Item in QTime of Item "[t23]" | VerbIng (AItem| Item | Items) "[t24]" | ["The"] Item (among | of the) Chars "[t25]" 
 	| Qlif Qlif Place "[t26]" | [Qlif] Chars Adverb Verb Items "[t27]" | Emotion [and Emotion] TTPlace "[t28]" 
@@ -20,7 +20,8 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
 	| "The" [Qlif] Item of [Qlif] Items "[t40]" | "The" Verber TTPlace "[t41]" | Year Item "[t42]"
 	| "I" VerbPa (my Item | AItem) [(but | and) you VerbPa [TTPlace]] "[t43]"
 	| ("While" | "As") "I" Verb VerbIng "[t44]" | (Qlif | Adverb) VerbIng "[t45]" | "Of" Chars and Chars "[t46]" | Item ^PlaceN "[t47]"
-  	| VerbEn ^ "," VerbEn and VerbEn "[t48]"
+  	| VerbEn ^ "," VerbEn and VerbEn "[t48]" | "How to" Verb (about Items | to Chars) "[t49]" | "The" Item is (always | probably | rarely) Qlif "[t50]"
+  	| VerbIng Char TTPlace "[t51]"
   	| _ "[tn]"
 ;
 
