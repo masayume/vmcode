@@ -12,7 +12,7 @@ $collen 	= 35;	# column length
 $colnum 	= 4;	# column number
 $insnum 	= $collen * $colnum;
 $maxnum 	= 4 * $collen * $colnum;
-$maxtype	= 65;
+$maxtype	= 133;
 
 $version = "0.80";
 $grammar = "/home/masayume/polygen/inspire3.grm";
@@ -46,11 +46,11 @@ exit(0);
 
 # ===============================================================================================
 
-sub singlephrase {
+sub templateheader {
 
 $page =<<"EOF";
-<html>
 <head>
+<title>inspire title generator</title>
 <link rel="icon" type="image/png" href="/img/image.png" />
 <link href='http://fonts.googleapis.com/css?family=Cantora+One|Kelly+Slab|Life+Savers|Raleway|Prosto+One|Kavoon|Roboto+Slab|Cinzel+Decorative' rel='stylesheet' type='text/css'>
 <style type="text/css">
@@ -75,11 +75,31 @@ strong { font-family: 'Philosopher', arial, serif; }
   background: -moz-linear-gradient(-90deg,#3377aa,#77ccee);
   background: -webkit-gradient(linear, left top, left bottom, from(#3377aa), to(#77ccee));
 }
+table {
+  height: 18px;
+  margin: 0 0 0 0;
+  border-spacing: 0px;
+  font-family: arial narrow;
+}
 img { width: 450px; }
 h1 {
   color: #fff; font-size: 45px;
 }
 </style>
+</head>
+EOF
+
+return $page;
+
+} # end sub templateheader
+
+sub singlephrase {
+
+$pageHeader = &templateheader();
+
+$page =<<"EOF";
+<html>
+$pageHeader
 </head>
 <body>
 <small>version: $version - grammar: $grammar</small>
@@ -111,40 +131,11 @@ EOF
 
 sub mainpage {
 
+$pageHeader = &templateheader();
+
 $page =<<"EOF";
 <html>
-<head>
-<link rel="icon" type="image/png" href="/img/image.png" />
-<style type="text/css">
-.cantora { font-family: 'Cantora One', sans-serif; }
-.kelly { font-family: 'Kelly Slab', cursive; }
-.life { font-family: 'Life Savers', cursive; }
-.raleway { font-family: 'Raleway', sans-serif; }
-.prosto { font-family: 'Prosto One', cursive; }
-.kavoon { font-family: 'Kavoon', cursive; }
-.roboto { font-family: 'Roboto Slab', serif; }
-.cinzel { font-family: 'Cinzel Decorative', cursive; }
-@media screen {
-@font-face {
-  font-family: 'Philosopher';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Philosopher'), url('http://127.0.1.1/philosopher.ttf') format('truetype');
-}
-}
-strong { font-family: 'Philosopher', arial, serif; }
-#insetBgd {
-  background: -moz-linear-gradient(-90deg,#3377aa,#77ccee);
-  background: -webkit-gradient(linear, left top, left bottom, from(#3377aa), to(#77ccee));
-}
-table {
-  height: 18px;
-  margin: 0 0 0 0;
-  border-spacing: 0px;
-  font-family: arial narrow;
-}
-</style>
-</head>
+$pageHeader
 <body>
 <div id="insetBgd">
 <small><span style="color:#fff">version: $version - grammar: $grammar</span></small>
