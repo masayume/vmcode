@@ -93,6 +93,8 @@ return $page;
 
 } # end sub templateheader
 
+#===============================================================================================
+
 sub singlephrase {
 
 $pageHeader = &templateheader();
@@ -118,6 +120,7 @@ foreach $insp (@inspirelets) {
         $preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
         $qqhtml = "<a href='$preqstring' target='_blank'>GI</a>";
         my $style = "<span style=\"font-family:" . &fontstyle(1) . "\">";
+	$insp = ucfirst($insp);
         print "\n" . $qqhtml . " <strong> " . $style . $insp . "</strong>" . "</span><br /><br />";
 } 
 # exit(0);
@@ -135,6 +138,7 @@ EOF
 
 } # end sub singlephrase 
 
+#===============================================================================================
 
 sub mainpage {
 
@@ -167,6 +171,7 @@ for ($j=0; $j<$colnum; $j++) {
 		$preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
 		$qqhtml = "<a href='$preqstring' target='_blank'>GI</a>";
 		my $style = "<span style=\"font-family:" . &fontstyle(1) . "\">";
+		$string2show = ucfirst($string2show);
                 print "\n" . $qqhtml . " <strong> " . $style . $string2show . "</strong>" . "</span>";
                 if ($r % 5 == 0) {
                         print "<hr>";
@@ -187,6 +192,7 @@ $page =<<"EOF";
 EOF
 
 } # end sub mainpage
+#===============================================================================================
 
 sub parse_args {
 
@@ -222,6 +228,7 @@ sub parse_args {
 	return %QUERY;
 
 } # end sub parse_args
+#===============================================================================================
 
 sub header {
 
@@ -233,6 +240,7 @@ sub header {
 
 	print $header
 } # and sub header
+#===============================================================================================
 
 sub image {
 	$ifile = '/tmp/inspire_images_list.txt';
@@ -256,6 +264,7 @@ sub image {
 
 	return @rcards;
 } # end sub 
+#===============================================================================================
 
 sub fontstyle {
 

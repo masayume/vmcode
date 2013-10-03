@@ -5,29 +5,31 @@ I ::=   "title:    INSPIRE\n"
     ^ "reference: http://www.polygen.org/it/manuale"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2";
 
-S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t2]" | "Guide" to TPlace "[t3]" | QTime TTPlace "[t4]"
-  	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTPlace "[t8]"
-  	| "To" (dream | kill) AItem "[t9]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
-  	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif Item "[t14]" | "A" thousand Qlif Item ^ s"[t15]" | "The" Items of Emotion "[t16]"
+S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t2]" | "Guide" to TPlace "[t3]" | QTime TTQPlace "[t4]"
+  	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTQPlace "[t8]"
+  	| "To" (dream | kill) AItem "[t9]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTQPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
+  	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif (Item | Items) "[t14]" | "A" thousand Qlif Item ^ s"[t15]" | "The" (Items | Item) of Emotion "[t16]"
   	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | ([PreQlif] Qlif Char | Char ^", " Qlif | Prefix ^ (Qlif | Char)) "[t18]" | ["The"] Char PostQlif "[t19]" 
-	| "The" Char who VerbPa [AItem] "[t20]" | "For whom the " Item Verb ^s "[t21]" | "Zen and the art of" VerbIng Items "[t22]" 
+	| "The" Char who VerbPa [AItem] "[t20]" | "For whom the" Item Verb ^s "[t21]" | "Zen and the art of" VerbIng Items "[t22]" 
 	| (["The"] Item | AItem) in QTime of Item "[t23]" | VerbIng (AItem| Item | Items | Qlif) "[t24]" | ["The"] Item (among | of the) Chars "[t25]" 
-	| Qlif Qlif Place "[t26]" | [Qlif] Chars Adverb Verb Items "[t27]" | Emotion [and Emotion] TTPlace "[t28]" 
+	| Qlif Qlif Place "[t26]" | [Qlif] Chars Adverb Verb Items "[t27]" | Emotion [and Emotion] TTQPlace "[t28]" 
 	| "What" to Verb when you Verb  "[t29]" | "No" ( >Plaat | >Plaont | >Plaon | >Plaint ) for [Qlif] Chars "[t30]" 
-	| "The" Char who VerbPa TTPlace  "[t31]" | "The" Item and the Item  "[t32]" | (Item | Place | Verb) Number "[t33]" 
+	| "The" Char who VerbPa TTQPlace  "[t31]" | "The" Item and the Item  "[t32]" | (Item | Place | Verb) Number "[t33]" 
 	| (TPlace is a | "The") Qlif Char "[t34]" | "The" Time1 of TPlace "[t35]" | ("If"  | "When" | "After") on a Time1 [Time2] AChar ^"..." "[t36]" 
-	| "The" Char (Char | (was | is | as ) AChar) "[t37]" | "Don't" Verb (TTPlace | AChar) "[t38]" | "This is not" (a Qlif Item | AItem) "[t39]"
-	| "The" [Qlif] Item of [Qlif] Items "[t40]" | "The" Verber TTPlace "[t41]" | Year Item "[t42]"
-	| "I" VerbPa (my Item | AItem) [(but | and) you VerbPa [TTPlace]] "[t43]"
+	| "The" Char (Char | (was | is | as ) AChar) "[t37]" | "Don't" Verb (TTQPlace | AChar) "[t38]" | "This is not" (a Qlif Item | AItem) "[t39]"
+	| "The" [Qlif] Item of [Qlif] Items "[t40]" | "The" Verber TTQPlace "[t41]" | Year Item [Item] "[t42]"
+	| "I" VerbPa (my Item | AItem) [(but | and) you VerbPa [TTQPlace]] "[t43]"
 	| ("While" | "As") "I" Verb VerbIng "[t44]" | (Qlif | Adverb) VerbIng "[t45]" | "Of" Chars and Chars "[t46]" | Item ^PlaceNN "[t47]"
   	| VerbEn ^ "," VerbEn and VerbEn "[t48]" | "How to" Verb (about Items | to Chars) "[t49]" | "The" Item is (always | probably | rarely) Qlif "[t50]"
-  	| VerbIng Char TTPlace "[t51]" | "A" [Prefix ^] Item named Emotion "[t52]" | Verb ^ "-" ^ Number "[t53]" | Item ^ "," TPlace and everything "[t54]"
+  	| VerbIng Char TTQPlace "[t51]" | ("A" | "The") [Prefix ^] Item (of | named) Emotion "[t52]" | Verb ^ "-" ^ Number "[t53]" | Item ^ "," TPlace and everything "[t54]"
   	| [Qlif] Char of the Item "[t55]" | Chars "Vs" Chars "[t56]" | TPlace of Items [ and Items ] "[t57]" | Char [^ "," Char] and Char "[t58]"
   	| (QlifCol | [Qlif]) Item and [Qlif] Items "[t59]" | "This" Item is full of CharAnis "[t60]" | Qlif is the Item "[t61]" | "A" Char is VerbIng me "[t62]"
   	| "The" Emotion games "[t63]" | "The" NQlif of (being Qlif | Item)"[t64]" | "The" QlifCol Item "[t65]" | "The curse" of the Qlif Item "[t66]"
-  	| (Emotion | Item) for AItem "[t67]" | ("The" | "This" | "That") Body is a Qlif Char "[t68]" | Verb this Item "[t69]" | Qlif Time2 ^ "'s" Item [TTPlace] "[t70]"
+  	| (Emotion | Item) for AItem "[t67]" | ("The" | "This" | "That") Body is a Qlif Char "[t68]" | Verb this Item "[t69]" | Qlif Time2 ^ "'s" Item [TTQPlace] "[t70]"
   	| "The" art of VerbIng [in the Atmo] "[t71]" | "Don't" Verb this Item "[t72]" | ("If" | "When") you are [(so | very | a little)] Qlif "[t73]"
-  	| (through the | over the | under the | like a ) VerbIng Item "[t74]"
+  	| (through the | over the | under the | like a ) VerbIng Item "[t74]" | [Emotion] TTQPlace "[t75]" | "Never threaten to" Verb your Items "[t76]"
+  	| Prefix ^ (Item | Verb) [ ^ "!"] "[t77]" | Prefix ^ PlaceNN "[t78]" | PlaceNN Char "[t79]"
+  	| "Saving" Chars from VerbIng "[t80]"
   	| _ "[tn]"
 ;
 
@@ -55,14 +57,14 @@ CharA   ::= blonde | beggar | black widow | boy | bride | brother | brunette | b
 	| maiden | martyr | master | matriarch | mediator | medium | mentor | messenger | minister | miser | monk| mother 
 	| mystic | narrator | nature | networker | nomad | nun | nurse | patriarch | pickpocket | pilgrim | pioneer | pirate | poet 
 	| politician | preacher | priest | prince| private eye | profiler | progenitor | prophet | prostitute | protester | provocateur 
-	| puck | queen | rebel | redhead | rescuer | retailer | right arm | ruler | saboteur | sage | samaritan | samurai | savior 
+	| puck | queen | rebel | redhead | rescuer | retailer | right arm | rockstar | ruler | saboteur | sage | samaritan | samurai | savior 
 	| schemer | scientist| scribe | sculptor | seducer | seductress | seeker | seer | serial killer | servant | settler | sex addict
-	| shaman | shapeshifter | sidekick | siren | slave | sleuth | snoop | soldier | spellcaster | storyteller | student | swindler 
+	| shaman | shapeshifter | sidekick | siren | slave | sleuth | snoop | soldier | spellcaster | star | storyteller | student | swindler 
 	| teacher | therapist | trickster | tutor | vagabond | vampire | victim | virgin | wanderer | warrior | weaver| wizard | workaholic 
 	| wounded ;
 
 CharA1  ::= angel | accountant | addict | advocate | alchemist | amateur | amazon | ambassador | analyst
-	| anarchist | android | apprentice | architect | artisan | artist | athlete | attorney | avenger | emperor | enchantress 
+	| anarchist | android | apprentice | architect | artisan | artist | athlete | attorney | avenger | avatar | emperor | enchantress 
 	| engineer | evangelist | examiner | exorcist | explorer | girl | innocent | innovator | inventor | olympian | orphan 
 ;
 
@@ -134,12 +136,12 @@ Qlifns 	::= american | angular | abstract | analog | atlantic | awesome | beauti
         | easy | eerie | electronic | elegant | english | enormous | false | far | fast | favorite 
 	| flat | french | fresh | full | german | good | goth | great 
         | hard | hazy | heavy | hidden | high | hot | hypnotic | huge | human | immediate | impossible
-        | incredible | intense | invisible | italian | japanese | kind | layered
-        | light | little | live | lonely | long | lost | lucky | luminous | maniac
-        | mechanical | mixed | modern | mute | new | nice | nordic | notable | nuclear
-        | old | organic | outstanding | pacific | perfect | plenty | pop 
+        | incredible | intense | invisible | italian | japanese | key | kind | layered
+        | licensed | light | little | live | lonely | long | lost | lucky | luminous | maniac
+        | mechanical | mixed | modern | mute | naked | new | nice | nordic | notable | nuclear
+        | old | online | organic | outstanding | pacific | perfect | plenty | pop 
 	| possible | pretty | progressive | probable | psychedelic | punk
-        | quick | refreshing | reflecting | remarkable | repetitive | revolutionary | rich | rough
+        | quick | refreshing | reflecting | redundant | recursive | remarkable | repetitive | revolutionary | resource | rich | rough
         | safe | seamless | serious | short | simple | single | slippery | smooth
         | slow | small | smart | solid | stellar | sweet | third | transparent
         | visual | warm | wicked;
@@ -152,22 +154,24 @@ Material ::= artificial | brass | ceramic | chain | cinder | cobalt | concrete
 
 Pronoun	::= something | someone | anyone | everyone ;
 
-City    ::= "Baires" | "Berlin" | "Caracas" | "Hong Kong" | "Honolulu" | "London" | "Los Angeles"
+City    ::= "Baires" | "Berlin" | "Caracas" | "Hell" | "Hong Kong" | "Honolulu" | "London" | "Los Angeles"
         | "Madrid" | "Melbourne" | "Moscow" | "New York" | "Paris"
         | "Rome" | "San Francisco" | "Shanghai" | "Seattle" | "Tokyo" | "Vancouver" | "Vegas" | "Space"
 	| "Wonderland"
 ;
 
-Plaat 	::= crossing | edge | gap | market | ocean | pool | river | school | shop | waterfall | world; 
+Plaat 	::= crossing | edge | gap | gate | market | ocean | pool | river | school | shop | waterfall | world; 
 
-Plaont	::= cliff | coastline | floor | highway | planet | side | stage | star | wall;
+Plaont	::= cliff | coastline | floor | highway | planet | side | stage | staircase | star | wall;
 
 Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
 
-Plaint	::= alley | arbor | arcade | castle | circus | desert | field | fortress | galaxy | garden
-	| haven | house | restaurant | shop | underground | universe | world;
+Plaint	::= alley | arbor | arcade | castle | circus | desert | factory | field | fortress | galaxy | garden
+	| haven | house | labyrinth | maze | nest | restaurant | shop | underground | universe | world;
 
 TTPlace	::= at the >Plaat | on the >Plaont | on >Plaon | in the >Plaint | in >City ; 
+
+TTQPlace ::= at the Qlif >Plaat | on the Qlif >Plaont | on Qlif >Plaon | in the Qlif >Plaint | in >City ; 
 
 TPlace	::= the [[Prefix ^]] >Plaat | the [[Prefix ^]] >Plaont | [[Prefix ^]] >Plaon | the [[Prefix ^]] >Plaint | >City; 
 
@@ -200,11 +204,11 @@ Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle | a
         | operation | opinion ;
 
 Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | call | camera 
-	| can | carbon | case | card | catalog | check | chance | chime | chip | chrome | circuit | click | clock 
-	| cloud | code | computer | color | collection | competition | compression | concept | content | context 
-	| count | cover | crack | culture | dance | desire | death | design | disc | dollar | doubt | dream 
+	| can | candy | carbon | case | card | catalog | check | chance | chime | chip | chrome | circuit | click | clock 
+	| cloud | code | computer | color | collection | competition | compression | concept | console | content | context 
+	| count | cover | crack | culture | dance | desire | death | deck | design | disc | dollar | doubt | dream 
 	| destruction |  drop | drug | face | factor | fan | fault | feeling | fear | fence | fiber | finger | fire 
-	| flower | fragment | girl | game | getaway | guide | guitar | hand | hardware | halo | hate | hazard | head | heap 
+	| flower | fragment | girl | game | getaway | guide | grammar | guitar | hand | hardware | halo | hate | hazard | head | heap 
 	| heart | hologram | horror | hop | hope | hour | label | land | language | lap | light | line | link | lip 
 	| list | logic | logo | love | key | lead | level | magazine | magic | meaning | medley | mind | miniature | mirror 
 	| mission | money | mood | motion | mouth | move | music | name | need | note | nothing | network | nuke | pace 
@@ -276,7 +280,8 @@ VerbIr::= (Pres:can|Part:could|Past:could|Ing:staying)|(Pres:lead|Part:led|Past:
 	|(Pres:forget|Part:forgotten|Past:forgot|Ing:forgetting)|(Pres:forgive|Part:forgiven|Past:forgave|Ing:forgiving)|(Pres:give|Part:given|Past:gave|Ing:giving)
 	|(Pres:go|Part:gone|Past:went|Ing:going)|(Pres:grow|Part:grown|Past:grew|Ing:growing)|(Pres:know|Part:known|Past:knew|Ing:knowing)
 	|(Pres:mean|Part:meant|Past:meant|Ing:meaning)|(Pres:put|Part:put|Past:put|Ing:putting)
-	|(Pres:read|Part:read|Past:read|Ing:reading)|(Pres:ring|Part:rung|Past:rang|Ing:ringing)|(Pres:meet|Part:met|Past:met|Ing:meeting)
+	|(Pres:read|Part:read|Past:read|Ing:reading)|(Pres:ring|Part:rung|Past:rang|Ing:ringing)|(Pres:rise|Part:risen|Past:rose|Ing:rising)
+	|(Pres:meet|Part:met|Past:met|Ing:meeting)
 	|(Pres:run|Part:run|Past:ran|Ing:running)|(Pres:see|Part:seen|Past:saw|Ing:seeing)|(Pres:sell|Part:sold|Past:sold|Ing:selling)
 	|(Pres:shake|Part:shaken|Past:shook|Ing:shaking)
 	|(Pres:send|Part:sent|Past:sent|Ing:sending)|(Pres:set|Part:set|Past:set|Ing:setting)|(Pres:stick|Part:stuck|Past:stuck|Ing:sticking)
@@ -284,7 +289,7 @@ VerbIr::= (Pres:can|Part:could|Past:could|Ing:staying)|(Pres:lead|Part:led|Past:
 
 Time1 	::= beginning | childhood | end | summer | winter | spring | second ; 
 Time1o	::= hundred years | century | rainy season | morning ;
-Time2 	::= day | night | moment | instant ;
+Time2 	::= day | night | moment | instant | year ;
 Time2n 	::= instant | autumn ;
 Time3 	::= yesterday | tomorrow | dawn | dusk | future | now | present ;
 Time4	::= sometime ;
@@ -295,7 +300,8 @@ Atmo	::= rain | sun | morning | evening | night ;
 QTime ::= (a | the) >Time1 | one >Time1o | an >Time2n | >Time3 | some >Time5;
 XTime ::= >Time1 | >Time2 | >Time3 ;
 
-Prefix	::= anti | demi | extra | hypo | hemi | hyper | inter | infra | mega | out | over | mini | maxi | pre | post | super | trans | ultra ;
+Prefix	::= anti | astro | demi | down | extra | giga | hypo | hemi | hi | hyper | holo | inter | infra 
+	| micro | mega | nano | out | over | mini | maxi | pre | post | super | trans | ultra | up ;
 
 PreQlif	::= "The first" | "The last" | "All" | "After" | "Alternative"
         | "Always" | "Any" | "Before" | "Certainly" | "Pre -" | "Post -";
