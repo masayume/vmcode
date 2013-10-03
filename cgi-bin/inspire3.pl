@@ -111,7 +111,14 @@ print $page;
 print "<br /><br />";
 
 foreach $insp (@inspirelets) { 
-	print "<br>" . $insp; 
+	# print "<br> AAA " . $insp; 
+        $qstring = $insp; $qstring =~ s/\s/\+/g;
+        @keyw = split /\+/, $qstring; $keyw[$#keyw] = '';
+        $qstring = join '+',  @keyw; chop $qstring; ($qstring,$NULL) = split /\+</, $qstring;
+        $preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
+        $qqhtml = "<a href='$preqstring' target='_blank'>GI</a>";
+        my $style = "<span style=\"font-family:" . &fontstyle(1) . "\">";
+        print "\n" . $qqhtml . " <strong> " . $style . $insp . "</strong>" . "</span><br /><br />";
 } 
 # exit(0);
 
