@@ -4,6 +4,7 @@ I ::=   "title:    INSPIRE\n"
     ^ "semantic flavor: words from http://blog.iso50.com/" 
     ^ "reference: http://www.polygen.org/it/manuale"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2";
+    ^ "reference: http://loremgibson.com/";
 
 S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t2]" | "Guide" to TPlace "[t3]" | QTime TTQPlace "[t4]"
   	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTQPlace "[t8]"
@@ -51,13 +52,13 @@ Char1	::= "Alice" | "Casanova" | "Circe" | someone | everyone | people ;
 CharA   ::= blonde | beggar | black widow | boy | bride | brother | brunette | builder | burglar | caregiver | chef 
 	| chief | clown | communicator| companion| consort | consumer | copyist | counselor| counselor | courier | coward 
 	| craftsperson | critic | crone| damsel | defender | destroyer | detective | devotee | diplomat | disciple | doctor 
-	| double agent | dreamer | evangelist | father | femme fatale | flirt | follower| fool | friend | gambler | gigolo | girl 
+	| double agent | dreamer | driver | evangelist | father | femme fatale | flirt | follower| fool | friend | gambler | gigolo | girl 
 	| glutton | god | godfather | godmother | gourmet | guide | gunslinger | guru | guy | healer | hedonist | herald | hermit 
 	| heroine | host | hunter | innocent | jester | journalist | judge | kid | king| knight | leader | lord | lover | mad scientist | magician 
 	| maiden | martyr | master | matriarch | mediator | medium | mentor | messenger | minister | miser | monk| mother 
 	| mystic | narrator | nature | networker | nomad | nun | nurse | patriarch | pickpocket | pilgrim | pioneer | pirate | poet 
 	| politician | preacher | priest | prince| private eye | profiler | progenitor | prophet | prostitute | protester | provocateur 
-	| puck | queen | rebel | redhead | rescuer | retailer | right arm | rockstar | ruler | saboteur | sage | samaritan | samurai | savior 
+	| puck | queen | rebel | redhead | rescuer | retailer | right arm | robot | rockstar | ruler | saboteur | sage | samaritan | samurai | savior 
 	| schemer | scientist| scribe | sculptor | seducer | seductress | seeker | seer | serial killer | servant | settler | sex addict
 	| shaman | shapeshifter | sidekick | siren | slave | sleuth | snoop | soldier | spellcaster | star | storyteller | student | swindler 
 	| teacher | therapist | trickster | tutor | vagabond | vampire | victim | virgin | wanderer | warrior | weaver| wizard | workaholic 
@@ -137,19 +138,20 @@ Qlifns 	::= american | angular | abstract | analog | atlantic | awesome | beauti
 	| flat | french | fresh | full | german | good | goth | great 
         | hard | hazy | heavy | hidden | high | hot | hypnotic | huge | human | immediate | impossible
         | incredible | intense | invisible | italian | japanese | key | kind | layered
-        | licensed | light | little | live | lonely | long | lost | lucky | luminous | maniac
+        | licensed | light | little | live | lonely | long | lost | lucky | luminous | maniac | mass
         | mechanical | mixed | modern | mute | naked | new | nice | nordic | notable | nuclear
         | old | online | organic | outstanding | pacific | perfect | plenty | pop 
 	| possible | pretty | progressive | probable | psychedelic | punk
-        | quick | refreshing | reflecting | redundant | recursive | remarkable | repetitive | revolutionary | resource | rich | rough
+        | quick | radioactive | refreshing | reflecting | redundant | recursive | remarkable 
+	| repetitive | revolutionary | resource | rich | robotic | rough
         | safe | seamless | serious | short | simple | single | slippery | smooth
         | slow | small | smart | solid | stellar | sweet | third | transparent
         | visual | warm | wicked;
 
 
 Material ::= artificial | brass | ceramic | chain | cinder | cobalt | concrete 
-	| copper | electric | fire | glass | gold | gum | iron 
-	| lumber | laminate | metal | painted | plastic | plasma 
+	| copper | electric | fire | flesh | glass | gold | gum | iron 
+	| lumber | laminate | meat | metal | painted | plastic | plasma 
 	| silver | structured | stone | tarmac | thermal | tin | water | wooden ; 
 
 Pronoun	::= something | someone | anyone | everyone ;
@@ -166,7 +168,7 @@ Plaont	::= cliff | coastline | floor | highway | planet | side | stage | stairca
 
 Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
 
-Plaint	::= alley | arbor | arcade | castle | circus | desert | factory | field | fortress | galaxy | garden
+Plaint	::= alley | arbor | arcade | cage | castle | circus | desert | factory | field | fortress | galaxy | garden
 	| haven | house | labyrinth | maze | nest | restaurant | shop | underground | universe | world;
 
 TTPlace	::= at the >Plaat | on the >Plaont | on >Plaon | in the >Plaint | in >City ; 
@@ -203,9 +205,9 @@ Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle | a
         | icon | idea | information | image | initiative 
         | operation | opinion ;
 
-Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | call | camera 
+Itema  	::=  background | beat | beacon | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | call | camera 
 	| can | candy | carbon | case | card | catalog | check | chance | chime | chip | chrome | circuit | click | clock 
-	| cloud | code | computer | color | collection | competition | compression | concept | console | content | context 
+	| cloud | code | computer | color | collection | competition | compression | concept | cone | console | content | context 
 	| count | cover | crack | culture | dance | desire | death | deck | design | disc | dollar | doubt | dream 
 	| destruction |  drop | drug | face | factor | fan | fault | feeling | fear | fence | fiber | finger | fire 
 	| flower | fragment | girl | game | getaway | guide | grammar | guitar | hand | hardware | halo | hate | hazard | head | heap 
@@ -215,7 +217,7 @@ Itema  	::=  background | beat | bee | belief | bike | blade | block | blossom |
 	| package | page | part | passage | pattern | pearl | performance | personal | perspective | petal | photo | piece 
 	| platform | plug | point | polaroid | poster | potential | power | product | project | promise | race 
 	| rainbow | reason | rebellion | record | rendering | requiem | resolution | rest | return | rhythm | ring | riot 
-	| rock | scan | scene | scroll | screw | sequence | serie | sleep | session | setting | share | show 
+	| rock | sail | scan | scene | scroll | screw | sequence | serie | sleep | session | setting | share | show 
 	| silence | size | skin | sleep | slot | solitude | something | sound | software | song | source | spell 
 	| sphere | spirit | square | stop | stone | switch | tape | tarot | tattoo 
 	| tongue | track | tree | triangle | vault | vitamin | wiring | work;

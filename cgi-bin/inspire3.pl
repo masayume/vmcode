@@ -9,7 +9,7 @@ my (%POST, %QUERY);
 %QUERY = &parse_args;
 
 $collen 	= 35;	# column length
-$colnum 	= 4;	# column number
+$colnum 	= 3;	# column number
 $insnum 	= $collen * $colnum;
 $maxnum 	= 4 * $collen * $colnum;
 $maxtype	= 133;
@@ -121,7 +121,7 @@ foreach $insp (@inspirelets) {
         $qqhtml = "<a href='$preqstring' target='_blank'>GI</a>";
         my $style = "<span style=\"font-family:" . &fontstyle(1) . "\">";
 	$insp = ucfirst($insp);
-        print "\n" . $qqhtml . " <strong> " . $style . $insp . "</strong>" . "</span><br /><br />";
+        print "\n" . $qqhtml . " <h2> " . $style . $insp . "</h2>" . "</span>";
 } 
 # exit(0);
 
