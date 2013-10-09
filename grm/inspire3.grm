@@ -3,13 +3,13 @@ I ::=   "title:    INSPIRE\n"
     ^ "last update: 30/09/2013 previous: 29/08/2013 "
     ^ "semantic flavor: words from http://blog.iso50.com/" 
     ^ "reference: http://www.polygen.org/it/manuale"
-    ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2";
+    ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2"
     ^ "reference: http://loremgibson.com/";
 
 S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t2]" | "Guide" to TPlace "[t3]" | QTime TTQPlace "[t4]"
   	| QTime of Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTQPlace "[t8]"
   	| "To" (dream | kill) AItem "[t9]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTQPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
-  	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif (Item | Items) "[t14]" | "A" thousand Qlif Item ^ s"[t15]" | "The" (Items | Item) of Emotion "[t16]"
+  	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif (Item | Items) "[t14]" | "A" Quantity Qlif Item ^ s"[t15]" | "The" (Items | Item) of Emotion "[t16]"
   	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | ([PreQlif] Qlif Char | Char ^", " Qlif | Prefix ^ (Qlif | Char)) "[t18]" | ["The"] Char PostQlif "[t19]" 
 	| "The" Char who VerbPa [AItem] "[t20]" | "For whom the" Item Verb ^s "[t21]" | "Zen and the art of" VerbIng Items "[t22]" 
 	| (["The"] Item | AItem) in QTime of Item "[t23]" | VerbIng (AItem| Item | Items | Qlif) "[t24]" | ["The"] Item (among | of the) Chars "[t25]" 
@@ -25,12 +25,14 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
   	| VerbIng Char TTQPlace "[t51]" | ("A" | "The") [Prefix ^] Item (of | named) Emotion "[t52]" | Verb ^ "-" ^ Number "[t53]" | Item ^ "," TPlace and everything "[t54]"
   	| [Qlif] Char of the Item "[t55]" | Chars "Vs" Chars "[t56]" | TPlace of Items [ and Items ] "[t57]" | Char [^ "," Char] and Char "[t58]"
   	| (QlifCol | [Qlif]) Item and [Qlif] Items "[t59]" | "This" Item is full of CharAnis "[t60]" | Qlif is the Item "[t61]" | "A" Char is VerbIng me "[t62]"
-  	| "The" Emotion games "[t63]" | "The" NQlif of (being Qlif | Item)"[t64]" | "The" QlifCol Item "[t65]" | "The curse" of the Qlif Item "[t66]"
+  	| "The" Emotion (games | phase) "[t63]" | "The" NQlif of (being Qlif | Item)"[t64]" | "The" QlifCol Item "[t65]" | "The curse" of the Qlif Item "[t66]"
   	| (Emotion | Item) for AItem "[t67]" | ("The" | "This" | "That") Body is a Qlif Char "[t68]" | Verb this Item "[t69]" | Qlif Time2 ^ "'s" Item [TTQPlace] "[t70]"
   	| "The" art of VerbIng [in the Atmo] "[t71]" | "Don't" Verb this Item "[t72]" | ("If" | "When") you are [(so | very | a little)] Qlif "[t73]"
   	| (through the | over the | under the | like a ) VerbIng Item "[t74]" | [Emotion] TTQPlace "[t75]" | "Never threaten to" Verb your Items "[t76]"
-  	| Prefix ^ (Item | Verb) [ ^ "!"] "[t77]" | Prefix ^ PlaceNN "[t78]" | PlaceNN Char "[t79]"
-  	| "Saving" Chars from VerbIng "[t80]"
+  	| Prefix ^ (Item | Verb | Char) [ ^ "!"] "[t77]" | Prefix ^ PlaceNN "[t78]" | PlaceNN Char "[t79]" | "Saving" Chars from VerbIng "[t80]"
+  	| Item ^ "'s" Item "[t81]" | "The" XTime of our Emotion "[t82]" | "You can't" Verb all (day | night | the time) "[t83]" | "My" (Item | Items) may be VerbEn "[t84]"
+	| my Body still looks Qlif "[t85]"
+  	| Item ^ Verber ^ ["!"] "[t86]"
   	| _ "[tn]"
 ;
 
@@ -41,7 +43,7 @@ Char	::= CharX | CharAni | >CharA | >CharA1 | >Charsp.S | >Charsp1.S;
 Chars	::= CharX ^ s | CharA ^s | Charsp.P;
 
 Charsp	::= child ^(S: _ | P: ren) 
-	| ( bull | faer | fair | lad | mercenar | revolutionar | secretar | sp | visionar | trinit) ^(S: y | P: ies) 
+	| ( bull | faer | fair | lad | mercenar | (S: man | P: men) | revolutionar | secretar | sp | visionar | trinit) ^(S: y | P: ies) 
 	| ( enchantress | hero | seductress | priestess | princess | witch ) ^(S: _ | P: es) | wom ^(S: an | P: en) 
 	| dilettant ^(S: e | P: i ) | thie ^(S: f | P: ves); 
 
@@ -122,18 +124,18 @@ Effect	::= advantage | benefit | convenience | disadvantage | drawback | perk | 
 
 NQlif 	::= >Qlifity ^ity | >Qlifns ^ness;
 
-Qlif 	::= >Qlifity | >Qlifns | >QlifCol | >Material ;
+Qlif 	::= >Qlifity | >Qlifns | >QlifCol | >Material | >Verbed ^ ed | Verb11 ^ ed | VerbIr.Past ;
 
 Qlifity ::= atomic | artificial | chemical | circular | critical | curious | electric | experimental
-	| ethereal | exceptional | familiar | holographic | minimal | natural | original | real 
+	| ethereal | exceptional | familiar | fluid | holographic | industrial | minimal | natural | neural | original | real 
 	| social;
 
 QlifCol	::= azure | black | blue | brown | crimson | cyan | dark 
 	| golden | green | pink | teal | turquoise | yellow | white ; 	
 		
-Qlifns 	::= american | angular | abstract | analog | atlantic | awesome | beautiful | big | bitter
+Qlifns 	::= american | angular | abstract | analog | atlantic | augmented | awesome | beautiful | big | bitter
         | blonde | breathtaking | brave | bright | broken | clockwork | cold | chill | cool
-        | collective | compact | complete | cracked | dark | dazed | deep | different | digital | dirty
+        | collective | compact | complete | cracked | dark | dazed | deep | different | digital | dirty | disposable
         | easy | eerie | electronic | elegant | english | enormous | false | far | fast | favorite 
 	| flat | french | fresh | full | german | good | goth | great 
         | hard | hazy | heavy | hidden | high | hot | hypnotic | huge | human | immediate | impossible
@@ -144,15 +146,15 @@ Qlifns 	::= american | angular | abstract | analog | atlantic | awesome | beauti
 	| possible | pretty | progressive | probable | psychedelic | punk
         | quick | radioactive | refreshing | reflecting | redundant | recursive | remarkable 
 	| repetitive | revolutionary | resource | rich | robotic | rough
-        | safe | seamless | serious | short | simple | single | slippery | smooth
+        | safe | seamless | sentient | serious | short | simple | single | slippery | smooth
         | slow | small | smart | solid | stellar | sweet | third | transparent
         | visual | warm | wicked;
 
 
 Material ::= artificial | brass | ceramic | chain | cinder | cobalt | concrete 
-	| copper | electric | fire | flesh | glass | gold | gum | iron 
-	| lumber | laminate | meat | metal | painted | plastic | plasma 
-	| silver | structured | stone | tarmac | thermal | tin | water | wooden ; 
+	| copper | denim | electric | fire | flesh | glass | gold | gum | iron 
+	| latex | lumber | laminate | meat | metal | painted | plastic | plasma 
+	| silver | structured | stone | tarmac | thermal | tin | vynil | water | wooden ; 
 
 Pronoun	::= something | someone | anyone | everyone ;
 
@@ -162,14 +164,14 @@ City    ::= "Baires" | "Berlin" | "Caracas" | "Hell" | "Hong Kong" | "Honolulu" 
 	| "Wonderland"
 ;
 
-Plaat 	::= crossing | edge | gap | gate | market | ocean | pool | river | school | shop | waterfall | world; 
+Plaat 	::= base | crossing | edge | gap | gate | market | ocean | pool | river | school | shop | waterfall | world; 
 
 Plaont	::= cliff | coastline | floor | highway | planet | side | stage | staircase | star | wall;
 
 Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
 
 Plaint	::= alley | arbor | arcade | cage | castle | circus | desert | factory | field | fortress | galaxy | garden
-	| haven | house | labyrinth | maze | nest | restaurant | shop | underground | universe | world;
+	| haven | house | labyrinth | maze | nest | restaurant | shop | skyscraper | tower | underground | universe | world;
 
 TTPlace	::= at the >Plaat | on the >Plaont | on >Plaon | in the >Plaint | in >City ; 
 
@@ -182,17 +184,18 @@ PlaceNN	::= ( >Plaat | >Plaont | >Plaon | >Plaint ) ;
 
 Place	::= [[Prefix ^]] >Plaat | [[Prefix ^]] >Plaont | [[Prefix ^]] >Plaon | [[Prefix ^]] >Plaint | >City ; 
 
-Item	::= Itemn | >Iteman | >Itema | >Body ; 
+Item	::= Itemn | >Iteman | >Itema | >Body | >ItemS ; 
 
-AItem	::= Itemn | an >Iteman | a >Itema ;
+AItem	::= Itemn | an >Iteman | a >Itema | some >ItemS;
 
-Items   ::= >Item ^ s | >Body ^ s | >Itemsp.P ;
+Items   ::= >Item ^ s | >Body ^ s | >Itemsp.P | >ItemS ;
 
-Itemsp  ::= (alchem | bod | cand | compan | destin | dut | energ | identit | melod | ministr | part | stor | technolog)^(S: y | P: ies)
+Itemsp  ::= (alchem | bod | cand | compan | destin | dut | energ | identit | melod | ministr | part | realit | stor | technolog)^(S: y | P: ies)
         | (echo | guess | jinx | touch | zero) ^(S: _ | P: es)
         | analis ^(S: ys | P: es) | (S: bit | P: byte)
-        | (atlas | business | bonus | cargo | mass) ^(S: _ | P: es)
+        | (atlas | business | bonus | cargo | mass | [wrist ^] watch) ^(S: _ | P: es)
         | deliri ^(S: um | P: a)
+        | (katana | gravity)^(S: _ | P: _)
         | (li | kni) ^(S: fe | P: ves)
         | lea ^(S: f | P: ves)
         | (S: tooth | P: teeth)
@@ -200,12 +203,12 @@ Itemsp  ::= (alchem | bod | cand | compan | destin | dut | energ | identit | mel
 
 Itemn	::= everything ;
 
-Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle | apocalypse | art | artwork | attitude
+Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle | apocalypse | app | art | artwork | attitude
         | effect | engine | end | environment | experiment | expression | existence | eye
         | icon | idea | information | image | initiative 
         | operation | opinion ;
 
-Itema  	::=  background | beat | beacon | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | call | camera 
+Itema  	::=  background | beam | beat | beacon | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | call | camera 
 	| can | candy | carbon | case | card | catalog | check | chance | chime | chip | chrome | circuit | click | clock 
 	| cloud | code | computer | color | collection | competition | compression | concept | cone | console | content | context 
 	| count | cover | crack | culture | dance | desire | death | deck | design | disc | dollar | doubt | dream 
@@ -213,18 +216,20 @@ Itema  	::=  background | beat | beacon | bee | belief | bike | blade | block | 
 	| flower | fragment | girl | game | getaway | guide | grammar | guitar | hand | hardware | halo | hate | hazard | head | heap 
 	| heart | hologram | horror | hop | hope | hour | label | land | language | lap | light | line | link | lip 
 	| list | logic | logo | love | key | lead | level | magazine | magic | meaning | medley | mind | miniature | mirror 
-	| mission | money | mood | motion | mouth | move | music | name | need | note | nothing | network | nuke | pace 
+	| mission | mood | motion | mouth | move | music | name | narrative | need | note | nothing | network | nuke | pace 
 	| package | page | part | passage | pattern | pearl | performance | personal | perspective | petal | photo | piece 
 	| platform | plug | point | polaroid | poster | potential | power | product | project | promise | race 
-	| rainbow | reason | rebellion | record | rendering | requiem | resolution | rest | return | rhythm | ring | riot 
-	| rock | sail | scan | scene | scroll | screw | sequence | serie | sleep | session | setting | share | show 
+	| rainbow | reason | rebellion | record | rendering | requiem | resolution | rest | return | rifle | rhythm | ring | riot 
+	| rock | sail | saturation | scan | scene | scroll | screw | sequence | serie | sleep | session | setting | share | shirt | show 
 	| silence | size | skin | sleep | slot | solitude | something | sound | software | song | source | spell 
-	| sphere | spirit | square | stop | stone | switch | tape | tarot | tattoo 
-	| tongue | track | tree | triangle | vault | vitamin | wiring | work;
+	| sphere | spirit | square | stop | stone | switch | table | tape | tarot | tattoo 
+	| tongue | track | tree | triangle | vault | vehicle | vitamin | wiring | work;
 
-Food	::= water | chocolate ;
+ItemS	::= money | media ;
 
-Body	::= arm | eye | face | hand | heart | heel | leg | mind | soul ;
+Food	::= beef | chocolate | noodles | sushi | water ;
+
+Body	::= arm | eye | face | hand | hair | heart | heel | leg | mind | soul ;
 
 Verb  	::= >Verbed | >Verb1 | >VerbIr.Pres ;
 
@@ -236,18 +241,16 @@ VerbEn  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Part ;
 
 VerbIng ::= >Verb11 ^ing | >Verbed ^ing | >VerbIr.Ing ;
 
-Verbed  ::= accept | account | act | add | count | cover | cross | enjoy | exist | expect
-        | happen | head | learn | open | order | own | reflect | test | affect | check
-        | claim | explain | express | extend | help | limit | pass | perform | pick
-        | regard | remain | shout | show | thank | touch
-	| aim | allow | answer | clean | clear | fail | hurt | link | listen | live | remember | repeat | train | treat
-	| appear | climb | collect | deliver | demand | look | point | report | sort | turn
-	| ask | complain | depend | design | fill | finish | mark | present | press | prevent | represent | rest | sound | visit
-	| attack | avoid | call | matter | result  | concern | confirm | connect | correct | cost | develop | consider | consist 
-	| contact | contain | disappear | discover | discuss | draw | dress | fold | follow | found | gain | form | inform | intend | join | jump | keep | kick 
-	| kill | knock | last | laugh | mention | mind | miss | must | need | obtain | occur | offer | protect | publish | pull | push 
-	| reach | record | return | reveal | roll | seem | start | succeed | suffer | suggest | suit | support | wait 
-	| walk | want | warn | wash | watch | will | wish | wonder | work 
+Verbed  ::= accept | account | act | add | affect | aim | allow | answer | appear | ask | attack | avoid | call | check | claim | clean 
+	| clear | climb | collect | complain | concern | confirm | connect | consider | consist | contact | contain | correct | corrupt 
+	| cost | count | cover | cross | deliver | demand | depend | design | develop | disappear | discover | discuss | draw | dress 
+	| enjoy | exist | expect | explain | express | extend | fail | fill | finish | fold | follow | form | found | gain | happen | head | help 
+	| hurt | inform | intend | interrupt | join | jump | keep | kick| kill | knock | last | laugh | learn | limit | link | listen | look | mark | matter 
+	| mention | mind | miss | must | need | obtain | occur | offer | open | order | own | pass | perform | pick| point | present 
+	| press | prevent | protect | publish | pull | push| reach | record | reflect | regard | remain | remember | repeat | report 
+	| represent | rest | result  | return | reveal | roll | seem | shout | show | sort | sound | start | succeed | suffer | suggest 
+	| suit | support | test | thank | touch | train | treat | turn| visit | wait | walk | want | warn | wash | watch | will | wish | wonder 
+	| work
 ;
 
 Verb1	::= Verb11 ^e ;
@@ -256,8 +259,8 @@ Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
         | argu | clos | decid | hop | imagin | improv | lov | plac | prepar | remov | replac | smil
         | arrang | arriv | compar | describ | increas | indicat | includ | influenc | mak | manag | requir | us
         | bas | belong | becom | believ | complet | continu | contribut | divid | enabl | encourag | produc
-        | forc | handl | introduc | invit | involv | measur | mov | notic  | promis | prov | provid
-        | rais | realiz | receiv | recogniz | releas | ris | sav | separat | serv | suppos | surviv | vot | stat
+        | forc | handl | introduc | invit | involv | liv | easur | mov | notic  | promis | prov | provid
+        | rais | realiz | receiv | recogniz | releas | ris | sav | separat | serv | stimulat | suppos | surviv | vot | stat
 ;
 
 Verb2   ::= (appl | bu | carr | cop | cr | den | destro | fl | identif | la | ma | pa | pla | repl | sta | stud | worr | tr ) ^(Pres: y | Past: ied);
@@ -283,7 +286,7 @@ VerbIr::= (Pres:can|Part:could|Past:could|Ing:staying)|(Pres:lead|Part:led|Past:
 	|(Pres:go|Part:gone|Past:went|Ing:going)|(Pres:grow|Part:grown|Past:grew|Ing:growing)|(Pres:know|Part:known|Past:knew|Ing:knowing)
 	|(Pres:mean|Part:meant|Past:meant|Ing:meaning)|(Pres:put|Part:put|Past:put|Ing:putting)
 	|(Pres:read|Part:read|Past:read|Ing:reading)|(Pres:ring|Part:rung|Past:rang|Ing:ringing)|(Pres:rise|Part:risen|Past:rose|Ing:rising)
-	|(Pres:meet|Part:met|Past:met|Ing:meeting)
+	|(Pres:meet|Part:met|Past:met|Ing:meeting)|(Pres:ride|Part:ridden|Past:rode|Ing:riding)
 	|(Pres:run|Part:run|Past:ran|Ing:running)|(Pres:see|Part:seen|Past:saw|Ing:seeing)|(Pres:sell|Part:sold|Past:sold|Ing:selling)
 	|(Pres:shake|Part:shaken|Past:shook|Ing:shaking)
 	|(Pres:send|Part:sent|Past:sent|Ing:sending)|(Pres:set|Part:set|Past:set|Ing:setting)|(Pres:stick|Part:stuck|Past:stuck|Ing:sticking)
@@ -315,3 +318,5 @@ Digit	::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ;
 Year	::= 2 ^( 0 | 1 ) ^Digit ^Digit ;
 
 Number	::= Digit [^ Digit] [^ Digit] ;
+
+Quantity ::= thousand | hundred | dozen | handful ;
