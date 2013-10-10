@@ -31,9 +31,10 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
   	| (through the | over the | under the | like a ) VerbIng Item "[t74]" | Emotion TTQPlace "[t75]" | "Never threaten to" Verb your Items "[t76]"
   	| Prefix ^ (Item | Verb | Char) [ ^ "!"] "[t77]" | Prefix ^ PlaceNN "[t78]" | PlaceNN Char "[t79]" | "Saving" Chars from VerbIng "[t80]"
   	| Item ^ "'s" Item "[t81]" | "The" XTime of our Emotion "[t82]" | "You can't" Verb all (day | night | the time) "[t83]" | "My" (Item | Items) may be VerbEn "[t84]"
-	| my Body still looks Qlif "[t85]"
-  	| Item ^ Verber ^ ["!"] "[t86]"
-  	| Qlif Chars Verb the Item "[t87]"
+	| my Body still looks Qlif "[t85]" | Item ^ Verber ^ ["!"] "[t86]" | Qlif Chars Verb the Item "[t87]" | "Of" Qlif Items "[t88]" | "A" Qlif [and Qlif] Item "[t89]"
+  	| Emotion and other Qlif Items "[t90]" | Char ^ "'s" (Items | Item ) "[t91]" | (Items | Item ) [ ^"," (Items | Item )] and (Items | Item ) "[t92]"
+  	| VerbEn with (the (Items | Item ) | AItem) "[t93]" | Char Verbes "[t94]" | Number uses for a Qlif Item "[t95]"
+  	| "The" Qlif Item of NQlif "[t96]"
   	| _ "[tn]"
 ;
 
@@ -54,7 +55,7 @@ Char1	::= "Alice" | "Casanova" | "Circe" | someone | everyone | people ;
 
 CharA   ::= blonde | beggar | black widow | boy | bride | brother | brunette | builder | burglar | caregiver | chef 
 	| chief | clown | communicator| companion| consort | consumer | copyist | counselor| counselor | courier | coward 
-	| craftsperson | critic | crone| damsel | defender | destroyer | detective | devotee | diplomat | disciple | doctor 
+	| craftsperson | critic | crone | damsel | defender | destroyer | detective | devil | devotee | diplomat | disciple | doctor 
 	| double agent | dreamer | driver | esper | evangelist | father | femme fatale | flirt | follower| fool | friend | gambler | gigolo | girl 
 	| glutton | god | godfather | godmother | gourmet | guide | gunslinger | guru | guy | healer | hedonist | herald | hermit 
 	| heroine | host | hunter | innocent | jester | journalist | judge | kid | king| knight | leader | lord | lover | mad scientist | magician 
@@ -107,7 +108,7 @@ Emsad	::= sadness | depression | despair | gloom | glumness | unhappy | grief | 
 	| melancholy | torment | suffering | agony | anguish | hurt | disappointment | dismay | displeasure ;
 Emdisg	::= shame | guilt | regret | remorse | neglect	 | alienation | defeatism | dejection | embarrassment 
 	| humiliation | insecurity | insult | isolation | loneliness | rejection | pity | sympathy ;
-Emfear	::= fear | horror | alarm | shock | fear | fright | horror | terror | panic | hysteria | mortification 
+Emfear	::= fear | horror | alarm | shock | fear | fright | horror | terror | panic | paranoia | hysteria | mortification 
 	| nervousness | anxiety | suspense | uneasiness | apprehension | worry | distress | dread ;
 
 Adverb ::= accidentally | always | angrily | anxiously | awkwardly | badly | blindly | boastfully | boldly | bravely | brightly
@@ -128,8 +129,8 @@ NQlif 	::= >Qlifity ^ity | >Qlifns ^ness;
 Qlif 	::= >Qlifity | >Qlifns | >QlifCol | >Material | >Verbed ^ ed | Verb11 ^ ed | VerbIr.Past ;
 
 Qlifity ::= atomic | artificial | chemical | circular | critical | curious | dynamic | electric | experimental
-	| ethereal | exceptional | familiar | fluid | holographic | industrial | minimal | natural | neural | null | original | real 
-	| social | virtual ;
+	| ethereal | exceptional | familiar | fluid | holographic | industrial | minimal | natural | neural | null | original 
+	| physical | real | social | virtual ;
 
 QlifCol	::= azure | black | blue | brown | crimson | cyan | dark 
 	| golden | green | pink | teal | turquoise | yellow | white ; 	
@@ -138,9 +139,9 @@ Qlifns 	::= american | angular | abstract | analog | atlantic | augmented | awes
         | blonde | breathtaking | brave | bright | broken | clockwork | cold | composite | chill | cool
         | collective | compact | complete | cracked | dark | dazed | deep | different | digital | dirty | disposable
         | easy | eerie | electronic | elegant | english | enormous | false | far | fast | favorite 
-	| flat | french | fresh | front | full | german | good | goth | great 
+	| flat | fluent | french | fresh | front | full | german | good | goth | great 
         | half | hard | hazy | heavy | hidden | high | hot | hypnotic | huge | human | immediate | immutable | impossible
-        | incredible | intense | invisible | italian | japanese | key | kind | layered
+        | incredible | infinite | intense | invisible | italian | japanese | key | kind | layered
         | licensed | light | little | live | lonely | long | lost | lucky | luminous | maniac | mass
         | mechanical | mixed | modern | monster | mute | naked | new | nice | nordic | notable | nuclear
         | old | online | organic | outstanding | pacific | perfect | plenty | pop 
@@ -148,30 +149,30 @@ Qlifns 	::= american | angular | abstract | analog | atlantic | augmented | awes
         | quick | radioactive | refreshing | reflecting | redundant | recursive | remarkable 
 	| repetitive | revolutionary | resource | rich | robotic | rough
         | safe | seamless | sentient | serious | short | simple | single | slippery | smooth
-        | slow | small | smart | solid | stellar | sweet | third | tiny | transparent
+        | slow | small | smart | solid | stellar | sweet | terrible | third | tiny | transparent | ultimate 
         | visual | warm | wicked;
 
 
 Material ::= artificial | brass | ceramic | chain | cinder | cobalt | concrete 
-	| copper | denim | electric | fire | flesh | glass | gold | gum | iron 
+	| copper | denim | electric | fire | flesh | glass | gold | gum | ice | iron 
 	| latex | lumber | laminate | layered | meat | metal | neon | paper | painted | plastic | plasma 
-	| silver | structured | stone | tarmac | thermal | tin | vynil | water | wooden ; 
+	| silver | steel | structured | stone | tarmac | thermal | tin | vynil | water | wooden ; 
 
 Pronoun	::= something | someone | anyone | everyone ;
 
-City    ::= "Baires" | "Berlin" | "Caracas" | "Hell" | "Hong Kong" | "Honolulu" | "London" | "Los Angeles"
-        | "Madrid" | "Melbourne" | "Moscow" | "New York" | "Paris"
+City    ::= "Baires" | "Berlin" | "Caracas" | "Cairo" | "Hell" | "Hong Kong" | "Honolulu" | "Kyoto" | "London" | "Los Angeles"
+        | "Madrid" | "Melbourne" | "Moscow" | "New York" | "Osaka" | "Paris"
         | "Rome" | "San Francisco" | "Shanghai" | "Seattle" | "Tokyo" | "Vancouver" | "Vegas" | "Space"
 	| "Wonderland"
 ;
 
-Plaat 	::= base | crossing | edge | gap | gate | market | ocean | pool | river | school | shop | waterfall | world; 
+Plaat 	::= base | crossing | edge | gap | gate | market | ocean | pool | river | school | shop | shrine | waterfall | world; 
 
 Plaont	::= bridge | cliff | coastline | floor | highway | planet | side | stage | staircase | star | wall;
 
 Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
 
-Plaint	::= alley | arbor | arcade | cage | castle | circus | desert | factory | field | fortress | galaxy | garden
+Plaint	::= alley | arbor | arcade | cage | castle | circus | desert | factory | field | fortress | galaxy | garage | garden
 	| haven | house | labyrinth | maze | nest | pool | restaurant | shop | skyscraper | tower | underground | universe | world;
 
 TTPlace	::= at the >Plaat | on the >Plaont | on >Plaon | in the >Plaint | in >City ; 
@@ -191,7 +192,7 @@ AItem	::= Itemn | an >Iteman | a >Itema | some >ItemS | a >Itemspa.S | an Itemsp
 
 Items   ::= Itemn ^ s | >Iteman ^ s | >Itema ^ s | >Body ^ s | >Itemspa.P | >Itemspan.P | >ItemS | Verber ^ s;
 
-Itemspa  ::= (bod | cand | compan | destin | dut | melod | ministr | part | realit | stor | strateg | technolog)^(S: y | P: ies)
+Itemspa  ::= (bod | cand | compan | destin | dictionar | dut | melod | ministr | part | realit | stor | strateg | technolog)^(S: y | P: ies)
         | (guess | jinx | touch | zero) ^(S: _ | P: es)
         | (S: bit | P: byte)
         | (business | bonus | cargo | mass | [wrist ^] watch) ^(S: _ | P: es)
@@ -215,13 +216,13 @@ Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle | a
         | icon | idea | information | image | initiative | interface 
         | operation | opinion ;
 
-Itema  	::=  background | beam | beat | beacon | bee | belief | bike | blade | block | blossom | bomb | bell | bubble | cache | call | camera 
+Itema  	::=  background | beam | beat | beacon | bee | belief | bell | bike | blade | block | blossom | bomb | bondage | bubble | cache | call | camera 
 	| can | candy | carbon | case | card | catalog | check | chance | chime | chip | chrome | circuit | click | clock 
 	| cloud | code | computer | color | collection | command | competition | compression | concept | cone | console | content | context 
 	| count | cover | crack | culture | dance | desire | death | deck | design | disc | dollar | doubt | dream 
 	| destruction |  drop | drug | facade | face | factor | fan | fault | feeling | fear | fence | fiber | filter | finger | fire | franchise  
-	| flower | fragment | girl | game | getaway | guide | grammar | guitar | hand | hardware | halo | hate | hazard | head | heap 
-	| heart | hologram | horror | hop | hope | hour | label | land | language | lap | light | line | link | lip 
+	| flower | fragment | girl | game | getaway | glass | guide | grammar | guitar | gun | hand | hardware | halo | hate | hazard | head | heap 
+	| heart | hologram | horror | hop | hope | hour | label | land | language | lap | lie | light | line | link | lip 
 	| list | logic | logo | love | key | lead | level | magazine | magic | marker | meaning | medley | method | mind | miniature | mirror 
 	| mission | model | mood | motion | mouth | move | music | name | narrative | need | note | nothing | network | nuke | pace 
 	| package | page | part | passage | pattern | pearl | performance | personal | perspective | petal | photo | piece 
@@ -230,11 +231,11 @@ Itema  	::=  background | beam | beat | beacon | bee | belief | bike | blade | b
 	| rock | sail | saturation | scan | scene | scroll | screw | sequence | serie | service | sleep | session | setting | share | shirt | show 
 	| silence | singleton | size | skin | sleep | slot | solitude | something | sound | software | song | source | spell 
 	| sphere | spirit | square | stop | stone | switch | table | tape | tarot | tattoo 
-	| tongue | track | transfer | tree | triangle | type | vault | vehicle | view | vitamin | wheel | wiring | work;
+	| tongue | topic | track | transfer | tree | triangle | type | vault | vehicle | view | vitamin | wheel | wiring | work;
 
 ItemS	::= data | money | media ;
 
-Food	::= beef | chocolate | noodles | sushi | water ;
+Food	::= beef | chocolate | noodles | soup | sushi | water | wonton ;
 
 Body	::= arm | eye | ear | face | finger | hand | hair | heart | heel | leg | mind | nail | soul ;
 
@@ -242,23 +243,29 @@ Verb  	::= >Verbed | >Verb1 | >VerbIr.Pres ;
 
 Verber 	::= (>Verbed | >Verb11 | >VerbIr.Ing) ^er ;
 
+Verbes 	::= >Verbed1 ^s | >Verbed2 ^s | (>Verb11 | >VerbIr.Ing) ^es ;
+
 VerbPa  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Past ;
 
 VerbEn  ::= >Verbed ^ed | >Verb1 ^d | >VerbIr.Part ;
 
 VerbIng ::= >Verb11 ^ing | >Verbed ^ing | >VerbIr.Ing ^ ing ;
 
-Verbed  ::= accept | account | act | add | affect | aim | allow | answer | appear | ask | attack | avoid | call | check | claim | clean 
+Verbed	::= >Verbed1 | >Verbed2 ;
+
+Verbed1 ::= accept | account | act | add | affect | aim | allow | answer | appear | ask | attack | avoid | call | check | claim | clean 
 	| clear | climb | collect | complain | concern | confirm | connect | consider | consist | contact | contain | correct | corrupt 
-	| cost | count | cover | cross | deliver | demand | depend | design | develop | disappear | discover | discuss | draw | dress 
-	| enjoy | exist | expect | explain | express | extend | fail | fill | finish | fold | follow | form | found | gain | happen | head | help 
+	| cost | count | cover | deliver | demand | depend | design | develop | disappear | discover | discuss | draw  
+	| enjoy | exist | expect | explain | express | extend | fail | fill | fold | follow | form | found | gain | happen | head | help 
 	| hurt | inform | intend | intercept | interrupt | join | jump | kick| kill | knock | last | laugh | learn | limit | link | listen | look | mark | matter 
-	| mention | mind | miss | must | need | obtain | occur | offer | open | order | own | pass | perform | pick| point | present 
-	| press | prevent | protect | publish | pull | push| reach | record | reflect | regard | remain | remember | repeat | report 
+	| mention | mind | miss | must | need | obtain | occur | offer | open | order | own | perform | pick| point | present 
+	| press | prevent | protect | pull | push| reach | record | reflect | regard | remain | remember | repeat | report 
 	| represent | rest | result  | return | reveal | roll | seem | shout | show | sort | sound | start | succeed | suffer | suggest 
-	| suit | support | test | thank | touch | train | treat | turn| visit | wait | walk | want | warn | wash | watch | will | wish | wonder 
+	| suit | support | test | thank | train | treat | turn| visit | wait | walk | want | warn | wash | watch | will | wonder 
 	| work
 ;
+
+Verbed2	::= cross | dress | finish | pass | publish | touch | wish ;
 
 Verb1	::= Verb11 ^e ;
 Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
@@ -314,7 +321,7 @@ QTime ::= (a | the) >Time1 | one >Time1o | an >Time2n | >Time3 | some >Time5;
 XTime ::= >Time1 | >Time2 | >Time3 ;
 
 Prefix	::= anti | astro | demi | down | extra | giga | hypo | hemi | hi | hyper | holo | inter | infra 
-	| micro | mega | nano | out | over | mini | maxi | pre | post | super | trans | ultra | up ;
+	| micro | mega | mono | nano | out | over | mini | maxi | pre | post | super | trans | ultra | up ;
 
 PreQlif	::= "The first" | "The last" | "All" | "After" | "Alternative"
         | "Always" | "Any" | "Before" | "Certainly" | "Pre -" | "Post -";
