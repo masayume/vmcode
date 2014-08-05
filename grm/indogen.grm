@@ -1,0 +1,94 @@
+I ::= "title:     Goblin & hobgoblin \n"
+    ^ "author:    " \(flavio|balder|olaf "IV") "\n"
+    ^ "language:    " ita^[g]^lian^[o] "\n"
+    ^ "status:    versione 1.1" [eta] beta "\n"
+    ^ "topic:     misc \n"
+    ^ "dedication:    " _,non dedicato a \francesca,cosa "\n"
+    ^ "comment:     questa" ["("^s^")"^] grammatica ["(de)"^generativa] "sforna i tipici indovinelli logici della serie veritieri/mentitori \n"
+    ^ "warning:    non adatta a soggetti di eta' superiore ai" (1|2|3|4|5|6|7|9)^(2|3|4|5|6|7|9) "anni \n" (* questa l'ho fregata al Farmagen... ;-) *)
+    ^ "thanks:     un grande grazie al mago" \(smullyan|raymond) "\n"
+    ^ "created:    " GG ^"/"^ MM ^"/"^ AAAA "\n";
+
+GG ::= >>0^Nz | (1 | 2)^N | 30 | 31<< ;
+
+MM ::= >>0^Nz | 10 | 11 | 12<< ;
+
+AAAA ::= 20^N^N ;
+
+N ::= 0 | >Nz ;
+
+Nz::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ;
+
+
+A := \>>(+al | -ar | -ak) ^Des | \adler (-"("^inferiore^")" | _)<<;
+B := \(+bal | +bol | bor | -bur) ^Des ;
+C := \(+cul | +col | -cax) ^Des ;
+Des ::= +fio | +der | +do | -dus | +bo | +po | zok | del | -xus ;
+
+S ::= Introduzione.(Voc|Cons) ^"\n\n"
+      ^"-" A Frase.PA.(P2B|P2C).(Parte2si|Parte2no) ^".\n\n"
+      ^"-" B Frase.PB.(P2A|P2C).(Parte2si|Parte2no) ^".\n\n"
+      ^"-" C Frase.PC.(P2A|P2B).(Parte2si|Parte2no) ^".\n\n"
+      ^ Spiegazione ^"\n\n"
+      ;
+
+Frase ::= -----Niente | Qualcosa ;
+
+Niente ::= >>[Rimane e] (non (dice (nulla | alcunche' | niente | un (cavol^(o|fiore) | corbezzolo | cappero)) | emette suono | fa un fiato | proferisce verbo)
+               | se ne sta (muto | zitto) [come un (X:=pesce|grillo|riccio|software|gufo; Y:=morto|talpa|di mare|di terra|obsoleto|spento ; Z:=pesce|morto|pero ; Z | X Y )]
+               )<< ;
+
+Rimane ::= (ri|per)^mane (imbambolato|fermo|immobile|incantato) [come un (vaso (da notte|di fiori) | baldacchino | cammello | porcello)
+           (pigro | estasiato | charmato | inchiodato per terra | investito da un (carrarmato|autorimorchio|deltaplano|catamarano))] ;
+
+Qualcosa ::= Dice che Parte2 Parte3 ;
+
+Parte2 ::= (Parte2si: P2 Dice che | Parte2no:  _) ;
+
+Dice ::= dice | afferma | -sostiene | asserisce | --proclama ;
+
+Parte3 ::= Prop ;
+
+P2 ::= PA:(P2B:B|P2C:C) | PB:(P2A:A|P2C:C) | PC:(P2A:A|P2B:B) ;
+
+P3a ::= P2A:(B|C) | P2B:(A|C) | P2C:(A|B) ;
+
+P3b ::= PA:(B|C) | PB:(A|C) | PC:(A|B) ;
+
+Prop ::= +++++++(Parte2si: P3a | Parte2no: P3b) e' un (goblin | hobgoblin)
+         | +Pred.(QS|QP).(G|H)
+         | "("^ Prop e Prop ^")"
+         | "("^ Prop oppure Prop ^")"
+         | "("^ se Prop allora Prop ^")";
+
+Pred ::= Quant di loro (QS: e' un | QP: sono de^(G:_|H:gl)^i) (G:goblin | H:hobgoblin) ;
+
+Quant ::= QS: (nessuno | Qquant uno)
+         |QP: Qquant due ;
+
+Qquant ::= almeno | esattamente | al massimo ;
+
+Introduzione ::= ^"\n"^"C'era una volta un'isola" Isola "popolata esclusivamente da goblin e hobgoblin.\n"
+                 ^"I membri di queste due razze non differiscono in nulla se non per il fatto che i goblin dicono sempre il vero e gli hobgoblin dicono sempre il falso. \n"
+                 ^"Un bel giorno un" UmanoV,UmanoC "umano approda sull'isola e incontra tre indigeni:" A ^"," B e C ^".\n"
+                 ^"Avendo delle represse velleita'" Antrop ^"," (l'^),il UmanoV,UmanoC ha la Sciocca "idea di chiedere ai tre di che razza siano. Prima di essere" Squartat ^o "vivo, ottiene le seguenti risposte:" ;
+
+Isola ::= (X:=(lontana|sperduta|polygenica|bellina|bruttina|strana) ; X [X] ) ;
+
+UmanoV := esploratore|appaltatore|albergatore|allibratore ;
+UmanoC := missionario|palazzinaro|sommozzatore|programmatore|gastroenterologo ;
+
+Antrop ::=  (Pref^"-"^ | _)+ Pref ^logiche ;
+Pref ::= antropo | etno | eto | socio | porno | psico | terato |eco | glotto ;
+
+Sciocca ::= sciocca | stupida | folle | malsana | balzana | stramba | sventata ;
+
+Squartat := squartat | scuoiat | impalat | bollit | polygenat | affettat | arrostit | spappolat ;
+
+Spiegazione ::= "Voi, che (si suppone) non siete stati" Squartat ^i "vivi, sapreste dire a quale razza appartengono rispettivamente" A ^"," B e C ^"?\n"
+            ^"(Tenete presente che non sempre e' possibile dedurre le razze di tutti e tre gli indigeni. Anzi, a volte non e' possibile dedurre proprio un bel niente. E a volte le tre risposte, tutte insieme, sono addirittura impossibili - nel senso che non avrebbero mai potuto essere pronunciate, date le premesse generali sugli isolani... In quest'ultimo caso, evidentemente l'autore dell'indovinello e' un hobgoblin, o" UnoStolto.(Un|Uno) ^".)" ;
+            
+UnoStolto ::= Art Agg ;
+Art ::= Un:un | Uno:uno ;
+Agg ::= Un:(idiota|fanfarone|misantropo|sociopatico|sadico) | Uno:(stolto|sciocco|psicopatico|scassascatole|sparaballe) ;
+

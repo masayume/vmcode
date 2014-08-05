@@ -1,14 +1,15 @@
 I ::=   "title:    INSPIRE\n"
-    ^ "version 3.0"
-    ^ "last update: 30/09/2013 previous: 29/08/2013 "
+    ^ "version 4.0"
+    ^ "last update: 05/08/2014 previous: 25/05/2014 "
     ^ "semantic flavor: words from http://blog.iso50.com/" 
     ^ "reference: http://www.polygen.org/it/manuale"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2"
-    ^ "reference: http://loremgibson.com/";
+    ^ "reference: http://loremgibson.com/"
+    ^ "command: unrtf /home/masayume/down/rtf2txt/Gibson... ";
 
-S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t2]" | "Guide" to TPlace "[t3]" | QTime TTQPlace "[t4]"
-  	| QTime (of | the) Item "[t5]" | [ "The" Qlif ] NQlif of Item "[t6]" | Item [^] CharA "[t7]" | "To" Verb [and Verb] TTQPlace "[t8]"
-  	| "To" (dream | kill) AItem "[t9]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTQPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
+S ::= \ "Do" Chars ActionT Qlif Items "[t01]" | Pronoun Qlif this way Acmove3 "[t02]" | "Guide" to TPlace "[t03]" | QTime TTQPlace "[t04]"
+  	| QTime (of | the) Item "[t05]" | [ "The" Qlif ] NQlif of Item "[t06]" | Item [^] CharA "[t07]" | "To" Verb [and Verb] TTQPlace "[t08]"
+  	| "To" (dream | kill) AItem "[t09]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTQPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
   	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif (Item | Items) "[t14]" | "A" Quantity Qlif Item ^ s"[t15]" | "The" (Items | Item) of Emotion "[t16]"
   	| Adverb Qlif (and | but) Adverb Qlif "[t17]" | ([PreQlif] Qlif Char | Char ^", " Qlif | Prefix ^ (Qlif | Char)) "[t18]" | ["The"] Char PostQlif "[t19]" 
 	| "The" Char who VerbPa [AItem] "[t20]" | "For whom the" Item Verb ^s "[t21]" | "Zen and the art of" VerbIng Items "[t22]" 
@@ -36,7 +37,7 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t1]" | Pronoun Qlif this way Acmove3 "[t
   	| VerbEn with (the (Items | Item ) | AItem) "[t93]" | Char Verbes "[t94]" | Number uses for a Qlif Item "[t95]" | "The" Qlif (Item | Body) of NQlif "[t96]"
   	| "I" never VerbPa a Qlif Item "[t97]" | "The" Char [always | often | never] Verbes "[t98]" | ("Is" (he | she) | "Are you" | "Am I") Qlif tonight "[t99]"
   	| ["Partial"] list of (>Items | >Chars) to Verb "[t100]" | "The" VerbIng of Item "[t101]" | "Adventures in" [Qlif] Emotion [and Emotion] "[t102]"
-  	| Verber ^ "s," (the | Time1 of) Item "[t103]"
+  	| Verber ^ "s," (the | Time1 of) Item "[t103]" | TPlace around TPlace was Qlif [like a Qlif Item] "[t104]"
   	| _ "[tn]"
 ;
 
@@ -56,7 +57,7 @@ Charsp1	::= empress ^(S: _ | P: es);
 Char1	::= "Alice" | "Casanova" | "Circe" | someone | everyone | people ;
 
 CharA   ::= blonde | beggar | black widow | boy | bride | brother | brunette | builder | burglar | caregiver | chef 
-	| chief | clown | communicator| companion| consort | consumer | copyist | counselor| counselor | courier | coward 
+	| chief | clown | crowd | communicator| companion| consort | consumer | copyist | counselor| counselor | courier | coward 
 	| craftsperson | critic | crone | damsel | defender | destroyer | detective | devil | devotee | diplomat | disciple | doctor 
 	| double agent | dreamer | driver | esper | evangelist | father | femme fatale | flirt | follower| fool | friend | gambler | gigolo | girl 
 	| glutton | god | godfather | godmother | gourmet | guide | gunslinger | guru | guy | healer | hedonist | herald | hermit 
@@ -276,14 +277,15 @@ Verb11   ::= achiev | car | caus | chang | creat | examin | experienc | hat
         | arrang | arriv | compar | describ | increas | indicat | includ | influenc | mak | manag | requir | us
         | bas | belong | becom | believ | complet | continu | contribut | divid | enabl | encourag | produc
         | forc | handl | introduc | invit | involv | liv | easur | mov | notic  | promis | prov | provid
-        | rais | realiz | receiv | recogniz | releas | ris | sav | separat | serv | stimulat | suppos | surviv | vot | stat
+        | rais | realiz | receiv | recogniz | releas | ris | sav | separat | serv | stimulat | suppos | surviv | tun | vot | stat
 ;
 
 Verb2   ::= (appl | bu | carr | cop | cr | den | destro | fl | identif | la | ma | pa | pla | repl | sta | stud | worr | tr ) ^(Pres: y | Past: ied);
 
 VerbIr::= (Pres:can|Part:could|Past:could|Ing:stay)|(Pres:lead|Part:led|Past:led|Ing:lead)|(Pres:teach|Part:taught|Past:taught|Ing:teach)
         |(Pres:die|Part:dead|Past:died|Ing:dy)
-        |(Pres:tell|Part:told|Past:told|Ing:tell)|(Pres:catch|Part:caught|Past:caught|Ing:catch)|(Pres:have|Part:had|Past:had|Ing:hav)
+        |(Pres:tell|Part:told|Past:told|Ing:tell)|(Pres:catch|Part:caught|Past:caught|Ing:catch)|(Pres:draw|Part:drew|Past:drawn|Ing:draw)
+	|(Pres:have|Part:had|Past:had|Ing:hav)
         |(Pres:lend|Part:lent|Past:lent|Ing:lend)|(Pres:hear|Part:heard|Past:heard|Ing:hear)|(Pres:shoot|Part:shot|Past:shot|Ing:shoot)
         |(Pres:cut|Part:cut|Past:cut|Ing:cutt)|(Pres:choose|Part:chosen|Past:chose|Ing:choos)|(Pres:hide|Part:hidden|Past:hid|Ing:hid)
         |(Pres:hit|Part:hit|Past:hit|Ing:hitt)|(Pres:think|Part:thought|Past:thought|Ing:think)|(Pres:throw|Part:thrown|Past:threw|Ing:throw)
@@ -328,7 +330,7 @@ Prefix	::= anti | astro | cyber | demi | down | extra | giga | hypo | hemi | hi 
 PreQlif	::= "The first" | "The last" | "All" | "After" | "Alternative"
         | "Always" | "Any" | "Before" | "Certainly" | "Pre -" | "Post -";
 
-PostQlif ::= again | around | away | everywhere | in the machine | magic | over and over ; 
+PostQlif ::= again | above | around | away | below | everywhere | in the machine | magic | over | over and over | through ; 
 
 Digit	::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ;
 
