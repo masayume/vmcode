@@ -5,6 +5,32 @@ I ::=   "title:    INSPIRE\n"
     ^ "reference: http://www.polygen.org/it/manuale"
     ^ "reference: http://www.goodreads.com/list/show/276.Best_Book_Titles?page=2"
     ^ "reference: http://loremgibson.com/"
+    ^ "reference: NOTA: si può usare -seed" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
+    ^ "reference: XXX" 
     ^ "command: unrtf /home/masayume/down/rtf2txt/Gibson... ";
 
 S ::= \ "Do" Chars ActionT Qlif Items "[t01]" | Pronoun Qlif this way Acmove3 "[t02]" | "Guide" to TPlace "[t03]" | QTime TTQPlace "[t04]"
@@ -149,7 +175,7 @@ Qlifns 	::= american | angular | abstract | analog | atlantic | augmented | awes
         | mechanical | mixed | modern | monster | mute | naked | new | nice | nordic | notable | nuclear
         | old | online | organic | outstanding | pacific | perfect | plenty | pop 
 	| possible | pretty | progressive | probable | psychedelic | punk
-        | quick | radioactive | refreshing | reflecting | redundant | recursive | remarkable 
+        | quick | radioactive | refreshing | reflecting | redundant | reckless | recursive | remarkable 
 	| repetitive | revolutionary | resource | rich | robotic | rough | russian
         | safe | seamless | sentient | serious | short | simple | single | slippery | smooth
         | slow | small | smart | solid | stellar | sweet | terrible | third | tiny | transparent | ultimate 
@@ -173,7 +199,7 @@ Plaat 	::= base | crossing | edge | gap | gate | market | ocean | pool | river |
 
 Plaont	::= bridge | cliff | coastline | floor | highway | planet | rim | side | stage | staircase | star | wall;
 
-Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "the Sun" | "the Moon" ;
+Plaon	::= "Jupiter" | "Mars" | "Venus" | "Mercury" | "Saturn" | "Sun" | "Moon" ;
 
 Plaint	::= alley | arbor | arcade | cage | castle | circus | desert | factory | field | fortress | galaxy | garage | garden
 	| haven | house | labyrinth | maze | nest | pool | restaurant | shop | skyscraper | tower | underground | universe | world;
@@ -219,11 +245,11 @@ Iteman 	::= action | aether | album | alliance | algebra | algorithm | angle | a
         | icon | idea | information | image | initiative | interface 
         | operation | opinion ;
 
-Itema  	::=  background | beam | beat | beacon | bee | belief | bell | bike | blade | block | blossom | bomb | bondage | bubble | cache | call | camera 
+Itema  	::=  anarchy | background | beam | beat | beacon | bee | belief | bell | bike | blade | block | blossom | bomb | bondage | bubble | cache | call | camera 
 	| can | candy | carbon | case | card | catalog | check | chance | chime | chip | chrome | circuit | click | clock 
 	| cloud | code | computer | color | collection | command | competition | compression | concept | constellation | cone | console | content | context 
 	| count | cover | crack | culture | dance | desire | death | deck | design | disc | dollar | doubt | dream 
-	| destruction |  drop | drug | facade | face | factor | fan | fault | feeling | fear | fence | fiber | filter | finger | fire | franchise  
+	| destruction |  dystopia | drop | drug | facade | face | factor | fan | fault | feeling | fear | fence | fiber | filter | finger | fire | franchise  
 	| flower | fragment | girl | game | getaway | glass | guide | grammar | guitar | gun | hand | hardware | halo | hate | hazard | head | heap 
 	| heart | hologram | horror | hop | hope | hour | label | land | language | lap | lie | light | line | link | lip 
 	| list | logic | logo | love | key | lead | level | machine | magazine | magic | marker | meaning | medley | method | mind | miniature | mirror 
@@ -232,9 +258,10 @@ Itema  	::=  background | beam | beat | beacon | bee | belief | bell | bike | bl
 	| platform | plug | point | polaroid | poster | potential | power | product | project | promise | prototype | proxy | race 
 	| rainbow | reader | reason | rebellion | record | rendering | requiem | resolution | rest | return | rifle | rhythm | ring | riot 
 	| rock | sail | saturation | scan | scene | scroll | screw | sequence | serie | service | sleep | session | setting | share | shirt | show 
-	| silence | singleton | size | skin | sleep | slot | solitude | something | sound | software | song | source | spell 
+	| silence | singleton | singularity | size | skin | sleep | slot | solitude | something | sound | software | song | source | spell 
 	| sphere | spirit | square | stop | stone | table | tape | tarot | tattoo 
-	| tongue | topic | track | transfer | tree | triangle | type | vault | vehicle | view | vitamin | wheel | wiring | work;
+	| tongue | topic | track | transfer | transcendence | tree | triangle | type | utopia
+	| vault | vehicle | view | vitamin | wheel | wiring | work;
 
 ItemS	::= data | money | media ;
 
@@ -325,7 +352,7 @@ QTime ::= (a | the) >Time1 | one >Time1o | an >Time2n | >Time3 | some >Time5;
 XTime ::= >Time1 | >Time2 | >Time3 ;
 
 Prefix	::= anti | astro | cyber | demi | down | extra | giga | hypo | hemi | hi | hyper | holo | inter | infra 
-	| micro | mega | mono | nano | out | over | mini | maxi | pre | post | sky | space | super | trans | ultra | up ;
+	| micro | mega | mono | nano | out | over | mini | maxi | pre | post | sky | space | super | techno | trans | ultra | up ;
 
 PreQlif	::= "The first" | "The last" | "All" | "After" | "Alternative"
         | "Always" | "Any" | "Before" | "Certainly" | "Pre -" | "Post -";

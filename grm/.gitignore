@@ -1,4 +1,6 @@
 # Ignore configuration files that may contain sensitive information.
 *.grm.o
+neuro.sh
+t2s
 
 # Ignore paths that contain user-generated content.

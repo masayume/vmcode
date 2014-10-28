@@ -1,0 +1,26 @@
+I 	::= "title:     realname \n"
+    	^ "author:    	masayume \n"
+    	^ "language:  	variable \n"
+    	^ "status:    	versione 0.2"  "\n"
+    	^ "topic:     	company name generator \n"
+    	^ "cfr:     	http://www.brandroot.com/names/categories/software \n"
+	;
+
+S 	::= 	(Prima | Prefix) ^(Seconda | ---Suffix) 
+	;
+
+Prefix	::= 	aero | alfa | anti | arca | beta | best | cogi | digi | dual | hard 
+		| info | inno | meta | null | over | pixa | quan | robo | soft | twin | vali | zeta
+	;
+
+Prima 	::= 	blue | cool | cube | deep | dual | east | giga | fast | fire | gold | high | iper | iron | loud
+		| mega | mini | neon | neat | play | real | rich | vega | zero 
+	;
+
+Seconda	::= 	beam | beat | bolt | boom | bros | byte | code | coin | coil | core | crew | dart | data | dice | door | dots | duet | echo | eden | edge | game 
+		| head | hero | icon | line | logo | loop | loot | ludo | mind | modo | moon | note | page | play | port | rain | ride | root | seed | shot 
+		| side | square | star | team | tier | tron | unit | warp | ways | zoom | zone 
+	;
+
+Suffix	::= 	cade | chan | dyne | iden | roid | tech | thon | tics | xion | xium
+	;
