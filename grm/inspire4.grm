@@ -33,7 +33,7 @@ I ::=   "title:    INSPIRE\n"
     ^ "reference: XXX" 
     ^ "command: unrtf /home/masayume/down/rtf2txt/Gibson... ";
 
-S ::= \ "Do" Chars ActionT Qlif Items "[t01]" | Pronoun Qlif this way Acmove3 "[t02]" | "Guide" to TPlace "[t03]" | QTime TTQPlace "[t04]"
+S ::= \ "Do" Chars ActionT Qlif Items "[t01]" | Pronoun Qlif this way Acmove3 "[t02]" | ("Manual" of | "Guide" to) [the Qlif] Place "[t03]" | QTime TTQPlace "[t04]"
   	| QTime (of | the) Item "[t05]" | [ "The" Qlif ] NQlif of Item "[t06]" | Item [^] CharA "[t07]" | "To" Verb [and Verb] TTQPlace "[t08]"
   	| "To" (dream | kill) AItem "[t09]" | Item NQlif "[t10]" | "Another" [Qlif] XTime TTQPlace "[t11]" | "The" Effect ^ s of State AItem "[t12]"
   	| "When" you are Qlif "[t13]" | ["A" | "The"] Qlif (Item | Items) "[t14]" | "A" Quantity Qlif Item ^ s"[t15]" | "The" (Items | Item) of Emotion "[t16]"
@@ -47,7 +47,7 @@ S ::= \ "Do" Chars ActionT Qlif Items "[t01]" | Pronoun Qlif this way Acmove3 "[
 	| "The" Char (Char | (was | is | as ) AChar) "[t37]" | "Don't" Verb (TTQPlace | AChar) "[t38]" | "This is not" (a Qlif Item | AItem) "[t39]"
 	| "The" [Qlif] Item of [Qlif] Items "[t40]" | "The" Verber TTQPlace "[t41]" | Year Item [Item] "[t42]"
 	| "I" VerbPa (my Item | AItem) [(but | and) you VerbPa [TTQPlace]] "[t43]"
-	| ("While" | "As") "I" Verb VerbIng "[t44]" | (Qlif | Adverb) VerbIng "[t45]" | "Of" Chars and Chars "[t46]" | Item ^PlaceNN "[t47]"
+	| ("While" | "As") "I" Verb VerbIng "[t44]" | (Qlif | Adverb) VerbIng "[t45]" | "Of" Chars and Chars "[t46]" | Item ^( >Plaat | >Plaont | >Plaint )  "[t47]"
   	| VerbEn ^ "," VerbEn and VerbEn "[t48]" | "How to" Verb (about Items | to Chars) "[t49]" | "The" Item is (always | probably | rarely) Qlif "[t50]"
   	| VerbIng Char TTQPlace "[t51]" | ("A" | "The") [Prefix ^] Item (of | named) Emotion "[t52]" | Verb ^ "-" ^ Number "[t53]" | Item ^ "," TPlace and everything "[t54]"
   	| [Qlif] Char of the Item "[t55]" | Chars "Vs" Chars "[t56]" | TPlace of Items [ and Items ] "[t57]" | Char [^ "," Char] and Char "[t58]"
