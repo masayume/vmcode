@@ -14,10 +14,12 @@ $insnum 	= $collen * $colnum;
 $maxnum 	= 4 * $collen * $colnum;
 $maxtype	= 133;
 
-$version = "0.80";
-$grammar = "/home/masayume/polygen/inspire4.grm";
+$version 	= "0.80";
+$grammar 	= "/home/masayume/git/vmcode/grm/inspire4.grm";
 
-$result = `polygen $grammar -X $maxnum`;
+$polygen	= "/usr/games/polygen";
+
+$result = `$polygen $grammar -X $maxnum`;
 $result =~ s/(\[t\d*\])/<span style="color:#ccc;"><small><small>$1<\/small><\/small><\/span>/g;
 
 $matchstring = "t" . $QUERY{'t'} . "";

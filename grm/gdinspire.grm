@@ -1,0 +1,35 @@
+I ::=   "title:    GAME DESIGN INSPIRE\n"
+    ^ "version 0.1.0"
+    ^ "last update: 01/04/2013 previus: 03/03/2011"
+    ^ "http://en.wikipedia.org/wiki/Timeline_of_arcade_video_game_history"
+    ^ "http://www.arcade-history.com/index.php?page=timeline"
+^ "http://www.polygen.org/it/manuale"
+;
+
+S ::=   ( Place | Qualifier ) ( Game | Tool | Role ) "[t1]" | [ Qualifier ] ( Role | Tool ) "[t2]" | ( Game | Role ) ^"-" ^Postfix "[t3]" | Place ^( "s" | "ian" ) "[t4]" |
+        Prefix ^"-" ^( Role  | Place ) "[t5]" | Role "&" Tool "[t6]" | Tool Tool "[t7]" | Role ^"'s" Place "[t8]"
+;
+
+Game    ::=     assault | ball | break | combat | cup | driving | fight | madness | race | rally | revolution | run | rush | scramble | war
+;
+
+Place   ::=     asteroid | astro | base | beam | cross | galaxy | lair | land | marble | moon | out | road | space | star | street | time
+;
+
+Role    ::=     boy | bros | defender | dragon | driver | eliminator | exterminator | fighter | harrier | interceptor | invader | king | kong | man | patrol | pilot | robot | rider | runner | sheriff | slug 
+;
+
+Tool    ::=     balloon | gauntlet | gun | instinct | radar | scope
+;
+
+Qualifier ::=   dance | donkey | double | hard | killer | metal | mortal | night | quantum | paper | secret | shadow | speed | western | winning | world 
+;
+
+Prefix  ::=     pac | super
+;
+
+Postfix ::=     out | "X" | tron
+;
+
+Postqualifier ::= first
+;
