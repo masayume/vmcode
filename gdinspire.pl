@@ -10,6 +10,7 @@
 #			>> http://www.onextrapixel.com/2011/06/29/10-awesome-alternative-free-web-fonts/
 #	effects	
 #			>> https://developers.google.com/fonts/docs/getting_started
+#			>> http://www.w3schools.com/tags/ref_canvas.asp
 
 use List::Util qw(shuffle);
 
@@ -134,28 +135,58 @@ EOF
 
 sub maintitle {
 
-my @font_head = (
- 	"<link href='http://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'>",
-	"<link href='http://fonts.googleapis.com/css?family=Fredoka+One:400,900' rel='stylesheet' type='text/css'>",
-	"<link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky:400,900' rel='stylesheet' type='text/css'>",
-	"<link href='http://fonts.googleapis.com/css?family=Audiowide:400,900' rel='stylesheet' type='text/css'>"
-);
-my @font_strong = (
-	"strong { font-family: 'Orbitron', sans-serif; font-size: 100px;}",
-	"strong { font-family: 'Fredoka One', cursive; font-size: 100px;}", 
-	"strong { font-family: 'Fontdiner Swanky', cursive; font-size: 100px;}", 
-	"strong { font-family: 'Audiowide', cursive; font-size: 100px;}" 
-
-);
 my @font_name = (
-	"Orbitron",
-	"Fredoka One",
-	"Fontdiner Swanky",
+#	"Orbitron",
+#	"Exo",
+#	"Skranji",
+#	"Iceland",
+#	"Kranky",
+#	"Monoton",
+	"Playball",
+	"Chewy",
+	"Codystar",
+	"Bangers",
+	"Press Start 2P",
+#	"Quantico",
+#	"Black Ops One",
+#	"Damion",
+#	"Fredoka One",
+#	"Seaweed Script",
+#	"Fontdiner Swanky",
 	"Audiowide"
 );
-$range = @font_head;
-$fonts_index = int(rand($range));
 
+# cfr. http://www.w3schools.com/cssref/css_colornames.asp
+@gradients	= (
+	"gradient.addColorStop(\"0\", \"magenta\"); gradient.addColorStop(\"0.5\", \"blue\"); gradient.addColorStop(\"1.0\", \"red\");",
+	"gradient.addColorStop(\"0\", \"blue\"); gradient.addColorStop(\"0.5\", \"white\"); gradient.addColorStop(\"1.0\", \"blue\");",
+	"gradient.addColorStop(\"0\", \"blue\"); gradient.addColorStop(\"1.0\", \"red\");",
+	"gradient.addColorStop(\"0\", \"blue\"); gradient.addColorStop(\"1.0\", \"aqua\");",
+	"gradient.addColorStop(\"0\", \"aqua\"); gradient.addColorStop(\"1.0\", \"red\");",
+	"gradient.addColorStop(\"0\", \"blue\"); gradient.addColorStop(\"1.0\", \"orange\");",
+	"gradient.addColorStop(\"0\", \"green\"); gradient.addColorStop(\"1.0\", \"red\");",
+	"gradient.addColorStop(\"0\", \"green\"); gradient.addColorStop(\"1.0\", \"yellow\");",
+	"gradient.addColorStop(\"0\", \"blue\"); gradient.addColorStop(\"1.0\", \"yellow\");",
+	"gradient.addColorStop(\"0.2\", \"yellow\"); gradient.addColorStop(\"0.5\", \"orange\"); ; gradient.addColorStop(\"0.8\", \"yellow\");"
+);
+@font_strong 	= ();
+@font_head 	= ();
+
+$font_weight 	= ":500,900";
+$titlesize	= "120px";
+foreach $fn (@font_name) {
+	$fns = "strong { font-family: '" . $fn . "', cursive; font-size: 100px;}";
+	$fnp = $fn; $fnp =~ s/\s/\+/g;
+	$fnh = "<link href='http://fonts.googleapis.com/css?family=" . $fnp . $font_weight . "' rel='stylesheet' type='text/css'>";
+	push @font_strong, $fns;
+	push @font_head, $fnh;
+}
+
+
+$range 		= @font_head;
+$grange		= @gradients;
+$fonts_index 	= int(rand($range));
+$gradient_index	= int(rand($grange));
 $page =<<"EOF";
 <html>
 <head>
@@ -163,14 +194,25 @@ $page =<<"EOF";
 <style type="text/css">
 $font_strong[$fonts_index]
 #insetBgd {
-  background: -moz-linear-gradient(-90deg,#008471,#44aCfB);
-  background: -webkit-gradient(linear, left top, left bottom, from(#008471), to(#44ACfB));
+//  	background: -moz-linear-gradient(-90deg,#008471,#44aCfB);
+//  	background: -webkit-gradient(linear, left top, left bottom, from(#008471), to(#44ACfB));
+	background-color: #444;
+
+}
+canvas {
+    	image-rendering: optimizeSpeed;
+    	image-rendering: -moz-crisp-edges;
+    	image-rendering: -webkit-optimize-contrast;
+    	image-rendering: -o-crisp-edges;
+    	image-rendering: crisp-edges;
+    	-ms-interpolation-mode: nearest-neighbor;
+	background-color: #000;
 }
 </style>
 
 $font_head[$fonts_index]
-<link href='http://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'>
 
+<title>videogame title generator</title>
 </head>
 <body>
 <small>version: $version - grammar: $grammar</small>
@@ -195,8 +237,9 @@ print "<hr><table>";
                 $qqhtml = "<a href='$preqstring' target='_blank'>GQ</a>";
 		($string2show, $type) = split /\[/, $string2show;
 		($string2show, $dummy) = split /</, $string2show;
+		$xoff = 600 - int(length($string2show)/2) * 54;
 		$type = "[" . $type;
-                print "\n" . $qqhtml . "&nbsp;&nbsp;" . " <strong>" . $string2show . "</strong> $type $fontname $fonts_index";
+                print "\n" . $qqhtml . "&nbsp;&nbsp;" . " " . $string2show . " type: $type - font: $fontname - index: $fonts_index - xoff: $xoff - gradient: $gradient_index";
         print "</td>";
 
 print "</tr></table><br />";
@@ -204,20 +247,28 @@ print "
 <script src=\"https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js\"></script>
 <script>
   WebFont.load({
-    google: {
-      families: ['$fontname']
-    }
+    google: { families: ['$fontname'] }
   });
 </script>
 ";
-print "<canvas id='myCanvas' width='900' height='250' style='border:1px solid #d3d3d3;'>
+print "<canvas id='myCanvas' width='1200' height='250'>
 Your browser does not support the HTML5 canvas tag.</canvas>";
+
+print "<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>";
+print "<script src='http://www.jqueryscript.net/demo/jQuery-Plugin-To-Pixelate-Images-Using-Html5-Canvas/src/jquery.pixelate.js'></script>";
 
 print "<script>
 var c = document.getElementById(\"myCanvas\");
 var ctx = c.getContext(\"2d\");
-ctx.font = '100px \"$fontname\"';
-ctx.fillText(\"$string2show\", 10, 150);
+ctx.font = '$titlesize \"$fontname\"';
+
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+" . $gradients[$gradient_index] . "
+// Fill with gradient
+ctx.fillStyle = gradient;
+// ctx.pixelate({ 'focus' : 0.05 });
+
+ctx.fillText(\"$string2show\", $xoff, 150);
 </script>
 ";
 print "</center><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> ";
@@ -339,6 +390,7 @@ sub header {
 	for ($i=1; $i<22; $i++) {
 		$header .= "\n<a href='/cgi-bin/gdinspire.pl?t=$i'>T$i</a> ";
 	}
+	$header .= "<a href='/cgi-bin/gdinspire.pl?one=1'>one</a>";
 	$header .= "</span></td></tr><tr></table>";
 
 	print $header
