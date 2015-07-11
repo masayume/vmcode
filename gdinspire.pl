@@ -18,6 +18,7 @@ $check = "";
 my (%POST, %QUERY);
 %QUERY = &parse_args;
 
+$title_width 	= "1400"; 
 $collen = 35;	# column length
 $colnum = 4;	# column number
 $insnum = $collen * $colnum;
@@ -103,25 +104,6 @@ foreach $insp (@inspirelets) {
 
 $r = 0;
 
-### calculate companion inspire IMAGE 
-# my @images = &image();
-# $images[1] =~ s/\n$//;
-# print "<img float='left' src='/inspire/" . $images[1] . "'><br clear='all'>";
-
-### calculate companion inspire TEXT
-# $unok = 1; 
-# for ($j=0; $j<$colnum; $j++) {
-#         for ($k=0; $k<$collen; $k++) {
-#                 $r++;
-# 		if ($inspirelets[$j*$collen+$k] && $unok) {
- #                	print "\n<h1><strong> " . $inspirelets[$j*$collen+$k] . "</strong></h1><br />";
-# 			$unok = 0;
-# 		}
-#         }
-# }
-
-### calculate companion inspire image
-
 print "</center>" . "<br /><br /><br /><br /><br /><br /><br /> ";
 
 $page =<<"EOF";
@@ -157,6 +139,7 @@ my @font_name = (
 );
 
 # cfr. http://www.w3schools.com/cssref/css_colornames.asp
+# cfr. http://paintbycode.github.io/gradient-generator/
 @gradients	= (
 	"gradient.addColorStop(\"0\", \"magenta\"); gradient.addColorStop(\"0.5\", \"blue\"); gradient.addColorStop(\"1.0\", \"red\");",
 	"gradient.addColorStop(\"0\", \"blue\"); gradient.addColorStop(\"0.5\", \"white\"); gradient.addColorStop(\"1.0\", \"blue\");",
@@ -251,7 +234,7 @@ print "
   });
 </script>
 ";
-print "<canvas id='myCanvas' width='1200' height='250'>
+print "<canvas id='myCanvas' width='$title_width' height='250'>
 Your browser does not support the HTML5 canvas tag.</canvas>";
 
 print "<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>";
@@ -328,6 +311,8 @@ for ($j=0; $j<$colnum; $j++) {
 		$qstring = join '+',  @keyw; chop $qstring; ($qstring,$NULL) = split /\+</, $qstring;
 		$preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
 		$qqhtml = "<a href='$preqstring' target='_blank'>GQ</a>";
+
+
                 print "\n" . $qqhtml . " <strong> " . $string2show . "</strong>";
                 if ($r % 5 == 0) {
                         print "<hr>";
