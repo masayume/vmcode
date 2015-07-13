@@ -11,6 +11,8 @@
 #	effects	
 #			>> https://developers.google.com/fonts/docs/getting_started
 #			>> http://www.w3schools.com/tags/ref_canvas.asp
+#			>> https://developer.mozilla.org/en-US/demos/detail/zen-photon-garden/launch			
+#			>> http://www.jqueryrain.com/example/jquery-text-effect/
 
 use List::Util qw(shuffle);
 
@@ -22,8 +24,10 @@ $title_width 	= "1400";
 $collen = 35;	# column length
 $colnum = 4;	# column number
 $insnum = $collen * $colnum;
+$font_weight 	= ":500,900";
+$titlesize	= "100px";
 
-$version 	= "0.76";
+$version 	= "0.77";
 $grammar 	= "/home/masayume/git/vmcode/grm/gdinspire.grm";
 $polygen 	= "/usr/games/polygen";
 
@@ -118,24 +122,24 @@ EOF
 sub maintitle {
 
 my @font_name = (
-#	"Orbitron",
-#	"Exo",
-#	"Skranji",
-#	"Iceland",
-#	"Kranky",
-#	"Monoton",
-	"Playball",
-	"Chewy",
-	"Codystar",
-	"Bangers",
-	"Press Start 2P",
-#	"Quantico",
-#	"Black Ops One",
-#	"Damion",
-#	"Fredoka One",
-#	"Seaweed Script",
-#	"Fontdiner Swanky",
-	"Audiowide"
+"Orbitron",
+"Exo",
+"Skranji",
+"Iceland",
+"Kranky",
+"Monoton",
+"Playball",
+"Chewy",
+"Codystar",
+"Bangers",
+"Press Start 2P",
+"Quantico",
+"Black Ops One",
+"Damion",
+"Fredoka One",
+"Seaweed Script",
+"Fontdiner Swanky",
+"Audiowide"
 );
 
 # cfr. http://www.w3schools.com/cssref/css_colornames.asp
@@ -155,8 +159,6 @@ my @font_name = (
 @font_strong 	= ();
 @font_head 	= ();
 
-$font_weight 	= ":500,900";
-$titlesize	= "120px";
 foreach $fn (@font_name) {
 	$fns = "strong { font-family: '" . $fn . "', cursive; font-size: 100px;}";
 	$fnp = $fn; $fnp =~ s/\s/\+/g;
@@ -179,8 +181,11 @@ $font_strong[$fonts_index]
 #insetBgd {
 //  	background: -moz-linear-gradient(-90deg,#008471,#44aCfB);
 //  	background: -webkit-gradient(linear, left top, left bottom, from(#008471), to(#44ACfB));
-	background-color: #444;
+	background-color: #111;
 
+}
+#info {
+	color: #ccc;
 }
 canvas {
     	image-rendering: optimizeSpeed;
@@ -208,52 +213,67 @@ $r = 0;
 &header;
 $fontname = $font_name[$fonts_index]; 
 
-print "<hr><table>";
+print "<hr><table><td>";
 
-        print "<td>";
-                $r++;
-                $string2show = $inspirelets[$j*$collen+$k];
-                $qstring = $string2show; $qstring =~ s/\s/\+/g;
-                @keyw = split /\+/, $qstring; $keyw[$#keyw] = '';
-                $qstring = join '+',  @keyw; chop $qstring; ($qstring,$NULL) = split /\+</, $qstring;
-                $preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
-                $qqhtml = "<a href='$preqstring' target='_blank'>GQ</a>";
-		($string2show, $type) = split /\[/, $string2show;
-		($string2show, $dummy) = split /</, $string2show;
-		$xoff = 600 - int(length($string2show)/2) * 54;
-		$type = "[" . $type;
-                print "\n" . $qqhtml . "&nbsp;&nbsp;" . " " . $string2show . " type: $type - font: $fontname - index: $fonts_index - xoff: $xoff - gradient: $gradient_index";
-        print "</td>";
+	$string2show = $inspirelets[$j*$collen+$k];
+        $qstring = $string2show; $qstring =~ s/\s/\+/g;
+        @keyw = split /\+/, $qstring; $keyw[$#keyw] = '';
+        $qstring = join '+',  @keyw; chop $qstring; ($qstring,$NULL) = split /\+</, $qstring;
+        $preqstring = 'https://www.google.com/search?q=' . $qstring . '&hl=en&safe=off&tbo=d&source=lnms&tbm=isch&sa=X';
+        $qqhtml = "<a href='$preqstring' target='_blank'>GQ</a>";
+	($string2show, $type) = split /\[/, $string2show;
+	$type = split /\]/, $type; $type .= ']';
+	($string2show, $dummy) = split /</, $string2show;
+	$xoff = 600 - int(length($string2show)/2) * 54;
+	$type = "[" . $type;
 
-print "</tr></table><br />";
-print "
-<script src=\"https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js\"></script>
-<script>
-  WebFont.load({
-    google: { families: ['$fontname'] }
-  });
-</script>
-";
-print "<canvas id='myCanvas' width='$title_width' height='250'>
-Your browser does not support the HTML5 canvas tag.</canvas>";
+        print "\n" . $qqhtml . "&nbsp;&nbsp;" . "<span id='info'>" . $string2show . " type: $type - font: $fontname - index: $fonts_index - xoff: $xoff - gradient: $gradient_index </span>" ;
 
+print "</td></tr></table><br />";
+print " <script src=\"https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js\"></script>
+<script> setInterval(WebFont.load({ google: { families: ['$fontname'] } }), 3000); </script> "; 
+print "<canvas id='myCanvas' width='$title_width' height='250'> Your browser does not support the HTML5 canvas tag.</canvas>";
 print "<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>";
 print "<script src='http://www.jqueryscript.net/demo/jQuery-Plugin-To-Pixelate-Images-Using-Html5-Canvas/src/jquery.pixelate.js'></script>";
 
-print "<script>
-var c = document.getElementById(\"myCanvas\");
-var ctx = c.getContext(\"2d\");
-ctx.font = '$titlesize \"$fontname\"';
+#
+# actual printout
+#
 
+$shadow = "
+ctx.fillText(\"$string2show\", " . ($xoff-20) . ", 130);
+";
+
+$neon = "
+var blur = 10;
+var width = ctx.measureText(\"$string2show\").width + blur * 2;
+ctx.shadowColor = “#000”
+ctx.shadowOffsetX = width;
+ctx.shadowOffsetY = 0;
+ctx.shadowBlur = blur;
+";
+
+$gradient = "
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
 " . $gradients[$gradient_index] . "
 // Fill with gradient
 ctx.fillStyle = gradient;
+";
+
+print "<script>
+
+var c = document.getElementById(\"myCanvas\");
+var ctx = c.getContext(\"2d\");
+ctx.font = '$titlesize \"$fontname\"';
+
+$gradient
 // ctx.pixelate({ 'focus' : 0.05 });
 
 ctx.fillText(\"$string2show\", $xoff, 150);
+
 </script>
 ";
+
 print "</center><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> ";
 
 $page =<<"EOF";
