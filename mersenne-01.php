@@ -24,6 +24,8 @@
 
 $layerdir	= "./img/demons/";
 $scenedir	= "./img/scenes/";
+$imagedir	= "/keplerion";
+
 $page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = "";
 
 parse_str($_SERVER['QUERY_STRING'], $params);
@@ -88,11 +90,11 @@ EOT;
 	                $planet_array = planet_gen();
 
 			if ($i>(($page - 1) * $results)) {
-				$img = "/keplerion/img/" . $planet_array[1];
+				$img = $imagedir . "/img/" . $planet_array[1];
 				$planet_name = strtoupper($planet_array[0]);
 				// $planet_img = "<img id=\"planet-$i\" src=\"/demon/img/" .$planet_array[1] . "\" width=\"" . $planet_array[2]. "px\">"; 
-				$planet_url = "/keplerion/img/" . $planet_array[1];
-				$planet_img = "<img id=\"planet-$i\" src=\"/keplerion/img/" .$planet_array[1] . "\" width=0 height=0 \">"; 
+				$planet_url = $imagedir . "/img/" . $planet_array[1];
+				$planet_img = "<img id=\"planet-$i\" src=\"" . $imagedir . "/img/" .$planet_array[1] . "\" width=0 height=0 \">"; 
 				$width		= $planet_array[2];
 				$filter		= $planet_array[3];
 			
@@ -105,7 +107,7 @@ EOT;
 
         if ($type == "demons") {
                 for ($i=1; $i<=$page * $results; $i++) {
-			$imgpath = "/keplerion/img/demons/" ;
+			$imgpath = $imagedir . "/img/demons/" ;
 			$demon_array = demon_gen();
 
                         if ($i>(($page - 1) * $results)) {
@@ -133,7 +135,7 @@ EOT;
 
         if ($type == "backs") {
       		for ($i=1; $i<=$page * $results; $i++) {
-                        $imgpath = "/keplerion/img/scenes/" ;
+                        $imgpath = $imagedir . "/img/scenes/" ;
 			$scene_array = array();
                         $scene_array = scene_gen();
 
