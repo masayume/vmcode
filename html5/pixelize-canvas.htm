@@ -55,6 +55,11 @@ function pixelate(v) {
 // My function to update the canvas image with "texturl" image URL
 function updateCanvas() {
 	img.src = texturl.value;
+// TODO: resize image (img.width, img.height)
+	canvas.width = img.width;
+	canvas.height = img.height;
+	ctx.imageSmoothingEnabled = false;
+    	ctx.drawImage(img, 0, 0, img.width, img.height);
 	pixelate(2);	
 }
 
@@ -108,7 +113,7 @@ window.requestAnimationFrame = (function () {
 
 </script>
 
-<title>pixelizer - v 0.2</title>
+<title>pixelizer - v 0.3</title>
 </head>
 <body>
 <canvas id="canvas" width="800" height="450"></canvas>
