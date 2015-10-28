@@ -8,7 +8,7 @@ $check = "";
 my (%POST, %QUERY);
 %QUERY = &parse_args;
 
-$collen 	= 35;	# column length
+$collen 	= 25;	# column length
 $colnum 	= 3;	# column number
 $insnum 	= $collen * $colnum;
 $maxnum 	= 4 * $collen * $colnum;
@@ -22,8 +22,10 @@ $polygen	= "/usr/games/polygen";
 $result = `$polygen $grammar -X $maxnum`;
 $result =~ s/(\[t\d*\])/<span style="color:#ccc;"><small><small>$1<\/small><\/small><\/span>/g;
 
-$matchstring = "t" . $QUERY{'t'} . "";
+$zero = "";
+if ($QUERY{'t'} < 10) { $zero = "0"; }
 
+$matchstring = "t" . $zero . $QUERY{'t'} . "";
 @inspirelets_raw = split /\n/, $result;
 
 @inspirelets = ();
@@ -236,7 +238,7 @@ sub header {
 
 	$header = "<center><table style=\"background-color: #aaaaaa; \"><tr><td colspan=$colnum><span style='color:#999;'><a href='/cgi-bin/inspire3.pl'>ALL</a>  ";
 	for ($i=1; $i<$maxtype; $i++) {
-		$header .= "\n<a href='/cgi-bin/inspire3.pl?t=$i'>T$i</a> ";
+		$header .= "\n<a href='/cgi-bin/inspire3.pl?t=$i'>$i</a> ";
 	}
 	$header .= "</span></td></tr><tr></table>";
 

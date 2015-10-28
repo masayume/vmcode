@@ -185,7 +185,7 @@ Qlifns 	::= american | angular | abstract | analog | atlantic | augmented | awes
 Material ::= artificial | brass | ceramic | chain | cinder | cobalt | concrete 
 	| copper | denim | electric | fire | flesh | glass | gold | gum | ice | iron 
 	| latex | lumber | laminate | layered | meat | metal | neon | paper | painted | plastic | plasma 
-	| silver | steel | structured | stone | tarmac | thermal | tin | vynil | water | wooden ; 
+	| silver | steel | structured | stone | tarmac | thermal | tin | tube | vynil | water | wooden ; 
 
 Pronoun	::= something | someone | anyone | everyone ;
 
