@@ -5,8 +5,8 @@
 <link rel="stylesheet" type="text/css" href="css/pixelize.css"/>
 -->
 
-  <style type='text/css'>
-    canvas {
+<style type='text/css'>
+canvas {
     image-rendering: optimizeSpeed;
     image-rendering: -moz-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
@@ -14,10 +14,8 @@
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;
 }
-  </style>
+</style>
   
-
-
 <script type='text/javascript'>//<![CDATA[ 
 window.onload=function(){
 // (C) Ken Fyrstenberg, Epistemex, License: CC3.0-attr
@@ -27,7 +25,6 @@ var ctx = canvas.getContext('2d'),
 
 // turn off image smoothing - this will give the pixelated effect
 ctx.mozImageSmoothingEnabled = false;
-ctx.webkitImageSmoothingEnabled = false;
 ctx.imageSmoothingEnabled = false;
 
 // wait until image is actually available
@@ -98,7 +95,7 @@ function toggleAnim() {
 // event listeneners for slider and button
 blocks.addEventListener('change', pixelate, false);
 animate.addEventListener('click', toggleAnim, false);
-texturl.addEventListerer('change', updateCanvas, false);
+texturl.addEventListener('change', updateCanvas, false);
 
 // poly-fill for requestAnmationFrame with fallback for older
 // browsers which do not support rAF.
@@ -118,7 +115,7 @@ window.requestAnimationFrame = (function () {
 <br>
 <input id="blocks" type="range" min="1" max="50" value="5">
 <input id="animate" type="button" value="Animate">
-<input id="texturl" type="text" size="80" value="http://www.masayume.it/img/masayume/salmoria.jpg" onchange="">
+<input id="texturl" type="text" size="80" value="http://www.masayume.it/img/masayume/salmoria.jpg">
 </body>
 </html>
 
