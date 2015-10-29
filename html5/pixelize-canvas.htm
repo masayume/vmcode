@@ -55,7 +55,6 @@ function pixelate(v) {
 // My function to update the canvas image with "texturl" image URL
 function updateCanvas() {
 	img.src = texturl.value;
-// TODO: resize image (img.width, img.height)
 	canvas.width = img.width;
 	canvas.height = img.height;
 	ctx.imageSmoothingEnabled = false;
@@ -116,11 +115,11 @@ window.requestAnimationFrame = (function () {
 <title>pixelizer - v 0.3</title>
 </head>
 <body>
-<canvas id="canvas" width="800" height="450"></canvas>
-<br>
-<input id="blocks" type="range" min="1" max="50" value="5">
+<input id="blocks" type="range" min="1" max="50" value="5" style="width: 200px; ">
 <input id="animate" type="button" value="Animate">
-<input id="texturl" type="text" size="80" value="http://www.masayume.it/img/masayume/salmoria.jpg">
+<input id="texturl" type="text" size="80" value="http://www.masayume.it/img/masayume/salmoria.jpg" onClick="this.select();">
+<br>
+<canvas id="canvas" width="800" height="450"></canvas>
 </body>
 </html>
 
