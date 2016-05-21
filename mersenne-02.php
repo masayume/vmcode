@@ -1,13 +1,20 @@
 <?php
 
 // TODO
-// > :167 non stampa i div. ma gli elementi nell'array sembrano esserci.
+	
+//	- values are default_layers/demon_layers
+//	- demon wing layers must be coupled (ref. demons.json)
 
-// > :122 dir parameter: test (&dir=./demon/img/scenes/, &dir=./gen/img/cardrogue, &dir=./gen/img/pixelchars) 
-//   example URL: http://localhost:8888/mersenne-02.php?seed=100&page=7&results=3&dir=./demon/img/prove/
+// DONE
+//  - load layer type string array from a json in the &dir parameter:
+//      JSON FILE DIR: :85 filename = PATH(/var/www...) + basedir(param(dir)) + basedir(param(dir)).json
+
+//   example URL: 
+//	http://localhost:8988/keplerion/mersenne-02.php?seed=100&page=9&results=3&dir=./img/demons/
+//	http://localhost:8988/mersenne-02.php?seed=100&page=7&results=3&dir=./keplerion/img/demons/
+
 // > webGL canvas filter switch
 // > parametrize type layer sequence (zNN)
-// JSON: http://php.net/manual/en/function.json-decode.php
 
 // particles: http://aerotwist.com/tutorials/creating-particles-with-three-js/
 // planet data
@@ -19,12 +26,11 @@
 // :175 modified padding of the elements ( file names containing up, down, left and right pixel adjustments with format: -u15- | -d20- & -r20- | -l15- )
 
 // REF.
-// http://superpixeltime.com/
 
 // PARAMETERS
 
 // BACKGROUNDS - background layers (chance to appear, type) 
-$main_layers	= array(
+$default_layers	= array(
                 "z00" => 100,   //      z00 - skybox (MAND.)
                 "z01" => 100,   //      z01 - skyboxfx (OPT.)
                 "z02" => 100,   //      z02 - skyline (OPT.)
@@ -32,14 +38,31 @@ $main_layers	= array(
                 "z04" => 100,   //      z04 - foreground (OPT. )
                 "z05" => 100,   //      z05 - foreground FX (OPT. )
 );
+$demon_layers	= array(
+                "RW" => 100,   //      z00 - skybox (MAND.)
+                "LW" => 100,   //      z00 - skybox (MAND.)
+                "LB" => 100,   //      z00 - skybox (MAND.)
+                "BO" => 100,   //      z00 - skybox (MAND.)
+                "HE" => 100,   //      z00 - skybox (MAND.)
+);
 $scenedir	= "";
 $page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = "";
 
 parse_str($_SERVER['QUERY_STRING'], $params);
-if ($params['seed']) { $master_seed	= $params['seed']; }
-else { $master_seed	= 100; }
-if ($params['page']) { $page	= $params['page']; $nextp = $page+1; $prevp = $page-1; }
-else { $page	= 1; $nextp	= 2; $prevp	= 1; }
+if ($params['seed']) { 
+	$master_seed	= $params['seed']; 
+} else { 
+	$master_seed	= 100; 
+}
+if ($params['page']) { 
+	$page	= $params['page']; 
+	$nextp = $page+1; 
+	$prevp = $page-1; 
+} else { 
+	$page	= 1; 
+	$nextp	= 2; 
+	$prevp	= 1; 
+}
 if (!$params['results']) { $results = 12; } 
 else {
 	$results = $params['results'];
@@ -58,7 +81,16 @@ else {
         $res_qs  .= "&dir=" . $scenedir;
 }
 
+// read JSON in the "dir"
+$json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
+$json = file_get_contents($json_file);
+
+$json_data = json_decode($json, true);
+$jwidth = $json_data['width'];
+$owidth = $json_data['original_width'];
+
 // print "scenedir: " . $scenedir;
+// print "<img src='$scenedir/dem_A_BO_3_01.png'><hr>";
 
 // init master seed
 mt_srand($master_seed);
@@ -94,28 +126,26 @@ EOT;
 //	nearbybackground
 //	foreground
 
-        if ($type == "backs") {
-      		for ($i=1; $i<=$page * $results; $i++) {
-                        // $imgpath = "/demon/img/scenes/" ;
-                        $imgpath = $scenedir ;
-			$scene_array = array();
-                        $scene_array = scene_gen();
+	for ($i=1; $i<=$page * $results; $i++) {
+        // $imgpath = "/demon/img/scenes/" ;
+        $imgpath = $scenedir ;
+		$scene_array = array();
+        $scene_array = scene_gen();
 
-// print "<pre>"; print_r($scene_array);
+////  print "<pre>"; print_r($scene_array);
 
-                        if ($i>(($page - 1) * $results)) {
+        if ($i>(($page - 1) * $results)) {
 
-                                $scene_name     = $scene_array[0];
-                                $scene_url      = $scene_array[1];
-                                $width          = $scene_array[2];
-                                $filter         = $scene_array[3];
-                                // echo $scene_img;
-                                echo scene($i, $imgpath, $scene_url, $scene_name, '', $filter);
+            $scene_name     = $scene_array[0];
+            $scene_url      = $scene_array[1];
+            $filter         = $scene_array[3];
+            // echo $scene_img;
+            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $filter);
 
-                        }
-                }
+        }
+    }
 
-        } // end backgrounds
+//        } // end backgrounds
 
 	print "</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr>";
 	print "</body></html>";
@@ -129,9 +159,11 @@ exit(0);
 // = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = -
 // = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = -
 
+
 function scene_layers($dir) {
 
-	global		$main_layers;
+	global		$default_layers;
+	global		$demon_layers;
         $dlayers        = array();
         $arr2ret        = array();
         if ($handle = opendir($dir)) {
@@ -139,14 +171,18 @@ function scene_layers($dir) {
             while (false !== ($entry = readdir($handle))) {
                 if ($entry != "." && $entry != "..") {
                         array_push($dlayers, $entry);
-                        //  echo "$entry\n";
                 }
             }
             closedir($handle);
         }
 
+// load layers type => main_layers
+	$main_layers = $demon_layers;
+
 // create various parts 
         foreach (array_keys($main_layers) as $part) {
+
+// loop on main_layers: chosen images MUST have matching string in theirs names
 
                 $scene_elems    = array();
                 $scene_elems    = kind_elem($part, $dlayers); // elementi di tipo zNN... 
@@ -154,12 +190,12 @@ function scene_layers($dir) {
 		if (mt_rand(1,100) <= $main_layers[$part]) {
                 	array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); // carico nell'array da tornare l'rt_rnd-esimo elemento
 		}
-
         }
 
         return $arr2ret;
 
 } // end function scene_layers
+
 
 function kind_elem($kind, $dlayers) {
 
@@ -171,11 +207,16 @@ function kind_elem($kind, $dlayers) {
 
 } // end function rndret_elem()
 
+
 function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
 
-        global          $main_layers;
+    global          $default_layers;
+    global          $demon_layers;
+    global          $owidth;
 	if (!$filter) { $filter = "&nbsp;"; }
 	$divs = "";
+
+	$main_layers = $demon_layers;
 
 	for ($j=0; $j<count($main_layers); $j++ ) {
 
@@ -195,13 +236,13 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
 		// layer div is actually added only if it exists: $scene_url[$j]
 		if ($scene_url[$j]) {
 // print "\ndiv: $j: " . $scene_url[$j];
-			$divs .= "\n<div id='div$j' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$width\" height=\"$width\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\"></div>";
+			$divs .= "\n<div id='div$j' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$owidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\"></div>";
 		}
 	}
 
         $scene = <<< EOP
 
-<div id="container" class="scene" style="display:inline-block; width:480px; background-color: #000000; padding-left: 10px;">
+<div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px;">
         <script>
             function tracescene_$i(n) {
                 // window.alert("scene: $scene_name on canvas $i");   

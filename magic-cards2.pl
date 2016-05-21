@@ -1,0 +1,1 @@
+../../cgi-bin/magic-cards2.pl

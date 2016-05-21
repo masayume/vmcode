@@ -139,6 +139,8 @@ EOT;
 			$scene_array = array();
                         $scene_array = scene_gen();
 
+ print "<pre>"; print_r($scene_array);
+
                         if ($i>(($page - 1) * $results)) {
 
                                 $scene_name     = $scene_array[0];
