@@ -5,7 +5,11 @@
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?wordnet=1
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?dbxtract=1
 
+### functions
+#	page_footer: 
+
 ### TODO:
+### :504 card info (power/thoughness, type, text)
 ###	:435 wordnet calculates $wordtype
 ###	-> occorrerebbe una modalità di accesso a serie di parole dei nomi delle carte e relativo calcolo del wordtype
 ### 		sub: calculate_level - includere le K: (flying, trample, lifelink, vigilance, protections...) 
@@ -20,6 +24,9 @@ use List::Util qw(shuffle);
 use DBI;
 use MyCompound; # custom module for wordnet v2 analysis (check compounds and word types (verb, name, adj.) based on frequency (polysemy count))
 
+my 	$enable_wordnet = 0; ### 1: ENABLE WORDNET - 0: DISABLE WORDNET
+
+
 my (%POST, %QUERY, @cards);
 &parse_args;
 
@@ -33,8 +40,8 @@ my @cards= &smartread($dir, $lsfile);
 
 $cardsfolder	= '/media/sf_forge/res/cardsfolder/';
 $cardtextfile 	= "cardsfolder.zip"; 
-
 @rcards = shuffle @cards;
+
 
 if ($QUERY{'l'}) { # image list with low resolution in evidence
 	print &list;
@@ -46,10 +53,12 @@ if ($QUERY{'l'}) { # image list with low resolution in evidence
         &wordtypetest;
 } elsif ($QUERY{'smartwrite'}) {
         &smartwrite($dir, $lsfile);
+} elsif ($QUERY{'lowfi'}) {
+        &lowficardread();
 } elsif ($QUERY{'dbxtract'}) {
 	my @rarray = &db_extract($QUERY{'q'});
 	print "<hr>" . $QUERY{'q'} . "<hr>";
-	foreach $r (@rarray) { print "<br>" . $r; }
+	foreach $r (@rarray) { print "" . $r; }
 } else {
 
 	if ($QUERY{'cardname'}) { 
@@ -57,10 +66,15 @@ if ($QUERY{'l'}) { # image list with low resolution in evidence
 		@rcards = shuffle @cards;	
 	}
 
-# print @rcards;
+
+# $rcard = `shuf -n 1 /home/masayume/down/demon/lowmtgimg2.txt`;
+# $rcard .= '.full.jpg';
 
 	print &page_header;
+
 	print &cards;
+#	print &cards($rcard);
+
 	print &page_footer($lsfile);
 
 }
@@ -96,6 +110,38 @@ sub smartwrite {
 	exit(0);
 
 }
+
+sub lowficardread {
+
+# should read a file if it exists
+
+	my @cards = ();
+	my ($dir, $lsfile) = @_;
+
+	$lsfile = '/home/masayume/down/demon/lowmtgimg2.txt';
+
+	if (-e $lsfile) {
+		open (FILE, "< $lsfile") or print "Could NOT READ file $lsfile."; 
+		# open my $handle, '<', $lsfile;
+#		chomp(my @cards = <FILE>);
+		@cards = <FILE>;
+		close FILE;
+	} else {
+		print "il file <b>$lsfile</b> non esiste. Vuoi <a href=\"/cgi-bin/magic-cards2.pl?smartwrite=1\">crearlo</a> ?";
+		exit(0);
+	}
+
+	$page;
+	foreach $c (@cards) {
+		$query = $c;
+		chop $query;
+		$queryimg = $query . ".full.jpg";
+		$page .= "<br><a href='http://magiccards.info/query?q=$query&v=card&s=cname' target='_blank'>$c</a> - <a href='file:///C:/Users/mcorradi/AppData/Local/Forge/Cache/pics/cards/$queryimg'>" . $query . "</a>";
+	}
+
+	print $page;
+
+} # end sub lowficardread
 
 sub smartread {
 
@@ -428,10 +474,19 @@ sub list {
 
 sub cards { # imposta il layout principale per mostrare le carte
 
+#	my $rcard = $_[0];
+
+	my $size;
 	$selected = "";
-	$cards_html = "<center><table border='1'><tr>";
+	$cards_html = "\n<!-- SHOW CARDS -->\n\n\n<center><table border='1'>\n<tr>";
+
 	for ($i=0; $i<$cardsnum; $i++) {
-		$imagefile = '/var/www/cards2/' . $rcards[$i]; # image file path
+
+
+		$imagefile = '/var/www/html/cards2/' . $rcards[$i]; # image file path
+#		$imagefile = $rcard;
+
+		$imagefile =~ s/\n//g;
 		($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size, $atime,$mtime,$ctime,$blksize,$blocks) = stat($imagefile);
 		
 		$textfile2 = &textfile($rcards[$i]);
@@ -443,12 +498,13 @@ sub cards { # imposta il layout principale per mostrare le carte
 # calcolo delle immagini
 	    my ($chtml,$cdname) = &cardimage($i);
 	    $cards_html .= $chtml;
-		$cdname		= "<small>image filename: $cdname<br >textfile2: $textfile2</small>";
 
 # calcolo dei testi & parse card data 
         $ltext =~ s/http:\/\/(.+)jpg/<a href='http:\/\/${1}jpg' target='_blank'>${1}jpg<\/a>/g;
 
         %carddata = &parsedata($ltext); ### ex: $carddata{'Name'}; keys: Types, ManaCost, Rarity
+
+		$cdname		= "<small>Imagefile: $imagefile<br>image filename: $cdname<br >textfile2: $textfile2 <br>Size: $size  </small>";
 
 ### thesaurus analysis I
 
@@ -463,9 +519,11 @@ sub cards { # imposta il layout principale per mostrare le carte
 		my ($skills, $picurl) = split /Picture:/, $allskills;
 
 		my ($clevel, $klevel) = &calculate_level($carddata{'ManaCost'}, $carddata{'Rarity'}, $type, $text3, $text2, $k);
-	        $selected .= "\n<td><h2>" . $carddata{'Name'}. "</h2>" . $carddata{'Types'} . " $pt - $k<br><b>" . $carddata{'ManaCost'} . "</b> ( LEVEL: $clevel; kl: $klevel ) - $size bytes  <hr>$cdname</hr>$skills<hr><pre><small>$ltext<hr>$wordnet_an</small></pre></td> <br />";
+	        $selected .= "\n<td><h2>" . $carddata{'Name'}. "</h2>" . "<br>type(s): " . $carddata{'Types'} . "<br>power/thoughness: $pt<br>Special: $k<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b><br>Level: $clevel (kl: $klevel )<br><hr>$cdname</hr>$skills<hr><pre><small>$ltext<hr>$wordnet_an</small></pre></td> 
+	        ";
 	}
-	$cards_html .= "</tr><tr> $selected </tr></table></center>";
+
+	$cards_html .= "\n\n</tr><tr> $selected </tr></table></center>";
 
 	return $cards_html;
 
@@ -476,13 +534,14 @@ sub cardimage {
 	my $i = $_[0];
 	my $cardimage = "";
 
-	$cardtitle = $rcards[$i];
-	$cardtitle =~ s/\.full\.jpg$//;
-	$cardtitle =~ s/_/\+/;
-	$cardurl = 'http://magiccards.info/query?q=' . $cardtitle . '&v=card&s=cname';
+	$cardtitle 	= $rcards[$i];
+	$cardtitle 	=~ s/\.full\.jpg$//;
+	$cardtitle 	=~ s/_/\+/;
+	$cardurl 	= 'http://magiccards.info/query?q=' . $cardtitle . '&v=card&s=cname';
+	$cardurl2	= 'https://magidex.com/search?q=' . $cardtitle;
 	my $enc_img = $cardtitle;
 
-	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\"><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a>  --- <td style='height:280px; width:380px; table-layout:fixed;'><a href=\"/cgi-bin/magic-cards2.pl\"><div id='card' style='float:left; position: relative;'><img src=\"/cards2/" . $rcards[$i] . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a><br clear='all'/></div></td>";
+	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:280px; width:380px; table-layout:fixed;'><a href=\"/cgi-bin/magic-cards2.pl\"><div id='card' style='float:left; position: relative;'><img src=\"/cards2/" . $rcards[$i] . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a><br clear='all'/></div></td>";
 
 	return ($cardimage,$cardtitle);
 
@@ -499,11 +558,15 @@ sub prethesaurus { # prepara il nome della carta per l'analisi con il thesauro
 	$cardname =~ s/'s//g;
 	
 	@cardname = split /\s/, lc($cardname);
-        $wordnet_an = "";
-        foreach $cn (@cardname) { 
-		if ($cn eq 'the' || $cn eq 'of' || $cn eq 'to' || $cn eq 'and' || $cn eq 'for') { next; }
-		$wordnet_an .= "<hr><h1>$cn</h1><hr><small>" . &wordnet($cn) . "</small>"; 
+    $wordnet_an = "";
+
+    if ($enable_wordnet) {
+	    foreach $cn (@cardname) { 
+			if ($cn eq 'the' || $cn eq 'of' || $cn eq 'to' || $cn eq 'and' || $cn eq 'for') { next; }
+			$wordnet_an .= "<hr><h1>$cn</h1><hr><small>" . &wordnet($cn) . "</small>"; 
+		}
 	}
+
 	return $wordnet_an;
 
 } # end sub prethesaurus
@@ -612,33 +675,33 @@ sub calculate_k {
 	my $k = shift;
         $kbonustot = 0;
 
-        $kbonus{'convoke'}		= 1;
-        $kbonus{'defender'}		= 0;
+        $kbonus{'convoke'}			= 1;
+        $kbonus{'defender'}			= 0;
         $kbonus{'double strike'}	= 2;
-        $kbonus{'enchant creature'} 	= 1;
-        $kbonus{'fear'} 		= 2;
-        $kbonus{'flash'} 		= 1;
+        $kbonus{'enchant creature'} = 1;
+        $kbonus{'fear'} 			= 2;
+        $kbonus{'flash'} 			= 1;
         $kbonus{'first strike'}		= 2;
         $kbonus{'flashback'} 		= 2;
-        $kbonus{'flying'} 		= 2;
+        $kbonus{'flying'} 			= 2;
         $kbonus{'forestwalk'} 		= 1;
-        $kbonus{'graft'} 		= 1;
-        $kbonus{'haste'} 		= 1;
+        $kbonus{'graft'} 			= 1;
+        $kbonus{'haste'} 			= 1;
         $kbonus{'indestructible'}	= 1;
         $kbonus{'lifelink'} 		= 1;
         $kbonus{'mountainwalk'}		= 1;
-        $kbonus{'miracle'}		= 1;
-        $kbonus{'morph'}		= 1;
-        $kbonus{'persist'}		= 1;
+        $kbonus{'miracle'}			= 1;
+        $kbonus{'morph'}			= 1;
+        $kbonus{'persist'}			= 1;
         $kbonus{'protection'}		= 1;
         $kbonus{'protection from black'}= 1;
         $kbonus{'protection from red'}	= 1;
-        $kbonus{'shroud'} 		= 2;
-        $kbonus{'shadow'} 		= 1;
+        $kbonus{'shroud'} 			= 2;
+        $kbonus{'shadow'} 			= 1;
         $kbonus{'swampwalk'} 		= 1;
-        $kbonus{'trample'} 		= 2;
+        $kbonus{'trample'} 			= 2;
         $kbonus{'vigilance'} 		= 2;
-        $kbonus{'wither'} 		= 1;
+        $kbonus{'wither'} 		 	= 1;
         foreach $sk (split /\|/, $k) {
 		if ($sk =~ /^Graft/) { $sk = "Graft"; }
 		if ($sk =~ /^Protection from/) { $sk = "Protection"; }
@@ -734,15 +797,23 @@ sub page_footer {
 	my ($lsfile) = @_;
 
 	my ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,$atime,$mtime,$ctime,$blksize,$blocks) = stat($lsfile) if -e $lsfile ;
-	my $filestats = "card list file name: $lsfile - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime));
+	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . " - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a>";
 
     my $page =<<"EOF";
+<div style="padding-left: 20px; width: 500px;">
 <small>
 <br><br>
-<b>$#cards cards in directory: $dir </b> 
+<b>$#cards cards in directory: $dir </b> - <a href="file:///C:/Users/mcorradi/AppData/Local/Forge/Cache/pics/cards/" target="_blank">C:\\Users\\mcorradi\\AppData\\Local\\Forge\\Cache\\pics\\cards</a> 
 <br>$filestats
-<br><a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a>
-</body>
+<br><a href="/css/magic-cards.css" target="_blank">magic-cards.css</a> in /var/www/html/css/
+<br><a href="/js/" target="_blank">javascript libraries</a> in /var/www/html/js/
+<br><br><hr><br><b>Come si aggiorna il file delle carte lo-fi</b>: 
+<br>il file è in ~/down/demon/lowmtgimg2.txt</body>, e si genera andando su
+<br>file:///C:/Users/mcorradi/AppData/Local/Forge/Cache/pics/cards/ 
+<br>e ordinando per "size", poi creando il nuovo file con il comando: 
+<pre>cat /tmp/lowmtgimg.txt | awk -F"|" '{print \$1}' > ~/down/demon/lowmtgimg2.txt</pre>
+ed infine andando su <a href='/cgi-bin/magic-cards2.pl?lowfi=1'>/cgi-bin/magic-cards2.pl?lowfi=1</a>
+</div>
 </html>
 EOF
 
