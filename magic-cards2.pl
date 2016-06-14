@@ -504,8 +504,6 @@ sub cards { # imposta il layout principale per mostrare le carte
 
         %carddata = &parsedata($ltext); ### ex: $carddata{'Name'}; keys: Types, ManaCost, Rarity
 
-		$cdname		= "<small>Imagefile: $imagefile<br>image filename: $cdname<br >textfile2: $textfile2 <br>Size: $size  </small>";
-
 ### thesaurus analysis I
 
    	 	$wordnet_an = "";
@@ -518,9 +516,20 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		my ($skills, $picurl) = split /Picture:/, $allskills;
 
+		$cssmanastyle = &manacost2style($carddata{'ManaCost'});
+
+		$cdname		= "<small>Imagefile: $imagefile<br>image filename: $cdname<br >textfile2: $textfile2 <br>Size: $size  </small>";
+
 		my ($clevel, $klevel) = &calculate_level($carddata{'ManaCost'}, $carddata{'Rarity'}, $type, $text3, $text2, $k);
-	        $selected .= "\n<td><h2>" . $carddata{'Name'}. "</h2>" . "<br>type(s): " . $carddata{'Types'} . "<br>power/thoughness: $pt<br>Special: $k<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b><br>Level: $clevel (kl: $klevel )<br><hr>$cdname</hr>$skills<hr><pre><small>$ltext<hr>$wordnet_an</small></pre></td> 
-	        ";
+
+	    $selected .= "\n<td>\n\n<!-- COLUMN NUMBER $i -->\n\n<div class='$cssmanastyle title' ><h2>" . $carddata{'Name'}. "</h2></div>\n\n" . 
+	    	"<hr>" .
+	    	"color: $cssmanastyle" . 
+	    	"<hr><div class='info'>" . "type(s): " . $carddata{'Types'} . 
+	    	"<br>power/thoughness: $pt<br>Special: $k<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b>" . 
+	    	"<br>Level: $clevel (kl: $klevel )<br><hr>$cdname</hr>$skills<hr>" . 
+	        "</div><div class='wordnet'>" . 
+	        "\n\n<div class='magicpre'><small>$ltext<hr>$wordnet_an</small></div></td></div>";
 	}
 
 	$cards_html .= "\n\n</tr><tr> $selected </tr></table></center>";
@@ -528,6 +537,43 @@ sub cards { # imposta il layout principale per mostrare le carte
 	return $cards_html;
 
 } #end sub cards
+
+sub manacost2style {
+	my $manacost = $_[0];
+
+	my $style = "";
+	my %mana;
+	$coloredmana = 0;
+	@manacost = split /\s/, $manacost;
+	foreach $mc (@manacost) {
+		if ($mc eq 'B') {
+			$mana{'black'} = 1;
+			$coloredmana = 1;
+		} elsif ($mc eq 'U') {
+			$mana{'blue'} = 1;
+			$coloredmana = 1;
+		} elsif ($mc eq 'W') {
+			$mana{'white'} = 1;
+			$coloredmana = 1;
+		} elsif ($mc eq 'G') {
+			$mana{'green'} = 1;
+			$coloredmana = 1;
+		} elsif ($mc eq 'R') {
+			$mana{'red'} = 1;
+			$coloredmana = 1;
+		} 
+	}
+
+	if ($coloredmana) { 
+		foreach $k (keys(%mana)) {
+			$style .= $k . " " ; 
+		}
+	} else { $style = "colorless"; }
+	if (keys(%mana) > 1) { $style = "gold"; }
+
+	return $style;
+
+} # end sub manacost2style
 
 sub cardimage {
 
@@ -541,7 +587,11 @@ sub cardimage {
 	$cardurl2	= 'https://magidex.com/search?q=' . $cardtitle;
 	my $enc_img = $cardtitle;
 
-	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:280px; width:380px; table-layout:fixed;'><a href=\"/cgi-bin/magic-cards2.pl\"><div id='card' style='float:left; position: relative;'><img src=\"/cards2/" . $rcards[$i] . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a><br clear='all'/></div></td>";
+	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
+		"<a href=\"/cgi-bin/magic-cards2.pl\">" . 
+		"<div id='card' style='float:left; position: relative;'>" . 
+		"<img class='cardimage' src=\"/cards2/" . $rcards[$i] . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
+		"<br clear='all'/></div></td>";
 
 	return ($cardimage,$cardtitle);
 
@@ -800,6 +850,8 @@ sub page_footer {
 	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . " - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a>";
 
     my $page =<<"EOF";
+
+
 <div style="padding-left: 20px; width: 500px;">
 <small>
 <br><br>

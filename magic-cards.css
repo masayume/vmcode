@@ -1,0 +1,43 @@
+/*---------------------------------------------------------------------------------------------------------
+// 	Fonts available:
+//  jaf-bernino-sans-condensed
+//	kepler-std, 400 (regular) & 700 (bold), normal & itlaic
+// 	Lato, normal: 300 (light), 400 (regular), 700 (bold), 900 (black) and italic 400 (regular)
+//-------------------------------------------------------------------------------------------------------*/
+body
+{
+	margin:					0;
+	padding:				0px 0 0 0;
+
+	background-color:		#FFFFFF;
+
+	/*	Default text styles	----------------------------*/
+	font-family:			"kepler-std", Georgia, serif;
+	color:					#444444;
+	font-size:				18px;
+	line-height:			1.4em;
+	
+}
+.magicpre {
+	font-size:				8px;
+}
+.wordnet {
+	font-size: 10px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+}
+.info { font-size: 10px;  }
+.title { height: 40px; line-height: 40px; padding-left: 20px; margin-top: -14px; }
+.red { color: #fff; background-color: #c00; }
+.green { color: #fff; background-color: #090; }
+.white { color: #000; background-color: #ffc; }
+.blue { color: #fff; background-color: #00f; }
+.black { color: #fff; background-color: #000; }
+.colorless { color: #000; background-color: #999; }
+.gold { color: #000; background-color: #fc0; }
+.cardimage { margin-left: 5px;  margin-top: 10px; }
