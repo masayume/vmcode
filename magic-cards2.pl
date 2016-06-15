@@ -10,7 +10,6 @@
 
 ### TODO:
 ### :504 card info (power/thoughness, type, text)
-###	:435 wordnet calculates $wordtype
 ###	-> occorrerebbe una modalità di accesso a serie di parole dei nomi delle carte e relativo calcolo del wordtype
 ### 		sub: calculate_level - includere le K: (flying, trample, lifelink, vigilance, protections...) 
 ### 		definire la struttura dati per rappresentare il labirinto di terre
@@ -23,6 +22,8 @@ use File::Finder; ## (cfr. http://search.cpan.org/~merlyn/File-Finder-0.53/lib/F
 use List::Util qw(shuffle);
 use DBI;
 use MyCompound; # custom module for wordnet v2 analysis (check compounds and word types (verb, name, adj.) based on frequency (polysemy count))
+
+### SCRIPT CONFIGURATION
 
 my 	$enable_wordnet = 0; ### 1: ENABLE WORDNET - 0: DISABLE WORDNET
 
@@ -265,16 +266,16 @@ sub updatedb {
         foreach $card (reverse(@cards)) {
 		$i++;
 
-                # $textfile = '/home/masayume/forge/cards/' . substr($card,0,1) . "/" . $card;
-                $textfile = $cardsfolder . lc(substr($card,0,1)) . "/" . $card;
+        # $textfile = '/home/masayume/forge/cards/' . substr($card,0,1) . "/" . $card;
+        $textfile = $cardsfolder . lc(substr($card,0,1)) . "/" . $card;
 
-                $imagefile = '/var/www/cards2/' . $card; # image file path
-                ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size, $atime,$mtime,$ctime,$blksize,$blocks) = stat($imagefile);
+        $imagefile = '/var/www/cards2/' . $card; # image file path
+        ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size, $atime,$mtime,$ctime,$blksize,$blocks) = stat($imagefile);
 		
-                $textfile2 = &textfile($textfile);
+        $textfile2 = &textfile($textfile);
 
-                $cardtitle      = $textfile2;
-                $ltext          = `cat $textfile2`;
+        $cardtitle      = $textfile2;
+        $ltext          = `cat $textfile2`;
 
 		($setc, $rarity, $image, $nome, $manacost, $type, $text3, $text2, $set, $power, $toughness, $allskills, $k) = &parsefile($textfile2);
 
@@ -314,7 +315,9 @@ sub updatedb {
 
 sub parsefile {
 
-        my $textfile = $_[0];
+# pulire dai caratteri speciali i tag e fare parsing per funzionalità, meta parole chiave per l'uso e valori e skill 
+
+    my $textfile = $_[0];
 
 	$text = `cat $textfile`;
 
@@ -337,16 +340,16 @@ sub parsefile {
 	($dummy, $text2) = split /:/, $forgetext[-2];
 	($dummy,$set) = split /:/, $setc;
 
-        $nome 	=~ s/'/\\'/g;
-        $type 	=~ s/'/\\'/g;
-        $oracle =~ s/'/\\'/g;
-        $text2 	=~ s/'/\\'/g;
-        $allsk 	=~ s/'/\\'/g;
+    $nome 	=~ s/'/\\'/g;
+    $type 	=~ s/'/\\'/g;
+    $oracle =~ s/'/\\'/g;
+    $text2 	=~ s/'/\\'/g;
+    $allsk 	=~ s/'/\\'/g;
 
-        $nome =~ s/\s$//;
-        $type =~ s/\s$//;
-        $image =~ s/\s$//;
-        $manacost =~ s/\s$//;
+    $nome =~ s/\s$//;
+    $type =~ s/\s$//;
+    $image =~ s/\s$//;
+    $manacost =~ s/\s$//;
 
 	$power = "-1"; 
 	$toughness = "-1";
@@ -484,7 +487,6 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 
 		$imagefile = '/var/www/html/cards2/' . $rcards[$i]; # image file path
-#		$imagefile = $rcard;
 
 		$imagefile =~ s/\n//g;
 		($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size, $atime,$mtime,$ctime,$blksize,$blocks) = stat($imagefile);
@@ -522,6 +524,8 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		my ($clevel, $klevel) = &calculate_level($carddata{'ManaCost'}, $carddata{'Rarity'}, $type, $text3, $text2, $k);
 
+		$ltext =~ s/[\|\n]/<br>/g; 		# $ltext =~ s/\n/<br>/g;
+
 	    $selected .= "\n<td>\n\n<!-- COLUMN NUMBER $i -->\n\n<div class='$cssmanastyle title' ><h2>" . $carddata{'Name'}. "</h2></div>\n\n" . 
 	    	"<hr>" .
 	    	"color: $cssmanastyle" . 
@@ -547,20 +551,15 @@ sub manacost2style {
 	@manacost = split /\s/, $manacost;
 	foreach $mc (@manacost) {
 		if ($mc eq 'B') {
-			$mana{'black'} = 1;
-			$coloredmana = 1;
+			$mana{'black'} = 1; $coloredmana = 1;
 		} elsif ($mc eq 'U') {
-			$mana{'blue'} = 1;
-			$coloredmana = 1;
+			$mana{'blue'} = 1; $coloredmana = 1;
 		} elsif ($mc eq 'W') {
-			$mana{'white'} = 1;
-			$coloredmana = 1;
+			$mana{'white'} = 1; $coloredmana = 1;
 		} elsif ($mc eq 'G') {
-			$mana{'green'} = 1;
-			$coloredmana = 1;
+			$mana{'green'} = 1; $coloredmana = 1;
 		} elsif ($mc eq 'R') {
-			$mana{'red'} = 1;
-			$coloredmana = 1;
+			$mana{'red'} = 1; $coloredmana = 1;
 		} 
 	}
 
