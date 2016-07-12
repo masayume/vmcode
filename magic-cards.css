@@ -18,11 +18,14 @@ body
 	line-height:			1.4em;
 	
 }
+small {
+		font-size:			8px;
+}
 .magicpre {
 	font-size:				8px;
 }
 .wordnet {
-	font-size: 10px;
+	font-size: 14px;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 	-ms-word-break: break-all;
@@ -31,7 +34,7 @@ body
 	/* Instead use this non-standard one: */
 	word-break: break-word;
 }
-.info { font-size: 10px;  }
+.info { font-size: 14px;  }
 .title { height: 40px; line-height: 40px; padding-left: 20px; margin-top: -14px; }
 .red { color: #fff; background-color: #c00; }
 .green { color: #fff; background-color: #090; }

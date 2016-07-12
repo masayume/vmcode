@@ -3,13 +3,20 @@
 
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?l=1#top
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?wordnet=1
+### http://localhost:8988/cgi-bin/magic-cards2.pl?lowfi=1
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?dbxtract=1
+### http://localhost:8988/cgi-bin/magic-cards2.pl?cardname=indreaver 	SPECIFIC CARD
+### http://localhost:8988/cgi-bin/magic-cards2.pl?smartwrite2=1			WRITES card list file from TEXT card files in forge/res/cardsfolder
+### http://localhost:8988/cgi-bin/magic-cards2.pl?smartread2=1			READS card list file above
 
 ### functions
 #	page_footer: 
 
 ### TODO:
+### :??? qstring param to select cards from text card list
+### :??? ambering all the images
 ### :504 card info (power/thoughness, type, text)
+### card tags: type/subtype/environment/details
 ###	-> occorrerebbe una modalità di accesso a serie di parole dei nomi delle carte e relativo calcolo del wordtype
 ### 		sub: calculate_level - includere le K: (flying, trample, lifelink, vigilance, protections...) 
 ### 		definire la struttura dati per rappresentare il labirinto di terre
@@ -32,12 +39,24 @@ my (%POST, %QUERY, @cards);
 &parse_args;
 
 $cardsnum 	= 3;
-$dir 		= '/media/sf_forge2/cards/'; 
+$dir 		= '/media/sf_forge2/cards/'; 			# IMAGE cards directory
+$dir2		= '/media/sf_forge/res/cardsfolder/'; 	# TEXT cards directory 
 $lsfile		= 'mtglsfile.list';
+$lsfile2	= 'mtglsfile2.list';
 
 print "Content-type: text/html \n\n";
 
-my @cards= &smartread($dir, $lsfile); 
+my @cards;
+my $smartread_url;
+
+
+if ($QUERY{'smartread2'}) {
+		@cards = &smartread($dir, $lsfile2); 	
+		$smartread_url = "?smartread2=1"
+} else {
+		@cards = &smartread($dir, $lsfile); 
+}
+
 
 $cardsfolder	= '/media/sf_forge/res/cardsfolder/';
 $cardtextfile 	= "cardsfolder.zip"; 
@@ -52,8 +71,10 @@ if ($QUERY{'l'}) { # image list with low resolution in evidence
 	&updatedb;
 } elsif ($QUERY{'wtt'}) {
         &wordtypetest;
-} elsif ($QUERY{'smartwrite'}) {
+} elsif ($QUERY{'smartwrite'}) { # reads cards IMAGE directory
         &smartwrite($dir, $lsfile);
+} elsif ($QUERY{'smartwrite2'}) { # reads cards TEXT directory
+        &smartwrite2($dir2, $lsfile2);
 } elsif ($QUERY{'lowfi'}) {
         &lowficardread();
 } elsif ($QUERY{'dbxtract'}) {
@@ -108,6 +129,26 @@ sub smartwrite {
 	close FILE;
 
 	print "written file <b>$lsfile</b> containing <b>" . $numcards . "</b> cards";
+	exit(0);
+
+}
+
+sub smartwrite2 { # writes mtglsfile2.list
+
+	my @cards = ();
+	my ($dir, $lsfile2) = @_;
+
+	$lsfile = '/home/masayume/cgi-bin/' . $lsfile2;
+
+	$retval = `head -1 /media/sf_forge/res/cardsfolder/?/*.txt | grep Name: | sed s/^Name://`;
+	`cp $lsfile2 /tmp/tempfile; dos2unix /tmp/tempfile;`;
+	$retval2 = `cat /tmp/tempfile | sed s/\$/.full.jpg/`;
+
+	open (FILE, "> $lsfile2") or print "Could NOT write file $lsfile2."; 
+	print FILE $retval2;
+	close FILE;
+
+	print "<br>written (cardsfolder) file <b>$lsfile</b>";
 	exit(0);
 
 }
@@ -587,7 +628,7 @@ sub cardimage {
 	my $enc_img = $cardtitle;
 
 	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
-		"<a href=\"/cgi-bin/magic-cards2.pl\">" . 
+		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
 		"<div id='card' style='float:left; position: relative;'>" . 
 		"<img class='cardimage' src=\"/cards2/" . $rcards[$i] . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
 		"<br clear='all'/></div></td>";
@@ -846,7 +887,7 @@ sub page_footer {
 	my ($lsfile) = @_;
 
 	my ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,$atime,$mtime,$ctime,$blksize,$blocks) = stat($lsfile) if -e $lsfile ;
-	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . " - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a>";
+	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . " - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a> (from images) - <a href='/cgi-bin/magic-cards2.pl?smartwrite2=1'>generate card list file</a> (from cardsfolder) ";
 
     my $page =<<"EOF";
 
