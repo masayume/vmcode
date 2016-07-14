@@ -13,9 +13,8 @@
 #	page_footer: 
 
 ### TODO:
-### :??? qstring param to select cards from text card list
 ### :??? ambering all the images
-### :504 card info (power/thoughness, type, text)
+### :570 card type/skill tokens => what happens
 ### card tags: type/subtype/environment/details
 ###	-> occorrerebbe una modalità di accesso a serie di parole dei nomi delle carte e relativo calcolo del wordtype
 ### 		sub: calculate_level - includere le K: (flying, trample, lifelink, vigilance, protections...) 
@@ -567,9 +566,22 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		$ltext =~ s/[\|\n]/<br>/g; 		# $ltext =~ s/\n/<br>/g;
 
+### card tokens
+		my $strenght = ""; my $life = ""; my $level = "";
+		if ($power > 0) {
+			$strenght = "<div class='strenght'>" . "" . $power . "</div>";
+		}
+		if ($toughness > 0) {
+			$life = "<div class='life'>" . "" . $toughness . "</div>";
+		}
+		if ($clevel > 0) {
+			$level = "<div class='level'>" . "" . $clevel . "</div>";
+		}
+
 	    $selected .= "\n<td>\n\n<!-- COLUMN NUMBER $i -->\n\n<div class='$cssmanastyle title' ><h2>" . $carddata{'Name'}. "</h2></div>\n\n" . 
 	    	"<hr>" .
-	    	"color: $cssmanastyle" . 
+	    	"color: $cssmanastyle" . $level . $life . $strenght .  
+
 	    	"<hr><div class='info'>" . "type(s): " . $carddata{'Types'} . 
 	    	"<br>power/thoughness: $pt<br>Special: $k<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b>" . 
 	    	"<br>Level: $clevel (kl: $klevel )<br><hr>$cdname</hr>$skills<hr>" . 

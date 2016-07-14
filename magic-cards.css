@@ -19,7 +19,7 @@ body
 	
 }
 small {
-		font-size:			8px;
+	font-size:			12px;
 }
 .magicpre {
 	font-size:				8px;
@@ -36,6 +36,54 @@ small {
 }
 .info { font-size: 14px;  }
 .title { height: 40px; line-height: 40px; padding-left: 20px; margin-top: -14px; }
+.strenght { 
+	position: relative; 
+	top: -16px;
+	float: right;
+	margin-right: 4px;
+	color: #fff; 
+	background-color: #c00; 
+	width: 50px;
+	height: 50px;	
+	line-height: 50px; 
+	text-align: center;
+	vertical-align: middle;
+	font-family: "kepler-std", Georgia, serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+.life { 
+	position: relative; 
+	top: -16px;
+	float: right;
+	margin-right: 4px;
+	color: #fff; 
+	background-color: #0c0; 
+	width: 50px;
+	height: 50px;	
+	line-height: 50px; 
+	text-align: center;
+	vertical-align: middle;
+	font-family: "kepler-std", Georgia, serif;
+	font-size: 28px;
+	font-weight: bold;
+}
+.level { 
+	position: relative; 
+	top: -16px;
+	float: right;
+	margin-right: 4px;
+	color: #fff; 
+	background-color: #000; 
+	width: 50px;
+	height: 50px;	
+	line-height: 50px; 
+	text-align: center;
+	vertical-align: middle;
+	font-family: "kepler-std", Georgia, serif;
+	font-size: 28px;
+	font-weight: bold;
+}
 .red { color: #fff; background-color: #c00; }
 .green { color: #fff; background-color: #090; }
 .white { color: #000; background-color: #ffc; }
