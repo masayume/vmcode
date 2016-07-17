@@ -13,6 +13,7 @@
 #	page_footer: 
 
 ### TODO:
+### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
 ### :??? ambering all the images
 ### :570 card type/skill tokens => what happens
 ### card tags: type/subtype/environment/details
@@ -285,6 +286,7 @@ sub textfile {
         $newtf  =~ s/\s$//g;
         $newtf  =~ s/\s/_/g;
         $newtf  =~ s/-/_/g;
+        $newtf  =~ s/[:]//g;
         $newtf  =~ s/full\.//;
         $newtf 	=~ s/\.jpg$/\.txt/;
 #	print "<br><b>tf: $tf</b><br><b>newtf: $newtf</b>";
@@ -528,7 +530,7 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		$imagefile = '/var/www/html/cards2/' . $rcards[$i]; # image file path
 
-		$imagefile =~ s/\n//g;
+		$imagefile =~ s/\n//g; 
 		($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size, $atime,$mtime,$ctime,$blksize,$blocks) = stat($imagefile);
 		
 		$textfile2 = &textfile($rcards[$i]);
@@ -639,10 +641,12 @@ sub cardimage {
 	$cardurl2	= 'https://magidex.com/search?q=' . $cardtitle;
 	my $enc_img = $cardtitle;
 
+	$imageurl = $rcards[$i]; $imageurl =~ s/[:]//g;
+
 	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
 		"<div id='card' style='float:left; position: relative;'>" . 
-		"<img class='cardimage' src=\"/cards2/" . $rcards[$i] . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
+		"<img class='cardimage' src=\"/cards2/" . $imageurl . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
 		"<br clear='all'/></div></td>";
 
 	return ($cardimage,$cardtitle);
