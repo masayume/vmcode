@@ -140,11 +140,12 @@ sub smartwrite2 { # writes mtglsfile2.list
 
 	$lsfile = '/home/masayume/cgi-bin/' . $lsfile2;
 
-	$retval = `head -1 /media/sf_forge/res/cardsfolder/?/*.txt | grep Name: | sed s/^Name://`;
-	`cp $lsfile2 /tmp/tempfile; dos2unix /tmp/tempfile;`;
-	$retval2 = `cat /tmp/tempfile | sed s/\$/.full.jpg/`;
+	$retval = `head -1 /media/sf_forge/res/cardsfolder/?/*.txt | grep Name: | sed s/^Name:// > /tmp/tempfile`;
+	# `cp $lsfile /tmp/tempfile; dos2unix /tmp/tempfile;`;
+	`dos2unix /tmp/tempfile;`;
+ 	$retval2 = `cat /tmp/tempfile | sed s/\$/.full.jpg/`;
 
-	open (FILE, "> $lsfile2") or print "Could NOT write file $lsfile2."; 
+	open (FILE, "> $lsfile") or print "Could NOT write file $lsfile."; 
 	print FILE $retval2;
 	close FILE;
 
@@ -903,7 +904,7 @@ sub page_footer {
 	my ($lsfile) = @_;
 
 	my ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,$atime,$mtime,$ctime,$blksize,$blocks) = stat($lsfile) if -e $lsfile ;
-	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . " - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a> (from images) - <a href='/cgi-bin/magic-cards2.pl?smartwrite2=1'>generate card list file</a> (from cardsfolder) ";
+	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . "<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a> (from images)<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite2=1'>generate card list file</a> (from cardsfolder) ";
 
     my $page =<<"EOF";
 
