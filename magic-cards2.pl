@@ -13,9 +13,13 @@
 #	page_footer: 
 
 ### TODO:
+### :660 "Plane" card type handling (change clipping)
 ### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
 ### :??? ambering all the images
 ### :570 card type/skill tokens => what happens
+### :??? auto generate cardlist files by type 
+### alternative card names
+### smartread3: read from MTG Cardsmith archive http://mtgcardsmith.com/#
 ### card tags: type/subtype/environment/details
 ###	-> occorrerebbe una modalità di accesso a serie di parole dei nomi delle carte e relativo calcolo del wordtype
 ### 		sub: calculate_level - includere le K: (flying, trample, lifelink, vigilance, protections...) 
@@ -23,6 +27,7 @@
 ### 		trattare le creature con P/T 0/0
 ### DONE 13/08/11 sub: wordnet - calcolare i verbi, gli aggettivi e le parole composte
 
+### HD image pack download: http://octgngames.com/mtg/download-links/ 
 ### wordnet dox: http://wordnet.princeton.edu/wordnet/man/wn.1WN.html
 
 use File::Finder; ## (cfr. http://search.cpan.org/~merlyn/File-Finder-0.53/lib/File/Finder.pm)
@@ -540,10 +545,6 @@ sub cards { # imposta il layout principale per mostrare le carte
 		$textfile2 	= $cardsfolder . lc(substr($rcards[$i],0,1)) . '/' . $textfile2;
 	    $ltext 		= `cat $textfile2`;
 
-# calcolo delle immagini
-	    my ($chtml,$cdname) = &cardimage($i);
-	    $cards_html .= $chtml;
-
 # calcolo dei testi & parse card data 
         $ltext =~ s/http:\/\/(.+)jpg/<a href='http:\/\/${1}jpg' target='_blank'>${1}jpg<\/a>/g;
 
@@ -590,6 +591,11 @@ sub cards { # imposta il layout principale per mostrare le carte
 	    	"<br>Level: $clevel (kl: $klevel )<br><hr>$cdname</hr>$skills<hr>" . 
 	        "</div><div class='wordnet'>" . 
 	        "\n\n<div class='magicpre'><small>$ltext<hr>$wordnet_an</small></div></td></div>";
+
+# calcolo delle immagini
+	    my ($chtml,$cdname) = &cardimage($i,$type);
+	    $cards_html .= $chtml;
+
 	}
 
 	$cards_html .= "\n\n</tr><tr> $selected </tr></table></center>";
@@ -633,6 +639,7 @@ sub manacost2style {
 sub cardimage {
 
 	my $i = $_[0];
+	my $type = $_[1];
 	my $cardimage = "";
 
 	$cardtitle 	= $rcards[$i];
@@ -643,10 +650,21 @@ sub cardimage {
 	my $enc_img = $cardtitle;
 
 	$imageurl = $rcards[$i]; $imageurl =~ s/[:]//g;
+	chomp $imageurl;
+
+	$id = "card";
+	if ($type =~ /Plane /) {
+		$id = "plane";
+	}
+	if ($type =~ /Planeswalker/) {
+		$id = "planeswalker";
+	}
+
 
 	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
-		"<div id='card' style='float:left; position: relative;'>" . 
+		"\n\n<!-- CARD -->" . 
+		"\n<div id='$id' style='float:left; position: relative;'>" . 
 		"<img class='cardimage' src=\"/cards2/" . $imageurl . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
 		"<br clear='all'/></div></td>";
 
@@ -857,32 +875,6 @@ sub page_header {
 <html>
 <head>
 <style type="text/css">
-@media screen {
-@font-face {
-  	font-family: 'Philosopher';
-  	font-style: normal;
-  	font-weight: normal;
-  	src: local('Philosopher'), url('http://127.0.1.1/philosopher.ttf') format('truetype');
-}
-}
-strong { font-family: 'Philosopher', arial, serif; }
-#card img {
-    	width: 460px; 
-    	position: absolute;
-    	top: -70px;
-    	left: -50px;
-    	clip: rect(66px 420px 350px 50px); // top, right, bottom, left
-    	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
-}
-td { width: 320px; vertical-align:top; }
-small { font-size: 10px; }
-pre {
-	white-space: pre-wrap; /* css-3 */
-	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
-	white-space: -pre-wrap; /* Opera 4-6 */
-	white-space: -o-pre-wrap; /* Opera 7 */
-	word-wrap: break-word; /* Internet Explorer 5.5+ */
-}
 </style>
 <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic' rel='stylesheet' type='text/css'>
 <link href="/css/magic-cards.css" media="all" rel="stylesheet" type="text/css"/>

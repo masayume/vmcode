@@ -92,3 +92,46 @@ small {
 .colorless { color: #000; background-color: #999; }
 .gold { color: #000; background-color: #fc0; }
 .cardimage { margin-left: 5px;  margin-top: 10px; }
+#card img {
+    	width: 460px; 
+    	position: absolute;
+    	top: -70px;
+    	left: -50px;
+    	clip: rect(66px 420px 350px 50px); // top, right, bottom, left
+    	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
+}
+#Plane img {
+    	width: 860px; 
+    	position: absolute;
+    	top: -70px;
+    	left: -50px;
+    	clip: rect(86px 220px 310px 250px); // top, right, bottom, left
+    	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
+}
+#Planeswalker img {
+    	width: 500px; 
+    	position: absolute;
+    	top: -70px;
+    	left: -50px;
+    	clip: rect(66px 420px 350px 50px); // top, right, bottom, left
+    	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
+}
+@media screen {
+@font-face {
+  	font-family: 'Philosopher';
+  	font-style: normal;
+  	font-weight: normal;
+  	src: local('Philosopher'), url('http://127.0.1.1/philosopher.ttf') format('truetype');
+}
+}
+strong { font-family: 'Philosopher', arial, serif; }
+td { width: 320px; vertical-align:top; }
+small { font-size: 10px; }
+pre {
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
