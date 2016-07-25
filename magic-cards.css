@@ -141,10 +141,8 @@ https://css-tricks.com/almanac/properties/f/filter/
 .cardimage { margin-left: 5px;  margin-top: 10px; }
 
 /*Filter styles*/
-
-.saturate {-webkit-filter: saturate(3); filter: saturate(3);}
 .grayscale {-webkit-filter: grayscale(1); filter: grayscale(1);}
-
+.saturate {-webkit-filter: saturate(3); filter: saturate(3);}
 .contrast {-webkit-filter: contrast(160%); filter: contrast(160%);}
 .brightness {-webkit-filter: brightness(0.25); filter: brightness(0.25);}
 .blur {-webkit-filter: blur(3px); filter: blur(3px);}

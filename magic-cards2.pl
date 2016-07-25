@@ -8,6 +8,7 @@
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?cardname=indreaver 	SPECIFIC CARD
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?smartwrite2=1			WRITES card list file from TEXT card files in forge/res/cardsfolder
 ### http://localhost:8988/cgi-bin/magic-cards2.pl?smartread2=1			READS card list file above
+### http://localhost:8988/cgi-bin/magic-cards2.pl?filter=random			applies a random filter to card images
 
 ### functions
 #	page_footer: 
@@ -15,7 +16,6 @@
 ### TODO:
 ### :660 "Plane" card type handling (change clipping)
 ### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
-### :??? ambering all the images
 ### :570 card type/skill tokens => what happens
 ### :??? auto generate cardlist files by type 
 ### alternative card names
@@ -97,14 +97,14 @@ if ($QUERY{'l'}) { # image list with low resolution in evidence
 		@rcards = shuffle @cards;	
 	}
 
-
-# $rcard = `shuf -n 1 /home/masayume/down/demon/lowmtgimg2.txt`;
-# $rcard .= '.full.jpg';
+	my $filter = '';
+	if ($QUERY{'filter'}) { 
+		$filter = $QUERY{'filter'};
+	}
 
 	print &page_header;
 
-	print &cards;
-#	print &cards($rcard);
+	print &cards($filter);
 
 	print &page_footer($lsfile);
 
@@ -557,7 +557,7 @@ sub list {
 
 sub cards { # imposta il layout principale per mostrare le carte
 
-#	my $rcard = $_[0];
+	my $filter = $_[0];
 
 	my $size;
 	$selected = "";
@@ -625,7 +625,7 @@ sub cards { # imposta il layout principale per mostrare le carte
 	        "\n\n<div class='magicpre'><small>$ltext<hr>$wordnet_an</small></div></td></div>";
 
 # calcolo delle immagini
-	    my ($chtml,$cdname) = &cardimage($i,$type);
+	    my ($chtml,$cdname) = &cardimage($i,$type,$filter);
 	    $cards_html .= $chtml;
 
 	}
@@ -670,9 +670,10 @@ sub manacost2style {
 
 sub cardimage {
 
-	my $i = $_[0];
-	my $type = $_[1];
-	my $cardimage = "";
+	my $i 			= $_[0];
+	my $type 		= $_[1];
+	my $filter 		= $_[2];
+	my $cardimage 	= "";
 
 	$cardtitle 	= $rcards[$i];
 	$cardtitle 	=~ s/\.full\.jpg$//;
@@ -694,9 +695,17 @@ sub cardimage {
 
 	$cardclass = "cardimage";
 
-	if (int(rand(100)) > 50) {
-		$cardclass .= " grayscale";
+	if ($filter eq 'random') {
+		if (int(rand(100)) > 80) { $cardclass .= " grayscale"; }
+		elsif (int(rand(100)) > 80) { $cardclass .= " saturate"; }
+		elsif (int(rand(100)) > 80) { $cardclass .= " sepia"; }
+		elsif (int(rand(100)) > 80) { $cardclass .= " huerotate"; }
+	} elsif ($filter eq 'sepia') {
+		$cardclass .= " sepia";
+	} elsif ($filter ne '') {
+		$cardclass .= " " . $filter;		
 	}
+
 
 	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
