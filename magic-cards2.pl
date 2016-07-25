@@ -43,11 +43,13 @@ my 	$enable_wordnet = 0; ### 1: ENABLE WORDNET - 0: DISABLE WORDNET
 my (%POST, %QUERY, @cards);
 &parse_args;
 
-$cardsnum 	= 3;
-$dir 		= '/media/sf_forge2/cards/'; 			# IMAGE cards directory
-$dir2		= '/media/sf_forge/res/cardsfolder/'; 	# TEXT cards directory 
-$lsfile		= 'mtglsfile.list';
-$lsfile2	= 'mtglsfile2.list';
+$cardsnum 		= 3;
+$dir 			= '/media/sf_forge2/cards/'; 			# IMAGE cards directory
+$dir2			= '/media/sf_forge/res/cardsfolder/'; 	# TEXT cards directory 
+$lsfile			= 'mtglsfile.list';
+$lsfile2		= 'mtglsfile2.list';
+$lsfile_prefx 	= 'mtgls-';
+$lsfile_sufx 	= '.list';
 
 print "Content-type: text/html \n\n";
 
@@ -80,6 +82,8 @@ if ($QUERY{'l'}) { # image list with low resolution in evidence
         &smartwrite($dir, $lsfile);
 } elsif ($QUERY{'smartwrite2'}) { # reads cards TEXT directory
         &smartwrite2($dir2, $lsfile2);
+} elsif ($QUERY{'autowrite'}) { # reads cards IMAGE directory
+        &autowrite($dir, $lsfile_prefx, $lsfile_sufx);
 } elsif ($QUERY{'lowfi'}) {
         &lowficardread();
 } elsif ($QUERY{'dbxtract'}) {
@@ -155,6 +159,34 @@ sub smartwrite2 { # writes mtglsfile2.list
 	close FILE;
 
 	print "<br>written (cardsfolder) file <b>$lsfile</b>";
+	exit(0);
+
+}
+
+sub autowrite { # writes mtglsfile2.list
+
+	my @cards = ();
+	my ($dir, $prefix, $suffix) = @_;
+
+	@cardtypes = ("land");
+
+	foreach $ctype (@cardtypes) {
+
+		$lsfile = '/home/masayume/cgi-bin/' . $prefix . $ctype . $suffix;
+
+		$retval = `head -3 /media/sf_forge/res/cardsfolder/?/*.txt | grep -E "Name:|Types:"`;
+		# `cp $lsfile /tmp/tempfile; dos2unix /tmp/tempfile;`;
+		`dos2unix /tmp/tempfile;`;
+	 	$retval2 = `cat /tmp/tempfile | sed s/\$/.full.jpg/`;
+
+		open (FILE, "> $lsfile") or print "Could NOT write file $lsfile."; 
+		print FILE $retval;
+		close FILE;
+
+		print "<br>written file <b>$lsfile</b>";
+
+	}
+
 	exit(0);
 
 }
@@ -564,7 +596,7 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		$cssmanastyle = &manacost2style($carddata{'ManaCost'});
 
-		$cdname		= "<small>Imagefile: $imagefile<br>image filename: $cdname<br >textfile2: $textfile2 <br>Size: $size  </small>";
+		$cddata		= "<small>Imagefile: $imagefile<br>image filename: $cdname<br >textfile2: $textfile2 <br>Size: $size  </small>";
 
 		my ($clevel, $klevel) = &calculate_level($carddata{'ManaCost'}, $carddata{'Rarity'}, $type, $text3, $text2, $k);
 
@@ -588,7 +620,7 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 	    	"<hr><div class='info'>" . "type(s): " . $carddata{'Types'} . 
 	    	"<br>power/thoughness: $pt<br>Special: $k<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b>" . 
-	    	"<br>Level: $clevel (kl: $klevel )<br><hr>$cdname</hr>$skills<hr>" . 
+	    	"<br>Level: $clevel (kl: $klevel )<br><hr>$cddata</hr>$skills<hr>" . 
 	        "</div><div class='wordnet'>" . 
 	        "\n\n<div class='magicpre'><small>$ltext<hr>$wordnet_an</small></div></td></div>";
 
@@ -654,18 +686,24 @@ sub cardimage {
 
 	$id = "card";
 	if ($type =~ /Plane /) {
-		$id = "plane";
+		$id = "Plane";
 	}
 	if ($type =~ /Planeswalker/) {
 		$id = "planeswalker";
 	}
 
+	$cardclass = "cardimage";
+
+	if (int(rand(100)) > 50) {
+		$cardclass .= " grayscale";
+	}
 
 	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
-		"\n\n<!-- CARD -->" . 
-		"\n<div id='$id' style='float:left; position: relative;'>" . 
-		"<img class='cardimage' src=\"/cards2/" . $imageurl . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
+		"\n" . 
+		"\n<!-- CARD -->" . 
+		"\n<div id='$id' style='float:left; position: relative;' >" . 
+		"<img class='$cardclass' src=\"/cards2/" . $imageurl . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
 		"<br clear='all'/></div></td>";
 
 	return ($cardimage,$cardtitle);

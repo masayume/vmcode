@@ -91,21 +91,19 @@ small {
 .black { color: #fff; background-color: #000; }
 .colorless { color: #000; background-color: #999; }
 .gold { color: #000; background-color: #fc0; }
-.cardimage { margin-left: 5px;  margin-top: 10px; }
 #card img {
     	width: 460px; 
     	position: absolute;
     	top: -70px;
     	left: -50px;
     	clip: rect(66px 420px 350px 50px); // top, right, bottom, left
-    	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
 }
 #Plane img {
     	width: 860px; 
     	position: absolute;
     	top: -70px;
     	left: -50px;
-    	clip: rect(86px 220px 310px 250px); // top, right, bottom, left
+    	clip: rect(86px 220px 210px 250px); // top, right, bottom, left
     	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
 }
 #Planeswalker img {
@@ -135,3 +133,22 @@ pre {
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
+/*
+http://stackoverflow.com/questions/7415872/change-color-of-png-image-via-css
+https://css-tricks.com/almanac/properties/f/filter/
+*/
+
+.cardimage { margin-left: 5px;  margin-top: 10px; }
+
+/*Filter styles*/
+
+.saturate {-webkit-filter: saturate(3); filter: saturate(3);}
+.grayscale {-webkit-filter: grayscale(1); filter: grayscale(1);}
+
+.contrast {-webkit-filter: contrast(160%); filter: contrast(160%);}
+.brightness {-webkit-filter: brightness(0.25); filter: brightness(0.25);}
+.blur {-webkit-filter: blur(3px); filter: blur(3px);}
+.invert {-webkit-filter: invert(100%); filter: invert(100%);}
+.sepia {-webkit-filter: sepia(100%); filter: sepia(100%);}
+.huerotate {-webkit-filter: hue-rotate(180deg); filter: hue-rotate(180deg);}
+.rss.opacity {-webkit-filter: opacity(50%); filter: opacity(50%);}
