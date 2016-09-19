@@ -715,7 +715,7 @@ sub cardimage {
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
 		"\n" . 
 		"\n<!-- CARD -->" . 
-		"\n<div id='card' style='float:left; position: relative;' >" . 
+		"\n<div id='$id' style='float:left; position: relative;' >" . 
 		"<img id='$id' class='$cardclass' src=\"/cards2/" . $imageurl . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
 		"<br clear='all'/></div></td>";
 

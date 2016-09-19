@@ -96,15 +96,16 @@ small {
     	position: absolute;
     	top: -70px;
     	left: -50px;
-    	margin-left: 2px;  margin-top: 6px;
-    	clip: rect(66px 426px 356px 50px); // top, right, bottom, left
+    	margin-left: 8px;  margin-top: 6px;
+    	clip: rect(66px 420px 358px 43px); // top, right, bottom, left
 }
 #Plane img {
     	width: 1260px; 
     	position: absolute;
-    	top: -70px;
-    	left: -50px;
-    	clip: rect(86px 220px 380px 150px); // top, right, bottom, left
+    	top: -110px;
+    	left: -348px;
+    	clip: rect(106px 728px 398px 350px); // top, right, bottom, left
+    	margin-left: 8px;  margin-top: 6px;
     	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
 }
 #Phenomenon img {
@@ -118,9 +119,9 @@ small {
 #Planeswalker img {
     	width: 500px; 
     	position: absolute;
-    	top: -70px;
-    	left: -50px;
-    	clip: rect(66px 420px 350px 50px); // top, right, bottom, left
+    	top: -66px;
+    	left: -48px;
+    	clip: rect(66px 430px 360px 50px); // top, right, bottom, left
     	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
 }
 @media screen {
