@@ -690,10 +690,14 @@ sub cardimage {
 		$id = "Plane";
 	}
 	if ($type =~ /Planeswalker/) {
-		$id = "planeswalker";
+		$id = "Planeswalker";
+	}
+	if ($type =~ /Phenomenon/) {
+		$id = "Phenomenon";
 	}
 
-	$cardclass = "cardimage";
+#	$cardclass = "cardimage";
+	$cardclass = $type;
 
 	if ($filter eq 'random') {
 		if (int(rand(100)) > 80) { $cardclass .= " grayscale"; }
@@ -711,8 +715,8 @@ sub cardimage {
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
 		"\n" . 
 		"\n<!-- CARD -->" . 
-		"\n<div id='$id' style='float:left; position: relative;' >" . 
-		"<img class='$cardclass' src=\"/cards2/" . $imageurl . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
+		"\n<div id='card' style='float:left; position: relative;' >" . 
+		"<img id='$id' class='$cardclass' src=\"/cards2/" . $imageurl . "\" title='" . $rcards[$i] . "' border='0' style='float:left;'></a>" . 
 		"<br clear='all'/></div></td>";
 
 	return ($cardimage,$cardtitle);
