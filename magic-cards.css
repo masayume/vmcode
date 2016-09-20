@@ -100,11 +100,11 @@ small {
     	clip: rect(66px 420px 358px 43px); // top, right, bottom, left
 }
 #Plane img {
-    	width: 1260px; 
+    	width: 770px; 
     	position: absolute;
-    	top: -110px;
-    	left: -348px;
-    	clip: rect(106px 728px 398px 350px); // top, right, bottom, left
+    	top: -70px;
+    	left: -148px;
+    	clip: rect(66px 528px 358px 150px); // top, right, bottom, left
     	margin-left: 8px;  margin-top: 6px;
     	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
 }
