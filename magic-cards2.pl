@@ -14,6 +14,7 @@
 #	page_footer: 
 
 ### TODO:
+### insert seed in URL
 ### insert game icons: http://game-icons.net/
 ### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
 ### :570 card type/skill tokens => what happens
@@ -55,11 +56,18 @@ print "Content-type: text/html \n\n";
 
 my @cards;
 my $smartread_url;
+my $seed;
 
+if ($QUERY{'seed'}) {
+	$seed = $QUERY{'seed'};
+} else {
+	$seed = srand(100);
+}
 
 if ($QUERY{'smartread2'}) {
 		@cards = &smartread($dir, $lsfile2); 	
-		$smartread_url = "?smartread2=1"
+		$nextseed = int(rand(1000000))+1;
+		$smartread_url = "?smartread2=1&seed=$nextseed"
 } else {
 		@cards = &smartread($dir, $lsfile); 
 }
