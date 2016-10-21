@@ -14,7 +14,7 @@
 #	page_footer: 
 
 ### TODO:
-### :660 "Plane" card type handling (change clipping)
+### insert game icons: http://game-icons.net/
 ### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
 ### :570 card type/skill tokens => what happens
 ### :??? auto generate cardlist files by type 
