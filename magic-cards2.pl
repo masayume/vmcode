@@ -35,6 +35,10 @@ use File::Finder; ## (cfr. http://search.cpan.org/~merlyn/File-Finder-0.53/lib/F
 use List::Util qw(shuffle);
 use DBI;
 use MyCompound; # custom module for wordnet v2 analysis (check compounds and word types (verb, name, adj.) based on frequency (polysemy count))
+use Config::Simple;
+
+my $cfg 	= new Config::Simple('magic-app.ini');
+my $Config 	= $cfg->vars();
 
 ### SCRIPT CONFIGURATION
 
@@ -45,8 +49,8 @@ my (%POST, %QUERY, @cards);
 &parse_args;
 
 $cardsnum 		= 3;
-$dir 			= '/media/sf_forge2/cards/'; 			# IMAGE cards directory
-$dir2			= '/media/sf_forge/res/cardsfolder/'; 	# TEXT cards directory 
+$dir 			= $Config->{ImageDir}; 			# IMAGE cards directory
+$dir2			= $Config->{CardDir}; 	# TEXT cards directory 
 $lsfile			= 'mtglsfile.list';
 $lsfile2		= 'mtglsfile2.list';
 $lsfile_prefx 	= 'mtgls-';
@@ -73,7 +77,8 @@ if ($QUERY{'smartread2'}) {
 }
 
 
-$cardsfolder	= '/media/sf_forge/res/cardsfolder/';
+# $cardsfolder	= '/media/sf_forge/res/cardsfolder/';
+$cardsfolder	= $dir2;
 $cardtextfile 	= "cardsfolder.zip"; 
 @rcards = shuffle @cards;
 
@@ -157,7 +162,7 @@ sub smartwrite2 { # writes mtglsfile2.list
 
 	$lsfile = '/home/masayume/cgi-bin/' . $lsfile2;
 
-	$retval = `head -1 /media/sf_forge/res/cardsfolder/?/*.txt | grep Name: | sed s/^Name:// > /tmp/tempfile`;
+	$retval = `head -1 $dir2/?/*.txt | grep Name: | sed s/^Name:// > /tmp/tempfile`;
 	# `cp $lsfile /tmp/tempfile; dos2unix /tmp/tempfile;`;
 	`dos2unix /tmp/tempfile;`;
  	$retval2 = `cat /tmp/tempfile | sed s/\$/.full.jpg/`;
@@ -182,7 +187,7 @@ sub autowrite { # writes mtglsfile2.list
 
 		$lsfile = '/home/masayume/cgi-bin/' . $prefix . $ctype . $suffix;
 
-		$retval = `head -3 /media/sf_forge/res/cardsfolder/?/*.txt | grep -E "Name:|Types:"`;
+		$retval = `head -3 $dir2/?/*.txt | grep -E "Name:|Types:"`;
 		# `cp $lsfile /tmp/tempfile; dos2unix /tmp/tempfile;`;
 		`dos2unix /tmp/tempfile;`;
 	 	$retval2 = `cat /tmp/tempfile | sed s/\$/.full.jpg/`;
@@ -330,6 +335,7 @@ sub textfile {
         $newtf 	=~ s/[',]//g;
 
         $newtf  =~ s/\s$//g;
+        $newtf  =~ s/\s$//;
         $newtf  =~ s/\s/_/g;
         $newtf  =~ s/-/_/g;
         $newtf  =~ s/\?//g;
@@ -581,6 +587,7 @@ sub cards { # imposta il layout principale per mostrare le carte
 		($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size, $atime,$mtime,$ctime,$blksize,$blocks) = stat($imagefile);
 		
 		$textfile2 = &textfile($rcards[$i]);
+		$textfile2 =~ s/_\.txt/\.txt/;
 
 		$cardtitle	= $textfile2;
 		$textfile2 	= $cardsfolder . lc(substr($rcards[$i],0,1)) . '/' . $textfile2;
@@ -595,7 +602,7 @@ sub cards { # imposta il layout principale per mostrare le carte
 
    	 	$wordnet_an = "";
 		$wordnet_an = &prethesaurus($carddata{'Name'});
-	
+
 		($setc, $rarity, $image, $nome, $manacost, $type, $text3, $text2, $set, $power, $toughness, $allskill, $k) = &parsefile($textfile2);
 
 		$pt = "";
