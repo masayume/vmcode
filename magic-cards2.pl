@@ -487,7 +487,7 @@ sub listwordnet {
 
         foreach $card (@rcards) {
 
-                $textfile = '/home/masayume/forge2/cards/' . lc(substr($card,0,1)) . '/' . $card;
+                $textfile = $Config->{CardDir} . lc(substr($card,0,1)) . '/' . $card;
                 $imagefile = '/var/www/cards2/' . $card; # image file path
                 ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size, $atime,$mtime,$ctime,$blksize,$blocks) = stat($imagefile);
 
