@@ -1,0 +1,15 @@
+[{
+    "version": "0.02",
+    "backdir": "/home/masayume/down/demon/overlayer/back",
+    "chardir": "/home/masayume/down/demon/overlayer/char"
+}, {
+    "name": "Jennifer",
+    "status": "Active"
+}, {
+    "name": "James",
+    "status": "Active",
+    "age": 56,
+    "count": 10,
+    "progress": 0.0029857,
+    "bad": 0
+}]
