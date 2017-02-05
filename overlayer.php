@@ -1,13 +1,23 @@
 <?php
 
+/* TODO:
+	use magic lands as background
+	delete borders of images below 
+*/
+
 global $config;
 
 $config = read_json("overlayer.json");
 // print "<pre>";	print_r($config);
-$back = random_pic($config[0]['backdir']);
-$char = random_pic($config[0]['chardir']);
+$backdir = $config[0]['basedir'] . $config[0]['switchdir'] . $config[0]['backdir'];
+$chardir = $config[0]['basedir'] . $config[0]['switchdir'] . $config[0]['chardir'];
+$back = random_pic($backdir);
+$char = random_pic($chardir);
 
-print $page = read_template($back, $char);
+$charclassrotate = rand(-180, 180);
+$charclass	= ".charclass {-webkit-filter: hue-rotate(" . $charclassrotate . "deg); filter: hue-rotate(" . $charclassrotate . "deg);}";
+$blurred 	= ".blurred {-webkit-filter: blur(1px); filter: blur(1px);}";
+print $page = read_template($back, $blurred, $char, $charclass);
 
 
 
@@ -21,7 +31,7 @@ function random_pic($dir) {
 
     $fpieces = explode("/", $files[$file]);
 
-    $file_url = "/" . $fpieces[count($fpieces) - 4] . "/" . $fpieces[count($fpieces) - 3] . "/" . $fpieces[count($fpieces) - 2] . "/" . $fpieces[count($fpieces) - 1];
+    $file_url = "/" . $fpieces[count($fpieces) - 5] . "/" . $fpieces[count($fpieces) - 4] . "/" . $fpieces[count($fpieces) - 3] . "/" . $fpieces[count($fpieces) - 2] . "/" . $fpieces[count($fpieces) - 1];
     return $file_url;
 }
 
@@ -32,7 +42,7 @@ function read_json($file_json) {
 	return $jconfig;
 }
 
-function read_template($back, $char) {
+function read_template($back, $blurred, $char, $charclass) {
 
 global $config;
 $version = $config[0]['version'];
@@ -64,6 +74,10 @@ $page = <<<EOF
     top: 0px;
     left: 0px;
 }
+
+$charclass
+$blurred
+
 .cardimage{
     width: 529px;
     height: 699px;
@@ -72,10 +86,6 @@ $page = <<<EOF
 
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -99,10 +109,10 @@ $page = <<<EOF
 
 
 			<div id="subcontainer">
-			    <div id="farback_image"> <img src="$back"> </div>
+			    <div id="farback_image"> <img src="$back" class="blurred"> </div>
 			    <div id="back_image"></div>
 			    <div id="fore_image"></div>
-			    <div id="main_image"><img src="$char"></div>
+			    <div id="main_image"><img src="$char" class="charclass"></div>
 			    <div id="overlay_image"></div>
 			    <div id="card_image"><img src="/demon/overlayer/card.png" class="cardimage"></div>
 			</div>

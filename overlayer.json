@@ -1,7 +1,9 @@
 [{
     "version": "0.02",
-    "backdir": "/home/masayume/down/demon/overlayer/back",
-    "chardir": "/home/masayume/down/demon/overlayer/char"
+    "switchdir": "fantasy",
+    "basedir": "/home/masayume/down/demon/overlayer/",
+    "backdir": "/back",
+    "chardir": "/char"
 }, {
     "name": "Jennifer",
     "status": "Active"
