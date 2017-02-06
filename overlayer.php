@@ -76,7 +76,6 @@ $page = <<<EOF
 }
 
 $charclass
-$blurred
 
 .cardimage{
     width: 529px;
