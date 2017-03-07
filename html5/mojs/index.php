@@ -13,46 +13,21 @@
 
 <?php
 
+/*
+REFERENCE:
+https://css-tricks.com/introduction-mo-js/
+*/
+
 global $config;
 
 $configfile = file_get_contents("mojs.json");
 $config = json_decode($configfile, true);
 
-$burst1 = burst();
+$burst1 = burst(1);
 
-$burst2 = <<<"EOB"
-var burst2 = new mojs.Burst({
-  radius: { 0: 200 },
-  count: 12,
-  children: {
-    shape: 'zigzag',
-    points: 8,
-    stroke: { 'magenta': 'purple' },
-    fill: 'none',
-    strokeWidth: { 16: 0 },
-    angle: { '-360': 0 },
-    radius: { 20: 5 },
-    opacity: { 1: 0 },
-    duration: 3000
-  }
-});
-EOB;
+$burst2 = burst(2);
 
-$burst3 = <<<"EOB"
-var burst3 = new mojs.Burst({
-  radius: { 0: 250 },
-  count: 7,
-  children: {
-    color: 'green',
-    points: 7,
-    angle: { '-360': 0 },
-    radius: { 10: 5 },
-    opacity: { 1: 0 },
-    duration: 3000
-  }
-});
-
-EOB;
+$burst3 = burst(3);
 
 $circ1 = <<<"EOC"
 var circ_opt = {
@@ -82,6 +57,16 @@ var circ2 = new mojs.Shape(_extends({}, circ_opt2, {
 }));
 EOC;
 
+$burstchance    = rand(1,100);
+$burststr       = "";
+
+if ($burstchance < 33) {
+  $burststr = "burst1, ";
+} else if ($burstchance < 66) {
+  $burststr = "burst1, burst2, ";
+} else {
+  $burststr = "burst1, burst2, burst3, ";
+}
 
 $js = <<<"EOJ"
 'use strict';
@@ -98,29 +83,35 @@ $circ1
 
 $circ2
 
-var timeline = new mojs.Timeline({
-  repeat: 999
-}).add(burst, burst2, burst3, circ1, circ2).play();
+var timeline = new mojs.Timeline({ repeat: 999 }).add($burststr circ1, circ2).play();
 EOJ;
 
 print $js;
 
-function burst() {
 
-$radius 	= 50 * rand(1,10);
-$count 		= 2 * rand(1,10);
 
-$children 	= children();
 
-$burst1 = <<<"EOB"
-var burst = new mojs.Burst({
-  radius: { 0: $radius },
-  count: $count,
-  $children
-});
+function burst($type) {
+
+  $radius 	 = 50 * rand(1,10);
+  $count 		 = 2 * rand(1,10);
+
+  $children  = ""; 
+  if ($type == 1) {
+    $children   = children($type);
+  } else {
+    $children   = children($type);
+  }
+
+  $burst1 = <<<"EOB"
+  var burst$type = new mojs.Burst({
+    radius: { 0: $radius },
+    count: $count,
+    $children
+  });
 EOB;
 
-return $burst1;
+  return $burst1;
 
 }
 
@@ -129,28 +120,88 @@ function children() {
 
 global $config;
 
-$radius1 	= 50 * rand(1,10);
-$radius2 	= 50 * rand(1,10);
+$radius1 	  = 50 * rand(1,10);
+$radius2 	  = 50 * rand(1,7);
 $duration 	= 600 * rand(1,10);
+$points     = 4 * rand(1,5);
 
-$shape 		= $config['config']['children']['params']['shape'][array_rand($config['config']['children']['params']['shape'], 1)];
+$shape 		  = $config['config']['children']['params']['shape'][array_rand($config['config']['children']['params']['shape'], 1)];
+$color      = $config['config']['children']['params']['stroke1'][array_rand($config['config']['children']['params']['stroke1'], 1)];
 
-$stroke1 	= stroke1(); 
+$stroke1 	  = stroke1(); 
+$stroke2    = stroke2(); 
 
-$children = <<<"EOC"
-  children: {
-    shape: '$shape',
-    $stroke1
-    strokeWidth: { 6: 0 },
-    angle: { 360: 0 },
-    radius: { $radius1: $radius2},
-    duration: $duration
-  }
+$strokeWidth 	= 6 * rand(1,3);
+$angle 		 = 60 * rand(1,6);
+
+$children = "";
+
+if ($type == 1) {
+  $children = <<<"EOC"
+    children: {
+      shape: '$shape',
+      $stroke1,
+      strokeWidth: { $strokeWidth: 0 },
+      angle: { $angle: 0 },
+      radius: { $radius1: $radius2},
+      duration: $duration
+    }
 EOC;
+
+  } else if ($type == 2) {
+
+  $children = <<<"EOC"
+    children: {
+      shape: '$shape',
+//      points: $points,
+      $stroke2, 
+      fill: 'none',
+      strokeWidth: { $strokeWidth: 0 },
+      angle: { '-$angle': 0 },
+      radius: { $radius1: $radius2 },
+      opacity: { 1: 0 },
+      duration: $duration
+    }
+EOC;
+
+  } else if ($type == 3) {
+
+  $children = <<<"EOC"
+    children: {
+      color: '$color',
+      points: $points,
+      angle: { '-$angle': 0 },
+      radius: { $radius1: $radius2 },
+      opacity: { 1: 0 },
+      duration: $duration
+    }
+
+EOC;
+
+  } else {
+
+  $children = <<<"EOC"
+    children: {
+      shape: '$shape',
+//      points: $points,
+      $stroke2, 
+      fill: 'none',
+      strokeWidth: { $strokeWidth: 0 },
+      angle: { '-$angle': 0 },
+      radius: { $radius1: $radius2 },
+      opacity: { 1: 0 },
+      duration: $duration
+    }
+EOC;
+
+  }
+
+
 
 return $children;
 
-} // end function burst
+} // end function children1
+
 
 function stroke1() {
 //   stroke: { 'orange': 'yellow' },
@@ -160,7 +211,7 @@ $stroke1 	= $config['config']['children']['params']['stroke1'][array_rand($confi
 
 return "stroke: '$stroke1',";
 
-} // end function stroke
+} // end function stroke1
 
 
 function stroke2() {
@@ -172,7 +223,7 @@ $stroke2 	= $config['config']['children']['params']['stroke2'][array_rand($confi
 
 return "stroke: { '$stroke1': '$stroke2' }";
 
-} // end function stroke
+} // end function stroke2
 
 
 

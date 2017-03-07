@@ -2,10 +2,12 @@
   "config": {
     "children": {
       "params": {
-        "shape": ["cross", "circle", "zigzag"],
-        "stroke1": ["red", "purple", "pink", "orange"],
-        "stroke2": ["magenta", "yellow", "white"],
-        "title": "ambiente di produzione"
+        "shape": ["cross", "circle", "rect", "zigzag", "equal"],
+        "stroke1": ["red", "purple", "pink", "deeppink", "orange"],
+        "stroke2": ["magenta", "yellow", "white", "green", "blue"],
+        "fill": ["transparent", "cyan", "white"],
+
+        "title": "prod"
       }
     }
 
