@@ -1,0 +1,73 @@
+const burst = new mojs.Burst({
+  radius: { 0: 150 },
+  count: 20,
+  children : {
+    shape: 'cross',
+    stroke: 'red',
+    strokeWidth: { 6: 0},
+    angle: { 360: 0},
+    radius: { 50 : 5 },
+    duration: 3000
+  }
+});
+
+const burst2 = new mojs.Burst({
+  radius: { 0: 200 },
+  count: 12,
+  children : {
+    shape: 'zigzag',
+    points: 8,
+    stroke: {'magenta' : 'purple'},
+    fill: 'none',
+    strokeWidth: { 16: 0},
+    angle: { '-360': 0},
+    radius: { 20 : 5 },
+    opacity: { 1: 0},
+    duration: 3000
+  }
+});
+
+const burst3 = new mojs.Burst({
+  radius: {0: 250},
+  count: 7,
+  children : {
+    color: 'green',
+    points: 7,
+    angle: { '-360': 0},
+    radius: { 10 : 5 },
+    opacity: { 1: 0},
+    duration: 3000
+  }
+});
+
+const circ_opt = {
+  radius: {0: 100},
+  fill: 'grey',
+  stroke: {'orange': 'yellow'},
+  opacity: {1: 0},
+  duration: 3500
+};
+
+const circ_opt2 = {
+  radius: {0: 300},
+  fill: 'none',
+  stroke: {'white': 'green'},
+  opacity: {1: 0},
+  duration: 3500
+};
+
+const circ1 = new mojs.Shape({
+  ...circ_opt,
+  delay: 1000
+});
+
+const circ2 = new mojs.Shape({
+  ...circ_opt2,
+  delay: 500
+})
+
+const timeline = new mojs.Timeline({
+  repeat: 999
+})
+  .add(burst, burst2, burst3, circ1, circ2)
+  .play();
