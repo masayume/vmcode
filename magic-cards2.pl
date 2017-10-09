@@ -1,14 +1,14 @@
 #!/usr/bin/perl
 ##!/usr/bin/speedy
 
-### http://localhost:8988/cgi-bin/magic-cards2.pl?l=1#top
-### http://localhost:8988/cgi-bin/magic-cards2.pl?wordnet=1
-### http://localhost:8988/cgi-bin/magic-cards2.pl?lowfi=1
-### http://localhost:8988/cgi-bin/magic-cards2.pl?dbxtract=1
-### http://localhost:8988/cgi-bin/magic-cards2.pl?cardname=indreaver 	SPECIFIC CARD
-### http://localhost:8988/cgi-bin/magic-cards2.pl?smartwrite2=1			WRITES card list file from TEXT card files in forge/res/cardsfolder
-### http://localhost:8988/cgi-bin/magic-cards2.pl?smartread2=1			READS card list file above
-### http://localhost:8988/cgi-bin/magic-cards2.pl?filter=random			applies a random filter to card images
+### http://localhost:8989/cgi-bin/magic-cards2.pl?l=1#top
+### http://localhost:8989/cgi-bin/magic-cards2.pl?wordnet=1
+### http://localhost:8989/cgi-bin/magic-cards2.pl?lowfi=1
+### http://localhost:8989/cgi-bin/magic-cards2.pl?dbxtract=1
+### http://localhost:8989/cgi-bin/magic-cards2.pl?cardname=indreaver 	SPECIFIC CARD
+### http://localhost:8989/cgi-bin/magic-cards2.pl?smartwrite2=1			WRITES card list file from TEXT card files in forge/res/cardsfolder
+### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1			READS card list file above
+### http://localhost:8989/cgi-bin/magic-cards2.pl?filter=random			applies a random filter to card images
 
 ### functions
 #	page_footer: 
@@ -243,7 +243,7 @@ sub smartread {
 	my @cards = ();
 	my ($dir, $lsfile) = @_;
 
-	$lsfile = '/home/masayume/cgi-bin/' . $lsfile;
+	$lsfile = '/usr/lib/cgi-bin/' . $lsfile;
 
 	if (-e $lsfile) {
 		open (FILE, "< $lsfile") or print "Could NOT READ file $lsfile."; 
