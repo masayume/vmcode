@@ -630,7 +630,7 @@ sub cards { # imposta il layout principale per mostrare le carte
 			$level = "<div class='level'>" . "" . $clevel . "</div>";
 		}
 
-	    $selected .= "\n<td>\n\n<!-- COLUMN NUMBER $i -->\n\n<div class='$cssmanastyle title' ><h2>" . $carddata{'Name'}. "</h2></div>\n\n" . 
+	    $selected .= "\n<td>\n\n<!-- COLUMN NUMBER $i -->\n\n<div id=\"selectable$i\" onclick=\"selectText('selectable$i')\" class='$cssmanastyle title' ><h2>" . $carddata{'Name'}. "</h2></div>\n\n" . 
 	    	"<hr>" .
 	    	"color: $cssmanastyle" . $level . $life . $strenght .  
 
@@ -946,6 +946,20 @@ sub page_header {
 <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic' rel='stylesheet' type='text/css'>
 <link href="/css/magic-cards.css" media="all" rel="stylesheet" type="text/css"/>
 <title>magic-cards</title>
+<script type="text/javascript">
+    function selectText(containerid) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById(containerid));
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById(containerid));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+        }
+    }
+</script>
 </head>
 <body id="top">
 EOF
