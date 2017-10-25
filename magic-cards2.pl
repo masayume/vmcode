@@ -698,7 +698,7 @@ sub cardimage {
 	$cardurl2	= 'https://magidex.com/search?q=' . $cardtitle;
 	my $enc_img = $cardtitle;
 
-	$imageurl = $rcards[$i]; $imageurl =~ s/[:]//g;
+	$imageurl = $rcards[$i]; $imageurl =~ s/[:"\?]//g;
 	chomp $imageurl;
 
 	$id = "card";
