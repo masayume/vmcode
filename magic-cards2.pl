@@ -1,13 +1,14 @@
 #!/usr/bin/perl
 ##!/usr/bin/speedy
 
+### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1				READS card list file above
+### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1&seed=999999&filter=sepia	
+### http://localhost:8989/cgi-bin/magic-cards2.pl?cardname=indreaver 			SPECIFIC CARD
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?l=1#top
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?wordnet=1
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?lowfi=1
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?dbxtract=1
-### http://localhost:8989/cgi-bin/magic-cards2.pl?cardname=indreaver 	SPECIFIC CARD
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?smartwrite2=1			WRITES card list file from TEXT card files in forge/res/cardsfolder
-### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1			READS card list file above
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?filter=random			applies a random filter to card images
 
 ### functions
@@ -716,17 +717,19 @@ sub cardimage {
 	$cardclass = $type;
 
 	if ($filter eq 'random') {
-		if (int(rand(100)) > 80) { $cardclass .= " grayscale"; }
-		elsif (int(rand(100)) > 80) { $cardclass .= " saturate"; }
-		elsif (int(rand(100)) > 80) { $cardclass .= " sepia"; }
-		elsif (int(rand(100)) > 80) { $cardclass .= " huerotate"; }
+		if (int(rand(100)) > 80) { $cardclass .= " grayscale"; $smartread_url .= '&filter=grayscale'; }
+		elsif (int(rand(100)) > 60) { $cardclass .= " saturate"; $smartread_url .= '&filter=saturate'; }
+		elsif (int(rand(100)) > 40) { $cardclass .= " sepia"; $smartread_url .= '&filter=sepia'; }
+		elsif (int(rand(100)) > 20) { $cardclass .= " huerotate"; $smartread_url .= '&filter=huerotate'; }
 	} elsif ($filter eq 'sepia') {
 		$cardclass .= " sepia";
+		$smartread_url .= '&filter=sepia';
 	} elsif ($filter ne '') {
 		$cardclass .= " " . $filter;		
 	}
 
-
+	
+	
 	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
 		"\n" . 
