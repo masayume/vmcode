@@ -109,11 +109,12 @@ small {
     	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
 }
 #Phenomenon img {
-    	width: 860px; 
+    	width: 770px; 
     	position: absolute;
     	top: -70px;
-    	left: -50px;
-    	clip: rect(86px 220px 210px 250px); // top, right, bottom, left
+    	left: -148px;
+    	clip: rect(66px 528px 358px 150px); // top, right, bottom, left
+    	margin-left: 8px;  margin-top: 6px;
     	/* clip: shape(top right bottom left); NB 'rect' is the only available option */
 }
 #Planeswalker img {
