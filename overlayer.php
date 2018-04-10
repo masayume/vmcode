@@ -7,17 +7,26 @@
 
 global $config;
 
-$config = read_json("overlayer.json");
+$config 	= read_json("overlayer.json");
 // print "<pre>";	print_r($config);
-$backdir = $config[0]['basedir'] . $config[0]['switchdir'] . $config[0]['backdir'];
-$chardir = $config[0]['basedir'] . $config[0]['switchdir'] . $config[0]['chardir'];
-$back = random_pic($backdir);
-$char = random_pic($chardir);
+
+if ($_GET["theme"]) {
+	$switchdir = $_GET["theme"];
+} else {
+	$switchdir = $config[0]['switchdir'];
+}
+
+$switchdir .= '.style';
+
+$backdir 	= $config[0]['basedir'] . $switchdir . $config[0]['backdir'];
+$chardir 	= $config[0]['basedir'] . $switchdir . $config[0]['chardir'];
+$back 		= random_pic($backdir);
+$char 		= random_pic($chardir);
 
 $charclassrotate = rand(-180, 180);
 $charclass	= ".charclass {-webkit-filter: hue-rotate(" . $charclassrotate . "deg); filter: hue-rotate(" . $charclassrotate . "deg);}";
 $blurred 	= ".blurred {-webkit-filter: blur(1px); filter: blur(1px);}";
-print $page = read_template($back, $blurred, $char, $charclass);
+print $page 	= read_template($back, $blurred, $char, $charclass);
 
 
 
@@ -26,26 +35,35 @@ exit(0);
 // ================================================
 
 function random_pic($dir) {
-    $files = glob($dir . '/*.*');
-    $file = array_rand($files);
+    $files 	= glob($dir . '/*.*');
+    $file 	= array_rand($files);
 
-    $fpieces = explode("/", $files[$file]);
+    $fpieces	= explode("/", $files[$file]);
 
-    $file_url = "/" . $fpieces[count($fpieces) - 5] . "/" . $fpieces[count($fpieces) - 4] . "/" . $fpieces[count($fpieces) - 3] . "/" . $fpieces[count($fpieces) - 2] . "/" . $fpieces[count($fpieces) - 1];
+    $file_url 	= "/" . $fpieces[count($fpieces) - 5] . "/" . $fpieces[count($fpieces) - 4] . "/" . $fpieces[count($fpieces) - 3] . "/" . $fpieces[count($fpieces) - 2] . "/" . $fpieces[count($fpieces) - 1];
     return $file_url;
 }
 
 function read_json($file_json) {
 
-	$jconfig = json_decode(file_get_contents($file_json), true);
+    $jconfig 	= json_decode(file_get_contents($file_json), true);
 
-	return $jconfig;
+    return $jconfig;
 }
 
 function read_template($back, $blurred, $char, $charclass) {
 
 global $config;
 $version = $config[0]['version'];
+
+$htmldir = "";
+$dirs           = array_filter(glob('/var/www/html/demon/overlayer/*.style'), 'is_dir');
+foreach ($dirs as $key => $value) {
+        $dirs[$key] = preg_replace('/\.style$/i', '', $dirs[$key]);
+        $dirs[$key] = preg_replace('/^\/var\/www\/html\/demon\/overlayer\//i', '', $dirs[$key]);
+	$htmldir .= "<li><a href='/cgi-bin/overlayer.php?theme=" . $dirs[$key] . "'>" . $dirs[$key] . "</a>";
+}
+
 
 $page = <<<EOF
 <html>
@@ -164,6 +182,8 @@ $charclass
             <h4>About</h4>
             <p>It's a system to create images with overlapping elements.</p>
           </div>
+
+<!--
           <div class="sidebar-module">
             <h4>Archives</h4>
             <ol class="list-unstyled">
@@ -172,14 +192,21 @@ $charclass
               <li><a href="#">April 2013</a></li>
             </ol>
           </div>
+-->
           <div class="sidebar-module">
-            <h4>Elsewhere</h4>
+            <h4>Styles</h4>
             <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
+$htmldir
             </ol>
           </div>
+
+          <div class="sidebar-module">
+            <h4>Info</h4>
+            <ol class="list-unstyled">
+              <li><a href="/demon/overlayer/overlayer.infogen.txt">infogen</a></li>
+            </ol>
+          </div>
+
         </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
