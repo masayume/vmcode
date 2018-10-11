@@ -70,6 +70,9 @@ $page = <<<EOF
 <head>
 <title>overlayer - $version</title>
 <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+
+  <link rel="script" href="/matomo.tracking.js"/>
+
 <style>
 
 #subcontainer{
