@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+
+}
+
+#overcard {
+    background-color: rgba(0, 0, 255, 0.2);
+    border-radius: 4px;
+    z-index: 15;
+    outline: 0;
+    padding: 4px 4px 4px 4px;
+}
+
+#bimage {
+  width:  80%;
+  height: 80%;
+}
+
+.panel {
+    position: fixed;
+    top: 2em;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+    z-index: 100;
+        background-color: rgba(255, 255, 255, 0.6);
+}
+
+.wrap {
+    position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #2f2f86;
+}
+
+#site-id {
+    z-index: 100;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    font-size: 14pt;
+
+}
+
+#positionController {
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    z-index: 300;
+}
+
+button:focus {
+    outline: none;
+}
+
+.overlay-box {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    outline: 0;
+    padding: 10px;
+    text-align: center;
+    z-index: 200;
+}
+
+.KanjiCard {
+  width: 440px;
+  min-height: 560px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px -3px gray;
+  padding: 6px;
+  outline: none;
+  border: none;
+  background-image: url("../img/back-01.jpg");
+}
+
+.KanjiCard-rotate {
+  transform: rotateY(89.5deg);
+}
+.KanjiCard_kanji {
+  position: relative;
+  top: -20px;
+  font-size: 192pt;
+  font-weight: 900;
+  padding: 10px;
+  opacity: 0.9;
+}
+.KanjiCard_kana {
+  position: relative;
+  top: -50px;
+  font-size: 12pt;
+  padding: 0px;
+  opacity: 0.8;
+}
+.KanjiCard_translation {
+  position: relative;
+  top: -50px;
+  font-size: 24pt;
+  font-style: italic;
+  font-family: 'Permanent Marker', cursive;
+  padding: 4px;
+  opacity: 0.8;
+}
+.KanjiCard_words {
+  position: relative;
+  top: -50px;
+  font-size: 12pt;
+  padding: 6px;  
+  opacity: 0.9;
+}
