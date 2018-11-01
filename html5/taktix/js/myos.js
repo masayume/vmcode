@@ -70,6 +70,54 @@
             "bimage": "000",
             "descr": "Like Rockwell did",
             "url": "https://youtu.be/YzZ7fALP2K8?t=819"
+        }, {
+            "english": "Step out of your Comfort Zone",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "learn or try new things",
+            "url": "https://youtu.be/5ApR_4GDChU?t=207"
+        }, {
+            "english": "Take Chances",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "trying something new, minor or major",
+            "url": "https://youtu.be/5ApR_4GDChU?t=335"
+        }, {
+            "english": "Keep it Simple",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "simplify gestures and basic shapes",
+            "url": "https://youtu.be/5ApR_4GDChU?t=552"
+        }, {
+            "english": "Consistent and Cohesive",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "consideration for the project, mind the relation between pieces",
+            "url": "https://youtu.be/5ApR_4GDChU?t=609"
+        }, {
+            "english": "Twist and Stretch",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "twist your perspective, stretch your imagination",
+            "url": "https://youtu.be/5ApR_4GDChU?t=640"
+        }, {
+            "english": "Embrace what's behind control",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "twist your perspective, stretch your imagination",
+            "url": "https://youtu.be/5ApR_4GDChU?t=765"
+        }, {
+            "english": "SCALE",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "enlarge/shrink an important detail",
+            "url": ""
+        }, {
+            "english": "COLOURS",
+            "name": "⏞",
+            "bimage": "000",
+            "descr": "from a palette",
+            "url": ""
         }
     ]
 ;

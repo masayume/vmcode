@@ -5,6 +5,7 @@ var Card = (function Card(kanjilist) {
   var $kanafield;
   var $translatefield;
   var $bimagefield;
+  var $descrfield;
   var $wordsfield;
   var $card;
   
@@ -15,6 +16,7 @@ var Card = (function Card(kanjilist) {
     $translatefield = $("#translation");
     $wordsfield = $("#words");
     $bimagefield = $("#bimage");
+    $descrfield = $("#descr");
     $card = $("#card");
     kanji = kanjilist;
     bindUI();
@@ -32,6 +34,7 @@ var Card = (function Card(kanjilist) {
     $kanjifield.html(newKanji.name);
 //    $kanafield.html(newKanji.kana);
     $translatefield.html(newKanji.english);
+    $descrfield.html(newKanji.descr);
 //    $wordsfield.html(newKanji.words3);
     var bimagefile = 'img/cards/' + newKanji.bimage + '.png';
     $bimagefield.attr('src', bimagefile);  

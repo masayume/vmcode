@@ -53,13 +53,13 @@ $page =<<< "EOP"
     </div>
 
   <button class="KanjiCard" id="card">
-    <div id="overcard" >
+    <div id="overcard" ></div>
       <img class="KanjiCard_bimage" id="bimage" src="img/cards/000.png" />
       <p class="KanjiCard_kanji" id="kanji"></p>
       <p class="KanjiCard_kana" id="kana"></p>
-      <p class="KanjiCard_translation" id="translation"></p>
-      <p class="KanjiCard_words" id="words"></p>
-    </div>
+      <div class="KanjiCard_translation" id="translation"></div>
+      <div class="KanjiCard_words" id="words"></div>
+      <div class="KanjiCard_descr" id="descr"></div>
   </button>
 
 </div>
@@ -70,7 +70,7 @@ $page =<<< "EOP"
             <li>"oblique tactics " - v. $version</li>
             <li>&nbsp;</li>
             <li><a href="index.php"><span class="icon-github nav-icon"></span>standard oblique strategies</a></li>
-            <li><a href="http://localhost:8989/HTML5/taktix/index.php?jfile=1"><span class="icon-github nav-icon"></span>custom taktix (myos)</a></li>
+            <li><a href="index.php?jfile=1"><span class="icon-github nav-icon"></span>custom taktix (myos)</a></li>
             <li>&nbsp;</li>
             <li><b>Credits:</b></li>
             <li><a href="http://codepen.io/reccanti/pen/BjwOev"><span class="icon-cog nav-icon"></span>Random Kanji Card by B. Wilcox</a></li>
