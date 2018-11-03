@@ -7,6 +7,10 @@ if (!$jfile) {
   $jfile = "os";
 } else if ($jfile == 1) {
   $jfile = "myos";  
+} else if ($jfile == 2) {
+  $jfile = "prompts";  
+} else if ($jfile == 3) {
+  $jfile = "theme";  
 } 
 $jfile = $jfile . ".js";
 $bfile = $jfile;
@@ -70,7 +74,8 @@ $page =<<< "EOP"
             <li>"oblique tactics " - v. $version</li>
             <li>&nbsp;</li>
             <li><a href="index.php"><span class="icon-github nav-icon"></span>standard oblique strategies</a></li>
-            <li><a href="index.php?jfile=1"><span class="icon-github nav-icon"></span>custom taktix (myos)</a></li>
+            <li><a href="index.php?jfile=2"><span class="icon-github nav-icon"></span>Taktix (prompts)</a></li>
+            <li><a href="index.php?jfile=1"><span class="icon-github nav-icon"></span>Taktix (improve)</a></li>
             <li>&nbsp;</li>
             <li><b>Credits:</b></li>
             <li><a href="http://codepen.io/reccanti/pen/BjwOev"><span class="icon-cog nav-icon"></span>Random Kanji Card by B. Wilcox</a></li>
