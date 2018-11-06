@@ -135,11 +135,11 @@ EOT;
 
         if ($type == "backs") {
       		for ($i=1; $i<=$page * $results; $i++) {
-                        $imgpath = $imagedir . "/img/scenes/" ;
-			$scene_array = array();
-                        $scene_array = scene_gen();
+                $imgpath = $imagedir . "/img/scenes/" ;
+				$scene_array = array();
+                $scene_array = scene_gen();
 
- print "<pre>"; print_r($scene_array);
+// print "<pre>"; print_r($scene_array);
 
                         if ($i>(($page - 1) * $results)) {
 

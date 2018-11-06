@@ -47,7 +47,7 @@ $demon_layers	= array(
 );
 $scenedir	= "";
 $page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = "";
-
+$results    = 0;
 
 // parse parameters
 parse_str($_SERVER['QUERY_STRING'], $params);
@@ -83,7 +83,7 @@ else {
         $res_qs  .= "&dir=" . $scenedir;
 }
 
-// read JSON in the "dir"
+// read JSON in the image "dir"
 $json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
 $json = file_get_contents($json_file);
 
@@ -134,7 +134,7 @@ EOT;
 		$scene_array = array();
         $scene_array = scene_gen();
 
-////  print "<pre>"; print_r($scene_array);
+//  print "<pre>"; print_r($scene_array);
 
         if ($i>(($page - 1) * $results)) {
 
@@ -166,17 +166,17 @@ function scene_layers($dir) {
 
 	global		$default_layers;
 	global		$demon_layers;
-        $dlayers        = array();
-        $arr2ret        = array();
-        if ($handle = opendir($dir)) {
+    $dlayers        = array();
+    $arr2ret        = array();
+    if ($handle = opendir($dir)) {
 
-            while (false !== ($entry = readdir($handle))) {
-                if ($entry != "." && $entry != "..") {
-                        array_push($dlayers, $entry);
-                }
+        while (false !== ($entry = readdir($handle))) {
+            if ($entry != "." && $entry != "..") {
+                    array_push($dlayers, $entry);
             }
-            closedir($handle);
         }
+        closedir($handle);
+    }
 
 // load layers type => main_layers
 	$main_layers = $demon_layers;
@@ -193,6 +193,8 @@ function scene_layers($dir) {
                 	array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); // carico nell'array da tornare l'rt_rnd-esimo elemento
 		}
         }
+
+// print "<pre>"; print_r($arr2ret); print "</pre>";
 
         return $arr2ret;
 
@@ -215,10 +217,16 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
     global          $default_layers;
     global          $demon_layers;
     global          $owidth;
+    global          $results;
+    global          $jwidth;
+
 	if (!$filter) { $filter = "&nbsp;"; }
 	$divs = "";
 
 	$main_layers = $demon_layers;
+
+    // paired wings => LW (div.1) = RW (div.0)
+    $scene_url[1] = preg_replace('/RW/', 'LW', $scene_url[0]);
 
 	for ($j=0; $j<count($main_layers); $j++ ) {
 
@@ -236,9 +244,15 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
 			}
 		}
 		// layer div is actually added only if it exists: $scene_url[$j]
+
 		if ($scene_url[$j]) {
-// print "\ndiv: $j: " . $scene_url[$j];
-			$divs .= "\n<div id='div$j' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$owidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\"></div>";
+
+            $dwidth = $owidth;
+            if ($results == 1) { // scale single demon image
+                $dwidth = $owidth*2 ;
+            }
+
+			$divs .= "\n<div id='div$j' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\" ></div>";
 		}
 	}
 
@@ -298,7 +312,7 @@ function scene_gen() {
 
 // scene filter
         $filter = "";
-	$filter_index = mt_rand(1,12);
+        $filter_index = mt_rand(1,12);
         switch($filter_index){
                 case 1:
                         $v1     = mt_rand(5,20);
