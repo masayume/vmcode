@@ -97,6 +97,10 @@ $owidth = $json_data['original_width'];
 // init master seed
 mt_srand($master_seed);
 
+// init planet, demon name data
+planet_ini();
+demon_ini();
+
 $javascript 	= jfunction();
 $css		= overcss();
 
@@ -149,7 +153,16 @@ EOT;
 
 //        } // end backgrounds
 
-	print "</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr>";
+	print "</div>";
+//    print "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr>";
+
+    print "<div id=\"bottomdiv\">(C) 2018 - masayume design === ";
+    print "names ini: " . count($planetname_ini) . "  mid:" . count($planetname_mid) ."  end:" . count($planetname_end);
+    print " === " . demon_count($scenedir);
+
+print "dir:" . $scenedir;
+
+    print "</div>";
 	print "</body></html>";
 
 echo "\n";
@@ -399,5 +412,53 @@ function scene_gen() {
 } // end function scene_gen
 
 
+function demon_ini() {
+
+        global $demonname_ini, $demonname_mid, $demonname_end, $demon_pic;
+        $demonname_ini = array("a","an","as","az","ba","bal","be","bel","del","dra","du","e","go","gri","hex","i","lu","ka","kar","kor","me","mel","mor","nar","ra","sa");
+        $demonname_mid = array("bad","bi","bra","ci","da","de","fa","fri","for","gi","gra","gri","hu","la","las","li","mai","mo","mu","phis","pho","ra","su","ta","tel","va","vi","yan","za");
+        $demonname_end = array("al","bam","bi","bub","bus","den","don","el","gor","goth","jag","ka","kor","ku","lak","leth","lia","mat","met","mon","moth","ra","riel","rog","roth","s","t","tan","th","tor","xas","zal","zel","zer","zo");
+
+} // end function demon_ini
+
+function planet_ini() {
+
+    global $planetname_ini, $planetname_mid, $planetname_end, $planet_pic;
+    $planetname_ini = array("a","al","bel","ca","car","chal","cyl","da","dei","di","e","en","eu","e","ga","ha","har","he","i","ia","ju","ka","kal","la","le","ly","m","me","mer","mi","mne","mu","ou","pa","pan","pra","pho","pro","rhe","sa","si","ska","spon","tar","tay","the","thy","ti","ve","y");
+    $planetname_mid = array("an","bio","bo","ce","cli","cu","de","di","do","dras","e","ga","ge","ger","i","la","le","les","ly","ma","mal","me","mis","mo","nan","ni","no","o","pa","pha","pe","pi","po","ry","ro","si","so","te","the","tla","u","xi");
+    $planetname_end = array("a","ars","be","bos","da","de","dus","e","gir","ke","lya","mas","me","mir","mos","ne","nus","on","ops","pe","pso","ra","rix","ros","ry","s","tan","te","ter","thi","ti","tis","tne","to","tur","tus","tyl","us","ve","vi","vos");
+    $planet_pic = array("01.png","02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png","11.png","12.png","13.png","14.png","15.png","16.png","17.png","18.png","19.png","20.png",);
+    
+} // end function planet_ini
+
+
+function demon_count($dir) {
+
+    $dpart = "";    $dcount = 1;
+    $dlayers        = array();
+    $arr2ret        = array();
+    if ($handle = opendir($dir)) {
+
+        while (false !== ($entry = readdir($handle))) {
+            if ($entry != "." && $entry != "..") {
+                    array_push($dlayers, $entry);
+                    // echo "$entry\n";
+            }
+        }
+        closedir($handle);
+    }
+
+// create various parts 
+    foreach (array("LW", "RW", "LB", "BO", "HE") as $part) {
+        $demon_elems    = array();
+        $demon_elems    = kind_elem($part, $dlayers); // elementi di tipo "HE"... 
+        if (in_array($part, array("RW", "BO", "LB", "HE"))) { $dpart .= " $part: " . count($demon_elems); $dcount *= count($demon_elems); }
+    }
+
+    $demoncount = "demons: " . $dcount . " parts: " . $dpart;
+
+    return $demoncount;
+
+} // end function demon_count
 
 ?>
