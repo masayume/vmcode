@@ -1,11 +1,11 @@
 <?php
 
 // TODO
-	
-//	- values are default_layers/demon_layers
-//	- demon wing layers must be coupled (ref. demons.json)
+
+// :200 START JSON info CREATE & WRITE (json layers & info generation)
 
 // DONE
+// :458 calcolo del nome del demone con split sul numero dei scene[1]   
 //  - load layer type string array from a json in the &dir parameter:
 //      JSON FILE DIR: :85 filename = PATH(/var/www...) + basedir(param(dir)) + basedir(param(dir)).json
 
@@ -45,6 +45,9 @@ $demon_layers	= array(
                 "BO" => 100,   //      z00 - skybox (MAND.)
                 "HE" => 100,   //      z00 - skybox (MAND.)
 );
+
+$demonsfile     = '/home/masayume/down/demon/demons/demons4js.json';
+
 $scenedir	= "";
 $page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = "";
 $results    = 0;
@@ -156,16 +159,19 @@ EOT;
 	print "</div>";
 //    print "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr>";
 
+
     print "<div id=\"bottomdiv\">(C) 2018 - masayume design === ";
-    print "names ini: " . count($planetname_ini) . "  mid:" . count($planetname_mid) ."  end:" . count($planetname_end);
+    print "NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print " === " . demon_count($scenedir);
-
-print "dir:" . $scenedir;
-
+    print " === Dir:" . $scenedir;
     print "</div>";
+
+
 	print "</body></html>";
 
 echo "\n";
+
+// if !exists demons file create it
 
 exit(0);
 
@@ -179,17 +185,70 @@ function scene_layers($dir) {
 
 	global		$default_layers;
 	global		$demon_layers;
+    global      $demonsfile;
+    global      $demonname, $demonname_ini, $demonname_mid, $demonname_end;
+    global      $page;
     $dlayers        = array();
+    $jslayers       = array();
     $arr2ret        = array();
     if ($handle = opendir($dir)) {
 
         while (false !== ($entry = readdir($handle))) {
-            if ($entry != "." && $entry != "..") {
+            if ($entry != "." && $entry != ".." && $entry != "demons.json" && $entry != "demons4js.json") {
                     array_push($dlayers, $entry);
+                    $nameparts  = explode("_", $entry);
+                    $extparts   = explode(".",$nameparts[4]);
+                    $numpart    = ltrim($extparts[0], '0');
+
+// START JSON info injection
+
+                    $partname   = "";
+                    $effect     = "";
+                    $dtype      = "";
+                    if ($nameparts[2] == "HE") {                    // HEAD definition (pattern)
+                        $partname   = $demonname["HE"][$numpart];
+                        $dtype      = "head";
+                        $effect     = "pattern:M";
+                    } 
+                    else if ($nameparts[2] == "BO") {               // BODY definition (energy)
+                        $partname = $demonname["BO"][$numpart];
+                        $dtype      = "body";
+                        $effect     = "energy:K";
+                    } 
+                    else if ($nameparts[2] == "LB") {               // LOWER BODY definition (weapon)
+                        $partname = $demonname["LB"][$numpart];
+                        $dtype      = "lowerbody";
+                        $effect     = "weapon:Q";
+                    }
+                    else if ($nameparts[2] == "LW") {               // LOWER BODY definition (weapon)
+                        $partname   = "";   //$demonname_ini[$numpart];
+                        $dtype      = "leftwing";
+                        $effect     = "var:A";
+                    }
+                    else if ($nameparts[2] == "RW") {               // LOWER BODY definition (weapon)
+                        $partname   = "";   // $demonname_ini[$numpart];
+                        $dtype      = "rightwing";
+                        $effect     = "";
+                    }
+                    $keyval = Array(
+                            "type" => $dtype, 
+                            "img" => $entry, 
+                            "partname" => $partname, 
+                            "effect" => $effect
+                    );
+                    $jslayers[$nameparts[2]][$extparts[0]] = $keyval;
+
+// END JSON info injection
+
             }
         }
         closedir($handle);
     }
+
+// on page 1 encode & write for javascript layer images to $demonsfile 
+if ($page==1) {
+    file_put_contents($demonsfile, json_encode($jslayers, JSON_PRETTY_PRINT));    
+}
 
 // load layers type => main_layers
 	$main_layers = $demon_layers;
@@ -199,12 +258,12 @@ function scene_layers($dir) {
 
 // loop on main_layers: chosen images MUST have matching string in theirs names
 
-                $scene_elems    = array();
-                $scene_elems    = kind_elem($part, $dlayers); // elementi di tipo zNN... 
+            $scene_elems    = array();
+            $scene_elems    = kind_elem($part, $dlayers); // elementi di tipo zNN... 
 
-		if (mt_rand(1,100) <= $main_layers[$part]) {
-                	array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); // carico nell'array da tornare l'rt_rnd-esimo elemento
-		}
+    		if (mt_rand(1,100) <= $main_layers[$part]) {
+                    	array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); // carico nell'array da tornare l'rt_rnd-esimo elemento
+    		}
         }
 
 // print "<pre>"; print_r($arr2ret); print "</pre>";
@@ -269,6 +328,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
 		}
 	}
 
+        $scene_name2print = ucfirst($scene_name);
         $scene = <<< EOP
 
 <div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px;">
@@ -286,7 +346,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
             }
         </script>
 	$divs
-		<p><div title="$filter">$i</div> $scene_name
+		<p><div title="$filter">$i: $scene_name2print </div>
 </div>
 EOP;
 
@@ -396,28 +456,51 @@ function scene_gen() {
                         $filter = ""; break;
         }
 
-        $scene[3]      = $filter;
-
-// scene name
-        $scene[0]      = $scene_name;
+        $scene[3]      = $filter;                       // curves
 
 // scene pic
-        $scene[1]      = scene_layers($scenedir); // 5 mt_rand
+        $scene[1]      = scene_layers($scenedir);       // image layers
+
+// scene name
+        $scene[0]      = calc_scene_name($scene[1]);   // name (after scene_layers)
 
 // scene size
         $scene[2]      = mt_rand(120,136);
+
 
         return $scene;
 
 } // end function scene_gen
 
 
+function calc_scene_name($scenep) {
+
+    global      $demonname;
+
+// print "<pre>"; print_r($scenep); exit(0);
+// HE:$scenep[4] BO:$scenep[3] LB:$scenep[2]
+    preg_match("/([0-9]+)\.png/", $scenep[4], $head);
+    preg_match("/([0-9]+)\.png/", $scenep[3], $body);
+    preg_match("/([0-9]+)\.png/", $scenep[2], $lowerbody);
+
+
+    $demname =      $demonname["HE"][ltrim($head[1], '0')] 
+                .   $demonname["BO"][ltrim($body[1], '0')] 
+                .   $demonname["LB"][ltrim($lowerbody[1], '0')];
+
+    return $demname;
+
+}
+
 function demon_ini() {
 
-        global $demonname_ini, $demonname_mid, $demonname_end, $demon_pic;
+        global $demonname, $demonname_ini, $demonname_mid, $demonname_end, $demon_pic;
         $demonname_ini = array("a","an","as","az","ba","bal","be","bel","del","dra","du","e","go","gri","hex","i","lu","ka","kar","kor","me","mel","mor","nar","ra","sa");
         $demonname_mid = array("bad","bi","bra","ci","da","de","fa","fri","for","gi","gra","gri","hu","la","las","li","mai","mo","mu","phis","pho","ra","su","ta","tel","va","vi","yan","za");
         $demonname_end = array("al","bam","bi","bub","bus","den","don","el","gor","goth","jag","ka","kor","ku","lak","leth","lia","mat","met","mon","moth","ra","riel","rog","roth","s","t","tan","th","tor","xas","zal","zel","zer","zo");
+        $demonname["BO"] = array("ba","bal","bav","ol","bam","ci","bat","cih","da","ske","ste","cil","om","de","civ","do","dov","dok","mah","mal","mo","moh","mol","mov","mok","mog","mogg","me","mu","mi","mih","miv","nol","nov","pa","pav","nog","og","qo","pav");
+        $demonname["HE"] = array("ah","ahl","ahn","ahv","an","anl","anv","as","az","ba","be","de","du","bal","ang","bav","dul","ban","bav","ank","ant","eh","akh","el","elh","fel","fen","pah","pal","dun","bra","brah","dum","dug","duc","duq","dugh","hec","dur","hek","doc","doq","dugr","ih","il","lu","ka","kah","keh","kev","mih","mil","moh","mor","nak","nat");
+        $demonname["LB"] = array("ah","an","as","ash","tl","ask","ba","bub","buv","gra","del","isk","eg","gor","las","nal","el","eh","lac","lah","ehl","ehk","leth","lekh","lev","leh","roh","sh","l","lak","ehr","meh","mel","moh","mok","ron");
 
 } // end function demon_ini
 
