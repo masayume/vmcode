@@ -206,17 +206,29 @@ function scene_layers($dir) {
                     $effect     = "";
                     $dtype      = "";
                     if ($nameparts[2] == "HE") {                    // HEAD definition (pattern)
-                        $partname   = $demonname["HE"][$numpart];
+                        if ($demonname["HE"][$numpart]) {
+                            $partname   = $demonname["HE"][$numpart];                            
+                        } else {
+                            $partname   = "2bdef";
+                        }
                         $dtype      = "head";
                         $effect     = "pattern:M";
                     } 
                     else if ($nameparts[2] == "BO") {               // BODY definition (energy)
-                        $partname = $demonname["BO"][$numpart];
+                        if ($demonname["BO"][$numpart]) {
+                            $partname   = $demonname["BO"][$numpart];                            
+                        } else {
+                            $partname   = "2bdef";
+                        }
                         $dtype      = "body";
                         $effect     = "energy:K";
                     } 
                     else if ($nameparts[2] == "LB") {               // LOWER BODY definition (weapon)
-                        $partname = $demonname["LB"][$numpart];
+                        if ($demonname["LB"][$numpart]) {
+                            $partname   = $demonname["LB"][$numpart];                            
+                        } else {
+                            $partname   = "2bdef";
+                        }
                         $dtype      = "lowerbody";
                         $effect     = "weapon:Q";
                     }
