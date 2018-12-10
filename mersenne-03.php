@@ -79,6 +79,19 @@ else {
         $res_qs  .= "&type=" . $type;
 }
 
+$atype = '';
+if ($params['atype']) { 
+    if ($params['atype'] == 'demons') { 
+        $atype = 'demons';
+        $scenedir = "./img/demons/"; 
+        $params['dir'] = $scenedir;
+    } else if ($params['atype'] == 'demonship') { 
+        $atype = 'ships';
+        $scenedir = "./img/demonship/"; 
+        $params['dir'] = $scenedir;
+    }
+}
+
 // dir param: directory that holds the files
 if (!$params['dir']) { $scenedir = "./demon/img/scenes/"; }
 else {
@@ -160,9 +173,9 @@ EOT;
 //    print "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr>";
 
 
-    print "<div id=\"bottomdiv\">(C) 2018 - masayume design === ";
+    print "<div id=\"bottomdiv\">(C) 2018-2019 - masayume design === ";
     print "NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
-    print " === " . demon_count($scenedir);
+    print " === " . demon_count($scenedir, $atype);
     print " === Dir:" . $scenedir;
     print "</div>";
 
@@ -527,7 +540,7 @@ function planet_ini() {
 } // end function planet_ini
 
 
-function demon_count($dir) {
+function demon_count($dir, $type) {
 
     $dpart = "";    $dcount = 1;
     $dlayers        = array();
@@ -550,7 +563,7 @@ function demon_count($dir) {
         if (in_array($part, array("RW", "BO", "LB", "HE"))) { $dpart .= " $part: " . count($demon_elems); $dcount *= count($demon_elems); }
     }
 
-    $demoncount = "demons: " . $dcount . " parts: " . $dpart;
+    $demoncount = strtoupper($type) . ": " . $dcount . " parts: " . $dpart;
 
     return $demoncount;
 
