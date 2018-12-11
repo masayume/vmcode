@@ -46,6 +46,7 @@ $demon_layers	= array(
                 "HE" => 100,   //      z00 - skybox (MAND.)
 );
 
+// default JSON file
 $demonsfile     = '/home/masayume/down/demon/demons/demons4js.json';
 
 $scenedir	= "";
@@ -99,6 +100,10 @@ else {
         $res_qs  .= "&dir=" . $scenedir;
 }
 
+// define JSON destination directory & file
+$demonsfile     = '/home/masayume/down/demon/' . $params['atype'] . '/' . $params['atype'] . '4js.json';
+
+
 // read JSON in the image "dir"
 $json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
 $json = file_get_contents($json_file);
@@ -123,14 +128,13 @@ $css		= overcss();
 echo <<< EOT
 <html><head>
 <title>generator</title>
-<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 <style type="text/css">
 a:link  { color:#ffffff; } 
 a:visited { color:#ffffff; } 
 </style>
 $css
 </head>
-<body style="background-color:#000000; color: #ffffff; font-family: 'Oswald', sans-serif;">
+<body style="background-color:#000000; color: #ffffff; font-family: 'arcadeclassic', sans-serif; font-size: 20px;">
 $javascript
 EOT;
 
@@ -173,10 +177,10 @@ EOT;
 //    print "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr>";
 
 
-    print "<div id=\"bottomdiv\">(C) 2018-2019 - masayume design === ";
+    print "<div id=\"bottomdiv\">(C) 2018-2019 - masayume design ||| ";
     print "NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
-    print " === " . demon_count($scenedir, $atype);
-    print " === Dir:" . $scenedir;
+    print " ||| " . demon_count($scenedir, $atype);
+    print " ||| DIR:" . $scenedir;
     print "</div>";
 
 
@@ -371,7 +375,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
             }
         </script>
 	$divs
-		<p><div title="$filter">$i: $scene_name2print </div>
+		<p><div title="$filter">$i - $scene_name2print </div>
 </div>
 EOP;
 
