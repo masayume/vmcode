@@ -1,4 +1,4 @@
 vmcode
 ======
 
-code developed from U10.04
+code developed from MINT4
