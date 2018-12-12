@@ -46,7 +46,7 @@ $demon_layers	= array(
                 "HE" => 100,   //      z00 - skybox (MAND.)
 );
 
-// default JSON file
+// default JSON file name
 $demonsfile     = '/home/masayume/down/demon/demons/demons4js.json';
 
 $scenedir	= "";
@@ -106,6 +106,7 @@ $demonsfile     = '/home/masayume/down/demon/' . $params['atype'] . '/' . $param
 
 // read JSON in the image "dir"
 $json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
+
 $json = file_get_contents($json_file);
 
 $json_data = json_decode($json, true);
@@ -138,8 +139,13 @@ $css
 $javascript
 EOT;
 
+$QURL               = " - <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1&results=24";
+$URL['demons']      = $QURL . "&atype=demons'>demons</a>";          
+$URL['demonship']   = $QURL . "&atype=demonship'>demonship</a>";
+
 // navigation && MAIN div
-	print " NAVIGATION: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" . "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt; previous </a> &nbsp;&nbsp;&nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> next >> </a> &nbsp;  &nbsp;  &nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . "&type=backs&results=3'>BACKGROUNDS</a>"; 
+	print " NAV: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" . "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt; previous </a> &nbsp;&nbsp;&nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> next >> </a> &nbsp;  &nbsp;  &nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . "&type=backs&results=3'>BACKGROUNDS</a> "; 
+    print $URL["demons"] . $URL["demonship"];
 	print "\n\n\n\n<hr><div style=\"text-align:center;\">";
 
 // BACKGROUNDS - background layers 
