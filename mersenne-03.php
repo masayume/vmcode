@@ -29,6 +29,9 @@
 
 // PARAMETERS
 
+
+include 'mersenne-config.php';
+
 // BACKGROUNDS - background layers (chance to appear, type) 
 $default_layers	= array(
                 "z00" => 100,   //      z00 - skybox (MAND.)
@@ -47,10 +50,10 @@ $demon_layers	= array(
 );
 
 // default JSON file name
-$demonsfile     = '/home/masayume/down/demon/demons/demons4js.json';
+$demonsfile     = $main_path . 'demons/demons4js.json';
 
 $scenedir	= "";
-$page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = "";
+$page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = ""; $atype = "";
 $results    = 0;
 
 // parse parameters
@@ -87,8 +90,12 @@ if ($params['atype']) {
         $scenedir = "./img/demons/"; 
         $params['dir'] = $scenedir;
     } else if ($params['atype'] == 'demonship') { 
-        $atype = 'ships';
+        $atype = 'demonship';
         $scenedir = "./img/demonship/"; 
+        $params['dir'] = $scenedir;
+    } else if ($params['atype'] == 'demonback') { 
+        $atype = 'demonback';
+        $scenedir = "./img/demonback/"; 
         $params['dir'] = $scenedir;
     }
 }
@@ -97,15 +104,20 @@ if ($params['atype']) {
 if (!$params['dir']) { $scenedir = "./demon/img/scenes/"; }
 else {
         $scenedir = $params['dir'];
-        $res_qs  .= "&dir=" . $scenedir;
+//        $res_qs  .= "&dir=" . $scenedir;
+        $res_qs  .= "&atype=" . $atype;
+
 }
 
 // define JSON destination directory & file
-$demonsfile     = '/home/masayume/down/demon/' . $params['atype'] . '/' . $params['atype'] . '4js.json';
+$demonsfile     = $main_path . $params['atype'] . '/' . $params['atype'] . '4js.json';
 
 
 // read JSON in the image "dir"
-$json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
+// $json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
+$json_file = $main_path . $params['atype'] . '/' . $params['atype'] . '.json';
+
+// print $json_file . "<br>" .  $json_file2;
 
 $json = file_get_contents($json_file);
 
@@ -123,8 +135,8 @@ mt_srand($master_seed);
 planet_ini();
 demon_ini();
 
-$javascript 	= jfunction();
-$css		= overcss();
+$javascript   = jfunction();
+$css		  = overcss();
 
 echo <<< EOT
 <html><head>
@@ -139,13 +151,16 @@ $css
 $javascript
 EOT;
 
-$QURL               = " - <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1&results=24";
-$URL['demons']      = $QURL . "&atype=demons'>demons</a>";          
-$URL['demonship']   = $QURL . "&atype=demonship'>demonship</a>";
+$QURL               = " - <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
+$URL['demons']      = $QURL . "&results=24&atype=demons'>demons</a>";          
+$URL['demonship']   = $QURL . "&results=24&atype=demonship'>demonship</a>";
+$URL['demonback']   = $QURL . "&results=1&atype=demonback'>demonback</a> ";
+$URL['demonbadge']  = "<s>" . $QURL . "&results=1&atype=demonbadge'>demonbadge</a>  </s>";
 
 // navigation && MAIN div
-	print " NAV: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" . "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt; previous </a> &nbsp;&nbsp;&nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> next >> </a> &nbsp;  &nbsp;  &nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . "&type=backs&results=3'>BACKGROUNDS</a> "; 
-    print $URL["demons"] . $URL["demonship"];
+	print " NAV: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" . "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt; previous </a> &nbsp;&nbsp;&nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> next >> </a> &nbsp;  &nbsp;  &nbsp;"; 
+//    print "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . "&type=backs&results=3'>BACKGROUNDS</a> "; 
+    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
 	print "\n\n\n\n<hr><div style=\"text-align:center;\">";
 
 // BACKGROUNDS - background layers 
@@ -172,7 +187,7 @@ $URL['demonship']   = $QURL . "&atype=demonship'>demonship</a>";
             $scene_url      = $scene_array[1];
             $filter         = $scene_array[3];
             // echo $scene_img;
-            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $filter);
+            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $filter, $atype);
 
         }
     }
@@ -216,12 +231,22 @@ function scene_layers($dir) {
     $arr2ret        = array();
     if ($handle = opendir($dir)) {
 
+// print "<br>" . $dir;
+
         while (false !== ($entry = readdir($handle))) {
-            if ($entry != "." && $entry != ".." && $entry != "demons.json" && $entry != "demons4js.json") {
+            if ($entry != "." && $entry != ".." 
+                    && $entry != "demons.json" && $entry != "demons4js.json"
+                    && $entry != "demonship.json" && $entry != "demonship4js.json"
+                    && $entry != "demonback.json" && $entry != "demonback4js.json"
+                ) {
                     array_push($dlayers, $entry);
                     $nameparts  = explode("_", $entry);
                     $extparts   = explode(".",$nameparts[4]);
                     $numpart    = ltrim($extparts[0], '0');
+
+
+// print "<br>" . $entry;
+
 
 // START JSON info injection
 
@@ -319,7 +344,7 @@ function kind_elem($kind, $dlayers) {
 } // end function rndret_elem()
 
 
-function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
+function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter, $atype) {
 
     global          $default_layers;
     global          $demon_layers;
@@ -334,6 +359,9 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
 
     // paired wings => LW (div.1) = RW (div.0)
     $scene_url[1] = preg_replace('/RW/', 'LW', $scene_url[0]);
+
+
+// $atype (values: demonback, demons, demonship ) allows to discriminate scene rules by element type
 
 	for ($j=0; $j<count($main_layers); $j++ ) {
 
@@ -359,7 +387,8 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter) {
                 $dwidth = $owidth*2 ;
             }
 
-			$divs .= "\n<div id='div$j' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\" ></div>";
+            $divId  = "div" . $j;
+			$divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\" ></div>";
 		}
 	}
 
