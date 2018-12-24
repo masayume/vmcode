@@ -121,9 +121,12 @@ $json_file = $main_path . $params['atype'] . '/' . $params['atype'] . '.json';
 
 $json = file_get_contents($json_file);
 
-$json_data = json_decode($json, true);
-$jwidth = $json_data['width'];
-$owidth = $json_data['original_width'];
+$json_data      = json_decode($json, true);
+$jwidth         = $json_data['width'];
+$owidth         = $json_data['original_width'];
+$demon_layers   = $json_data['layers'];
+
+// print "<pre>"; print_r($demon_layers); exit(0);
 
 // print "scenedir: " . $scenedir;
 // print "<img src='$scenedir/dem_A_BO_3_01.png'><hr>";
@@ -358,7 +361,9 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter, $atype) {
 	$main_layers = $demon_layers;
 
     // paired wings => LW (div.1) = RW (div.0)
-    $scene_url[1] = preg_replace('/RW/', 'LW', $scene_url[0]);
+    if ($atype == 'demons' || $atype == 'demonship') {
+        $scene_url[1] = preg_replace('/LW/', 'RW', $scene_url[0]);
+    }
 
 
 // $atype (values: demonback, demons, demonship ) allows to discriminate scene rules by element type
@@ -595,13 +600,27 @@ function demon_count($dir, $type) {
         closedir($handle);
     }
 
-// create various parts 
-    foreach (array("LW", "RW", "LB", "BO", "HE") as $part) {
-        $demon_elems    = array();
-        $demon_elems    = kind_elem($part, $dlayers); // elementi di tipo "HE"... 
-        if (in_array($part, array("RW", "BO", "LB", "HE"))) { $dpart .= " $part: " . count($demon_elems); $dcount *= count($demon_elems); }
-    }
-
+// count various parts 
+    if ($type == 'demons' || $type == 'demonship') {
+        foreach (array("RW", "BO", "LB", "HE") as $part) {
+            $demon_elems    = array();
+            $demon_elems    = kind_elem($part, $dlayers); // elementi di tipo "HE"... 
+            if (in_array($part, array("RW", "BO", "LB", "HE"))) { 
+                $dpart .= " $part: " . count($demon_elems); 
+                $dcount *= count($demon_elems); 
+            } 
+        }
+    } else {
+        foreach (array("LW", "RW", "LB", "BO", "HE") as $part) {
+            $demon_elems    = array();
+            $demon_elems    = kind_elem($part, $dlayers); // elementi di tipo "HE"... 
+            if (in_array($part, array("LW","RW", "BO", "LB", "HE"))) { 
+                $dpart .= " $part: " . count($demon_elems); 
+                $dcount *= count($demon_elems); 
+            } 
+        }        
+    } 
+    
     $demoncount = strtoupper($type) . ": " . $dcount . " parts: " . $dpart;
 
     return $demoncount;
