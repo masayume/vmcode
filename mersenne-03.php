@@ -2,8 +2,10 @@
 
 // TODO
 
-// remote: /web/htdocs/www.masayume.it/home/games/demon/
-// ok: https://www.masayume.it/demon/img/demonback/demonback.json
+// delete use of dir param & strenghten php 
+// better error report when creating a new dir from scratch 
+//    procedure: create dir, create file dir/atype.js with proper contents
+// layer parametrization
 
 // :??? planet names different from demon names
 // :200 START JSON info CREATE & WRITE (json layers & info generation)
@@ -32,11 +34,6 @@
 // REF.
 
 // PARAMETERS
-
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 // phpinfo(); exit(0);
 
@@ -68,12 +65,12 @@ $results    = 0;
 
 // parse parameters
 parse_str($_SERVER['QUERY_STRING'], $params);
-if ($params['seed']) { 
+if (isset($params['seed'])) { 
 	$master_seed	= $params['seed']; 
 } else { 
 	$master_seed	= 100; 
 }
-if ($params['page']) { 
+if (isset($params['page'])) { 
 	$page	= $params['page']; 
 	$nextp = $page+1; 
 	$prevp = $page-1; 
@@ -82,7 +79,7 @@ if ($params['page']) {
 	$nextp	= 2; 
 	$prevp	= 1; 
 }
-if (!$params['results']) { $results = 24; } 
+if (!isset($params['results'])) { $results = 24; } 
 else {
 	$results = $params['results'];
 	$res_qs  .= "&results=" . $results;
@@ -94,20 +91,15 @@ else {
 }
 
 $atype = '';
-if ($params['atype']) { 
-    if ($params['atype'] == 'demons') { 
+if (isset($params['atype'])) { 
+        $atype = $params['atype'];
+        $scenedir = $main_path_dir . $atype . '/'; 
+        $params['dir'] = $scenedir;
+} else {
         $atype = 'demons';
-        $scenedir = $main_path_dir . "demons/";
+        $scenedir = $main_path_dir . $atype . '/'; 
         $params['dir'] = $scenedir;
-    } else if ($params['atype'] == 'demonship') { 
-        $atype = 'demonship';
-        $scenedir = $main_path_dir . "demonship/";
-        $params['dir'] = $scenedir;
-    } else if ($params['atype'] == 'demonback') { 
-        $atype = 'demonback';
-        $scenedir = $main_path_dir . "demonback/"; 
-        $params['dir'] = $scenedir;
-    }
+        $params['atype'] = 'demons';
 }
 
 // dir param: directory that holds the files
@@ -124,7 +116,6 @@ $demonsfile     = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '
 
 
 // read JSON in the image "dir"
-// $json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
 $json_file = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '.json';
 
 $json = file_get_contents($json_file);
