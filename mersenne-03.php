@@ -2,6 +2,10 @@
 
 // TODO
 
+// remote: /web/htdocs/www.masayume.it/home/games/demon/
+// ok: https://www.masayume.it/demon/img/demonback/demonback.json
+
+// :??? planet names different from demon names
 // :200 START JSON info CREATE & WRITE (json layers & info generation)
 
 // DONE
@@ -30,6 +34,12 @@
 // PARAMETERS
 
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// phpinfo(); exit(0);
+
 include 'mersenne-config.php';
 
 // BACKGROUNDS - background layers (chance to appear, type) 
@@ -50,7 +60,7 @@ $demon_layers	= array(
 );
 
 // default JSON file name
-$demonsfile     = $main_path . 'demons/demons4js.json';
+$demonsfile     = $main_path_dir . 'demons/demons4js.json';
 
 $scenedir	= "";
 $page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = ""; $atype = "";
@@ -72,12 +82,12 @@ if ($params['page']) {
 	$nextp	= 2; 
 	$prevp	= 1; 
 }
-if (!$params['results']) { $results = 12; } 
+if (!$params['results']) { $results = 24; } 
 else {
 	$results = $params['results'];
 	$res_qs  .= "&results=" . $results;
 }
-if (!$params['type']) { $type = "backs"; } 
+if (!isset($params['type'])) { $type = "backs"; } 
 else {
         $type = $params['type'];
         $res_qs  .= "&type=" . $type;
@@ -87,15 +97,15 @@ $atype = '';
 if ($params['atype']) { 
     if ($params['atype'] == 'demons') { 
         $atype = 'demons';
-        $scenedir = "./img/demons/"; 
+        $scenedir = $main_path_dir . "demons/";
         $params['dir'] = $scenedir;
     } else if ($params['atype'] == 'demonship') { 
         $atype = 'demonship';
-        $scenedir = "./img/demonship/"; 
+        $scenedir = $main_path_dir . "demonship/";
         $params['dir'] = $scenedir;
     } else if ($params['atype'] == 'demonback') { 
         $atype = 'demonback';
-        $scenedir = "./img/demonback/"; 
+        $scenedir = $main_path_dir . "demonback/"; 
         $params['dir'] = $scenedir;
     }
 }
@@ -110,14 +120,12 @@ else {
 }
 
 // define JSON destination directory & file
-$demonsfile     = $main_path . $params['atype'] . '/' . $params['atype'] . '4js.json';
+$demonsfile     = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '4js.json';
 
 
 // read JSON in the image "dir"
 // $json_file = '/var/www/html/keplerion/img/' . basename($params['dir']) . '/' . basename($params['dir']) . '.json';
-$json_file = $main_path . $params['atype'] . '/' . $params['atype'] . '.json';
-
-// print $json_file . "<br>" .  $json_file2;
+$json_file = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '.json';
 
 $json = file_get_contents($json_file);
 
@@ -178,7 +186,7 @@ $URL['demonbadge']  = "<s>" . $QURL . "&results=1&atype=demonbadge'>demonbadge</
 
 	for ($i=1; $i<=$page * $results; $i++) {
         // $imgpath = "/demon/img/scenes/" ;
-        $imgpath = $scenedir ;
+        $imgpath = $main_path . $atype . '/';
 		$scene_array = array();
         $scene_array = scene_gen();
 
@@ -204,7 +212,7 @@ $URL['demonbadge']  = "<s>" . $QURL . "&results=1&atype=demonbadge'>demonbadge</
     print "<div id=\"bottomdiv\">(C) 2018-2019 - masayume design ||| ";
     print "NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print " ||| " . demon_count($scenedir, $atype);
-    print " ||| DIR:" . $scenedir;
+    print " ||| DIR:" . $imgpath;
     print "</div>";
 
 
@@ -247,17 +255,13 @@ function scene_layers($dir) {
                     $extparts   = explode(".",$nameparts[4]);
                     $numpart    = ltrim($extparts[0], '0');
 
-
-// print "<br>" . $entry;
-
-
 // START JSON info injection
 
                     $partname   = "";
                     $effect     = "";
                     $dtype      = "";
                     if ($nameparts[2] == "HE") {                    // HEAD definition (pattern)
-                        if ($demonname["HE"][$numpart]) {
+                        if (isset($demonname["HE"][$numpart])) {
                             $partname   = $demonname["HE"][$numpart];                            
                         } else {
                             $partname   = "2bdef";
@@ -266,7 +270,7 @@ function scene_layers($dir) {
                         $effect     = "pattern:M";
                     } 
                     else if ($nameparts[2] == "BO") {               // BODY definition (energy)
-                        if ($demonname["BO"][$numpart]) {
+                        if (isset($demonname["BO"][$numpart])) {
                             $partname   = $demonname["BO"][$numpart];                            
                         } else {
                             $partname   = "2bdef";
@@ -275,7 +279,7 @@ function scene_layers($dir) {
                         $effect     = "energy:K";
                     } 
                     else if ($nameparts[2] == "LB") {               // LOWER BODY definition (weapon)
-                        if ($demonname["LB"][$numpart]) {
+                        if (isset($demonname["LB"][$numpart])) {
                             $partname   = $demonname["LB"][$numpart];                            
                         } else {
                             $partname   = "2bdef";
@@ -375,7 +379,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter, $atype) {
 		// calculate padding displacement from $scene_url[$j] filename sections: up: -uNN- down: -dNN- left: -lNN- right: -rNN- 
 		foreach (array("/-u[0-9]+-/", "/-d[0-9]+-/", "/-l[0-9]+-/", "/-r[0-9]+-/", ) as $pattern) {	
 			preg_match($pattern, $scene_url[$j], $matches, PREG_OFFSET_CAPTURE);
-			if ($matches[0]) {  
+			if (isset($matches[0])) {  
 				// print "<br>matches for $pattern: <pre>"; print_r($matches[0][0]); 
 				if (substr($matches[0][0],1,1 ) == 'u') { $padding .= "margin-top: -" . substr($matches[0][0],2,2 ) . "; "; }
 				if (substr($matches[0][0],1,1 ) == 'd') { $padding .= "margin-top: +" . substr($matches[0][0],2,2 ) . "; "; }
@@ -567,9 +571,9 @@ function demon_ini() {
         $demonname_ini = array("a","an","as","az","ba","bal","be","bel","del","dra","du","e","go","gri","hex","i","lu","ka","kar","kor","me","mel","mor","nar","ra","sa");
         $demonname_mid = array("bad","bi","bra","ci","da","de","fa","fri","for","gi","gra","gri","hu","la","las","li","mai","mo","mu","phis","pho","ra","su","ta","tel","va","vi","yan","za");
         $demonname_end = array("al","bam","bi","bub","bus","den","don","el","gor","goth","jag","ka","kor","ku","lak","leth","lia","mat","met","mon","moth","ra","riel","rog","roth","s","t","tan","th","tor","xas","zal","zel","zer","zo");
-        $demonname["BO"] = array("ba","bal","bav","ol","bam","ci","bat","cih","da","ske","ste","cil","om","de","civ","do","dov","dok","mah","mal","mo","moh","mol","mov","mok","mog","mogg","me","mu","mi","mih","miv","nol","nov","pa","pav","nog","og","qo","pav");
-        $demonname["HE"] = array("ah","ahl","ahn","ahv","an","anl","anv","as","az","ba","be","de","du","bal","ang","bav","dul","ban","bav","ank","ant","eh","akh","el","elh","fel","fen","pah","pal","dun","bra","brah","dum","dug","duc","duq","dugh","hec","dur","hek","doc","doq","dugr","ih","il","lu","ka","kah","keh","kev","mih","mil","moh","mor","nak","nat");
-        $demonname["LB"] = array("ah","an","as","ash","tl","ask","ba","bub","buv","gra","del","isk","eg","gor","las","nal","el","eh","lac","lah","ehl","ehk","leth","lekh","lev","leh","roh","sh","l","lak","ehr","meh","mel","moh","mok","ron");
+        $demonname["BO"] = array("ba","bal","bav","ol","bam","ci","bat","cih","da","ske","ste","cil","om","de","civ","do","dov","dok","mah","mal","mo","moh","mol","mov","mok","mog","mogg","me","mu","mi","mih","miv","nol","nov","pa","pav","nog","og","qo","pav", "ba","bal","bav","ol","bam","ci","bat","cih","da","ske","ste","cil","om","de","civ","do","dov","dok","mah","mal","mo","moh","mol","mov","mok","mog","mogg","me","mu","mi","mih","miv","nol","nov","pa","pav","nog","og","qo","pav");
+        $demonname["HE"] = array("ah","ahl","ahn","ahv","an","anl","anv","as","az","ba","be","de","du","bal","ang","bav","dul","ban","bav","ank","ant","eh","akh","el","elh","fel","fen","pah","pal","dun","bra","brah","dum","dug","duc","duq","dugh","hec","dur","hek","doc","doq","dugr","ih","il","lu","ka","kah","keh","kev","mih","mil","moh","mor","nak","nat", "ah","ahl","ahn","ahv","an","anl","anv","as","az","ba","be","de","du","bal","ang","bav","dul","ban","bav","ank","ant","eh","akh","el","elh","fel","fen","pah","pal","dun","bra","brah","dum","dug","duc","duq","dugh","hec","dur","hek","doc","doq","dugr","ih","il","lu","ka","kah","keh","kev","mih","mil","moh","mor","nak","nat");
+        $demonname["LB"] = array("ah","an","as","ash","tl","ask","ba","bub","buv","gra","del","isk","eg","gor","las","nal","el","eh","lac","lah","ehl","ehk","leth","lekh","lev","leh","roh","sh","l","lak","ehr","meh","mel","moh","mok","ron","ah","an","as","ash","tl","ask","ba","bub","buv","gra","del","isk","eg","gor","las","nal","el","eh","lac","lah","ehl","ehk","leth","lekh","lev","leh","roh","sh","l","lak","ehr","meh","mel","moh","mok","ron");
 
 } // end function demon_ini
 
