@@ -59,9 +59,9 @@ $demon_layers	= array(
 // default JSON file name
 $demonsfile     = $main_path_dir . 'demons/demons4js.json';
 
+$json = "";
 $scenedir	= "";
-$page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = ""; $atype = "";
-$results    = 0;
+$page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = ""; $atype = ""; $results    = 0;
 
 // parse parameters
 parse_str($_SERVER['QUERY_STRING'], $params);
@@ -94,41 +94,40 @@ $atype = '';
 if (isset($params['atype'])) { 
         $atype = $params['atype'];
         $scenedir = $main_path_dir . $atype . '/'; 
-        $params['dir'] = $scenedir;
 } else {
         $atype = 'demons';
         $scenedir = $main_path_dir . $atype . '/'; 
-        $params['dir'] = $scenedir;
         $params['atype'] = 'demons';
 }
 
-// dir param: directory that holds the files
-if (!$params['dir']) { $scenedir = "./demon/img/scenes/"; }
-else {
-        $scenedir = $params['dir'];
-//        $res_qs  .= "&dir=" . $scenedir;
-        $res_qs  .= "&atype=" . $atype;
-
-}
-
-// define JSON destination directory & file
+// define JSON destination directory and file (...4js.json) & layers info file (.json)
 $demonsfile     = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '4js.json';
 
-
 // read JSON in the image "dir"
-$json_file = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '.json';
+$json_file      = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '.json';
 
-$json = file_get_contents($json_file);
+set_error_handler(function ($err_severity, $err_msg, $err_file, $err_line, array $err_context)
+{
+    throw new ErrorException( $err_msg, 0, $err_severity, $err_file, $err_line );
+}, E_WARNING);
 
+try {
+    $json = file_get_contents($json_file);
+}
+catch (Exception $e) {
+    echo "ERROR: file <b>" . $json_file . "</b> MUST EXIST in directory <b>" . $main_path_dir . $params['atype'] . "</b>";
+    exit(1);
+}
+
+restore_error_handler();
+
+// JSON import values
 $json_data      = json_decode($json, true);
 $jwidth         = $json_data['width'];
 $owidth         = $json_data['original_width'];
 $demon_layers   = $json_data['layers'];
 
 // print "<pre>"; print_r($demon_layers); exit(0);
-
-// print "scenedir: " . $scenedir;
-// print "<img src='$scenedir/dem_A_BO_3_01.png'><hr>";
 
 // init master seed
 mt_srand($master_seed);
@@ -154,13 +153,20 @@ $javascript
 EOT;
 
 $QURL               = " - <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
-$URL['demons']      = $QURL . "&results=24&atype=demons'>demons</a>";          
-$URL['demonship']   = $QURL . "&results=24&atype=demonship'>demonship</a>";
-$URL['demonback']   = $QURL . "&results=1&atype=demonback'>demonback</a> ";
-$URL['demonbadge']  = "<s>" . $QURL . "&results=1&atype=demonbadge'>demonbadge</a>  </s>";
+
+$URL    = Array();
+foreach ($contents as $cont) {
+    $URL[$cont]      = $QURL . "&results=" . $results_x_page[$cont] . "&atype=$cont'>$cont</a>";          
+}
+
+$res_qs  .= "&atype=" . $atype;
+$res_qs  .= "&results=" . $results_x_page[$atype];
 
 // navigation && MAIN div
-	print " NAV: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" . "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt; previous </a> &nbsp;&nbsp;&nbsp; <a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> next >> </a> &nbsp;  &nbsp;  &nbsp;"; 
+	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" . 
+        "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>" 
+        . "&nbsp;&nbsp;&nbsp;" 
+        . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
 //    print "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . "&type=backs&results=3'>BACKGROUNDS</a> "; 
     print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
 	print "\n\n\n\n<hr><div style=\"text-align:center;\">";
@@ -240,6 +246,7 @@ function scene_layers($dir) {
                     && $entry != "demons.json" && $entry != "demons4js.json"
                     && $entry != "demonship.json" && $entry != "demonship4js.json"
                     && $entry != "demonback.json" && $entry != "demonback4js.json"
+                    && $entry != "demonbadge.json" && $entry != "demonbadge4js.json"
                 ) {
                     array_push($dlayers, $entry);
                     $nameparts  = explode("_", $entry);
