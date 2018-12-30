@@ -2,11 +2,6 @@
 
 // TODO
 
-// delete use of dir param & strenghten php 
-// better error report when creating a new dir from scratch 
-//    procedure: create dir, create file dir/atype.js with proper contents
-// layer parametrization
-
 // :??? planet names different from demon names
 // :200 START JSON info CREATE & WRITE (json layers & info generation)
 
@@ -37,6 +32,7 @@
 
 // phpinfo(); exit(0);
 
+$version    = '1.0';
 include 'mersenne-config.php';
 
 // BACKGROUNDS - background layers (chance to appear, type) 
@@ -152,11 +148,13 @@ $css
 $javascript
 EOT;
 
+// NAV LINKS
 $QURL               = " - <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
-
-$URL    = Array();
+$URL        = Array();
+$allURLs    = "";
 foreach ($contents as $cont) {
-    $URL[$cont]      = $QURL . "&results=" . $results_x_page[$cont] . "&atype=$cont'>$cont</a>";          
+    $URL[$cont]     = $QURL . "&results=" . $results_x_page[$cont] . "&atype=$cont'>$cont</a>";          
+    $allURLs        .= $URL[$cont];
 }
 
 $res_qs  .= "&atype=" . $atype;
@@ -167,19 +165,9 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
         "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>" 
         . "&nbsp;&nbsp;&nbsp;" 
         . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
-//    print "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . "&type=backs&results=3'>BACKGROUNDS</a> "; 
-    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
+//    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
+    print $allURLs;    
 	print "\n\n\n\n<hr><div style=\"text-align:center;\">";
-
-// BACKGROUNDS - background layers 
-// 	skybox
-//	skyboxfx
-// 	skyline
-//	horizon
-//	farawaybackground
-//	background
-//	nearbybackground
-//	foreground
 
 	for ($i=1; $i<=$page * $results; $i++) {
         // $imgpath = "/demon/img/scenes/" ;
@@ -203,10 +191,8 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
 //        } // end backgrounds
 
 	print "</div>";
-//    print "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr>";
 
-
-    print "<div id=\"bottomdiv\">(C) 2018-2019 - masayume design ||| ";
+    print "<div id=\"bottomdiv\">v.$version - 2018-2019 - by masayume ||| ";
     print "NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print " ||| " . demon_count($scenedir, $atype);
     print " ||| DIR:" . $imgpath;
@@ -319,17 +305,17 @@ if ($page==1) {
 	$main_layers = $demon_layers;
 
 // create various parts 
-        foreach (array_keys($main_layers) as $part) {
+    foreach (array_keys($main_layers) as $part) {
 
 // loop on main_layers: chosen images MUST have matching string in theirs names
 
-            $scene_elems    = array();
-            $scene_elems    = kind_elem($part, $dlayers); // elementi di tipo zNN... 
+        $scene_elems    = array();
+        $scene_elems    = kind_elem($part, $dlayers); // elementi di tipo zNN... 
 
-    		if (mt_rand(1,100) <= $main_layers[$part]) {
-                    	array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); // carico nell'array da tornare l'rt_rnd-esimo elemento
-    		}
-        }
+    	if (mt_rand(1,100) <= $main_layers[$part]) {
+            array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); // carico nell'array da tornare l'rt_rnd-esimo elemento
+    	}
+    }
 
 // print "<pre>"; print_r($arr2ret); print "</pre>";
 
@@ -341,8 +327,13 @@ if ($page==1) {
 function kind_elem($kind, $dlayers) {
 
 	$arr2ret  = array();
-        foreach ($dlayers as $dlayer) { 
-		if (strstr($dlayer, $kind)) { array_push($arr2ret, $dlayer); } }
+    foreach ($dlayers as $dlayer) { 
+		if (strstr($dlayer, $kind)) { 
+            array_push($arr2ret, $dlayer); 
+//            print "<br>DLAYER: " . $dlayer . " KIND " . $kind;
+        } 
+
+    }
 
 	return $arr2ret;
 
@@ -588,6 +579,7 @@ function planet_ini() {
 
 function demon_count($dir, $type) {
 
+    global $demon_layers;
     $dpart = "";    $dcount = 1;
     $dlayers        = array();
     $arr2ret        = array();
@@ -596,11 +588,14 @@ function demon_count($dir, $type) {
         while (false !== ($entry = readdir($handle))) {
             if ($entry != "." && $entry != "..") {
                     array_push($dlayers, $entry);
-                    // echo "$entry\n";
+                    // echo "<br> $entry\n";
             }
         }
         closedir($handle);
     }
+
+// print "<pre>";print_r(array_keys($demon_layers));
+
 
 // count various parts 
     if ($type == 'demons' || $type == 'demonship') {
@@ -613,14 +608,16 @@ function demon_count($dir, $type) {
             } 
         }
     } else {
-        foreach (array("LW", "RW", "LB", "BO", "HE") as $part) {
+
+        foreach (array_keys($demon_layers) as $part) {
             $demon_elems    = array();
             $demon_elems    = kind_elem($part, $dlayers); // elementi di tipo "HE"... 
-            if (in_array($part, array("LW","RW", "BO", "LB", "HE"))) { 
+            if (in_array($part, array_keys($demon_layers) )) { 
                 $dpart .= " $part: " . count($demon_elems); 
                 $dcount *= count($demon_elems); 
             } 
         }        
+
     } 
     
     $demoncount = strtoupper($type) . ": " . $dcount . " parts: " . $dpart;
