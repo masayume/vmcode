@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.0';
+$version    = '1.1';
 include 'mersenne-config.php';
 
 // BACKGROUNDS - background layers (chance to appear, type) 
@@ -118,12 +118,23 @@ catch (Exception $e) {
 restore_error_handler();
 
 // JSON import values
-$json_data      = json_decode($json, true);
-$jwidth         = $json_data['width'];
-$owidth         = $json_data['original_width'];
-$demon_layers   = $json_data['layers'];
+$json_data          = json_decode($json, true);
+$jwidth             = $json_data['width'];
+$owidth             = $json_data['original_width'];
+$demon_layers       = $json_data['layers'];
+$demon_names        = $json_data['names'];          // ES. $demon_names["BO"][1] ...
+$demon_namestruct   = $json_data['name_struct'];   
+$font_size          = $json_data['font_size'];
 
-// print "<pre>"; print_r($demon_layers); exit(0);
+$font_size          = "";
+if ($json_data['font_size']) {
+    $font_size      = $json_data['font_size'];
+} else {
+    $font_size      = "20px";
+}
+
+
+// print "<pre>"; print_r($demon_names); exit(0);
 
 // init master seed
 mt_srand($master_seed);
@@ -144,7 +155,7 @@ a:visited { color:#ffffff; }
 </style>
 $css
 </head>
-<body style="background-color:#000000; color: #ffffff; font-family: 'arcadeclassic', sans-serif; font-size: 20px;">
+<body style="background-color:#000000; color: #ffffff; font-family: 'arcadeclassic', sans-serif; font-size: $font_size;">
 $javascript
 EOT;
 
@@ -161,9 +172,17 @@ $res_qs  .= "&atype=" . $atype;
 $res_qs  .= "&results=" . $results_x_page[$atype];
 
 // navigation && MAIN div
-	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" . 
-        "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>" 
-        . "&nbsp;&nbsp;&nbsp;" 
+
+	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
+
+    if ($prevp > 0) {
+        print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";        
+    } else {
+        print " &lt;&lt;&lt;&lt; ";                
+    }
+
+ 
+    print "&nbsp;&nbsp;&nbsp;" 
         . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
 //    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
     print $allURLs;    
@@ -217,6 +236,7 @@ function scene_layers($dir) {
 
 	global		$default_layers;
 	global		$demon_layers;
+    global      $demon_names;
     global      $demonsfile;
     global      $demonname, $demonname_ini, $demonname_mid, $demonname_end;
     global      $page;
@@ -534,21 +554,45 @@ function scene_gen() {
 
 } // end function scene_gen
 
-
+// NAMES div
 function calc_scene_name($scenep) {
 
     global      $demonname;
+    global      $demon_names;
+    global      $demon_namestruct;
 
 // print "<pre>"; print_r($scenep); exit(0);
 // HE:$scenep[4] BO:$scenep[3] LB:$scenep[2]
-    preg_match("/([0-9]+)\.png/", $scenep[4], $head);
-    preg_match("/([0-9]+)\.png/", $scenep[3], $body);
-    preg_match("/([0-9]+)\.png/", $scenep[2], $lowerbody);
+
+// decode array of scene elements (i.e. from "badge_A_LB_2_04.png" to LB,4 - layername, layerindex)
+
+    $decoded_scene_elems = array();
+    foreach ($scenep as $slayer) {
+        preg_match("/([0-9]+)\.png/", $slayer, $layerindexraw);       
+        $layerindex     = ltrim($layerindexraw[1], '0');
+        $scene_elems    = explode('_', $slayer);
+        $layername      = $scene_elems[2];    
+        $decoded_scene_elems[$layername] = $layerindex;
+    }
+
+/*
+    preg_match("/([0-9]+)\.png/", $scenep[4], $head);       // HE
+    preg_match("/([0-9]+)\.png/", $scenep[3], $body);       // BO
+    preg_match("/([0-9]+)\.png/", $scenep[2], $lowerbody);  // LB
+*/
+
+// compose final scene name
+    $demname = "";
+    foreach ($demon_namestruct as $nskey => $nsval) {
+        $demname .= $demon_names["$nskey"][$decoded_scene_elems[$nskey]] . $nsval;
+    }
 
 
-    $demname =      $demonname["HE"][ltrim($head[1], '0')] 
-                .   $demonname["BO"][ltrim($body[1], '0')] 
-                .   $demonname["LB"][ltrim($lowerbody[1], '0')];
+/*
+    $demname =      $demon_names["HE"][ltrim($head[1], '0')] . " "
+                .   $demon_names["BO"][ltrim($body[1], '0')] 
+                .   $demon_names["LB"][ltrim($lowerbody[1], '0')];
+*/
 
     return $demname;
 
