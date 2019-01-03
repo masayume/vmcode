@@ -121,6 +121,7 @@ restore_error_handler();
 $json_data          = json_decode($json, true);
 $jwidth             = $json_data['width'];
 $owidth             = $json_data['original_width'];
+$jheight            = $json_data['height'];
 $demon_layers       = $json_data['layers'];
 $demon_names        = $json_data['names'];          // ES. $demon_names["BO"][1] ...
 $demon_namestruct   = $json_data['name_struct'];   
@@ -148,14 +149,14 @@ $css		  = overcss();
 
 echo <<< EOT
 <html><head>
-<title>generator</title>
+<title>$title_header - v. $version</title>
 <style type="text/css">
 a:link  { color:#ffffff; } 
 a:visited { color:#ffffff; } 
 </style>
 $css
 </head>
-<body style="background-color:#000000; color: #ffffff; font-family: 'arcadeclassic', sans-serif; font-size: $font_size;">
+<body style="background-color:#000000; color: #ffffff; font-family: 'arcadeclassic', sans-serif; font-size: 20px;">
 $javascript
 EOT;
 
@@ -202,7 +203,7 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
             $scene_url      = $scene_array[1];
             $filter         = $scene_array[3];
             // echo $scene_img;
-            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $filter, $atype);
+            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype);
 
         }
     }
@@ -217,6 +218,7 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
     print " ||| DIR:" . $imgpath;
     print "</div>";
 
+    print $tracking_code;
 
 	print "</body></html>";
 
@@ -360,7 +362,7 @@ function kind_elem($kind, $dlayers) {
 } // end function rndret_elem()
 
 
-function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter, $atype) {
+function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_size, $filter, $atype) {
 
     global          $default_layers;
     global          $demon_layers;
@@ -410,10 +412,12 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter, $atype) {
 		}
 	}
 
+        $height += 20;
+
         $scene_name2print = ucfirst($scene_name);
         $scene = <<< EOP
 
-<div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px;">
+<div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px; display: inline-block; vertical-align: top;">
         <script>
             function _tracescene_$i(n) {
                 // window.alert("scene: $scene_name on canvas $i");   
@@ -428,7 +432,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $filter, $atype) {
             }
         </script>
 	$divs
-		<p><div title="$filter">$i - $scene_name2print </div>
+		<div class="scenetitle" title="$filter" style="position: relative; top: $height; font-size: $font_size;">$i - $scene_name2print </div>
 </div>
 EOP;
 
