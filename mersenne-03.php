@@ -32,8 +32,11 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.1';
-include 'mersenne-config.php';
+$version    = '1.11';
+
+$configfile = basename(__FILE__, '.php') . '-config.php'; 
+// include 'mersenne-config.php';
+include $configfile;
 
 // BACKGROUNDS - background layers (chance to appear, type) 
 $default_layers	= array(
@@ -174,37 +177,64 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
 
 // navigation && MAIN div
 
-	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
+    if (isset($layout_orient) && $layout_orient == 'vertical') {
 
-    if ($prevp > 0) {
-        print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";        
+        print "<div id='topdiv'>";
+        print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
+    
+        if ($prevp > 0) {
+            print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";        
+        } else {
+            print " &lt;&lt;&lt;&lt; ";                
+        }
+    
+     
+        print "&nbsp;&nbsp;&nbsp;" 
+            . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
+    //    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
+        print $allURLs;    
+        print "\n\n\n\n<hr>";
+        print "</div>";
+
     } else {
-        print " &lt;&lt;&lt;&lt; ";                
+
+        print "<div id='topdiv'>";
+    	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
+    
+        if ($prevp > 0) {
+            print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";        
+        } else {
+            print " &lt;&lt;&lt;&lt; ";                
+        }
+    
+     
+        print "&nbsp;&nbsp;&nbsp;" 
+            . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
+    //    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
+        print $allURLs;    
+    	print "\n\n\n\n<hr>";
+        print "</div>";
+
     }
 
- 
-    print "&nbsp;&nbsp;&nbsp;" 
-        . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
-//    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
-    print $allURLs;    
-	print "\n\n\n\n<hr><div style=\"text-align:center;\">";
-
-	for ($i=1; $i<=$page * $results; $i++) {
-        // $imgpath = "/demon/img/scenes/" ;
+    print "<div style=\"text-align:center;\">";
+    
+    for ($i=1; $i<=$page * $results; $i++) {
+            // $imgpath = "/demon/img/scenes/" ;
         $imgpath = $main_path . $atype . '/';
-		$scene_array = array();
+    	$scene_array = array();
         $scene_array = scene_gen();
-
-//  print "<pre>"; print_r($scene_array);
-
+    
+    //  print "<pre>"; print_r($scene_array);
+    
         if ($i>(($page - 1) * $results)) {
-
+    
             $scene_name     = $scene_array[0];
             $scene_url      = $scene_array[1];
             $filter         = $scene_array[3];
             // echo $scene_img;
             echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype);
-
+    
         }
     }
 
@@ -250,12 +280,10 @@ function scene_layers($dir) {
 // print "<br>" . $dir;
 
         while (false !== ($entry = readdir($handle))) {
-            if ($entry != "." && $entry != ".." 
-                    && $entry != "demons.json" && $entry != "demons4js.json"
-                    && $entry != "demonship.json" && $entry != "demonship4js.json"
-                    && $entry != "demonback.json" && $entry != "demonback4js.json"
-                    && $entry != "demonbadge.json" && $entry != "demonbadge4js.json"
-                ) {
+
+            $fileinfo = pathinfo($entry);
+            if ($fileinfo["extension"] == "jpg" || $fileinfo["extension"] == "png") { 
+
                     array_push($dlayers, $entry);
                     $nameparts  = explode("_", $entry);
                     $extparts   = explode(".",$nameparts[4]);
@@ -313,7 +341,10 @@ function scene_layers($dir) {
 
 // END JSON info injection
 
-            }
+                
+
+            } // end handling only files with proper extensions (image assets)
+
         }
         closedir($handle);
     }
