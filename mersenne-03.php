@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.11';
+$version    = '1.12';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -153,18 +153,21 @@ $css		  = overcss();
 echo <<< EOT
 <html><head>
 <title>$title_header - v. $version</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
 <style type="text/css">
-a:link  { color:#ffffff; } 
-a:visited { color:#ffffff; } 
+a:link  { color:#aaaaaa; } 
+a:visited { color:#aaaaaa; } 
 </style>
 $css
 </head>
-<body style="background-color:#000000; color: #ffffff; font-family: 'arcadeclassic', sans-serif; font-size: 20px;">
+<body style="background-color:#000000; color: #cccccc; font-family: 'arcadeclassic', sans-serif; font-size: 20px;">
 $javascript
 EOT;
 
 // NAV LINKS
-$QURL               = " - <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
+$QURL               = " <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
 $URL        = Array();
 $allURLs    = "";
 foreach ($contents as $cont) {
@@ -177,32 +180,44 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
 
 // navigation && MAIN div
 
-    if (isset($layout_orient) && $layout_orient == 'vertical') {
+    if (isset($layout_orient) && $layout_orient == 'vertical') {    // LAYOUT VERTICALE
 
         print "<div id='topdiv'>";
-        print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
+//        print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
     
         if ($prevp > 0) {
-            print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";        
+            print "<button type=\"button\" class=\"btn btn-primary\">";
+            print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";
+            print "</button>";        
+        
         } else {
+            print "<button type=\"button\" class=\"btn btn-primary\">";
             print " &lt;&lt;&lt;&lt; ";                
+            print "</button>";        
         }
     
      
-        print "&nbsp;&nbsp;&nbsp;" 
-            . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
+        // print "&nbsp;&nbsp;&nbsp;" 
+            print "<button type=\"button\" class=\"btn btn-primary\">";
+            print  "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a>";
+            // print " &nbsp;  &nbsp;  &nbsp;"; 
     //    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
+            print "</button>";        
+
+
         print $allURLs;    
         print "\n\n\n\n<hr>";
         print "</div>";
 
-    } else {
+    } else {                                                       // LAYOUT STANDARD (ORIZZONTALE)
 
         print "<div id='topdiv'>";
     	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
     
         if ($prevp > 0) {
-            print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";        
+            print "<button type=\"button\" class=\"btn btn-primary\">";
+            print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";
+            print "</button>";        
         } else {
             print " &lt;&lt;&lt;&lt; ";                
         }
@@ -242,10 +257,11 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
 
 	print "</div>";
 
-    print "<div id=\"bottomdiv\">v.$version - 2018-2019 - by masayume ||| ";
-    print "NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
-    print " ||| " . demon_count($scenedir, $atype);
-    print " ||| DIR:" . $imgpath;
+    print "<div id=\"bottomdiv\">";
+    print "<br> v.$version - 2018-2019 - by masayume ";
+    print "<br> NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
+    print "<br>  " . demon_count($scenedir, $atype);
+    print "<br>  DIR:" . $imgpath;
     print "</div>";
 
     print $tracking_code;
