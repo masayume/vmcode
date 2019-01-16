@@ -180,11 +180,15 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
 
 // navigation && MAIN div
 
+$vspacer = "";
+
     if (isset($layout_orient) && $layout_orient == 'vertical') {    // LAYOUT VERTICALE
 
-        print "<div id='topdiv'>";
+        $vspacer = "<br />";
+
+        print "\n\n<div id='topdiv'>";
 //        print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
-    
+     
         if ($prevp > 0) {
             print "<button type=\"button\" class=\"btn btn-primary\">";
             print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";
@@ -204,14 +208,11 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
     //    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
             print "</button>";        
 
-
-        print $allURLs;    
-        print "\n\n\n\n<hr>";
-        print "</div>";
-
     } else {                                                       // LAYOUT STANDARD (ORIZZONTALE)
 
-        print "<div id='topdiv'>";
+        $vspacer = " - ";
+
+        print "\n\n<div id='topHdiv'>";
     	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
     
         if ($prevp > 0) {
@@ -226,11 +227,14 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
         print "&nbsp;&nbsp;&nbsp;" 
             . "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a> &nbsp;  &nbsp;  &nbsp;"; 
     //    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
-        print $allURLs;    
-    	print "\n\n\n\n<hr>";
-        print "</div>";
 
     }
+
+    print $allURLs;    
+    print "\n\n\n\n<hr>";
+    print "$vspacer"  . $atype ;    
+    print "$vspacer page "   . $page . " / ∞" ;    
+    print "</div>";
 
     print "<div style=\"text-align:center;\">";
     
@@ -257,11 +261,12 @@ $res_qs  .= "&results=" . $results_x_page[$atype];
 
 	print "</div>";
 
+
     print "<div id=\"bottomdiv\">";
-    print "<br> v.$version - 2018-2019 - by masayume ";
-    print "<br> NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
-    print "<br>  " . demon_count($scenedir, $atype);
-    print "<br>  DIR:" . $imgpath;
+    print "$vspacer v.$version - 2018-2019 - by masayume ";
+    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
+    print "$vspacer  " . demon_count($scenedir, $atype);
+    print "$vspacer  DIR:" . $imgpath;
     print "</div>";
 
     print $tracking_code;
