@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.12';
+$version    = '1.13';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -61,6 +61,8 @@ $demonsfile     = $main_path_dir . 'demons/demons4js.json';
 $json = "";
 $scenedir	= "";
 $page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = ""; $atype = ""; $results    = 0;
+
+$assetmode = "mixed";
 
 // parse parameters
 parse_str($_SERVER['QUERY_STRING'], $params);
@@ -176,7 +178,7 @@ foreach ($contents as $cont) {
 }
 
 $res_qs  .= "&atype=" . $atype;
-$res_qs  .= "&results=" . $results_x_page[$atype];
+// $res_qs  .= "&results=" . $results_x_page[$atype];
 
 // navigation && MAIN div
 
@@ -293,9 +295,12 @@ function scene_layers($dir) {
     global      $demonsfile;
     global      $demonname, $demonname_ini, $demonname_mid, $demonname_end;
     global      $page;
-    $dlayers        = array();
-    $jslayers       = array();
-    $arr2ret        = array();
+    global      $assetmode;
+    $dlayers            = array();
+    $jslayers           = array();
+    $arr2ret            = array();
+    $main_layers_types  = array(); 
+
     if ($handle = opendir($dir)) {
 
 // print "<br>" . $dir;
@@ -303,12 +308,18 @@ function scene_layers($dir) {
         while (false !== ($entry = readdir($handle))) {
 
             $fileinfo = pathinfo($entry);
-            if ($fileinfo["extension"] == "jpg" || $fileinfo["extension"] == "png") { 
+            if ($fileinfo["extension"] == "jpg" || $fileinfo["extension"] == "png" || $fileinfo["extension"] == "webp") { 
+
 
                     array_push($dlayers, $entry);
                     $nameparts  = explode("_", $entry);
                     $extparts   = explode(".",$nameparts[4]);
                     $numpart    = ltrim($extparts[0], '0');
+
+                    if (!in_array($nameparts[1], $main_layers_types) ) {
+                        array_push($main_layers_types, $nameparts[1]);
+                    }
+
 
 // START JSON info injection
 
@@ -376,37 +387,70 @@ if ($page==1) {
 }
 
 // load layers type => main_layers
-	$main_layers = $demon_layers;
+	$main_layers       = $demon_layers;
 
-// create various parts 
-    foreach (array_keys($main_layers) as $part) {
 
-// loop on main_layers: chosen images MUST have matching string in theirs names
+// TODO: in $main_layers_types ci sono i vari tipi (template_A, $template_B)
+    // 0) 
+    // 1) occorre definire la randomizzazione mersenne su quale tipo ($main_layers_types) usare per questa generazione 
+    //      - siamo in un loop di 24 elementi ? -
+    // 2) usare kind_elem per forzare la selezione di solo un certo tipo di elemento
+
+    // DATA:    $dlayers[0] => template_A_BO_1_001.png
+    //          $dlayers[1] => template_A_HE_1_001.png
+    //          $dlayers[2] => template_B_LB_1_001.png
+    //          $dlayers[3] => template_B_LW_1_001.png
+    //          $dlayers[4] => template_C_RW_1_001.png
+    //          $assetmode  = mixed
+
+//
+// MAIN MT_RND LOOP
+// 
+    foreach (array_keys($main_layers) as $part) { // loop sul tipo di layer ($part = BO, LB, LW, RW, HE)
+
+// loop on main_layers: chosen images MUST have matching string in their names
 
         $scene_elems    = array();
-        $scene_elems    = kind_elem($part, $dlayers); // elementi di tipo zNN... 
+        $scene_elems    = kind_elem($part, $dlayers, $assetmode); // tutti gli elementi di tipo zNN... 
 
+//        print "<br> viz chance per $part: " . $main_layers[$part]; 
+
+        // se l'mt_rnd è da visualizzare secondo il valore di possibilità ($main_layers[$part]) di quel tipo di layer
+        // carica nell'array da restituire "arr2ret" UN elemento preso con mt_rnd dalla lista di tutti gli asset di quel tipo
     	if (mt_rand(1,100) <= $main_layers[$part]) {
-            array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); // carico nell'array da tornare l'rt_rnd-esimo elemento
+
+
+            // carico nell'array da tornare l'rt_rnd-esimo elemento
+            array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); 
+
     	}
     }
 
-// print "<pre>"; print_r($arr2ret); print "</pre>";
+//  print "<pre>"; print_r($arr2ret); print "</pre>";
 
         return $arr2ret;
 
 } // end function scene_layers
 
 
-function kind_elem($kind, $dlayers) {
+function kind_elem($kind, $dlayers, $amode) {
 
 	$arr2ret  = array();
-    foreach ($dlayers as $dlayer) { 
-		if (strstr($dlayer, $kind)) { 
-            array_push($arr2ret, $dlayer); 
-//            print "<br>DLAYER: " . $dlayer . " KIND " . $kind;
-        } 
 
+    if ($amode == 'mixed') { // mixes all asset types together 
+        foreach ($dlayers as $dlayer) { 
+    		if (strstr($dlayer, $kind)) { 
+                array_push($arr2ret, $dlayer); 
+                // print "<br>DLAYER: " . $dlayer . " KIND " . $kind;
+            } 
+        }
+    } else { // separates asset_A from asset_B
+        foreach ($dlayers as $dlayer) { 
+            if (strstr($dlayer, $kind)) { 
+                array_push($arr2ret, $dlayer); 
+                // print "<br>DLAYER: " . $dlayer . " KIND " . $kind;
+            } 
+        }
     }
 
 	return $arr2ret;
@@ -680,6 +724,7 @@ function planet_ini() {
 function demon_count($dir, $type) {
 
     global $demon_layers;
+    global $assetmode;
     $dpart = "";    $dcount = 1;
     $dlayers        = array();
     $arr2ret        = array();
@@ -701,7 +746,7 @@ function demon_count($dir, $type) {
     if ($type == 'demons' || $type == 'demonship') {
         foreach (array("RW", "BO", "LB", "HE") as $part) {
             $demon_elems    = array();
-            $demon_elems    = kind_elem($part, $dlayers); // elementi di tipo "HE"... 
+            $demon_elems    = kind_elem($part, $dlayers, $assetmode); // elementi di tipo "HE"... 
             if (in_array($part, array("RW", "BO", "LB", "HE"))) { 
                 $dpart .= " $part: " . count($demon_elems); 
                 $dcount *= count($demon_elems); 
@@ -711,7 +756,7 @@ function demon_count($dir, $type) {
 
         foreach (array_keys($demon_layers) as $part) {
             $demon_elems    = array();
-            $demon_elems    = kind_elem($part, $dlayers); // elementi di tipo "HE"... 
+            $demon_elems    = kind_elem($part, $dlayers, $assetmode); // elementi di tipo "HE"... 
             if (in_array($part, array_keys($demon_layers) )) { 
                 $dpart .= " $part: " . count($demon_elems); 
                 $dcount *= count($demon_elems); 
