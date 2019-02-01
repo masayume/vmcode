@@ -259,18 +259,37 @@ $vspacer = "";
         $scene_seed     = $page * 100 + $i;
 
         $imgpath        = $main_path . $atype . '/';
-    	$scene_array    = array();
-        $scene_array    = scene_gen($i, $scene_seed);
     
     //  print "<pre>"; print_r($scene_array);
     
         if ($i>(($page - 1) * $results)) {
+
+            mt_srand($scene_seed); // uses a specific scene seed to generate all the other pseudo-random resources
+
+            $main_layers = array();
+            $name_struct = array();
+            if ($structsmode) {     // when "structs" is defined in TPL.json use layers defined
+                // numero di elementi max da cui estrarre il mt_rnd: count(array_keys($structs)); 
+                // print "structmode !";
+                $structkeys     = array_keys($structs);
+                $mt_struct_i    = mt_rand(1,count($structkeys));
+                // print "mt_struct:" . $mt_struct_i; print_r( $structkeys[$mt_struct_i-1] );
+
+                $main_layers    = $structs[$structkeys[$mt_struct_i-1]]["layers"]; // struct scelta con mr_rand
+                $name_struct    = $structs[$structkeys[$mt_struct_i-1]]["name_struct"]; 
+            } else {
+                // print "no structmode";
+                $main_layers       = $demon_layers;
+            }
+
+            $scene_array    = array();
+            $scene_array    = scene_gen($i, $main_layers, $name_struct);
     
             $scene_name     = $scene_array[0];
             $scene_url      = $scene_array[1];
             $filter         = $scene_array[3];
             // echo $scene_img;
-            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype, $scene_seed);
+            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype, $scene_seed, $main_layers);
     
         }
     }
@@ -309,7 +328,7 @@ exit(0);
 
 // carica i layer di un certo tipo dal file system e calcola quali sono i layer che comporranno una singola immagine
 // genera anche il contenuto di file "4js.json"
-function scene_layers($dir, $i) {
+function scene_layers($dir, $i, $layers) {
 
 	global		$default_layers;
 	global		$demon_layers;
@@ -327,8 +346,15 @@ function scene_layers($dir, $i) {
     $main_layers_types  = array(); 
 
     if ($handle = opendir($dir)) {
+        // print "<br>" . $dir;
 
-// print "<br>" . $dir;
+        // load layers type => main_layers
+        $main_layers    = array();
+        $mt_struct_i    = 0;
+
+        $main_layers    = $layers;
+        // print "<pre>"; print_r($main_layers); print "</pre>";
+
 
         while (false !== ($entry = readdir($handle))) {
 
@@ -410,25 +436,6 @@ if ($page==1) {
     file_put_contents($demonsfile, json_encode($jslayers, JSON_PRETTY_PRINT));    
 }
 
-// load layers type => main_layers
-$main_layers    = array();
-$mt_struct_i    = 0;
-
-if ($structsmode) {     // when "structs" is defined in TPL.json use layers defined
-    // numero di elementi max da cui estrarre il mt_rnd: count(array_keys($structs)); 
-    // print "structmode !";
-    $structkeys = array_keys($structs);
-    $mt_struct_i = mt_rand(1,count($structkeys));
-    // print "mt_struct:" . $mt_struct_i; print_r( $structkeys[$mt_struct_i-1] );
-
-    $main_layers       = $structs[$structkeys[$mt_struct_i-1]]["layers"]; // struct scelta con mr_rand
-} else {
-    // print "no structmode";
-	$main_layers       = $demon_layers;
-}
-
-// print "<pre>"; print_r($main_layers); print "</pre>";
-
 // TODO: in $main_layers_types ci sono i vari tipi (template_A, $template_B)
     // 0) randomizzazione della singola immagine funzione dei tre parametri: $seed, $page, $i
         // calcolare i vari tipi di asset _A_ _B_ (_AB_ ?)
@@ -463,7 +470,6 @@ if ($structsmode) {     // when "structs" is defined in TPL.json use layers defi
         // se l'mt_rnd è da visualizzare secondo il valore di possibilità ($main_layers[$part]) di quel tipo di layer
         // carica nell'array da restituire "arr2ret" UN elemento preso con mt_rnd dalla lista di tutti gli asset di quel tipo
     	if (mt_rand(1,100) <= $main_layers[$part]) {
-
 
             // carico nell'array da tornare l'rt_rnd-esimo elemento
             array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); 
@@ -503,7 +509,7 @@ function kind_elem($kind, $dlayers, $amode) {
 } // end function rndret_elem()
 
 // a scene show a single image composed by the various types of layers stored in $scene_url array
-function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_size, $filter, $atype, $sseed) {
+function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_size, $filter, $atype, $sseed, $main_layers) {
 
     global          $default_layers;
     global          $demon_layers;
@@ -514,13 +520,10 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 	if (!$filter) { $filter = "&nbsp;"; }
 	$divs = "";
 
-	$main_layers = $demon_layers;
-
     // paired wings => LW (div.1) = RW (div.0)
     if ($atype == 'demons' || $atype == 'demonship') {
         $scene_url[1] = preg_replace('/LW/', 'RW', $scene_url[0]);
     }
-
 
 // $atype (values: demonback, demons, demonship ) allows to discriminate scene rules by element type
 
@@ -611,13 +614,12 @@ function myrand ($lo, $hi, $consume) {
 
 
 // genera le informazioni di una scene (una immagine) fatta di layer sovrapposti.
-function scene_gen($i, $sseed) {
+function scene_gen($i, $layers, $name_struct) {
 
         global $scenename_ini, $scenename_mid, $scenename_end, $scene_pic, $scenedir;
         $scene_name = "";
         $scene = array();
 
-        mt_srand($sseed);       // uses a specific scene seed to generate all the other pseudo-random resources
 
 // scene filter
         $filter = "";
@@ -695,10 +697,10 @@ function scene_gen($i, $sseed) {
         $scene[3]      = $filter;                       // curves
 
 // scene pic
-        $scene[1]      = scene_layers($scenedir, $i);       // image layers
+        $scene[1]      = scene_layers($scenedir, $i, $layers);       // image layers
 
 // scene name
-        $scene[0]      = calc_scene_name($scene[1]);   // name (after scene_layers)
+        $scene[0]      = calc_scene_name($scene[1], $name_struct);   // name (after scene_layers)
 
 // scene size
         $scene[2]      = mt_rand(120,136);
@@ -710,19 +712,24 @@ function scene_gen($i, $sseed) {
 
 
 // NAMES div
-function calc_scene_name($scenep) {
+function calc_scene_name($scenep, $name_struct) {
 
     global      $demonname;
     global      $demon_names;
     global      $demon_namestruct;
+    global      $structsmode;
 
 // print "<pre>"; print_r($scenep); exit(0);
 // HE:$scenep[4] BO:$scenep[3] LB:$scenep[2]
+
+// se structs è definito occorre gestire la struttura di naming della mt_rnd(struct). 
 
 // decode array of scene elements (i.e. from "badge_A_LB_2_04.png" to LB,4 - layername, layerindex)
 
     $decoded_scene_elems = array();
     foreach ($scenep as $slayer) {
+
+//        print "<br>slayer:" . $slayer . " ";
         preg_match("/([0-9]+)\.[a-z]+/", $slayer, $layerindexraw);       
         $layerindex     = ltrim($layerindexraw[1], '0');
         $scene_elems    = explode('_', $slayer);
@@ -738,8 +745,17 @@ function calc_scene_name($scenep) {
 
 // compose final scene name
     $demname = "";
-    foreach ($demon_namestruct as $nskey => $nsval) {
-        $demname .= $demon_names["$nskey"][$decoded_scene_elems[$nskey]] . $nsval;
+
+    if (!$structsmode) {
+        foreach ($demon_namestruct as $nskey => $nsval) {
+//            print "<br>nskey:" . $nskey . " decoded:" . $decoded_scene_elems[$nskey];
+            $demname .= $demon_names[$nskey][$decoded_scene_elems[$nskey]] . $nsval;
+        }        
+    } else {
+        foreach ($name_struct as $nskey => $nsval) {
+//            print "<br>nskey:" . $nskey . " decoded:" . $decoded_scene_elems[$nskey];
+            $demname .= $demon_names[$nskey][$decoded_scene_elems[$nskey]] . $nsval;
+        }                
     }
 
 
