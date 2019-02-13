@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.2';
+$version    = '1.21';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -288,8 +288,14 @@ $vspacer = "";
             $scene_name     = $scene_array[0];
             $scene_url      = $scene_array[1];
             $filter         = $scene_array[3];
+
+            $struct2show    = "";
+            if (isset($mt_struct_i)) {
+                    $struct2show = $structkeys[$mt_struct_i-1];
+            }
+
             // echo $scene_img;
-            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype, $scene_seed, $main_layers);
+            echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype, $scene_seed, $main_layers, $struct2show);
     
         }
     }
@@ -509,7 +515,7 @@ function kind_elem($kind, $dlayers, $amode) {
 } // end function rndret_elem()
 
 // a scene show a single image composed by the various types of layers stored in $scene_url array
-function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_size, $filter, $atype, $sseed, $main_layers) {
+function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_size, $filter, $atype, $sseed, $main_layers, $name_struct) {
 
     global          $default_layers;
     global          $demon_layers;
@@ -527,6 +533,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 
 // $atype (values: demonback, demons, demonship ) allows to discriminate scene rules by element type
 
+    $toltiptext = "";
 	for ($j=0; $j<count($main_layers); $j++ ) {
 
 		$padding = "";
@@ -554,6 +561,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
             // IMAGE LAYER of scene $i
             $divId  = "div" . $j;
 			$divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\" ></div>";
+            $toltiptext .= "<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
 		}
 	}
 
@@ -562,9 +570,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
         $scene_name2print = ucfirst($scene_name);
         // show scene_seed        $scene_name2print .= " " . $sseed;       
 
-        $scene = <<< EOP
-
-<div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px; display: inline-block; vertical-align: top;">
+        $trace = <<< EOT
         <script>
             function _tracescene_$i(n) {
                 // window.alert("scene: $scene_name on canvas $i");   
@@ -578,8 +584,20 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
                 image$i.parentNode.removeChild(image$i);
             }
         </script>
+EOT;
+
+        $scene = <<< EOP
+
+<div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px; display: inline-block; vertical-align: top;">
+
+<!--    $trace  -->
+
 	$divs
-		<div class="scenetitle" title="$filter" style="position: relative; top: $height; font-size: $font_size;">$i - $scene_name2print </div>
+		<div class="scenetitle tooltip" title="$filter" style="position: relative; top: $height; font-size: $font_size;">$name_struct - $scene_name2print 
+            <span class="tooltiptext">
+            $toltiptext
+            </span>
+        </div>
 </div>
 EOP;
 
