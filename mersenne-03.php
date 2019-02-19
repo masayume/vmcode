@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.21';
+$version    = '1.23';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -94,12 +94,16 @@ else {
 
 $atype = '';
 if (isset($params['atype'])) { 
-        $atype = $params['atype'];
-        $scenedir = $main_path_dir . $atype . '/'; 
+    $atype = $params['atype'];
+    $scenedir = $main_path_dir . $atype . '/'; 
 } else {
-        $atype = 'demons';
-        $scenedir = $main_path_dir . $atype . '/'; 
-        $params['atype'] = 'demons';
+    $atype = 'demons';
+    $scenedir = $main_path_dir . $atype . '/'; 
+    $params['atype'] = 'demons';
+}
+$sseed = 0;
+if (isset($params['sseed'])) { 
+    $sseed = $params['sseed'];
 }
 
 // define JSON destination directory and file (...4js.json) & layers info file (.json)
@@ -163,6 +167,7 @@ $css		  = overcss();
 echo <<< EOT
 <html><head>
 <title>$title_header - v. $version</title>
+ 
     <!-- Bootstrap core CSS -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
@@ -174,23 +179,16 @@ $css
 </head>
 <body style="background-color:#000000; color: #cccccc; font-family: 'arcadeclassic', sans-serif; font-size: 20px;">
 $javascript
+
 EOT;
 
-
-
-$listul_start = "";
-$listul_end = "";
-$listli_start = "";
-$listli_end = "";
+$listul_start = ""; $listul_end = ""; $listli_start = ""; $listli_end = "";
 if (isset($layout_orient)) {
-    $listul_start = "<ul>";
-    $listul_end = "</ul>";
-    $listli_start = "<li>";
-    $listli_end = "</li>";
+    $listul_start = "<ul>";    $listul_end = "</ul>";    $listli_start = "<li>";    $listli_end = "</li>";
 }
 
 // NAV LINKS
-$QURL               = "\n  $listli_start <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
+$QURL       = "\n  $listli_start <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
 $URL        = Array();
 
 $allURLs    = $listul_start;
@@ -256,13 +254,21 @@ $vspacer = "";
 
     }
 
+    // PAGE INFO
     print $allURLs;    
     print "\n\n\n\n<hr>";
     print "$vspacer"  . $atype ;    
     print "$vspacer page "   . $page . " / ∞" ;    
-    print "</div>";
 
-    print "<div style=\"text-align:center;\">";
+    print "\n</div>";
+
+    $elem_pos  = "";
+
+    if ($results == 1) {
+        $elem_pos  = " left: 400px; ";
+    }
+
+    print "\n\n<div id=\"layers\" style=\"position: relative; $elem_pos \">";
 
 /*  =============================
         START MAIN SCENE LOOP 
@@ -271,8 +277,13 @@ $vspacer = "";
     
     for ($i=1; $i<=$page * $results; $i++) {
 
+    $scene_seed = 0;
     //  define scene_seed
+    if (isset($sseed) && $sseed != 0) {
+        $scene_seed     = $sseed;
+    } else {
         $scene_seed     = $page * 100 + $i;
+    }
 
         $imgpath        = $main_path . $atype . '/';
     
@@ -310,7 +321,7 @@ $vspacer = "";
                     $struct2show = $structkeys[$mt_struct_i-1];
             }
 
-            // echo $scene_img;
+            // echo $scene_img; $sseed
             echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype, $scene_seed, $main_layers, $struct2show);
     
         }
@@ -538,6 +549,9 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
     global          $owidth;
     global          $results;
     global          $jwidth;
+    global          $js_filters;
+    global          $master_seed;
+
 
 	if (!$filter) { $filter = "&nbsp;"; }
 	$divs = "";
@@ -549,7 +563,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 
 // $atype (values: demonback, demons, demonship ) allows to discriminate scene rules by element type
 
-    $toltiptext = "";
+    $tooltiptext = "";
 	for ($j=0; $j<count($main_layers); $j++ ) {
 
 		$padding = "";
@@ -574,10 +588,17 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
                 $dwidth = $owidth*2 ;
             }
 
+        // enable js filter functions ($js_filters var in config file)
+            $onload = "";
+            if ($js_filters) {
+                $onload = " onload=\"tracescene_$i($j)\" ";
+            }
+            
+
             // IMAGE LAYER of scene $i
             $divId  = "div" . $j;
-			$divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\" ></div>";
-            $toltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
+            $tooltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
+			$divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>";
 		}
 	}
 
@@ -602,21 +623,37 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
         </script>
 EOT;
 
+        if (!$js_filters) {
+            $trace = "  ";
+        }
+
+        if (!isset($name_struct) || $name_struct == "") { 
+            $name_struct = "0";
+        }
+
+        // $scene_seed     = $page * 100 + $i; => 101, 102, 103
+
+        $elem_link = $_SERVER['PHP_SELF'] . "?sseed=" . $sseed . "&results=1&atype=" . $atype;
+
         $tooltiphtml = <<< EOTP
-        <div class="scenetitle tooltip" title="$filter" >
-            $name_struct - $scene_name2print 
-            <span class="tooltiptext">
-            $toltiptext
-            </span>
+        <div class="scenetitle" style="position: relative;">
+<span  id="bottomtip" class="btn-primary .btn-xs" data-toggle="tooltip" data-html="true" title="\n struct: $name_struct \n name: $scene_name2print \n$tooltiptext">
+                <a href="$elem_link">$name_struct - $scene_name2print </a>
+</span>
+
         </div>
 EOTP;
 
+/*
+    MAIN ELEMENT SCENE
+*/
+
         $scene = <<< EOP
-$tooltiphtml
 <div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px; display: inline-block; vertical-align: top;">
 
 <!--    $trace  -->
 
+    $tooltiphtml
 	$divs
 
 </div>
