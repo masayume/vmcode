@@ -164,7 +164,7 @@ echo <<< EOT
 <html><head>
 <title>$title_header - v. $version</title>
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
 <style type="text/css">
 a:link  { color:#aaaaaa; } 
@@ -176,14 +176,30 @@ $css
 $javascript
 EOT;
 
+
+
+$listul_start = "";
+$listul_end = "";
+$listli_start = "";
+$listli_end = "";
+if (isset($layout_orient)) {
+    $listul_start = "<ul>";
+    $listul_end = "</ul>";
+    $listli_start = "<li>";
+    $listli_end = "</li>";
+}
+
 // NAV LINKS
-$QURL               = " <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
+$QURL               = "\n  $listli_start <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
 $URL        = Array();
-$allURLs    = "";
+
+$allURLs    = $listul_start;
 foreach ($contents as $cont) {
-    $URL[$cont]     = $QURL . "&results=" . $results_x_page[$cont] . "&atype=$cont'>$cont</a>";          
+    $URL[$cont]     = $QURL . "&results=" . $results_x_page[$cont] . "&atype=$cont'>$cont</a>   $listli_end";
     $allURLs        .= $URL[$cont];
 }
+
+$allURLs    .= $listul_end;
 
 $res_qs  .= "&atype=" . $atype;
 // $res_qs  .= "&results=" . $results_x_page[$atype];
@@ -561,7 +577,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
             // IMAGE LAYER of scene $i
             $divId  = "div" . $j;
 			$divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" onload=\"tracescene_$i($j)\" ></div>";
-            $toltiptext .= "<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
+            $toltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
 		}
 	}
 
@@ -586,18 +602,23 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
         </script>
 EOT;
 
-        $scene = <<< EOP
+        $tooltiphtml = <<< EOTP
+        <div class="scenetitle tooltip" title="$filter" >
+            $name_struct - $scene_name2print 
+            <span class="tooltiptext">
+            $toltiptext
+            </span>
+        </div>
+EOTP;
 
+        $scene = <<< EOP
+$tooltiphtml
 <div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px; display: inline-block; vertical-align: top;">
 
 <!--    $trace  -->
 
 	$divs
-		<div class="scenetitle tooltip" title="$filter" style="position: relative; top: $height; font-size: $font_size;">$name_struct - $scene_name2print 
-            <span class="tooltiptext">
-            $toltiptext
-            </span>
-        </div>
+
 </div>
 EOP;
 
