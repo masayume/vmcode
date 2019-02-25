@@ -388,11 +388,14 @@ function scene_layers($dir, $i, $layers) {
         $main_layers    = $layers;
         // print "<pre>"; print_r($main_layers); print "</pre>";
 
-
         while (false !== ($entry = readdir($handle))) {
+        // foreach (glob("$handle*.{jpg,png,webp}", GLOB_BRACE) as $entry) {
 
             $fileinfo = pathinfo($entry);
-            if ($fileinfo["extension"] == "jpg" || $fileinfo["extension"] == "png" || $fileinfo["extension"] == "webp") { 
+
+            if ( isset($fileinfo["extension"]) ) {            
+
+                if (  $fileinfo["extension"] == "jpg" || $fileinfo["extension"] == "png" || $fileinfo["extension"] == "webp"  ) { 
 
                     array_push($dlayers, $entry);
                     $nameparts  = explode("_", $entry);
@@ -458,7 +461,8 @@ function scene_layers($dir, $i, $layers) {
 
                 
 
-            } // end handling only files with proper extensions (image assets)
+                } // end handling only files with proper extensions (image assets)
+            } // if !is_dir
 
         }
         closedir($handle);
@@ -551,10 +555,10 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
     global          $jwidth;
     global          $js_filters;
     global          $master_seed;
-
+    global          $main_path_dir;
 
 	if (!$filter) { $filter = "&nbsp;"; }
-	$divs = "";
+	$divs = "\n<!-- image layers -->\n";
 
     // paired wings => LW (div.1) = RW (div.0)
     if ($atype == 'demons' || $atype == 'demonship') {
@@ -594,20 +598,76 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
                 $onload = " onload=\"tracescene_$i($j)\" ";
             }
             
+        // CHECK if ANIMATION SPRITESHEET EXISTS for this layer (name: src="/keplerion/img/demons/anims/dem_A_LW_1_51...)
+            $scene_url_noext = preg_replace('/\\.[^.\\s]{3,4}$/', '', $scene_url[$j]);
+            $scene_spritesheet =  $main_path_dir . $atype . "/anims/" . $scene_url_noext;
 
-            // IMAGE LAYER of scene $i
+            // finds spritesheet assets starting with a specific name, followed by animation data (es: ...-f=4-t=0.8)
+            $spritesheetdiv = "";
+
+            foreach (glob("$scene_spritesheet*") as $spritesheet) {
+                $spritesheetname = explode('/', $spritesheet);
+                // echo "found $spritesheet  " . "\n<br>";
+                $urlanim = "$imgpath" . "anims/" . $spritesheetname[sizeof($spritesheetname)-1];
+                // echo "URL $urlanim \n<br>";
+                // parsing animation data
+                $animdata   = explode('-', $spritesheet);
+                $frames_raw = $animdata[1];
+                $time_raw   = $animdata[2];
+//                echo "<br> " . $frames_raw . " ||| " . $time_raw;
+                $frames_arr = explode('=', $frames_raw);
+                $time_arr   = explode('=', $time_raw);
+//                echo "<br> " . $frames_arr[1] . " ||| " . $time_arr[1];
+
+                $frames     = $frames_arr[1];
+                $time       = $time_arr[1];
+                $divId      = "div" . $j;
+                $abpos      = $dwidth*4;
+                $toppos     = $dwidth/4;
+                $animcss    = <<< EOCSS
+<style type="text/css">                
+.$divId  { 
+    position: absolute; left: 0; top: {$toppos}px; width: $dwidth; height: $dwidth; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; background-size: 400% 100%; animation: play {$time}s steps($frames) infinite; z-index: 10000; 
+}
+
+@keyframes play { 100% { background-position: -{$abpos}px; }
+}
+</style>
+EOCSS;
+                $spritesheetdiv = "\n$animcss\n<div class=\"$divId\"> </div> \n<!-- glob: $spritesheet --> ";
+            
+                
+            } // foreach glob
+
+            // SCENE LAYERS - IMAGES of scene $i
             $divId  = "div" . $j;
             $tooltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
-			$divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>";
-		}
-	}
 
-        $height += 20;
+            if ($spritesheetdiv != "") {
+			  $divs .= "$spritesheetdiv \n <!-- spritesheet enabled -->\n";
+            } else {
+              $divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>\n <!-- spritesheet NOT enabled -->\n";                
+/*
+              $divs .= "\n <style type=\"text/css\">                
+.$divId  { 
+    position: absolute; left: 0; top: 0; width: 256px; height: 256px; margin: 0% auto; background: url('$imgpath$scene_url[$j]') left center; background-repeat: no-repeat; background-size: 100% 100%; z-index: $j; 
+}
+</style>
+<div class=\"$divId\"> </div> \n <!-- spritesheet NOT enabled -->\n";
+*/
 
-        $scene_name2print = ucfirst($scene_name);
-        // show scene_seed        $scene_name2print .= " " . $sseed;       
+            }
 
-        $trace = <<< EOT
+		} // if
+
+	} // for on main layers
+
+    $height += 20;
+
+    $scene_name2print = ucfirst($scene_name);
+    // show scene_seed        $scene_name2print .= " " . $sseed;       
+
+    $trace = <<< EOT
         <script>
             function _tracescene_$i(n) {
                 // window.alert("scene: $scene_name on canvas $i");   
@@ -623,19 +683,19 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
         </script>
 EOT;
 
-        if (!$js_filters) {
-            $trace = "  ";
-        }
+    if (!$js_filters) {
+        $trace = "  ";
+    }
 
-        if (!isset($name_struct) || $name_struct == "") { 
-            $name_struct = "0";
-        }
+    if (!isset($name_struct) || $name_struct == "") { 
+        $name_struct = "0";
+    }
 
-        // $scene_seed     = $page * 100 + $i; => 101, 102, 103
+    // $scene_seed     = $page * 100 + $i; => 101, 102, 103
 
-        $elem_link = $_SERVER['PHP_SELF'] . "?sseed=" . $sseed . "&results=1&atype=" . $atype;
+    $elem_link = $_SERVER['PHP_SELF'] . "?sseed=" . $sseed . "&results=1&atype=" . $atype;
 
-        $tooltiphtml = <<< EOTP
+    $tooltiphtml = <<< EOTP
         <div class="scenetitle" style="position: relative;">
 <span  id="bottomtip" class="btn-primary .btn-xs" data-toggle="tooltip" data-html="true" title="\n struct: $name_struct \n name: $scene_name2print \n$tooltiptext">
                 <a href="$elem_link">$name_struct - $scene_name2print </a>
@@ -648,7 +708,7 @@ EOTP;
     MAIN ELEMENT SCENE
 */
 
-        $scene = <<< EOP
+    $scene = <<< EOP
 <div id="container" class="scene" style="display:inline-block; width:$width; background-color: #000000; padding-left: 10px; display: inline-block; vertical-align: top;">
 
 <!--    $trace  -->
@@ -659,7 +719,7 @@ EOTP;
 </div>
 EOP;
 
-        return $scene;
+    return $scene;
 
 } // end function scene
 
