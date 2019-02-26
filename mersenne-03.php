@@ -621,20 +621,20 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 
                 $frames     = $frames_arr[1];
                 $time       = $time_arr[1];
-                $divId      = "div" . $j;
-                $abpos      = $dwidth*4;
-                $toppos     = $dwidth/4;
+                $divId      = "anidiv" . $j;
+                $abpos      = $dwidth*$frames;        // 4 when 128px, 2 when 256px
+                $toppos     = 60; // $dwidth/4;
                 $animcss    = <<< EOCSS
 <style type="text/css">                
 .$divId  { 
-    position: absolute; left: 0; top: {$toppos}px; width: $dwidth; height: $dwidth; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; background-size: 400% 100%; animation: play {$time}s steps($frames) infinite; z-index: 10000; 
+    position: relative; top: {$toppos}px; left: 0; width: {$dwidth}; height: {$dwidth}; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; animation: play$j {$time}s steps($frames) infinite; z-index: 10000; 
 }
 
-@keyframes play { 100% { background-position: -{$abpos}px; }
+@keyframes play$j { 100% { background-position: -{$abpos}px; }
 }
 </style>
 EOCSS;
-                $spritesheetdiv = "\n$animcss\n<div class=\"$divId\"> </div> \n<!-- glob: $spritesheet --> ";
+                $spritesheetdiv = "\n$animcss\n<div id=\"$divId\" class=\"$divId\"> </div> \n<!-- dwidth: $dwidth --> ";
             
                 
             } // foreach glob
