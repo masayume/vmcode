@@ -597,12 +597,15 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
             if ($js_filters) {
                 $onload = " onload=\"tracescene_$i($j)\" ";
             }
+/*
+    SPRITESHEETS
+*/
             
         // CHECK if ANIMATION SPRITESHEET EXISTS for this layer (name: src="/keplerion/img/demons/anims/dem_A_LW_1_51...)
             $scene_url_noext = preg_replace('/\\.[^.\\s]{3,4}$/', '', $scene_url[$j]);
             $scene_spritesheet =  $main_path_dir . $atype . "/anims/" . $scene_url_noext;
 
-            // finds spritesheet assets starting with a specific name, followed by animation data (es: ...-f=4-t=0.8)
+        // finds spritesheet assets starting with a specific name, followed by animation data (es: ...-f=4-t=0.8)
             $spritesheetdiv = "";
 
             foreach (glob("$scene_spritesheet*") as $spritesheet) {
@@ -621,20 +624,26 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 
                 $frames     = $frames_arr[1];
                 $time       = $time_arr[1];
-                $divId      = "anidiv" . $j;
+                $divId      = "div" . $i;
+                $anidivId   = "anidiv" . $i . $j;
                 $abpos      = $dwidth*$frames;        // 4 when 128px, 2 when 256px
                 $toppos     = 60; // $dwidth/4;
+
+                if ($results == 1) {    // correzioni quando c'è lo zoom su 1 solo risultato
+
+                }
+
                 $animcss    = <<< EOCSS
 <style type="text/css">                
-.$divId  { 
-    position: relative; top: {$toppos}px; left: 0; width: {$dwidth}; height: {$dwidth}; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; animation: play$j {$time}s steps($frames) infinite; z-index: 10000; 
+.$anidivId  { 
+    position: relative; top: {$toppos}px; left: 0; width: {$dwidth}; height: {$dwidth}; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; animation: play$i$j {$time}s steps($frames) infinite; z-index: $j; 
 }
 
-@keyframes play$j { 100% { background-position: -{$abpos}px; }
+@keyframes play$i$j { 100% { background-position: -{$abpos}px; }
 }
 </style>
 EOCSS;
-                $spritesheetdiv = "\n$animcss\n<div id=\"$divId\" class=\"$divId\"> </div> \n<!-- dwidth: $dwidth --> ";
+                $spritesheetdiv = "\n$animcss\n<div id=\"$divId\" class=\"$anidivId\"> </div> \n<!-- dwidth: $dwidth ; results = $results --> ";
             
                 
             } // foreach glob
