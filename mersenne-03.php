@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.23';
+$version    = '1.3';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -170,6 +170,7 @@ echo <<< EOT
  
     <!-- Bootstrap core CSS -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <meta charset="UTF-8">
 <style type="text/css">
 a:link  { color:#aaaaaa; } 
@@ -338,7 +339,7 @@ $vspacer = "";
 
     print "<div id=\"bottomdiv\">";
     print "$vspacer v.$version - 2018-2019 - by masayume ";
-    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
+//    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print "$vspacer  " . demon_count($scenedir, $atype);
     print "$vspacer  DIR:" . $imgpath;
     print "</div>";
@@ -602,8 +603,8 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 */
             
         // CHECK if ANIMATION SPRITESHEET EXISTS for this layer (name: src="/keplerion/img/demons/anims/dem_A_LW_1_51...)
-            $scene_url_noext = preg_replace('/\\.[^.\\s]{3,4}$/', '', $scene_url[$j]);
-            $scene_spritesheet =  $main_path_dir . $atype . "/anims/" . $scene_url_noext;
+            $scene_url_noext    = preg_replace('/\\.[^.\\s]{3,4}$/', '', $scene_url[$j]);
+            $scene_spritesheet  = $main_path_dir . $atype . "/anims/" . $scene_url_noext;
 
         // finds spritesheet assets starting with a specific name, followed by animation data (es: ...-f=4-t=0.8)
             $spritesheetdiv = "";
@@ -624,25 +625,42 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 
                 $frames     = $frames_arr[1];
                 $time       = $time_arr[1];
-                $divId      = "div" . $i;
+                $divId      = "div" . $j;
                 $anidivId   = "anidiv" . $i . $j;
                 $abpos      = $dwidth*$frames;        // 4 when 128px, 2 when 256px
-                $toppos     = 60; // $dwidth/4;
-
-                if ($results == 1) {    // correzioni quando c'è lo zoom su 1 solo risultato
-
-                }
+                $toppos     = 10; // $dwidth/4;
 
                 $animcss    = <<< EOCSS
 <style type="text/css">                
 .$anidivId  { 
-    position: relative; top: {$toppos}px; left: 0; width: {$dwidth}; height: {$dwidth}; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; animation: play$i$j {$time}s steps($frames) infinite; z-index: $j; 
+    position: absolute; top: {$toppos}px; left: 0; width: {$dwidth}; height: {$dwidth}; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; animation: play$i$j {$time}s steps($frames) infinite; z-index: $j; 
 }
 
 @keyframes play$i$j { 100% { background-position: -{$abpos}px; }
 }
 </style>
 EOCSS;
+
+                if ($results == 1) {    // correzioni quando c'è lo zoom su 1 solo risultato
+                    $dwidth2    = $dwidth / 2;
+                    $abpos2     = $abpos / 2;
+                    $divId      = "";
+                    $toppos     = 40;
+                    $animcss    = <<< EOCSS
+<style type="text/css">                
+.$anidivId  { 
+    position: absolute; top: {$toppos}px; left: 64px; width: {$dwidth2}; height: {$dwidth}; margin: 0% auto; background: url('$urlanim') left center; background-repeat: no-repeat; animation: play$i$j {$time}s steps($frames) infinite; z-index: $j; 
+}
+
+@keyframes play$i$j { 
+    0% { transform: scale(2); }
+    100% { background-position: -{$abpos2}px; transform: scale(2); }
+}
+</style>
+EOCSS;
+
+                }
+
                 $spritesheetdiv = "\n$animcss\n<div id=\"$divId\" class=\"$anidivId\"> </div> \n<!-- dwidth: $dwidth ; results = $results --> ";
             
                 
@@ -650,12 +668,13 @@ EOCSS;
 
             // SCENE LAYERS - IMAGES of scene $i
             $divId  = "div" . $j;
-            $tooltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
+//            $tooltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
+            $tooltiptext .= "\n$imgpath . $scene_url[$j] ";
 
             if ($spritesheetdiv != "") {
 			  $divs .= "$spritesheetdiv \n <!-- spritesheet enabled -->\n";
             } else {
-              $divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>\n <!-- spritesheet NOT enabled -->\n";                
+              $divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>\n\n";                
 /*
               $divs .= "\n <style type=\"text/css\">                
 .$divId  { 
@@ -706,7 +725,8 @@ EOT;
 
     $tooltiphtml = <<< EOTP
         <div class="scenetitle" style="position: relative;">
-<span  id="bottomtip" class="btn-primary .btn-xs" data-toggle="tooltip" data-html="true" title="\n struct: $name_struct \n name: $scene_name2print \n$tooltiptext">
+
+<span  id="bottomtip" class="btn-primary .btn-xs " data-toggle="tooltip" data-html="true" title="\n struct: $name_struct \n name: $scene_name2print \n$tooltiptext">
                 <a href="$elem_link">$name_struct - $scene_name2print </a>
 </span>
 
@@ -955,10 +975,15 @@ function demon_count($dir, $type) {
         closedir($handle);
     }
 
+/*  ===================================
+        count various parts 
+    =================================== */
+// todo 
+//      1) loop on structs
+//      2) sum total value of any struct
+
 // print "<pre>";print_r(array_keys($demon_layers));
 
-
-// count various parts 
     if ($type == 'demons' || $type == 'demonship') {
         foreach (array("RW", "BO", "LB", "HE") as $part) {
             $demon_elems    = array();
