@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.3';
+$version    = '1.31';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -373,6 +373,9 @@ function scene_layers($dir, $i, $layers) {
     global      $assetmode;
     global      $structs;
     global      $structsmode;
+    global      $results;
+    global      $atype;
+    global      $main_path_dir;
 
     $dlayers            = array();
     $jslayers           = array();
@@ -450,13 +453,38 @@ function scene_layers($dir, $i, $layers) {
                         $dtype      = "rightwing";
                         $effect     = "";
                     }
+
+/*
+CALL: /home/masayume/down/demon/demons/anims/dem_A_LW_1_41, /keplerion/img/demons/, 256, 1, 0
+CALL: /home/masayume/down/demon/demons/anims/dem_A_RW_1_41, /keplerion/img/demons/, 256, 1, 1
+CALL: /home/masayume/down/demon/demons/anims/dem_A_LB_2_38, /keplerion/img/demons/, 256, 1, 2
+*/
+
+                    $scene_url_noext    = preg_replace('/\\.[^.\\s]{3,4}$/', '', $entry);
+                    $scene_spritesheet  = $main_path_dir . $atype . "/anims/" . $scene_url_noext;
+
+                    $spshda = glob_spritesheet($scene_spritesheet, '/keplerion/img/demons/', 128, 0, 0);
+
                     $keyval = Array(
                             "type" => $dtype, 
                             "img" => $entry, 
                             "partname" => $partname, 
                             "effect" => $effect
                     );
+
+                    if (!empty($spshda)) {
+                        $spritesheetname    = explode('/', $spshda["spritesheet"]);
+                        $urlanim            = $spshda["urlanim"];
+                        $keyval["frames"]   = $spshda["frames"];
+                        $keyval["time"]     = $spshda["time"];
+                        $animg              = explode('/', $spshda["urlanim"]);
+                        $keyval["img"]      = $animg[count($animg)-2] . '/' . $animg[count($animg)-1];    
+                    }
+
+
                     $jslayers[$nameparts[2]][$extparts[0]] = $keyval;
+
+//                    print "\n<!-- keyval: "; print_r($keyval); print "\n-->" ;
 
 // END JSON info injection
 
@@ -470,8 +498,9 @@ function scene_layers($dir, $i, $layers) {
     }
 
 // on page 1 encode & write for javascript layer images to $demonsfile 
-if ($page==1) {
+if ($page==1 && $results == 1) {
     file_put_contents($demonsfile, json_encode($jslayers, JSON_PRETTY_PRINT));    
+    echo "wrote $demonsfile .<br>";
 }
 
 // TODO: in $main_layers_types ci sono i vari tipi (template_A, $template_B)
@@ -608,28 +637,18 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 
         // finds spritesheet assets starting with a specific name, followed by animation data (es: ...-f=4-t=0.8)
             $spritesheetdiv = "";
+            $spshda = glob_spritesheet($scene_spritesheet, $imgpath, $dwidth, $i, $j);
 
-            foreach (glob("$scene_spritesheet*") as $spritesheet) {
-                $spritesheetname = explode('/', $spritesheet);
-                // echo "found $spritesheet  " . "\n<br>";
-                $urlanim = "$imgpath" . "anims/" . $spritesheetname[sizeof($spritesheetname)-1];
-                // echo "URL $urlanim \n<br>";
-                // parsing animation data
-                $animdata   = explode('-', $spritesheet);
-                $frames_raw = $animdata[1];
-                $time_raw   = $animdata[2];
-//                echo "<br> " . $frames_raw . " ||| " . $time_raw;
-                $frames_arr = explode('=', $frames_raw);
-                $time_arr   = explode('=', $time_raw);
-//                echo "<br> " . $frames_arr[1] . " ||| " . $time_arr[1];
+            if (!empty($spshda)) {
+                $spritesheetname = explode('/', $spshda["spritesheet"]);
+                $urlanim    = $spshda["urlanim"];
+                $frames     = $spshda["frames"];
+                $time       = $spshda["time"];
 
-                $frames     = $frames_arr[1];
-                $time       = $time_arr[1];
-                $divId      = "div" . $j;
-                $anidivId   = "anidiv" . $i . $j;
-                $abpos      = $dwidth*$frames;        // 4 when 128px, 2 when 256px
-                $toppos     = 10; // $dwidth/4;
-
+                $divId      = $spshda["divId"];
+                $anidivId   = $spshda["anidivId"];
+                $abpos      = $spshda["abpos"];        // 4 when 128px, 2 when 256px
+                $toppos     = $spshda["toppos"];
                 $animcss    = <<< EOCSS
 <style type="text/css">                
 .$anidivId  { 
@@ -641,7 +660,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 </style>
 EOCSS;
 
-                if ($results == 1) {    // correzioni quando c'è lo zoom su 1 solo risultato
+               if ($results == 1) {    // correzioni quando c'è lo zoom su 1 solo risultato
                     $dwidth2    = $dwidth / 2;
                     $abpos2     = $abpos / 2;
                     $divId      = "";
@@ -662,9 +681,7 @@ EOCSS;
                 }
 
                 $spritesheetdiv = "\n$animcss\n<div id=\"$divId\" class=\"$anidivId\"> </div> \n<!-- dwidth: $dwidth ; results = $results --> ";
-            
-                
-            } // foreach glob
+            } // end if ! empty $spshda
 
             // SCENE LAYERS - IMAGES of scene $i
             $divId  = "div" . $j;
@@ -675,14 +692,6 @@ EOCSS;
 			  $divs .= "$spritesheetdiv \n <!-- spritesheet enabled -->\n";
             } else {
               $divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>\n\n";                
-/*
-              $divs .= "\n <style type=\"text/css\">                
-.$divId  { 
-    position: absolute; left: 0; top: 0; width: 256px; height: 256px; margin: 0% auto; background: url('$imgpath$scene_url[$j]') left center; background-repeat: no-repeat; background-size: 100% 100%; z-index: $j; 
-}
-</style>
-<div class=\"$divId\"> </div> \n <!-- spritesheet NOT enabled -->\n";
-*/
 
             }
 
@@ -752,6 +761,36 @@ EOP;
 
 } // end function scene
 
+function glob_spritesheet($spritesheetpath, $imgpath, $dwidth, $i, $j) {
+
+    $spritesheetdata = Array();
+
+    foreach (glob("$spritesheetpath*") as $spritesheet) {
+
+        print "\n<!-- spritesheet - " . $spritesheet . " -->";
+
+        $spritesheetname    = explode('/', $spritesheet);
+        $animdata           = explode('-', $spritesheet);
+        $frames_raw         = $animdata[1];
+        $time_raw           = $animdata[2];
+        $frames_arr         = explode('=', $frames_raw);
+        $time_arr           = explode('=', $time_raw);
+
+        $spritesheetdata["urlanim"]     = "$imgpath" . "anims/" . $spritesheetname[sizeof($spritesheetname)-1];
+        $spritesheetdata["frames"]      = $frames_arr[1];
+        $spritesheetdata["time"]        = $time_arr[1];
+        $spritesheetdata["divId"]       = "div" . $j;
+        $spritesheetdata["anidivId"]    = "anidiv" . $i . $j;
+        $spritesheetdata["abpos"]       = $dwidth*$frames_arr[1];        // 4 when 128px, 2 when 256px
+        print "<!-- dwidth: $dwidth - abpos: " . $spritesheetdata["abpos"] . " -->";
+        $spritesheetdata["toppos"]      = 10; // $dwidth/4;
+        $spritesheetdata["spritesheet"] = $spritesheet;
+
+    }
+
+    return $spritesheetdata; 
+
+} // end function glob_spritesheet
 
 function overcss() {
 
