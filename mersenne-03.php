@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.31';
+$version    = '1.33';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -108,6 +108,7 @@ if (isset($params['sseed'])) {
 
 // define JSON destination directory and file (...4js.json) & layers info file (.json)
 $demonsfile     = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '4js.json';
+$demonsfilejs   = $main_path_dir . $params['atype'] . '/animsjs/' . $params['atype'] . '4js.json';
 
 // read JSON in the image "dir"
 $json_file      = $main_path_dir . $params['atype'] . '/' . $params['atype'] . '.json';
@@ -368,6 +369,7 @@ function scene_layers($dir, $i, $layers) {
 	global		$demon_layers;
     global      $demon_names;
     global      $demonsfile;
+    global      $demonsfilejs;
     global      $demonname, $demonname_ini, $demonname_mid, $demonname_end;
     global      $page;
     global      $assetmode;
@@ -376,11 +378,14 @@ function scene_layers($dir, $i, $layers) {
     global      $results;
     global      $atype;
     global      $main_path_dir;
+    global      $spritesheetpath;
 
     $dlayers            = array();
     $jslayers           = array();
+    $jslayersjs         = array();
     $arr2ret            = array();
     $main_layers_types  = array(); 
+    $copy_command       = "";
 
     if ($handle = opendir($dir)) {
         // print "<br>" . $dir;
@@ -463,7 +468,10 @@ CALL: /home/masayume/down/demon/demons/anims/dem_A_LB_2_38, /keplerion/img/demon
                     $scene_url_noext    = preg_replace('/\\.[^.\\s]{3,4}$/', '', $entry);
                     $scene_spritesheet  = $main_path_dir . $atype . "/anims/" . $scene_url_noext;
 
-                    $spshda = glob_spritesheet($scene_spritesheet, '/keplerion/img/demons/', 128, 0, 0);
+                    $spshda = Array();
+                    if ($results == 1 && $page == 1) {
+                        $spshda = glob_spritesheet($scene_spritesheet, '/keplerion/img/demons/', 128, 0, 0);
+                    }
 
                     $keyval = Array(
                             "type" => $dtype, 
@@ -484,6 +492,17 @@ CALL: /home/masayume/down/demon/demons/anims/dem_A_LB_2_38, /keplerion/img/demon
 
                     $jslayers[$nameparts[2]][$extparts[0]] = $keyval;
 
+                    if (isset($spshda["name"])) {
+                        // $animfile               = preg_replace('/=/', '\=', $keyval["img"]);
+                        $animfile               = $keyval["img"];
+                        $sourcefile             = $main_path_dir . $atype . '/' . $animfile;
+                        $destfile               = $main_path_dir . $atype . '/animsjs/' . $spshda["name"];
+                        // $copy_command           .= "cp " . $sourcefile . ' ' . $destfile . "\n";
+                        copy($sourcefile, $destfile);
+                        $keyval["img"]          = $spshda["name"];
+                    }
+                    $jslayersjs[$nameparts[2]][$extparts[0]] = $keyval;
+
 //                    print "\n<!-- keyval: "; print_r($keyval); print "\n-->" ;
 
 // END JSON info injection
@@ -500,7 +519,15 @@ CALL: /home/masayume/down/demon/demons/anims/dem_A_LB_2_38, /keplerion/img/demon
 // on page 1 encode & write for javascript layer images to $demonsfile 
 if ($page==1 && $results == 1) {
     file_put_contents($demonsfile, json_encode($jslayers, JSON_PRETTY_PRINT));    
-    echo "wrote $demonsfile .<br>";
+
+// print "\n\n<!--\n"; print $copy_command; print "-->\n";
+
+//      elaborate jslayers
+    file_put_contents($demonsfilejs, json_encode($jslayersjs, JSON_PRETTY_PRINT));    
+    echo "wrote $demonsfile <br>wrote $demonsfilejs <br>";
+
+
+    
 }
 
 // TODO: in $main_layers_types ci sono i vari tipi (template_A, $template_B)
@@ -782,9 +809,15 @@ function glob_spritesheet($spritesheetpath, $imgpath, $dwidth, $i, $j) {
         $spritesheetdata["divId"]       = "div" . $j;
         $spritesheetdata["anidivId"]    = "anidiv" . $i . $j;
         $spritesheetdata["abpos"]       = $dwidth*$frames_arr[1];        // 4 when 128px, 2 when 256px
-        print "<!-- dwidth: $dwidth - abpos: " . $spritesheetdata["abpos"] . " -->";
+        // print "<!-- dwidth: $dwidth - abpos: " . $spritesheetdata["abpos"] . " -->";
         $spritesheetdata["toppos"]      = 10; // $dwidth/4;
         $spritesheetdata["spritesheet"] = $spritesheet;
+        $spritenamejs                   = explode('-', $spritesheetname[sizeof($spritesheetname)-1]);
+        $spritenameext                  = explode('.', $spritesheetname[sizeof($spritesheetname)-1]);
+        $spritejs                       = $spritenamejs[0] . '.' . $spritenameext[sizeof($spritenameext)-1];
+        // print "<!-- name: " . $spritejs . " -->";
+        $spritesheetdata["name"]        = $spritejs;
+
 
     }
 
