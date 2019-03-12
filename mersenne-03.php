@@ -713,12 +713,13 @@ EOCSS;
             // SCENE LAYERS - IMAGES of scene $i
             $divId  = "div" . $j;
 //            $tooltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
-            $tooltiptext .= "\n$imgpath . $scene_url[$j] ";
 
             if ($spritesheetdiv != "") {
-			  $divs .= "$spritesheetdiv \n <!-- spritesheet enabled -->\n";
+			     $divs .= "$spritesheetdiv \n <!-- spritesheet enabled -->\n";
+                 $tooltiptext .= "\n$scene_url[$j] - (A)";
             } else {
               $divs .= "\n<div id='$divId' style=\"$padding \"><img id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>\n\n";                
+                 $tooltiptext .= "\n$scene_url[$j] ";
 
             }
 
@@ -762,7 +763,7 @@ EOT;
     $tooltiphtml = <<< EOTP
         <div class="scenetitle" style="position: relative;">
 
-<span  id="bottomtip" class="btn-primary .btn-xs " data-toggle="tooltip" data-html="true" title="\n struct: $name_struct \n name: $scene_name2print \n$tooltiptext">
+<span  id="bottomtip" class="btn-primary .btn-xs " data-toggle="tooltip" data-html="true" title="\nseed: $sseed\nstruct: $name_struct \nname: $scene_name2print \npath: $imgpath\n$tooltiptext">
                 <a href="$elem_link">$name_struct - $scene_name2print </a>
 </span>
 
