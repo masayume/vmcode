@@ -81,7 +81,7 @@ if (isset($params['page'])) {
 	$nextp	= 2; 
 	$prevp	= 1; 
 }
-if (!isset($params['results'])) { $results = 24; } 
+if (!isset($params['results'])) { $results = 27; } 
 else {
 	$results = $params['results'];
 	$res_qs  .= "&results=" . $results;
@@ -397,6 +397,14 @@ function scene_layers($dir, $i, $layers) {
         $main_layers    = $layers;
         // print "<pre>"; print_r($main_layers); print "</pre>";
 
+
+        $jinfo          = info_read($dir);
+//        print "\n<!-- jinfo ($dir)\n"; print_r($jinfo); print "\n-->"; exit(0);
+
+        $ircounter = 0;
+
+// all assets main loop
+
         while (false !== ($entry = readdir($handle))) {
         // foreach (glob("$handle*.{jpg,png,webp}", GLOB_BRACE) as $entry) {
 
@@ -416,81 +424,11 @@ function scene_layers($dir, $i, $layers) {
                     }
 
 
-// START JSON info injection
+// START JSON info injection                    
 
-                    $partname   = "";
-                    $effect     = "";
-                    $dtype      = "";
-                    if ($nameparts[2] == "HE") {                    // HEAD definition (pattern)
-                        if (isset($demonname["HE"][$numpart])) {
-                            $partname   = $demonname["HE"][$numpart];                            
-                        } else {
-                            $partname   = "2bdef";
-                        }
-                        $dtype      = "head";
-                        $effect     = "pattern:M";
-                    } 
-                    else if ($nameparts[2] == "BO") {               // BODY definition (energy)
-                        if (isset($demonname["BO"][$numpart])) {
-                            $partname   = $demonname["BO"][$numpart];                            
-                        } else {
-                            $partname   = "2bdef";
-                        }
-                        $dtype      = "body";
-                        $effect     = "energy:K";
-                    } 
-                    else if ($nameparts[2] == "LB") {               // LOWER BODY definition (weapon)
-                        if (isset($demonname["LB"][$numpart])) {
-                            $partname   = $demonname["LB"][$numpart];                            
-                        } else {
-                            $partname   = "2bdef";
-                        }
-                        $dtype      = "lowerbody";
-                        $effect     = "weapon:Q";
-                    }
-                    else if ($nameparts[2] == "LW") {               // LOWER BODY definition (weapon)
-                        $partname   = "";   //$demonname_ini[$numpart];
-                        $dtype      = "leftwing";
-                        $effect     = "var:A";
-                    }
-                    else if ($nameparts[2] == "RW") {               // LOWER BODY definition (weapon)
-                        $partname   = "";   // $demonname_ini[$numpart];
-                        $dtype      = "rightwing";
-                        $effect     = "";
-                    }
+                    $keyval = info_injection($nameparts, $entry, $jinfo);
 
-/*
-CALL: /home/masayume/down/demon/demons/anims/dem_A_LW_1_41, /keplerion/img/demons/, 256, 1, 0
-CALL: /home/masayume/down/demon/demons/anims/dem_A_RW_1_41, /keplerion/img/demons/, 256, 1, 1
-CALL: /home/masayume/down/demon/demons/anims/dem_A_LB_2_38, /keplerion/img/demons/, 256, 1, 2
-*/
-
-                    $scene_url_noext    = preg_replace('/\\.[^.\\s]{3,4}$/', '', $entry);
-                    $scene_spritesheet  = $main_path_dir . $atype . "/anims/" . $scene_url_noext;
-
-                    $spshda = Array();
-                    if ($results == 1 && $page == 1) {
-                        $spshda = glob_spritesheet($scene_spritesheet, '/keplerion/img/demons/', 128, 0, 0);
-                    }
-
-                    $keyval = Array(
-                            "type" => $dtype, 
-                            "img" => $entry, 
-                            "partname" => $partname, 
-                            "effect" => $effect
-                    );
-
-                    if (!empty($spshda)) {
-                        $spritesheetname    = explode('/', $spshda["spritesheet"]);
-                        $urlanim            = $spshda["urlanim"];
-                        $keyval["frames"]   = $spshda["frames"];
-                        $keyval["time"]     = $spshda["time"];
-                        $animg              = explode('/', $spshda["urlanim"]);
-                        $keyval["img"]      = $animg[count($animg)-2] . '/' . $animg[count($animg)-1];    
-                    }
-
-
-                    $jslayers[$nameparts[2]][$extparts[0]] = $keyval;
+                    $jslayers[$nameparts[2]][$extparts[0]] = $keyval;       // standard
 
                     if (isset($spshda["name"])) {
                         // $animfile               = preg_replace('/=/', '\=', $keyval["img"]);
@@ -501,13 +439,16 @@ CALL: /home/masayume/down/demon/demons/anims/dem_A_LB_2_38, /keplerion/img/demon
                         copy($sourcefile, $destfile);
                         $keyval["img"]          = $spshda["name"];
                     }
-                    $jslayersjs[$nameparts[2]][$extparts[0]] = $keyval;
 
-//                    print "\n<!-- keyval: "; print_r($keyval); print "\n-->" ;
 
-// END JSON info injection
 
-                
+                    $jslayersjs[$nameparts[2]][$extparts[0]] = $keyval;     // simpler names
+
+//    print "\n <!-- irc:" . $ircounter++ . "\nnameparts:" ; print_r($nameparts); print " np2:" . $nameparts[2] . " ep0:" . $extparts[0] . "\nkeyval: "; print_r($keyval); print "\n-->" ;
+
+
+
+// END JSON info injection                
 
                 } // end handling only files with proper extensions (image assets)
             } // if !is_dir
@@ -519,8 +460,6 @@ CALL: /home/masayume/down/demon/demons/anims/dem_A_LB_2_38, /keplerion/img/demon
 // on page 1 encode & write for javascript layer images to $demonsfile 
 if ($page==1 && $results == 1) {
     file_put_contents($demonsfile, json_encode($jslayers, JSON_PRETTY_PRINT));    
-
-// print "\n\n<!--\n"; print $copy_command; print "-->\n";
 
 //      elaborate jslayers
     file_put_contents($demonsfilejs, json_encode($jslayersjs, JSON_PRETTY_PRINT));    
@@ -577,6 +516,158 @@ if ($page==1 && $results == 1) {
 
 } // end function scene_layers
 
+
+
+function info_injection($nameparts, $entry, $jinfo) {
+
+    global      $demonname;
+    global      $atype;
+    global      $main_path_dir;
+    global      $page;
+    global      $results;
+
+        $extparts   = explode(".",$nameparts[4]);
+        $numpart    = ltrim($extparts[0], '0');
+
+/*
+        if (!in_array($nameparts[1], $main_layers_types) ) {
+            array_push($main_layers_types, $nameparts[1]);
+        }
+*/
+
+/*
+<!-- jinfo (/home/masayume/down/demon/demons/)
+Array
+(
+    [HE] => Array
+        (
+            [68] => Array
+                (
+                    [speed] => 0
+                    [pattern] => A
+                    [partname] => 
+                    [effect] => var:A
+                )
+
+        )
+
+)
+*/
+
+        $partname   = "";
+        $effect     = "";
+        $dtype      = "";
+        if ($nameparts[2] == "HE") {                    // HEAD definition (pattern)
+            if (isset($demonname["HE"][$numpart])) {
+                $partname   = $demonname["HE"][$numpart];                            
+            } else {
+                $partname   = "2bdef";
+            }
+            $dtype      = "head";
+            $effect     = "pattern:M";
+        } 
+        else if ($nameparts[2] == "BO") {               // BODY definition (energy)
+            if (isset($demonname["BO"][$numpart])) {
+                $partname   = $demonname["BO"][$numpart];                            
+            } else {
+                $partname   = "2bdef";
+            }
+            $dtype      = "body";
+            $effect     = "energy:K";
+        } 
+        else if ($nameparts[2] == "LB") {               // LOWER BODY definition (weapon)
+            if (isset($demonname["LB"][$numpart])) {
+                $partname   = $demonname["LB"][$numpart];                            
+            } else {
+                $partname   = "2bdef";
+            }
+            $dtype      = "lowerbody";
+            $effect     = "weapon:Q";
+        }
+        else if ($nameparts[2] == "LW") {               // LOWER BODY definition (weapon)
+            $partname   = "";   //$demonname_ini[$numpart];
+            $dtype      = "leftwing";
+            $effect     = "var:A";
+        }
+        else if ($nameparts[2] == "RW") {               // LOWER BODY definition (weapon)
+            $partname   = "";   // $demonname_ini[$numpart];
+            $dtype      = "rightwing";
+            $effect     = "";
+        }
+
+        $scene_url_noext    = preg_replace('/\\.[^.\\s]{3,4}$/', '', $entry);
+        $scene_spritesheet  = $main_path_dir . $atype . "/anims/" . $scene_url_noext;
+
+        $spshda = Array();
+        if ($results == 1 && $page == 1) {
+            $spshda = glob_spritesheet($scene_spritesheet, '/keplerion/img/demons/', 128, 0, 0);
+        }
+
+        $keyval = Array(
+                "type" => $dtype, 
+                "img" => $entry, 
+                "partname" => $partname, 
+                "effect" => $effect
+        );
+
+        if (!empty($spshda)) {
+            $spritesheetname    = explode('/', $spshda["spritesheet"]);
+            $urlanim            = $spshda["urlanim"];
+            $keyval["frames"]   = $spshda["frames"];
+            $keyval["time"]     = $spshda["time"];
+            $animg              = explode('/', $spshda["urlanim"]);
+            $keyval["img"]      = $animg[count($animg)-2] . '/' . $animg[count($animg)-1];    
+        }
+
+//        print "jinfo in: nameparts: "; print_r($nameparts); print "\n | numpart: $numpart \n"; 
+
+        if ( isset($jinfo[$nameparts[2]][$numpart])) {
+            foreach(array_keys($jinfo[$nameparts[2]][$numpart]) as $jk) {
+                $keyval[$jk] = $jinfo[$nameparts[2]][$numpart][$jk];       
+            }
+        }
+
+        $jslayers[$nameparts[2]][$extparts[0]] = $keyval;
+
+        if (isset($spshda["name"])) {
+            // $animfile               = preg_replace('/=/', '\=', $keyval["img"]);
+            $animfile               = $keyval["img"];
+            $sourcefile             = $main_path_dir . $atype . '/' . $animfile;
+            $destfile               = $main_path_dir . $atype . '/animsjs/' . $spshda["name"];
+            // $copy_command           .= "cp " . $sourcefile . ' ' . $destfile . "\n";
+            copy($sourcefile, $destfile);
+            $keyval["img"]          = $spshda["name"];
+        }
+
+        return $keyval;
+
+} // end function info_injection
+
+
+function info_read($d) {
+
+    $jsonfileattr   = $d . 'demons-attr-in.json';
+    $jattrinfo      = Array();
+    $jsona           = "";
+
+    set_error_handler(function ($err_severity, $err_msg, $err_file, $err_line, array $err_context)
+    {
+        throw new ErrorException( $err_msg, 0, $err_severity, $err_file, $err_line );
+    }, E_WARNING);
+
+    try {
+        $jsona = file_get_contents($jsonfileattr);
+    }
+    catch (Exception $e) {
+        echo "ERROR: file <b>" . $jsonfileattr . "</b> MUST EXIST in directory <b>" . $main_path_dir . $params['atype'] . "</b>";
+        exit(1);
+    }
+
+    restore_error_handler();
+    $jattrinfo = json_decode($jsona, true);
+    return $jattrinfo;
+
+} // end function info_read
 
 function kind_elem($kind, $dlayers, $amode) {
 
@@ -657,7 +748,7 @@ function scene($i, $imgpath, $scene_url, $scene_name, $width, $height, $font_siz
 /*
     SPRITESHEETS
 */
-            
+
         // CHECK if ANIMATION SPRITESHEET EXISTS for this layer (name: src="/keplerion/img/demons/anims/dem_A_LW_1_51...)
             $scene_url_noext    = preg_replace('/\\.[^.\\s]{3,4}$/', '', $scene_url[$j]);
             $scene_spritesheet  = $main_path_dir . $atype . "/anims/" . $scene_url_noext;
