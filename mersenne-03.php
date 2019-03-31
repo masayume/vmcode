@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.33';
+$version    = '1.34';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -379,12 +379,15 @@ function scene_layers($dir, $i, $layers) {
     global      $atype;
     global      $main_path_dir;
     global      $spritesheetpath;
+    global      $js_generation;
+    global      $norandomize;
 
     $dlayers            = array();
     $jslayers           = array();
     $jslayersjs         = array();
     $arr2ret            = array();
-    $main_layers_types  = array(); 
+    $main_layers_types  = array();
+    $jinfo              = array(); 
     $copy_command       = "";
 
     if ($handle = opendir($dir)) {
@@ -397,8 +400,9 @@ function scene_layers($dir, $i, $layers) {
         $main_layers    = $layers;
         // print "<pre>"; print_r($main_layers); print "</pre>";
 
-
-        $jinfo          = info_read($dir);
+        if ($js_generation && $atype == 'demons') {
+            $jinfo          = info_read($dir);
+        }
 //        print "\n<!-- jinfo ($dir)\n"; print_r($jinfo); print "\n-->"; exit(0);
 
         $ircounter = 0;
@@ -440,8 +444,6 @@ function scene_layers($dir, $i, $layers) {
                         $keyval["img"]          = $spshda["name"];
                     }
 
-
-
                     $jslayersjs[$nameparts[2]][$extparts[0]] = $keyval;     // simpler names
 
 //    print "\n <!-- irc:" . $ircounter++ . "\nnameparts:" ; print_r($nameparts); print " np2:" . $nameparts[2] . " ep0:" . $extparts[0] . "\nkeyval: "; print_r($keyval); print "\n-->" ;
@@ -458,15 +460,13 @@ function scene_layers($dir, $i, $layers) {
     }
 
 // on page 1 encode & write for javascript layer images to $demonsfile 
-if ($page==1 && $results == 1) {
+if ($page==1 && $results == 1 && $js_generation && $atype == 'demons') {
     file_put_contents($demonsfile, json_encode($jslayers, JSON_PRETTY_PRINT));    
 
 //      elaborate jslayers
     file_put_contents($demonsfilejs, json_encode($jslayersjs, JSON_PRETTY_PRINT));    
     echo "wrote $demonsfile <br>wrote $demonsfilejs <br>";
 
-
-    
 }
 
 // TODO: in $main_layers_types ci sono i vari tipi (template_A, $template_B)
@@ -500,14 +500,24 @@ if ($page==1 && $results == 1) {
 
         // SI PUO' randomizzare l'elemento $i della pagina $page in FUNZIONE di $page, $i.
 
-        // se l'mt_rnd è da visualizzare secondo il valore di possibilità ($main_layers[$part]) di quel tipo di layer
-        // carica nell'array da restituire "arr2ret" UN elemento preso con mt_rnd dalla lista di tutti gli asset di quel tipo
-    	if (mt_rand(1,100) <= $main_layers[$part]) {
+        if (isset($norandomize[$atype])) {
 
-            // carico nell'array da tornare l'rt_rnd-esimo elemento
-            array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); 
+//            print "<br>i: " . $i . " - " . $norandomize[$atype];
+            array_push($arr2ret, $scene_elems[($i - 1) % count($scene_elems)]); 
 
-    	}
+        } else { // randomize OK !
+
+            // se l'mt_rnd è da visualizzare secondo il valore di possibilità ($main_layers[$part]) di quel tipo di layer
+            // carica nell'array da restituire "arr2ret" UN elemento preso con mt_rnd dalla lista di tutti gli asset di quel tipo
+            if (mt_rand(1,100) <= $main_layers[$part]) {
+
+                // carico nell'array da tornare l'rt_rnd-esimo elemento
+                array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); 
+
+            }
+
+        }
+
     }
 
 //  print "<pre>"; print_r($arr2ret); print "</pre>";
