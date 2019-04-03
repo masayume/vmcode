@@ -11,11 +11,9 @@
 //      JSON FILE DIR: :85 filename = PATH(/var/www...) + basedir(param(dir)) + basedir(param(dir)).json
 
 //   example URL: 
-//	http://localhost:8989/keplerion/mersenne-03.php?seed=100&page=9&results=3&dir=./img/demons/
-//	http://localhost:8989/keplerion/mersenne-03.php?seed=100&page=7&results=3&dir=./keplerion/img/demons/
+//	http://localhost:8989/keplerion/mersenne-03.php?seed=100&page=1&results=27&atype=demons
 
 // > webGL canvas filter switch
-// > parametrize type layer sequence (zNN)
 
 // particles: http://aerotwist.com/tutorials/creating-particles-with-three-js/
 // planet data
@@ -26,13 +24,9 @@
 // http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
 // :175 modified padding of the elements ( file names containing up, down, left and right pixel adjustments with format: -u15- | -d20- & -r20- | -l15- )
 
-// REF.
-
-// PARAMETERS
-
 // phpinfo(); exit(0);
 
-$version    = '1.34';
+$version    = '1.36';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -189,13 +183,16 @@ if (isset($layout_orient)) {
     $listul_start = "<ul>";    $listul_end = "</ul>";    $listli_start = "<li>";    $listli_end = "</li>";
 }
 
-// NAV LINKS
+//
+// NAVIGATION LINKS - NAVLINKS
+//
+
 $QURL       = "\n  $listli_start <a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=1";
 $URL        = Array();
 
 $allURLs    = $listul_start;
 foreach ($contents as $cont) {
-    $URL[$cont]     = $QURL . "&results=" . $results_x_page[$cont] . "&atype=$cont'>$cont</a>   $listli_end";
+    $URL[$cont]     = $QURL . "&results=" . $results_x_page[$cont] . "&atype=$cont'>$cont</a> ·  $listli_end";
     $allURLs        .= $URL[$cont];
 }
 
@@ -213,7 +210,6 @@ $vspacer = "";
         $vspacer = "<br />";
 
         print "\n\n<div id='topdiv'>";
-//        print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
      
         if ($prevp > 0) {
             print "<button type=\"button\" class=\"btn btn-primary\">";
@@ -236,7 +232,7 @@ $vspacer = "";
 
     } else {                                                       // LAYOUT STANDARD (ORIZZONTALE)
 
-        $vspacer = " - ";
+        $vspacer = " · ";
 
         print "\n\n<div id='topHdiv'>";
     	print " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
@@ -258,7 +254,7 @@ $vspacer = "";
 
     // PAGE INFO
     print $allURLs;    
-    print "\n\n\n\n<hr>";
+    print "\n\n<br>";
     print "$vspacer"  . $atype ;    
     print "$vspacer page "   . $page . " / ∞" ;    
 
@@ -339,10 +335,10 @@ $vspacer = "";
 
 
     print "<div id=\"bottomdiv\">";
-    print "$vspacer v.$version - 2018-2019 - by masayume ";
+    print "$vspacer v.$version - 2018-19 - masayume ";
 //    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print "$vspacer  " . demon_count($scenedir, $atype);
-    print "$vspacer  DIR:" . $imgpath;
+    print "$vspacer DIR:" . $imgpath;
     print "</div>";
 
     print $tracking_code;
@@ -381,6 +377,7 @@ function scene_layers($dir, $i, $layers) {
     global      $spritesheetpath;
     global      $js_generation;
     global      $norandomize;
+    global      $generatejsfile;
 
     $dlayers            = array();
     $jslayers           = array();
@@ -460,7 +457,7 @@ function scene_layers($dir, $i, $layers) {
     }
 
 // on page 1 encode & write for javascript layer images to $demonsfile 
-if ($page==1 && $results == 1 && $js_generation && $atype == 'demons') {
+if ($page==1 && $results == 1 && $js_generation && (isset($generatejsfile[$atype])) ) {
     file_put_contents($demonsfile, json_encode($jslayers, JSON_PRETTY_PRINT));    
 
 //      elaborate jslayers
@@ -1180,7 +1177,7 @@ function demon_count($dir, $type) {
 
     } 
     
-    $demoncount = strtoupper($type) . ": " . $dcount . " parts: " . $dpart;
+    $demoncount = strtoupper($type) . ": " . number_format($dcount) . " · parts: " . $dpart;
 
     return $demoncount;
 
