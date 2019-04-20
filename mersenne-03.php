@@ -26,7 +26,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.36';
+$version    = '1.37';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -209,7 +209,7 @@ $vspacer = "";
 
         $vspacer = "<br />";
 
-        print "\n\n<div id='topdiv'>";
+        print "\n\n<div id='container'>\n\n<div id='topdiv'>";
      
         if ($prevp > 0) {
             print "<button type=\"button\" class=\"btn btn-primary\">";
@@ -339,7 +339,7 @@ $vspacer = "";
 //    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print "$vspacer  " . demon_count($scenedir, $atype);
     print "$vspacer DIR:" . $imgpath;
-    print "</div>";
+    print "</div>\n\n</div>";
 
     print $tracking_code;
 
@@ -400,7 +400,7 @@ function scene_layers($dir, $i, $layers) {
         if ($js_generation && $atype == 'demons') {
             $jinfo          = info_read($dir);
         }
-//        print "\n<!-- jinfo ($dir)\n"; print_r($jinfo); print "\n-->"; exit(0);
+        // print "\n<!-- jinfo ($dir)\n"; print_r($jinfo); print "\n-->"; exit(0);
 
         $ircounter = 0;
 
@@ -443,7 +443,7 @@ function scene_layers($dir, $i, $layers) {
 
                     $jslayersjs[$nameparts[2]][$extparts[0]] = $keyval;     // simpler names
 
-//    print "\n <!-- irc:" . $ircounter++ . "\nnameparts:" ; print_r($nameparts); print " np2:" . $nameparts[2] . " ep0:" . $extparts[0] . "\nkeyval: "; print_r($keyval); print "\n-->" ;
+    print "\n <!-- irc:" . $ircounter++ . "\nnameparts:" ; print_r($nameparts); print " np2:" . $nameparts[2] . " ep0:" . $extparts[0] . "\nkeyval: "; print_r($keyval); print "\n-->" ;
 
 
 
@@ -533,8 +533,14 @@ function info_injection($nameparts, $entry, $jinfo) {
     global      $page;
     global      $results;
 
-        $extparts   = explode(".",$nameparts[4]);
-        $numpart    = ltrim($extparts[0], '0');
+    $extparts   = explode(".",$nameparts[4]);
+    $numpart    = ltrim($extparts[0], '0');
+
+/*
+    trovare il path del json dei bullets, leggere il json in un array con il metodo $jinfo = info_read($dir);
+    inserire il valore dell'ID del bullet come attributo di LB dentro al JSON del demone, via JSON.
+    
+*/
 
 /*
         if (!in_array($nameparts[1], $main_layers_types) ) {
@@ -564,7 +570,8 @@ Array
         $partname   = "";
         $effect     = "";
         $dtype      = "";
-        if ($nameparts[2] == "HE") {                    // HEAD definition (pattern)
+/*        
+        if ($nameparts[2] == "HE" && $atype == 'demons') {                    // HEAD definition (pattern)
             if (isset($demonname["HE"][$numpart])) {
                 $partname   = $demonname["HE"][$numpart];                            
             } else {
@@ -573,7 +580,7 @@ Array
             $dtype      = "head";
             $effect     = "pattern:M";
         } 
-        else if ($nameparts[2] == "BO") {               // BODY definition (energy)
+        else if ($nameparts[2] == "BO" && $atype == 'demons') {               // BODY definition (energy)
             if (isset($demonname["BO"][$numpart])) {
                 $partname   = $demonname["BO"][$numpart];                            
             } else {
@@ -582,7 +589,7 @@ Array
             $dtype      = "body";
             $effect     = "energy:K";
         } 
-        else if ($nameparts[2] == "LB") {               // LOWER BODY definition (weapon)
+        else if ($nameparts[2] == "LB" && $atype == 'demons') {               // LOWER BODY definition (weapon)
             if (isset($demonname["LB"][$numpart])) {
                 $partname   = $demonname["LB"][$numpart];                            
             } else {
@@ -591,16 +598,17 @@ Array
             $dtype      = "lowerbody";
             $effect     = "weapon:Q";
         }
-        else if ($nameparts[2] == "LW") {               // LOWER BODY definition (weapon)
+        else if ($nameparts[2] == "LW" && $atype == 'demons') {               // LOWER BODY definition (weapon)
             $partname   = "";   //$demonname_ini[$numpart];
             $dtype      = "leftwing";
             $effect     = "var:A";
         }
-        else if ($nameparts[2] == "RW") {               // LOWER BODY definition (weapon)
+        else if ($nameparts[2] == "RW" && $atype == 'demons') {               // LOWER BODY definition (weapon)
             $partname   = "";   // $demonname_ini[$numpart];
             $dtype      = "rightwing";
             $effect     = "";
         }
+*/
 
         $scene_url_noext    = preg_replace('/\\.[^.\\s]{3,4}$/', '', $entry);
         $scene_spritesheet  = $main_path_dir . $atype . "/anims/" . $scene_url_noext;
@@ -648,12 +656,14 @@ Array
 
         return $keyval;
 
-} // end function info_injection
+} // end function info_injectionjsonfileattr
 
 
 function info_read($d) {
 
     $jsonfileattr   = $d . 'demons-attr-in.json';
+
+    print "<!--  reading in json attr file: $jsonfileattr -->";
     $jattrinfo      = Array();
     $jsona           = "";
 
@@ -810,7 +820,6 @@ EOCSS;
 
             // SCENE LAYERS - IMAGES of scene $i
             $divId  = "div" . $j;
-//            $tooltiptext .= "\n<br><a href='" . $imgpath . $scene_url[$j] . "' target='_blank'>" . $scene_url[$j] . "</a>";
 
             if ($spritesheetdiv != "") {
 			     $divs .= "$spritesheetdiv \n <!-- spritesheet enabled -->\n";
@@ -858,11 +867,17 @@ EOT;
 
     $elem_link = $_SERVER['PHP_SELF'] . "?sseed=" . $sseed . "&results=1&atype=" . $atype;
 
+    $structtxt = "";
+
+    if ($name_struct != 0) {
+        $structtxt = $name_struct  . " - ";        
+    } 
+
     $tooltiphtml = <<< EOTP
         <div class="scenetitle" style="position: relative;">
 
-<span  id="bottomtip" class="btn-primary .btn-xs " data-toggle="tooltip" data-html="true" title="\nseed: $sseed\nstruct: $name_struct \nname: $scene_name2print \npath: $imgpath\n$tooltiptext">
-                <a href="$elem_link">$name_struct - $scene_name2print </a>
+<span  id="bottomtip" class="btn-primary .btn-xs center-block text-center" data-toggle="tooltip" data-html="true" title="\nseed: $sseed\nstruct: $name_struct \nname: $scene_name2print \npath: $imgpath\n$tooltiptext">
+                <a href="$elem_link">$structtxt $scene_name2print </a>
 </span>
 
         </div>
