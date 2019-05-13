@@ -262,8 +262,11 @@ $vspacer = "";
 
     $elem_pos  = "";
 
-    if ($results == 1) {
+    if ($results == 1 && isset($layout_orient) &&  $layout_orient == 'vertical') {
         $elem_pos  = " left: 400px; ";
+    } else {
+        $elem_pos  = " left: 160px; ";
+
     }
 
     print "\n\n<div id=\"layers\" style=\"position: relative; $elem_pos \">";
@@ -443,7 +446,7 @@ function scene_layers($dir, $i, $layers) {
 
                     $jslayersjs[$nameparts[2]][$extparts[0]] = $keyval;     // simpler names
 
-    print "\n <!-- irc:" . $ircounter++ . "\nnameparts:" ; print_r($nameparts); print " np2:" . $nameparts[2] . " ep0:" . $extparts[0] . "\nkeyval: "; print_r($keyval); print "\n-->" ;
+//    print "\n <!-- irc:" . $ircounter++ . "\nnameparts:" ; print_r($nameparts); print " np2:" . $nameparts[2] . " ep0:" . $extparts[0] . "\nkeyval: "; print_r($keyval); print "\n-->" ;
 
 
 
