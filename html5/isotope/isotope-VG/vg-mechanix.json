@@ -1,0 +1,257 @@
+{
+  "data":
+  {
+    "Symmetric Multiplay": {
+      "name": "Symmetric Multiplay",
+      "number": "1",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "img": "001.png",
+      "symbol": "M",
+      "game": "Pong",
+      "year": 1972
+    },
+    "Shooting": {
+      "name": "Shooting",
+      "number": "2",
+      "data_cat": "avatar",
+      "class": ["avatar", "metal", "arcade"],
+      "img": "002.png",
+      "symbol": "Sh",
+      "game": "Space Invaders",
+      "year": 1978
+    },
+    "Physics": {
+      "name": "Physics",
+      "number": "3",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "003.png",
+      "symbol": "Ph",
+      "game": "Asteroids",
+      "year": 1979
+    },
+    "First Person": {
+      "name": "First Person",
+      "number": "4",
+      "data_cat": "avatar",
+      "class": ["avatar", "metal", "arcade"],
+      "img": "004.png",
+      "symbol": "Fp",
+      "game": "Battlezone",
+      "year": 1980
+    },
+    "Maze": {
+      "name": "Maze",
+      "number": "5",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "005.png",
+      "symbol": "Mz",
+      "game": "Pac Man",
+      "year": 1981
+    },
+    "Power Up": {
+      "name": "Power Up",
+      "number": "6",
+      "data_cat": "avatar",
+      "class": ["avatar", "metal", "arcade"],
+      "img": "006.png",
+      "symbol": "Pw",
+      "game": "Pac Man",
+      "year": 1981
+    },
+    "Scrolling": {
+      "name": "Scrolling",
+      "number": "7",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "007.png",
+      "symbol": "Sc",
+      "game": "Defender",
+      "year": 1981
+    },
+    "Platforms": {
+      "name": "Platforms",
+      "number": "8",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "008.png",
+      "symbol": "Pl",
+      "game": "Donkey Kong",
+      "year": 1981
+    },
+    "Driving": {
+      "name": "Driving",
+      "number": "9",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "009.png",
+      "symbol": "D",
+      "game": "Pole Position",
+      "year": 1982
+    },
+    "Simulation": {
+      "name": "Simulation",
+      "number": "10",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "010.png",
+      "symbol": "S",
+      "game": "Star Trek",
+      "year": 1982
+    },
+    "Quick Time Events": {
+      "name": "Quick Time Events",
+      "number": "11",
+      "data_cat": "interaction",
+      "class": ["interaction", "metal", "arcade"],
+      "img": "011.png",
+      "symbol": "Qt",
+      "game": "Dragon's Lair",
+      "year": 1983
+    },
+    "Puzzle": {
+      "name": "Puzzle",
+      "number": "12",
+      "data_cat": "gameplay",
+      "class": ["gameplay", "nonmetal"],
+      "img": "012.png",
+      "symbol": "P",
+      "game": "Tetris",
+      "year": 1984
+    },
+    "Isometric 3D": {
+      "name": "Isometric 3D",
+      "number": "13",
+      "data_cat": "graphics",
+      "class": ["graphics", "arcade"],
+      "img": "013.png",
+      "symbol": "Ip",
+      "game": "Marble Madness",
+      "year": 1984
+    },
+    "Secrets": {
+      "name": "Secrets",
+      "number": "14",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "014.png",
+      "symbol": "Se",
+      "game": "Pac Land",
+      "year": 1984
+    },
+    "Fighting": {
+      "name": "Fighting",
+      "number": "15",
+      "data_cat": "avatar",
+      "class": ["avatar", "metal", "inner-transition", "arcade"],
+      "img": "015.png",
+      "symbol": "F",
+      "game": "Yie Ar Kung Fu",
+      "year": 1985
+    },
+    "Beat'em Up": {
+      "name": "Beat'em Up",
+      "number": "16",
+      "data_cat": "world",
+      "class": ["world", "nonmetal", "arcade"],
+      "img": "016.png",
+      "symbol": "Bu",
+      "game": "Double Dragon",
+      "year": 1987
+    },
+    "Interactive Film": {
+      "name": "Interactive Film",
+      "number": "17",
+      "data_cat": "graphics",
+      "class": ["graphics", "nonmetal"],
+      "img": "017.png",
+      "symbol": "If",
+      "game": "Another World",
+      "year": 1987
+    },
+    "Graphic Adventure": {
+      "name": "Graphic Adventure",
+      "number": "18",
+      "data_cat": "gameplay",
+      "class": ["gameplay", "nonmetal"],
+      "img": "018.png",
+      "symbol": "Ga",
+      "game": "Monkey Island",
+      "year": 1990
+    },
+    "Stealth": {
+      "name": "Stealth",
+      "number": "19",
+      "data_cat": "avatar",
+      "class": ["avatar", "nonmetal"],
+      "img": "019.png",
+      "symbol": "St",
+      "game": "Metal Gear Solid",
+      "url": "https://www.youtube.com/watch?v=Iz-XTR3pwrE",
+      "year": 1998
+    },
+    "Cooldown": {
+      "name": "Cooldown",
+      "number": "20",
+      "data_cat": "avatar",
+      "class": ["avatar", "nonmetal"],
+      "img": "020.png",
+      "symbol": "Cd",
+      "game": "Everquest",
+      "year": 1999
+    },
+    "Procedural Generation": {
+      "name": "Procedural Generation",
+      "number": "21",
+      "data_cat": "world",
+      "class": ["world", "nonmetal"],
+      "img": "021.png",
+      "symbol": "Pg",
+      "game": "Dwarf Fortress",
+      "year": 2006
+    },
+    "Emergent Gameplay": {
+      "name": "Emergent Gameplay",
+      "number": "22",
+      "data_cat": "gameplay",
+      "class": ["gameplay", "nonmetal"],
+      "img": "022.png",
+      "symbol": "E",
+      "game": "Spelunky",
+      "year": 2009
+    },
+    "Crafting": {
+      "name": "Crafting",
+      "number": "23",
+      "data_cat": "gameplay",
+      "class": ["gameplay", "nonmetal"],
+      "img": "023.png",
+      "symbol": "Cr",
+      "game": "Minecraft",
+      "year": 2011
+    },
+    "Synergies": {
+      "name": "Synergies",
+      "number": "24",
+      "data_cat": "gameplay",
+      "class": ["gameplay", "nonmetal"],
+      "img": "024.png",
+      "symbol": "Sy",
+      "game": "Slay the Spire",
+      "url": "https://www.youtube.com/watch?v=terD4Bk3L_8",
+      "year": 2017
+    }
+
+  },
+  "boolean": true,
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d",
+    "e": "f"
+  },
+  "version": "0.2"
+}

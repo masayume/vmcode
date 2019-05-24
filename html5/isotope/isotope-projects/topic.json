@@ -1,0 +1,173 @@
+{
+  "data":
+  {
+    "Solomon": {
+      "name": "Solomon's World",
+      "number": "1",
+      "data_cat": "player",
+      "class": ["player", "arcade", "checkerboard"],
+      "mechanics": ["grid", "combinatorial", "abstract"],
+      "theme": ["Asia"],
+      "img": "001.png",
+      "designer": "Shimpei Sato",
+      "weight": "1.69", 
+      "year": 2017,
+      "players": [2],
+      "length": 10,
+      "url": "https://boardgamegeek.com/boardgame/160477/onitama"
+    },
+    "Keplerion": {
+      "name": "Keplerion",
+      "number": "2",
+      "data_cat": "player",
+      "class": ["player", "arcade", "checkerboard"],
+      "mechanics": ["grid", "modular board", "abstract"],
+      "theme": ["Asia"],
+      "img": "002.png",
+      "designer": "Dox Lucchin, Pedro Latro",
+      "weight": "2.63", 
+      "year": 2018,
+      "players": [2],
+      "length": 30,
+      "dir": "E:\\PROJECTS\\KEPLERiON",
+      "url": "https://boardgamegeek.com/boardgame/215613/tao-long-way-dragon"
+    },
+    "PaperTales": {
+      "name": "Paper Tales",
+      "number": "3",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["card drafting", "hand management"],
+      "theme": ["Fantasy"],
+      "img": "003.png",
+      "designer": "Masato Uesugi",
+      "weight": "2.15", 
+      "year": 2017,
+      "players": [2, 3, 4],
+      "length": 30,
+      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    },
+    "Dixit": {
+      "name": "Dixit",
+      "number": "12",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["Simultaneous Action Selection","Storytelling", "Voting"],
+      "theme": ["Fantasy"],
+      "img": "012.png",
+      "designer": "Jean-Louis Roubira",
+      "weight": "1.25", 
+      "year": 2008,
+      "players": [3, 4, 5, 6],
+      "length": 30,
+      "url": "https://boardgamegeek.com/boardgame/39856/dixit"
+    },
+    "MageStorm": {
+      "name": "MageStorm",
+      "number": "17",
+      "data_cat": "player",
+      "class": ["player", "arcade", "dice"],
+      "mechanics": ["Action Point Allowance System", "Dice Rolling", "Secret Unit Deployment", "Variable Player Powers"],
+      "theme": ["Fantasy"],
+      "img": "017.png",
+      "designer": "Piero Cioni",
+      "weight": "3.16", 
+      "year": 2010,
+      "players": [2],
+      "length": 60,
+      "url": "https://boardgamegeek.com/boardgame/40816/magestorm"
+    },
+    "KanjiGame": {
+      "name": "The Kanji Game",
+      "number": "20",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["Hand Management"],
+      "theme": ["THEME"],
+      "img": "020.png",
+      "designer": "DESIGNER",
+      "weight": "1.36", 
+      "year": 2010,
+      "players": [2],
+      "length": 15,
+      "url": "https://boardgamegeek.com/boardgame/73313/elements"
+    },
+    "Singularity": {
+      "name": "The Singularity",
+      "number": "22",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["Action Point Allowance System", "Hand Management", "Secret Unit Deployment", "Variable Player Powers", "Family", "Hackers", "Living Card Game"],
+      "theme": ["Cyberpunk"],
+      "img": "022.png",
+      "designer": "Richard Garfield, Lukas Litzsinger",
+      "weight": "3.36", 
+      "year": 2018,
+      "players": [2],
+      "length": 45,
+      "dir": "E:\\PROJECTS\\cyberrogue boardgame",
+      "url": "https://boardgamegeek.com/boardgame/124742/android-netrunner"
+    },
+    "Tapestry": {
+      "name": "Passa Parola",
+      "number": "29",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "029.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "year": 1901,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    }
+
+
+  },
+  "template":
+  {
+    "GAME.1": {
+      "name": "GAME.1",
+      "number": "30",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "030.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "year": 1901,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    },
+    "GAME.2": {
+      "name": "GAME.1",
+      "number": "31",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "031.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "year": 1901,
+      "players": [2, 3, 4],
+      "length": 0,
+      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    }
+
+  },
+  "boolean": true,
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d",
+    "e": "f"
+  },
+  "description": "masayume Boardgame Collection",
+  "version": "0.3"
+}

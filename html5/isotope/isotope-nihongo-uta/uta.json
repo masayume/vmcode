@@ -1,0 +1,105 @@
+{
+  "data":
+  {
+    "Mirai Nikki": {
+      "number": "1",
+      "name": "Mirai Nikki",
+      "symbol": "未来日記",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "img": "001.jpg",
+      "url-yt": "https://www.youtube.com/watch?v=I59V9pjEOLI",
+      "url-mal": "https://myanimelist.net/anime/10620/Mirai_Nikki",
+      "url-lyr": "animelyrics",
+      "complexity": 1,
+      "year": 2011
+    },
+    "Angel Beats": {
+      "number": "2",
+      "name": "Angel Beats",
+      "symbol": "エンジェルビーツ",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "img": "002.jpg",
+      "url-yt": "https://www.youtube.com/watch?v=Yp8fb8lu30Q",
+      "url-mal": "https://www.animelyrics.com/anime/angelbeats/mysoulyourbeats.htm",
+      "url-lyr": "animelyrics",
+      "complexity": 1,
+      "year": 2010
+    },
+    "Bokurano": {
+      "number": "3",
+      "name": "Bokurano",
+      "symbol": "ぼくらの",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "img": "003.jpg",
+      "url-yt": "https://www.youtube.com/watch?v=s6P-rEylWaQ",
+      "url-mal": "https://myanimelist.net/anime/1690/Bokurano",
+      "url-lyr": "https://www.animelyrics.com/anime/bokurano/uninstall.htm",
+      "complexity": 1,
+      "year": 2007
+    },
+    "Uchuu Senkan Yamato": {
+      "number": "4",
+      "name": "Uchuu Senkan Yamato",
+      "symbol": "宇宙戦艦ヤマト",
+      "data_cat": "avatar",
+      "class": ["avatar", "metal", "arcade"],
+      "img": "004.png",
+      "url-yt": "youtube",
+      "url-mal": "myanimelist",
+      "url-lyr": "animelyrics",
+      "complexity": 1,
+      "year": 1974
+    },
+    "Super Driver": {
+      "number": "5",
+      "name": "Super Driver",
+      "symbol": "Super Driver",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "005.png",
+      "url-yt": "youtube",
+      "url-mal": "myanimelist",
+      "url-lyr": "animelyrics",
+      "complexity": 1,
+      "year": 2009
+    },
+    "Tonari no Totoro": {
+      "number": "6",
+      "name": "Tonari no Totoro",
+      "symbol": "となりのトトロ",
+      "data_cat": "avatar",
+      "class": ["avatar", "metal", "arcade"],
+      "img": "006.png",
+      "url-yt": "youtube",
+      "url-mal": "myanimelist",
+      "url-lyr": "animelyrics",
+      "complexity": 1,
+      "year": 1988
+    },
+    "Hunter x Hunter": {
+      "number": "7",
+      "name": "Hunter x Hunter",
+      "symbol": "ハンター×ハンタ",
+      "data_cat": "world",
+      "class": ["world", "metal", "arcade"],
+      "img": "007.png",
+      "url-yt": "youtube",
+      "url-mal": "myanimelist",
+      "url-lyr": "animelyrics",
+      "complexity": 1,
+      "year": 2011
+    }
+  },
+  "boolean": true,
+  "null": null,
+  "number": 123,
+  "animelyrics": {
+    "a": "https://www.animelyrics.com/anime/_A",
+    "c": "d",
+    "e": "f"
+  },
+  "version": "0.3"
+}
