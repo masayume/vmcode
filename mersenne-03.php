@@ -264,9 +264,10 @@ $vspacer = "";
 
     if ($results == 1 && isset($layout_orient) &&  $layout_orient == 'vertical') {
         $elem_pos  = " left: 400px; ";
-    } else {
+    } else if ($results == 1) {
         $elem_pos  = " left: 160px; ";
-
+    } else {
+        $elem_pos  = " left: 40px; ";
     }
 
     print "\n\n<div id=\"layers\" style=\"position: relative; $elem_pos \">";
