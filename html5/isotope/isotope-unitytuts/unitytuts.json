@@ -211,7 +211,7 @@
       "name": "MMD to Unity",
       "number": "13",
       "data_cat": "player",
-      "class": ["player", "3D", "material", "model", "animation"],
+      "class": ["player", "3D", "model", "animation"],
       "theme": ["game"],
       "img": "0013.webp",
       "author": "Unity",
@@ -223,7 +223,25 @@
       "url": "https://www.youtube.com/watch?v=BzcTn2x_8Dw",
       "localdir": "",
       "notes": "MMD import model into unity"
+    },
+    "0014": {
+      "name": "Cinemachine",
+      "number": "14",
+      "data_cat": "player",
+      "class": ["player", "3D", "camera", "animation"],
+      "theme": ["game"],
+      "img": "0014.jpg",
+      "author": "Unity",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 20,
+      "url": "https://unity.com/unity/features/editor/art-and-design/cinemachine",
+      "localdir": "",
+      "notes": "https://blogs.unity3d.com/2018/07/17/cinemachine-for-2d-tips-and-tricks"
     }
+
 
 
 
