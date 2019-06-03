@@ -240,7 +240,25 @@
       "url": "https://unity.com/unity/features/editor/art-and-design/cinemachine",
       "localdir": "",
       "notes": "https://blogs.unity3d.com/2018/07/17/cinemachine-for-2d-tips-and-tricks"
+    },
+    "0015": {
+      "name": "Cinemachine",
+      "number": "15",
+      "data_cat": "player",
+      "class": ["player", "2D", "AI", "pathfinding"],
+      "theme": ["game"],
+      "img": "0015.jpg",
+      "author": "Unity",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 20,
+      "url": "https://www.youtube.com/watch?v=jvtFUfJ6CP8",
+      "localdir": "",
+      "notes": "how to make 2D pathfinding with and without code"
     }
+
 
 
 
