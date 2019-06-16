@@ -625,9 +625,36 @@ Array
         $keyval = Array(
                 "type" => $dtype, 
                 "img" => $entry, 
-                "partname" => $partname, 
-                "effect" => $effect
+//                "partname" => $partname, 
+//                "effect" => $effect
         );
+
+        if ($nameparts[2] == "HE" && $atype == 'demonship') {                    // HEAD definition (pattern)
+/*
+            if (isset($demonname["HE"][$numpart])) {
+                $partname   = $demonname["HE"][$numpart];                            
+            } else {
+                $partname   = "2bdef";
+            }
+            $dtype      = "head";
+            $effect     = "pattern:M";
+*/
+
+            $bulletid = rand(1,25);
+            if ($bulletid < 10)  {
+                $bulletid = "0" . $bulletid;
+            } else {
+                $bulletid = "" . $bulletid;
+            }
+            $keyval = Array(
+                "type" => $dtype, 
+                "img" => $entry, 
+                "bid" => $bulletid, 
+//                "effect" => $effect
+            );
+
+        } 
+
 
         if (!empty($spshda)) {
             $spritesheetname    = explode('/', $spshda["spritesheet"]);
@@ -660,7 +687,7 @@ Array
 
         return $keyval;
 
-} // end function info_injectionjsonfileattr
+} // end function info_injection
 
 
 function info_read($d) {
