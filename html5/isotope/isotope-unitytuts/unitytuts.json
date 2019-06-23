@@ -257,6 +257,23 @@
       "url": "https://www.youtube.com/watch?v=jvtFUfJ6CP8",
       "localdir": "",
       "notes": "how to make 2D pathfinding with and without code"
+    },
+    "0016": {
+      "name": "2D lights",
+      "number": "6",
+      "data_cat": "player",
+      "class": ["player", "2D", "lights"],
+      "theme": ["game"],
+      "img": "0016.jpg",
+      "author": "Unity",
+      "rating": 2, 
+      "weight": 1, 
+      "year": 2019,
+      "players": [1],
+      "length": 14,
+      "url": "https://www.youtube.com/watch?v=nkgGyO9VG54",
+      "localdir": "",
+      "notes": "2D Lights in Unity"
     }
 
 
