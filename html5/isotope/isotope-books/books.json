@@ -1495,6 +1495,21 @@
       "players": [1],
       "length": 504,
       "url": "https://www.goodreads.com/book/show/40058473-codices-illustres"
+    },
+    "Saghe Mentali": {
+      "name": "Saghe Mentali",
+      "number": "102",
+      "data_cat": "player",
+      "class": ["player", "books"],
+      "theme": ["musica"],
+      "img": "0102.jpg",
+      "author": "Caparezza",
+      "store": "???", 
+      "weight": "", 
+      "year": 2008,
+      "players": [1],
+      "length": 400,
+      "url": "https://www.goodreads.com/book/show/41884502-saghe-mentali-2008-2018-il-ritorno-di-un-libro-mitico"
     }
 
 
