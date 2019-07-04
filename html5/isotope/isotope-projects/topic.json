@@ -32,20 +32,21 @@
       "dir": "E:\\PROJECTS\\KEPLERiON",
       "url": "https://boardgamegeek.com/boardgame/215613/tao-long-way-dragon"
     },
-    "PaperTales": {
-      "name": "Paper Tales",
+    "Scraping": {
+      "name": "Scraping",
       "number": "3",
       "data_cat": "player",
       "class": ["player", "arcade", "cards"],
-      "mechanics": ["card drafting", "hand management"],
-      "theme": ["Fantasy"],
-      "img": "003.png",
-      "designer": "Masato Uesugi",
+      "mechanics": ["scraping", "node", "headless chrome", "puppeteer"],
+      "theme": ["tools"],
+      "img": "004.png",
+      "designer": "",
       "weight": "2.15", 
       "year": 2017,
-      "players": [2, 3, 4],
+      "players": [2],
       "length": 30,
-      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+      "url": "https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0",
+      "locale": "~/SCRAPE/scrape-puppeteer"
     },
     "Dixit": {
       "name": "Dixit",
