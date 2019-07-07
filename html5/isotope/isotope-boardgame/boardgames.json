@@ -572,6 +572,51 @@
       "players": [1,2,3,4,5],
       "length": 150,
       "url": "https://boardgamegeek.com/boardgame/248562/mage-knight-ultimate-edition"
+    },
+    "DungeonRoll": {
+      "name": "Dungeon Roll",
+      "number": "40",
+      "data_cat": "player",
+      "class": ["player", "resources"],
+      "mechanics": ["Dice Rolling", "Hand Management", "Press Your Luck", "Variable Player Powers"],
+      "theme": ["fantasy"],
+      "img": "040.jpg",
+      "designer": "Chris Darden",
+      "weight": "1.34", 
+      "year": 2013,
+      "players": [1, 2, 3, 4],
+      "length": 15,
+      "url": "https://boardgamegeek.com/boardgame/138788/dungeon-roll"
+    },
+    "7th Continent": {
+      "name": "The Seventh Continent",
+      "number": "41",
+      "data_cat": "player",
+      "class": ["player", "resources"],
+      "mechanics": ["Cooperative Play", "Grid Movement", "Hand Management", "Modular Board", "Storytelling", "Variable Player Powers" ],
+      "theme": ["exploration"],
+      "img": "041.jpg",
+      "designer": "Ludovic Roudy, Bruno Sautter",
+      "weight": "2.85", 
+      "year": 2017,
+      "players": [1, 2, 3, 4],
+      "length": 1000,
+      "url": "https://boardgamegeek.com/boardgame/180263/7th-continent"
+    },
+    "Bloodborne CG": {
+      "name": "Cloodborne Card Game",
+      "number": "42",
+      "data_cat": "player",
+      "class": ["player", "cards"],
+      "mechanics": ["Card Drafting", "Dice Rolling", "Hand Management", "Press Your Luck", "Set Collection", "Simultaneous Action Selection", "Variable Player Powers"],
+      "theme": ["fantasy"],
+      "img": "042.jpg",
+      "designer": "Eric M. Lang",
+      "weight": "2.05", 
+      "year": 2016,
+      "players": [1, 2, 3, 4],
+      "length": 40,
+      "url": "https://boardgamegeek.com/boardgame/195856/bloodborne-card-game"
     }
    
 

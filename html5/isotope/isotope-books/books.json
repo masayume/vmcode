@@ -1510,6 +1510,21 @@
       "players": [1],
       "length": 400,
       "url": "https://www.goodreads.com/book/show/41884502-saghe-mentali-2008-2018-il-ritorno-di-un-libro-mitico"
+    },
+    "DireQuasi": {
+      "name": "Dire Quasi la Stessa Cosa",
+      "number": "103",
+      "data_cat": "player",
+      "class": ["player", "books"],
+      "theme": ["cultura"],
+      "img": "0103.jpg",
+      "author": "Umberto Eco",
+      "store": "???", 
+      "weight": "", 
+      "year": 2001,
+      "players": [1],
+      "length": 391,
+      "url": "https://www.goodreads.com/book/show/20524856-dire-quasi-la-stessa-cosa-esperienze-di-traduzione"
     }
 
 
