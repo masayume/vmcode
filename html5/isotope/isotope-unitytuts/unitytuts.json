@@ -326,10 +326,24 @@
       "url-package": "https://blogs.unity3d.com/2019/05/28/speed-up-your-work-with-the-new-terrain-tools-package",
       "localdir": "",
       "notes": "How to make Terrain in Unity"
+    },
+    "0020": {
+      "name": "Celeste 2D movement",
+      "number": "1",
+      "data_cat": "player",
+      "class": ["player", "2D", "movement", "animation"],
+      "theme": ["character"],
+      "img": "0020.jpg",
+      "author": "Mix and Jam",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 6,
+      "url": "https://www.youtube.com/watch?v=STyY26a_dPY",
+      "localdir": "",
+      "notes": "animazione e movimento di un personaggio 2D"
     }
-
-
-
 
 
   },
