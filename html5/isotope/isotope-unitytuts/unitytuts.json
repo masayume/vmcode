@@ -360,8 +360,24 @@
       "url": "https://www.youtube.com/watch?v=JVbr7osMYTo",
       "localdir": "",
       "notes": "movement 3D "
+    },
+    "0022": {
+      "name": "Controller",
+      "number": "22",
+      "data_cat": "player",
+      "class": ["player", "3D", "input", "movement", "controller"],
+      "theme": ["input"],
+      "img": "0022.jpg",
+      "author": "Brackeys",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 6,
+      "url": "https://www.youtube.com/watch?v=p-3S73MaDP8",
+      "localdir": "",
+      "notes": "controller input "
     }
-
 
 
 
