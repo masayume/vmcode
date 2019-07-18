@@ -377,9 +377,41 @@
       "url": "https://www.youtube.com/watch?v=p-3S73MaDP8",
       "localdir": "",
       "notes": "controller input "
+    },
+    "0023": {
+      "name": "Camera Design",
+      "number": "23",
+      "data_cat": "player",
+      "class": ["player", "3D", "camera"],
+      "theme": ["camera"],
+      "img": "0023.webp",
+      "author": "Divinos Dev",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 6,
+      "url": "",
+      "localdir": "https://www.youtube.com/watch?v=lCcKgUkFwSw",
+      "notes": "Camera Design "
+    },
+    "0024": {
+      "name": "Cinemachine",
+      "number": "24",
+      "data_cat": "player",
+      "class": ["player", "3D", "camera"],
+      "theme": ["camera"],
+      "img": "0024.webp",
+      "author": "Divinos Dev",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 6,
+      "url": "",
+      "localdir": "",
+      "notes": "https://www.youtube.com/watch?v=Bdjnkeqw2sA"
     }
-
-
 
 
   },
