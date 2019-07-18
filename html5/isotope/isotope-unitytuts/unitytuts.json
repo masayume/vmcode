@@ -170,6 +170,7 @@
       "players": [1],
       "length": 150,
       "url": "https://create.unity3d.com/2d-game-kit-lesson-1",
+      "url2": "https://learn.unity.com/project/2d-game-kit",
       "localdir": "E:\\UNITY.PROJECTS\\C#-??\\C#000",
       "notes": "utile per ..."
     },
@@ -390,9 +391,9 @@
       "weight": 2, 
       "year": 2019,
       "players": [1],
-      "length": 6,
-      "url": "",
-      "localdir": "https://www.youtube.com/watch?v=lCcKgUkFwSw",
+      "length": 10,
+      "url": "https://www.youtube.com/watch?v=lCcKgUkFwSw",
+      "localdir": "",
       "notes": "Camera Design "
     },
     "0024": {
@@ -408,9 +409,9 @@
       "year": 2019,
       "players": [1],
       "length": 6,
-      "url": "",
+      "url": "https://www.youtube.com/watch?v=Bdjnkeqw2sA",
       "localdir": "",
-      "notes": "https://www.youtube.com/watch?v=Bdjnkeqw2sA"
+      "notes": "cinemachine tutorial"
     }
 
 
