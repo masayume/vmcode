@@ -383,7 +383,7 @@
       "name": "Camera Design",
       "number": "23",
       "data_cat": "player",
-      "class": ["player", "3D", "camera"],
+      "class": ["player", "3D", "camera", "design", "DONE"],
       "theme": ["camera"],
       "img": "0023.webp",
       "author": "Divinos Dev",
