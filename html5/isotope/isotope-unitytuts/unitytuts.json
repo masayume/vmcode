@@ -412,6 +412,23 @@
       "url": "https://www.youtube.com/watch?v=Bdjnkeqw2sA",
       "localdir": "",
       "notes": "cinemachine tutorial"
+    },
+    "0025": {
+      "name": "Catlikecoding",
+      "number": "25",
+      "data_cat": "player",
+      "class": ["player", "3D", "scripts"],
+      "theme": ["camera"],
+      "img": "0025.jpg",
+      "author": "Cat Like Coding",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 6,
+      "url": "https://catlikecoding.com/unity/tutorials/",
+      "localdir": "",
+      "notes": "tutorial"
     }
 
 
