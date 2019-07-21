@@ -1525,8 +1525,67 @@
       "players": [1],
       "length": 391,
       "url": "https://www.goodreads.com/book/show/20524856-dire-quasi-la-stessa-cosa-esperienze-di-traduzione"
+    },
+    "Mangasia": {
+      "name": "Mangasia",
+      "number": "104",
+      "data_cat": "player",
+      "class": ["player", "books", "reference"],
+      "theme": ["cultura"],
+      "img": "0104.jpg",
+      "author": "Paul Gravett",
+      "store": "???", 
+      "weight": "", 
+      "year": 2017,
+      "players": [1],
+      "length": 320,
+      "url": "https://www.goodreads.com/book/show/29082600-mangasia"
+    },
+    "QuadratiMagici": {
+      "name": "Quadrati Magici, Labirinti, Origami ",
+      "number": "105",
+      "data_cat": "player",
+      "class": ["player", "books", "reference"],
+      "theme": ["cultura"],
+      "img": "0105.jpg",
+      "author": "Martin Gardner",
+      "store": "???", 
+      "weight": "", 
+      "year": 2017,
+      "players": [1],
+      "length": 260,
+      "url": "https://www.goodreads.com/book/show/38337648-quadrati-magici-labirinti-origami"
+    },
+    "QuadratiMagici": {
+      "name": "Quadrati Magici, Labirinti, Origami ",
+      "number": "105",
+      "data_cat": "player",
+      "class": ["player", "books", "reference"],
+      "theme": ["cultura"],
+      "img": "0105.jpg",
+      "author": "Martin Gardner",
+      "store": "???", 
+      "weight": "", 
+      "year": 2017,
+      "players": [1],
+      "length": 260,
+      "url": "https://www.goodreads.com/book/show/38337648-quadrati-magici-labirinti-origami"
+    },
+    "CapirePsicologia10": {
+      "name": "Capire la psicologia: percezione e memoria ",
+      "number": "106",
+      "data_cat": "player",
+      "class": ["player", "books"],
+      "theme": ["cultura"],
+      "img": "0106.jpg",
+      "author": "Anna Giardini, Ilaria Baiardini, Barbara Cacciola, Marina Maffoni, Laura Ranzini, Francesca Sicuro",
+      "store": "???", 
+      "weight": "", 
+      "year": 2016,
+      "players": [1],
+      "length": 142,
+      "url": "https://www.goodreads.com/book/show/35845075-oliver-sacks-i-risvegli"
     }
-
 
 
 
