@@ -444,6 +444,7 @@
       "players": [1],
       "length": 26,
       "url": "https://www.youtube.com/watch?v=spBn7Vjah5s",
+      "url2": "https://www.reddit.com/r/Unity3D/comments/9yy3hq/vfx_graph_tutorials_here_are_some_that_ive_found/",
       "git": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples/releases",
       "localdir": "",
       "notes": "Visual Effects Graph tutorial"
