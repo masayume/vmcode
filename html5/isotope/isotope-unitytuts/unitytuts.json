@@ -429,7 +429,26 @@
       "url": "https://catlikecoding.com/unity/tutorials/",
       "localdir": "",
       "notes": "tutorial"
+    },
+    "0026": {
+      "name": "VisualFXGraph",
+      "number": "26",
+      "data_cat": "player",
+      "class": ["player", "3D", "effects", "fx"],
+      "theme": ["fx"],
+      "img": "0026.jpg",
+      "author": "Cat Like Coding",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 26,
+      "url": "https://www.youtube.com/watch?v=spBn7Vjah5s",
+      "git": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples/releases",
+      "localdir": "",
+      "notes": "Visual Effects Graph tutorial"
     }
+
 
 
   },
