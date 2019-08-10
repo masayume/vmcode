@@ -448,8 +448,24 @@
       "git": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples/releases",
       "localdir": "",
       "notes": "Visual Effects Graph tutorial"
+    },
+    "0027": {
+      "name": "DG.Dotween",
+      "number": "27",
+      "data_cat": "player",
+      "class": ["player", "2D", "effects", "fx", "gui", "animation"],
+      "theme": ["package"],
+      "img": "0027.jpg",
+      "author": "Demigiant",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 26,
+      "url": "http://dotween.demigiant.com/documentation.php",
+      "localdir": "",
+      "notes": "Visual Effects tween animation"
     }
-
 
 
   },
