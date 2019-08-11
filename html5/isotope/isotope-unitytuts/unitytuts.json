@@ -465,7 +465,25 @@
       "url": "http://dotween.demigiant.com/documentation.php",
       "localdir": "",
       "notes": "Visual Effects tween animation"
+    },
+    "0028": {
+      "name": "Top Down Move",
+      "number": "28",
+      "data_cat": "player",
+      "class": ["player", "2D", "movement", "animation"],
+      "theme": ["movement"],
+      "img": "0028.jpg",
+      "author": "Brackeys",
+      "rating": 3,
+      "weight": 2,
+      "year": 2019,
+      "players": [1],
+      "length": 22,
+      "url": "https://www.youtube.com/watch?v=whzomFgjT50",
+      "localdir": "",
+      "notes": "Top Down character movement animation"
     }
+
 
 
   },
