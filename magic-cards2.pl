@@ -613,7 +613,31 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		$cssmanastyle = &manacost2style($carddata{'ManaCost'});
 
-		$cddata		= "<small>Imagefile: $imagefile<br>image filename: $cdname<br >textfile2: $textfile2 <br>Size: $size  </small>";
+		$cddata		=<<"EOF";
+<!-- The text field -->
+<input type="text" value="$carddata{'Name'}.full.jpg" id="myInput" size="42">
+<!-- The button used to copy the text -->
+<button onclick="myFunction()">Copy</button>
+<br><small>Imagefile: $imagefile
+<br>image filename: $cdname
+<br >textfile2: $textfile2 
+<br>Size: $size  </small>
+<script type='text/javascript'>
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+EOF
 
 		my ($clevel, $klevel) = &calculate_level($carddata{'ManaCost'}, $carddata{'Rarity'}, $type, $text3, $text2, $k);
 
