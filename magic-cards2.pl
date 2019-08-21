@@ -615,17 +615,17 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		$cddata		=<<"EOF";
 <!-- The text field -->
-<input type="text" value="$carddata{'Name'}.full.jpg" id="myInput" size="42">
+<input type="text" value="$carddata{'Name'}.full.jpg" id="myInput$i" size="42">
 <!-- The button used to copy the text -->
-<button onclick="myFunction()">Copy</button>
+<button onclick="myFunction$i()">Copy</button>
 <br><small>Imagefile: $imagefile
 <br>image filename: $cdname
 <br >textfile2: $textfile2 
 <br>Size: $size  </small>
 <script type='text/javascript'>
-function myFunction() {
+function myFunction$i() {
   /* Get the text field */
-  var copyText = document.getElementById("myInput");
+  var copyText = document.getElementById("myInput$i");
 
   /* Select the text field */
   copyText.select();
@@ -634,7 +634,7 @@ function myFunction() {
   document.execCommand("copy");
 
   /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
+//  alert("Copied the text: " + copyText.value);
 }
 </script>
 EOF
