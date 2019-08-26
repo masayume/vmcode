@@ -161,7 +161,7 @@
      , "inspire/@pixelart/_waneella-017.gif"     , "inspire/@pixelart/_waneella-018.gif"
      , "inspire/@pixelart/_waneella-019.gif"     , "inspire/@pixelart/_waneella-020.gif"
      , "inspire/@pixelart/_waneella-021.gif"     , "inspire/@pixelart/_waneella-022.gif"
-     , "inspire/@pixelart/_waneella-023.gif"     
+     , "inspire/@pixelart/_waneella-023.gif"     , "inspire/@pixelart/_waneella-024.gif" 
      , "inspire/@CARTOONS/@gif%20animations/_rDavey-001.gif"     , "inspire/@CARTOONS/@gif%20animations/_rDavey-002.gif"
      , "inspire/@CARTOONS/@gif%20animations/_rDavey-003.gif"     , "inspire/@CARTOONS/@gif%20animations/_rDavey-004.gif"
      , "inspire/@CARTOONS/@gif%20animations/_rDavey-005.gif"     , "inspire/@CARTOONS/@gif%20animations/_rDavey-006.gif"
