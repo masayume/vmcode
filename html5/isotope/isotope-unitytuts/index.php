@@ -41,6 +41,7 @@
   <button class="button" data-filter=".automation">automation</button>
   <button class="button" data-filter=".scripting">scripting</button>
   <button class="button" data-filter=".shader">shader</button>
+  <button class="button" data-filter=".assetstore">ASSETS</button>
   <button class="button" data-filter=".GUI">GUI</button>
   <button class="button" data-filter=".DONE">DONE</button>
   <button class="button" data-filter=".NOTYET">not yet</button>
