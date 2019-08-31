@@ -604,7 +604,7 @@
       "url": "https://boardgamegeek.com/boardgame/180263/7th-continent"
     },
     "Bloodborne CG": {
-      "name": "Cloodborne Card Game",
+      "name": "Bloodborne Card Game",
       "number": "42",
       "data_cat": "player",
       "class": ["player", "cards"],
@@ -617,6 +617,21 @@
       "players": [1, 2, 3, 4],
       "length": 40,
       "url": "https://boardgamegeek.com/boardgame/195856/bloodborne-card-game"
+    },
+    "Hanafuda": {
+      "name": "Hanafuda",
+      "number": "43",
+      "data_cat": "player",
+      "class": ["player", "cards"],
+      "mechanics": ["Hand Management", "Press Your Luck", "Set Collection"],
+      "theme": ["japan"],
+      "img": "043.jpg",
+      "designer": "unknown",
+      "weight": "1.71", 
+      "year": 1701,
+      "players": [2, 3, 4, 5, 6, 7],
+      "length": 60,
+      "url": "https://boardgamegeek.com/boardgame/5451/hanafuda"
     }
    
 
