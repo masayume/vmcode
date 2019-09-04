@@ -14,8 +14,14 @@
 ### functions
 #	page_footer: 
 
+### NEXT
+# smartwrite2 da cardlist deve 
+# 	 - RIMUOVERE la vecchia copia del file .old
+# 	 - SALVARE una copia del file attuale come /usr/lib/cgi-bin/mtglsfile2.list.old
+# 	 - GENERARE la nuova versione del file /usr/lib/cgi-bin/mtglsfile2.list
+#  	 - ESEGUIRE il diff per avere la lista delle nuove carte
+
 ### TODO:
-### insert seed in URL
 ### insert game icons: http://game-icons.net/
 ### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
 ### :570 card type/skill tokens => what happens
@@ -162,6 +168,10 @@ sub smartwrite2 { # writes mtglsfile2.list
 	my ($dir, $lsfile2) = @_;
 
 	$lsfile = '/home/masayume/cgi-bin/' . $lsfile2;
+	$lsfileold = '/home/masayume/cgi-bin/' . $lsfile2 . '.old';
+
+	`rm $lsfile`;
+	`cp $lsfile $lsfileold`;
 
 	$retval = `head -1 $dir2/?/*.txt | grep Name: | sed s/^Name:// > /tmp/tempfile`;
 	# `cp $lsfile /tmp/tempfile; dos2unix /tmp/tempfile;`;
@@ -173,6 +183,11 @@ sub smartwrite2 { # writes mtglsfile2.list
 	close FILE;
 
 	print "<br>written (cardsfolder) file <b>$lsfile</b>";
+	print "<br>old version written (cardsfolder) file <b>$lsfileold</b>";
+
+	$diff = `diff $lsfileold $lsfile `;
+	print "<br><br><br><br><hr><pre>" . $diff;
+
 	exit(0);
 
 }
@@ -1004,7 +1019,7 @@ sub page_footer {
 	my ($lsfile) = @_;
 
 	my ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,$atime,$mtime,$ctime,$blksize,$blocks) = stat($lsfile) if -e $lsfile ;
-	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . "<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'>generate card list file</a> (from images)<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite2=1'>generate card list file</a> (from cardsfolder) ";
+	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . "<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'><b>generate card list file</b></a> (from images)<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite2=1'>generate card list file</a> (from cardsfolder) ";
 
     my $page =<<"EOF";
 
