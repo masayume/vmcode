@@ -35,7 +35,8 @@ small {
 	word-break: break-word;
 }
 .info { font-size: 14px;  }
-.title { height: 40px; line-height: 40px; padding-left: 20px; margin-top: -14px; }
+.title { height: 40px; line-height: 40px; padding-left: 20px; margin-top: -12px; }
+.longtitle { height: 40px; line-height: 40px; padding-left: 0px; margin-top: -12px; letter-spacing: -2px; }
 .strenght { 
 	position: relative; 
 	top: -16px;
