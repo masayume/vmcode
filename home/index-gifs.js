@@ -225,6 +225,11 @@
      , "inspire/@CARTOONS/@gif%20animations/wow-011.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-012.gif"
      , "inspire/@CARTOONS/@gif%20animations/wow-013.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-014.gif"
      , "inspire/@CARTOONS/@gif%20animations/wow-015.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-016.gif"
+     , "inspire/@CARTOONS/@gif%20animations/wow-017.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-018.gif"
+     , "inspire/@CARTOONS/@gif%20animations/wow-019.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-020.gif"
+     , "inspire/@CARTOONS/@gif%20animations/wow-015.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-022.gif"
+     , "inspire/@CARTOONS/@gif%20animations/wow-023.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-024.gif"
+     , "inspire/@CARTOONS/@gif%20animations/wow-025.gif"        , "inspire/@CARTOONS/@gif%20animations/wow-026.gif"
 
     ];
     
