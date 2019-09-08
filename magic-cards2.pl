@@ -355,6 +355,7 @@ sub textfile {
         $newtf  =~ s/\s/_/g;
         $newtf  =~ s/\-/_/g;
         $newtf  =~ s/\?//g;
+        $newtf  =~ s/\!//g;
         $newtf  =~ s/[:]//g;
         $newtf  =~ s/full\.//;
         $newtf 	=~ s/\.jpg$/\.txt/;
