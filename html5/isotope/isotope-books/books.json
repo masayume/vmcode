@@ -1585,9 +1585,52 @@
       "players": [1],
       "length": 142,
       "url": "https://www.goodreads.com/book/show/35845075-oliver-sacks-i-risvegli"
+    },
+    "Fumetto150anni": {
+      "name": "Fumetto! 150 anni di storie italiane",
+      "number": "107",
+      "data_cat": "player",
+      "class": ["player", "books", "Fumetti"],
+      "theme": ["reference"],
+      "img": "0107.jpg",
+      "author": "Gianni Bono, Matteo Stefanelli",
+      "store": "???", 
+      "weight": "", 
+      "year": 2012,
+      "players": [1],
+      "length": 576,
+      "url": "https://www.goodreads.com/book/show/16122538-fumetto-150-anni-di-storie-italiane"
+    },
+    "PensieriPascal": {
+      "name": "Pensieri",
+      "number": "108",
+      "data_cat": "player",
+      "class": ["player", "books"],
+      "theme": ["cultura"],
+      "img": "0108.jpg",
+      "author": "Blaise Pascal",
+      "store": "???", 
+      "weight": "", 
+      "year": 1670,
+      "players": [1],
+      "length": 274,
+      "url": "https://www.goodreads.com/book/show/42604703-pensieri?from_search=true"
+    },
+    "ItaliaCipputi": {
+      "name": "L'italia Di Cipputi",
+      "number": "109",
+      "data_cat": "player",
+      "class": ["player", "books", "Fumetti"],
+      "theme": ["reference"],
+      "img": "0109.jpg",
+      "author": "Altan",
+      "store": "???", 
+      "weight": "", 
+      "year": 2005,
+      "players": [1],
+      "length": 410,
+      "url": "https://www.goodreads.com/book/show/10475367-l-italia-di-cipputi?from_search=true"
     }
-
-
 
 
   },
