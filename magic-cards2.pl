@@ -676,14 +676,20 @@ EOF
 		if ($titlelength > 26) {
 			$cssTitleStyle = "longtitle";
 		}
+
+#####################################
 ### card panel main template
+#####################################
+
 	    $selected .= "\n<td>\n\n<!-- COLUMN NUMBER $i -->\n\n<div id=\"selectable$i\" onclick=\"selectText('selectable$i')\" class='$cssmanastyle $cssTitleStyle' ><h2>" . $carddata{'Name'}. "</h2></div>\n\n" . 
 	    	"<hr>" .
 #	    	"length: " . $titlelength . "<br>" .  
 	    	"color: $cssmanastyle" . $level . $life . $strenght .  
 
 	    	"<hr><div class='info'>" . "type(s): <b>" . $carddata{'Types'} . "</b>" . 
-	    	"<br>power/thoughness: $pt<br>Special: $k<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b>" . 
+	    	"<br>power/thoughness: $pt" .
+	    	"<br><span style='word-break: break-all;'>Special: $k</span>" . 
+	    	"<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b>" . 
 	    	"<br>Level: $clevel (kl: $klevel )<br><hr>$cddata</hr>$skills<hr>" . 
 	        "</div><div class='wordnet'>" . 
 	        "\n\n<div class='magicpre'><small>$ltext<hr>$wordnet_an</small></div></td></div>";
