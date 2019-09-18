@@ -1630,6 +1630,21 @@
       "players": [1],
       "length": 410,
       "url": "https://www.goodreads.com/book/show/10475367-l-italia-di-cipputi?from_search=true"
+    },
+    "Voci": {
+      "name": "Voci e Altre Storie",
+      "number": "110",
+      "data_cat": "player",
+      "class": ["player", "books", "Fumetti"],
+      "theme": ["horror"],
+      "img": "0110.jpg",
+      "author": "Junji Ito",
+      "store": "???", 
+      "weight": "", 
+      "year": 2019,
+      "players": [1],
+      "length": 322,
+      "url": "https://www.goodreads.com/book/show/43697000-voci-e-altre-storie"
     }
 
 
