@@ -95,6 +95,7 @@ if ($QUERY{'l'}) { # image list with low resolution in evidence
 } elsif ($QUERY{'wordnet'}) {
 	print &listwordnet;
 } elsif ($QUERY{'dbupdate'}) {
+	&createdb;
 	&updatedb;
 } elsif ($QUERY{'wtt'}) {
         &wordtypetest;
@@ -291,7 +292,7 @@ sub db_extract {
 	$query{'lands'}	= "SELECT * FROM `cards` WHERE types like 'Land'"; ### lands
 	$query{'lands3'} = "SELECT * FROM `cards` WHERE types like 'Land' AND level = 3"; ### lands of level 3 (rare)
 	$query{'lands2'} = "SELECT * FROM `cards` WHERE types like 'Land' AND level = 2"; ### lands of level 2 (uncommon)
-	$query{'lands1'} = "SELECT * FROM `cards` WHERE types like 'Land' AND level = 1"; ### lands of level 1 (common)
+	$query{'lands1'} = "SELECT * FROM `cards` WHERE types like 'Land' AND level = 0"; ### lands of level 1 (common)
 	$query{'creature5'} = "SELECT * FROM `cards` WHERE types like '%Creature%' AND level > 5"; ### creature more than level 5 (common)
 	$query{'creatureW'} = "SELECT * FROM `cards` WHERE types like '%Creature%' AND manacost like '%W%'"; ### white creatures
 
@@ -369,7 +370,35 @@ sub textfile {
 
 # ==========================================================================
 
+sub createdb {
+
+	my $dbh = &connect;
+
+# "cards" table structure
+	$query = "Drop TABLE if exists `cards` ";
+
+	$dbh->do($query);
+
+	$query = "CREATE TABLE `cards` ( `name` varchar(255) COLLATE utf8_bin NOT NULL, `types` varchar(255) COLLATE utf8_bin NOT NULL, `manacost` varchar(55) COLLATE utf8_bin NOT NULL, `text` varchar(512) COLLATE utf8_bin NOT NULL, `rarity` varchar(55) COLLATE utf8_bin NOT NULL, `set` varchar(55) COLLATE utf8_bin NOT NULL, `image` varchar(55) COLLATE utf8_bin NOT NULL, `external_image` varchar(55) COLLATE utf8_bin NOT NULL, `power` varchar(55) COLLATE utf8_bin NOT NULL, `toughness` varchar(55) COLLATE utf8_bin NOT NULL, `level` varchar(55) COLLATE utf8_bin NOT NULL, `note` varchar(512) COLLATE utf8_bin NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin";
+
+	$dbh->do($query);
+
+	if ($@) {
+		$| = 1; # autoflush on
+	     	$MESSAGE = "<br><b>ERROR</b>: dbh->do($query) failed. $@";
+	     	print  "<br ><b>$nome</b> $i failed - $MESSAGE\n\n";					
+	}
+	
+
+    $dbh->disconnect();
+
+} # end sub createdb
+
 sub updatedb {
+
+		# Execute anytime before the <STDIN>.
+		# Causes the currently selected handle to be flushed after every print.
+	$| = 1;
 
         # Connessione al database
 	my $dbh = &connect;
@@ -378,7 +407,7 @@ sub updatedb {
         foreach $card (reverse(@cards)) {
 		$i++;
 
-        # $textfile = '/home/masayume/forge/cards/' . substr($card,0,1) . "/" . $card;
+        	# $textfile = '/home/masayume/forge/cards/' . substr($card,0,1) . "/" . $card;
         $textfile = $cardsfolder . lc(substr($card,0,1)) . "/" . $card;
 
         $imagefile = '/var/www/cards2/' . $card; # image file path
@@ -408,12 +437,14 @@ sub updatedb {
 	        	};
 			if ($@) {
 				$| = 1; # autoflush on
-	      			$MESSAGE = "<br><b>ERROR</b>: dbh->do($query) failed. $@";
+	      		$MESSAGE = "<br><b>ERROR</b>: dbh->do($query) failed. $@";
 				if ($MESSAGE !~ /Duplicate entry/) {
 	      				print  "<br ><b>$nome</b> $i failed - $MESSAGE\n\n";
+				} else {
+	      				print  "<br ><b>$nome</b> $i failed - $MESSAGE\n\n";					
 				}
-	      		}
-      		}
+	      	}
+      	}
 
 
 # if ($i > 100) { last; }
@@ -1041,7 +1072,7 @@ sub page_footer {
 <div style="padding-left: 20px; width: 500px;">
 <small>
 <br><br>
-<b>$#cards cards in directory: $dir </b> - <a href="file:///C:/Users/mcorradi/AppData/Local/Forge/Cache/pics/cards/" target="_blank">C:\\Users\\mcorradi\\AppData\\Local\\Forge\\Cache\\pics\\cards</a> 
+<b>$#cards cards in directory: $dir </b> - <a href="file:///home/masayume/DATA/C/pics/cards/" target="_blank">file:///home/masayume/DATA/C/pics/cards/</a> 
 <br>$filestats
 <br><a href="/css/magic-cards.css" target="_blank">magic-cards.css</a> in /var/www/html/css/
 <br><a href="/js/" target="_blank">javascript libraries</a> in /var/www/html/js/
