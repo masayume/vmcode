@@ -1621,7 +1621,7 @@
       "number": "109",
       "data_cat": "player",
       "class": ["player", "books", "Fumetti"],
-      "theme": ["reference"],
+      "theme": ["umorismo"],
       "img": "0109.jpg",
       "author": "Altan",
       "store": "???", 
@@ -1644,6 +1644,21 @@
       "year": 2019,
       "players": [1],
       "length": 322,
+      "url": "https://www.goodreads.com/book/show/43697000-voci-e-altre-storie"
+    },
+    "IlBuioColpisceAncora": {
+      "name": "Il Buio Colpisce Ancora",
+      "number": "111",
+      "data_cat": "player",
+      "class": ["player", "books", "Fumetti"],
+      "theme": ["umorismo"],
+      "img": "0111.jpg",
+      "author": "Leo Ortolani",
+      "store": "???", 
+      "weight": "", 
+      "year": 2019,
+      "players": [1],
+      "length": 198,
       "url": "https://www.goodreads.com/book/show/43697000-voci-e-altre-storie"
     }
 
