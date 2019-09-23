@@ -14,15 +14,18 @@
 ### functions
 #	page_footer: 
 
-### NEXT
+### TOCHECK (next release)
 # smartwrite2 da cardlist deve 
 # 	 - RIMUOVERE la vecchia copia del file .old
 # 	 - SALVARE una copia del file attuale come /usr/lib/cgi-bin/mtglsfile2.list.old
 # 	 - GENERARE la nuova versione del file /usr/lib/cgi-bin/mtglsfile2.list
 #  	 - ESEGUIRE il diff per avere la lista delle nuove carte
 
-### TODO:
+### TODO NEXT:
 ### insert game icons: http://game-icons.net/
+#		where do I put them ? (cards subdirectory)
+
+### TODO:
 ### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
 ### :570 card type/skill tokens => what happens
 ### :??? auto generate cardlist files by type 
@@ -690,7 +693,10 @@ EOF
 
 		$ltext =~ s/[\|\n]/<br>/g; 		# $ltext =~ s/\n/<br>/g;
 
+#####################################
 ### card tokens
+#####################################
+
 		my $strenght = ""; my $life = ""; my $level = "";
 		if ($power > 0) {
 			$strenght = "<div class='strenght'>" . "" . $power . "</div>";
@@ -702,11 +708,32 @@ EOF
 			$level = "<div class='level'>" . "" . $clevel . "</div>";
 		}
 
+#####################################
+### skill icons calculation ($k)
+#####################################
+
+		$skillicons_html 	= "";
+		@skills 			= split /\|/, $k;
+		foreach $skill (@skills)
+		{
+			@skillraw			= split /[\:,\.]/, $skill;
+			$skill 				= $skillraw[0]; 
+			$skillicon_path 	= "/cards2/skillicons/";
+			$skill 				= &skillmapper($skill);
+			$skill 				.= ".png";
+			$skillicons_html 	.= "<div class='skillicon'><img class='skilliconimg' src='" . $skillicon_path . $skill . "'></div>";
+
+			#card image path ?
+		}
+
+
 		$titlelength = length $carddata{'Name'};
 		$cssTitleStyle = "title";
 		if ($titlelength > 26) {
 			$cssTitleStyle = "longtitle";
 		}
+
+
 
 #####################################
 ### card panel main template
@@ -714,10 +741,11 @@ EOF
 
 	    $selected .= "\n<td>\n\n<!-- COLUMN NUMBER $i -->\n\n<div id=\"selectable$i\" onclick=\"selectText('selectable$i')\" class='$cssmanastyle $cssTitleStyle' ><h2>" . $carddata{'Name'}. "</h2></div>\n\n" . 
 	    	"<hr>" .
-#	    	"length: " . $titlelength . "<br>" .  
-	    	"color: $cssmanastyle" . $level . $life . $strenght .  
 
-	    	"<hr><div class='info'>" . "type(s): <b>" . $carddata{'Types'} . "</b>" . 
+	    	"&nbsp;" . $level . $skillicons_html . $life . $strenght .  
+
+	    	"<hr><div class='info'>color: $cssmanastyle" . 
+	    	"<br>type(s): <b>" . $carddata{'Types'} . "</b>" . 
 	    	"<br>power/thoughness: $pt" .
 	    	"<br><span style='word-break: break-all;'>Special: $k</span>" . 
 	    	"<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b>" . 
@@ -736,6 +764,114 @@ EOF
 	return $cards_html;
 
 } #end sub cards
+
+sub skillmapper {
+		my $skill2map = $_[0];
+		
+		%mapper = (
+		    "CARDNAME enters the battlefield tapped"  => "Entertapped",
+		    "Hideaway"  	=> "Entertapped",
+		    "Awaken"  		=> "Summon",
+		    "Creatures with power less than CARDNAME's power can't block it" => "Powerunblock",
+		    "Enchant artifact" 				=> "Enchant item",
+		    "Enchant artifact you control" 	=> "Enchant item",
+		    "Enchant creature you control" 	=> "Enchant creature",
+		    "Enchant artifact or creature" 	=> "Enchant item",
+		    "Enchant non-Wall creature"  	=> "Enchant creature",
+		    "Enchant creature or Vehicle"  	=> "Enchant land",
+		    "Enchant nonbasic land"  		=> "Enchant land",
+		    "Enchant enchantment"  			=> "Enchant item",
+		    "CARDNAME can't be countered"  	=> "Nocounter",
+		    "CARDNAME attacks each combat if able" => "Rage",
+		    "CARDNAME can block an additional creature each combat"  => "Blocker",
+		    "All creatures able to block CARDNAME do so"	=> "Blocker",
+		    "CARDNAME can block any number of creatures"  	=> "Bushido",
+		    "CARDNAME can block only creatures with flying"	=> "Blockflying",
+		    "Exploit"  		=> "Pick",
+		    "Transmute"  	=> "Pick",
+		    "Dash"  		=> "Haste",
+		    "Double Strike"	=> "First Strike",
+		    "Afterlife"  	=> "Flashback",
+		    "Buyback"  		=> "Flashback",
+		    "Dredge"  		=> "Flashback",
+		    "Persist"  		=> "Flashback",
+		    "Recover"  		=> "Flashback",
+		    "Soulshift"  	=> "Flashback",
+		    "Unearth"  		=> "Flashback",
+		    "Embalm"  		=> "Champion",
+		    "ETBReplacement:Other:DBNameCard"  => "Indestructible",
+		    "CARDNAME doesn't untap during your untap step"  => "UpkeepCost",
+		    "AlternateAdditionalCost"  => "UpkeepCost",
+		    "Cumulative upkeep"  => "UpkeepCost",
+		    "Emerge"  		=> "UpkeepCost",
+		    "Miracle"  		=> "UpkeepCost",
+		    "Splice"  		=> "UpkeepCost",
+		    "CARDNAME can't block" 	=> "Shrug",
+		    "CantBlock Artifact" 	=> "Shrug",
+		    "Storm"  		=> "Cast",
+		    "You may choose not to untap CARDNAME during your untap step"  => "Buff",
+		    "Ascend"  		=> "Buff",
+		    "Bloodthirst"  	=> "Buff",
+		    "Devour"  		=> "Buff",
+		    "Evolve"  		=> "Buff",
+		    "Exalted"  		=> "Buff",
+		    "Level up"  	=> "Buff",
+		    "Melee"  		=> "Buff",
+		    "Mentor"  		=> "Buff",
+		    "Modular"  		=> "Buff",
+		    "Monstrosity"  	=> "Buff",
+		    "Outlast"  		=> "Buff",
+		    "Riot"  		=> "Buff",
+		    "Scavenge"  	=> "Buff",
+		    "Sunburst"  	=> "Buff",
+		    "etbCounter"  	=> "Buff",
+		    "Extort"  		=> "Lifelink",
+		    "Plainswalk"  	=> "Islandwalk",
+		    "Forestwalk"  	=> "Islandwalk",
+		    "Infect"  		=> "Wither",
+		    "ETBReplacement:Other:ChooseCT"  => "Cost",
+		    "Cascade"  		=> "Cost",
+		    "Convoke"  		=> "Cost",
+		    "Echo"  		=> "Cost",
+		    "Evoke"  		=> "Cost",
+		    "Improvise"  	=> "Cost",
+		    "Kicker"  		=> "Cost",
+		    "Madness"  		=> "Cost",
+		    "Multikicker"  	=> "Cost",
+		    "Prowl"  		=> "Cost",
+		    "Spectacle"  	=> "Cost",
+		    "Strive"  		=> "Cost",
+		    "ETBReplacement:Other:ChooseColor"  => "Color",
+		    "ETBReplacement:Other:LandTapped"  	=> "Color",
+		    "ETBReplacement"  					=> "Color",
+		    "MayEffectFromOpeningHand"  		=> "Color",
+		    "Protection from black"  	=> "Protection",
+		    "Protection from green"  	=> "Protection",
+		    "Protection from blue"  	=> "Protection",
+		    "Protection from red"  		=> "Protection",
+		    "Protection from white"  	=> "Protection",
+		    "Dethrone"  	=> "Attack",
+		    "Intimidate"  	=> "Menace",
+		    "Megamorph"  	=> "Morph",
+		    "Phasing"  		=> "Fading",
+		    "MayFlashSac"  	=> "Changetype",
+		    "TypeCycling"  	=> "Cycling",
+		    "Delve"  		=> "Discard",
+		    "Flanking"  	=> "Banding",
+		    "Soulbond"  	=> "Banding",
+		    "Living Weapon" => "Living",
+		    "Vanishing" 	=> "Suspend"
+
+		);
+
+		$mapped = $mapper{$skill2map};
+
+		if (!$mapped) {
+			$mapped = $skill2map;
+		}
+
+		return $mapped;
+}
 
 sub manacost2style {
 	my $manacost = $_[0];
