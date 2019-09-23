@@ -323,6 +323,23 @@
       "url": "/HTML5/holden/index.php?folder=@STYLE%20style/MISC",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0020": {
+      "name": "GPT-2",
+      "number": "20",
+      "data_cat": "player",
+      "class": ["player", "3D", "material", "shader", "procedural", "DONE"],
+      "theme": ["story"],
+      "img": "wf020.png",
+      "author": "",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 20,
+      "url": "https://talktotransformer.com/",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
