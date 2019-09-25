@@ -733,7 +733,17 @@ EOF
 			$cssTitleStyle = "longtitle";
 		}
 
+		$ptstring = "";
+		if ($power > 0 && $toughness > 0) {
+			# $ptstring = "<br>power/thoughness: $pt";
+			$ptstring = " (" . $pt . ")";
+		} 
 
+		$specialstring = "";
+		if ($k) {
+			# $ptstring = "<br>power/thoughness: $pt";
+			$specialstring = "<br><span style='word-break: break-all;'>Special: <b>$k</b></span>";
+		} 
 
 #####################################
 ### card panel main template
@@ -744,10 +754,12 @@ EOF
 
 	    	"&nbsp;" . $level . $skillicons_html . $life . $strenght .  
 
-	    	"<hr><div class='info'>color: $cssmanastyle" . 
-	    	"<br>type(s): <b>" . $carddata{'Types'} . "</b>" . 
-	    	"<br>power/thoughness: $pt" .
-	    	"<br><span style='word-break: break-all;'>Special: $k</span>" . 
+	    	"<hr><div class='info'>" .  
+	    	# "color: $cssmanastyle" . 
+	    	"<br>type(s): <b>" . ucfirst($cssmanastyle) . " " . $carddata{'Types'} .  $ptstring . "</b>" . 
+	    	# "<br>power/thoughness: $pt" .
+	    	# "<br><span style='word-break: break-all;'>Special: <b>$k</b></span>" . 
+	    	$specialstring . 
 	    	"<br>mana cost: <b>" . $carddata{'ManaCost'} . "</b>" . 
 	    	"<br>Level: $clevel (kl: $klevel )<br><hr>$cddata</hr>$skills<hr>" . 
 	        "</div><div class='wordnet'>" . 
@@ -837,9 +849,6 @@ sub skillmapper {
 		    "ETBReplacement:Other:LandTapped"  	=> "Color",
 		    "ETBReplacement"  					=> "Color",
 		    "MayEffectFromOpeningHand"  		=> "Color",
-		    "CantBeBlockedBy Artifact" 	=> "Shrug",
-		    "CARDNAME can't block" 	=> "Shrug",
-		    "CantBlock Artifact" 	=> "Shrug",
 		    "Storm"  		=> "Cast",
 		    "You may choose not to untap CARDNAME during your untap step"  => "Buff",
 		    "Ascend"  		=> "Buff",
@@ -862,6 +871,10 @@ sub skillmapper {
 		    "Scavenge"  	=> "Buff",
 		    "Sunburst"  	=> "Buff",
 		    "Tribute"  		=> "Buff",
+		    "CARDNAME can't attack alone" 	=> "Shrug",
+		    "CantBeBlockedBy Artifact" 	=> "Shrug",
+		    "CARDNAME can't block" 	=> "Shrug",
+		    "CantBlock Artifact" 	=> "Shrug",
 		    "Extort"  		=> "Lifelink",
 		    "Plainswalk"  	=> "Islandwalk",
 		    "Forestwalk"  	=> "Islandwalk",
