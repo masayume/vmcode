@@ -483,6 +483,23 @@
       "localdir": "",
       "notes": "Top Down character movement animation"
     },
+    "0029": {
+      "name": "Create with Code",
+      "number": "29",
+      "data_cat": "player",
+      "class": ["player", "2D", "movement", "sound", "mechanics", "interface"],
+      "theme": ["general"],
+      "img": "0029.webp",
+      "author": "Unity",
+      "rating": 3,
+      "weight": 2,
+      "year": 2019,
+      "players": [1],
+      "length": 2160,
+      "url": "https://learn.unity.com/course/create-with-code",
+      "localdir": "",
+      "notes": "general course"
+    },
 
 
     "ass001": {
