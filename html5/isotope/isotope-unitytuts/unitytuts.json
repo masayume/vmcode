@@ -500,6 +500,40 @@
       "localdir": "",
       "notes": "general course"
     },
+    "0030": {
+      "name": "Shadertoy to Unity",
+      "number": "30",
+      "data_cat": "player",
+      "class": ["player", "3D", "animation", "shader", "effects"],
+      "theme": ["shader"],
+      "img": "0030.jpg",
+      "author": "Art of Code",
+      "rating": 3,
+      "weight": 2,
+      "year": 2018,
+      "players": [1],
+      "length": 20,
+      "url": "https://www.youtube.com/watch?v=CzORVWFvZ28",
+      "localdir": "",
+      "notes": "general course"
+    },
+    "0031": {
+      "name": "First Shader in Unity",
+      "number": "31",
+      "data_cat": "player",
+      "class": ["player", "3D", "animation", "shader", "effects"],
+      "theme": ["shader"],
+      "img": "0031.webp",
+      "author": "Unity",
+      "rating": 3,
+      "weight": 2,
+      "year": 2018,
+      "players": [1],
+      "length": 50,
+      "url": "https://www.youtube.com/watch?v=zCkC5e_Pkz4",
+      "localdir": "",
+      "notes": "general course"
+    },
 
 
     "ass001": {
