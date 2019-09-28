@@ -1675,6 +1675,36 @@
       "players": [1],
       "length": 112,
       "url": "https://www.goodreads.com/book/show/17794789-l-origine-della-distanza"
+    },
+    "LibroMatematica": {
+      "name": "Il libro della matematica",
+      "number": "113",
+      "data_cat": "player",
+      "class": ["player", "books"],
+      "theme": ["matematica"],
+      "img": "0113.jpg",
+      "author": "Martin Pickford",
+      "store": "???", 
+      "weight": "", 
+      "year": 2009,
+      "players": [1],
+      "length": 528,
+      "url": "https://www.goodreads.com/book/show/22092574-il-libro-della-matematica-da-pitagora-alla-57esima-dimensione"
+    },
+    "ArtePane": {
+      "name": "L'arte di Fare il Pane",
+      "number": "114",
+      "data_cat": "player",
+      "class": ["player", "books"],
+      "theme": ["make"],
+      "img": "0114.jpg",
+      "author": "Julia Ponsonby",
+      "store": "???", 
+      "weight": "", 
+      "year": 2014,
+      "players": [1],
+      "length": 144,
+      "url": "https://www.goodreads.com/book/show/25836645-the-art-of-mindful-baking"
     }
 
 
