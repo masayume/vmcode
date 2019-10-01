@@ -454,7 +454,7 @@ sub updatedb {
 
 	} # card loop
 
-        $dbh->disconnect();
+    $dbh->disconnect();
 
 
 } # end sub updatedb
@@ -857,6 +857,7 @@ sub skillmapper {
 		    "Devour"  		=> "Buff",
 		    "Evolve"  		=> "Buff",
 		    "etbCounter"  	=> "Buff",
+		    "Escalate"  	=> "Buff",
 		    "Exalted"  		=> "Buff",
 		    "Fabricate"  	=> "Buff",
 		    "Graft"  		=> "Buff",
@@ -883,6 +884,7 @@ sub skillmapper {
 		    "Annihilator"  	=> "Destroy",
 		    "Rebound"  		=> "Changetype",
 		    "ETBReplacement:Other:ChooseCT" 	=> "Cost",
+		    "Affinity"  	=> "Cost",
 		    "Cascade"  		=> "Cost",
 		    "Convoke"  		=> "Cost",
 		    "Echo"  		=> "Cost",
