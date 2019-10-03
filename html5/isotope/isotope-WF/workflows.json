@@ -340,6 +340,23 @@
       "url": "https://talktotransformer.com/",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0021": {
+      "name": "Rex",
+      "number": "21",
+      "data_cat": "player",
+      "class": ["player", "3D", "material", "shader", "style"],
+      "theme": ["style"],
+      "img": "wf021.jpg",
+      "author": "Rex Crowle",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 33,
+      "url": "https://www.youtube.com/watch?v=a83kZpeU0HU",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
