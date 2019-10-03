@@ -22,8 +22,7 @@
 #  	 - ESEGUIRE il diff per avere la lista delle nuove carte
 
 ### TODO NEXT:
-### insert game icons: http://game-icons.net/
-#		where do I put them ? (cards subdirectory)
+#   select only cardtype (lands etc.) (use DB or mtglsfile23.list)
 
 ### TODO:
 ### :631 (cardimage) image url image.full.jpg may be image1.full.jpg/image2.full.jpg in some cases 
