@@ -534,6 +534,23 @@
       "localdir": "",
       "notes": "general course"
     },
+    "0032": {
+      "name": "Ultimate Guide to Game Dev with Unity 2019",
+      "number": "31",
+      "data_cat": "player",
+      "class": ["player", "3D", "2D", "controller", "animation", "prefab", "effects", "DONE"],
+      "theme": ["general"],
+      "img": "0032.jpg",
+      "author": "Jonathan Weinberger",
+      "rating": 3,
+      "weight": 2,
+      "year": 2019,
+      "players": [1],
+      "length": 1800,
+      "url": "https://www.udemy.com/course/the-ultimate-guide-to-game-development-with-unity/",
+      "localdir": "",
+      "notes": "general course"
+    },
 
 
     "ass001": {
