@@ -632,6 +632,21 @@
       "players": [2, 3, 4, 5, 6, 7],
       "length": 60,
       "url": "https://boardgamegeek.com/boardgame/5451/hanafuda"
+    },
+    "FairyTale": {
+      "name": "Fairy Tale",
+      "number": "44",
+      "data_cat": "player",
+      "class": ["player", "cards"],
+      "mechanics": ["Card Drafting", "Drafting", "Hand Management", "Set Collection", "Simultaneous Action Selection"],
+      "theme": ["fantasy"],
+      "img": "044.jpg",
+      "designer": "Satoshi Nakamura",
+      "weight": "1.76", 
+      "year": 2004,
+      "players": [2, 3, 4, 5],
+      "length": 30,
+      "url": "https://boardgamegeek.com/boardgame/13823/fairy-tale"
     }
    
 
