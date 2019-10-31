@@ -910,6 +910,7 @@ sub skillmapper {
 		    "Protection from artifacts"	=> "Protection",
 		    "Protection from Dragons"	=> "Protection",
 		    "Protection from Demons"	=> "Protection",
+		    "Protection from Goblins"	=> "Protection",
 		    "Totem armor"  	=> "Prevent",
 		    "Dethrone"  	=> "Attack",
 		    "CantBeBlockedByAmount"  	=> "Menace",
