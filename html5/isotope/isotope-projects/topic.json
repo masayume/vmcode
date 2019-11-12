@@ -48,35 +48,36 @@
       "url": "https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0",
       "locale": "~/SCRAPE/scrape-puppeteer"
     },
-    "Dixit": {
-      "name": "Dixit",
+    "CardRogue": {
+      "name": "CardRogue",
       "number": "12",
       "data_cat": "player",
       "class": ["player", "arcade"],
       "mechanics": ["Simultaneous Action Selection","Storytelling", "Voting"],
       "theme": ["Fantasy"],
-      "img": "012.png",
-      "designer": "Jean-Louis Roubira",
+      "img": "018.jpg",
+      "designer": "masayume",
       "weight": "1.25", 
-      "year": 2008,
+      "year": 2019,
       "players": [3, 4, 5, 6],
       "length": 30,
       "url": "https://boardgamegeek.com/boardgame/39856/dixit"
     },
-    "MageStorm": {
-      "name": "MageStorm",
+    "Intellivision": {
+      "name": "Intellivision remake",
       "number": "17",
       "data_cat": "player",
       "class": ["player", "arcade", "dice"],
       "mechanics": ["Action Point Allowance System", "Dice Rolling", "Secret Unit Deployment", "Variable Player Powers"],
       "theme": ["Fantasy"],
-      "img": "017.png",
-      "designer": "Piero Cioni",
+      "img": "017.gif",
+      "designer": "more8bit",
       "weight": "3.16", 
-      "year": 2010,
+      "year": 2019,
       "players": [2],
       "length": 60,
-      "url": "https://boardgamegeek.com/boardgame/40816/magestorm"
+      "url": "https://www.youtube.com/watch?v=IJn0SS2WyGc",
+      "url2": "https://twitter.com/more8bit?lang=en"
     },
     "KanjiGame": {
       "name": "The Kanji Game",
