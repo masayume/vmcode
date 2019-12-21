@@ -1705,7 +1705,38 @@
       "players": [1],
       "length": 144,
       "url": "https://www.goodreads.com/book/show/25836645-the-art-of-mindful-baking"
+    },
+    "PiratiBriganti": {
+      "name": "Pirati, Briganti e Carambate",
+      "number": "115",
+      "data_cat": "player",
+      "class": ["player", "comics", "books", "reference"],
+      "theme": ["Fumetti"],
+      "img": "0115.jpg",
+      "author": "Benito Jacovitti",
+      "store": "???", 
+      "weight": "", 
+      "year": 2011,
+      "players": [1],
+      "length": 261,
+      "url": "https://www.goodreads.com/book/show/23351622-pirati-briganti-e-carambate"
+    },
+    "CapireFareReinventareFumetto": {
+      "name": "Capire, fare e reinventare il fumetto",
+      "number": "116",
+      "data_cat": "player",
+      "class": ["player", "comics", "books", "reference"],
+      "theme": ["comics", "meta"],
+      "img": "0116.jpg",
+      "author": "Scott McCloud",
+      "store": "???", 
+      "weight": "", 
+      "year": 2018,
+      "players": [1],
+      "length": 752,
+      "url": "https://www.goodreads.com/book/show/42270867-capire-fare-e-reinventare-il-fumetto"
     }
+
 
 
   },
