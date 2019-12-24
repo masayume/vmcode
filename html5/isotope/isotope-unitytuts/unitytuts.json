@@ -585,6 +585,23 @@
       "localdir": "",
       "notes": "general course"
     },
+    "0035": {
+      "name": "Platformer Mini",
+      "number": "35",
+      "data_cat": "player",
+      "class": ["player", "2D", "arcade", "platform"],
+      "theme": ["platform"],
+      "img": "0035.jpg",
+      "author": "Unity",
+      "rating": 3,
+      "weight": 2,
+      "year": 2019,
+      "players": [1],
+      "length": 18,
+      "url": "https://learn.unity.com/project/2d-platformer-template",
+      "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#08",
+      "notes": "2D platformer demo project"
+    },
 
 
     "ass001": {
