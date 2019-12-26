@@ -603,6 +603,24 @@
       "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#08",
       "notes": "2D platformer demo project"
     },
+    "0036": {
+      "name": "Lost Crypt",
+      "number": "36",
+      "data_cat": "player",
+      "class": ["player", "2D", "arcade", "platform"],
+      "theme": ["package"],
+      "img": "0036.jpg",
+      "author": "Unity",
+      "rating": 3,
+      "weight": 2,
+      "year": 2019,
+      "players": [1],
+      "length": 18,
+      "url": "https://learn.unity.com/project/2d-platformer-template",
+      "source": "https://assetstore.unity.com/packages/essentials/tutorial-projects/lost-crypt-2d-sample-project-158673",
+      "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#09",
+      "notes": "2D platformer demo project"
+    },
 
 
     "ass001": {
