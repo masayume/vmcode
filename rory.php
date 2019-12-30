@@ -1,6 +1,6 @@
 <?php
 
-$path = "/VM/rory/story/";		// directory immagini
+$path = "/VM/rory/story/";		// directory immagini (in realtà /home/masayume/DATA/E/Temp/HTML5/rory/ => )
 $dice = array(); // story-d1-1.jpg	// array del dado globale
 $rdie = array();
 $packs = array("story");		
