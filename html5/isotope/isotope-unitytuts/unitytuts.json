@@ -621,6 +621,24 @@
       "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#09",
       "notes": "2D platformer demo project"
     },
+    "0036": {
+      "name": "Pac Man",
+      "number": "37",
+      "data_cat": "player",
+      "class": ["player", "2D", "arcade", "platform"],
+      "theme": ["arcade"],
+      "img": "0037.png",
+      "author": "Unity",
+      "rating": 3,
+      "weight": 2,
+      "year": 2014,
+      "players": [1],
+      "length": 100,
+      "url": "https://noobtuts.com/unity/2d-pacman-game",
+      "source": "https://noobtuts.com/unity/2d-pacman-game",
+      "localdir": "",
+      "notes": "2D pacman project"
+    },
 
 
     "ass001": {
