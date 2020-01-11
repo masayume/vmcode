@@ -657,6 +657,24 @@
       "localdir": "",
       "notes": "2D arkanoid project"
     },
+    "0039": {
+      "name": "Fussball",
+      "number": "39",
+      "data_cat": "player",
+      "class": ["player", "2D", "arcade", "sport", "AI"],
+      "theme": ["arcade"],
+      "img": "0039.gif",
+      "author": "Unity",
+      "rating": 3,
+      "weight": 2,
+      "year": 2019,
+      "players": [1],
+      "length": 100,
+      "url": "https://github.com/nuno-faria/pixelfoosball",
+      "online": "https://nuno-faria.itch.io/pixelfoosball",
+      "localdir": "",
+      "notes": "2D fussball project"
+    },
 
 
 
