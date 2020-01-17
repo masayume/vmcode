@@ -1735,8 +1735,37 @@
       "players": [1],
       "length": 752,
       "url": "https://www.goodreads.com/book/show/42270867-capire-fare-e-reinventare-il-fumetto"
+    },
+    "IlMondoDiSofia": {
+      "name": "Il Mondo Di Sofia",
+      "number": "117",
+      "data_cat": "player",
+      "class": ["player", "books", "filosofia"],
+      "theme": ["meta"],
+      "img": "0117.jpg",
+      "author": "Jostein Gaarder",
+      "store": "???", 
+      "weight": "", 
+      "year": 1991,
+      "players": [1],
+      "length": 550,
+      "url": "https://www.goodreads.com/book/show/46155283-il-mondo-di-sofia"
+    },
+    "MitiDelNord": {
+      "name": "Miti Del Nord",
+      "number": "118",
+      "data_cat": "player",
+      "class": ["player", "books", "reference"],
+      "theme": ["mitologia", "meta"],
+      "img": "0118.jpg",
+      "author": "Neil Gaiman",
+      "store": "???", 
+      "weight": "", 
+      "year": 2017,
+      "players": [1],
+      "length": 224,
+      "url": "https://www.goodreads.com/book/show/42124452-miti-del-nord"
     }
-
 
 
   },
