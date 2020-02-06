@@ -45,6 +45,7 @@ use List::Util qw(shuffle);
 use DBI;
 use MyCompound; # custom module for wordnet v2 analysis (check compounds and word types (verb, name, adj.) based on frequency (polysemy count))
 use Config::Simple;
+use URI::Escape;
 
 my $cfg 	= new Config::Simple('magic-app.ini');
 my $Config 	= $cfg->vars();
@@ -58,7 +59,7 @@ my (%POST, %QUERY, @cards);
 &parse_args;
 
 $cardsnum 		= 3;
-$dir 			= $Config->{ImageDir}; 			# IMAGE cards directory
+$dir 			= $Config->{ImageDir}; 	# IMAGE cards directory
 $dir2			= $Config->{CardDir}; 	# TEXT cards directory 
 $lsfile			= 'mtglsfile.list';
 $lsfile2		= 'mtglsfile2.list';
@@ -107,6 +108,8 @@ if ($QUERY{'l'}) { # image list with low resolution in evidence
         &smartwrite2($dir2, $lsfile2);
 } elsif ($QUERY{'autowrite'}) { # reads cards IMAGE directory
         &autowrite($dir, $lsfile_prefx, $lsfile_sufx);
+} elsif ($QUERY{'realimagelist'}) { # check new missing images from the cards.diff file after Forge version upgrade
+        &realimagelist('/home/masayume/cgi-bin/cards.diff');
 } elsif ($QUERY{'lowfi'}) {
         &lowficardread();
 } elsif ($QUERY{'dbxtract'}) {
@@ -172,8 +175,16 @@ sub smartwrite2 { # writes mtglsfile2.list
 
 	$lsfile = '/home/masayume/cgi-bin/' . $lsfile2;
 	$lsfileold = '/home/masayume/cgi-bin/' . $lsfile2 . '.old';
+	$lsfileold = '/home/masayume/cgi-bin/' . $lsfile2 . '.vold';
+	$difffile = '/home/masayume/cgi-bin/' . 'cards.diff';
 
-	`rm $lsfile`;
+# ENABLEME
+	`rm $difffile`;
+
+#	`rm $lsfile`;
+#	`cp $lsfile $lsfileold`;
+
+	`cp $lsfileold $lsfilevold`;
 	`cp $lsfile $lsfileold`;
 
 	$retval = `head -1 $dir2/?/*.txt | grep Name: | sed s/^Name:// > /tmp/tempfile`;
@@ -191,9 +202,59 @@ sub smartwrite2 { # writes mtglsfile2.list
 	$diff = `diff $lsfileold $lsfile `;
 	print "<br><br><br><br><hr><pre>" . $diff;
 
+# ENABLEME
+	open (FILE, "> $$difffile") or print "Could NOT write file $$difffile."; 
+	print FILE $diff;
+	close FILE;
+
+	# "diff" cards have a "> " prefix 
+	&realimagelist($difffile); 
+
 	exit(0);
 
-}
+} # end sub smartwrite2
+
+
+sub realimagelist {
+
+	my @cards = ();
+	my ($difffile) = @_;
+
+	open (FILE, "< $difffile") or print "Could NOT READ file $lsfile."; 
+	@cards = <FILE>;
+	close FILE;
+
+	$i = 0;
+	print "<h2>$dir</h2>";
+
+	$existing = "\n\n<br><h1>EXISTING FILES:</h1>";
+	foreach $image (@cards) {
+		if ($image =~ /^>/) {
+			$image =~ s/^> //;
+
+			$filename = $dir . $image;
+			chomp $filename;
+
+#			print "<br> check filename <b>" . $filename . "</b>";
+
+			if (-e "$filename") {
+					$existing .= "<br>" . $image . 'exists';
+			} else {
+				print "<br>" . $i++ ." " . $image ;
+				$image2src = uri_escape($image);
+				$image2src =~ s/.full.jpg%0A//;;
+				print " doesn't exist. - " . "<a href='http://magiccards.info/query?q=" . $image2src . "&v=card&s=cname' target='_blank'>$image</a> - <a href='/cards2/$image' target='_blank'>local </a>";
+
+			}
+
+			# image directory 
+
+		}
+	}
+
+	print $existing;
+
+} # end sub realimagelist
 
 sub autowrite { # writes mtglsfile2.list
 
