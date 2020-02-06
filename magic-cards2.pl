@@ -226,6 +226,7 @@ sub realimagelist {
 
 	$i = 0;
 	print "<h2>$dir</h2>";
+	print "<table border=1>";
 
 	$existing = "\n\n<br><h1>EXISTING FILES:</h1>";
 	foreach $image (@cards) {
@@ -235,15 +236,16 @@ sub realimagelist {
 			$filename = $dir . $image;
 			chomp $filename;
 
+
 #			print "<br> check filename <b>" . $filename . "</b>";
 
 			if (-e "$filename") {
 					$existing .= "<br>" . $image . 'exists';
 			} else {
-				print "<br>" . $i++ ." " . $image ;
+				print "\n<tr><td>" . $i++ ." </td><td> " ;
 				$image2src = uri_escape($image);
-				$image2src =~ s/.full.jpg%0A//;;
-				print " doesn't exist. - " . "<a href='http://magiccards.info/query?q=" . $image2src . "&v=card&s=cname' target='_blank'>$image</a> - <a href='/cards2/$image' target='_blank'>local </a>";
+				$image2src =~ s/.full.jpg%0A//;
+				print " <a href='http://magiccards.info/query?q=" . $image2src . "&v=card&s=cname' target='_blank'>$image</a> </td><td> " . " <a href='/cards2/$image' target='_blank'>local image</a> </td></tr>";
 
 			}
 
@@ -252,6 +254,7 @@ sub realimagelist {
 		}
 	}
 
+	print "</table>";
 	print $existing;
 
 } # end sub realimagelist
@@ -1337,6 +1340,7 @@ sub page_footer {
 <br><br>
 <b>$#cards cards in directory: $dir </b> - <a href="file:///home/masayume/DATA/C/pics/cards/" target="_blank">file:///home/masayume/DATA/C/pics/cards/</a> 
 <br>$filestats
+<br><a href="/cgi-bin/magic-cards2.pl?realimagelist=1" target="_blank">missing cards (by cards.diff)</a> 
 <br><a href="/css/magic-cards.css" target="_blank">magic-cards.css</a> in /var/www/html/css/
 <br><a href="/js/" target="_blank">javascript libraries</a> in /var/www/html/js/
 <br><br><hr><br><b>Come si aggiorna il file delle carte lo-fi</b>: 
