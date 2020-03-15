@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 ##!/usr/bin/speedy
 
+use lib qw(.);
+
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1				READS card list file above
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1&seed=999999&filter=sepia	
 ### http://localhost:8989/cgi-bin/magic-cards2.pl?cardname=indreaver 			SPECIFIC CARD
