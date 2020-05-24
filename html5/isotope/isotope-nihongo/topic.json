@@ -312,11 +312,14 @@
     "sou.desu.1": {
       "number": "29",
       "data_cat": "N4",
-      "class": ["N4", "dictionary", "adjective"],
+      "class": ["N4", "dictionary", "adjective","feeling"],
       "img": "001.png",
       "symbol": "そうです",
       "express": "it seems like",
-      "example": "田中さんは忙しそうです",
+      "example": "田中さんは忙し<u>そうです</u>",
+      "examples": [
+        "このケーキは美味し<u>そう</u>:this cake looks delicious"
+      ],
       "translate": "Mr. Tanaka seems busy",
       "level": "N4"
     },
@@ -327,7 +330,7 @@
       "img": "001.png",
       "symbol": "～し～しから",
       "express": "list of reasons",
-      "example": "優しいし、かっこいいし、面白いから",
+      "example": "優しい<u>し</u>、かっこいい<u>し</u>、面白い(<u>から</u>)",
       "translate": "Because he's kind, attractive, and interesting",
       "level": "N4"
     },
@@ -338,18 +341,24 @@
       "img": "001.png",
       "symbol": "てみる",
       "express": "to try",
-      "example": "彼は彼女と話してみる",
+      "example": "彼は彼女と話し<u>てみる<u>",
+      "examples": [
+        "これ着<u>てみて</u>もいいですか:can I try this on?"
+      ],
       "translate": "He'll try to talk to her",
       "level": "N4"
     },
     "nara": {
       "number": "32",
       "data_cat": "N4",
-      "class": ["N4", "dictionary"],
+      "class": ["N4", "dictionary","plain","if","suggest"],
       "img": "001.png",
       "symbol": "なら",
-      "express": "V after V",
-      "example": "ともだちがくるなら、わたしはピザをちゅうもんする",
+      "express": "V after V; suggest",
+      "example": "ともだちがくる<u>なら</u>、わたしはピザをちゅうもんする",
+      "examples": [
+        "よく食べる<u>なら</u>:can I try this on?"
+      ],
       "translate": "If our friends come, I will order pizza",
       "level": "N4"
     },

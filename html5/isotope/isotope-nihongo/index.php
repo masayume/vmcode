@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="ja-jp">
 <head>
   <meta charset="UTF-8">
   <title>masayume - japanese grammar forms N5, N4, N3 (WiP)</title>
@@ -12,7 +12,23 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <style>
+        h1, h1:lang(ja-jp) { 
+            font-family: serif; 
+            font-size: 24px; 
+            font-weight: normal; 
+            }
+        h2, h2:lang(ja-jp) { 
+            font-family: sans-serif; 
+            font-size: 24px; 
+            font-weight: normal; 
+            }
+        h3, h3:lang(ja-jp) { 
+            font-family: cursive; 
+            font-size: 24px; 
+            font-weight: normal; 
+            }
+    </style>
 </head>
 
 <!--
