@@ -23,7 +23,7 @@ function page($jfile) {
 
     $template =<<<TEM
   <div class="element-item $class " data-category="{$item[data_cat]}" style="background-image: url('img/{$item[img]}'); background-size: 100%;">
-    <h3 class="name">$key</h3>
+    <h3 class="name">$key {$item[meanings]}</h3>
     <p class="symbol">{$item[symbol]}</p>
     <p class="express">{$item[express]}</p>
     <p class="example">{$item[example]}</p>

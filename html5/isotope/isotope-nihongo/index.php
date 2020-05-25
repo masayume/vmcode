@@ -83,8 +83,10 @@ onomatopee: https://www.tofugu.com/japanese/japanese-onomatopoeia/
     <button class="button" data-filter=".dictionary">dict.</button>
     <button class="button" data-filter=".masu">masu</button>
     <button class="button" data-filter=".desu">desu</button>
+    <button class="button" data-filter=".plain">plain</button>
     <button class="button" data-filter=".te">te</button>
     <button class="button" data-filter=".ta">ta</button>
+    <button class="button" data-filter=".meanings">+ means</button>
     <button class="button" data-filter=".negative">neg.</button>
     <button class="button" data-filter=".passive">pass.</button>
     <button class="button" data-filter=".adjective">adj.</button>

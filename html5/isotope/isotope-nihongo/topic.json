@@ -51,7 +51,7 @@
       "class": ["N5", "volitional"],
       "img": "001.png",
       "symbol": "～ましょうか",
-      "express": "suggestion",
+      "express": "advice",
       "example": "食べましょうか。 ",
       "translate": "How about we eat?",
       "level": "N5"
@@ -309,7 +309,7 @@
       "translate": "Please speak after thinking.",
       "level": "N5"
     },
-    "sou.desu.1": {
+    "sou.desu": {
       "number": "29",
       "data_cat": "N4",
       "class": ["N4", "dictionary", "adjective","feeling"],
@@ -318,7 +318,8 @@
       "express": "it seems like",
       "example": "田中さんは忙し<u>そうです</u>",
       "examples": [
-        "このケーキは美味し<u>そう</u>:this cake looks delicious"
+        "このケーキは美味し<u>そう</u>:this cake looks delicious",
+        "彼はケーキをたべそうです:It seems he eats cake" 
       ],
       "translate": "Mr. Tanaka seems busy",
       "level": "N4"
@@ -351,13 +352,13 @@
     "nara": {
       "number": "32",
       "data_cat": "N4",
-      "class": ["N4", "dictionary","plain","if","suggest"],
+      "class": ["N4", "dictionary","plain","if","advice"],
       "img": "001.png",
       "symbol": "なら",
       "express": "V after V; suggest",
       "example": "ともだちがくる<u>なら</u>、わたしはピザをちゅうもんする",
       "examples": [
-        "よく食べる<u>なら</u>:can I try this on?"
+        "よく食べる<u>なら</u>..:If you want to eat well.."
       ],
       "translate": "If our friends come, I will order pizza",
       "level": "N4"
@@ -365,177 +366,199 @@
     "Period.ni.Freq": {
       "number": "33",
       "data_cat": "N4",
-      "class": ["N4", "time"],
+      "class": ["N4", "time", "frequency"],
       "img": "001.png",
       "symbol": "PにF",
       "express": "period/frequency",
-      "example": "一週間に一回日本語を勉強します",
+      "example": "<u>一週間に一回</u>日本語を勉強します",
       "translate": "I study Japanese once a week",
       "level": "N4"
     },
-    "ga.hoshii": {
+    "ga.hoshii-te.hoshii": {
       "number": "34",
       "data_cat": "N4",
-      "class": ["N4"],
+      "class": ["N4","meanings", "want"],
+      "meanings": "②",
       "img": "001.png",
       "symbol": "～がほしい",
-      "express": "wanting",
-      "example": "私はこの本がほしい",
+      "express": "I want (for me); I want others to..",
+      "example": "私はこの本<u>がほしい</u>",
+      "examples": [
+        "みんなに本を読<u>でほしい</u>です:I want everyone to read the book"
+      ],
       "translate": "I want this book",
       "level": "N4"
     },
     "garu": {
       "number": "35",
       "data_cat": "N4",
-      "class": ["N4", "ta"],
+      "class": ["N4", "ta", "te","3rd person"],
       "img": "001.png",
       "symbol": "～がる",
-      "express": "observation about feel",
-      "example": "家に帰ったら、すぐパソコンを使いたがる",
-      "translate": "(He) acts like wanting to use computer as soon as (he) gets home",
+      "express": "3rd person",
+      "example": "妹は新しいバッグをほし<u>がって</u>います",
+      "examples": [
+        "家に帰ったら、すぐパソコンを使いた<u>がる</u>:(He) acts like wanting to use computer as soon as (he) gets home"
+      ],
+      "translate": "my younger sister wants a new bag",
       "level": "N4"
     },
     "kamoshirenai": {
       "number": "36",
       "data_cat": "N4",
-      "class": ["N4", "negative"],
+      "class": ["N4", "negative","possibility","plain"],
       "img": "001.png",
       "symbol": "～かもしれない",
-      "express": "possibility",
-      "example": "あしたはあめがふるかもしれない",
+      "express": "possibility (not much)",
+      "example": "あしたはあめがふる<u>かもしれない</u>",
+      "examples": [
+        "走れば電車に乗れる<u>かもしれない</u>:if you run you might be able to catch the train"
+      ],
       "translate": "It may rain tomorrow",
       "level": "N4"
     },
     "tara.dou.desu.ka": {
       "number": "37",
       "data_cat": "N4",
-      "class": ["N4", "desu"],
+      "class": ["N4", "if","advice"],
       "img": "001.png",
       "symbol": "～たらどうですか",
       "express": "giving advice",
-      "example": "くすりをのんだらどうですか",
+      "example": "くすりをのん<u>だらどうですか</u>",
       "translate": "How about taking some medicine?",
       "level": "N4"
     },
-    "Num.mo": {
+    "Num.mo-Num.shika.mo": {
       "number": "38",
       "data_cat": "N4",
-      "class": ["N4", "number"],
+      "class": ["N4", "number","frequency","meanings"],
+      "meanings": "②",
       "img": "001.png",
       "symbol": "Number+も",
-      "express": "as many as",
-      "example": "昨日、電話三回もしたよ！",
+      "express": "as many as; as few as",
+      "example": "昨日、電話<u>三回も</u>したよ！",
+      "examples": [
+        "きのうのパーテイーには学生が<u>二十人も</u>来ました:as many as 20 students came at the party yesterday",
+        "私は日本語のじしょを<u>いっさつしかも</u>っていません:I have only one Japanese dictionary"
+      ],
       "translate": " I called you like three times yesterday",
       "level": "N4"
     },
     "shika.nai": {
       "number": "39",
       "data_cat": "N4",
-      "class": ["N4", "negative"],
+      "class": ["N4", "negative","only"],
       "img": "001.png",
       "symbol": "しか～ない",
       "express": "only, as few as",
-      "example": "彼にはお金しかない",
+      "example": "彼にはお金<u>しかない</u>",
       "translate": "He has nothing but money",
       "level": "N4"
     },
     "te.oku": {
       "number": "40",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te","anticipation","same","meanings"],
+      "meanings": "②",
       "img": "001.png",
       "symbol": "～ておく",
-      "express": "do smth in advance",
-      "example": "この分を覚えておく",
+      "express": "in advance, leave it like it is",
+      "example": "この分を覚え<u>ておく</u>",
+      "examples": [
+        "そのままにし<u>ておいて</u>ください:please leave it like that"
+      ],
       "translate": "I'll memorize this part",
       "level": "N4"
     },
-    "V1.you": {
+    "Vol.you-Vol.ou": {
       "number": "41",
       "data_cat": "N4",
-      "class": ["N4", "masu"],
+      "class": ["N4", "masu","volitional"],
       "img": "001.png",
       "symbol": "～よう",
       "express": "let's do (smth)",
-      "example": "このケーキを食べよう",
+      "example": "このケーキを<u>食べよう</u>",
+      "examples": [
+        "あそこで遊ぼう:Let's play over there"
+      ],
       "translate": "Let's eat this cake",
       "level": "N4"
     },
-    "V2.ou": {
+    "te.ageru": {
       "number": "42",
       "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "あそこで遊ぼう",
-      "translate": "Let's play over there",
-      "level": "N4"
-    },
-    "te.ageru": {
-      "number": "43",
-      "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te","favour"],
       "img": "001.png",
       "symbol": "～てあげる",
-      "express": "Aは does smth for Bに",
-      "example": "私は山田さんに本を買ってあげました",
+      "express": "Aは does a favour to Bに",
+      "example": "私<u>は</u>山田さん<u>に</u>本を買っ<u>てあげました</u>",
       "translate": "I bought this book for Yamada-san",
       "level": "N4"
     },
     "te.kureru": {
-      "number": "44",
+      "number": "43",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te","favour"],
       "img": "001.png",
       "symbol": "～てくれる",
-      "express": "Aは does smth for meに",
-      "example": "山田さんは私に本を買ってくれました",
+      "express": "Aは does a favour to meに",
+      "example": "山田さん<u>は</u>私<u>に</u>本を買っ<u>てくれました</u>",
       "translate": "Yamada-san bought this book for me",
       "level": "N4"
     },
     "te.morau": {
-      "number": "45",
+      "number": "44",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te", "favour"],
       "img": "001.png",
       "symbol": "～てもらう",
       "express": "to get someone to do smth",
-      "example": "彼に宿題を見せてもらう",
+      "example": "彼<u>に</u>宿題を見せ<u>てもらう</u>",
       "translate": "I'll make him show his homework",
       "level": "N4"
     },
-    "te.itadakemasen.ka": {
+    "tara": {
+      "number": "45",
+      "data_cat": "N4",
+      "class": ["N4", "ta", "condition"],
+      "img": "001.png",
+      "symbol": "～たら",
+      "express": "A～たらB: if A then B",
+      "example": "てんきがよかっ<u>たら</u>、さんぽうにいきます",
+      "translate": "<u>If</u> the weather is good, we will go for a walk",
+      "level": "N4"
+    },
+    "ba.reba": {
       "number": "46",
       "data_cat": "N4",
-      "class": ["N4", "te", "negative"],
+      "class": ["N4", "ba", "condition"],
       "img": "001.png",
-      "symbol": "～ていただけませんか",
-      "express": "req help; ask permission",
-      "example": "明日いい天気だといいですね",
-      "translate": "I hope the weather tomorrow is good",
+      "symbol": "～ば/～れば",
+      "express": "if (smth happened)",
+      "example": "金があ<u>れば</u>あの車を買う",
+      "translate": "If I had money I would buy that car",
+      "level": "N4"
+    },
+    "nasai": {
+      "number": "47",
+      "data_cat": "N4",
+      "class": ["N4", "masu", "imperative"],
+      "img": "001.png",
+      "symbol": "～なさい",
+      "express": "imperative",
+      "example": "学校へ行き<u>なさい</i>",
+      "translate": "Go to school!",
       "level": "N4"
     },
     "te.sumimasen": {
-      "number": "47",
+      "number": "48",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te","excuse"],
       "img": "001.png",
       "symbol": "～てすみません",
       "express": "apologize",
-      "example": "きたないことばをつかってすみませんでした",
+      "example": "きたないことばをつかっ<u>てすみませんでした</u>",
       "translate": "I’m sorry for using bad language",
-      "level": "N4"
-    },
-    "sou.desu.2": {
-      "number": "48",
-      "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～そうです",
-      "express": "it seems",
-      "example": "彼はケーキをたべそうです",
-      "translate": "It seems he eats cake",
       "level": "N4"
     },
     "saseru": {
@@ -545,151 +568,167 @@
       "img": "001.png",
       "symbol": "～させる",
       "express": "let someone do smth",
-      "example": "この音が私をいらいらさせる",
-      "translate": "This sound irritates me",
+      "example": "この音が私をいらいら<u>させる</u>",
+      "examples": [
+        "子供に薬を飲ま<u>せました</u>:I made the child take the medicine"
+      ],
+      "translate": "This sound <u>makes</u> me nervous",
       "level": "N4"
     },
-    "nasai": {
+    "te.mo-to.mo.ii": {
       "number": "50",
-      "data_cat": "N4",
-      "class": ["N4", "imperative"],
-      "img": "001.png",
-      "symbol": "～なさい",
-      "express": "imperative",
-      "example": "学校へ行きなさい",
-      "translate": "Go to school!",
-      "level": "N4"
-    },
-    "ba.reba": {
-      "number": "51",
-      "data_cat": "N4",
-      "class": ["N4", "ba"],
-      "img": "001.png",
-      "symbol": "～ば/～れば",
-      "express": "if (smth happened)",
-      "example": "金があればあの車を買う",
-      "translate": "If I had money I would buy that car",
-      "level": "N4"
-    },
-    "te.mo": {
-      "number": "52",
       "data_cat": "N4",
       "class": ["N4", "te"],
       "img": "001.png",
       "symbol": "～ても",
-      "express": "even if...",
-      "example": "雨が降ってもゴルフにいきます",
-      "translate": "I'll go to play golf even if it rains",
-      "level": "N4"
-    },
-    "tara": {
-      "number": "53",
-      "data_cat": "N4",
-      "class": ["N4", "ta"],
-      "img": "001.png",
-      "symbol": "～たら",
-      "express": "A～たらB: if A then B",
-      "example": "てんきがよかったら、さんぽうにいきます",
-      "translate": "If the weather is good, we will go for a walk",
+      "express": "even if...; can I...",
+      "example": "雨が降っ<u>ても</u>ゴルフにいきます",
+      "examples": [ "これ着<u>てみて</u>もいいですか:can I try this on?" ],
+      "translate": "I'll go to play golf <u>even if</u> it rains",
       "level": "N4"
     },
     "nakutemo.ii": {
-      "number": "54",
+      "number": "51",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te", "negative"],
       "img": "001.png",
       "symbol": "～なくてもいい",
-      "express": "smth doesn't have to be done",
-      "example": "君は今日学校へ行かなくてもいい",
-      "translate": "You don't have to go to school today",
+      "express": "it's not necessary",
+      "example": "君は今日学校へ行か<u>なくてもいい</i>",
+      "translate": "You <u>don't have to go</u> to school today",
       "level": "N4"
     },
     "mitai": {
-      "number": "55",
+      "number": "52",
       "data_cat": "N4",
-      "class": ["N4", "masu"],
+      "class": ["N4", "masu", ""],
       "img": "001.png",
       "symbol": "～みたい",
-      "express": "smth seems to be (difficult/deep..)",
-      "example": "この本は難しいみたい",
-      "translate": "This book seems to be difficult",
+      "express": "it seems ..",
+      "example": "この本は難しい<u>みたい</u>",
+      "translate": "This book <u>seems</u> to be difficult",
       "level": "N4"
     },
     "te.shimau": {
-      "number": "56",
+      "number": "53",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "meanings": "②",
+      "class": ["N4", "te", "meanings"],
       "img": "001.png",
       "symbol": "～てしまう",
-      "express": "end up doing",
-      "example": "彼はたぶんあのケーキを食べてしまう",
+      "express": "unfortunately, end up doing",
+      "example": "彼はたぶんあのケーキを食べ<u>てしまう</u>",
+      "examples": [
+        "駅で財布をなくし<u>てしまいました</u>:I unfortunately lost my wallet at the station"
+      ],
       "translate": "He'll probably end up eating that cake",
       "level": "N4"
     },
     "V.to": {
-      "number": "57",
+      "number": "54",
       "data_cat": "N4",
-      "class": ["N4", "dictionary"],
+      "class": ["N4", "dictionary", "condition"],
       "img": "001.png",
       "symbol": "V+と",
-      "express": "if A then B",
-      "example": "もしあなたがこのケーキを食べると私は怒るだろう",
-      "translate": "If you eat this cake, I will be angry",
+      "express": "if (when) A then B",
+      "example": "あなたがこのケーキを食べる<u>と</u>私は怒るだろう",
+      "translate": "<u>If</u> you eat this cake, I will be angry",
       "level": "N4"
     },
     "nagara": {
-      "number": "58",
+      "number": "55",
       "data_cat": "N4",
-      "class": ["N4", "masu"],
+      "class": ["N4", "masu", "time"],
       "img": "001.png",
       "symbol": "～ながら",
       "express": "A while B",
-      "example": "男の子はケーキを食べながらコーヒーを飲んだ",
+      "example": "男の子はケーキを食べ<u>ながら</u>コーヒーを飲んだ",
       "translate": "The boy <u>drank coffee</u> while he ate cake",
       "level": "N4"
     },
     "ba.yokatta": {
-      "number": "59",
+      "number": "56",
       "data_cat": "N4",
-      "class": ["N4", "ba"],
+      "class": ["N4", "ba", "regret"],
       "img": "001.png",
       "symbol": "～ばよかった",
-      "express": "should have done",
-      "example": "がくせいのとき、べんきょうすればよかったです",
-      "translate": "I should have studied when I was a student",
+      "express": "regret, should have done",
+      "example": "がくせいのとき、べんきょうすれ<u>ばよかったです</u>",
+      "examples": [
+        "もう少し早く家を出でれ<u>ばよかった</u>:I <u>should have</u> left home a little earlier"
+      ],
+      "translate": "I <u>should have</u> studied when I was a student",
       "level": "N4"
     },
     "te.kurete.arigatou": {
-      "number": "60",
+      "number": "57",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te", "gratitude"],
       "img": "001.png",
       "symbol": "～てくれてありがとう",
-      "express": "thank you for doing",
-      "example": "「手伝ってくれてありがとう」",
-      "translate": "\"Thank you for your help.\"",
+      "express": "gratitude, thank you for..",
+      "example": "「手伝っ<u>てくれてありがとう</u>」",
+      "translate": "\"<u>Thank you</u> for your help.\"",
       "level": "N4"
     },
     "te.yokatta": {
-      "number": "61",
+      "number": "58",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "te", "gratitude"],
       "img": "001.png",
       "symbol": "～てよかった",
       "express": "express gratitude",
-      "example": "電車に間に合ってよかった",
-      "translate": "I'm glad I was on time for the train",
+      "example": "電車に間に合っ<u>てよかった</u>",
+      "translate": "<u>I'm glad</u> I was on time for the train",
       "level": "N4"
     },
-    "hazu.desu": {
-      "number": "62",
+    "hazu.desu-hazu.ga.nai": {
+      "number": "59",
       "data_cat": "N4",
-      "class": ["N4", "desu"],
+      "meanings": "②",
+      "class": ["N4", "desu", "doubt", "meanings"],
       "img": "001.png",
       "symbol": "～はずです",
-      "express": "\"should be\"",
-      "example": "あのペンはつくえの上にあるはずです",
-      "translate": "That pen should be on the desk",
+      "express": "should(n't) be, convince",
+      "example": "あのペンはつくえの上にある<u>はず</u>です",
+      "examples": [
+        "",
+        ""
+      ],
+      "translate": "That pen <u>should be</u> on the desk",
+      "level": "N4"
+    },
+    "EMPTY.1": {
+      "number": "60",
+      "data_cat": "N4",
+      "class": ["N4", "masu"],
+      "img": "001.png",
+      "symbol": "～おう",
+      "express": "let's do (smth)",
+      "example": "EMPTY",
+      "translate": "translate",
+      "level": "N4"
+    },
+    "EMPTY.2": {
+      "number": "61",
+      "data_cat": "N4",
+      "class": ["N4", "masu"],
+      "img": "001.png",
+      "symbol": "～おう",
+      "express": "let's do (smth)",
+      "example": "EMPTY",
+      "translate": "translate",
+      "level": "N4"
+    },
+    "EMPTY.3": {
+      "number": "62",
+      "data_cat": "N4",
+      "class": ["N4", "masu"],
+      "img": "001.png",
+      "symbol": "～おう",
+      "express": "let's do (smth)",
+      "example": "EMPTY",
+      "translate": "translate",
       "level": "N4"
     },
     "naide": {
@@ -846,8 +885,19 @@
       "translate": "He's deciding to study",
       "level": "N4"
     },
+    "te.itadakemasen.ka": {
+      "number": "146",
+      "data_cat": "N4",
+      "class": ["N4", "te", "negative"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "req help; ask permission",
+      "example": "明日いい天気だといいですね",
+      "translate": "I hope the weather tomorrow is good",
+      "level": "N4"
+    },
     "you.ni.naru": {
-      "number": "77",
+      "number": "177",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -858,7 +908,7 @@
       "level": "N3"
     },
     "koto.ni.naru": {
-      "number": "78",
+      "number": "178",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -869,7 +919,7 @@
       "level": "N3"
     },
     "totemo.nai": {
-      "number": "79",
+      "number": "179",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -880,7 +930,7 @@
       "level": "N3"
     },
     "rashii": {
-      "number": "80",
+      "number": "180",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -891,7 +941,7 @@
       "level": "N3"
     },
     "te.kimete": {
-      "number": "81",
+      "number": "181",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -902,7 +952,7 @@
       "level": "N3"
     },
     "naide.2": {
-      "number": "82",
+      "number": "182",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -913,7 +963,7 @@
       "level": "N3"
     },
     "ni.yotte": {
-      "number": "83",
+      "number": "183",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -924,7 +974,7 @@
       "level": "N3"
     },
     "no.youna.2": {
-      "number": "84",
+      "number": "184",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -935,7 +985,7 @@
       "level": "N3"
     },
     "ba.hodo": {
-      "number": "85",
+      "number": "185",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -946,7 +996,7 @@
       "level": "N3"
     },
     "N.bakari": {
-      "number": "86",
+      "number": "186",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -957,7 +1007,7 @@
       "level": "N3"
     },
     "N.hajime": {
-      "number": "87",
+      "number": "187",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -968,7 +1018,7 @@
       "level": "N3"
     },
     "teki": {
-      "number": "88",
+      "number": "188",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -980,7 +1030,7 @@
       "ref": "http://learnjapanese.becauseofdreams.com/2017/08/10/how-to-turn-nouns-into-adjectives-and-adverbs-with-%E7%9A%84-%E3%81%A6%E3%81%8D/"
     },
     "wa.kurai.desu": {
-      "number": "89",
+      "number": "189",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -991,7 +1041,7 @@
       "level": "N3"
     },
     "sae.ba": {
-      "number": "90",
+      "number": "190",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -1002,7 +1052,7 @@
       "level": "N3"
     },
     "hodo": {
-      "number": "91",
+      "number": "191",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -1013,7 +1063,7 @@
       "level": "N3"
     },
     "mama": {
-      "number": "92",
+      "number": "192",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -1024,7 +1074,7 @@
       "level": "N3"
     },
     "wazawaza": {
-      "number": "93",
+      "number": "193",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -1035,7 +1085,7 @@
       "level": "N3"
     },
     "to.shitara": {
-      "number": "94",
+      "number": "194",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -1046,7 +1096,7 @@
       "level": "N3"
     },
     "ta.mono.da": {
-      "number": "95",
+      "number": "195",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -1057,7 +1107,7 @@
       "level": "N3"
     },
     "tate": {
-      "number": "96",
+      "number": "196",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
@@ -1068,7 +1118,7 @@
       "level": "N3"
     },
     "kaette": {
-      "number": "97",
+      "number": "197",
       "data_cat": "N3",
       "class": ["N3", "masu"],
       "img": "001.png",
