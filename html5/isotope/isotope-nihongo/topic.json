@@ -698,63 +698,37 @@
       "translate": "That pen <u>should be</u> on the desk",
       "level": "N4"
     },
-    "EMPTY.1": {
+    "zu.ni-naide": {
       "number": "60",
-      "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "EMPTY",
-      "translate": "translate",
-      "level": "N4"
-    },
-    "EMPTY.2": {
-      "number": "61",
-      "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "EMPTY",
-      "translate": "translate",
-      "level": "N4"
-    },
-    "EMPTY.3": {
-      "number": "62",
-      "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "EMPTY",
-      "translate": "translate",
-      "level": "N4"
-    },
-    "naide": {
-      "number": "63",
       "data_cat": "N4",
       "class": ["N4", "te", "negative"],
       "img": "001.png",
       "symbol": "～ないで",
-      "express": "don't do (smth)",
-      "example": "このケーキを食べないで",
+      "express": "without doing (smth)",
+      "example": "このケーキを食<u>べないで</u>",
+      "examples": [
+        "私の息子は朝食を食べ<u>ずに</u>学校に行きました:my son went to school without eating breakfast",
+        ""
+      ],
       "translate": "Don't eat this cake",
       "level": "N4"
     },
     "ka.dou.ka": {
-      "number": "64",
+      "number": "61",
       "data_cat": "N4",
       "class": ["N4", "conjunction"],
       "img": "001.png",
-      "symbol": "～かどうか",
+      "symbol": "～ずに, ～かどうか",
       "express": "yes or no",
-      "example": "田中さんは、明日来るかどうか、分かりますか",
+      "example": "田中さんは、明日来る<u>かどうか</u>、分かりますか",
+      "examples": [
+        "彼女はくる<u>かどうか</u>:I don't know if she will come or not"
+      ],
       "translate": "Do (you) know whether Tanaka-san is coming tomorrow or not",
       "level": "N4"
     },
     "to.iu": {
-      "number": "65",
+      "number": "62",
       "data_cat": "N4",
       "class": ["N4", "sostantive"],
       "img": "001.png",
@@ -765,7 +739,7 @@
       "level": "N4"
     },
     "yasui.nikui": {
-      "number": "66",
+      "number": "63",
       "data_cat": "N4",
       "class": ["N4", "masu"],
       "img": "001.png",
@@ -776,7 +750,7 @@
       "level": "N4"
     },
     "reru.rareru": {
-      "number": "67",
+      "number": "64",
       "data_cat": "N4",
       "class": ["N4", "passive"],
       "img": "001.png",
@@ -787,7 +761,7 @@
       "level": "N4"
     },
     "te.aru": {
-      "number": "68",
+      "number": "65",
       "data_cat": "N4",
       "class": ["N4", "te"],
       "img": "001.png",
@@ -798,7 +772,7 @@
       "level": "N4"
     },
     "te.iru.aida.ni": {
-      "number": "69",
+      "number": "66",
       "data_cat": "N4",
       "class": ["N4", "te"],
       "img": "001.png",
@@ -809,7 +783,7 @@
       "level": "N4"
     },
     "ku.ni.suru": {
-      "number": "70",
+      "number": "67",
       "data_cat": "N4",
       "class": ["N4", "adjective"],
       "img": "001.png",
@@ -820,7 +794,7 @@
       "level": "N4"
     },
     "te.hoshii": {
-      "number": "71",
+      "number": "68",
       "data_cat": "N4",
       "class": ["N4", "te"],
       "img": "001.png",
@@ -831,7 +805,7 @@
       "level": "N4"
     },
     "no.ni": {
-      "number": "72",
+      "number": "69",
       "data_cat": "N4",
       "class": ["N4"],
       "img": "001.png",
@@ -839,6 +813,39 @@
       "express": "even though/despite",
       "example": "彼女はきれいなのにモテない",
       "translate": "Despite being beautiful she's not popular",
+      "level": "N4"
+    },
+    "EMPTY.1": {
+      "number": "70",
+      "data_cat": "N4",
+      "class": ["N4", "masu"],
+      "img": "001.png",
+      "symbol": "～おう",
+      "express": "let's do (smth)",
+      "example": "EMPTY",
+      "translate": "translate",
+      "level": "N4"
+    },
+    "EMPTY.2": {
+      "number": "71",
+      "data_cat": "N4",
+      "class": ["N4", "masu"],
+      "img": "001.png",
+      "symbol": "～おう",
+      "express": "let's do (smth)",
+      "example": "EMPTY",
+      "translate": "translate",
+      "level": "N4"
+    },
+    "EMPTY.3": {
+      "number": "72",
+      "data_cat": "N4",
+      "class": ["N4", "masu"],
+      "img": "001.png",
+      "symbol": "～おう",
+      "express": "let's do (smth)",
+      "example": "EMPTY",
+      "translate": "translate",
       "level": "N4"
     },
     "no.youna": {
