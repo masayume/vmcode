@@ -239,8 +239,12 @@
       "img": "001.png",
       "symbol": "～すぎる",
       "express": "too much",
-      "example": "山田さんは食べすぎる",
-      "translate": "Mr. Yamada eats too much.",
+      "example": "山田さんは<u>食べすぎる</u>",
+      "examples": [
+        "寒<u>すぎる</u>:it's <u>too cold</u>",
+        "有名<u>すぎる</u>:he's <u>too famous</u>"
+      ],
+      "translate": "Mr. Yamada <u>eats too much</u>.",
       "level": "N5"
     },
     "houga.ii": {
@@ -692,8 +696,8 @@
       "express": "should(n't) be, convince",
       "example": "あのペンはつくえの上にある<u>はず</u>です",
       "examples": [
-        "",
-        ""
+        "彼がそんなことを言うなんて信<u>はずがない</u>:I can't believe he says such things",
+        "彼は来<u>はずです</u>:he sould come"
       ],
       "translate": "That pen <u>should be</u> on the desk",
       "level": "N4"
@@ -719,10 +723,10 @@
       "class": ["N4", "conjunction"],
       "img": "001.png",
       "symbol": "～ずに, ～かどうか",
-      "express": "yes or no",
+      "express": "if yes or no",
       "example": "田中さんは、明日来る<u>かどうか</u>、分かりますか",
       "examples": [
-        "彼女はくる<u>かどうか</u>:I don't know if she will come or not"
+        "彼女はくる<u>かどうか</u>:I don't know <u>if she will come or not</u>"
       ],
       "translate": "Do (you) know whether Tanaka-san is coming tomorrow or not",
       "level": "N4"
@@ -734,8 +738,8 @@
       "img": "001.png",
       "symbol": "～という～",
       "express": "it's called",
-      "example": "クレヨンしんちゃんという漫画は面白いですよ",
-      "translate": "the manga called Crayon Shin Chan is interesting",
+      "example": "クレヨンしんちゃん<u>という</u>漫画は面白いですよ",
+      "translate": "the manga <u>called</u> Crayon Shin Chan is interesting",
       "level": "N4"
     },
     "yasui.nikui": {
@@ -745,8 +749,12 @@
       "img": "001.png",
       "symbol": "～やすい/～にくい",
       "express": "easy/hard to do",
-      "example": "水を飲みやすいです",
-      "translate": "Drinking water is easy",
+      "example": "水を飲み<u>やすい</u>です",
+      "examples": [
+        "箸で食べ<u>にくい</u>:it's <u>hard to eat</u> with chopsticks",
+        "この本は読み</u>やすい</u>:this book is easy to read"
+      ],
+      "translate": "Drinking water <u>is easy</u>",
       "level": "N4"
     },
     "reru.rareru": {
@@ -756,8 +764,8 @@
       "img": "001.png",
       "symbol": "～れる/～られる",
       "express": "passive",
-      "example": "水が子供に飲まれました",
-      "translate": "the water was drunk by the child",
+      "example": "水が子供に<u>飲まれました</u>",
+      "translate": "the water <u>was drunk</u> by the child",
       "level": "N4"
     },
     "te.aru": {
