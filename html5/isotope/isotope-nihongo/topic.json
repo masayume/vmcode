@@ -228,7 +228,7 @@
       "img": "001.png",
       "symbol": "～たことがある",
       "express": "experience",
-      "example": "私は東京へ行ったことがある",
+      "example": "私は東京へ行った<u>ことがある</u>",
       "translate": "I've been to Tokyo.",
       "level": "N5"
     },
@@ -384,11 +384,12 @@
       "class": ["N4","meanings", "want"],
       "meanings": "②",
       "img": "001.png",
-      "symbol": "～がほしい",
+      "symbol": "～がほしい,～てほしい",
       "express": "I want (for me); I want others to..",
       "example": "私はこの本<u>がほしい</u>",
       "examples": [
-        "みんなに本を読<u>でほしい</u>です:I want everyone to read the book"
+        "みんなに本を読<u>でほしい</u>です:I want everyone to read the book",
+        "(私は)父にたばこをやめてほしいです:I want my father to stop smoking"
       ],
       "translate": "I want this book",
       "level": "N4"
@@ -579,15 +580,19 @@
       "translate": "This sound <u>makes</u> me nervous",
       "level": "N4"
     },
-    "te.mo-to.mo.ii": {
+    "te.mo-no.ni": {
       "number": "50",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "meanings": "②",
+      "class": ["N4", "te", "meanings"],
       "img": "001.png",
-      "symbol": "～ても",
-      "express": "even if...; can I...",
+      "symbol": "～ても,～のに",
+      "express": "even if, despite",
       "example": "雨が降っ<u>ても</u>ゴルフにいきます",
-      "examples": [ "これ着<u>てみて</u>もいいですか:can I try this on?" ],
+      "examples": [ 
+        "これ着<u>てみて</u>もいいですか:can I try this on?",
+        "彼女はきれいな<u>のに</u>モテない:<u>Despite</u> being beautiful she's not popular" 
+      ],
       "translate": "I'll go to play golf <u>even if</u> it rains",
       "level": "N4"
     },
@@ -775,8 +780,12 @@
       "img": "001.png",
       "symbol": "～てある",
       "express": "smth is finishing",
-      "example": "この部屋は冷房してある",
-      "translate": "This room is air-conditioned",
+      "example": "宿題はもうやっ<u>てあります</u>",
+      "examples": [
+        "この部屋は冷房し<u>てある</u>:This room is air-conditioned",
+        ""
+      ],
+      "translate": "my homework has already <u>been finished</u>",
       "level": "N4"
     },
     "te.iru.aida.ni": {
@@ -786,100 +795,93 @@
       "img": "001.png",
       "symbol": "～ているあいだに",
       "express": "meanwhile",
-      "example": "お風呂に入っている間に電話がありました",
-      "translate": "There was a phone call while I was taking a bath",
+      "example": "お風呂に入っ<u>ている間に</u>電話がありました",
+      "translate": "There was a phone call <u>while I was</u> taking a bath",
       "level": "N4"
     },
     "ku.ni.suru": {
       "number": "67",
       "data_cat": "N4",
-      "class": ["N4", "adjective"],
+      "class": ["N4", "adjective","change"],
       "img": "001.png",
-      "symbol": "～く/ ～にする",
+      "symbol": "～く,～にする",
       "express": "changing state/condition",
-      "example": "クラスの何人かがいつも私を馬鹿にする",
+      "example": "クラスの何人かがいつも私を馬鹿<u>にする</u>",
       "translate": "Some of my classmate always make a fool of me",
       "level": "N4"
     },
-    "te.hoshii": {
+    "no.you.na/da": {
       "number": "68",
       "data_cat": "N4",
-      "class": ["N4", "te"],
+      "class": ["N4", "compare"],
+      "meanings": "②",
       "img": "001.png",
-      "symbol": "～てほしい",
-      "express": "wanting",
-      "example": "(私は)父にたばこをやめてほしいです",
-      "translate": "I want my father to stop smoking",
-      "level": "N4"
-    },
-    "no.ni": {
-      "number": "69",
-      "data_cat": "N4",
-      "class": ["N4"],
-      "img": "001.png",
-      "symbol": "のに",
-      "express": "even though/despite",
-      "example": "彼女はきれいなのにモテない",
-      "translate": "Despite being beautiful she's not popular",
-      "level": "N4"
-    },
-    "EMPTY.1": {
-      "number": "70",
-      "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "EMPTY",
-      "translate": "translate",
-      "level": "N4"
-    },
-    "EMPTY.2": {
-      "number": "71",
-      "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "EMPTY",
-      "translate": "translate",
-      "level": "N4"
-    },
-    "EMPTY.3": {
-      "number": "72",
-      "data_cat": "N4",
-      "class": ["N4", "masu"],
-      "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "EMPTY",
-      "translate": "translate",
-      "level": "N4"
-    },
-    "no.youna": {
-      "number": "73",
-      "data_cat": "N4",
-      "class": ["N4"],
-      "img": "001.png",
-      "symbol": "～のような",
-      "express": "seems/is like",
-      "example": "あなたは天使のような子だ",
+      "symbol": "～のような/だ",
+      "express": "like, like before",
+      "example": "あなたは天使<u>のような</u>子だ",
+      "examples": [
+        "東京<u>のような都会に:in cities <u>like</u> Tokyo",
+        "今日は冬<u>のようです</u>ね:it's cold <u>like</u> winter"
+      ],
       "translate": "You are an angel of a child",
       "level": "N4"
     },
-    "no.youni": {
-      "number": "74",
+    "you.ni": {
+      "number": "69",
       "data_cat": "N4",
-      "class": ["N4", "masu"],
+      "class": ["N4", "plain", "purpose"],
       "img": "001.png",
-      "symbol": "～のように",
-      "express": "to be like",
-      "example": "彼は子供のようにしゃべている",
-      "translate": "He is talking like a child",
+      "symbol": "～のような",
+      "express": "purpose, for something",
+      "example": "よく聞くこえる<u>ように</u>大声で話してください",
+      "examples": [
+        ":"
+      ],
+      "translate": "please speak loudly <u>so we can hear</u> well",
+      "level": "N4"
+    },
+    "you.ni.suru": {
+      "number": "70",
+      "data_cat": "N4",
+      "class": ["N4", "masu", "try", "plain"],
+      "img": "001.png",
+      "symbol": "～のようにしている",
+      "express": "trying to",
+      "example": "毎日たくさんの野菜を食べ<u>ようとしています</u>",
+      "examples": [
+        "これから遅れない<u>ようにする</u>:<u>I'll try</u> not to be late from now on"
+      ],
+      "translate": "I'm trying to eat a lot of vegetables everyday",
+      "level": "N4"
+    },
+    "you.ni.naru": {
+      "number": "71",
+      "data_cat": "N4",
+      "class": ["N4", "masu", "plain", "change"],
+      "img": "001.png",
+      "symbol": "～ようになる",
+      "express": "changed or will change ",
+      "example": "最近新聞を読める<u>ようになりました</u>",
+      "translate": "recently I have been able to read newspapers",
+      "level": "N4"
+    },
+    "you.da-mitai": {
+      "number": "72",
+      "data_cat": "N4",
+      "class": ["N4", "plain", "seems", "meanings"],
+      "meanings": "②",
+      "img": "001.png",
+      "symbol": "～ようです,～みたい",
+      "express": "it seems",
+      "example": "EMPTY",
+      "examples": [
+        "男の子が母親を探している<u>ようです</u>:look like the boy is searching for his mother"
+      ],
+      "translate": "translate",
       "level": "N4"
     },
     "saserareru": {
-      "number": "75",
+      "number": "72",
       "data_cat": "N4",
       "class": ["N4", "causative"],
       "img": "001.png",
@@ -889,15 +891,31 @@
       "translate": "I am forced to study by my mother",
       "level": "N4"
     },
-    "koto.ni.suru": {
-      "number": "76",
+    "koto.ni.suru/naru": {
+      "number": "73",
       "data_cat": "N4",
-      "class": ["N4", "dictionary"],
+      "class": ["N4", "dictionary", "meanings"],
+      "meanings": "②",
       "img": "001.png",
-      "symbol": "～ことにする",
-      "express": "to decide",
-      "example": "彼は勉強することにする",
+      "symbol": "～ことにする/なる",
+      "express": "decide/been decided",
+      "example": "彼は勉強する<u>ことにする</u>",
+      "examples": [
+        "1日1時間走ることにしました:I decided to run for 1 hour a day",
+        "大阪に出張<u>ことになりました</u>:<u>It has been decided</u> that I have to go to Osaka for work"
+      ],
       "translate": "He's deciding to study",
+      "level": "N4"
+    },
+    "EMPTY.1": {
+      "number": "74",
+      "data_cat": "N4",
+      "class": ["N4", "masu"],
+      "img": "001.png",
+      "symbol": "～おう",
+      "express": "let's do (smth)",
+      "example": "EMPTY",
+      "translate": "translate",
       "level": "N4"
     },
     "te.itadakemasen.ka": {
@@ -910,28 +928,6 @@
       "example": "明日いい天気だといいですね",
       "translate": "I hope the weather tomorrow is good",
       "level": "N4"
-    },
-    "you.ni.naru": {
-      "number": "177",
-      "data_cat": "N3",
-      "class": ["N3", "masu"],
-      "img": "001.png",
-      "symbol": "～ようになる",
-      "express": "a change happened or will happen",
-      "example": "EXAMPLE",
-      "translate": "TRANSLATE",
-      "level": "N3"
-    },
-    "koto.ni.naru": {
-      "number": "178",
-      "data_cat": "N3",
-      "class": ["N3", "masu"],
-      "img": "001.png",
-      "symbol": "～ことになる",
-      "express": "has been dedided",
-      "example": "EXAMPLE",
-      "translate": "TRANSLATE",
-      "level": "N3"
     },
     "totemo.nai": {
       "number": "179",
