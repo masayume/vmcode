@@ -566,16 +566,18 @@
       "translate": "I’m sorry for using bad language",
       "level": "N4"
     },
-    "saseru": {
+    "saseru,saserareru": {
       "number": "49",
       "data_cat": "N4",
-      "class": ["N4", "causative"],
+      "class": ["N4", "causative", "passive"],
       "img": "001.png",
       "symbol": "～させる",
-      "express": "let someone do smth",
+      "express": "make someone do smth",
       "example": "この音が私をいらいら<u>させる</u>",
       "examples": [
-        "子供に薬を飲ま<u>せました</u>:I made the child take the medicine"
+        "子供に薬を飲ま<u>せました</u>:I made the child take the medicine",
+        "＊母に勉強を<u>させられる</u>:I am <u>forced to</u> study by my mother",
+        "くすりを<u>飲ませられました</u>: They made me take the medicine"
       ],
       "translate": "This sound <u>makes</u> me nervous",
       "level": "N4"
@@ -851,7 +853,7 @@
       "examples": [
         "これから遅れない<u>ようにする</u>:<u>I'll try</u> not to be late from now on"
       ],
-      "translate": "I'm trying to eat a lot of vegetables everyday",
+      "translate": "I'm <u>trying to</u> eat a lot of vegetables everyday",
       "level": "N4"
     },
     "you.ni.naru": {
@@ -860,7 +862,7 @@
       "class": ["N4", "masu", "plain", "change"],
       "img": "001.png",
       "symbol": "～ようになる",
-      "express": "changed or will change ",
+      "express": "changed or will change",
       "example": "最近新聞を読める<u>ようになりました</u>",
       "translate": "recently I have been able to read newspapers",
       "level": "N4"
@@ -868,27 +870,16 @@
     "you.da-mitai": {
       "number": "72",
       "data_cat": "N4",
-      "class": ["N4", "plain", "seems", "meanings"],
+      "class": ["N4", "plain", "seems", "plain", "meanings"],
       "meanings": "②",
       "img": "001.png",
       "symbol": "～ようです,～みたい",
       "express": "it seems",
-      "example": "EMPTY",
+      "example": "昨夜は雨が降った<u>ようです</u>",
       "examples": [
-        "男の子が母親を探している<u>ようです</u>:look like the boy is searching for his mother"
+        "男の子が母親を探している<u>ようです</u>:it seems that the boy is searching for his mother"
       ],
-      "translate": "translate",
-      "level": "N4"
-    },
-    "saserareru": {
-      "number": "72",
-      "data_cat": "N4",
-      "class": ["N4", "causative"],
-      "img": "001.png",
-      "symbol": "～させられる",
-      "express": "to make do",
-      "example": "＊母に勉強（を）させられる",
-      "translate": "I am forced to study by my mother",
+      "translate": "<u>it seems</u> that it rained last night",
       "level": "N4"
     },
     "koto.ni.suru/naru": {
@@ -907,15 +898,36 @@
       "translate": "He's deciding to study",
       "level": "N4"
     },
-    "EMPTY.1": {
+    "rashii": {
       "number": "74",
       "data_cat": "N4",
-      "class": ["N4", "masu"],
+      "class": ["N4", "masu", "meanings", "plain"],
+      "meanings": "②",
       "img": "001.png",
-      "symbol": "～おう",
-      "express": "let's do (smth)",
-      "example": "EMPTY",
-      "translate": "translate",
+      "symbol": "～らしい",
+      "express": "speculation, typical",
+      "example": "リサは国に帰るらしい",
+      "examples": [
+        "彼女は女性<u>らしい</u>ふくきることがある:she wears <u>typical</u> female clothes",
+        "昨日は秋<u>らしい</u>天気じゃなかった:yesterday it wasn't typical autumn weather",
+        "任天堂<u>らしい</u>ゲーム: a <u>typical</u> nintendo game"
+      ],
+      "translate": "<u>I guess</u> Risa will go back to her country",
+      "level": "N4"
+    },
+    "?.ka-?.demo": {
+      "number": "75",
+      "data_cat": "N4",
+      "class": ["N4", "te", "question", "quantifier", "meanings"],
+      "meanings": "②",
+      "img": "001.png",
+      "symbol": "?～か,?～でも",
+      "express": "I wonder, whenever..",
+      "example": "<u>どこ</u>へ行って<u>も</u>込んでいます",
+      "examples": [
+        "<u>誰が</u>やって<u>も</u>無理です:it's impossible for anyone"
+      ],
+      "translate": "<u>wherever</u> I go it's crowded",
       "level": "N4"
     },
     "te.itadakemasen.ka": {
@@ -936,17 +948,6 @@
       "img": "001.png",
       "symbol": "～とても～ない",
       "express": "Can't possibly",
-      "example": "EXAMPLE",
-      "translate": "TRANSLATE",
-      "level": "N3"
-    },
-    "rashii": {
-      "number": "180",
-      "data_cat": "N3",
-      "class": ["N3", "masu"],
-      "img": "001.png",
-      "symbol": "～らしい",
-      "express": "Seems like, Hearsay",
       "example": "EXAMPLE",
       "translate": "TRANSLATE",
       "level": "N3"
