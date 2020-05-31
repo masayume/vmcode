@@ -411,7 +411,7 @@
     "kamoshirenai": {
       "number": "36",
       "data_cat": "N4",
-      "class": ["N4", "negative","possibility","plain"],
+      "class": ["N4", "negative","possibly","plain"],
       "img": "001.png",
       "symbol": "～かもしれない",
       "express": "possibility (not much)",
@@ -712,7 +712,8 @@
     "zu.ni-naide": {
       "number": "60",
       "data_cat": "N4",
-      "class": ["N4", "te", "negative"],
+      "class": ["N4", "te", "negative", "meanings"],
+      "meanings": "②",
       "img": "001.png",
       "symbol": "～ないで",
       "express": "without doing (smth)",
@@ -828,7 +829,7 @@
       "translate": "You are an angel of a child",
       "level": "N4"
     },
-    "you.ni": {
+    "no.you.na": {
       "number": "69",
       "data_cat": "N4",
       "class": ["N4", "plain", "purpose"],
@@ -928,6 +929,119 @@
         "<u>誰が</u>やって<u>も</u>無理です:it's impossible for anyone"
       ],
       "translate": "<u>wherever</u> I go it's crowded",
+      "level": "N4"
+    },
+    "ga.suru": {
+      "number": "76",
+      "data_cat": "N4",
+      "class": ["N4", "senses"],
+      "img": "001.png",
+      "symbol": "～がする",
+      "express": "feeling with senses",
+      "example": "この部屋はいいにおい<u>がする</u>",
+      "translate": "this room <u>smells</u> good ",
+      "level": "N4"
+    },
+    "dasu": {
+      "number": "77",
+      "data_cat": "N4",
+      "class": ["N4", "masu", "starting"],
+      "img": "001.png",
+      "symbol": "～だす",
+      "express": "starting <u>suddenly</u>",
+      "example": "赤ちゃんが<u>泣き出した</u>",
+      "translate": "the baby <u>suddenly started</u> crying",
+      "level": "N4",
+      "note": "only for verbs that can happen suddenly"
+    },
+    "tame.ni": {
+      "number": "78",
+      "data_cat": "N4",
+      "class": ["N4", "purpose", "with-name", "with-verb"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "EXPRESS",
+      "example": "旅行に行く<u>ために</u>お金貯めます",
+      "translate": "I save money <u>for travelling</u>",
+      "level": "N4",
+      "note": "Used with names or verbs but if the verb is potential or negative must use ように"
+    },
+    "darou": {
+      "number": "79",
+      "data_cat": "N4",
+      "class": ["N4", "possibly"],
+      "img": "001.png",
+      "symbol": "～だろう,",
+      "express": "possibly",
+      "example": "彼はきっと試験に合格する<u>だろう</u>",
+      "translate": "<u>I'm sure</u> that he will pass the exam",
+      "level": "N4",
+      "note": "more probable than kamoshirenai"
+    },
+    "EMPTY.5": {
+      "number": "80",
+      "data_cat": "N4",
+      "class": ["N4", "CLASS"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "EXPRESS",
+      "example": "JAPANESE",
+      "translate": "TRANSLATE",
+      "level": "N4"
+    },
+    "EMPTY.6": {
+      "number": "81",
+      "data_cat": "N4",
+      "class": ["N4", "CLASS"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "EXPRESS",
+      "example": "JAPANESE",
+      "translate": "TRANSLATE",
+      "level": "N4"
+    },
+    "EMPTY.7": {
+      "number": "82",
+      "data_cat": "N4",
+      "class": ["N4", "CLASS"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "EXPRESS",
+      "example": "JAPANESE",
+      "translate": "TRANSLATE",
+      "level": "N4"
+    },
+    "EMPTY.8": {
+      "number": "83",
+      "data_cat": "N4",
+      "class": ["N4", "CLASS"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "EXPRESS",
+      "example": "JAPANESE",
+      "translate": "TRANSLATE",
+      "level": "N4"
+    },
+    "EMPTY.9": {
+      "number": "84",
+      "data_cat": "N4",
+      "class": ["N4", "CLASS"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "EXPRESS",
+      "example": "JAPANESE",
+      "translate": "TRANSLATE",
+      "level": "N4"
+    },
+    "EMPTY.10": {
+      "number": "85",
+      "data_cat": "N4",
+      "class": ["N4", "CLASS"],
+      "img": "001.png",
+      "symbol": "～ていただけませんか",
+      "express": "EXPRESS",
+      "example": "JAPANESE",
+      "translate": "TRANSLATE",
       "level": "N4"
     },
     "te.itadakemasen.ka": {
@@ -1039,7 +1153,9 @@
       "example": "効果->効果的",
       "translate": "effect->effective",
       "level": "N3",
-      "ref": "http://learnjapanese.becauseofdreams.com/2017/08/10/how-to-turn-nouns-into-adjectives-and-adverbs-with-%E7%9A%84-%E3%81%A6%E3%81%8D/"
+      "refs": [ 
+        "http://learnjapanese.becauseofdreams.com/2017/08/10/how-to-turn-nouns-into-adjectives-and-adverbs-with-%E7%9A%84-%E3%81%A6%E3%81%8D/"
+      ]
     },
     "wa.kurai.desu": {
       "number": "189",
