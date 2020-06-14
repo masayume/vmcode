@@ -9,6 +9,7 @@
       "symbol": "V ～ませんか",
       "express": "invite",
       "example": "ケーキをたべませんか？",
+      "video": [ "https://www.youtube.com/watch?v=zJTlKO793ZI&list=PLP6jQzrtQ718EBgJyqIum7rXtyOL7ksDn&index=3" ],
       "translate": "Won't you have some cake?",
       "level": "N5"
     },
@@ -269,15 +270,23 @@
       "translate": "I'm not buying this book, because it's expensive.",
       "level": "N5"
     },
-    "nakucha.ikenai": {
+    "nakereba.ikemasen-nakya.ikemasen": {
       "number": "25",
       "data_cat": "N5",
-      "class": ["N5", "passive", "negative"],
+      "class": ["N5", "passive", "negative", "plain"],
       "img": "001.png",
-      "symbol": "V～たいです",
-      "express": "must do",
-      "example": "あなたは宿題を終わらなくちゃいけない",
-      "translate": "You have to finish your homework",
+      "symbol": "V～なければいけません",
+      "express": "to have to do, must do",
+      "example": "行<u>かなきゃ</u>,急が<U>なきゃいけません</u>",
+      "examples": [
+        "しごとに<u>いかなきゃいけない</u>:I <u>have to</u> go to work",
+        "予定をキャンセルし<u>なきゃいけない</u>:I <u>have to</u> cancel the plan",
+        "あなたは宿題を終わら<u>なくちゃいけない</u>:You have to finish your homework"
+      ],
+      "video": [
+        "https://www.youtube.com/watch?v=FTq8tATP4lo&list=PLP6jQzrtQ718EBgJyqIum7rXtyOL7ksDn&index=5"
+      ],
+      "translate": "I have to go. I have to rush.",
       "level": "N5"
     },
     "deshou": {
@@ -391,6 +400,7 @@
         "みんなに本を読<u>でほしい</u>です:I want everyone to read the book",
         "(私は)父にたばこをやめてほしいです:I want my father to stop smoking"
       ],
+      "video": ["https://www.youtube.com/watch?v=KJvrLGCbWPE&list=PLP6jQzrtQ718EBgJyqIum7rXtyOL7ksDn&index=6"],
       "translate": "I want this book",
       "level": "N4"
     },
