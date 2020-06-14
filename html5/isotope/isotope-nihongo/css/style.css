@@ -257,6 +257,46 @@ body {
   font-size: 12px;
 }
 
+.element-item .video1 {
+  position: absolute;
+  right: 3px;
+  bottom: 16px;
+  font-family: 'Oswald';
+  font-size: 12px;
+}
+
+.element-item .video2 {
+  position: absolute;
+  right: 3px;
+  bottom: 28px;
+  font-family: 'Oswald';
+  font-size: 12px;
+}
+
+.element-item .video3 {
+  position: absolute;
+  right: 3px;
+  bottom: 40px;
+  font-family: 'Oswald';
+  font-size: 12px;
+}
+
+.element-item .video4 {
+  position: absolute;
+  right: 3px;
+  bottom: 52px;
+  font-family: 'Oswald';
+  font-size: 12px;
+}
+
+.element-item .video5 {
+  position: absolute;
+  right: 3px;
+  bottom: 64px;
+  font-family: 'Oswald';
+  font-size: 12px;
+}
+
 .element-item .weight {
   position: absolute;
   left: 10px;
