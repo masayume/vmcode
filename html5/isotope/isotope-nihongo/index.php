@@ -139,6 +139,7 @@ data-filter defined in js/index.js
     <li><a href='https://www.masayume.it/blog/category/categorie/asia'>masayume "asia" category</a></li>
     <li><a href='https://doyouknowjapan.com/'>do you know japan ?</a></li>
     <li><a href='https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php'>masayume - kanji page</a></li>
+    <li><a href='https://www.patreon.com/miku_real_japanese'>Miku Real Japanese</a></li>
 
 <!--
     <li><a href='LINK'>link name</a></li>

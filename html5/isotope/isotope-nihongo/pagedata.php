@@ -26,7 +26,7 @@ function page($jfile) {
     if ( !empty($item['video']) ) {
       foreach($item['video'] as $vid) {
         $vid_i++;
-        $video .=  "<p class='video{$vid_i}'><a href=$vid>video $vid_i</a></p>";
+        $video .=  "<p class='video{$vid_i}'><a href=$vid target='_blank'>video $vid_i</a></p>";
       }
 
     } 
