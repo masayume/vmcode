@@ -391,6 +391,23 @@
       "url": "https://www.youtube.com/watch?v=DoxxHOIJQ7s",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0024": {
+      "name": "Opara: genetic drawing",
+      "number": "24",
+      "data_cat": "player",
+      "class": ["player", "style", "painting"],
+      "theme": ["style"],
+      "img": "wf024.jpg",
+      "author": "Anastasia Opera",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2017,
+      "players": [1],
+      "length": 7,
+      "url": "https://github.com/anopara/genetic-drawing",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
