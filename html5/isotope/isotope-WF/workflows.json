@@ -374,6 +374,23 @@
       "url": "https://www.youtube.com/watch?v=NEvMHRgPdyk",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0023": {
+      "name": "Picasso: break a rule",
+      "number": "23",
+      "data_cat": "player",
+      "class": ["player", "style"],
+      "theme": ["style"],
+      "img": "wf023.jpg",
+      "author": "Pablo Picasso",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2020,
+      "players": [1],
+      "length": 7,
+      "url": "https://www.youtube.com/watch?v=DoxxHOIJQ7s",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
