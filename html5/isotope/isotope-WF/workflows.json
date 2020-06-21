@@ -357,6 +357,23 @@
       "url": "https://www.youtube.com/watch?v=a83kZpeU0HU",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0022": {
+      "name": "Ethan: combine",
+      "number": "22",
+      "data_cat": "player",
+      "class": ["player", "reference", "style"],
+      "theme": ["style"],
+      "img": "wf022.jpg",
+      "author": "Ethan Becker",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2020,
+      "players": [1],
+      "length": 15,
+      "url": "https://www.youtube.com/watch?v=NEvMHRgPdyk",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
