@@ -647,6 +647,36 @@
       "players": [2, 3, 4, 5],
       "length": 30,
       "url": "https://boardgamegeek.com/boardgame/13823/fairy-tale"
+    },
+    "Descent.viaggi": {
+      "name": "Descent Viaggi nelle Tenebre",
+      "number": "45",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["Dice Rolling", "Grid Movement", "Modular Board", "Role Playing", "Team-Based Game", "Variable Player Powers"],
+      "theme": ["Fantasy"],
+      "img": "045.png",
+      "designer": "Kevin Wilson",
+      "weight": "3.34", 
+      "year": 2005,
+      "players": [2, 3, 4, 5],
+      "length": 200,
+      "url": "https://boardgamegeek.com/boardgame/17226/descent-journeys-dark"
+    },
+    "Tainted.grail": {
+      "name": "Tainted Grail",
+      "number": "46",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["Area Movement", "Campaign / Battle Card Driven", "Cooperative Game", "Deck, Bag, and Pool Building", "Dice Rolling", "Hand Management", "Modular Board", "Narrative Choice / Paragraph", "Push Your Luck", "Role Playing", "Solo / Solitaire Game", "Variable Player Power"],
+      "theme": ["Fantasy"],
+      "img": "046.png",
+      "designer": "Krzysztof Piskorski, Marcin Swierkot",
+      "weight": "3.28", 
+      "year": 2019,
+      "players": [1, 2, 3, 4],
+      "length": 120,
+      "url": "https://boardgamegeek.com/boardgame/264220/tainted-grail-fall-avalon"
     }
    
 
