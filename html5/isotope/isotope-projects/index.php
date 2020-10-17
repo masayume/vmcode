@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>masayume boardgames</title>
+  <title>masayume projects</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" href="css/style.css">
@@ -13,13 +13,13 @@
 <body>
 
 <div id="pagetitle" style="float: left;">  
-  masayume's Boardgames
+  masayume's projects
 </div>
 
 <div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
   <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="year">year</button>
-  <button class="button" data-sort-by="number">number</button>
+  <button class="button" data-sort-by="status">status</button>
   <button class="button" data-sort-by="length">duration</button>
   <button class="button" data-sort-by="weight">complexity</button>
 <!--
@@ -33,10 +33,10 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".cards">cards</button>
-  <button class="button" data-filter=".checkerboard">grid</button>
-  <button class="button" data-filter=".dice">dice</button>
-  <button class="button" data-filter=".player">player</button>
+  <button class="button" data-filter=".creative">creative</button>
+  <button class="button" data-filter=".videogame">videogame</button>
+  <button class="button" data-filter=".resources">resources</button>
+  <button class="button" data-filter=".now">NOW!</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
   <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>

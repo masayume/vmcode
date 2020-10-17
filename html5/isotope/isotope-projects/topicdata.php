@@ -35,7 +35,7 @@ function gamepage($jfile) {
         <p class="name"><a href='{$item[url]}'>{$item[name]}</a></p>
         <p class="number">{$item[number]}</p>
         <p class="year">{$item[year]}</p>
-        <p class="length">{$item[length]}</p>
+        <p class="status">{$item[status]}</p>
         <p class="weight">{$item[weight]}</p>        
         <p class="players">$players p. / {$item[length]} min.</p>
       </div>
