@@ -408,6 +408,23 @@
       "url": "https://github.com/anopara/genetic-drawing",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0025": {
+      "name": "Find the Mask",
+      "number": "25",
+      "data_cat": "player",
+      "class": ["player", "style", "drawing"],
+      "theme": ["technique"],
+      "img": "wf025.jpg",
+      "author": "Ethan Becker",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2019,
+      "players": [1],
+      "length": 9,
+      "url": "https://www.youtube.com/watch?v=ASDDp0RL9v0&feature=youtu.be",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
