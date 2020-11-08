@@ -155,7 +155,7 @@
       "class": ["player", "arcade", "videogame", "now"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
-      "img": "100.jpg",
+      "img": "100.png",
       "designer": "DESIGNER",
       "weight": "2.COMPLEX", 
       "status": "todo", 
