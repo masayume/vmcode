@@ -147,6 +147,23 @@
       "players": [1, 2, 3, 4],
       "length": 0,
       "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    },
+    "mdbook": {
+      "name": "mdbooks in corso",
+      "number": "100",
+      "data_cat": "player",
+      "class": ["player", "arcade", "videogame", "now"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "100.jpg",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year": 2020,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales",
+      "dir": "/git/mdbooks/"
     }
 
 
