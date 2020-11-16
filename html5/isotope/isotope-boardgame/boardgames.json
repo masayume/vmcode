@@ -692,7 +692,37 @@
       "players": [2],
       "length": 20,
       "url": "https://boardgamegeek.com/boardgame/147020/star-realms"
-    }   
+    },
+    "LoveLetterDeluxe": {
+      "name": "Love Letter Deluxe",
+      "number": "48",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["Hand Management", "Player Elimination"],
+      "theme": ["Fantasy"],
+      "img": "015b.png",
+      "designer": "Seiji Kanai",
+      "weight": "1.20", 
+      "year": 2012,
+      "players": [2, 3, 4],
+      "length": 20,
+      "url": "https://boardgamegeek.com/boardgame/129622/love-letter"
+    },
+    "BookOfDragons": {
+      "name": "Book of Dragons",
+      "number": "49",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["Area Majority / Influence", "Auction/Bidding", "Campaign / Battle Card Driven", "Card Drafting", "Deck, Bag, and Pool Building", "Hand Management", "Memory", "Push Your Luck", "Secret Unit Deployment", "Set Collection", "Take That", "Trading", "Trick-taking"],
+      "theme": ["Fantasy"],
+      "img": "049.png",
+      "designer": "Various",
+      "weight": "1.00", 
+      "year": 2018,
+      "players": [1, 2, 3, 4, 5, 6, 7, 8],
+      "length": 45,
+      "url": "https://boardgamegeek.com/boardgame/233080/book-dragons"
+    }
 
 
   },
