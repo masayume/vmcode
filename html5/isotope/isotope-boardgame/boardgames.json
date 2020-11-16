@@ -677,8 +677,22 @@
       "players": [1, 2, 3, 4],
       "length": 120,
       "url": "https://boardgamegeek.com/boardgame/264220/tainted-grail-fall-avalon"
-    }
-   
+    },
+    "Star.Realms": {
+      "name": "Star.Realms",
+      "number": "47",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["Card Drafting", "Deck, Bag, and Pool Building", "Hand Management", "Take That"],
+      "theme": ["Science Fiction"],
+      "img": "047.png",
+      "designer": "Robert Dougherty, Darwin Kastle",
+      "weight": "1.94", 
+      "year": 2014,
+      "players": [2],
+      "length": 20,
+      "url": "https://boardgamegeek.com/boardgame/147020/star-realms"
+    }   
 
 
   },
