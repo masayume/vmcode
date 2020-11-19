@@ -425,6 +425,23 @@
       "url": "https://www.youtube.com/watch?v=ASDDp0RL9v0&feature=youtu.be",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0026": {
+      "name": "Artbreeder",
+      "number": "26",
+      "data_cat": "player",
+      "class": ["player", "style", "drawing"],
+      "theme": ["technique"],
+      "img": "wf026.png",
+      "author": "Max Schulz",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2020,
+      "players": [1],
+      "length": 9,
+      "url": "https://www.gamasutra.com/blogs/MaxSchulz/20201022/372349/GANSupported_Concept_Art_Workflows.php",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
