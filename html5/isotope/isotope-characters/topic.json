@@ -1,0 +1,153 @@
+{
+  "data":
+  {
+    "CohlFurey": {
+      "name": "Cohl Furey",
+      "number": "10",
+      "data_cat": "player",
+      "class": ["player", "science", "woman", "smart", "martial arts", "physics"],
+      "mechanics": ["grid", "combinatorial", "abstract"],
+      "theme": ["science"],
+      "img": "010.jpg",
+      "weight": "1.69", 
+      "country": "Canada", 
+      "job": "Physicist", 
+      "year": 1979,
+      "sign": "Goat",
+      "players": [],
+      "length": 0,
+      "url": "https://www.youtube.com/watch?v=3AAK-4KdGXs"
+    },
+    "ShirleyManson": {
+      "name": "Shirley Manson",
+      "number": "20",
+      "data_cat": "player",
+      "class": ["player", "music", "woman", "outspoken", "sex-symbol", "redhead", "artist"],
+      "mechanics": ["grid", "modular board", "abstract"],
+      "theme": ["Art"],
+      "img": "020.jpg",
+      "weight": "2.63", 
+      "job": "Singer", 
+      "year": 1966,
+      "sign": "Horse",
+      "players": [],
+      "length": 0,
+      "url": "https://en.wikipedia.org/wiki/Shirley_Manson"
+    },
+    "GiuseppeCruciani": {
+      "name": "Giuseppe Cruciani",
+      "number": "30",
+      "data_cat": "player",
+      "class": ["player", "radio", "journalist", "man", "cynic", "outspoken", "offbeat"],
+      "mechanics": ["scraping"],
+      "theme": ["culture"],
+      "img": "030.jpg",
+      "weight": "2.15", 
+      "job": "Speaker", 
+      "year": 1966,
+      "sign": "Horse",
+      "players": [],
+      "length": 0,
+      "url": "https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0",
+      "locale": "~/SCRAPE/scrape-puppeteer"
+    },
+    "EnricoMentana": {
+      "name": "Enrico Mentana",
+      "number": "40",
+      "data_cat": "player",
+      "class": ["player", "video", "journalist", "man", "smart", "fast-talk", "balancer"],
+      "mechanics": ["scraping"],
+      "theme": ["culture"],
+      "img": "040.jpg",
+      "weight": "2.15", 
+      "job": "Speaker", 
+      "year": 1955,
+      "sign": "Goat",
+      "players": [],
+      "length": 0,
+      "url": "https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0",
+      "locale": "~/SCRAPE/scrape-puppeteer"
+    },
+    "NAME01": {
+      "name": "NAME",
+      "number": "50",
+      "data_cat": "player",
+      "class": ["player", "video", "journalist", "man", "smart", "fast-talk", "balancer"],
+      "mechanics": ["scraping"],
+      "theme": ["culture"],
+      "img": "050.jpg",
+      "weight": "2.15", 
+      "job": "Speaker", 
+      "year": 1955,
+      "sign": "Goat",
+      "players": [],
+      "length": 0,
+      "url": "https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0",
+      "locale": "~/SCRAPE/scrape-puppeteer"
+    },
+    "NAME02": {
+      "name": "NAME",
+      "number": "60",
+      "data_cat": "player",
+      "class": ["player", "video", "journalist", "man", "smart", "fast-talk", "balancer"],
+      "mechanics": ["scraping"],
+      "theme": ["culture"],
+      "img": "050.jpg",
+      "weight": "2.15", 
+      "job": "Speaker", 
+      "year": 1955,
+      "sign": "Goat",
+      "players": [],
+      "length": 0,
+      "url": "https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0",
+      "locale": "~/SCRAPE/scrape-puppeteer"
+    }
+
+
+  },
+  "template":
+  {
+    "GAME.1": {
+      "name": "GAME.1",
+      "number": "30",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "030.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year": 1901,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    },
+    "GAME.2": {
+      "name": "GAME.1",
+      "number": "31",
+      "data_cat": "player",
+      "class": ["player", "arcade"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "031.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "year": 1901,
+      "players": [2, 3, 4],
+      "length": 0,
+      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    }
+
+  },
+  "boolean": true,
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d",
+    "e": "f"
+  },
+  "description": "masayume Boardgame Collection",
+  "version": "0.3"
+}
