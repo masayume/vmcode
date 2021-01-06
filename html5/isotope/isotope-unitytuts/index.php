@@ -19,8 +19,8 @@
 <div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
   <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="year">year</button>
-  <button class="button" data-sort-by="number">number</button>
-  <button class="button" data-sort-by="length">duration</button>
+  <button class="button" data-sort-by="number">#</button>
+  <button class="button" data-sort-by="length">length</button>
   <button class="button" data-sort-by="rating">rating</button>
   <button class="button" data-sort-by="weight">difficulty</button>
 <!--
@@ -36,8 +36,10 @@
   <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".2D">2D</button>
   <button class="button" data-filter=".arcade">arcade</button>
+  <button class="button" data-filter=".movement">movement</button>
   <button class="button" data-filter=".prefab">prefab</button>
   <button class="button" data-filter=".types">types</button>
+  <button class="button" data-filter=".audio">audio</button>
   <button class="button" data-filter=".automation">automation</button>
   <button class="button" data-filter=".scripting">scripting</button>
   <button class="button" data-filter=".shader">shader</button>
