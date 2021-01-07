@@ -689,11 +689,11 @@
       "players": [1],
       "length": 50,
       "url": "https://www.youtube.com/watch?v=fyV77lN1Yl0&list=RDCMUCX_b3NNQN5bzExm-22-NVVg",
-      "localdir": "",wget 
+      "localdir": "",
       "notes": "movement fundamentals"
     },
     "0041": {
-      "name": "movement fundamentals",
+      "name": "audio fundamentals",
       "number": "41",
       "data_cat": "player",
       "class": ["player", "3D", "audio"],
