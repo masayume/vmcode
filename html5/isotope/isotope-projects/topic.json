@@ -68,10 +68,10 @@
       "url": "https://boardgamegeek.com/boardgame/39856/dixit"
     },
     "Intellivision": {
-      "name": "Intellivision remake",
+      "name": "Intellivision Style",
       "number": "50",
       "data_cat": "player",
-      "class": ["player", "arcade", "videogame"],
+      "class": ["player", "arcade", "videogame", "style"],
       "mechanics": ["Action Point Allowance System", "Dice Rolling", "Secret Unit Deployment", "Variable Player Powers"],
       "theme": ["Fantasy"],
       "img": "050.gif",
@@ -83,6 +83,23 @@
       "length": 60,
       "url": "https://www.youtube.com/watch?v=IJn0SS2WyGc",
       "url2": "https://twitter.com/more8bit?lang=en"
+    },
+    "Recompile": {
+      "name": "Recompile Style",
+      "number": "52",
+      "data_cat": "player",
+      "class": ["player", "arcade", "videogame", "style"],
+      "mechanics": ["Action Point Allowance System", "Dice Rolling", "Secret Unit Deployment", "Variable Player Powers"],
+      "theme": ["Fantasy"],
+      "img": "052.gif",
+      "designer": "Phi Dinh",
+      "weight": "3.16", 
+      "status": "todo", 
+      "year": 2021,
+      "players": [2],
+      "length": 60,
+      "url": "https://www.gamasutra.com/blogs/PhiDinh/20180523/318444/Art_Design_Deep_Dive_Rendering_the_player_as_a_form_of_pure_energy_in_Recompile.php",
+      "url2": "https://store.steampowered.com/app/986310/Recompile/"
     },
     "KanjiGame": {
       "name": "The Kanji Game",
@@ -152,7 +169,7 @@
       "name": "mdbooks in corso",
       "number": "100",
       "data_cat": "player",
-      "class": ["player", "arcade", "videogame", "now"],
+      "class": ["player", "arcade", "videogame"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
       "img": "100.png",

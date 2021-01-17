@@ -20,8 +20,8 @@
   <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="year">year</button>
   <button class="button" data-sort-by="status">status</button>
-  <button class="button" data-sort-by="length">duration</button>
-  <button class="button" data-sort-by="weight">complexity</button>
+  <button class="button" data-sort-by="length">time</button>
+  <button class="button" data-sort-by="weight">complex</button>
 <!--
   <button class="button" data-sort-by="category">category</button>
 -->
@@ -36,6 +36,7 @@
   <button class="button" data-filter=".creative">creative</button>
   <button class="button" data-filter=".videogame">videogame</button>
   <button class="button" data-filter=".resources">resources</button>
+  <button class="button" data-filter=".style">style</button>
   <button class="button" data-filter=".now">NOW!</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
