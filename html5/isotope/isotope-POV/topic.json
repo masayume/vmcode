@@ -1,0 +1,76 @@
+{
+  "data":
+  {
+    "0001": {
+      "name": "Night Cycling In Tokyo Ginza",
+      "number": "1",
+      "data_cat": "player",
+      "class": ["player", "japan", "tokyo", "ginza", "Bike", "POV", "4k", "DONE"],
+      "theme": ["editor"],
+      "img": "001.png",
+      "author": "https://www.youtube.com/channel/UCIDTgYVs-rEHx-fE4qSPZhQ",
+      "rating": 3, 
+      "times": 1, 
+      "year": 2019,
+      "players": [1],
+      "length": 37,
+      "url": "https://www.youtube.com/watch?v=3iECBzZ8FKc",
+      "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#02",
+      "notes": "utile per scripting interfaccia unity e creazione automatica di prefab"
+    },
+
+
+    "ass001": {
+      "name": "Gameflow",
+      "number": "100",
+      "data_cat": "player",
+      "class": ["player", "2D", "scripts", "animation", "assetstore", "automation"],
+      "theme": ["movement"],
+      "img": "ass001-gameflow.jpg",
+      "author": "Evasion Games",
+      "rating": 3,
+      "weight": 2,
+      "year": 2019,
+      "players": [1],
+      "length": 22,
+      "url": "https://assetstore.unity.com/packages/tools/visual-scripting/gameflow-14808",
+      "localdir": "",
+      "notes": "visual scripting and automation tool"
+    }
+
+
+  },
+  "template":
+  {
+   "BOOKTITLE.1": {
+      "tut-01": "https://www.youtube.com/user/Unity3DCoder/playlists",
+      "tut-02": "https://www.youtube.com/results?search_query=spelunky+unity",
+      "tut-03-platformer": "https://www.youtube.com/watch?v=2MImqNvgrNg",
+      "tut-04-other-tuts": "https://twitter.com/drakfyre",
+      "tut-05-other-tuts": "https://www.youtube.com/channel/UC3bHnBF2Q-u-1NEYG0Xwgeg/videos",
+      "tut-06-other-tuts": "https://www.youtube.com/channel/UCHM37DnT_QGJT5Zyl4EmqcA/videos",
+      "gameobject.scripting": "file:///C:/PortableApps/UNITY2019.1/Editor/2019.1.0f2/Editor/Data/Documentation/en/ScriptReference/GameObject.html",
+      "prj-01 - 2D UFO Tutorial": "https://assetstore.unity.com/packages/essentials/tutorial-projects/2d-ufo-tutorial-52143",
+      "prj-02 - Tanks!!! Reference Project": "https://assetstore.unity.com/packages/essentials/tutorial-projects/tanks-reference-project-80165",
+      "prj-03 - 2D Beginner: Complete Project": "https://assetstore.unity.com/packages/essentials/tutorial-projects/2d-beginner-complete-project-140253",
+      "prj-04 - Adventure - Sample Game": "https://assetstore.unity.com/packages/essentials/tutorial-projects/adventure-sample-game-76216",
+      "prj-05 - 3D Beginner: Complete Project": "https://assetstore.unity.com/packages/essentials/tutorial-projects/3d-beginner-complete-project-143846",
+      "prj-06 - Unity Playground": "https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-playground-109917",
+      "prj-07 - Roll-a-ball tutorial": "https://assetstore.unity.com/packages/essentials/tutorial-projects/roll-a-ball-tutorial-complete-77198",
+      "prj-08 - Tower Defense Template": "https://assetstore.unity.com/packages/essentials/tutorial-projects/tower-defense-template-107692",
+      "prj-09 - Film Sample Project":"https://assetstore.unity.com/packages/templates/film-sample-project-130415"
+
+    } 
+
+  },
+  "boolean": true,
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d",
+    "e": "f"
+  },
+  "description": "masayume Unity Tutorial list",
+  "version": "0.1"
+}
