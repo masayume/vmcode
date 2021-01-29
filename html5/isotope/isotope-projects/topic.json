@@ -144,7 +144,8 @@
       "designer": "DESIGNER",
       "weight": "2.COMPLEX", 
       "status": "todo", 
-      "year": 2020,
+      "year-start": 2020,
+      "year": 2021,
       "players": [1, 2, 3, 4],
       "length": 0,
       "url": "https://www.masayume.it/blog/content/come-si-costruisce-una-storia-il-corso-di-scrittura-di-fabio-bonifacci"
@@ -160,7 +161,8 @@
       "designer": "DESIGNER",
       "weight": "2.COMPLEX", 
       "status": "todo", 
-      "year": 2020,
+      "year-start": 2020,
+      "year": 2021,
       "players": [1, 2, 3, 4],
       "length": 0,
       "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
@@ -181,8 +183,25 @@
       "length": 0,
       "url": "https://boardgamegeek.com/boardgame/217861/paper-tales",
       "dir": "/git/mdbooks/"
+    },
+    "kdenline": {
+      "name": "video editing",
+      "number": "110",
+      "data_cat": "player",
+      "class": ["player", "video", "videogame"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "110.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year-start": 2020,
+      "year": 2021,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://www.masayume.it/blog/content/kdenlive-non-linear-video-editor",
+      "dir": "?"
     }
-
 
   },
   "template":
