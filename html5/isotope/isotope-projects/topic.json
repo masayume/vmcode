@@ -201,8 +201,25 @@
       "length": 0,
       "url": "https://www.masayume.it/blog/content/kdenlive-non-linear-video-editor",
       "dir": "?"
+    },
+    "cryptoart": {
+      "name": "crypto art",
+      "number": "120",
+      "data_cat": "player",
+      "class": ["player", "video", "crypto", "art"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "120.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year-start": 2021,
+      "year": 2021,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://www.masayume.it/blog/content/crypto-art-30-cryptokitties",
+      "dir": "?"
     }
-
   },
   "template":
   {
