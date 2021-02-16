@@ -1,5 +1,10 @@
 <?php
 
+// DIRECTORIES & CONFIG:
+// assets   /home/masayume/DATA/E/Temp/demon/mersenne/uchida/
+// paitings /home/masayume/DATA/E/INSPIRE/@masayasu_uchida/
+// config   /var/www/html/mersenne/mersenne-03-config.php 
+
 // TODO
 
 // :??? planet names different from demon names
@@ -11,7 +16,8 @@
 //      JSON FILE DIR: :85 filename = PATH(/var/www...) + basedir(param(dir)) + basedir(param(dir)).json
 
 //   example URL: 
-//	http://localhost:8989/keplerion/mersenne-03.php?seed=100&page=1&results=27&atype=demons
+//	    http://localhost:8989/keplerion/mersenne-03.php?seed=100&page=1&results=27&atype=demons
+//      http://localhost:8989/mersenne/mersenne.php?seed=100&page=4&results=1&atype=uchida
 
 // > webGL canvas filter switch
 
@@ -26,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.37';
+$version    = '1.4';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -339,7 +345,7 @@ $vspacer = "";
 
 
     print "<div id=\"bottomdiv\">";
-    print "$vspacer v.$version - 2018-19 - masayume ";
+    print "$vspacer v.$version - 2018-21 - masayume ";
 //    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print "$vspacer  " . demon_count($scenedir, $atype);
     print "$vspacer DIR:" . $imgpath;
