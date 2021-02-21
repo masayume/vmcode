@@ -343,7 +343,7 @@ $vspacer = "";
 
 	print "</div>";
 
-
+    $vspacer = "";
     print "<div id=\"bottomdiv\">";
     print "$vspacer v.$version - 2018-21 - masayume ";
 //    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
@@ -1222,7 +1222,7 @@ function demon_count($dir, $type) {
             $demon_elems    = array();
             $demon_elems    = kind_elem($part, $dlayers, $assetmode); // elementi di tipo "HE"... 
             if (in_array($part, array_keys($demon_layers) )) { 
-                $dpart .= " $part: " . count($demon_elems); 
+                $dpart .= " $part: <b>" . count($demon_elems) . "</b>"; 
                 $dcount *= count($demon_elems); 
             } 
         }        
