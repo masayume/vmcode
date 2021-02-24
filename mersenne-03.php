@@ -278,7 +278,15 @@ $vspacer = "";
 
     print "\n\n<div id=\"layers\" style=\"position: relative; $elem_pos \">";
 
-/*  =============================
+    if ($atype == "uchida") { // $qualcosa == "uchida"
+        print "\n\n<div id=\"topframe\" style=\"border: none; position: absolute; left: -39px; top: 12px;\"> <img src=/demon/mersenne/img/$atype-TOP.png> </div>";
+        print "\n\n<div id=\"leftframe\" style=\"border: none; position: absolute; left: -39px; top: 60px;\"> <img src=/demon/mersenne/img/$atype-LEFT.png> </div>";
+        print "\n\n<div id=\"rightframe\" style=\"border: none; position: absolute; left: 521px; top: 60px;\"> <img src=/demon/mersenne/img/$atype-RIGHT.png> </div>";
+        print "\n\n<div id=\"bottomframe\" style=\"border: none; position: absolute; left: -39px; top: 798px;\"> <img src=/demon/mersenne/img/$atype-BOTTOM.png> </div>";    
+    }
+
+
+    /*  =============================
         START MAIN SCENE LOOP 
     =============================
 */
