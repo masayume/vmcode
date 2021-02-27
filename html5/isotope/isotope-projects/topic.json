@@ -24,7 +24,7 @@
       "class": ["player", "arcade", "videogame"],
       "mechanics": ["grid", "modular board", "abstract"],
       "theme": ["Asia"],
-      "img": "002.png",
+      "img": "060.png",
       "designer": "Dox Lucchin, Pedro Latro",
       "weight": "2.63", 
       "status": "prototype", 
@@ -108,7 +108,7 @@
       "class": ["player", "arcade", "cards", "videogame"],
       "mechanics": ["Hand Management"],
       "theme": ["THEME"],
-      "img": "060.png",
+      "img": "002.png",
       "designer": "DESIGNER",
       "weight": "1.36", 
       "year": 2010,
@@ -168,7 +168,7 @@
       "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
     },
     "mdbook": {
-      "name": "mdbooks in corso",
+      "name": "mdbooks: babich",
       "number": "100",
       "data_cat": "player",
       "class": ["player", "arcade", "videogame"],
@@ -182,6 +182,7 @@
       "players": [1, 2, 3, 4],
       "length": 0,
       "url": "https://boardgamegeek.com/boardgame/217861/paper-tales",
+      "about": "https://www.outcast.it/?author=574c2b1efe5f74b73588ec04",
       "dir": "/git/mdbooks/"
     },
     "kdenline": {
@@ -219,7 +220,28 @@
       "length": 0,
       "url": "https://www.masayume.it/blog/content/crypto-art-30-cryptokitties",
       "dir": "?"
+    },
+    "WFC": {
+      "name": "wave function collapse",
+      "number": "130",
+      "data_cat": "player",
+      "class": ["player", "tool", "art"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "130.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year-start": 2021,
+      "year": 2021,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+      "dir": "/git/python/oisin"
     }
+
+
+
   },
   "template":
   {
