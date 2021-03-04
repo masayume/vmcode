@@ -918,8 +918,11 @@ EOT;
         $structtxt = $name_struct  . " - ";        
     } 
 
+// uchida scenetitle         <div class="scenetitle" style="position: relative; top: 20px; left: 180px; width: 100px;">
+
+
     $tooltiphtml = <<< EOTP
-        <div class="scenetitle" style="position: relative; top: 20px; left: 180px; width: 100px;">
+        <div class="scenetitle" style="position: relative;">
 
 <span  id="bottomtip" class="btn-primary .btn-xs center-block text-center" data-toggle="tooltip" data-html="true" title="\nseed: $sseed\nstruct: $name_struct \nname: $scene_name2print \npath: $imgpath\n$tooltiptext">
                 <a href="$elem_link">$structtxt $scene_name2print </a>
