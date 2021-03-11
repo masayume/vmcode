@@ -709,6 +709,23 @@
       "localdir": "",
       "notes": "audio fundamentals"
     },
+    "0042": {
+      "name": "Boat Attack",
+      "number": "42",
+      "data_cat": "player",
+      "class": ["player", "3D", "audio", "game", "project", "3D"],
+      "theme": ["arcade"],
+      "img": "0042.png",
+      "author": "Unity Technologies",
+      "rating": 3,
+      "weight": 2,
+      "year": 2021,
+      "players": [1],
+      "length": 36,
+      "url": "https://github.com/Unity-Technologies/BoatAttack",
+      "localdir": "",
+      "notes": "audio fundamentals"
+    },
 
 
     "ass001": {

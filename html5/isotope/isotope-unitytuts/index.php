@@ -34,6 +34,7 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".project">project</button>
   <button class="button" data-filter=".2D">2D</button>
   <button class="button" data-filter=".arcade">arcade</button>
   <button class="button" data-filter=".movement">movement</button>
