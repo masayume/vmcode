@@ -1,0 +1,188 @@
+/*
+  All Body CSS in this file, along with anything which does not change/move. This mainly relates to the body and the gacha machine.
+  Animated CSS should be placed in animation.css
+*/
+
+html,body {
+  height: 100%;
+  font-family: matchupPro, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #f1f1ed;
+  overflow-x: hidden;
+}
+
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+*:focus {
+  outline: none;
+}
+
+.message-center {
+  position: relative;
+  width: 30%;
+  text-align: center;
+  background-color: #237992;
+  padding: 20px;
+  margin: 0 auto;
+  color: #FFF;
+}
+
+.message-center:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -12px;
+  right: 37%;
+  border: 25px solid;
+  border-color: transparent transparent transparent #237992;
+  z-index: -1;
+}
+
+#frogpon-container {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 54%;
+  margin: 0 auto;
+}
+
+#frogchine {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.click-me {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  font: italic bold 53px Georgia, Serif;
+  bottom: 152px;
+  right: 239px;
+  transform: rotate(-15deg);
+  color: #fff;
+  cursor: pointer;
+  text-shadow:
+    0 1px 0px #000,
+    1px 0 0px #000,
+    1px 2px 1px #000,
+    2px 1px 1px #7ccb9d,
+    2px 3px 2px #7ccb9d,
+    3px 2px 2px #7ccb9d,
+    3px 4px 2px #7ccb9d
+}
+
+#frogchine > .machine > img {
+  margin: 0 auto;
+  width: 292px;
+}
+
+#card-library-container {
+  width: 100%;
+  min-height: calc(100vh - 25%);
+  background-color: #7ccb9d;
+  position: absolute;
+  top: 361px;
+  left: 0;
+}
+
+#card-library-content, #saved-cards {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70%;
+  margin: 0 auto;
+  padding: 125px 110px 0 0; /* border-right offsets the animation pushover */
+}
+
+#collection-container {
+  display: none;
+}
+
+#saved-cards {
+  padding: 10px 110px 0 0;
+}
+
+#total-frogs {
+  padding: 125px 0 0;
+  margin: 0 auto;
+  color: #f1f1ed;
+  font-weight: bold;
+  font-size: 20pt;
+}
+.card > img {
+  width: 130px;
+  cursor: pointer;
+}
+
+.new-card-text {
+  color: rgb(255, 255, 91);
+  text-shadow: 4px 1px 10px rgba(255, 255, 91, .7);
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+#clearStorage, #switch-cards {
+  background-color: #f1f1ed;
+  font-size: 1.1em;
+  color: #237992;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+  padding:5px;
+}
+
+#switch-layout-mode {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px;
+  z-index:30;
+}
+
+#regular-mode, #spacejam-mode {
+  background-color: rgba(255,255,255,.3);
+  border: none;
+  border: 1px solid white;
+  padding: 6px;
+}
+
+#regular-mode:hover, #spacejam-mode:hover {
+  transition: 2s;
+  background-color: #157e91;
+  color: #fff;
+}
+
+
+.spacejam {
+  display:none;
+  color: #6969d6;
+}
+
+.yellow-block {
+  background-color: yellow;
+  width: 13%;
+  height: 24px;
+  position: absolute;
+  top: 12px;
+  left: 43%;
+  z-index: -1;
+}
+
+.support {
+  color: #7ccb9d;
+  cursor: pointer;
+}
+
+.support:hover {
+  text-decoration: underline;
+}
