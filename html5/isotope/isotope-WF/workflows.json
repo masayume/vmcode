@@ -442,6 +442,23 @@
       "url": "https://www.gamasutra.com/blogs/MaxSchulz/20201022/372349/GANSupported_Concept_Art_Workflows.php",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0027": {
+      "name": "Unity",
+      "number": "27",
+      "data_cat": "player",
+      "class": ["player", "style", "drawing", "3D"],
+      "theme": ["technique"],
+      "img": "wf027.png",
+      "author": "Mix and Jam",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2021,
+      "players": [1],
+      "length": 9,
+      "url": "https://youtu.be/FR618z5xEiM?t=65",
+      "localdir": "",
+      "notes": "use unity assets and mixamo poses/animations with shaders for illustrations"
     }
 
 
