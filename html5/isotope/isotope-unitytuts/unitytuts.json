@@ -713,7 +713,7 @@
       "name": "Boat Attack",
       "number": "42",
       "data_cat": "player",
-      "class": ["player", "3D", "audio", "game", "project", "3D"],
+      "class": ["player", "3D", "audio", "game", "project"],
       "theme": ["arcade"],
       "img": "0042.png",
       "author": "Unity Technologies",
@@ -726,7 +726,23 @@
       "localdir": "",
       "notes": "audio fundamentals"
     },
-
+    "0043": {
+      "name": "New 2D Animation",
+      "number": "43",
+      "data_cat": "player",
+      "class": ["player", "2D", "game", "animation" ],
+      "theme": ["arcade"],
+      "img": "0043.png",
+      "author": "Kyle Kukshtel",
+      "rating": 3,
+      "weight": 2,
+      "year": 2021,
+      "players": [1],
+      "length": 36,
+      "url": "https://www.gamasutra.com/blogs/KyleKukshtel/20210224/377838/Using_Unitys_New_2D_Animation_Package_for_Traditional_Sprite_Animation.php",
+      "localdir": "",
+      "notes": "Using Unity's New 2D Animation Package for Traditional Sprite Animation"
+    },
 
     "ass001": {
       "name": "Gameflow",
