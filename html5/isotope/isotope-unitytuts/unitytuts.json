@@ -743,6 +743,23 @@
       "localdir": "",
       "notes": "Using Unity's New 2D Animation Package for Traditional Sprite Animation"
     },
+    "0044": {
+      "name": "2D Jump Animation",
+      "number": "44",
+      "data_cat": "player",
+      "class": ["player", "2D", "game", "animation", "movement", "jump" ],
+      "theme": ["arcade"],
+      "img": "0044.png",
+      "author": "Adam C. Younis",
+      "rating": 3,
+      "weight": 2,
+      "year": 2020,
+      "players": [1],
+      "length": 39,
+      "url": "https://www.youtube.com/watch?v=kmRUUK30E6k",
+      "localdir": "",
+      "notes": "detail about more technical animation methods to Jump that span Aseprite and Unity"
+    },
 
     "ass001": {
       "name": "Gameflow",
