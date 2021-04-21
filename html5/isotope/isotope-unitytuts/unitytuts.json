@@ -760,7 +760,25 @@
       "localdir": "",
       "notes": "detail about more technical animation methods to Jump that span Aseprite and Unity"
     },
-
+    "0045": {
+      "name": "Level Designer Toolkit",
+      "number": "45",
+      "data_cat": "player",
+      "class": ["player", "2D", "game", "level", "design", "tool" ],
+      "theme": ["arcade"],
+      "img": "0045.gif",
+      "author": "Adam C. Younis",
+      "rating": 3,
+      "weight": 2,
+      "year": 2020,
+      "players": [1],
+      "length": 39,
+      "url": "https://www.youtube.com/watch?v=ck8ohhC0XdM",
+      "extra": "https://twitter.com/MrmoTarius/status/1382380592914956292",
+      "masayume": "https://www.masayume.it/blog/content/ldtk-level-designer-toolkit",
+      "localdir": "",
+      "notes": "Creating 2D Game Worlds In the Powerful LDtk."
+    },
     "ass001": {
       "name": "Gameflow",
       "number": "100",
