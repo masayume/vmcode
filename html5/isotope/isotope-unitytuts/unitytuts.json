@@ -779,6 +779,28 @@
       "localdir": "",
       "notes": "Creating 2D Game Worlds In the Powerful LDtk."
     },
+    "0046": {
+      "name": "Ascii Shader",
+      "number": "46",
+      "data_cat": "player",
+      "class": ["player", "2D", "game", "shader", "effects", "tool" ],
+      "theme": ["arcade"],
+      "img": "0046.gif",
+      "author": "Phi Dinh",
+      "rating": 3,
+      "weight": 2,
+      "year": 2020,
+      "players": [1],
+      "length": 39,
+      "url": "https://github.com/codyjb/PhiOS",
+      "extra": "https://pastebin.com/XfWNf1DJ",
+      "masayume": "https://pastebin.com/XfWNf1DJ",
+      "localdir": "",
+      "notes": "ASCII Rendering Engine for Unity"
+    },
+
+
+
     "ass001": {
       "name": "Gameflow",
       "number": "100",
