@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.4';
+$version    = '1.42';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
