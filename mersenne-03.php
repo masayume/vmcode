@@ -431,7 +431,7 @@ function scene_layers($dir, $i, $layers) {
 
             if ( isset($fileinfo["extension"]) ) {            
 
-                if (  $fileinfo["extension"] == "jpg" || $fileinfo["extension"] == "png" || $fileinfo["extension"] == "webp"  ) { 
+                if (  $fileinfo["extension"] == "gif" || $fileinfo["extension"] == "jpg" || $fileinfo["extension"] == "png" || $fileinfo["extension"] == "webp"  ) { 
 
                     array_push($dlayers, $entry);
                     $nameparts  = explode("_", $entry);
@@ -870,7 +870,7 @@ EOCSS;
 			     $divs .= "$spritesheetdiv \n <!-- spritesheet enabled -->\n";
                  $tooltiptext .= "\n$scene_url[$j] - (A)";
             } else {
-              $divs .= "\n<div id='$divId' style=\"$padding \"><img style=\"border: none;\" id=\"myImage-$i-$j\" width=\"$dwidth\" src=\"$imgpath$scene_url[$j]\" $onload > </div>\n\n";                
+              $divs .= "\n<div id='$divId' style=\"$padding \"><img style=\"border: none;\" id=\"myImage-$i-$j\"  src=\"$imgpath$scene_url[$j]\" $onload > </div>\n\n";                
                  $tooltiptext .= "\n$scene_url[$j] ";
 
             }
