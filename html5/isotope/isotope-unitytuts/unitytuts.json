@@ -798,8 +798,40 @@
       "localdir": "",
       "notes": "ASCII Rendering Engine for Unity"
     },
-
-
+    "0047": {
+      "name": "Card Shader",
+      "number": "47",
+      "data_cat": "player",
+      "class": ["player", "2D", "unity", "shader", "effects", "advanced" ],
+      "theme": ["arcade"],
+      "img": "0047.gif",
+      "author": "Valerio Marty",
+      "rating": 3,
+      "weight": 2,
+      "year": 2021,
+      "players": [1],
+      "length": 30,
+      "url": "https://valeriomarty.medium.com/creating-a-card-shader-with-3d-content-f3324ca8ffdc",
+      "localdir": "",
+      "notes": "Shadergraph breakdown"
+    },
+    "0048": {
+      "name": "megaman tutorial",
+      "number": "48",
+      "data_cat": "player",
+      "class": ["player", "2D", "arcade", "project", "platform", "advanced" ],
+      "theme": ["arcade"],
+      "img": "0048.jpg",
+      "author": "Tony Bhimani",
+      "rating": 3,
+      "weight": 2,
+      "year": 2020,
+      "players": [1],
+      "length": 800,
+      "url": "https://www.youtube.com/watch?v=2yWY_hpb7B0",
+      "localdir": "",
+      "notes": "Complete Arcade Tutorial"
+    },
 
     "ass001": {
       "name": "Gameflow",
