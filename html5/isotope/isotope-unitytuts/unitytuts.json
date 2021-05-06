@@ -849,7 +849,25 @@
       "localdir": "",
       "notes": "Complete UI Tutorial"
     },
+    "0050": {
+      "name": "Perfect Pixelart",
+      "number": "50",
+      "data_cat": "player",
+      "class": ["player", "2D", "3D", "pixelart", "trick" ],
+      "theme": ["arcade"],
+      "img": "0050.png",
+      "author": "Pedro Medeiros",
+      "rating": 3,
+      "weight": 2,
+      "year": 2021,
+      "players": [1],
+      "length": 1,
+      "url": "https://twitter.com/saint11/status/1346940939864993794",
+      "localdir": "",
+      "notes": "trick: make your Unity game pixel perfect.  the main camera of the game renders to a texture, enforcing a pixel size. Then you just put that into a cube and make a camera look at it, so you can scale it to the real screen size."
+    },
 
+    
     "ass001": {
       "name": "Gameflow",
       "number": "100",
