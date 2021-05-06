@@ -453,7 +453,7 @@
       "name": "DG.Dotween",
       "number": "27",
       "data_cat": "player",
-      "class": ["player", "2D", "effects", "fx", "gui", "animation"],
+      "class": ["player", "2D", "effects", "fx", "GUI", "animation"],
       "theme": ["package"],
       "img": "0027.jpg",
       "author": "Demigiant",
@@ -831,6 +831,23 @@
       "url": "https://www.youtube.com/watch?v=2yWY_hpb7B0",
       "localdir": "",
       "notes": "Complete Arcade Tutorial"
+    },
+    "0049": {
+      "name": "GUI tutorial",
+      "number": "49",
+      "data_cat": "player",
+      "class": ["player", "2D", "project", "GUI", "serie" ],
+      "theme": ["arcade"],
+      "img": "0049.jpg",
+      "author": "Antarsoft",
+      "rating": 3,
+      "weight": 2,
+      "year": 2021,
+      "players": [1],
+      "length": 180,
+      "url": "https://www.youtube.com/watch?v=UA1kOccDwvI&list=PLjAb99vXJuCTw3pr-Ef95ke-Uf4JqWypd",
+      "localdir": "",
+      "notes": "Complete UI Tutorial"
     },
 
     "ass001": {
