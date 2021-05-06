@@ -21,8 +21,6 @@
   <button class="button" data-sort-by="year">year</button>
   <button class="button" data-sort-by="number">#</button>
   <button class="button" data-sort-by="length">length</button>
-  <button class="button" data-sort-by="rating">rating</button>
-  <button class="button" data-sort-by="weight">difficulty</button>
 <!--
   <button class="button" data-sort-by="category">category</button>
 -->

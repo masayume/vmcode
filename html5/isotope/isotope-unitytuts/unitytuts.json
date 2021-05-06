@@ -863,6 +863,7 @@
       "players": [1],
       "length": 1,
       "url": "https://twitter.com/saint11/status/1346940939864993794",
+      "url2": "https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@1.0/manual/index.html",      
       "localdir": "",
       "notes": "trick: make your Unity game pixel perfect.  the main camera of the game renders to a texture, enforcing a pixel size. Then you just put that into a cube and make a camera look at it, so you can scale it to the real screen size."
     },
