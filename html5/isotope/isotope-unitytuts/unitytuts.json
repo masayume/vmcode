@@ -819,7 +819,7 @@
       "name": "megaman tutorial",
       "number": "48",
       "data_cat": "player",
-      "class": ["player", "2D", "arcade", "project", "platform", "advanced" ],
+      "class": ["player", "2D", "arcade", "project", "platform", "advanced", "game" ],
       "theme": ["arcade"],
       "img": "0048.jpg",
       "author": "Tony Bhimani",
@@ -861,13 +861,29 @@
       "weight": 2,
       "year": 2021,
       "players": [1],
-      "length": 1,
+      "length": 51,
       "url": "https://twitter.com/saint11/status/1346940939864993794",
       "url2": "https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@1.0/manual/index.html",      
       "localdir": "",
       "notes": "trick: make your Unity game pixel perfect.  the main camera of the game renders to a texture, enforcing a pixel size. Then you just put that into a cube and make a camera look at it, so you can scale it to the real screen size."
     },
-
+    "0051": {
+      "name": "Baba is You",
+      "number": "51",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "project", "game" ],
+      "theme": ["arcade"],
+      "img": "0051.gif",
+      "author": "Akshay Goel",
+      "rating": 3,
+      "weight": 2,
+      "year": 2020,
+      "players": [1],
+      "length": 12,
+      "url": "https://www.youtube.com/watch?v=K3pQpESTz4s",
+      "localdir": "",
+      "notes": "The jam version of Baba Is You using Unity3D"
+    },
     
     "ass001": {
       "name": "Gameflow",
