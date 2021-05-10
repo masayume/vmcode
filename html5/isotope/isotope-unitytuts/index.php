@@ -36,6 +36,7 @@
   <button class="button" data-filter=".2D">2D</button>
   <button class="button" data-filter=".pixelart">pixelart</button>
   <button class="button" data-filter=".arcade">arcade</button>
+  <button class="button" data-filter=".ML">ML</button>
   <button class="button" data-filter=".movement">movement</button>
   <button class="button" data-filter=".prefab">prefab</button>
   <button class="button" data-filter=".types">types</button>

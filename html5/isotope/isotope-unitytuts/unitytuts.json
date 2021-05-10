@@ -884,7 +884,26 @@
       "localdir": "",
       "notes": "The jam version of Baba Is You using Unity3D"
     },
-    
+    "0052": {
+      "name": "Machine Learning",
+      "number": "52",
+      "data_cat": "player",
+      "class": ["player", "3D", "ML", "movement", "enemy" ],
+      "theme": ["arcade"],
+      "img": "0052.png",
+      "author": "Unity",
+      "rating": 3,
+      "weight": 2,
+      "year": 2021,
+      "players": [1],
+      "length": 120,
+      "url": "https://blogs.unity3d.com/2021/05/05/ml-agents-v2-0-release-now-supports-training-complex-cooperative-behaviors/",
+      "localdir": "",
+      "notes": "ML-Agents v2.0 release: Now supports training complex cooperative behaviors"
+    },
+
+
+
     "ass001": {
       "name": "Gameflow",
       "number": "100",
