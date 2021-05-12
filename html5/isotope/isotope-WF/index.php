@@ -35,10 +35,10 @@
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".2D">2D</button>
-  <button class="button" data-filter=".arcade">arcade</button>
-  <button class="button" data-filter=".prefab">prefab</button>
-  <button class="button" data-filter=".types">types</button>
-  <button class="button" data-filter=".automation">automation</button>
+  <button class="button" data-filter=".3D">3D</button>
+  <button class="button" data-filter=".source">source</button>
+  <button class="button" data-filter=".style">style</button>
+  <button class="button" data-filter=".pixelart">pixelart</button>
   <button class="button" data-filter=".scripting">scripting</button>
   <button class="button" data-filter=".shader">shader</button>
   <button class="button" data-filter=".assetstore">ASSETS</button>

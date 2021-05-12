@@ -430,7 +430,7 @@
       "name": "Artbreeder",
       "number": "26",
       "data_cat": "player",
-      "class": ["player", "style", "drawing"],
+      "class": ["player", "style", "drawing", "source"],
       "theme": ["technique"],
       "img": "wf026.png",
       "author": "Max Schulz",
@@ -459,6 +459,23 @@
       "url": "https://youtu.be/FR618z5xEiM?t=65",
       "localdir": "",
       "notes": "use unity assets and mixamo poses/animations with shaders for illustrations"
+    },
+    "0028": {
+      "name": "Pixatool",
+      "number": "28",
+      "data_cat": "player",
+      "class": ["player", "style", "drawing", "2D", "pixelart"],
+      "theme": ["technique"],
+      "img": "wf028.png",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2021,
+      "players": [1],
+      "length": 9,
+      "url": "https://youtu.be/FR618z5xEiM?t=65",
+      "localdir": "",
+      "notes": "pixelart from source"
     }
 
 
