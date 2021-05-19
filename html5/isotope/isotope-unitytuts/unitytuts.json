@@ -2,38 +2,39 @@
   "data":
   {
     "0001": {
-      "name": "Editor Scripting",
+      "name": "megaman tutorial",
       "number": "1",
       "data_cat": "player",
-      "class": ["player", "scripting", "types", "prefab", "automation", "GUI", "tool", "DONE"],
-      "theme": ["editor"],
+      "class": ["player", "2D", "arcade", "project", "platform", "advanced", "game" ],
+      "theme": ["arcade"],
       "img": "0001.jpg",
-      "author": "Renaissance Coding",
-      "rating": 3, 
-      "weight": 2, 
-      "year": 2017,
+      "author": "Tony Bhimani",
+      "rating": 3,
+      "weight": 2,
+      "year": 2020,
       "players": [1],
-      "length": 90,
-      "url": "https://www.youtube.com/playlist?list=PL4CCSwmU04MiCnps1DRmwIEEH7gP9X3qq",
-      "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#02",
-      "notes": "utile per scripting interfaccia unity e creazione automatica di prefab"
+      "length": 800,
+      "url": "https://www.youtube.com/watch?v=2yWY_hpb7B0",
+      "localdir": "",
+      "notes": "Complete Arcade Tutorial"
     },
     "0002": {
-      "name": "Space Shooter #1",
+      "name": "Blender->Pixelart",
       "number": "2",
       "data_cat": "player",
-      "class": ["player", "3D", "arcade", "movement", "DONE" ],
-      "theme": ["editor"],
+      "class": ["player", "2D", "3D", "blender", "process", "pixelart", "project", "game" ],
+      "theme": ["arcade"],
       "img": "0002.jpg",
-      "author": "GameDevHQ",
-      "rating": 2, 
-      "weight": 1, 
-      "year": 2013,
+      "author": "Soyaa",
+      "rating": 3,
+      "weight": 2,
+      "year": 2021,
       "players": [1],
-      "length": 150,
-      "url": "https://www.youtube.com/watch?v=48anhmWxT54&list=PLadYLGMfR6LonchR8lGhJT90BweHNwqKC",
-      "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#03",
-      "notes": "utile per ..."
+      "length": 12,
+      "url": "https://www.youtube.com/watch?v=K3pQpESTz4s",
+      "url2": "https://www.masayume.it/blog/content/il-workflow-blender-pixelart",
+      "localdir": "",
+      "notes": "Soyaa WF: read the video description"
     },
     "0003": {
       "name": "Space Shooter #2",
@@ -816,21 +817,21 @@
       "notes": "Shadergraph breakdown"
     },
     "0048": {
-      "name": "megaman tutorial",
+      "name": "Editor Scripting",
       "number": "48",
       "data_cat": "player",
-      "class": ["player", "2D", "arcade", "project", "platform", "advanced", "game" ],
-      "theme": ["arcade"],
+      "class": ["player", "scripting", "types", "prefab", "automation", "GUI", "tool", "DONE"],
+      "theme": ["editor"],
       "img": "0048.jpg",
-      "author": "Tony Bhimani",
-      "rating": 3,
-      "weight": 2,
-      "year": 2020,
+      "author": "Renaissance Coding",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2017,
       "players": [1],
-      "length": 800,
-      "url": "https://www.youtube.com/watch?v=2yWY_hpb7B0",
-      "localdir": "",
-      "notes": "Complete Arcade Tutorial"
+      "length": 90,
+      "url": "https://www.youtube.com/playlist?list=PL4CCSwmU04MiCnps1DRmwIEEH7gP9X3qq",
+      "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#02",
+      "notes": "utile per scripting interfaccia unity e creazione automatica di prefab"
     },
     "0049": {
       "name": "GUI tutorial",
@@ -901,6 +902,24 @@
       "localdir": "",
       "notes": "ML-Agents v2.0 release: Now supports training complex cooperative behaviors"
     },
+    "0053": {
+      "name": "Space Shooter #1",
+      "number": "53",
+      "data_cat": "player",
+      "class": ["player", "3D", "arcade", "movement", "DONE" ],
+      "theme": ["editor"],
+      "img": "0053.jpg",
+      "author": "GameDevHQ",
+      "rating": 2, 
+      "weight": 1, 
+      "year": 2013,
+      "players": [1],
+      "length": 150,
+      "url": "https://www.youtube.com/watch?v=48anhmWxT54&list=PLadYLGMfR6LonchR8lGhJT90BweHNwqKC",
+      "localdir": "E:\\UNITY.PROJECTS\\C#-01\\C#03",
+      "notes": "utile per ..."
+    },
+
 
 
 
