@@ -135,6 +135,7 @@ $owidth             = $json_data['original_width'];
 $jheight            = $json_data['height'];
 $demon_layers       = $json_data['layers'];
 $demon_names        = $json_data['names'];          // ES. $demon_names["BO"][1] ...
+$assetmode          = $json_data['assetmode'];      // ES. mixed: all assets similar, are combined === separate: in a struct only subtyped assets are shown 
 $demon_namestruct   = $json_data['name_struct'];   
 $font_size          = $json_data['font_size'];
 $structs            = array();
@@ -438,8 +439,14 @@ function scene_layers($dir, $i, $layers) {
                     $extparts   = explode(".",$nameparts[4]);
                     $numpart    = ltrim($extparts[0], '0');
 
+                // add layers to available assets    
                     if (!in_array($nameparts[1], $main_layers_types) ) {
                         array_push($main_layers_types, $nameparts[1]);
+
+// debug
+// print "<pre>" . print_r($main_layers_types);
+// print "<br>" . "entry: " . $entry . " - nameparts: " . $nameparts[1];
+
                     }
 
 
@@ -509,7 +516,9 @@ if ($page==1 && $results == 1 && $js_generation && (isset($generatejsfile[$atype
 // loop on main_layers: chosen images MUST have matching string in their names
 
         $scene_elems    = array();
-        $scene_elems    = kind_elem($part, $dlayers, $assetmode); // tutti gli elementi di tipo zNN... 
+
+        // print "<hr>called for $part - </hr>"; 
+        $scene_elems    = kind_elem($part, $dlayers, $assetmode, null); // tutti gli elementi di tipo zNN... 
 
 //        print "<br> viz chance per $part: " . $main_layers[$part]; 
 
@@ -533,7 +542,7 @@ if ($page==1 && $results == 1 && $js_generation && (isset($generatejsfile[$atype
 
         }
 
-    }
+    } // foreach on layers
 
 //  print "<pre>"; print_r($arr2ret); print "</pre>";
 
@@ -731,7 +740,7 @@ function info_read($d) {
 
 } // end function info_read
 
-function kind_elem($kind, $dlayers, $amode) {
+function kind_elem($kind, $dlayers, $amode, $subtype) {
 
 	$arr2ret  = array();
 
@@ -742,12 +751,29 @@ function kind_elem($kind, $dlayers, $amode) {
                 // print "<br>DLAYER: " . $dlayer . " KIND " . $kind;
             } 
         }
-    } else { // separates asset_A from asset_B
+    } else { // separate asset_A from asset_B
         foreach ($dlayers as $dlayer) { 
-            if (strstr($dlayer, $kind)) { 
-                array_push($arr2ret, $dlayer); 
-                // print "<br>DLAYER: " . $dlayer . " KIND " . $kind;
+            if (!$subtype) {
+                if (strstr($dlayer, $kind)) { 
+                    array_push($arr2ret, $dlayer); 
+                    // print "<br>NO SUBTYPE - DLAYER=" . $dlayer . " KIND=" . $kind;
+                } 
             } 
+            else // subtype defined, must match
+            {
+                if (strstr($dlayer, $kind)) { 
+
+                    $dlayerparts = explode('_', $dlayer);
+                    if (strpos($dlayerparts[1], $subtype) !== false)
+                    {
+                        // print "<br>DLAYER=" . $dlayer . "; KIND=". $kind . "; DLAYERPART=" . $dlayerparts[1] . "; subtype=" . $subtype;
+                        array_push($arr2ret, $dlayer); 
+                    }
+
+                }
+            }
+
+
         }
     }
 
@@ -1136,6 +1162,8 @@ function calc_scene_name($scenep, $name_struct) {
         $decoded_scene_elems[$layername] = $layerindex;
     }
 
+    // print "<pre>"; print_r($decoded_scene_elems);
+
 /*
     preg_match("/([0-9]+)\.png/", $scenep[4], $head);       // HE
     preg_match("/([0-9]+)\.png/", $scenep[3], $body);       // BO
@@ -1152,8 +1180,8 @@ function calc_scene_name($scenep, $name_struct) {
         }        
     } else {
         foreach ($name_struct as $nskey => $nsval) {
-//            print "<br>nskey:" . $nskey . " decoded:" . $decoded_scene_elems[$nskey];
-            $demname .= $demon_names[$nskey][$decoded_scene_elems[$nskey]] . $nsval;
+            // print "<br>nskey:" . $nskey . " decoded:" . $decoded_scene_elems[$nskey];
+//            $demname .= $demon_names[$nskey][$decoded_scene_elems[$nskey]] . $nsval;
         }                
     }
 
@@ -1221,7 +1249,7 @@ function demon_count($dir, $type) {
     if ($type == 'demons' || $type == 'demonship') {
         foreach (array("RW", "BO", "LB", "HE") as $part) {
             $demon_elems    = array();
-            $demon_elems    = kind_elem($part, $dlayers, $assetmode); // elementi di tipo "HE"... 
+            $demon_elems    = kind_elem($part, $dlayers, $assetmode, null); // elementi di tipo "HE"... 
             if (in_array($part, array("RW", "BO", "LB", "HE"))) { 
                 $dpart .= " $part: " . count($demon_elems); 
                 $dcount *= count($demon_elems); 
@@ -1231,11 +1259,13 @@ function demon_count($dir, $type) {
 
         foreach (array_keys($demon_layers) as $part) {
             $demon_elems    = array();
-            $demon_elems    = kind_elem($part, $dlayers, $assetmode); // elementi di tipo "HE"... 
+/*
+            $demon_elems    = kind_elem($part, $dlayers, $assetmode, null); // elementi di tipo "HE"... 
             if (in_array($part, array_keys($demon_layers) )) { 
                 $dpart .= " $part: <b>" . count($demon_elems) . "</b>"; 
                 $dcount *= count($demon_elems); 
             } 
+*/
         }        
 
     } 
