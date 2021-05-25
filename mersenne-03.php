@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.42';
+$version    = '1.52';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -57,6 +57,7 @@ $demon_layers	= array(
 
 // default JSON file name
 $demonsfile     = $main_path_dir . 'demons/demons4js.json';
+$struct_filter  = "";
 
 $json = "";
 $scenedir	= "";
@@ -139,6 +140,7 @@ $assetmode          = $json_data['assetmode'];      // ES. mixed: all assets sim
 $demon_namestruct   = $json_data['name_struct'];   
 $font_size          = $json_data['font_size'];
 $structs            = array();
+$struct_subtype     = null;
 
 if (isset($json_data['structs'])) {
     $structs = $json_data['structs'];
@@ -280,14 +282,14 @@ $vspacer = "";
     print "\n\n<div id=\"layers\" style=\"position: relative; $elem_pos \">";
 
     if ($atype == "uchida") { // $qualcosa == "uchida"
-        print "\n\n<div id=\"topframe\" style=\"border: none; position: absolute; left: -39px; top: 12px;\"> <img src=/demon/mersenne/img/$atype-TOP.png> </div>";
-        print "\n\n<div id=\"leftframe\" style=\"border: none; position: absolute; left: -39px; top: 60px;\"> <img src=/demon/mersenne/img/$atype-LEFT.png> </div>";
-        print "\n\n<div id=\"rightframe\" style=\"border: none; position: absolute; left: 521px; top: 60px;\"> <img src=/demon/mersenne/img/$atype-RIGHT.png> </div>";
-        print "\n\n<div id=\"bottomframe\" style=\"border: none; position: absolute; left: -39px; top: 798px;\"> <img src=/demon/mersenne/img/$atype-BOTTOM.png> </div>";    
+        print "\n\n<div id=\"topframe\" style=\"border: none; position: absolute; left: -39px; top: 12px;\"> <img src=/demon/mersenne/img/$atype-TOP.png width='654px' height='48px'> </div>";
+        print "\n\n<div id=\"leftframe\" style=\"border: none; position: absolute; left: -39px; top: 60px;\"> <img src=/demon/mersenne/img/$atype-LEFT.png width='38px' height='799px'> </div>";
+        print "\n\n<div id=\"rightframe\" style=\"border: none; position: absolute; left: 565px; top: 60px;\"> <img src=/demon/mersenne/img/$atype-RIGHT.png width='50px' height='799px'> </div>";
+        print "\n\n<div id=\"bottomframe\" style=\"border: none; position: absolute; left: -39px; top: 859px;\"> <img src=/demon/mersenne/img/$atype-BOTTOM.png width='654px' height='37px'> </div>";    
     }
 
 
-    /*  =============================
+/*  =============================
         START MAIN SCENE LOOP 
     =============================
 */
@@ -317,17 +319,21 @@ $vspacer = "";
                 // print "structmode !";
                 $structkeys     = array_keys($structs);
                 $mt_struct_i    = mt_rand(1,count($structkeys));
-                // print "mt_struct:" . $mt_struct_i; print_r( $structkeys[$mt_struct_i-1] );
 
                 $main_layers    = $structs[$structkeys[$mt_struct_i-1]]["layers"]; // struct scelta con mr_rand
                 $name_struct    = $structs[$structkeys[$mt_struct_i-1]]["name_struct"]; 
+                $struct_filter  = $structkeys[$mt_struct_i-1];
+                // print "mt_struct: " . $mt_struct_i . " <pre>"; print_r( $structkeys); print " " . $struct_filter;
+                // print " <pre>"; print_r( $structs[$struct_filter]['subtypes'][0] );
+                $struct_subtype = $structs[$struct_filter]['subtypes'][0];
+
             } else {
                 // print "no structmode";
                 $main_layers       = $demon_layers;
             }
 
             $scene_array    = array();
-            $scene_array    = scene_gen($i, $main_layers, $name_struct);
+            $scene_array    = scene_gen($i, $main_layers, $name_struct, $struct_subtype);
     
             $scene_name     = $scene_array[0];
             $scene_url      = $scene_array[1];
@@ -378,7 +384,7 @@ exit(0);
 
 // carica i layer di un certo tipo dal file system e calcola quali sono i layer che comporranno una singola immagine
 // genera anche il contenuto di file "4js.json"
-function scene_layers($dir, $i, $layers) {
+function scene_layers($dir, $i, $layers, $name_struct) {
 
 	global		$default_layers;
 	global		$demon_layers;
@@ -518,7 +524,7 @@ if ($page==1 && $results == 1 && $js_generation && (isset($generatejsfile[$atype
         $scene_elems    = array();
 
         // print "<hr>called for $part - </hr>"; 
-        $scene_elems    = kind_elem($part, $dlayers, $assetmode, null); // tutti gli elementi di tipo zNN... 
+        $scene_elems    = kind_elem($part, $dlayers, $assetmode, $name_struct); // tutti gli elementi di tipo zNN... 
 
 //        print "<br> viz chance per $part: " . $main_layers[$part]; 
 
@@ -1039,7 +1045,7 @@ function myrand ($lo, $hi, $consume) {
 
 
 // genera le informazioni di una scene (una immagine) fatta di layer sovrapposti.
-function scene_gen($i, $layers, $name_struct) {
+function scene_gen($i, $layers, $name_struct, $struct_subtype) {
 
         global $scenename_ini, $scenename_mid, $scenename_end, $scene_pic, $scenedir;
         $scene_name = "";
@@ -1122,7 +1128,7 @@ function scene_gen($i, $layers, $name_struct) {
         $scene[3]      = $filter;                       // curves
 
 // scene pic
-        $scene[1]      = scene_layers($scenedir, $i, $layers);       // image layers
+        $scene[1]      = scene_layers($scenedir, $i, $layers, $struct_subtype);       // image layers
 
 // scene name
         $scene[0]      = calc_scene_name($scene[1], $name_struct);   // name (after scene_layers)
