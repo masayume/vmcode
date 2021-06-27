@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  height: 100%;
+}
+
+body{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+	width: 100%;
+	height: 100%;
+	backgroud-colour:#000000;
+	color:#000000;
+	backgroud: #000000;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	background: radial-gradient(#383838, #000000);
+	transition: 1s;
+}
+
+body:focus {
+	background: radial-gradient(#ff00ff, #000000);
+	transition: 1s;
+}
+.main{
+	background-color: #000000;
+	width: 480px;
+	height: 672px;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	-webkit-box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 10px 60px 0px rgba(0,0,0,0.5);
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main:hover{
+	-webkit-box-shadow: 0px 0px 260px 60px rgba(168,5,73,1);
+	-moz-box-shadow: 0px 0px 260px 60px rgba(168,5,73,1);
+	box-shadow: 0px 0px 260px 60px rgba(168,5,73,1);
+	cursor: pointer;
+}
+
+.persppart{
+	/*transform-style: preserve-3d; */
+	transform: translateZ(0px);
+	transition: 0.4s;
+	width: 100%;
+	height: 100%;
+	-ms-interpolation-mode: nearest-neighbor;
+	
+}
+
+.persppart:hover{
+
+	transform: translateZ(130px);
+	width: 100%;
+	height: 100%;
+	-ms-interpolation-mode: nearest-neighbor;
+	
+}
+
+p{
+	margin-top: -20pt;
+	color: #0f0f0f;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	display: flex;
+	justify-content: center;
+	transform: translateZ(0px);
+	transition: 0.4s;
+}
+
+p:focus{
+	transform: translateZ(200px);
+}
