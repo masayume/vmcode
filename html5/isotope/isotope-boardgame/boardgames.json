@@ -722,8 +722,22 @@
       "players": [1, 2, 3, 4, 5, 6, 7, 8],
       "length": 45,
       "url": "https://boardgamegeek.com/boardgame/233080/book-dragons"
+    },
+    "GloomHaven": {
+      "name": "GloomHaven",
+      "number": "50",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["Action Queue", "Action Retrieval", "Campaign / Battle Card Driven", "Card Play Conflict Resolution", "Communication Limits", "Cooperative Game", "Critical Hits and Failures", "Deck Construction", "Deck, Bag, and Pool Building", "Grid Movement", "Hand Management", "Hexagon Grid", "Legacy Game", "Modular Board", "Once-Per-Game Abilities", "Scenario / Mission / Campaign Game", "Simultaneous Action Selection", "Solo / Solitaire Game", "Storytelling", "Variable Player Powers"],
+      "theme": ["Fantasy"],
+      "img": "050.png",
+      "designer": "Isaac Childres",
+      "weight": "3.86", 
+      "year": 2017,
+      "players": [1, 2, 3, 4],
+      "length": 120,
+      "url": "https://boardgamegeek.com/boardgame/174430/gloomhaven"
     }
-
 
   },
   "template":
