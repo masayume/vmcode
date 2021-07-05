@@ -35,9 +35,12 @@
   <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".comics">comix</button>
   <button class="button" data-filter=".books">books</button>
+  <button class="button" data-filter=".artworks">artworks</button>
+  <button class="button" data-filter=".magazines">mags</button>
   <button class="button" data-filter=".gamedesign">game design</button>
   <button class="button" data-filter=".design">design</button>
   <button class="button" data-filter=".reference">refs</button>
+  <button class="button" data-filter=".digital">digital</button>
   <button class="button" data-filter=".nihongo">nihongo</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
