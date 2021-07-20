@@ -2363,8 +2363,22 @@
       "dir": "books/ART",
       "download": "https://archive.org/details/DRAWING_REALISTIC_Textures_IN_Pencil_J.D.Hillberry",
       "url": "https://www.goodreads.com/book/show/331114.Drawing_Realistic_Textures_in_Pencil"
+    },
+    "A Theory of Fun for Game Design": {
+      "name": "A Theory of Fun for Game Design",
+      "number": "155",
+      "data_cat": "player",
+      "class": ["player", "books", "gamedesign"],
+      "theme": ["gamedesign"],
+      "img": "0155.jpg",
+      "author": "Raph Koster",
+      "store": "riva", 
+      "weight": "", 
+      "year": 2004,
+      "players": [1],
+      "length": 256,
+      "url": "https://www.goodreads.com/book/show/18182.A_Theory_of_Fun_for_Game_Design"
     }
-
 
 
 
