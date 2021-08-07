@@ -2378,6 +2378,23 @@
       "players": [1],
       "length": 256,
       "url": "https://www.goodreads.com/book/show/18182.A_Theory_of_Fun_for_Game_Design"
+    },
+    "Batman Animated": {
+      "name": "Batman Animated",
+      "number": "156",
+      "data_cat": "player",
+      "class": ["artworks", "reference", "digital"],
+      "theme": ["arcade", "meta"],
+      "img": "0156.jpg",
+      "author": "Paul Dini, Chip Kidd",
+      "store": "???", 
+      "weight": "", 
+      "year": 1998,
+      "players": [1],
+      "length": 164,
+      "dir": "books/ART",
+      "download": "https://archive.org/details/batman-animated-1998-scan-stacalkas/page/n25/mode/2up",
+      "url": "https://www.goodreads.com/book/show/107049.Batman_Animated"
     }
 
 
