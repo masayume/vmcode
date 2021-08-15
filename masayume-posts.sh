@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STARTDATE="2020-11-01"
+STARTDATE="2020-12-02"
 TITLE="TITLETODO"
 URL="https://www.masayume.it/blog/node/add/blog"
 HEADER="Content-Type: application/x-www-form-urlencoded" 
