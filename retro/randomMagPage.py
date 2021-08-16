@@ -1,35 +1,69 @@
 #! /usr/bin/env python
 import os, random
 import subprocess
-import re 
+import urllib
+
+# *********** mode ************* 
+# available: cli (command line), html (return clickable url list)
+mode    = 'html'     
 
 def main():
     dirs    = []
-    dirs.append('/home/masayume/inspire/retro/EGM/')
-    dirs.append('/home/masayume/inspire/retro/CVG/1981/')
-    dirs.append('/home/masayume/inspire/retro/FAMITSU.jp/')
-    dirs.append('/home/masayume/inspire/retro/GAMEST.jp/')
-    dirs.append('/home/masayume/inspire/retro/electronic GAMES/')
-    dirs.append('/home/masayume/inspire/retro/The Games Machine UK/')
-    dirs.append('/home/masayume/inspire/retro/MSX Magazine.jp/')
-    dirs.append('/home/masayume/inspire/retro/Neo Geo Freak.jp/')
-    dirs.append('/home/masayume/inspire/retro/NG NAMCO COMMUNITY MAGAZINE.jp/')
-    dirs.append('/home/masayume/inspire/retro/retro EDGE MAGAZINE/')
-    dirs.append('/home/masayume/inspire/retro/retrogamer UK/')
-    dirs.append('/home/masayume/inspire/retro/The One/')
-    dirs.append('/home/masayume/inspire/retro/Your Sinclair/')
+    dirs.append('EGM')
+    dirs.append('CVG/1981')
+    dirs.append('FAMITSU.jp')
+    dirs.append('GAMEST.jp')
+    dirs.append('electronic GAMES')
+    dirs.append('The Games Machine UK')
+    dirs.append('MSX Magazine.jp')
+    dirs.append('Neo Geo Freak.jp')
+    dirs.append('NG NAMCO COMMUNITY MAGAZINE.jp')
+    dirs.append('EDGE MAGAZINE')
+    dirs.append('retrogamer UK')
+    dirs.append('The One')
+    dirs.append('Your Sinclair')
 
-    mag, pages = randomMagazineAndPage(dirs)
-    print(mag)
-    print(pages)
+    if (mode == 'cli'):
+        mdir, mag, page, pages = randomMagazineAndPage(dirs)
+        print(mdir)
+        print(mag)
+        msg     = "" + str(page) + " of " + str(pages)
+        print(msg)
+    else:
+        html_mode(dirs)
+
+
+# program ends here
+
+def html_mode(d):
+
+    print("NEW html mode")
+
+    # get data
+    mdir, mag, page, pages = randomMagazineAndPage(d)
+    # compose URL (urlencode)
+    url     = "/inspire/retro/" + urllib.quote_plus(mdir) + "/" + urllib.quote_plus(mag) + "#page=" + str(page)
+    # print URL
+    urlstring   = "<a href=" + url + ">random page of random Retro magazine</a>"
+    print(urlstring)
+
+    ##  working local URL
+    #   /inspire/retro/ARCADIA.jp/arcadia0000-0001.pdf#page=22
+    ##  not working yet
+    #    /retro/%2Fhome%2Fmasayume%2Finspire%2Fretro%2FNG+NAMCO+COMMUNITY+MAGAZINE.jp%2FNG+Namco+Community+Magazine+%28Monthly+Issue+29%29+-+June+1989.pdf%3Fpage%3D31
+    f = open("/var/www/html/retro/randompages.htm", "w")
+    f.write(urlstring)
+    f.close()
 
 def randomMagazineAndPage(d):
     pdfdir  = random.choice(d)  # pdfdir = random dir
+    basedir = '/home/masayume/inspire/retro/'
+    fulldir = basedir + pdfdir
 
-    rndfile = random.choice(os.listdir(pdfdir)) 
+    rndfile = random.choice(os.listdir(fulldir)) 
     # print(rndfile)
 
-    command = "pdfinfo \"" + pdfdir + rndfile + "\" "
+    command = "pdfinfo \"" + fulldir + "/" + rndfile + "\" "
     # print(command)
 
     ## pdfinfo = os.system(command)
@@ -46,7 +80,12 @@ def randomMagazineAndPage(d):
 
     # print(rndfile)
     # print(pages)
-    return rndfile,pages
+
+    from random import randrange
+    rndpage     = randrange(int(pages))
+
+    return pdfdir, rndfile, rndpage, pages
+
 
 if __name__ == '__main__':
     main()

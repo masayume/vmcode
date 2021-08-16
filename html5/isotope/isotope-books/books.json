@@ -2395,8 +2395,24 @@
       "dir": "books/ART",
       "download": "https://archive.org/details/batman-animated-1998-scan-stacalkas/page/n25/mode/2up",
       "url": "https://www.goodreads.com/book/show/107049.Batman_Animated"
+    },
+    "ArtofAtari": {
+      "name": "Art of Atari",
+      "number": "157",
+      "data_cat": "player",
+      "class": ["artworks", "reference", "digital"],
+      "theme": ["arcade", "meta"],
+      "img": "0157.jpg",
+      "author": "Tim Lapetino",
+      "store": "???", 
+      "weight": "", 
+      "year": 2016,
+      "players": [1],
+      "length": 352,
+      "dir": "books/retro/BOOKS",
+      "download": "https://archive.org/details/blasphemousartbook",
+      "url": "https://www.goodreads.com/book/show/29948514-art-of-atari"
     }
-
 
 
 
