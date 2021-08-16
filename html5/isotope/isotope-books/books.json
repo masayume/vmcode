@@ -2412,6 +2412,23 @@
       "dir": "books/retro/BOOKS",
       "download": "https://archive.org/details/art-of-atari",
       "url": "https://www.goodreads.com/book/show/29948514-art-of-atari"
+    },
+    "Programmingthe6502": {
+      "name": "Programming the 6502",
+      "number": "158",
+      "data_cat": "player",
+      "class": ["programming", "reference", "digital"],
+      "theme": ["programming", "meta"],
+      "img": "0158.jpg",
+      "author": "Rodnay Zaks",
+      "store": "???", 
+      "weight": "", 
+      "year": 1978,
+      "players": [1],
+      "length": 305,
+      "dir": "books/retro/BOOKS",
+      "download": "https://archive.org/details/Programming_the_6502_OCR",
+      "url": "https://www.goodreads.com/book/show/1577392.Programming_the_6502"
     }
 
 
