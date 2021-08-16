@@ -47,10 +47,7 @@ def html_mode(d):
     urlstring   = "<a href=" + url + ">random page of random Retro magazine</a>"
     print(urlstring)
 
-    ##  working local URL
-    #   /inspire/retro/ARCADIA.jp/arcadia0000-0001.pdf#page=22
-    ##  not working yet
-    #    /retro/%2Fhome%2Fmasayume%2Finspire%2Fretro%2FNG+NAMCO+COMMUNITY+MAGAZINE.jp%2FNG+Namco+Community+Magazine+%28Monthly+Issue+29%29+-+June+1989.pdf%3Fpage%3D31
+
     f = open("/var/www/html/retro/randompages.htm", "w")
     f.write(urlstring)
     f.close()
