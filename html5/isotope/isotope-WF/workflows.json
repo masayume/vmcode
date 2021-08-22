@@ -155,19 +155,19 @@
       "notes": "utile per ..."
     },
     "0010": {
-      "name": "Hexels",
+      "name": "OverTracing",
       "number": "10",
       "data_cat": "player",
       "class": ["player", "2D", "arcade", "platform", "NOTYET"],
       "theme": ["game"],
-      "img": "wf010.jpg",
-      "author": "Unity",
+      "img": "wf010.png",
+      "author": "Terri Vellmann",
       "rating": 3, 
       "weight": 3, 
       "year": 2019,
       "players": [1],
       "length": 150,
-      "url": "/HTML5/inspire/workflows/workflows.infogen.htm#hexels",
+      "url": "https://www.kickstarter.com/projects/dustbiters/dustbiters/posts/3278294",
       "localdir": "",
       "notes": "utile per ..."
     },
@@ -476,8 +476,24 @@
       "url": "https://twitter.com/MasayumeP/status/1392273380238319619",
       "localdir": "",
       "notes": "generate pixelart with pixatool from source (mersenne etc.)"
+    },
+    "0029": {
+      "name": "Hexels",
+      "number": "29",
+      "data_cat": "player",
+      "class": ["player", "2D", "arcade", "platform", "NOTYET"],
+      "theme": ["game"],
+      "img": "wf029.jpg",
+      "author": "Unity",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2019,
+      "players": [1],
+      "length": 150,
+      "url": "/HTML5/inspire/workflows/workflows.infogen.htm#hexels",
+      "localdir": "",
+      "notes": "utile per ..."
     }
-
 
 
   },
