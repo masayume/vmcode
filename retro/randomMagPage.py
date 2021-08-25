@@ -2,6 +2,10 @@
 import os, random
 import subprocess
 import urllib
+try:
+    from urllib.parse import urlparse
+except ImportError:
+     from urlparse import urlparse
 
 # *********** mode ************* 
 # available: cli (command line), html (return clickable url list)
@@ -30,26 +34,29 @@ def main():
         msg     = "" + str(page) + " of " + str(pages)
         print(msg)
     else:
-        html_mode(dirs)
+        html_mode(dirs, 40)
 
 
 # program ends here
 
-def html_mode(d):
+def html_mode(d, n=1):
 
     print("NEW html mode")
+    urlstrings = ""
 
-    # get data
-    mdir, mag, page, pages = randomMagazineAndPage(d)
-    # compose URL (urlencode)
-    url     = "/inspire/retro/" + urllib.quote_plus(mdir) + "/" + urllib.quote_plus(mag) + "#page=" + str(page)
-    # print URL
-    urlstring   = "<a href=" + url + ">random page of random Retro magazine</a>"
-    print(urlstring)
+    for x in range(n):
+        # get data
+        mdir, mag, page, pages = randomMagazineAndPage(d)
+        # compose URL (urlencode)
+#        url     = "/inspire/retro/" + urllib.quote_plus(mdir) + "/" + urllib.quote_plus(mag) + "#page=" + str(page)
+        url     = "/inspire/retro/" + mdir.replace(" ", "%20") + "/" + mag.replace(" ", "%20") + "#page=" + str(page)
+        # print URL
+        urlstrings += "\n<li><a href=" + url + "> Page " + str(page) + " of " + urllib.quote_plus(mag) + "</a></li>"
+        # print(urlstrings)
 
 
     f = open("/var/www/html/retro/randompages.htm", "w")
-    f.write(urlstring)
+    f.write(urlstrings)
     f.close()
 
 def randomMagazineAndPage(d):
@@ -64,7 +71,7 @@ def randomMagazineAndPage(d):
     # print(command)
 
     ## pdfinfo = os.system(command)
-    pdfinfo = subprocess.check_output(command, shell=True)
+    pdfinfo = str(subprocess.check_output(command, shell=True))
 
     ## parsing text output, find number of pages 
     pages   = 0
@@ -75,8 +82,8 @@ def randomMagazineAndPage(d):
         if (line[0] == "Pages"): 
             pages = line[1].strip()
 
-    # print(rndfile)
-    # print(pages)
+    print(rndfile)
+    print(pages)
 
     from random import randrange
     rndpage     = randrange(int(pages))
