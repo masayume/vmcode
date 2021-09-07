@@ -8,6 +8,7 @@
       "class": ["player", 1980, "arcade"],
       "img": "001-pacman.png",
       "game": "Pac-Man",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man",
       "year": 1980
     },
     "Missile Command": {
@@ -17,6 +18,7 @@
       "class": ["player", 1980, "arcade"],
       "img": "002-missile_command.jpg",
       "game": "Missile Command",
+      "url": "https://en.wikipedia.org/wiki/Missile_Command",
       "year": 1980
     },
     "Crazy Climber": {
@@ -26,9 +28,83 @@
       "class": ["player", 1980, "arcade"],
       "img": "003-crazy_climber.jpg",
       "game": "Crazy Climber",
+      "url": "https://en.wikipedia.org/wiki/Crazy_Climber",
+      "year": 1980
+    },
+    "Berzerk": {
+      "number": "4",
+      "by": "Stern",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "004-berzerk.png",
+      "game": "Berzerk",
+      "url": "https://en.wikipedia.org/wiki/Berzerk_(arcade_game)",
+      "year": 1980
+    },
+    "Rally-X": {
+      "number": "5",
+      "by": "Namco",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "005-rally_x.jpg",
+      "game": "Rally-X",
+      "url": "https://en.wikipedia.org/wiki/Rally-X",
+      "year": 1980
+    },
+    "Space Panic": {
+      "number": "6",
+      "by": "Universal",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "006-space_panic.jpg",
+      "game": "Space Panic",
+      "url": "https://en.wikipedia.org/wiki/Space_Panic",
+      "year": 1980
+    }, 
+    "Battlezone": {
+      "number": "7",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "007-battlezone.jpg",
+      "game": "Battlezone",
+      "url": "https://en.wikipedia.org/wiki/Battlezone_(1980_video_game)",
+      "year": 1980
+    },
+    "Star Castle": {
+      "number": "8",
+      "by": "Cinematronics",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "008-star_castle.jpg",
+      "game": "Star Castle",
+      "url": "https://en.wikipedia.org/wiki/Star_Castle",
+      "year": 1980
+    },
+    "Wizard of Wor": {
+      "number": "9",
+      "by": "Midway",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "009-wizard_of_wor.png",
+      "game": "Wizard of Wor",
+      "url": "https://en.wikipedia.org/wiki/Wizard_of_Wor",
+      "year": 1980
+    },
+    "Phoenix": {
+      "number": "10",
+      "by": "Taito",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "010-phoenix.jpg",
+      "game": "Phoenix",
+      "url": "https://en.wikipedia.org/wiki/Phoenix_(video_game)",
       "year": 1980
     }
-    
+
+
+
+
   },
   "boolean": true,
   "null": null,

@@ -33,7 +33,7 @@ function gamepage($jfile) {
 <!--    <h3 class="name">$key</h3> -->
 <!--    <p class="symbol">{$item[symbol]}</p> -->
     $game
-    <p class="number">{$item[number]}</p>
+    <p class="by">{$item[by]}</p>
     <p class="year">{$item[year]}</p>
   </div>
 
