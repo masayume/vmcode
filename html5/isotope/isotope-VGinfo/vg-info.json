@@ -1,0 +1,42 @@
+{
+  "data":
+  {
+    "Pac-Man": {
+      "number": "1",
+      "by": "Namco",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "001-pacman.png",
+      "game": "Pac-Man",
+      "year": 1980
+    },
+    "Missile Command": {
+      "number": "2",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "002-missile_command.jpg",
+      "game": "Missile Command",
+      "year": 1980
+    },
+    "Crazy Climber": {
+      "number": "3",
+      "by": "Nichibutsu",
+      "data_cat": "player",
+      "class": ["player", 1980, "arcade"],
+      "img": "003-crazy_climber.jpg",
+      "game": "Crazy Climber",
+      "year": 1980
+    }
+    
+  },
+  "boolean": true,
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d",
+    "e": "f"
+  },
+  "version": "0.2"
+}
