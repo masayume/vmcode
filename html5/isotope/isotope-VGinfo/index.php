@@ -13,10 +13,10 @@
 <body>
 
 <div id="pagetitle" style="float: left;">  
-  masayume's VG info
+  &nbsp; masayume's<br/> &nbsp; VG info
 </div>
 
-<div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
+<div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">order</button>
   <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="year">year</button>
   <button class="button" data-sort-by="number">number</button>
@@ -33,14 +33,26 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".1977">1977</button>
+  <button class="button" data-filter=".1978">1978</button>
+  <button class="button" data-filter=".1979">1979</button>
   <button class="button" data-filter=".1980">1980</button>
   <button class="button" data-filter=".1981">1981</button>
   <button class="button" data-filter=".1982">1982</button>
   <button class="button" data-filter=".1983">1983</button>
   <button class="button" data-filter=".1984">1984</button>
   <button class="button" data-filter=".1985">1985</button>
+  <button class="button" data-filter=".1986">1986</button>
+  <button class="button" data-filter=".1987">1987</button>
+  <button class="button" data-filter=".1988">1988</button>
+  <button class="button" data-filter=".1989">1989</button>
+  <button class="button" data-filter=".1990">1990</button>
+  <button class="button" data-filter=".1991">1991</button>
+  <button class="button" data-filter=".1992">1992</button>
+  <button class="button" data-filter=".console">console</button>
+  <button class="button" data-filter=".computer">computer</button>
   <button class="button" data-filter=".arcade">arcade</button>
-  <button class="button" data-filter=".player">player</button>
+  <button class="button" data-filter=".hardware">HW</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
   <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>

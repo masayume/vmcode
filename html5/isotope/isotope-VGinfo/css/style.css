@@ -107,7 +107,7 @@ a:hover {
 .element-item {
   position: relative;
   float: left;
-  width: 250px;
+  width: 270px;
   height: 200px;
   margin: 4px;
   padding: 10px;
@@ -149,7 +149,7 @@ a:hover {
   bottom: 4px;
   font-family: 'PressStart2P';
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   color: white;
   text-decoration: none;
@@ -161,7 +161,6 @@ a:hover {
   right: 3px;
   top: 4px;
 }
-
 
 .element-item .by {
   position: absolute;
@@ -178,7 +177,8 @@ a:hover {
   right: 4px;
   bottom: 4px;
   font-family: 'TightPixel';
-  font-size: 22px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 23px;
   color: white;
 }
 

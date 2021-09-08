@@ -1,6 +1,157 @@
 {
   "data":
   {
+    "Head-On": {
+      "number": "21",
+      "by": "SEGA",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade"],
+      "img": "021-headon.png",
+      "game": "Head On",
+      "url": "https://en.wikipedia.org/wiki/Head_On_(video_game)",
+      "year": 1979
+    },
+    "Lunar Lander": {
+      "number": "22",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade", "vector"],
+      "img": "022-lunarlander.png",
+      "game": "Lunar Lander",
+      "url": "https://en.wikipedia.org/wiki/Lunar_Lander_(1979_video_game)",
+      "year": 1979
+    },
+    "Asteroids": {
+      "number": "23",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade", "vector"],
+      "img": "023-asteroids.png",
+      "game": "Asteroids",
+      "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+      "year": 1979
+    },
+    "Galaxian": {
+      "number": "24",
+      "by": "Namco",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade"],
+      "img": "024-galaxian.png",
+      "game": "Galaxian",
+      "url": "https://en.wikipedia.org/wiki/Galaxian",
+      "year": 1979
+    },
+    "Tail Gunner": {
+      "number": "25",
+      "by": "Vectorbeam",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade"],
+      "img": "025-tailgunner.png",
+      "game": "Tail Gunner",
+      "url": "https://en.wikipedia.org/wiki/Tail_Gunner",
+      "year": 1979
+    },
+    "Radar_Scope": {
+      "number": "26",
+      "by": "Nintendo",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade"],
+      "img": "026-radarscope.png",
+      "game": "Radar Scope",
+      "url": "https://en.wikipedia.org/wiki/Radar_Scope",
+      "year": 1979
+    },
+    "Warrior": {
+      "number": "27",
+      "by": "Cinematronics",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade"],
+      "img": "027-warrior.jpg",
+      "game": "Warrior",
+      "url": "https://en.wikipedia.org/wiki/Warrior_(arcade_game)",
+      "year": 1979
+    },
+    "Monaco GP": {
+      "number": "28",
+      "by": "SEGA",
+      "data_cat": "player",
+      "class": ["player", 1979, "arcade"],
+      "img": "028-monacoGP.png",
+      "game": "Monaco GP",
+      "url": "https://en.wikipedia.org/wiki/Monaco_GP_(video_game)",
+      "year": 1979
+    },
+    "Temple of Apshai": {
+      "number": "29",
+      "by": "Automated Simulations",
+      "data_cat": "player",
+      "class": ["player", 1979, "computer"],
+      "img": "029-temple_of_apshai.jpg",
+      "game": "Temple of Apshai",
+      "url": "https://en.wikipedia.org/wiki/Temple_of_Apshai",
+      "year": 1979
+    }, 
+    "Flight Simuator": {
+      "number": "30",
+      "by": "subLOGIC",
+      "data_cat": "player",
+      "class": ["player", 1979, "computer"],
+      "img": "030-flight_simulator.jpg",
+      "game": "Flight Simuator",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator",
+      "year": 1979
+    }, 
+    "Akalabeth": {
+      "number": "31",
+      "by": "Richard Garriott",
+      "data_cat": "player",
+      "class": ["player", 1979, "computer"],
+      "img": "031-akalabeth.jpg",
+      "game": "Akalabeth",
+      "url": "https://en.wikipedia.org/wiki/Akalabeth:_World_of_Doom",
+      "year": 1979
+    }, 
+    "Star Raiders": {
+      "number": "32",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1979, "console", "computer"],
+      "img": "032-star_raiders.gif",
+      "game": "Star Raiders",
+      "url": "https://en.wikipedia.org/wiki/Star_Raiders",
+      "year": 1979
+    }, 
+    "TI-99/4": {
+      "number": "33",
+      "by": "Texas Instruments",
+      "data_cat": "player",
+      "class": ["player", 1979, "hardware"],
+      "img": "033-ti994.jpg",
+      "game": "TI-99/4",
+      "url": "https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A",
+      "year": 1979
+    }, 
+    "PC-8001": {
+      "number": "34",
+      "by": "NEC",
+      "data_cat": "player",
+      "class": ["player", 1979, "hardware"],
+      "img": "034-pc_8000.jpg",
+      "game": "PC-8001",
+      "url": "https://en.wikipedia.org/wiki/PC-8000_series",
+      "year": 1979
+    }, 
+    "Atari 400/800": {
+      "number": "35",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1979, "hardware"],
+      "img": "035-Atari800.jpg",
+      "game": "Atari 400/800",
+      "url": "https://en.wikipedia.org/wiki/Atari_8-bit_family",
+      "year": 1979
+    }, 
+
     "Pac-Man": {
       "number": "1",
       "by": "Namco",
@@ -65,7 +216,7 @@
       "number": "7",
       "by": "Atari",
       "data_cat": "player",
-      "class": ["player", 1980, "arcade"],
+      "class": ["player", 1980, "arcade", "vector"],
       "img": "007-battlezone.jpg",
       "game": "Battlezone",
       "url": "https://en.wikipedia.org/wiki/Battlezone_(1980_video_game)",
@@ -75,7 +226,7 @@
       "number": "8",
       "by": "Cinematronics",
       "data_cat": "player",
-      "class": ["player", 1980, "arcade"],
+      "class": ["player", 1980, "arcade", "vector"],
       "img": "008-star_castle.jpg",
       "game": "Star Castle",
       "url": "https://en.wikipedia.org/wiki/Star_Castle",
@@ -100,9 +251,107 @@
       "game": "Phoenix",
       "url": "https://en.wikipedia.org/wiki/Phoenix_(video_game)",
       "year": 1980
+    },
+    "Dragster": {
+      "number": "11",
+      "by": "Activision",
+      "data_cat": "player",
+      "class": ["player", 1980, "console"],
+      "img": "011-dragster.png",
+      "game": "Dragster",
+      "url": "https://en.wikipedia.org/wiki/Phoenix_(video_game)",
+      "year": 1980
+    },
+    "Fishing Derby": {
+      "number": "12",
+      "by": "Activision",
+      "data_cat": "player",
+      "class": ["player", 1980, "console"],
+      "img": "012-fishing_derby.png",
+      "game": "Fishing Derby",
+      "url": "https://en.wikipedia.org/wiki/Phoenix_(video_game)",
+      "year": 1980
+    },
+    "Boxing": {
+      "number": "13",
+      "by": "Activision",
+      "data_cat": "player",
+      "class": ["player", 1980, "console"],
+      "img": "013-boxing.gif",
+      "game": "Boxing",
+      "url": "https://en.wikipedia.org/wiki/Phoenix_(video_game)",
+      "year": 1980
+    },
+    "Zork": {
+      "number": "14",
+      "by": "Infocom",
+      "data_cat": "player",
+      "class": ["player", 1980, "computer"],
+      "img": "014-zork.png",
+      "game": "Zork",
+      "url": "https://en.wikipedia.org/wiki/Zork_I",
+      "year": 1980
+    },
+    "Rogue": {
+      "number": "15",
+      "by": "Ken Arnold",
+      "data_cat": "player",
+      "class": ["player", 1980, "computer"],
+      "img": "015-rogue.png",
+      "game": "Rogue",
+      "url": "https://en.wikipedia.org/wiki/Rogue_(computer_game)",
+      "year": 1980
+    },
+    "GameWatch": {
+      "number": "16",
+      "by": "Nintendo",
+      "data_cat": "player",
+      "class": ["player", 1980, "hardware"],
+      "img": "016-gamenwatch.jpg",
+      "game": "Game & Watch",
+      "url": "https://en.wikipedia.org/wiki/Game_%26_Watch",
+      "year": 1980
+    },
+    "Intellivision": {
+      "number": "17",
+      "by": "Mattel",
+      "data_cat": "player",
+      "class": ["player", 1980, "hardware"],
+      "img": "017-intellivision.jpg",
+      "game": "Intellivision",
+      "url": "https://en.wikipedia.org/wiki/Intellivision",
+      "year": 1980
+    },
+    "ZX80": {
+      "number": "18",
+      "by": "Sinclair",
+      "data_cat": "player",
+      "class": ["player", 1980, "hardware"],
+      "img": "018-zx80.jpg",
+      "game": "ZX80",
+      "url": "https://en.wikipedia.org/wiki/ZX80",
+      "year": 1980
+    },
+    "TRS-80": {
+      "number": "19",
+      "by": "Tandy",
+      "data_cat": "player",
+      "class": ["player", 1980, "hardware"],
+      "img": "019-trs-80.jpg",
+      "game": "TRS-80",
+      "url": "https://en.wikipedia.org/wiki/TRS-80_Color_Computer",
+      "year": 1980
+    },
+    "DECO": {
+      "number": "20",
+      "by": "DECO",
+      "data_cat": "player",
+      "class": ["player", 1980, "hardware", "arcade"],
+      "img": "020-decocassette.png",
+      "game": "DECO Cassette System",
+      "url": "https://en.wikipedia.org/wiki/DECO_Cassette_System",
+      "year": 1980
     }
-
-
 
 
   },
