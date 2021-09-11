@@ -33,6 +33,7 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".1977">1976</button>
   <button class="button" data-filter=".1977">1977</button>
   <button class="button" data-filter=".1978">1978</button>
   <button class="button" data-filter=".1979">1979</button>

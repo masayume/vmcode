@@ -1,6 +1,67 @@
 {
   "data":
   {
+    "Space Invaders": {
+      "number": "36",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1978, "arcade"],
+      "img": "036-imagename.png",
+      "game": "Space Invaders",
+      "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+      "year": 1978
+    },
+    "Gee Bee": {
+      "number": "37",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1978, "arcade"],
+      "img": "037-imagename.png",
+      "game": "Gee Bee",
+      "url": "https://en.wikipedia.org/wiki/Gee_Bee_(video_game)",
+      "year": 1978
+    },
+    "Super Breakout": {
+      "number": "38",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1978, "arcade"],
+      "img": "038-imagename.png",
+      "game": "Super Breakout",
+      "url": "https://en.wikipedia.org/wiki/Breakout_(video_game)#Super_Breakout",
+      "year": 1978
+    },
+    "Block Game": {
+      "number": "39",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1978, "arcade"],
+      "img": "039-imagename.png",
+      "game": "Block Game",
+      "url": "https://en.wikipedia.org/wiki/Block_Game",
+      "year": 1978
+    },
+    "Computer Othello": {
+      "number": "40",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1978, "arcade"],
+      "img": "040-imagename.png",
+      "game": "Computer Othello",
+      "url": "https://en.wikipedia.org/wiki/Computer_Othello_(video_game)",
+      "year": 1978
+    },
+    "Odyssey": {
+      "number": "41",
+      "by": "Magnavox",
+      "data_cat": "player",
+      "class": ["player", 1978, "hardware"],
+      "img": "041-imagename.png",
+      "game": "Odyssey",
+      "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey%C2%B2",
+      "year": 1978
+    },
+
     "Head-On": {
       "number": "21",
       "by": "SEGA",
