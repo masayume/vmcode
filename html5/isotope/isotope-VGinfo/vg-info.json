@@ -1,6 +1,36 @@
 {
   "data":
   {
+    "VCS2600": {
+      "number": "42",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1977, "hardware"],
+      "img": "042-atarivcs2600.png",
+      "game": "VCS 2600",
+      "url": "https://en.wikipedia.org/wiki/Atari_2600",
+      "year": 1977
+    },    
+    "Apple": {
+      "number": "43",
+      "by": "Apple",
+      "data_cat": "player",
+      "class": ["player", 1977, "hardware"],
+      "img": "043-appleii.png",
+      "game": "Apple II",
+      "url": "https://en.wikipedia.org/wiki/Apple_II",
+      "year": 1977
+    },
+    "CommodorePet": {
+      "number": "44",
+      "by": "Commodore",
+      "data_cat": "player",
+      "class": ["player", 1977, "hardware"],
+      "img": "044-commodorepet.jpg",
+      "game": "Commodore Pet",
+      "url": "https://en.wikipedia.org/wiki/Commodore_PET",
+      "year": 1977
+    },
     "Space Invaders": {
       "number": "36",
       "by": "Taito",
