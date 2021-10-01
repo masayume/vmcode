@@ -1,6 +1,46 @@
 {
   "data":
   {
+    "Space Wars": {
+      "number": "45",
+      "by": "Vectorbeam",
+      "data_cat": "player",
+      "class": ["player", 1977, "arcade"],
+      "img": "045-space_wars.png",
+      "game": "Space Wars",
+      "url": "https://en.wikipedia.org/wiki/Space_Wars",
+      "year": 1977
+    },
+    "Combat": {
+      "number": "46",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1977, "console"],
+      "img": "046-combat.png",
+      "game": "Combat",
+      "url": "https://en.wikipedia.org/wiki/Combat_(Atari_2600)",
+      "year": 1977
+    },
+    "Indy 500": {
+      "number": "47",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1977, "console"],
+      "img": "047-indy_500.png",
+      "game": "Indy 500",
+      "url": "https://en.wikipedia.org/wiki/Indy_500_(1977_video_game)",
+      "year": 1977
+    },
+    "Video Olympics": {
+      "number": "48",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1977, "console"],
+      "img": "048-video_olympics.png",
+      "game": "Video Olympics",
+      "url": "https://en.wikipedia.org/wiki/Video_Olympics",
+      "year": 1977
+    },
     "VCS2600": {
       "number": "42",
       "by": "Atari",
