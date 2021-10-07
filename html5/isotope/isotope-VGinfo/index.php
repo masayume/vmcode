@@ -33,7 +33,7 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".1977">1976</button>
+  <button class="button" data-filter=".1976">1976</button>
   <button class="button" data-filter=".1977">1977</button>
   <button class="button" data-filter=".1978">1978</button>
   <button class="button" data-filter=".1979">1979</button>
@@ -50,6 +50,9 @@
   <button class="button" data-filter=".1990">1990</button>
   <button class="button" data-filter=".1991">1991</button>
   <button class="button" data-filter=".1992">1992</button>
+  <button class="button" data-filter=".1993">1993</button>
+  <button class="button" data-filter=".1994">1994</button>
+  <button class="button" data-filter=".1995">1995</button>
   <button class="button" data-filter=".console">console</button>
   <button class="button" data-filter=".computer">computer</button>
   <button class="button" data-filter=".arcade">arcade</button>
