@@ -737,6 +737,21 @@
       "players": [1, 2, 3, 4],
       "length": 120,
       "url": "https://boardgamegeek.com/boardgame/174430/gloomhaven"
+    },
+    "KingIsDead": {
+      "name": "The King Is Dead",
+      "number": "51",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["Area Majority / Influence", "Campaign / Battle Card Driven", "Communication Limits", "Hand Management", "Map Reduction", "Team-Based Game", "Turn Order: Pass Order", "Variable Set-up" ],
+      "theme": ["Fantasy"],
+      "img": "051.png",
+      "designer": "Peer Sylvester",
+      "weight": "2.14", 
+      "year": 2020,
+      "players": [2, 3, 4],
+      "length": 40,
+      "url": "https://boardgamegeek.com/boardgame/319966/king-dead-second-edition"
     }
 
   },
