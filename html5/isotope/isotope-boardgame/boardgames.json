@@ -752,6 +752,21 @@
       "players": [2, 3, 4],
       "length": 40,
       "url": "https://boardgamegeek.com/boardgame/319966/king-dead-second-edition"
+    },
+    "Fantasy": {
+      "name": "Fantasy",
+      "number": "52",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": [ "Card Drafting", "Dice Rolling", "Variable Set-up" ],
+      "theme": ["Fantasy"],
+      "img": "052.png",
+      "designer": "Peer Sylvester",
+      "weight": "2.14", 
+      "year": 1990,
+      "players": [2, 3, 4],
+      "length": 40,
+      "url": "https://www.goblins.net/recensioni/fantasy"
     }
 
   },
