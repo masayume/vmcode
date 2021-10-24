@@ -1,6 +1,76 @@
 {
   "data":
   {
+    "Scramble": {
+      "number": "55",
+      "by": "Konami",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "055-scramble.png",
+      "game": "Scramble",
+      "url": "https://en.wikipedia.org/wiki/Fonz_(video_game)",
+      "year": 1981
+    },
+    "Road Race": {
+      "number": "49",
+      "by": "Sega",
+      "data_cat": "player",
+      "class": ["player", 1976, "arcade"],
+      "img": "049-fonz.png",
+      "game": "Road Race",
+      "url": "https://en.wikipedia.org/wiki/Fonz_(video_game)",
+      "year": 1976
+    },
+    "Death Race": {
+      "number": "50",
+      "by": "Exidy",
+      "data_cat": "player",
+      "class": ["player", 1976, "arcade"],
+      "img": "050-death_race.jpg",
+      "game": "Death Race",
+      "url": "https://en.wikipedia.org/wiki/Death_Race_(1976_video_game)",
+      "year": 1976
+    },
+    "Breakout": {
+      "number": "51",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1976, "arcade"],
+      "img": "051-breakout.png",
+      "game": "Breakout",
+      "url": "https://en.wikipedia.org/wiki/Breakout_(video_game)",
+      "year": 1976
+    },
+    "Night Driver": {
+      "number": "52",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1976, "arcade"],
+      "img": "052-night_driver.jpg",
+      "game": "Night Driver",
+      "url": "https://en.wikipedia.org/wiki/Night_Driver_(video_game)",
+      "year": 1976
+    },
+    "Blockade": {
+      "number": "53",
+      "by": "Gremlin",
+      "data_cat": "player",
+      "class": ["player", 1976, "arcade"],
+      "img": "053-blockade.jpg",
+      "game": "Blockade",
+      "url": "https://en.wikipedia.org/wiki/Blockade_(video_game)",
+      "year": 1976
+    },
+    "Channel F": {
+      "number": "54",
+      "by": "Fairchild",
+      "data_cat": "player",
+      "class": ["player", 1976, "hardware"],
+      "img": "054-channel_f.jpg",
+      "game": "Channel F",
+      "url": "https://en.wikipedia.org/wiki/Fairchild_Channel_F",
+      "year": 1976
+    }, 
     "Space Wars": {
       "number": "45",
       "by": "Vectorbeam",
