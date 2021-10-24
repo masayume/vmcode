@@ -1,16 +1,6 @@
 {
   "data":
   {
-    "Scramble": {
-      "number": "55",
-      "by": "Konami",
-      "data_cat": "player",
-      "class": ["player", 1981, "arcade"],
-      "img": "055-scramble.png",
-      "game": "Scramble",
-      "url": "https://en.wikipedia.org/wiki/Fonz_(video_game)",
-      "year": 1981
-    },
     "Road Race": {
       "number": "49",
       "by": "Sega",
@@ -552,6 +542,86 @@
       "game": "DECO Cassette System",
       "url": "https://en.wikipedia.org/wiki/DECO_Cassette_System",
       "year": 1980
+    },
+    "Scramble": {
+      "number": "55",
+      "by": "Konami",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "055-scramble.jpg",
+      "game": "Scramble",
+      "url": "https://en.wikipedia.org/wiki/Scramble_(video_game)",
+      "year": 1981
+    },
+    "Defender": {
+      "number": "55",
+      "by": "Williams",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "056-defender.jpg",
+      "game": "Defender",
+      "url": "https://en.wikipedia.org/wiki/Defender_(1981_video_game)",
+      "year": 1981
+    },
+    "Donkey Kong": {
+      "number": "57",
+      "by": "Nintendo",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "057-donkey_kong.jpg",
+      "game": "Donkey Kong",
+      "url": "https://en.wikipedia.org/wiki/Donkey_Kong_(video_game)",
+      "year": 1981
+    },
+    "Galaga": {
+      "number": "58",
+      "by": "Namco",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "058-galaga.jpg",
+      "game": "Galaga",
+      "url": "https://en.wikipedia.org/wiki/Galaga",
+      "year": 1981
+    },
+    "Frogger": {
+      "number": "59",
+      "by": "Konami",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "059-frogger.jpg",
+      "game": "Frogger",
+      "url": "https://en.wikipedia.org/wiki/Frogger",
+      "year": 1981
+    },
+    "Turbo": {
+      "number": "60",
+      "by": "Sega",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "060-turbo.jpg",
+      "game": "Turbo",
+      "url": "https://en.wikipedia.org/wiki/Turbo_(video_game)",
+      "year": 1981
+    },
+    "Stargate": {
+      "number": "61",
+      "by": "Namco",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "061-stargate.jpg",
+      "game": "Stargate",
+      "url": "https://en.wikipedia.org/wiki/Stargate_(1981_video_game)",
+      "year": 1981
+    },
+    "Fantasy": {
+      "number": "62",
+      "by": "Rock-Ola",
+      "data_cat": "player",
+      "class": ["player", 1981, "arcade"],
+      "img": "062-fantasy.jpg",
+      "game": "Fantasy",
+      "url": "https://en.wikipedia.org/wiki/Fantasy_(video_game)",
+      "year": 1981
     }
 
 
