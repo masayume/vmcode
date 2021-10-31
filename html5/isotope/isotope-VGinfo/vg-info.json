@@ -568,7 +568,7 @@
       "by": "Nintendo",
       "data_cat": "player",
       "class": ["player", 1981, "arcade"],
-      "img": "057-donkey_kong.jpg",
+      "img": "057-donkey_kong.png",
       "game": "Donkey Kong",
       "url": "https://en.wikipedia.org/wiki/Donkey_Kong_(video_game)",
       "year": 1981
@@ -578,7 +578,7 @@
       "by": "Namco",
       "data_cat": "player",
       "class": ["player", 1981, "arcade"],
-      "img": "058-galaga.jpg",
+      "img": "058-galaga.png",
       "game": "Galaga",
       "url": "https://en.wikipedia.org/wiki/Galaga",
       "year": 1981
@@ -588,7 +588,7 @@
       "by": "Konami",
       "data_cat": "player",
       "class": ["player", 1981, "arcade"],
-      "img": "059-frogger.jpg",
+      "img": "059-frogger.png",
       "game": "Frogger",
       "url": "https://en.wikipedia.org/wiki/Frogger",
       "year": 1981
@@ -598,7 +598,7 @@
       "by": "Sega",
       "data_cat": "player",
       "class": ["player", 1981, "arcade"],
-      "img": "060-turbo.jpg",
+      "img": "060-turbo.png",
       "game": "Turbo",
       "url": "https://en.wikipedia.org/wiki/Turbo_(video_game)",
       "year": 1981
@@ -608,7 +608,7 @@
       "by": "Namco",
       "data_cat": "player",
       "class": ["player", 1981, "arcade"],
-      "img": "061-stargate.jpg",
+      "img": "061-stargate.png",
       "game": "Stargate",
       "url": "https://en.wikipedia.org/wiki/Stargate_(1981_video_game)",
       "year": 1981
@@ -618,7 +618,7 @@
       "by": "Rock-Ola",
       "data_cat": "player",
       "class": ["player", 1981, "arcade"],
-      "img": "062-fantasy.jpg",
+      "img": "062-fantasy.png",
       "game": "Fantasy",
       "url": "https://en.wikipedia.org/wiki/Fantasy_(video_game)",
       "year": 1981
