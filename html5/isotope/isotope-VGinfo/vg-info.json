@@ -622,8 +622,28 @@
       "game": "Fantasy",
       "url": "https://en.wikipedia.org/wiki/Fantasy_(video_game)",
       "year": 1981
-    }
+    },
 
+    "Utopia": {
+      "number": "63",
+      "by": "Mattel",
+      "data_cat": "player",
+      "class": ["player", 1981, "console"],
+      "img": "063-utopia.png",
+      "game": "Utopia",
+      "url": "https://en.wikipedia.org/wiki/Utopia_(video_game)",
+      "year": 1981
+    },
+    "Ultima": {
+      "number": "64",
+      "by": "CPC",
+      "data_cat": "player",
+      "class": ["player", 1981, "computer"],
+      "img": "064-ultima.png",
+      "game": "Ultima",
+      "url": "https://en.wikipedia.org/wiki/Ultima_I:_The_First_Age_of_Darkness",
+      "year": 1981
+    }
 
   },
   "boolean": true,
