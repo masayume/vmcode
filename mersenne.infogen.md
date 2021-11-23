@@ -1,4 +1,31 @@
-# mersenne meta generator
+# mersenne meta generator v1.4 - v1.5
+
+## directories
+
+* /var/www/html/mersenne/ 								          UI 
+* /home/masayume/DATA/E/Temp/demon/mersenne/ 				DATA
+* /home/masayume/DATA/E/PROJECTS/MERSENNE/ 				  DIR
+
+## URL
+
+* [Uchida](http://localhost:8989/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida)
+* [Spelunky](http://localhost:8989/mersenne/mersenne.php?seed=100&page=1&results=1&atype=spelunky)
+* [Uchida Pixel Art](http://localhost:8989/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchidapixel)
+
+## Data Dir
+* /home/masayume/DATA/E/Temp/demon/mersenne/uchida/ 		Uchida
+* /home/masayume/DATA/E/Temp/demon/mersenne/spelunky/ 	Spelunky
+
+## Data File
+* /home/masayume/DATA/E/Temp/demon/mersenne/spelunky/spelunky.json
+
+## UCHIDA parts
+- VB: 30 	-> 87
+- LB: 5 	-> 27
+- BO: 8 	-> 23
+- LW: 1  	->  1
+- RW: 1 	->  1
+- HE: 7 	-> 45
 
 ## files
 
