@@ -80,7 +80,7 @@ naming conf file: 		/home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchida
 
  = - = - === Uchida Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
 
-https://twitter.com/MasayumeP   masayume.pixelart   BRAVE browser alias tts-dev-int@dset.cineca.it per m.corradini@cineca.it
+https://twitter.com/MasayumeP   masayume.pixelart   BRAVE browser alias tts-dev-int@dset.cineca.it 
 
 tags: #pixelart #pixel_art #ドット絵 #NES #palette #scanlines #8bit #uchida_masayasu #内田正泰 
 
