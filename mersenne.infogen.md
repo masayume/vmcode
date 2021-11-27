@@ -8,16 +8,18 @@
 
 ## URL
 
+* [Mabius](http://localhost:8910/mersenne/mersenne.php?seed=100&page=8&results=1&atype=mabius)
 * [Uchida](http://localhost:8910/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida)
-* [Spelunky](http://localhost:8910/mersenne/mersenne.php?seed=100&page=1&results=1&atype=spelunky)
 * [Uchida Pixel Art](http://localhost:8910/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchidapixel)
+* [Spelunky](http://localhost:8910/mersenne/mersenne.php?seed=100&page=1&results=1&atype=spelunky)
 
 ## Data Dir
+* /home/masayume/DATA/E/Temp/demon/mersenne/mabius/ 		Mabius            templates: /home/masayume/Downloads/masayumeP/mabius PSD templates/
 * /home/masayume/DATA/E/Temp/demon/mersenne/uchida/ 		Uchida
-* /home/masayume/DATA/E/Temp/demon/mersenne/spelunky/ 	Spelunky
 * /home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/  ASSETS DIR
 * /home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchidapixel.json    cf1 conf file
 * /home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchidapixel4js.json  naming conf file
+* /home/masayume/DATA/E/Temp/demon/mersenne/spelunky/ 	Spelunky
 
 ## Data File
 * /home/masayume/DATA/E/Temp/demon/mersenne/spelunky/spelunky.json
@@ -57,7 +59,6 @@ ASSETS DIR: 	/home/masayume/DATA/E/Temp/demon/mersenne/template2
 				cd <NEW_NAME>
 				./rename <NEW_NAME>
 
-
 Es. ASSETS DIR: /home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/
 
 3 - preparare i file di configurazione
@@ -77,6 +78,15 @@ naming conf file: 		/home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchida
 	<Export>
 3 - Load exported image in Photopea; Color Range background and delete to restore transparency; Scale 4x (ALT+CTRL+I) with Nearest Neighbor
 
+ = - = - === Mabius Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
+
+http://localhost:8910/mersenne/mersenne.php?seed=100&page=2&results=1&atype=mabius
+
+SCRIPT DIR:   /home/masayume/DATA/E/Temp/demon/mersenne/mabius/
+ASSET DIR:    /home/masayume/Downloads/masayumeP/mabius PSD templates/
+
+
+
 
  = - = - === Uchida Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
 
@@ -93,9 +103,6 @@ MERSENNE URL: 	http://localhost:8989/mersenne/mersenne.php?seed=102&page=67&resu
 A - auto border on front layers
 B - fix black pixels & missing lines 
 C - https://twitter.com/TheOtaking/media 	add front pinups
-
- = - = - === Mabius Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
-
 
  = - = - === Malika === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = 
 
