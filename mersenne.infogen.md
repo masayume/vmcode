@@ -24,14 +24,6 @@
 ## Data File
 * /home/masayume/DATA/E/Temp/demon/mersenne/spelunky/spelunky.json
 
-## UCHIDA parts
-- VB: 30 	-> 87
-- LB: 5 	-> 27
-- BO: 8 	-> 23
-- LW: 1  	->  1
-- RW: 1 	->  1
-- HE: 7 	-> 45
-
 ## files
 
 - main program. versioned on github. 
@@ -82,10 +74,27 @@ naming conf file: 		/home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchida
 
 http://localhost:8910/mersenne/mersenne.php?seed=100&page=2&results=1&atype=mabius
 
-SCRIPT DIR:   /home/masayume/DATA/E/Temp/demon/mersenne/mabius/
-ASSET DIR:    /home/masayume/Downloads/masayumeP/mabius PSD templates/
+* ASSET DIR:      /home/masayume/DATA/E/Temp/demon/mersenne/mabius/
+* PSD DIR:        /home/masayume/Downloads/masayumeP/mabius PSD templates/
+* LAYERS control: /home/masayume/DATA/E/Temp/demon/mersenne/mabius/mabius.json
 
+La struct "a" (seguente) è associata ai layer nella *ASSET DIR*: mabius_A_* con "subtypes": ["A"] 
+dir: PSD DIR; file: mabius-subtype_A.psd; layer group: subtype:A working 
 
+```
+  "structs": {
+    "a": {
+      "layers": {
+        "VB": "100",      <-- back  - (back)hair
+        "LW": "100",                - left arm
+        "BO": "100",                - body
+        "LB": "100",                - legs
+        "RW": "100",                - right arm
+        "HE": "100"       <-- front - head & front hair
+      },
+...
+      "subtypes": ["A"]
+```
 
 
  = - = - === Uchida Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
@@ -103,6 +112,14 @@ MERSENNE URL: 	http://localhost:8989/mersenne/mersenne.php?seed=102&page=67&resu
 A - auto border on front layers
 B - fix black pixels & missing lines 
 C - https://twitter.com/TheOtaking/media 	add front pinups
+
+### UCHIDA parts
+- VB: 30 	-> 87
+- LB: 5 	-> 27
+- BO: 8 	-> 23
+- LW: 1  	->  1
+- RW: 1 	->  1
+- HE: 7 	-> 45
 
  = - = - === Malika === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = 
 
