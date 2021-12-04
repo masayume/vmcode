@@ -1,5 +1,14 @@
 # mersenne meta generator v1.4 - v1.5
 
+## Todo List
+1. layer type exclusion directive in asset file name (to exclude VB (back hair) for a certain HE (head)) 
+  mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x
+
+2. asset inclusion directive in asset file name (to associate a specific layer image with a specific other layer)
+  mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x
+
+3. fix combinations counter 
+
 ## directories
 
 * /var/www/html/mersenne/ 								          UI 
