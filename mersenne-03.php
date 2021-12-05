@@ -293,7 +293,7 @@ $vspacer = "";
         START MAIN SCENE LOOP 
     =============================
 */
-    
+    $struct_subtype = "";
     for ($i=1; $i<=$page * $results; $i++) {
 
     $scene_seed = 0;
@@ -324,7 +324,7 @@ $vspacer = "";
                 $name_struct    = $structs[$structkeys[$mt_struct_i-1]]["name_struct"]; 
                 $struct_filter  = $structkeys[$mt_struct_i-1];
                 // print "mt_struct: " . $mt_struct_i . " <pre>"; print_r( $structkeys); print " " . $struct_filter;
-                // print " <pre>"; print_r( $structs[$struct_filter]['subtypes'][0] );
+                // print "<div style='position: absolute: left: 500px;'> <pre>"; print_r( $structs[$struct_filter]['subtypes'][0] ); print "</pre></div>";
                 $struct_subtype = $structs[$struct_filter]['subtypes'][0];
 
             } else {
@@ -348,6 +348,7 @@ $vspacer = "";
             echo scene($i, $imgpath, $scene_url, $scene_name, $jwidth, $jheight, $font_size, $filter, $atype, $scene_seed, $main_layers, $struct2show);
     
         }
+
     }
 
 /*  ===========================
@@ -358,11 +359,13 @@ $vspacer = "";
 
 	print "</div>";
 
+    // print "struct_subtype: " . $struct_subtype; // shows subtype or "A" of "mabius_A_HE_1_002"
+
     $vspacer = "";
     print "<div id=\"bottomdiv\">";
     print "$vspacer v.$version - 2018-21 - masayume ";
 //    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
-    print "$vspacer  " . demon_count($scenedir, $atype);
+    print "$vspacer  " . demon_count($scenedir, $atype, $struct_subtype);
     print "$vspacer DIR:" . $imgpath;
     print "</div>\n\n</div>";
 
@@ -450,8 +453,8 @@ function scene_layers($dir, $i, $layers, $name_struct) {
                         array_push($main_layers_types, $nameparts[1]);
 
 // debug
-// print "<pre>" . print_r($main_layers_types);
-// print "<br>" . "entry: " . $entry . " - nameparts: " . $nameparts[1];
+// print "<div style='position: absolute; left: 500px;'><pre>main_layer_types: " . print_r($main_layers_types);
+// print "<br>" . "entry: " . $entry . " - nameparts: " . $nameparts[1] . "</pre></div>";
 
                     }
 
@@ -515,7 +518,6 @@ if ($page==1 && $results == 1 && $js_generation && (isset($generatejsfile[$atype
 //
 // MAIN MT_RND LOOP
 // 
-
 
     foreach (array_keys($main_layers) as $part) { // loop sul tipo di layer ($part = BO, LB, LW, RW, HE)
 
@@ -762,7 +764,7 @@ function kind_elem($kind, $dlayers, $amode, $subtype) {
             if (!$subtype) {
                 if (strstr($dlayer, $kind)) { 
                     array_push($arr2ret, $dlayer); 
-                    // print "<br>NO SUBTYPE - DLAYER=" . $dlayer . " KIND=" . $kind;
+//                    print "<br>NO SUBTYPE - DLAYER=" . $dlayer . " KIND=" . $kind . " subtype=" . $subtype;
                 } 
             } 
             else // subtype defined, must match
@@ -772,7 +774,7 @@ function kind_elem($kind, $dlayers, $amode, $subtype) {
                     $dlayerparts = explode('_', $dlayer);
                     if (strpos($dlayerparts[1], $subtype) !== false)
                     {
-                        // print "<br>DLAYER=" . $dlayer . "; KIND=". $kind . "; DLAYERPART=" . $dlayerparts[1] . "; subtype=" . $subtype;
+//                        print "<br>DLAYER=" . $dlayer . "; KIND=". $kind . "; DLAYERPART=" . $dlayerparts[1] . "; subtype=" . $subtype;
                         array_push($arr2ret, $dlayer); 
                     }
 
@@ -1225,10 +1227,11 @@ function planet_ini() {
 } // end function planet_ini
 
 
-function demon_count($dir, $type) {
+function demon_count($dir, $type, $subtype) {
 
     global $demon_layers;
     global $assetmode;
+
     $dpart = "";    $dcount = 1;
     $dlayers        = array();
     $arr2ret        = array();
@@ -1250,30 +1253,39 @@ function demon_count($dir, $type) {
 //      1) loop on structs
 //      2) sum total value of any struct
 
-// print "<pre>";print_r(array_keys($demon_layers));
-
+/*
+ print "<pre>";print_r(array_keys($demon_layers)); 
+ print "<br />: assetmode: " . $assetmode; 
+ print "</pre>";
+*/
     if ($type == 'demons' || $type == 'demonship') {
         foreach (array("RW", "BO", "LB", "HE") as $part) {
             $demon_elems    = array();
-            $demon_elems    = kind_elem($part, $dlayers, $assetmode, null); // elementi di tipo "HE"... 
-            if (in_array($part, array("RW", "BO", "LB", "HE"))) { 
+            $demon_elems    = kind_elem($part, $dlayers, $assetmode, $subtype); // elementi di tipo "HE"... 
+            
+            // if (in_array($part, array("RW", "BO", "LB", "HE"))) { 
+            if (in_array( $part, $demon_layers )) { 
                 $dpart .= " $part: " . count($demon_elems); 
                 $dcount *= count($demon_elems); 
             } 
         }
-    } else {
+    } else { // mabius, uchida etc.
 
         foreach (array_keys($demon_layers) as $part) {
             $demon_elems    = array();
-/*
-            $demon_elems    = kind_elem($part, $dlayers, $assetmode, null); // elementi di tipo "HE"... 
+
+            if ($assetmode == 'separate') { // in kind_elems contare solo quelli di tipo $subtype (es. "A" in "mabius_A_BO_1_001")
+                $demon_elems    = kind_elem($part, $dlayers, $assetmode, $subtype); // elementi di tipo "HE"... 
+            } else {
+                $demon_elems    = kind_elem($part, $dlayers, $assetmode, null); // elementi di tipo "HE"... 
+            }
             if (in_array($part, array_keys($demon_layers) )) { 
                 $dpart .= " $part: <b>" . count($demon_elems) . "</b>"; 
                 $dcount *= count($demon_elems); 
             } 
-*/
-        }        
 
+
+        }        
     } 
     
     $demoncount = strtoupper($type) . ": " . number_format($dcount) . " · parts: " . $dpart;
