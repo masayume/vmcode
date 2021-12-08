@@ -176,10 +176,25 @@ echo <<< EOT
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <meta charset="UTF-8">
-<style type="text/css">
-a:link  { color:#aaaaaa; } 
-a:visited { color:#aaaaaa; } 
-</style>
+    <script text="javascript">
+    document.addEventListener("keyup",function(e){
+        var key = e.which||e.keyCode;
+        switch(key){
+           //left arrow
+           case 37:
+              document.getElementById("prevLink").click();
+           break;
+           //right arrow
+           case 39:
+              document.getElementById("nextLink").click();
+           break;
+        }
+     });
+    </script> 
+    <style type="text/css">
+        a:link  { color:#aaaaaa; } 
+        a:visited { color:#aaaaaa; } 
+    </style>
 $css
 </head>
 <body style="background-color:#000000; color: #cccccc; font-family: 'arcadeclassic', sans-serif; font-size: 20px;">
@@ -222,7 +237,7 @@ $vspacer = "";
      
         if ($prevp > 0) {
             print "<button type=\"button\" class=\"btn btn-primary\">";
-            print "<a href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";
+            print "<a id='prevLink' href='" .$_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" . $prevp . $res_qs . "'> &lt;&lt;&lt;&lt; </a>";
             print "</button>";        
         
         } else {
@@ -234,7 +249,7 @@ $vspacer = "";
      
         // print "&nbsp;&nbsp;&nbsp;" 
             print "<button type=\"button\" class=\"btn btn-primary\">";
-            print  "<a href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a>";
+            print  "<a id='nextLink' href='" . $_SERVER['PHP_SELF'] . "?seed=" . $master_seed . "&page=" .$nextp . $res_qs . "'> >>>> </a>";
             // print " &nbsp;  &nbsp;  &nbsp;"; 
     //    print $URL["demons"] . $URL["demonship"] . $URL["demonback"] . $URL['demonbadge'];
             print "</button>";        

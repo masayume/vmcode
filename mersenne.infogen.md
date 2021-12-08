@@ -7,7 +7,6 @@
 2. asset inclusion directive in asset file name (to associate a specific layer image with a specific other layer)
   mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x
 
-3. fix combinations counter 
 
 ## directories
 
@@ -274,6 +273,7 @@ motion pattern implementation
 15) generazione nomi puliti di demonbull & demonfx in dir animjs
 	:466  	nuova config var generatejsfile[$atype]
 16) motion attributes (see opera js lib)
+17) fixed assettype=separate (subtype = A) combinations count 
 
 
 ??) ADVANCED gestione dei multi tipi asset_A_... asset_B_... 
