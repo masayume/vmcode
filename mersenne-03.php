@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.52';
+$version    = '1.6';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -59,9 +59,10 @@ $demon_layers	= array(
 $demonsfile     = $main_path_dir . 'demons/demons4js.json';
 $struct_filter  = "";
 
-$json = "";
+$json       = "";
 $scenedir	= "";
-$page   = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = ""; $atype = ""; $results    = 0;
+
+$page       = 1; $nextp  = 2; $prevp  = 1; $res_qs = ""; $type = ""; $atype = ""; $subtype = ""; $results = 0;
 
 $assetmode      = "mixed";
 $structsmode    = 0;
@@ -91,6 +92,11 @@ if (!isset($params['type'])) { $type = "backs"; }
 else {
         $type = $params['type'];
         $res_qs  .= "&type=" . $type;
+}
+if (!isset($params['subtype'])) { $subtype = ""; } 
+else {
+        $subtype = $params['subtype'];
+        $res_qs  .= "&subtype=" . $subtype;
 }
 
 $atype = '';
@@ -308,7 +314,7 @@ $vspacer = "";
         START MAIN SCENE LOOP 
     =============================
 */
-    $struct_subtype = "";
+    $struct_subtype = $subtype;
     for ($i=1; $i<=$page * $results; $i++) {
 
     $scene_seed = 0;
@@ -332,20 +338,34 @@ $vspacer = "";
             if ($structsmode) {     // when "structs" is defined in TPL.json use layers defined
                 // numero di elementi max da cui estrarre il mt_rnd: count(array_keys($structs)); 
                 // print "structmode !";
-                $structkeys     = array_keys($structs);
-                $mt_struct_i    = mt_rand(1,count($structkeys));
+                // print "struct_subtype: " . $struct_subtype;
+                $structkeys     = array_keys($structs); // print "<pre>"; print_r($structkeys); print "</pre>";
+                $mt_struct_i    = '';
+                if ($struct_subtype == null) {
+                    $mt_struct_i    = mt_rand(1,count($structkeys));
+                } else {
+                    $mt_struct_i    = array_search(strtolower($struct_subtype),$structkeys) + 1;
+                }
 
                 $main_layers    = $structs[$structkeys[$mt_struct_i-1]]["layers"]; // struct scelta con mr_rand
                 $name_struct    = $structs[$structkeys[$mt_struct_i-1]]["name_struct"]; 
                 $struct_filter  = $structkeys[$mt_struct_i-1];
                 // print "mt_struct: " . $mt_struct_i . " <pre>"; print_r( $structkeys); print " " . $struct_filter;
                 // print "<div style='position: absolute: left: 500px;'> <pre>"; print_r( $structs[$struct_filter]['subtypes'][0] ); print "</pre></div>";
-                $struct_subtype = $structs[$struct_filter]['subtypes'][0];
+                if ($struct_subtype == null) {
+                    $struct_subtype = $structs[$struct_filter]['subtypes'][0];
+                } else {
+                    $struct_subtype = $subtype; 
+                }
+
+                // print "<pre>"; print $struct_subtype . " : " . $subtype; print "</pre>";
 
             } else {
                 // print "no structmode";
                 $main_layers       = $demon_layers;
             }
+
+            // print "<pre>"; print $struct_subtype . " "; print_r($structkeys); print_r($main_layers); print "</pre>";
 
             $scene_array    = array();
             $scene_array    = scene_gen($i, $main_layers, $name_struct, $struct_subtype);
@@ -378,7 +398,7 @@ $vspacer = "";
 
     $vspacer = "";
     print "<div id=\"bottomdiv\">";
-    print "$vspacer v.$version - 2018-21 - masayume ";
+    print "$vspacer v.$version - 2018-2022 - masayume ";
 //    print "$vspacer NAME HE: " . count($demonname["HE"]) . " BO:" . count($demonname["BO"]) ." LB:" . count($demonname["LB"]);
     print "$vspacer  " . demon_count($scenedir, $atype, $struct_subtype);
     print "$vspacer DIR:" . $imgpath;
