@@ -90,7 +90,8 @@ naming conf file: 		/home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchida
 
  = - = - === Mabius Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
 
-http://localhost:8910/mersenne/mersenne.php?seed=100&page=2&results=1&atype=mabius
+http://localhost:8910/mersenne/mersenne.php?seed=100&page=2&results=1&atype=mabius&subtype=B
+https://www.masayume.it/blog/content/mabius-pixel-art
 
 * ASSET DIR:      /home/masayume/DATA/E/Temp/demon/mersenne/mabius/
 * PSD DIR:        /home/masayume/Downloads/masayumeP/mabius PSD templates/
