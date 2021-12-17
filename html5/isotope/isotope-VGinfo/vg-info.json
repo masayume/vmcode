@@ -674,6 +674,106 @@
       "game": "Dig Dug",
       "url": "https://en.wikipedia.org/wiki/Dig_Dug",
       "year": 1982
+    },
+    "Donkey Kong Jr.": {
+      "number": "69",
+      "by": "Nintendo",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "069-donkeykongjr.png",
+      "game": "Donkey Kong Jr.",
+      "url": "https://en.wikipedia.org/wiki/Donkey_Kong_Jr.",
+      "year": 1982
+    },
+    "Jungle Hunt": {
+      "number": "70",
+      "by": "Taito",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "070-junglehunt.png",
+      "game": "Jungle Hunt",
+      "url": "https://en.wikipedia.org/wiki/Jungle_Hunt",
+      "year": 1982
+    },
+    "NAME": {
+      "number": "71",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "0nn-name.png",
+      "game": "NAME",
+      "url": "https://en.wikipedia.org/wiki/NAME",
+      "year": 1982
+    },
+    "Pengo": {
+      "number": "72",
+      "by": "Sega",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "072-pengo.png",
+      "game": "Pengo",
+      "url": "https://en.wikipedia.org/wiki/Pengo_(video_game)",
+      "year": 1982
+    },
+    "Pole Position": {
+      "number": "73",
+      "by": "Taito",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "073-pole_position.png",
+      "game": "Pole Position",
+      "url": "https://en.wikipedia.org/wiki/Pole_Position_(video_game)",
+      "year": 1982
+    },
+    "NAME": {
+      "number": "74",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "074-name.png",
+      "game": "NAME",
+      "url": "https://en.wikipedia.org/wiki/NAME",
+      "year": 1982
+    },
+    "Mr. Do!": {
+      "number": "75",
+      "by": "Universal",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "075-mr_do.png",
+      "game": "Mr. Do!",
+      "url": "https://en.wikipedia.org/wiki/Mr._Do!",
+      "year": 1982
+    },
+    "Q*Bert": {
+      "number": "76",
+      "by": "Gottlieb",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "076-qbert.png",
+      "game": "Q*Bert",
+      "url": "https://en.wikipedia.org/wiki/Q*bert",
+      "year": 1982
+    },
+    "Time Pilot": {
+      "number": "77",
+      "by": "Konami",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "077-time_pilot.png",
+      "game": "Time Pilot",
+      "url": "https://en.wikipedia.org/wiki/Time_Pilot",
+      "year": 1982
+    },
+    "Tron": {
+      "number": "78",
+      "by": "Bally/Midway",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "078-tron.png",
+      "game": "Tron",
+      "url": "https://en.wikipedia.org/wiki/Tron_(video_game)",
+      "year": 1982
     }
 
 
