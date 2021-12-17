@@ -665,19 +665,19 @@
       "url": "https://en.wikipedia.org/wiki/Ms._Pac-Man",
       "year": 1982
     },
-    "NAME67": {
+    "Gravitar": {
       "number": "67",
       "by": "HOUSE",
       "data_cat": "player",
       "class": ["player", 1982, "arcade"],
-      "img": "067-name.png",
-      "game": "NAME",
-      "url": "https://en.wikipedia.org/wiki/NAME",
+      "img": "067-gravitar.png",
+      "game": "Gravitar",
+      "url": "https://en.wikipedia.org/wiki/Gravitar",
       "year": 1982
     },
     "DigDug": {
       "number": "68",
-      "by": "Midway",
+      "by": "Namco",
       "data_cat": "player",
       "class": ["player", 1982, "arcade"],
       "img": "068-digdug.png",
@@ -705,14 +705,14 @@
       "url": "https://en.wikipedia.org/wiki/Jungle_Hunt",
       "year": 1982
     },
-    "NAME71": {
+    "Joust": {
       "number": "71",
-      "by": "HOUSE",
+      "by": "Williams",
       "data_cat": "player",
       "class": ["player", 1982, "arcade"],
-      "img": "0nn-name.png",
-      "game": "NAME",
-      "url": "https://en.wikipedia.org/wiki/NAME",
+      "img": "071-joust.png",
+      "game": "Joust",
+      "url": "https://en.wikipedia.org/wiki/Joust_(video_game)",
       "year": 1982
     },
     "Pengo": {
@@ -735,14 +735,14 @@
       "url": "https://en.wikipedia.org/wiki/Pole_Position_(video_game)",
       "year": 1982
     },
-    "NAME": {
+    "Robotron: 2084": {
       "number": "74",
-      "by": "HOUSE",
+      "by": "Williams",
       "data_cat": "player",
       "class": ["player", 1982, "arcade"],
-      "img": "074-name.png",
-      "game": "NAME",
-      "url": "https://en.wikipedia.org/wiki/NAME",
+      "img": "074-robotron2084.png",
+      "game": "Robotron: 2084",
+      "url": "https://en.wikipedia.org/wiki/Robotron:_2084",
       "year": 1982
     },
     "Mr. Do!": {
@@ -784,8 +784,37 @@
       "game": "Tron",
       "url": "https://en.wikipedia.org/wiki/Tron_(video_game)",
       "year": 1982
-    }
-
+    },
+    "BurgerTime": {
+      "number": "79",
+      "by": "Data East",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "079-burgertime.png",
+      "game": "BurgerTime",
+      "url": "https://en.wikipedia.org/wiki/BurgerTime",
+      "year": 1982
+    },
+    "Front Line": {
+      "number": "80",
+      "by": "Taito",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "080-frontline.png",
+      "game": "Front Line",
+      "url": "https://en.wikipedia.org/wiki/Front_Line_(video_game)",
+      "year": 1982
+    },
+    "Kangaroo": {
+      "number": "81",
+      "by": "Atari",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "081-kangaroo.png",
+      "game": "Kangaroo",
+      "url": "https://en.wikipedia.org/wiki/Kangaroo_(video_game)",
+      "year": 1982
+    } 
 
 
 
