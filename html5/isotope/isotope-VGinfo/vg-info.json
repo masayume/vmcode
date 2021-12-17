@@ -665,6 +665,16 @@
       "url": "https://en.wikipedia.org/wiki/Ms._Pac-Man",
       "year": 1982
     },
+    "NAME67": {
+      "number": "67",
+      "by": "HOUSE",
+      "data_cat": "player",
+      "class": ["player", 1982, "arcade"],
+      "img": "067-name.png",
+      "game": "NAME",
+      "url": "https://en.wikipedia.org/wiki/NAME",
+      "year": 1982
+    },
     "DigDug": {
       "number": "68",
       "by": "Midway",
@@ -695,7 +705,7 @@
       "url": "https://en.wikipedia.org/wiki/Jungle_Hunt",
       "year": 1982
     },
-    "NAME": {
+    "NAME71": {
       "number": "71",
       "by": "HOUSE",
       "data_cat": "player",
