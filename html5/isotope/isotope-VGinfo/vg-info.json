@@ -667,7 +667,7 @@
     },
     "Gravitar": {
       "number": "67",
-      "by": "HOUSE",
+      "by": "Atari",
       "data_cat": "player",
       "class": ["player", 1982, "arcade"],
       "img": "067-gravitar.png",
