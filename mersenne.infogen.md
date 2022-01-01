@@ -1,12 +1,12 @@
-# mersenne meta generator v1.4 - v1.5
+# mersenne meta generator v1.4 - v1.6
 
 ## Todo List
 
-1. parse linked files with encoded position-modifiers left/right/up/down (B linked subtypes are A subtypes pos-modded)
+1. override layer selection via querystring
 
 2. button to save all <div> content 
 
-3. override layer selection via querystring
+3. parse linked files with encoded position-modifiers left/right/up/down (B linked subtypes are A subtypes pos-modded)
 
 4. layer type exclusion directive in asset file name (to exclude VB (back hair) for a certain HE (head)) 
   mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x
@@ -27,6 +27,8 @@
 ## URL
 
 * [Mabius](http://localhost:8910/mersenne/mersenne.php?seed=100&page=8&results=1&atype=mabius)
+* [Mabius SUBTYPE=A](http://localhost:8910/mersenne/mersenne.php?seed=100&page=8&results=1&atype=mabius&subtype=A)
+* [Mabius SUBTYPE=B](http://localhost:8910/mersenne/mersenne.php?seed=100&page=8&results=1&atype=mabius&subtype=B)
 * [Uchida](http://localhost:8910/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida)
 * [Uchida Pixel Art](http://localhost:8910/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchidapixel)
 * [Spelunky](http://localhost:8910/mersenne/mersenne.php?seed=100&page=1&results=1&atype=spelunky)
@@ -88,7 +90,21 @@ naming conf file: 		/home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchida
 	<Export>
 3 - Load exported image in Photopea; Color Range background and delete to restore transparency; Scale 4x (ALT+CTRL+I) with Nearest Neighbor
 
+ = - = -  = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
+ = - = - ===  Imagemagick === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
+ = - = -  = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
+
+Source dir:       /home/masayume/Downloads/masayumeP/_MAGICK_scripts/2convert/
+Destination dir:  /home/masayume/Downloads/masayumeP/_MAGICK_scripts/converted/
+
+Example call (cd /home/masayume/Downloads/masayumeP/_MAGICK_scripts/):          
+./_color-swap.sh 2convert/mabius_A_LW_1_028.png 
+
+_color-swap.sh embeds color swapping directives
+
+ = - = -  = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
  = - = - === Mabius Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
+ = - = -  = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
 
 http://localhost:8910/mersenne/mersenne.php?seed=100&page=2&results=1&atype=mabius&subtype=B
 https://www.masayume.it/blog/content/mabius-pixel-art
