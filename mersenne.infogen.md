@@ -2,6 +2,8 @@
 
 ## Todo List
 
+0. option to use only the most recent layer: &latest=true
+
 1. override layer selection via querystring
 
 2. button to save all <div> content 
@@ -9,13 +11,12 @@
 3. parse linked files with encoded position-modifiers left/right/up/down (B linked subtypes are A subtypes pos-modded)
 
 4. layer type exclusion directive in asset file name (to exclude VB (back hair) for a certain HE (head)) 
-  mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x
+```  mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x ```
 
 5. asset inclusion directive in asset file name (to associate a specific layer image with a specific other layer)
-  mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x
+```  mabius_A_HE_1_006 -> mabius_A_HE_1_???????_00x ```
 
 6. ADVANCED: embedding whole external layers/json in particular position; Overlay more pages ? Links ?
-
 
 
 ## directories
@@ -47,14 +48,10 @@
 ## files
 
 - main program. versioned on github. 
-```
- /var/www/html/mersenne/mersenne.php -> /home/masayume/git/vmcode/mersenne-03.php     
-```
+``` /var/www/html/mersenne/mersenne.php -> /home/masayume/git/vmcode/mersenne-03.php     ```
 
 - mersenne main configuration:
-```
-/var/www/html/mersenne/mersenne-03-config.php   
-```
+``` /var/www/html/mersenne/mersenne-03-config.php   ```
 
 ## Process
 
@@ -94,13 +91,17 @@ naming conf file: 		/home/masayume/DATA/E/Temp/demon/mersenne/uchidapixel/uchida
  = - = - ===  Imagemagick === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
  = - = -  = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
 
-Source dir:       /home/masayume/Downloads/masayumeP/_MAGICK_scripts/2convert/
-Destination dir:  /home/masayume/Downloads/masayumeP/_MAGICK_scripts/converted/
+Source dir:       
+``` /home/masayume/Downloads/masayumeP/_MAGICK_scripts/2convert/ ```
+
+Destination dir: 
+``` /home/masayume/Downloads/masayumeP/_MAGICK_scripts/converted/ ```
 
 Example call (cd /home/masayume/Downloads/masayumeP/_MAGICK_scripts/):          
-./_color-swap.sh 2convert/mabius_A_LW_1_028.png 
+``` ./_color-swap.sh 2convert/mabius_A_LW_1_028.png 
 
-_color-swap.sh embeds color swapping directives
+    _color-swap.sh embeds color swapping directives
+```
 
  = - = -  = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
  = - = - === Mabius Pixel === = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - 
