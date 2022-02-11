@@ -2429,9 +2429,41 @@
       "dir": "books/retro/BOOKS",
       "download": "https://archive.org/details/Programming_the_6502_OCR",
       "url": "https://www.goodreads.com/book/show/1577392.Programming_the_6502"
+    },
+    "CartoonAnimation": {
+      "name": "Cartoon Animation",
+      "number": "159",
+      "data_cat": "player",
+      "class": ["artworks", "reference", "animation", "digital"],
+      "theme": ["arcade", "meta"],
+      "img": "0159.jpg",
+      "author": "Preston Blair",
+      "store": "???", 
+      "weight": "", 
+      "year": 1980,
+      "players": [1],
+      "length": 224,
+      "dir": "books/ANIMATION",
+      "download": "https://archive.org/details/PrestonBlairCartoonAnimation",
+      "url": "https://www.goodreads.com/author/list/211044.Preston_Blair"
+    },
+    "AnimatorSurvival": {
+      "name": "The Animator's Survival Kit",
+      "number": "160",
+      "data_cat": "player",
+      "class": ["artworks", "reference", "animation", "digital"],
+      "theme": ["arcade", "meta"],
+      "img": "0160.jpg",
+      "author": "Richard Williams",
+      "store": "???", 
+      "weight": "", 
+      "year": 2001,
+      "players": [1],
+      "length": 342,
+      "dir": "books/ANIMATION",
+      "download": "https://ia601005.us.archive.org/26/items/theanimatorssurvivalkit1_201909/The__Animator%27s_Survival_Kit%5B1%5D.pdf",
+      "url": "https://www.goodreads.com/book/show/136091.The_Animator_s_Survival_Kit"
     }
-
-
 
 
 
