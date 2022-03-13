@@ -6,3 +6,7 @@ ul {
 li {
     padding-left: -10px;
 }
+
+summary {
+    color: aqua;
+}
