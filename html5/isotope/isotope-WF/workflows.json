@@ -175,7 +175,7 @@
       "name": "Pixel",
       "number": "11",
       "data_cat": "player",
-      "class": ["player", "3D", "material", "shader", "shadergraph", "NOTYET"],
+      "class": ["player", "3D", "material", "shader", "shadergraph", "pixelart", "NOTYET"],
       "theme": ["game"],
       "img": "wf011.png",
       "author": "",
@@ -508,6 +508,23 @@
       "players": [1],
       "length": 33,
       "url": "/HTML5/inspire/workflows/workflows.infogen.htm#cartoon",
+      "localdir": "",
+      "notes": "utile per ..."
+    },
+    "0031": {
+      "name": "Sprite Stacking",
+      "number": "31",
+      "data_cat": "player",
+      "class": ["player", "3D", "2D", "pixelart", "NOTYET"],
+      "theme": ["math"],
+      "img": "wf031.png",
+      "author": "",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2017,
+      "players": [1],
+      "length": 33,
+      "url": "https://twitter.com/MissionCTRLGame/status/1505943923138695172",
       "localdir": "",
       "notes": "utile per ..."
     }
