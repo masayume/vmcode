@@ -114,6 +114,14 @@ https://www.masayume.it/blog/content/mabius-pixel-art
 * PSD DIR:        /home/masayume/Downloads/masayumeP/mabius PSD templates/
 * LAYERS control: /home/masayume/DATA/E/Temp/demon/mersenne/mabius/mabius.json
 
+SUBTYPES:
+* A:  All
+* B:  alternative body (switch HE, LW, RW spacing)
+* D:  high contrast
+* R:  reference pose for new assets
+* O:  original (new)
+* K:  pixelart background (new)
+
 La struct "a" (seguente) è associata ai layer nella *ASSET DIR*: mabius_A_* con "subtypes": ["A"] 
 dir: PSD DIR; file: mabius-subtype_A.psd; layer group: subtype:A working 
 
