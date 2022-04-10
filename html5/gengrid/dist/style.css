@@ -1,0 +1,60 @@
+:root {
+  --bg-inner: white;
+  --bg-outer: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  background-image: radial-gradient(var(--bg-inner) 0%, var(--bg-outer) 100%);
+}
+.container svg {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.container svg * {
+  /*    Removes little gaps between the shapes */
+  shape-rendering: crispEdges;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+  margin: 0;
+  border-top-left-radius: 12px;
+  background: #ffffffcc;
+  border: 0.5px solid #555555cc;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.75rem;
+}
+.button svg {
+  width: 1.25rem;
+  transition: 0.3s ease-in-out transform;
+}
+.button:hover svg {
+  transform: rotate(-45deg);
+}
+.button:focus, .button:active {
+  outline: 2px solid #f06;
+}
+.button:focus svg, .button:active svg {
+  transform: rotate(-90deg);
+}
