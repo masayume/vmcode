@@ -2,6 +2,30 @@
   "data":
   {
     "0001": {
+      "name": "Pixatool",
+      "number": "1",
+      "data_cat": "player",
+      "class": ["player", "style", "drawing", "2D", "pixelart"],
+      "theme": ["technique"],
+      "img": "wf028.png",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2021,
+      "players": [1],
+      "length": 9,
+      "url": "https://twitter.com/MasayumeP/status/1392273380238319619",
+      "localdir": "",
+      "notes": "generate pixelart with pixatool from source (mersenne etc.)"
+    }
+
+
+
+  },
+  "template":
+  {
+
+    "0001": {
       "name": "Fantasy",
       "number": "1",
       "data_cat": "player",
@@ -73,7 +97,7 @@
       "name": "Disco Diffusion",
       "number": "30",
       "data_cat": "player",
-      "class": ["player", "2D", "pixelart", "source"],
+      "class": ["player", "2D", "source"],
       "theme": ["game"],
       "img": "wf005.png",
       "author": "Unity",
@@ -460,23 +484,6 @@
       "localdir": "",
       "notes": "use unity assets and mixamo poses/animations with shaders for illustrations"
     },
-    "0028": {
-      "name": "Pixatool",
-      "number": "28",
-      "data_cat": "player",
-      "class": ["player", "style", "drawing", "2D", "pixelart"],
-      "theme": ["technique"],
-      "img": "wf028.png",
-      "author": "masayume",
-      "rating": 3, 
-      "weight": 2, 
-      "year": 2021,
-      "players": [1],
-      "length": 9,
-      "url": "https://twitter.com/MasayumeP/status/1392273380238319619",
-      "localdir": "",
-      "notes": "generate pixelart with pixatool from source (mersenne etc.)"
-    },
     "0029": {
       "name": "Hexels",
       "number": "29",
@@ -510,13 +517,10 @@
       "url": "/HTML5/inspire/workflows/workflows.infogen.htm#cartoon",
       "localdir": "",
       "notes": "utile per ..."
-    }
+    },
 
 
-  },
-  "template":
-  {
-   "BOOKTITLE.1": {
+    "BOOKTITLE.1": {
       "tut-01": "https://www.youtube.com/user/Unity3DCoder/playlists",
       "tut-02": "https://www.youtube.com/results?search_query=spelunky+unity",
       "tut-03-platformer": "https://www.youtube.com/watch?v=2MImqNvgrNg",
