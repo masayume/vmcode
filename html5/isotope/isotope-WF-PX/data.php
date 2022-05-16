@@ -28,6 +28,11 @@ function gamepage($jfile) {
       $books = $item[length] . " min";
     }
 
+    $urlWF = "";
+    if ($item[url_WF]) {
+      $urlWF = "<a href=" . $item[url_WF] . " target='_blank'>WF Page</a>";
+    } 
+
     $template =<<<TEM
       <div class="element-item $class overcard" data-category="{$item[data_cat]}" style="background-image: url('img/{$item[img]}'); background-size: 100%;">
         <p class="name"><a href='{$item[url]}'>{$item[name]}</a></p>
@@ -37,6 +42,7 @@ function gamepage($jfile) {
         <p class="length">{$item[length]}</p>
         <p class="weight">d:{$item[weight]}</p> 
         <p class="book">$books</p>
+        <p class="url_WF">$urlWF</p>
       </div>
 
 TEM;

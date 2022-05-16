@@ -207,18 +207,26 @@ body {
   padding: 2px 2px 2px 2px ;
 }
 
-.element-item .rating {
+
+.element-item .url_WF_OLD a {
   position: absolute;
-  left: 140px;
+  left: 4px;
+  top: 24px;
+  font-family: 'Oswald';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.element-item .url_WF a {
+  position: absolute;
+  left: 130px;
   bottom: 2px;
   font-family: 'Oswald';
-  font-size: 12px;
-
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 3px;
-  z-index: 2;
-  outline: 0;
-  padding: 2px 2px 2px 2px ;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 14px;
+  font-weight: bold;
+  color:hsl(  72, 100%, 50%)
 }
 
 h3 {
