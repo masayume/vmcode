@@ -143,6 +143,18 @@ a:hover {
   color: white;
 }
 
+.element-item .url_making a {
+  position: absolute;
+  left: 4px;
+  bottom: 24px;
+  font-family: 'TightPixel';
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
 .element-item .game a {
   position: absolute;
   left: 4px;

@@ -28,6 +28,14 @@ function gamepage($jfile) {
       $game="<p class=\"game\">{$item[game]}</p>";
     }
 
+    $url_making= "";
+    if (isset($item[url_making])){
+      $url_making="<p class=\"url_making\"><a href=\"{$item[url_making]}\" target=\"_blank\">making of</a></p>";
+    } else {
+      $url_making="";
+    }
+
+
     $template =<<<TEM
   <div class="element-item $class " data-category="{$item[data_cat]}" style="background-image: url('img/{$item[img]}'); background-size: 100%;">
 <!--    <h3 class="name">$key</h3> -->
@@ -35,7 +43,8 @@ function gamepage($jfile) {
     $game
     <p class="by">{$item[by]}</p>
     <p class="year">{$item[year]}</p>
-  </div>
+    $url_making
+    </div>
 
 TEM;
 

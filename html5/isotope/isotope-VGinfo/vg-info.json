@@ -663,6 +663,7 @@
       "img": "066-mspacman.png",
       "game": "Ms._Pac-Man",
       "url": "https://en.wikipedia.org/wiki/Ms._Pac-Man",
+      "url_making": "https://www.youtube.com/watch?v=rhM8NAMW_VQ",
       "year": 1982
     },
     "Gravitar": {
@@ -743,6 +744,7 @@
       "img": "074-robotron2084.png",
       "game": "Robotron: 2084",
       "url": "https://en.wikipedia.org/wiki/Robotron:_2084",
+      "url_making": "https://www.youtube.com/watch?v=90GuCjmNzVI",
       "year": 1982
     },
     "Mr. Do!": {
@@ -763,6 +765,7 @@
       "img": "076-qbert.png",
       "game": "Q*Bert",
       "url": "https://en.wikipedia.org/wiki/Q*bert",
+      "url_making": "https://www.youtube.com/watch?v=FhkLfz0GKYU",
       "year": 1982
     },
     "Time Pilot": {
