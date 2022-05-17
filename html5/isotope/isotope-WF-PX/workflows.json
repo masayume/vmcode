@@ -7,7 +7,7 @@
       "data_cat": "player",
       "class": ["player", "style", "drawing", "2D", "pixelart"],
       "theme": ["technique"],
-      "img": "wf028.png",
+      "img": "wfpx001.png",
       "author": "masayume",
       "rating": 3, 
       "weight": 2, 
@@ -18,6 +18,24 @@
       "url_WF": "pages/001-pixatool.htm",
       "localdir": "",
       "notes": "generate pixelart with pixatool from source (mersenne etc.)"
+    },
+    "0002": {
+      "name": "Code",
+      "number": "2",
+      "data_cat": "player",
+      "class": ["player", "scripting", "pixelart", "2D"],
+      "theme": ["editor"],
+      "img": "wfpx002.png",
+      "author": "",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2017,
+      "players": [1],
+      "length": 90,
+      "url": "https://twitter.com/aemkei/status/1378106731386040322",
+      "url_WF": "pages/002-aemkei.htm",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 

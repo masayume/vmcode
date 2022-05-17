@@ -1,0 +1,13 @@
+<!-- SOURCE: https://twitter.com/aemkei/status/1378106731386040322 -->
+
+<canvas id="c" width="1024" height="1024">
+<script>
+  const context = c.getContext('2d');
+  for (let x = 0; x < 256; x++) {
+    for (let y = 0; y < 256; y++) {
+      if ((x ^ y) % 9) {
+        context.fillRect(x*4, y*4, 4, 4);
+      }
+    }
+  }
+</script>
