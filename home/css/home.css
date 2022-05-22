@@ -10,3 +10,10 @@ li {
 summary {
     color: aqua;
 }
+
+h4 {    
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+
