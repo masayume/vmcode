@@ -36,6 +36,23 @@
       "url_WF": "pages/002-aemkei.htm",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0003": {
+      "name": "Crocotile 3D",
+      "number": "3",
+      "data_cat": "player",
+      "class": ["player", "3D", "pixelart"],
+      "theme": ["game"],
+      "img": "wfpx003.gif",
+      "author": "",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2021,
+      "players": [1],
+      "length": 150,
+      "url": "https://www.masayume.it/blog/content/crocotile-3d",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
@@ -75,23 +92,6 @@
       "players": [1],
       "length": 150,
       "url": "/HTML5/inspire/workflows/workflows.infogen.htm#painting",
-      "localdir": "",
-      "notes": "utile per ..."
-    },
-    "0003": {
-      "name": "Deep",
-      "number": "3",
-      "data_cat": "player",
-      "class": ["player", "2D", "arcade", "shooter", "animation", "DONE"],
-      "theme": ["game"],
-      "img": "wf003.jpg",
-      "author": "",
-      "rating": 3, 
-      "weight": 3, 
-      "year": 2014,
-      "players": [1],
-      "length": 150,
-      "url": "/HTML5/inspire/workflows/workflows.infogen.htm#deep",
       "localdir": "",
       "notes": "utile per ..."
     },
