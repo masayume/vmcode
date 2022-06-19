@@ -53,6 +53,23 @@
       "url": "https://www.masayume.it/blog/content/crocotile-3d",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0004": {
+      "name": "MRMO-Halftone",
+      "number": "4",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "rendering", "style"],
+      "theme": ["game"],
+      "img": "wfpx004.jpg",
+      "author": "MRMO Tarius",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2022,
+      "players": [1],
+      "length": 150,
+      "url": "https://mrmotarius.itch.io/mrmo-halftone",
+      "localdir": "/home/masayume/Downloads/MRMO-Halftone Basic V1.23b.zip",
+      "notes": "utile per ..."
     }
 
 
