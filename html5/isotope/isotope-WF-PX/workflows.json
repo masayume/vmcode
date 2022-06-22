@@ -70,6 +70,23 @@
       "url": "https://mrmotarius.itch.io/mrmo-halftone",
       "localdir": "/home/masayume/Downloads/MRMO-Halftone Basic V1.23b.zip",
       "notes": "utile per ..."
+    },
+    "0005": {
+      "name": "1-bit lateral",
+      "number": "5",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "rendering", "style"],
+      "theme": ["game"],
+      "img": "wfpx005.jpg",
+      "author": "Ahmed",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2022,
+      "players": [1],
+      "length": 150,
+      "url": "https://twitter.com/gxndyy/status/1539020045728325633",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
