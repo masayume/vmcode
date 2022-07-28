@@ -121,6 +121,23 @@
       "url": "https://ezgif.com/video-to-gif/",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0008": {
+      "name": "expressionist",
+      "number": "8",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "rendering", "style"],
+      "theme": ["game"],
+      "img": "wfpx008.png",
+      "author": "-",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2022,
+      "players": [1],
+      "length": 150,
+      "url": "https://goart.fotor.com/",
+      "localdir": "",
+      "notes": "https://goart.fotor.com/ 0. double canvas to left; 1.artist sketch + 2. expressionist + 3. pixatool + 4. posterized color layer"
     }
 
 
