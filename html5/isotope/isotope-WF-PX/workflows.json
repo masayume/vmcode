@@ -138,6 +138,23 @@
       "url": "https://goart.fotor.com/",
       "localdir": "",
       "notes": "https://goart.fotor.com/ 0. double canvas to left; 1.artist sketch + 2. expressionist + 3. pixatool + 4. posterized color layer"
+    },
+    "0009": {
+      "name": "CSP dither brush",
+      "number": "9",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "rendering", "tecnica", "CSP", "assets"],
+      "theme": ["game"],
+      "img": "wfpx009.png",
+      "author": "-",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2022,
+      "players": [1],
+      "length": 150,
+      "url": "https://www.masayume.it/blog9/web/content/dither-brushes-clip-studio-paint",
+      "localdir": "",
+      "notes": "dither brushes"
     }
 
 
