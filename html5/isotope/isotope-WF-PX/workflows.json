@@ -155,6 +155,24 @@
       "url": "https://www.masayume.it/blog9/web/content/dither-brushes-clip-studio-paint",
       "localdir": "",
       "notes": "dither brushes"
+    },
+    "0010": {
+      "name": "Photomania",
+      "number": "10",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "style", "automation"],
+      "theme": ["editor"],
+      "img": "wfpx010.png",
+      "author": "",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2022,
+      "players": [1],
+      "length": 90,
+      "url": "https://photomania.net/editor",
+      "url_WF": "pages/010-photomania.htm#Workflow02",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
