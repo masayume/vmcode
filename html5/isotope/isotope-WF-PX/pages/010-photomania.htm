@@ -14,6 +14,7 @@
       <li><a class="nav-link" href="#Introduction">Introduction</a></li>
       <li><a class="nav-link" href="#Workflow01">Workflow 01: Picked Palette</a></li>
       <li><a class="nav-link" href="#Workflow02">Workflow 02: D&Dalle/photomania</a> </li>
+      <li><a class="nav-link" href="#Workflow03">Workflow 03: Waifu Diffusion</a> </li>
       <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
       <li><a class="nav-link" href="#masayume">masayume</a></li>
     </ul>
@@ -55,6 +56,32 @@
       <p>Follow this sequence:</p>
     <ul>
       <li>0: move chosen image from 'originals' folder to 'published'</li>
+      <li>1: load image in <a href="https://photomania.net/select-photo">photomania editor</a></li>
+      <li>2: choose filter: <b>Painting</b> -> <b>Cartoonizer</b> 
+      <li>3: save to 'published' with prefix -> <b>DnDe-00n-orig-</b> </li>
+      <li>4: pixatool settings: <b>6 px horizontal, 6 px vertical</b>, <b>blur: 3</b>, <b>contrast: 120</b>, <b>exposure: 32</b>, <b>dither: 6</b></li>
+      <li>5: duplicate layer (CTRL+j) and set <b>blending mode</b> to <b>color</b>; <b>posterize: 5/6</b>  </li>
+      <li>6: scale <b>600%</b>  </li>
+      <li>7: save to 'published' folder </li>
+    </ul>
+  </section>
+
+  <section id="Workflow03" class="main-section">
+    <header>Pixatool Workflow 03: waifu diffusion -> photomania -> pixatool</header>
+    <p>
+      <img src="../img/wfpx011.png">
+    </p>  
+
+      <p>
+        template: <code>/home/masayume/Downloads/masayumeP/4PIXATOOL/src-GENERATORS/src-DIF-WAIFU/WAIFU-001-TEMPLATE.psd</code>
+        <br>originals: <code>/home/masayume/Downloads/masayumeP/4PIXATOOL/src-GENERATORS/src-DIF-WAIFU/</code>
+        <br>published: <code>/home/masayume/Downloads/masayumeP/4PIXATOOL/src-GENERATORS/src-DIF-WAIFU/pub/</code>
+        <br>download from: <a href="https://21427.gradio.app">waifu diffusion</a> 
+      </p>
+      <p>Follow this sequence:</p>
+    <ul>
+      <li>0: download from: <a href="https://21427.gradio.app">waifu diffusion</a> or <a href="https://colab.research.google.com/drive/1_8wPN7dJO746QXsFnB09Uq2VGgSRFuYE#scrollTo=GRlVtlNS5_jr">colab</a> 
+        by <a href="https://huggingface.co/hakurei/waifu-diffusion">hakurei</a></li>
       <li>1: load image in <a href="https://photomania.net/select-photo">photomania editor</a></li>
       <li>2: choose filter: <b>Painting</b> -> <b>Cartoonizer</b> 
       <li>3: save to 'published' with prefix -> <b>DnDe-00n-orig-</b> </li>
