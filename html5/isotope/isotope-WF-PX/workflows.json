@@ -160,7 +160,7 @@
       "name": "Photomania",
       "number": "10",
       "data_cat": "player",
-      "class": ["player", "2D", "pixelart", "style", "automation"],
+      "class": ["player", "2D", "pixelart", "style", "automation", "source"],
       "theme": ["editor"],
       "img": "wfpx010.png",
       "author": "",
@@ -178,7 +178,7 @@
       "name": "waifu diffusion",
       "number": "11",
       "data_cat": "player",
-      "class": ["player", "2D", "pixelart", "style", "automation"],
+      "class": ["player", "2D", "pixelart", "style", "automation", "source"],
       "theme": ["editor"],
       "img": "wfpx011.png",
       "author": "",
@@ -191,8 +191,25 @@
       "url_WF": "pages/010-photomania.htm#Workflow03",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0012": {
+      "name": "lexica",
+      "number": "12",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "style", "automation", "source"],
+      "theme": ["editor"],
+      "img": "wfpx012.png",
+      "author": "",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2022,
+      "players": [1],
+      "length": 90,
+      "url": "https://21427.gradio.app",
+      "url_WF": "pages/010-photomania.htm#Workflow04",
+      "localdir": "",
+      "notes": "utile per ..."
     }
-
 
 
   },
