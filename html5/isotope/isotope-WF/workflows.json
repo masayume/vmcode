@@ -545,8 +545,25 @@
       "url2": "https://icons8.com/upscaler",
       "localdir": "/home/masayume/Downloads/masayumeP/mabius PSD templates/01-2upscale-result",
       "notes": "upscale from pixel art to pencil sketch on graph paper "
+    },
+    "0033": {
+      "name": "processing", 
+      "number": "33",
+      "data_cat": "player",
+      "class": ["player", "2D", "3D", "sketch", "NOTYET"],
+      "theme": ["math"],
+      "img": "wf033.gif",
+      "author": "",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2022,
+      "players": [1],
+      "length": 33,
+      "url": "https://www.masayume.it/blog/content/dave-whyte-beesandbombs",
+      "url2": "https://www.masayume.it/blog/content/processing",
+      "localdir": "/home/masayume/DATA/L/processing",
+      "notes": "processing gists on processing.infogen.txt "
     }
-
 
   },
   "template":
