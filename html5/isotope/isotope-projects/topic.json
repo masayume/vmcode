@@ -239,6 +239,24 @@
       "length": 0,
       "url": "https://github.com/mxgmn/WaveFunctionCollapse",
       "dir": "/git/python/oisin"
+    },
+    "defold": {
+      "name": "defold game engine",
+      "number": "140",
+      "data_cat": "player",
+      "class": ["player", "tool", "game", "engine"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "140.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year-start": 2022,
+      "year": 2022,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/defold",
+      "dir": "-"
     }
 
 
