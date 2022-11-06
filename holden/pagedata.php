@@ -1,4 +1,7 @@
 <?php
+/*
+save to ~git/vmcode/holden
+*/
 
 
 $float = "";
@@ -36,14 +39,16 @@ function pagenewtemp($dir, $tag) {
     $twitterRaw = end($imagename);
     $twitterRaw2 = preg_replace('/^0-tw-/', "tw-", $twitterRaw);
 
-    print "<br>" . $file . " - " . $tag . "<br>twitterRaw: " . $twitterRaw . "<br>twitterRaw2: " . $twitterRaw2;
+//    print "<br>" . $file . " - " . $tag . "<br>twitterRaw: " . $twitterRaw . "<br>twitterRaw2: " . $twitterRaw2;
 
     $twitterRaw3 = $twitterRaw2;
 
-    if (preg_match('/^tw-/', $twitterRaw2) ){
+    if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate twitter link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
-    }  elseif (preg_match('/^sb-/', $twitterRaw2) ){
+    } 
+    elseif (preg_match('/^sb-/', $twitterRaw2) )  // calculate safebooru link
+    {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
       $twitterRaw3 = "<a href='https://safebooru.org/index.php?page=post&s=list&tags=" . $exploded[1] . "' target='_blank' title='" . $file . "'> safebooru: " . $exploded[1] . "</a>";

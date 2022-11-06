@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html >
 <head>
+<!--
+  save to ~git/vmcode/holden
+-->
+
   <meta charset="UTF-8">
   <title>masayume - HOLDEN - random viz browser (WiP)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
