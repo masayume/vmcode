@@ -24,7 +24,7 @@
       "class": ["player", "arcade", "videogame"],
       "mechanics": ["grid", "modular board", "abstract"],
       "theme": ["Asia"],
-      "img": "060.png",
+      "img": "020.png",
       "designer": "Dox Lucchin, Pedro Latro",
       "weight": "2.63", 
       "status": "prototype", 
@@ -109,7 +109,7 @@
       "class": ["player", "arcade", "cards", "videogame"],
       "mechanics": ["Hand Management"],
       "theme": ["THEME"],
-      "img": "002.png",
+      "img": "000.png",
       "designer": "DESIGNER",
       "weight": "1.36", 
       "year": 2010,
@@ -256,6 +256,24 @@
       "players": [1, 2, 3, 4],
       "length": 0,
       "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/defold",
+      "dir": "-"
+    },
+    "pico8": {
+      "name": "pico-8",
+      "number": "150",
+      "data_cat": "player",
+      "class": ["player", "tool", "game", "engine"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "150.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year-start": 2022,
+      "year": 2022,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
       "dir": "-"
     }
 
