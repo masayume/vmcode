@@ -2,11 +2,9 @@
 /*
 save to ~git/vmcode/holden
 */
-
+global $glob_res;
 
 $float = "";
-
-
 
 function page2($dir1, $dir2, $tag1, $tag2) {
 
@@ -22,15 +20,28 @@ function page2($dir1, $dir2, $tag1, $tag2) {
 
 } // end function page2
 
+function count_assets($dir, $tag) {
+
+  $dir_fullpath   = '/var/www/html' . $dir; 
+  
+  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp}", GLOB_BRACE);
+
+  return count($files);
+
+}
 
 
 function pagenewtemp($dir, $tag) {
 
   global $float; 
+  global $glob_res;
+
   $dir_fullpath   = '/var/www/html' . $dir; 
   
   $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp}", GLOB_BRACE);
   
+  $glob_res[$tag] = count($files);
+
   $imgnum = rand(1, count($files));
   
     $file = preg_replace('/^\/var\/www\/html/', "", $files[$imgnum]);
@@ -45,24 +56,24 @@ function pagenewtemp($dir, $tag) {
 
     if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate twitter link
       $exploded = explode('-', $twitterRaw2);
-      $twitterRaw3 = "<a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+      $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
     elseif (preg_match('/^sb-/', $twitterRaw2) )  // calculate safebooru link
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
-      $twitterRaw3 = "<a href='https://safebooru.org/index.php?page=post&s=list&tags=" . $exploded[1] . "' target='_blank' title='" . $file . "'> safebooru: " . $exploded[1] . "</a>";
+      $twitterRaw3 = "<b>safebooru:</b> <a href='https://safebooru.org/index.php?page=post&s=list&tags=" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
 
     $template =<<<TEM
       <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'">
         <img src="$file" style="width: 100%;" title="$file">
           <br />
-          twitter: <b>$twitterRaw3</b>
+          <b>$twitterRaw3</b>
           <br />
           <small><small>$file</small></small>
       </div>
-  TEM;
+TEM;
   
     $html_elements .= $template;
       

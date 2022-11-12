@@ -30,14 +30,10 @@
 
 TO DO: 
 
-
 -->
 
 <body>
 
-    <div class="main">
-
-<div class="grid">
 <?php
 
 $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/' 
@@ -207,21 +203,46 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
   } 
 }
 
+?>    
+
+<div class="main">
+
+<?php
+
+  $bytes    = random_bytes(20);
+  unset($_GET['rndhash']);
+  $link_url = "index.php?". http_build_query($_GET) . "&rndhash=" . bin2hex($bytes);
+
+?>
+
+<div class="float-left" style=" position: fixed; margin-top: 10px; top: 10px; transform: translateY(0px);">
+
+    <br clear="all" />
+    <h3>References</h3>
+    <div id="references">
+      <ul>
+        <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" >RELOAD</a>
+        <li>assets: <?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
+        <li><a href='refURL'>ref</a></li>
+      </ul>
+      
+    </div>
+    <br>
+
+</div>
+
+
+  <div class="grid">
+
+<?php
+
 echo $data;
 
 ?>
 </div>
 
-<br clear="all" />
-<h3>References</h3>
-<div id="references">
-  <ul>
-    <li><a href='refURL'>ref</a></li>
 
-  </ul>
 </div>
-
-    </div>
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89665-1"></script>
