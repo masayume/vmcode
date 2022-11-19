@@ -125,7 +125,8 @@ function video($dir) {
   $template =<<<TEM
       <div class="element-item $class ">
 
-	<video width="960" height="480" controls>
+<!--  <video width="960" height="480" controls> -->
+  <video  controls>
 	  <source src="$file" type="video/mp4">
 	  Your browser does not support the video tag.
 	</video>

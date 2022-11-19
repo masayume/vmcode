@@ -227,10 +227,10 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
 
 ?>
 
-<div class="float-left" style=" position: fixed; margin-top: 10px; top: 10px; transform: translateY(0px);">
+<div class="float-left" style=" position: fixed; margin-top: 10px; top: 10px; transform: translateY(0px); z-index: 1000;">
 
     <br clear="all" />
-    <h3>References</h3>
+    <h3>Refs</h3>
     <div id="references">
       <ul>
         <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" >RELOAD</a>
