@@ -157,6 +157,18 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/src-movies'
                   , '/inspire/@pixelart/'             // 109
 // 110
+                  , '/inspire/@characters/Asuka'
+                  , '/inspire/@characters/bayonetta'
+                  , '/inspire/@characters/chun li'
+                  , '/inspire/@characters/Lamu'
+                  , '/inspire/@characters/MIKU'
+                  , '/inspire/@characters/Misato'
+                  , '/inspire/@characters/Mona'
+                  , '/inspire/@characters/morrigan'
+                  , '/inspire/@characters/quorra'
+                  , '/inspire/@characters/motoko'    // 119
+// 120
+                  , '/inspire/@characters/'         
 
                 );
 
