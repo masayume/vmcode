@@ -38,7 +38,7 @@ function pagenewtemp($dir, $tag) {
 
   $dir_fullpath   = '/var/www/html' . $dir; 
   
-  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp}", GLOB_BRACE);
+  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp,mp4}", GLOB_BRACE);
   
   $glob_res[$tag] = count($files);
 
@@ -65,9 +65,27 @@ function pagenewtemp($dir, $tag) {
       $twitterRaw3 = "<b>safebooru:</b> <a href='https://safebooru.org/index.php?page=post&s=list&tags=" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
 
+
+    $embed_asset = "<img src=\"$file\" style=\"width: 100%;\" title=\"$file\">";
+
+    if (preg_match('/.mp4$/', $file)) {
+      $embed_asset = "
+        <div class=\"embed-responsive embed-responsive-16by9\">
+          <div style=\"float: left; padding-right: 5px;\">
+          <video style=\"vertical-align:middle\" vspace=\"5\" hspace=\"5\" align=\"left\" alt=\"$file\" controls autoplay >
+            <source src=\"$file\" type=\"video/mp4\">
+            $file
+          </video>
+          </div>
+        </div>
+      ";
+    }
+
+
     $template =<<<TEM
       <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'">
-        <img src="$file" style="width: 100%;" title="$file">
+          $embed_asset
+          <!-- <img src="$file" style="width: 100%;" title="$file"> -->
           <br />
           <b>$twitterRaw3</b>
           <br />
@@ -87,7 +105,7 @@ function page($dir, $tag) {
   global $float; 
   $dir_fullpath   = '/var/www/html' . $dir; 
 
-  $files = glob("$dir_fullpath/*.{jpg,png,gif}", GLOB_BRACE);
+  $files = glob("$dir_fullpath/*.{jpg,png,gif,webp,mp4}", GLOB_BRACE);
 
   $imgnum = rand(1, count($files));
 

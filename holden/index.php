@@ -51,13 +51,13 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/brosgol'
                   , '/inspire/@MISC-STYLE'            // 12
                   , '/inspire/@CARTOONS/carroll'
-                  , '/inspire/@CARTOONS/cats'
-                  , '/inspire/@CARTOONS/chibi'
+                  , '/inspire/@COVERS/retrocovers'
+                  , '/inspire/@COVERS/ataricovers'
                   , '/inspire/@CARTOONS/@chibi'
                   , '/inspire/@CARTOONS/chibird'
                   , '/inspire/@CARTOONS/chichoni'
-                  , '/inspire/@CARTOONS/chun'
-                  , '/inspire/@CARTOONS/ciia'         // 19
+                  , '/inspire/@pixelart/VIDEO'        // 19
+                  , '/inspire/@CARTOONS/ciia'         
 // 20                  
                   , '/inspire/@CARTOONS/@classic-comic-panels'
                   , '/inspire/@CARTOONS/Craig'
