@@ -65,6 +65,24 @@
         <li> <a href="https://libraire.ai/" target="_blank"><b>libraire.ai</b></a> </li>
       </ul>
 
+    <h4>SOURCES</h4>
+      <ul>
+        <li> <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GeneratedImage</b></a> </li>
+        <li> <a href="https://twitter.com/OliverAltair/media" target="_blank"><b>OliverAltair</b></a> </li>
+        <li> <a href="https://twitter.com/frankenmizer/media" target="_blank"><b>frankenmizer</b></a> </li>
+        <li> <a href="https://twitter.com/hardmaru" target="_blank"><b>Hardmaru</b></a> 
+             <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
+        <li> <a href="https://twitter.com/DreamStudioAI" target="_blank"><b>DreamStudio</b></a> </li>
+        <li> <a href="https://twitter.com/KaliYuga_ai" target="_blank"><b>KaliYuga</b></a> </li>
+      </ul>
+
+
+
+
+
+
+
+      
   </div>
 
   <div class="_exa">
