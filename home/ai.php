@@ -50,7 +50,7 @@
     <h4>AI models page</h4>
       <ul>
         <li> <a href="pixelart.htm" target="_blank"><b>PIXELART page</b></a> </li>
-        <li> <a href="tools.htm" target="_blank"><b>TOOLS page</b></a> </li>
+        <li> <a href="tools.php" target="_blank"><b>TOOLS page</b></a> </li>
         <li> <a href="unity.htm" target="_blank"><b>UNITY page</b></a> </li>
         <li> <a href="inspire.htm" target="_blank"><b>INSPIRE page</b></a> </li>
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
@@ -74,6 +74,7 @@
              <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
         <li> <a href="https://twitter.com/DreamStudioAI" target="_blank"><b>DreamStudio</b></a> </li>
         <li> <a href="https://twitter.com/KaliYuga_ai" target="_blank"><b>KaliYuga</b></a> </li>
+        <li> <a href="https://twitter.com/8co28/media" target="_blank"><b>852話</b></a> </li>
       </ul>
 
 

@@ -265,7 +265,9 @@
     <li><a href="https://www.aiva.ai/"><b>AIVA AI ★</b></a>
         <a href="https://www.masayume.it/blog/content/aiva-ai-assisted-music-composing"><b>my</b></a></li>
     <li><a href="https://www.masayume.it/blog9/web/content/famistudio/">famistudio ★</a></li>
+    <li><a href="https://telesplit.com/"><b>telesplit ★</b></a> <a href="https://www.masayume.it/blog9/web/content/telesplit"><b>my</b></a></li>
     <li><a href="http://everynoise.com/">everysound ★</a></li>
+    <li><a href="https://www.zophar.net/music"><b>zophar.net ★★</b></a></li>
     <li><a href="/demon/OSS/oss.php">OSS ★</a>, 
         <a href="https://incompetech.com/music">incompetech</a></li>
     <li><a href="https://openai.com/blog/musenet/#try">musenet ★</a></li>
@@ -289,10 +291,10 @@
     <li><a href="https://freepd.com">freepd</a>
         <a href="https://imslp.org/wiki/Main_Page">imslp</a>
         <a href="https://www.cpdl.org/wiki/index.php/Main_Page">cpdl</a></li>
-    <li><a href="https://ccmixter.org">ccmixter</a></li>
+    <li><a href="https://ccmixter.org">ccmixter</a>
+        <a href="https://www.youtube.com/c/audiolibrary-channel/videos">youtube</a></li>
     <li><a href="https://www.freemusicpublicdomain.com/">freemusic PD</a></li>
     <li><a href="https://www.freesoundtrackmusic.com/">free ST music</a></li>
-    <li><a href="https://www.youtube.com/c/audiolibrary-channel/videos">youtube</a></li>
     <li><a href="https://publicdomain4u.com/music/">publicdomain4u</a></li>
     <li><a href="https://www.vitling.xyz/toys/autotracker/"><b>Autotracker ★</b></a></li>
         </ul>
