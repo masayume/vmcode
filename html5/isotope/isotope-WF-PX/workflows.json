@@ -280,6 +280,24 @@
       "url": "https://github.com/masayume/DigitalGarden/tree/main/2dgraphics/aseprite",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0017": {
+      "name": "MRMO-stitch",
+      "number": "17",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "tools"],
+      "theme": ["game"],
+      "img": "wfpx017.png",
+      "author": "",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2022,
+      "players": [1],
+      "length": 150,
+      "url": "https://github.com/masayume/DigitalGarden/tree/main/2dgraphics/aseprite",
+      "url_WF": "pages/001-pixatool.htm#Workflow04",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
