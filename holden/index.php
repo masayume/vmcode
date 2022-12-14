@@ -236,6 +236,11 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
         <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" >RELOAD</a>
         <li>assets: <?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
         <li><a href='refURL'>ref</a></li>
+        <!--
+          <pre>
+            <?php // system(' cd /home/masayume/inspire/@pixelart/ ; du -a | cut -d/ -f2 | sort | uniq -c | sort -nr | head -25 ')?> 
+          </pre>
+        -->
       </ul>
       
     </div>

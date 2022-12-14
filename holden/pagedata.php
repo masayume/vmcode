@@ -81,7 +81,11 @@ function pagenewtemp($dir, $tag) {
       ";
     }
 
-
+    $file2check = '/home/masayume' . $file; 
+    $filedate   = $file2check; // "no data"; 
+    if (file_exists($file2check)) {
+      $filedate = date('F d Y h:i A', filemtime($file2check) );
+    }
     $template =<<<TEM
       <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'">
           $embed_asset
@@ -90,6 +94,9 @@ function pagenewtemp($dir, $tag) {
           <b>$twitterRaw3</b>
           <br />
           <small><small>$file</small></small>
+          <br />
+          <small><small>downloaded: $filedate</small></small>
+
       </div>
 TEM;
   
