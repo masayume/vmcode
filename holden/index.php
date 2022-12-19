@@ -154,7 +154,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/TECH'
                   , '/inspire/@pixelart/TILES'
                   , '/inspire/@pixelart/workflow'
-                  , '/inspire/@pixelart/src-movies'
+                  , '/inspire/@pixelart/RETRO'
                   , '/inspire/@pixelart/'             // 109
 // 110
                   , '/inspire/@characters/Asuka'
