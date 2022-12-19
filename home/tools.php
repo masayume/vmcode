@@ -271,7 +271,8 @@
     <li><a href="/demon/OSS/oss.php">OSS ★</a>, 
         <a href="https://incompetech.com/music">incompetech</a></li>
     <li><a href="https://openai.com/blog/musenet/#try">musenet ★</a></li>
-    <li><a href="https://musescore.com/user/2891181/sheetmusic">musescore ★</a></li>
+    <li><a href="https://musescore.com/user/2891181/sheetmusic"><b>musescore ★</b></a></li>
+    <li><a href="https://onlinesequencer.net/"><b>online sequencer ★</b></a></li>
     <li><a href="https://www.noteflight.com/home">noteflight ★</a></li>
     <li><a href="https://boscaceoil.net/linux-info.html">BoscaCeoil</a>,
         <a href="tenori-off.glitch.me">TenoriOff</a></li>
