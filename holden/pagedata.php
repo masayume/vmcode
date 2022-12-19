@@ -14,7 +14,7 @@ function page2($dir1, $dir2, $tag1, $tag2) {
   $float = "float: right; ";
   $template2 = pagenewtemp($dir2, $tag2);
 
-  $html_elements .= "<div class=\"container\"><div class=\"row\">" . "\n\n" . $template1 . "\n\n" . $template2 . "\n\n" . "</div>";
+  $html_elements .= "<div class=\"container\" style=\"max-width: 90%\"><div class=\"row\">" . "\n\n" . $template1 . "\n\n" . $template2 . "\n\n" . "</div>";
     
   return $html_elements;
 
