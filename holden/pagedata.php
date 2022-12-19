@@ -54,10 +54,17 @@ function pagenewtemp($dir, $tag) {
 
     $twitterRaw3 = $twitterRaw2;
 
+    //    VaporwaveAesthetics
     if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate twitter link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^re-/', $twitterRaw2) )  // calculate reddit link
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ;
+      $twitterRaw3 = "<b>reddit:</b> <a href='https://reddit.com/r/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+    }
     elseif (preg_match('/^sb-/', $twitterRaw2) )  // calculate safebooru link
     {    
       $exploded = explode('-', $twitterRaw2);
