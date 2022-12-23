@@ -298,6 +298,24 @@
       "url_WF": "pages/001-pixatool.htm#Workflow04",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0018": {
+      "name": "CleanEdge",
+      "number": "18",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "tools"],
+      "theme": ["game"],
+      "img": "wfpx018.jpg",
+      "author": "",
+      "rating": 3, 
+      "weight": 3, 
+      "year": 2022,
+      "players": [1],
+      "length": 150,
+      "url": "/html5/CleanEdge/",
+      "url_WF": "pages/001-pixatool.htm#Workflow01",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
