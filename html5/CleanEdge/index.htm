@@ -1,0 +1,1485 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" type="text/css" href="../reset.css"></style>
+    <script src="./twgl-full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+
+    <meta property="og:title" content="cleanEdge" />
+    <meta property="twitter:title" content="cleanEdge" />
+    <meta property="og:description" content="a pixel art upscaling algorithm for clean rotations">
+    <meta property="twitter:description" content="a pixel art upscaling algorithm for clean rotations">
+    <meta name="description" content="a pixel art upscaling algorithm for clean rotations">
+    <meta name="theme-color" content="#209DFF">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Lexend:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>cleanEdge</title>
+</head>
+<style>
+    body {
+        background-color: #333;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 100px 100px 100px;
+        position: relative;
+    }
+
+    .header {
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header .title {
+        font-size: 38px;
+        margin-bottom: 8px;
+        font-family: 'Lexend', sans-serif;
+        font-weight: 500;
+    }
+
+    .header .desc {
+        font-size: 18px;
+        font-style: oblique;
+        font-family: 'Lexend', sans-serif;
+        font-weight: 300;
+    }
+
+
+    #main {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-bottom: 50px;
+        justify-content: center;
+        user-select: none;
+    }
+
+    .uploadContainer {
+        position: absolute;
+        left: -530px;
+        right: 0;
+        margin: auto;
+        top: -60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .uploadContainer .button {
+        padding: 8px;
+        font-size: 16px;
+        width: unset;
+        
+        margin-bottom: 4px;
+        box-shadow: 0 6px #bcc0cd;
+    }
+    .uploadContainer .button:active {
+        margin-top: 4px;
+        margin-bottom: 0;
+        box-shadow: 0 2px #bcc0cd;
+    }
+    .uploadContainer .desc {
+        font-size: 14px;
+        margin-top: 4px;
+        color: white;
+    }
+    #uploadInput {
+        display: none;
+    }
+    
+    .rotateContainer {
+        position: relative;
+        border: 4px solid white;
+        border-radius: 10px;
+        /* flex: 1; */
+        margin-right: -20px;
+        margin-bottom: -20px;
+        /* z-index: 1; */
+        background-color: #333;
+        box-shadow: inset 0 0 30px black;
+    }
+
+    .controls {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    #dropArea {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        touch-action: none;
+    }
+    #dropArea.hover {
+        background-color: rgba(41, 173, 250, 0.5);
+    }
+
+    #canvasContainer {
+        width: 416px;
+        height: 416px;
+        position: relative;
+        overflow: hidden;
+        filter: drop-shadow(0 3px 8px #000000d3);
+        border-radius: 8px;
+    }
+    #main, #canvasContainer {
+        transition: all 0.2s cubic-bezier(0,0.3,0,1);
+    }
+    
+    #rotate {
+        /* width: 400px; */
+        /* height: 400px; */
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        /* filter: drop-shadow(0 1.5px 2px #000000d3); */
+    }
+    .rotate #rotate {
+        transform: scale(4);
+        image-rendering: pixelated;
+    }
+
+    #options {
+        flex: 1;
+        flex-basis: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        /* min-width: 40px; */
+        /* min-height: 40px; */
+        max-width: 100%;
+        max-height: 100%;
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+        margin-bottom: -20px;
+        margin-right: -20px;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 6px;
+    }
+
+    .option {
+        min-width: 100px;
+        min-height: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 8px;
+        background-color: #e1e4f1;
+        float: left;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: inset 0 0 17px #1c1d2442;
+        position: relative;
+    }
+    .scale .option[mode="rotate"] {
+        display: none;
+    }
+    .rotate .option[mode="scale"] {
+        display: none;
+    }
+    .option input {
+        margin: 8px;
+    }
+    .option input[type="number"], .option input[type="text"] {
+        all: unset;
+        width: 50px;
+        height: 24px;
+        background-color: white;
+        border-radius: 3px;
+        padding: 2px 8px;
+        margin: 8px 28px;
+        text-align: center;
+        box-shadow: 0 3px 8px #1c1d2442;
+    }
+    .option input[type="range"] {
+        margin-top: 0;
+    }
+
+    .option .desc {
+        text-align: center;
+    }
+
+    .option .desc2 {
+        color: #333;
+        font-size: 12px;
+    }
+
+    .resetContainer {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reset {
+        width: 24px;
+        height: 24px;
+        background: url(reset.svg) center no-repeat;
+        opacity: 0.7;
+        cursor: pointer;
+        margin-bottom: -34px;
+        margin-left: -98px;
+        margin-top: 10px;
+    }
+    .reset:active {
+        opacity: 1.0;
+    }
+
+    .reset.equal {
+        margin-left: 0;
+        margin-right: -98px;
+        background: url(equal.svg) center no-repeat;
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 52px;
+        height: 28px;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        transition: all 0.3s;
+        margin: 8px;
+        box-shadow: 0 3px 8px #1c1d2442;
+    }
+    .switch::after {
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius:50%;
+        background-color: white;
+        top: 5px;
+        left: 5px;
+        transition: all 0.3s;
+    }
+
+    .checkbox:checked + .switch::after {
+        left : 28px;
+    }
+    .checkbox:checked + .switch {
+        background-color: rgb(32 157 255);
+    }
+    .checkbox {
+        display : none;
+    }
+
+    #colorPickerContainer {
+        display: none;
+        position: absolute;
+        width: 0;
+        height: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+    #colorPickerContainer.active {
+        display: flex;
+    }
+    #colorPicker {
+        z-index: 400;
+        background-color: #00000052;
+        padding: 16px;
+        border-radius: 30px;
+        backdrop-filter: blur(2px);
+        /* flex: 0 0 312px; */
+        position: relative;
+        top: 28px;
+        box-shadow: 0 4px 7px 4px #00000094;
+    }
+    #colorPicker:before {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #3a3a3d;
+    }
+    .colorContainer {
+        width: 34px;
+        height: 34px;
+        background-color: white;
+        border-radius: 500px;
+        margin: 8px;
+        overflow: hidden;
+        border: 4px solid white;
+        cursor: pointer;
+        box-shadow: 0 3px 8px #1c1d2442;
+    }
+
+    .button {
+        padding: 20px;
+        background-color: white;
+        color: #333;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 10px;
+        box-shadow: 0 12px #bcc0cd;
+        user-select: none;
+        cursor: pointer;
+        margin-bottom: 8px;
+        transition: all 0.1s cubic-bezier(0,0.3,0,1);
+        text-align: center;
+    }
+    .button:active {
+        margin-top: 8px;
+        margin-bottom: 0;
+        box-shadow: 0 4px #bcc0cd;
+    }
+
+    .modeContainer {
+        padding: 16px;
+        padding-bottom: 36px;
+        margin-bottom: -20px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .modeContainer .title {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    #modeSwitch {
+        display: flex;
+        align-items: center;
+        position: relative;
+        border-radius: 8px;
+        background-color: #c1cee3;
+        font-size: 20px;
+        user-select: none;
+        box-shadow: inset 0 0 17px #1c1d2442;
+        z-index: 2;
+    }
+    #modeSwitch .slider {
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        background-color: rgb(32 157 255);
+        border-radius: 8px;
+        bottom: 4px;
+        box-shadow: 0 4px rgb(5 121 213);
+        overflow: hidden;
+        left: 0;
+        transition: left 0.1s ease-out,  top 0.1s ease-out;
+    }
+    #modeSwitch.right .slider {
+        left: 100px;
+    }
+    #modeSwitch .mode {
+        width: 100px;
+        height: 40px;
+        line-height: 37px;
+        cursor: pointer;
+        color: #555;
+        top: 0;
+    }
+    #modeSwitch .slider .mode {
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        line-height: 37px;
+        cursor: pointer;
+        color: white;
+        transition: left 0.1s ease-out, top 0.1s ease-out;
+        left: 0px;
+        top: 0;
+    }
+    #modeSwitch .slider .mode:nth-child(2) {
+        left: 100px;
+        top: 5px;
+    }
+    #modeSwitch.right .slider .mode:nth-child(1) {
+       left: -100px;
+       top: 5px;
+    }
+    #modeSwitch.right .slider .mode:nth-child(2) {
+       left: 0px;
+       top: 0;
+    }
+
+    .exampleContainer {
+        position: absolute;
+        left: -80px;
+        top: -4px;
+        width: 200px;
+        /* background-color: white; */
+        border-radius: 12px;
+        text-align: center;
+        padding: 10px;
+        padding-right: 130px;
+        box-sizing: border-box;
+    }
+    .exampleContainer:before {
+        content: '';
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 12px;
+        z-index: -1;
+    }
+    /* .exampleContainer {
+        position: absolute;
+        left: 0;
+        right: -530px;
+        margin: auto;
+        top: -60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .examples {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .examples .example {
+        width: 36px;
+        height: 36px;
+        background-color: rgb(201 216 227);
+        box-shadow: 0 4px rgb(164 179 191);
+        border-radius: 6px;
+        margin: 6px;
+        margin-top: 8px;
+        cursor: pointer;
+        transition: all 0.1s cubic-bezier(0,0.3,0,1);
+        line-height: 36px;
+        color: #333;
+    }
+    .examples .example:active {
+        margin-top: 10px;
+        margin-bottom: 4px;
+        box-shadow: 0 2px rgb(164 179 191);
+    }
+
+    strong {
+        font-weight: 600;
+    }
+
+    .info {
+        margin-top: 70px;
+        color: white;
+        font-size: 20px;
+        max-width: 800px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    ul {
+
+    }
+    li strong {
+        font-size: 20px;
+    }
+    li {
+        margin: 12px 0 12px 20px;
+        font-size: 18px;
+    }
+
+    a {
+        color: rgb(68, 174, 255);
+    }
+</style>
+<body>
+    <div id="colorPickerContainer">
+        <div id="colorPicker"></div>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="title">cleanEdge</div>
+            <div class="desc">a pixel art upscaling algorithm for clean rotations</div>
+        </div>
+        <div class="modeContainer">
+            <div class="title">mode:</div>
+            <div id="modeSwitch">
+                <div class="slider">
+                    <div class="mode">rotation</div>
+                    <div class="mode">scaling</div>
+                </div>
+                <div class="mode">rotation</div>
+                <div class="mode">scaling</div>
+            </div>
+        </div>
+        <div id="main" class="rotate">
+            <div class="uploadContainer">
+                <div id="upload" class="button">upload image</div>
+                <input type="file" id="uploadInput">
+                <div class="desc">(or drop/paste a file below!)</div>
+            </div>
+            <div class="rotateContainer">
+                <div class="exampleContainer">
+                    <div class="title">example images</div>
+                    <div class="examples">
+                        <div class="example" onclick="loadImage('example/ferret.png')">1</div>
+                        <div class="example" onclick="loadImage('example/bird.png')">2</div>
+                        <div class="example" onclick="loadImage('example/largebird.png')">3</div>
+                        <div class="example" onclick="loadImage('example/sonic.png')">4</div>
+                        <div class="example" onclick="loadImage('example/lines.png')">5</div>
+                        <div class="example" onclick="loadImage('example/test.png')">6</div>
+                    </div>
+                </div>
+                <div id="dropArea"></div>
+                <div class="controls"></div>
+                <div id="canvasContainer">
+                    <canvas id="rotate"></canvas>
+                </div>
+            </div>
+            <div id="options">
+                
+                <div class="option" name="angle" mode="rotate">
+                    <div class="desc">angle</div>
+                    <div class="reset" onclick="angle = 0; updateAngle()"></div>
+                    <input type="text" class="display" value="0">
+                </div>
+                <div class="option" name="scale" mode="scale">
+                    <div class="desc">scale</div>
+                    <div class="reset" onclick="zoomStage = 2; updateZoom()"></div>
+                    <input type="text" class="display" value="4">
+                </div>
+                
+                <div class="option" name="enable">
+                    <div class="desc">toggle</div>
+                    <!-- <input type="checkbox"> -->
+                    <input type="checkbox" class="checkbox" id="toggle" checked oninput="this.nextElementSibling.nextElementSibling.textContent = this.checked ? '(cleanEdge)' : '(basic rotation)'"/>  
+                    <label for="toggle" class="switch"></label>
+                    <div class="desc2">(cleanEdge)</div>
+                </div>
+
+                <div class="option" name="slope" mode="scale">
+                    <div class="desc">slopes</div>
+                    <input type="checkbox" class="checkbox" id="slope" checked/>  
+                    <label for="slope" class="switch"></label>
+                </div>
+                <div class="option" name="highestColor">
+                    <div class="desc">highest color</div>
+                    <div class="colorContainer"><div type="color" class="control"></div></div>
+                </div>
+                <!-- <div class="option" name="similarThreshold">
+                    <div class="desc">similar color<br/>threshold</div>
+                    <input type="text" class="display" value="1" oninput="if(parseFloat(this.value) >= 0) this.nextElementSibling.value = parseFloat(this.value)">
+                    <input type="range" min="0" max="3" step="0.01" oninput="this.previousElementSibling.value = this.value">
+                </div> -->
+                <div class="option" name="lineWidth">
+                    <div class="desc">line width</div>
+                    <div class="reset equal" title="reset to diagonal" onclick="lineWidthInput.value = lineWidthRange.value = 0.707"></div>
+                    <div class="reset" title="reset" onclick="lineWidthInput.value = lineWidthRange.value = 1"></div>
+                    <input id="lineWidthInput" type="text" class="display" value="1" oninput="if(parseFloat(this.value) >= 0) this.nextElementSibling.value = parseFloat(this.value)">
+                    <input id="lineWidthRange" type="range" min="0" max="2" step="0.01" oninput="this.previousElementSibling.value = this.value">
+                </div>
+            </div>
+        </div>
+        <div id="dnld" class="button">download rotated</div>
+        <div class="info">
+            <strong>cleanEdge</strong> is a pixel art upscaling algorithm designed for rotating sprites. Its goal is to improve the jumbled pixels and broken lines and edges that result from basic nearest neighbor rotation.
+            The way this works is by upscaling the art in a way that prioritizes those lines and edges.
+            <br>
+            While cleanEdge is designed primarily for sprite rotations, I've taken care to ensure the results when scaling also look nice. You can switch between these two results at the top.
+            <br>
+            <br>
+            Click and drag or scroll on the frame to rotate/scale the image, or enter the values manually.
+            <br>
+            Tips: Hold Shift while scrolling to make fine adjustments. Use middle-click to pan the image in scaling mode.
+            <br>
+            <br>
+            <strong>option descriptions:</strong>
+            <ul>
+                <li>
+                    <strong>toggle:</strong> enables/disables the algorithm to compare results to basic nearest neighbor rotation/scaling.
+                </li>
+                <li>
+                    <strong>highest color:</strong> the color used in overlap priority calculations. E.g. if highest color is pure white, brighter colors (those closer to white) will overlap darker colors when applicable.
+                    <br>
+                    If your art has outlines, matching this setting to that color usually provides better results.
+                </li>
+                <li>
+                    <strong>line width:</strong> how far each pixel's color will spread into its neighbors, where applicable. A value of ≈ 0.707 will make slopes line up along the diagonal (effectively cancelling out the influence of highest color)
+                </li>
+                <li>
+                    <strong>slopes:</strong> in scale mode, toggles 2:1 grade slopes between pixels. If disabled, only 45 degree angles will be used.
+                    (this is always enabled in rotation mode)
+                </li>
+            </ul>
+            <br>
+            This version of cleanEdge is in the form of a shader, <a href="https://gist.github.com/torcado194/e2794f5a4b22049ac0a41f972d14c329">you can find the source code here!</a>
+            <br>
+            It's MIT licensed, feel free to use it for any of your projects :) (credit is appreciated! but not required)
+            <br>
+            And if you do use it, I'd love to see it! Feel free to <a href="https://twitter.com/torcado">ping me on twitter</a>)
+            <br>
+            <br>
+            ❤ - torcado
+        </div>
+    </div>
+</body>
+<script id="vs" type="x-shader/vertex">
+    #version 300 es
+    precision highp float;
+    uniform mat4 u_worldViewProjection;
+
+    in vec4 position;
+    in vec2 a_texcoord;
+    out vec2 v_texCoord;
+    void main() {
+        v_texCoord = a_texcoord;
+        gl_Position = u_worldViewProjection * position;
+    }
+</script>
+<script id="fs" type="x-shader/fragment" >
+    #version 300 es
+
+    precision highp float;
+    uniform vec2 iResolution;
+    uniform sampler2D iChannel0;
+    
+    //enables 2:1 slopes. otherwise only uses 45 degree slopes
+    //#define SLOPE 
+    uniform bool SLOPE;
+    //cleans up small detail slope transitions (if SLOPE is enabled)
+    #define CLEANUP
+    
+    //the color with the highest priority.
+    // other colors will be tested based on distance to this
+    // color to determine which colors take priority for overlaps.
+    uniform vec3 highestColor;// = vec3(1.,1.,1.);
+    
+    //how close two colors should be to be considered "similar".
+    // can group shapes of visually similar colors, but creates
+    // some artifacting and should be kept as low as possible.
+    uniform float similarThreshold;// = 0.0;
+    
+    uniform float lineWidth;// = 1.0;
+    
+    const float scale = 4.0;
+    
+    
+    bool similar(vec4 col1, vec4 col2){
+        return (col1.a == 0. && col2.a == 0.) || distance(col1, col2) <= similarThreshold;
+    }
+    
+    //multiple versions because godot doesn't support function overloading
+    //note: inner check should ideally check between all permutations
+    //  but this is good enough, and faster
+    bool similar3(vec4 col1, vec4 col2, vec4 col3){
+        return similar(col1, col2) && similar(col2, col3);
+    }
+    
+    bool similar4(vec4 col1, vec4 col2, vec4 col3, vec4 col4){
+        return similar(col1, col2) && similar(col2, col3) && similar(col3, col4);
+    }
+    
+    bool similar5(vec4 col1, vec4 col2, vec4 col3, vec4 col4, vec4 col5){
+        return similar(col1, col2) && similar(col2, col3) && similar(col3, col4) && similar(col4, col5);
+    }
+    
+    bool higher(vec4 thisCol, vec4 otherCol){
+        if(similar(thisCol, otherCol)) return false;
+        if(thisCol.a == otherCol.a){
+            return distance(thisCol.rgb, highestColor) < distance(otherCol.rgb, highestColor);
+        } else {
+            return thisCol.a > otherCol.a;
+        }
+    }
+    
+    vec4 higherCol(vec4 thisCol, vec4 otherCol){
+        return higher(thisCol, otherCol) ? thisCol : otherCol;
+    }
+    
+    //color distance
+    float cd(vec4 col1, vec4 col2){
+        return distance(col1.rgba, col2.rgba);
+    }
+    
+    float distToLine(vec2 testPt, vec2 pt1, vec2 pt2, vec2 dir){
+      vec2 lineDir = pt2 - pt1;
+      vec2 perpDir = vec2(lineDir.y, -lineDir.x);
+      vec2 dirToPt1 = pt1 - testPt;
+    //  return (dot(normalize(perpDir), dirToPt1));
+      return (dot(perpDir, dir) > 0.0 ? 1.0 : -1.0) * (dot(normalize(perpDir), dirToPt1));
+    }
+    
+    //based on down-forward direction
+    vec4 sliceDist(vec2 point, vec2 mainDir, vec2 pointDir, vec4 u, vec4 uf, vec4 uff, vec4 b, vec4 c, vec4 f, vec4 ff, vec4 db, vec4 d, vec4 df, vec4 dff, vec4 ddb, vec4 dd, vec4 ddf){
+        float minWidth = 0.0;
+        float maxWidth = 1.4;
+        if(SLOPE){
+            minWidth = 0.44;
+            maxWidth = 1.142;
+        }
+        float _lineWidth = max(minWidth, min(maxWidth, lineWidth));
+        point = mainDir * (point - 0.5) + 0.5; //flip point
+        
+        //edge detection
+        float distAgainst = 4.0*cd(f,d) + cd(uf,c) + cd(c,db) + cd(ff,df) + cd(df,dd);
+		float distTowards = 4.0*cd(c,df) + cd(u,f) + cd(f,dff) + cd(b,d) + cd(d,ddf);
+		bool shouldSlice = 
+			(distAgainst < distTowards)
+			|| (distAgainst < distTowards + 0.001) && !higher(c, f); //equivalent edges edge case
+		if(similar4(f, d, b, u) && similar3(uf, df, db/*, ub*/) && !similar(c, f)){ //checkerboard edge case
+			shouldSlice = false;
+		}
+        if(!shouldSlice) return vec4(-1.0);
+        
+        //only applicable for very large lineWidth (>1.3)
+    //	if(similar3(c, f, df)){ //don't make slice for same color
+    //		return vec4(-1.0);
+    //	}
+        float dist = 1.0;
+        bool flip = false;
+        vec2 center = vec2(0.5,0.5);
+        
+        
+        if(SLOPE && similar3(f, d, db) && !similar3(f, d, b) && !similar(uf, db)){ //lower shallow 2:1 slant
+            if(similar(c, df) && higher(c, f)){ //single pixel wide diagonal, dont flip
+                
+            } else {
+                //priority edge cases
+                if(higher(c, f)){
+                    flip = true; 
+                }
+                if(similar(u, f) && !similar(c, df) && !higher(c, u)){
+                    flip = true; 
+                }
+            }
+            
+            if(flip){
+                dist = _lineWidth-distToLine(point, center+vec2(1.5, -1.0)*pointDir, center+vec2(-0.5, 0.0)*pointDir, -pointDir); //midpoints of neighbor two-pixel groupings
+            } else {
+                dist = distToLine(point, center+vec2(1.5, 0.0)*pointDir, center+vec2(-0.5, 1.0)*pointDir, pointDir); //midpoints of neighbor two-pixel groupings
+            }
+            
+            //cleanup slant transitions
+            #ifdef CLEANUP
+            if(!flip && similar(c, uf) && !(similar3(c, uf, uff) && !similar3(c, uf, ff) && !similar(d, uff))){ //shallow
+                float dist2 = distToLine(point, center+vec2(2.0, -1.0)*pointDir, center+vec2(-0.0, 1.0)*pointDir, pointDir); 
+                dist = min(dist, dist2);
+            }
+            #endif
+            
+            dist -= (_lineWidth/2.0);
+            return dist <= 0.0 ? ((cd(c,f) <= cd(c,d)) ? f : d) : vec4(-1.0);
+        } else if(SLOPE && similar3(uf, f, d) && !similar3(u, f, d) && !similar(uf, db)){ //forward steep 2:1 slant
+            if(similar(c, df) && higher(c, d)){ //single pixel wide diagonal, dont flip
+                
+            } else {
+                //priority edge cases
+                if(higher(c, d)){ 
+                    flip = true; 
+                }
+                if(similar(b, d) && !similar(c, df) && !higher(c, d)){
+                    flip = true; 
+                }
+            }
+            
+            if(flip){
+                dist = _lineWidth-distToLine(point, center+vec2(0.0, -0.5)*pointDir, center+vec2(-1.0, 1.5)*pointDir, -pointDir); //midpoints of neighbor two-pixel groupings
+            } else {
+                dist = distToLine(point, center+vec2(1.0, -0.5)*pointDir, center+vec2(0.0, 1.5)*pointDir, pointDir); //midpoints of neighbor two-pixel groupings
+            }
+            
+            //cleanup slant transitions
+            #ifdef CLEANUP
+            if(!flip && similar(c, db) && !(similar3(c, db, ddb) && !similar3(c, db, dd) && !similar(f, ddb))){ //steep
+                float dist2 = distToLine(point, center+vec2(1.0, 0.0)*pointDir, center+vec2(-1.0, 2.0)*pointDir, pointDir); 
+                dist = min(dist, dist2);
+            }
+            #endif
+            
+            dist -= (_lineWidth/2.0);
+            return dist <= 0.0 ? ((cd(c,f) <= cd(c,d)) ? f : d) : vec4(-1.0);
+        } else 
+        if(similar(f, d)) { //45 diagonal
+            if(similar(c, df) && higher(c, f)){ //single pixel diagonal along neighbors, dont flip
+                if(!similar(c, dd) && !similar(c, ff)){ //line against triple color stripe edge case
+                    flip = true; 
+                }
+            } else {
+                //priority edge cases
+                if(higher(c, f)){
+                    flip = true; 
+                }
+                if(!similar(c, b) && similar4(b, f, d, u)){
+                    flip = true;
+                }
+            }
+            //single pixel 2:1 slope, dont flip
+            if((( (similar(f, db) && similar3(u, f, df)) || (similar(uf, d) && similar3(b, d, df)) ) && !similar(c, df))){
+                flip = true;
+            } 
+            
+            if(flip){
+                dist = _lineWidth-distToLine(point, center+vec2(1.0, -1.0)*pointDir, center+vec2(-1.0, 1.0)*pointDir, -pointDir); //midpoints of own diagonal pixels
+            } else {
+                dist = distToLine(point, center+vec2(1.0, 0.0)*pointDir, center+vec2(0.0, 1.0)*pointDir, pointDir); //midpoints of corner neighbor pixels
+            }
+            
+            //cleanup slant transitions
+            if(SLOPE){
+                #ifdef CLEANUP
+                if(!flip && similar3(c, uf, uff) && !similar3(c, uf, ff) && !similar(d, uff)){ //shallow
+                    float dist2 = distToLine(point, center+vec2(1.5, 0.0)*pointDir, center+vec2(-0.5, 1.0)*pointDir, pointDir); 
+                    dist = max(dist, dist2);
+                } 
+                
+                if(!flip && similar3(ddb, db, c) && !similar3(dd, db, c) && !similar(ddb, f)){ //steep
+                    float dist2 = distToLine(point, center+vec2(1.0, -0.5)*pointDir, center+vec2(0.0, 1.5)*pointDir, pointDir); 
+                    dist = max(dist, dist2);
+                }
+                #endif
+            }
+            
+            dist -= (_lineWidth/2.0);
+            return dist <= 0.0 ? ((cd(c,f) <= cd(c,d)) ? f : d) : vec4(-1.0);
+        } 
+        else if(SLOPE && similar3(ff, df, d) && !similar3(ff, df, c) && !similar(uff, d)){ //far corner of shallow slant 
+            
+            if(similar(f, dff) && higher(f, ff)){ //single pixel wide diagonal, dont flip
+                
+            } else {
+                //priority edge cases
+                if(higher(f, ff)){ 
+                    flip = true; 
+                }
+                if(similar(uf, ff) && !similar(f, dff) && !higher(f, uf)){
+                    flip = true; 
+                }
+            }
+            if(flip){
+                dist = _lineWidth-distToLine(point, center+vec2(1.5+1.0, -1.0)*pointDir, center+vec2(-0.5+1.0, 0.0)*pointDir, -pointDir); //midpoints of neighbor two-pixel groupings
+            } else {
+                dist = distToLine(point, center+vec2(1.5+1.0, 0.0)*pointDir, center+vec2(-0.5+1.0, 1.0)*pointDir, pointDir); //midpoints of neighbor two-pixel groupings
+            }
+            
+            dist -= (_lineWidth/2.0);
+            return dist <= 0.0 ? ((cd(f,ff) <= cd(f,df)) ? ff : df) : vec4(-1.0);
+        } else if(SLOPE && similar3(f, df, dd) && !similar3(c, df, dd) && !similar(f, ddb)){ //far corner of steep slant
+            if(similar(d, ddf) && higher(d, dd)){ //single pixel wide diagonal, dont flip
+                
+            } else {
+                //priority edge cases
+                if(higher(d, dd)){ 
+                    flip = true; 
+                }
+                if(similar(db, dd) && !similar(d, ddf) && !higher(d, dd)){
+                    flip = true; 
+                }
+    //			if(!higher(d, dd)){
+    //				return vec4(1.0);
+    //				flip = true; 
+    //			}
+            }
+            
+            if(flip){
+                dist = _lineWidth-distToLine(point, center+vec2(0.0, -0.5+1.0)*pointDir, center+vec2(-1.0, 1.5+1.0)*pointDir, -pointDir); //midpoints of neighbor two-pixel groupings
+            } else {
+                dist = distToLine(point, center+vec2(1.0, -0.5+1.0)*pointDir, center+vec2(0.0, 1.5+1.0)*pointDir, pointDir); //midpoints of neighbor two-pixel groupings
+            }
+            dist -= (_lineWidth/2.0);
+            return dist <= 0.0 ? ((cd(d,df) <= cd(d,dd)) ? df : dd) : vec4(-1.0);
+        }
+        return vec4(-1.0);
+    }
+
+ 
+    // v ONLY FOR DEMO v //
+
+    uniform bool enable;
+    uniform bool scaling;
+    
+    // ^ ONLY FOR DEMO ^ //
+    
+    in vec2 v_texCoord;
+    out vec4 fragColor;
+    void main() {
+        vec2 fragCoord = gl_FragCoord.xy;
+        fragCoord = v_texCoord*iResolution.xy;
+
+        // v ONLY FOR DEMO v //
+        if(scaling) fragCoord += 0.0001;
+        // ^ ONLY FOR DEMO ^ //
+
+        vec2 size = iResolution.xy+0.5;
+        vec2 px = fragCoord.xy;
+        vec2 local = fract(px);
+        px = ceil(px);
+        
+        vec2 pointDir = round(local)*2.0-1.0;
+        
+        //neighbor pixels
+        //Up, Down, Forward, and Back
+        //relative to quadrant of current location within pixel
+        
+        vec4 uub = texture(iChannel0, (px+vec2(-1.0,-2.0)*pointDir)/size);
+        vec4 uu  = texture(iChannel0, (px+vec2( 0.0,-2.0)*pointDir)/size);
+        vec4 uuf = texture(iChannel0, (px+vec2( 1.0,-2.0)*pointDir)/size);
+        
+        vec4 ubb = texture(iChannel0, (px+vec2(-2.0,-2.0)*pointDir)/size);
+        vec4 ub  = texture(iChannel0, (px+vec2(-1.0,-1.0)*pointDir)/size);
+        vec4 u   = texture(iChannel0, (px+vec2( 0.0,-1.0)*pointDir)/size);
+        vec4 uf  = texture(iChannel0, (px+vec2( 1.0,-1.0)*pointDir)/size);
+        vec4 uff = texture(iChannel0, (px+vec2( 2.0,-1.0)*pointDir)/size);
+        
+        vec4 bb  = texture(iChannel0, (px+vec2(-2.0, 0.0)*pointDir)/size);
+        vec4 b   = texture(iChannel0, (px+vec2(-1.0, 0.0)*pointDir)/size);
+        vec4 c   = texture(iChannel0, (px+vec2( 0.0, 0.0)*pointDir)/size);
+        vec4 f   = texture(iChannel0, (px+vec2( 1.0, 0.0)*pointDir)/size);
+        vec4 ff  = texture(iChannel0, (px+vec2( 2.0, 0.0)*pointDir)/size);
+        
+        vec4 dbb = texture(iChannel0, (px+vec2(-2.0, 1.0)*pointDir)/size);
+        vec4 db  = texture(iChannel0, (px+vec2(-1.0, 1.0)*pointDir)/size);
+        vec4 d   = texture(iChannel0, (px+vec2( 0.0, 1.0)*pointDir)/size);
+        vec4 df  = texture(iChannel0, (px+vec2( 1.0, 1.0)*pointDir)/size);
+        vec4 dff = texture(iChannel0, (px+vec2( 2.0, 1.0)*pointDir)/size);
+        
+        vec4 ddb = texture(iChannel0, (px+vec2(-1.0, 2.0)*pointDir)/size);
+        vec4 dd  = texture(iChannel0, (px+vec2( 0.0, 2.0)*pointDir)/size);
+        vec4 ddf = texture(iChannel0, (px+vec2( 1.0, 2.0)*pointDir)/size);
+        
+        vec4 col = c;
+        
+        //c_orner, b_ack, and u_p slices
+        // (slices from neighbor pixels will only reach these 3 quadrants
+        vec4 c_col = sliceDist(local, vec2( 1.0, 1.0), pointDir, u, uf, uff, b, c, f, ff, db, d, df, dff, ddb, dd, ddf);
+        vec4 b_col = sliceDist(local, vec2(-1.0, 1.0), pointDir, u, ub, ubb, f, c, b, bb, df, d, db, dbb, ddf, dd, ddb);
+        vec4 u_col = sliceDist(local, vec2( 1.0,-1.0), pointDir, d, df, dff, b, c, f, ff, ub, u, uf, uff, uub, uu, uuf);
+        
+        if(c_col.r >= 0.0){
+            col = c_col;
+        }
+        if(b_col.r >= 0.0){
+            col = b_col;
+        }
+        if(u_col.r >= 0.0){
+            col = u_col;
+        }
+
+
+        //fragColor = col;
+        
+        // v ONLY FOR DEMO v //
+        if(enable){
+            fragColor = col;
+        } else {
+            fragColor = c;
+        }
+        // ^ ONLY FOR DEMO ^ //
+    }
+    
+</script>
+<script>
+    let mainEl = document.getElementById('main');
+    let optionsEl = document.getElementById('options');
+
+    let uploadEl = document.getElementById('upload');
+    let uploadInputEl = document.getElementById('uploadInput');
+    let downloadEl = document.getElementById('dnld');
+
+    let mode = 'rotate';
+    let modeSwitchEl = document.getElementById('modeSwitch');
+    modeSwitchEl.addEventListener('click', (e) => {
+        modeSwitchEl.classList.remove('right');
+        mainEl.classList.remove('scale', 'rotate');
+        if(mode === 'rotate'){
+            mode = 'scale';
+            downloadEl.textContent = 'download scaled'
+            modeSwitchEl.classList.add('right');
+        } else {
+            mode = 'rotate';
+            downloadEl.textContent = 'download rotated'
+        }
+        mainEl.classList.add(mode);
+        update();
+    });
+
+
+    const canvas = document.getElementById("rotate");
+    const container = document.getElementById("canvasContainer");
+    const size = 1.5;
+    let viewSize = 1.5;
+    let size2 = 1.5;
+    let roundFix = {x:0,y:0};
+    const displaySize = 1.5;
+    let s = 1/size;
+    let pos = {x:1.0, y:1.0};
+
+    let side = 1.0;
+    let displaySide = 1.0;
+
+    let textures;
+    let image = new Image();
+
+    let width = 1.0;
+    let height = 1.0;
+
+    let angle = 0;
+    let zoom = 4.0;
+    let zoomStage = 2.0;
+    let zoomOffset = {x:0.0, y:0.0};
+
+    let EXPORT_SCALE = false;
+
+    let highestColor = [1.0,1.0,1.0];
+    let optionEls = {
+        angle: document.querySelector('.option[name="angle"] input'),
+        scale: document.querySelector('.option[name="scale"] input'),
+        enable: document.querySelector('.option[name="enable"] input'),
+        similarThreshold: document.querySelector('.option[name="similarThreshold"] input'),
+        lineWidth: document.querySelector('.option[name="lineWidth"] input'),
+        slope: document.querySelector('.option[name="slope"] input'),
+    }
+
+    
+    const gl = canvas.getContext("webgl2", {antialias: false, preserveDrawingBuffer:true});
+    // gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+    const programInfo = twgl.createProgramInfo(gl, ["vs", "fs"]);
+
+    let arrays = {
+        position: { numComponents: 3, data: [-pos.x, -pos.y, 0, pos.y, -pos.x, 0, -pos.x, pos.y, 0, -pos.y, pos.x, 0, pos.x, -pos.y, 0, pos.y, pos.x, 0], },
+        a_texcoord: { numComponents: 2, data: [0, 0, 1, 0, 0, 1,   0,1, 1,0, 1,1],                 },
+    };
+    let bufferInfo = twgl.createBufferInfoFromArrays(gl, arrays);
+    
+    init();
+
+    function render(time) {
+        // twgl.resizeCanvasToDisplaySize(gl.canvas);
+        gl.clear(gl.COLOR_BUFFER_BIT);
+        gl.viewport(0, 0, viewSize, viewSize);
+
+        if(EXPORT_SCALE){
+            viewSize = zoom * side;
+            canvas.width = viewSize;
+            canvas.height = viewSize;
+            // zoomOffset = {x:0, y:0}
+        }
+
+        const uniforms = {
+            iResolution: [image.width, image.height],
+            u_worldViewProjection: twgl.m4.identity(),
+
+            highestColor,
+            similarThreshold: optionEls.similarThreshold && parseFloat(optionEls.similarThreshold.value) || 0,
+            lineWidth: optionEls.lineWidth && parseFloat(optionEls.lineWidth.value),
+            SLOPE: mode === 'rotate' || optionEls.slope && optionEls.slope.checked,
+            enable: optionEls.enable && optionEls.enable.checked,
+            scaling: mode === 'scale'
+        };
+        
+        // uniforms.u_worldViewProjection = twgl.m4.translate(uniforms.u_worldViewProjection, twgl.v3.create(offset.x,offset.y,0.0));
+        if(mode === 'rotate'){
+            uniforms.u_worldViewProjection = twgl.m4.rotateZ(uniforms.u_worldViewProjection, -angle);
+            uniforms.u_worldViewProjection = twgl.m4.scale(uniforms.u_worldViewProjection, twgl.v3.create((1/(viewSize)),(1/(viewSize)),));
+            uniforms.u_worldViewProjection = twgl.m4.scale(uniforms.u_worldViewProjection, twgl.v3.create(1, -1, 1));
+            uniforms.u_worldViewProjection = twgl.m4.translate(uniforms.u_worldViewProjection, twgl.v3.create(roundFix.x,roundFix.y,0.0));
+        } else if(mode === 'scale'){
+            uniforms.u_worldViewProjection = twgl.m4.scale(uniforms.u_worldViewProjection, twgl.v3.create((1/(viewSize)),(1/(viewSize)),));
+            uniforms.u_worldViewProjection = twgl.m4.scale(uniforms.u_worldViewProjection, twgl.v3.create(1, -1, 1));
+            uniforms.u_worldViewProjection = twgl.m4.scale(uniforms.u_worldViewProjection, twgl.v3.create(zoom, zoom, 1));
+            if(!EXPORT_SCALE){
+
+                if(zoom == 1 || zoom == 2){
+                    uniforms.u_worldViewProjection = twgl.m4.translate(uniforms.u_worldViewProjection, twgl.v3.create(Math.round(zoomOffset.x/2)*2, Math.round(zoomOffset.y/2)*2, 0.0));
+                } else {
+                    uniforms.u_worldViewProjection = twgl.m4.translate(uniforms.u_worldViewProjection, twgl.v3.create(zoomOffset.x, zoomOffset.y, 0.0));
+                }
+                uniforms.u_worldViewProjection = twgl.m4.translate(uniforms.u_worldViewProjection, twgl.v3.create(roundFix.x,roundFix.y,0.0));
+            }
+
+        }
+
+        gl.useProgram(programInfo.program);
+        twgl.setBuffersAndAttributes(gl, programInfo, bufferInfo);
+        twgl.setUniforms(programInfo, uniforms);
+
+        twgl.drawBufferInfo(gl, bufferInfo);
+
+        requestAnimationFrame(render);
+    }
+    requestAnimationFrame(render);
+
+    
+    image.onload = () => {
+        textures = twgl.createTextures(gl, {
+            iChannel0: { src: () => image, minMag: gl.NEAREST, wrap:gl.CLAMP_TO_EDGE },
+        });
+        zoomOffset = {x:0,y:0};
+        zoomStage = 2;
+        zoom = 4;
+        update();
+    }
+    image.src = './example/ferret.png';
+
+    function init(){
+        
+        update();
+    }
+
+    function update(){
+        width = image.width;
+        height = image.height;
+        side = Math.max(image.width, image.height);
+
+        
+        displaySide = Math.max(540, Math.min(800, side*displaySize*4));
+        if(mode === 'rotate'){
+            viewSize = Math.round(side*size);
+            canvas.width = side*size;
+            canvas.height = side*size;
+        } else if(mode === 'scale'){
+            viewSize = Math.round(displaySide);
+            canvas.width = displaySide;
+            canvas.height = displaySide;
+        }
+
+        pos = {x:width, y:height};
+        offset = {x:0.5,y:0.5};
+
+        roundFix = {x:0,y:0};
+        if((viewSize+image.width)%2 == 1){
+            roundFix.x = -1.0;
+        }
+        if((viewSize+image.height)%2 == 1){
+            roundFix.y = -1.0;
+        }
+        
+
+        container.style.width = displaySide + 'px';
+        container.style.height = displaySide + 'px';
+
+        mainEl.style.maxWidth = (displaySide + 200) + 'px';
+        optionsEl.style.maxWidth = (displaySide) + 'px';
+        optionsEl.style.maxHeight = (displaySide) + 'px';
+
+        arrays = {
+            position: { numComponents: 2, data: [-pos.x, -pos.y, pos.x, -pos.y, -pos.x, pos.y,  -pos.x, pos.y, pos.x, -pos.y, pos.x, pos.y], },
+            a_texcoord: { numComponents: 2, data: [0, 0, 1, 0, 0, 1,   0,1, 1,0, 1,1],                 },
+        };
+        bufferInfo = twgl.createBufferInfoFromArrays(gl, arrays);
+    }
+
+
+    let dropAreaEl = document.getElementById('dropArea');
+    
+    let dragging = false;
+    let panning = false;
+    let dragAngle = 0.0;
+    let dragStartZoom = 0.0;
+    let dragStartZoomOffset = zoomOffset;
+    let dragStartAngle = 0.0;
+    let dragStartPos = {x:0.0, y:0.0};
+    dropAreaEl.addEventListener('pointerdown', (e) => {
+        if(e.pointerType !== 'mouse' || e.button === 0 || e.button === 1){
+            e.preventDefault();
+            panning = e.button === 1;
+            dragging = true;
+            let rect = canvas.getBoundingClientRect();
+            let cx = rect.x + rect.width/2;
+            let cy = rect.y + rect.height/2;
+            dragStartPos = {x: e.clientX, y: e.clientY};
+            dragZoom = Math.hypot((e.clientX - cx)*0, e.clientY - cy*0);
+            dragStartZoomOffset = zoomOffset;
+            dragStartZoom = zoomStage;
+            dragAngle = Math.atan2(e.clientY - cy, e.clientX - cx);
+            dragStartAngle = angle;
+            updateDrag(e);
+        }
+    });
+    dropAreaEl.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        if(mode === 'rotate'){
+            if(e.shiftKey){
+                angle -= e.deltaY/80000;
+            } else {
+                angle -= e.deltaY/800;
+            }
+            updateAngle();
+        } else if(mode === 'scale'){
+            let rect = canvas.getBoundingClientRect();
+            let cx = rect.x + rect.width/2;
+            let cy = rect.y + rect.height/2;
+            let oldZoom = zoom;
+            let oldZoomStage = zoomStage;
+            if(e.shiftKey){
+                zoomStage -= e.deltaY/8000;
+            } else {
+                zoomStage -= e.deltaY/400;
+            }
+            let _zoom = Math.pow(zoomStage, 2);
+            _zoom = Math.max(1.0, Math.min(50, _zoom));
+            let deltaZoom = _zoom - oldZoom;
+            zoomOffset = {
+                x: zoomOffset.x + ((cx - e.clientX)/zoom) / (oldZoom / _zoom) - ((cx - e.clientX)/_zoom),
+                y: zoomOffset.y + ((cy - e.clientY)/zoom) / (oldZoom / _zoom) - ((cy - e.clientY)/_zoom),
+            }
+            zoomOffset.x = Math.max(-width, Math.min(width, zoomOffset.x))
+            zoomOffset.y = Math.max(-height, Math.min(height, zoomOffset.y))
+            updateZoom();
+        }
+    });
+    document.addEventListener('pointermove', (e) => {
+        if(dragging){
+            updateDrag(e);
+        }
+    });
+    function updateDrag(e){
+        if(mode === 'rotate'){
+            let rect = canvas.getBoundingClientRect();
+            let cx = rect.x + rect.width/2;
+            let cy = rect.y + rect.height/2;
+            angle = dragStartAngle + (Math.atan2(e.clientY - cy, e.clientX - cx) - dragAngle);
+            updateAngle();
+        } else if(mode === 'scale'){
+            let rect = canvas.getBoundingClientRect();
+            let cx = rect.x + rect.width/2;
+            let cy = rect.y + rect.height/2;
+
+            if(panning){
+                zoomOffset = {
+                    x: dragStartZoomOffset.x + (e.clientX - dragStartPos.x)/(zoom/2),
+                    y: dragStartZoomOffset.y + (e.clientY - dragStartPos.y)/(zoom/2),
+                }
+            } else {
+                let newZoom = dragStartZoom + (Math.hypot((e.clientX - cx)*0, e.clientY - cy*0) - dragZoom) / 100.0;
+                zoomStage = newZoom;
+                // zoomOffset = {
+                //     x: dragStartZoomOffset.x + (e.clientX - dragStartPos.x)/newZoom,
+                //     y: dragStartZoomOffset.y + (e.clientY - dragStartPos.y)/newZoom,
+                // }
+                updateZoom();
+            }
+
+        }
+    }
+    function updateAngle(){
+        optionEls.angle.value = Math.floor((180/Math.PI) * angle + 360) % 360;
+    }
+    function updateZoom(){
+        zoomStage = Math.max(Math.sqrt(1.0), Math.min(Math.sqrt(50), zoomStage));
+        zoom = Math.pow(zoomStage, 2);
+        // zoom = Math.floor(zoom * 5) / 5;
+        zoom = Math.max(1.0, Math.min(50, zoom));
+        optionEls.scale.value = zoom.toFixed(2);
+    }
+    document.addEventListener('pointerup', (e) => {
+        dragging = false;
+    });
+
+    optionEls.angle.addEventListener('input', (e) => {
+        if(parseFloat(e.target.value) >= 0){
+            angle = parseFloat(e.target.value) * (Math.PI/180);
+        }
+    });
+    optionEls.scale.addEventListener('input', (e) => {
+        if(parseFloat(e.target.value) >= 0){
+            zoom = parseFloat(e.target.value);
+        }
+    });
+
+    let offMouseDownQueries = new Map();
+    function offMouseDown(query, cb){
+        offMouseDownQueries.set(cb, query);
+    }
+    document.addEventListener('mousedown', e => {
+        // for(let [cb, query] of mouseDownQueries){
+        //     if(e.target.matches(query)){
+        //         cb(e);
+        //     }
+        // }
+        for(let [cb, query] of offMouseDownQueries){
+            if(!e.target.closest(query)){
+                cb(e);
+            }
+        }
+    });
+    offMouseDown('#colorPickerContainer, .option .colorContainer', e => {
+        cancelColorPicker();
+    });
+    function cancelColorPicker(){
+        document.querySelectorAll('.option .colorContainer').forEach(el => {
+            el.classList.remove('active');
+        });
+        colorPickerContainerEl.classList.remove('active');
+        curColorOptionEl = null;
+    }
+
+    let colorPickerContainerEl = document.getElementById('colorPickerContainer');
+    let colorPickerEl = document.getElementById('colorPicker');
+    let colorPicker = new iro.ColorPicker('#colorPicker', {
+        width: 200,
+        borderWidth: 3,
+        borderColor: '#fff',
+        layout: [
+            {component: iro.ui.Wheel},
+            {component: iro.ui.Slider, options: {sliderType: 'value'}},
+        ],
+        layoutDirection: 'vertical'
+    });
+    let curColorOptionEl = null;
+
+    colorPicker.on('color:change', color => {
+        let colorString = color.alpha < 1 ? color.hex8String : color.hexString;
+        document.querySelector('.colorContainer').style.backgroundColor = colorString;
+        highestColor = [color.red/255, color.green/255, color.blue/255];
+    });
+    // colorPicker.on('input:start', e => {
+    //     mouseCatchEl.classList.add('active');
+    // });
+    // colorPicker.on('input:end', e => {
+    //     mouseCatchEl.classList.remove('active');
+    // });
+
+    document.querySelector('.colorContainer').addEventListener('click', (e) => {
+        let containerEl = e.target.closest('.colorContainer');
+        if(containerEl.classList.contains('active')){
+            cancelColorPicker();
+        } else {
+            // colorPicker.color.hex8String = colorInputEl.getAttribute('value');
+            containerEl.classList.add('active');
+            colorPickerContainerEl.classList.add('active');
+            let rect = containerEl.getBoundingClientRect();
+            colorPickerContainerEl.style.left = (rect.x + window.scrollX + document.body.scrollLeft + rect.width/2) + 'px';
+            colorPickerContainerEl.style.top = (rect.y + window.scrollY + document.body.scrollTop + rect.height/2) + 'px';
+            // curColorOptionEl = optionEl;
+        }
+    });
+    
+
+    function dropHandler(e) {
+        dropAreaEl.classList.remove('hover');
+        e.preventDefault();
+
+        let file;
+
+        if (e.dataTransfer.items) {
+            for(let item of [...e.dataTransfer.items]){
+                if (item.kind === 'file') {
+                    file = item.getAsFile();
+                    break;
+                }
+            }
+        } else {
+            for(let _file of [...e.dataTransfer.files]){
+                file = _file;
+                break;
+            }
+        }
+
+        if(!file) return;
+
+        loadFile(file)
+
+    }
+
+    function loadFile(file){
+        let fr = new FileReader();
+        fr.onload = function () {
+            var data = fr.result;
+            var array = new Int8Array(data);
+            image.src = fr.result;
+        };
+        fr.readAsDataURL(file);
+    }
+    function loadImage(url){
+        image.src = url;
+    }
+
+    function dragOverHandler(e) {
+        dropAreaEl.classList.add('hover');
+        e.preventDefault();
+    }
+
+    function dragLeaveHandler(e) {
+        dropAreaEl.classList.remove('hover');
+        e.preventDefault();
+    }
+
+    function pasteHandler(e){
+        var items = (e.clipboardData || e.originalEvent.clipboardData).items;
+        for (index in items) {
+            var item = items[index];
+            if (item.kind === 'file') {
+                var file = item.getAsFile();
+                loadFile(file);
+            }
+        }
+    }
+
+    dropAreaEl.addEventListener("drop", dropHandler);
+    dropAreaEl.addEventListener("dragover", dragOverHandler);
+    dropAreaEl.addEventListener("dragleave", dragLeaveHandler);
+    document.addEventListener("paste", pasteHandler);
+
+
+    
+    uploadEl.addEventListener('click', (e) => {
+        uploadInputEl.click();
+    });
+
+    uploadInputEl.onchange = function() {
+        if(this.files[0]){
+            loadFile(this.files[0]);
+        }
+    }
+
+
+    function dlCanvas() {
+        var data;
+        var name;
+        if(mode === 'rotate'){
+            data = canvas.toDataURL('image/png');
+            name = 'cleanEdge-rotate.png';
+            next();
+        } else if(mode === 'scale'){
+            EXPORT_SCALE = true;
+            render();
+            // canvas.style.visibility = 'hidden';
+            requestAnimationFrame(() => {
+                data = canvas.toDataURL('image/png');
+                name = 'cleanEdge-scale.png';
+                next();
+                EXPORT_SCALE = false;
+                update();
+            });
+
+        }
+
+        function next(){
+            var link = document.createElement('a');
+            link.download = name;
+            link.href = data;
+            link.click();
+        }
+    };
+    downloadEl.addEventListener('click', dlCanvas, false);
+</script>
+</html>
