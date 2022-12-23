@@ -104,7 +104,7 @@
 
      , "inspire/@pixelart/tw-Omegachainoboy-01.png"     , "inspire/@pixelart/tw-Omegachainoboy-02.png"
      , "inspire/@pixelart/tw-Omegachainoboy-03.png"     , "inspire/@pixelart/tw-Omegachainoboy-04.png"
-     , "inspire/@pixelart/tw-Omegachainoboy-05.png"     , "inspire/@pixelart/tw-Omegachainoboy-06.png"
+     , "inspire/@pixelart/tw-Omegachainoboy-05.png"     , "inspire/@pixelart/tw-Omegachainoboy-06.jpg"
      , "inspire/@pixelart/tw-Omegachainoboy-07.png"     , "inspire/@pixelart/tw-Omegachainoboy-08.png"
      , "inspire/@pixelart/tw-Omegachainoboy-09.png"     , "inspire/@pixelart/tw-Omegachainoboy-10.png"
      , "inspire/@pixelart/tw-Omegachainoboy-11.png"     , "inspire/@pixelart/tw-Omegachainoboy-12.png"
