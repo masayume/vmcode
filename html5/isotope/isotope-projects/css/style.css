@@ -207,6 +207,28 @@ body {
   padding: 2px 2px 2px 2px ;
 }
 
+.element-item .url_WF_OLD a {
+  position: absolute;
+  left: 4px;
+  top: 24px;
+  font-family: 'Oswald';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.element-item .url_WF a {
+  position: absolute;
+  left: 74px;
+  bottom: 4px;
+  font-family: 'Oswald';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 14px;
+  font-weight: bold;
+  color:hsl(  72, 100%, 50%)
+}
+
+
 h3 {
   font-family: 'Oswald';
 }

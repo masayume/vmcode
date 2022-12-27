@@ -37,6 +37,7 @@
   <button class="button" data-filter=".videogame">videogame</button>
   <button class="button" data-filter=".resources">resources</button>
   <button class="button" data-filter=".style">style</button>
+  <button class="button" data-filter=".godot">godot</button>
   <button class="button" data-filter=".now">NOW!</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>

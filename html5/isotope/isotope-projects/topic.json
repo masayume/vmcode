@@ -204,23 +204,24 @@
       "url": "https://www.masayume.it/blog/content/kdenlive-non-linear-video-editor",
       "dir": "?"
     },
-    "cryptoart": {
-      "name": "crypto art",
+    "Grotto": {
+      "name": "Grotto Escape",
       "number": "120",
       "data_cat": "player",
-      "class": ["player", "video", "crypto", "art"],
+      "class": ["player", "video", "godot", "game", "prototype"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
-      "img": "120.png",
-      "designer": "DESIGNER",
-      "weight": "2.COMPLEX", 
+      "img": "120.gif",
+      "designer": "https://twitter.com/Securas2010/status/1604818104055255040",
+      "weight": "2", 
       "status": "todo", 
-      "year-start": 2021,
-      "year": 2021,
+      "year-start": 2022,
+      "year": 2022,
       "players": [1, 2, 3, 4],
       "length": 0,
-      "url": "https://www.masayume.it/blog/content/crypto-art-30-cryptokitties",
-      "dir": "?"
+      "url": "https://github.com/securas/Grotto_Escape_2D_Platformer",
+      "url_WF": "pages/001-godot.htm#Project01",
+      "dir": "/home/masayume/DATA/L/Godot/PROJECTS/Grotto_Escape_2D_Platformer-main/"
     },
     "WFC": {
       "name": "wave function collapse",
@@ -312,6 +313,24 @@
       "players": [2, 3, 4],
       "length": 0,
       "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+    },
+    "cryptoart": {
+      "name": "crypto art",
+      "number": "120",
+      "data_cat": "player",
+      "class": ["player", "video", "crypto", "art"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "120.png",
+      "designer": "DESIGNER",
+      "weight": "2.COMPLEX", 
+      "status": "todo", 
+      "year-start": 2021,
+      "year": 2021,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://www.masayume.it/blog/content/crypto-art-30-cryptokitties",
+      "dir": "?"
     }
 
   },
