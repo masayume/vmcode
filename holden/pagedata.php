@@ -65,6 +65,13 @@ function pagenewtemp($dir, $tag) {
       // print "<pre>"; print_r($exploded) ;
       $twitterRaw3 = "<b>reddit:</b> <a href='https://reddit.com/r/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
+    elseif (preg_match('/^ma-/', $twitterRaw2) )  // calculate mastodon link (i.e. https://toot.community/@LordArse)
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ; print "/<pre>";
+      $mastodon = explode('@', $exploded[1]);
+      $twitterRaw3 = "<b>mastodon:</b> <a href='https://" . $mastodon[2] . "/@" . $mastodon[1].  "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+    }
     elseif (preg_match('/^sb-/', $twitterRaw2) )  // calculate safebooru link
     {    
       $exploded = explode('-', $twitterRaw2);
