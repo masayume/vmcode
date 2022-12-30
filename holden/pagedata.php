@@ -98,10 +98,10 @@ function pagenewtemp($dir, $tag) {
     $file2check = '/home/masayume' . $file; 
     $filedate   = $file2check; // "no data"; 
     if (file_exists($file2check)) {
-      $filedate = date('F d Y h:i A', filemtime($file2check) );
+      $filedate = date('d F Y h:i A', filemtime($file2check) );
     }
     $template =<<<TEM
-      <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'">
+      <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'; image-rendering: pixelated;">
           $embed_asset
           <!-- <img src="$file" style="width: 100%;" title="$file"> -->
           <br />
