@@ -232,11 +232,11 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
 <div class="float-left" style=" position: fixed; margin-top: 10px; top: 10px; transform: translateY(0px); z-index: 1000;">
 
     <br clear="all" />
-    <h3>Refs</h3>
+    <h3>assets</h3>
     <div id="references">
       <ul>
         <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" >RELOAD</a>
-        <li>assets: <?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
+        <li><?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
         <li><a href='refURL'>ref</a></li>
         <!--
           <pre>
