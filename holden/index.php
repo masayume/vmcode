@@ -147,7 +147,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@characters/chun li'    // 99 
 // 100
                   , '/inspire/@pixelart/cute'
-                  , '/inspire/@pixelart/backgrounds'
+                  , '/inspire/@pixelart/backgrounds'  // 101
                   , '/inspire/@pixelart/frame'
                   , '/inspire/@pixelart/monster-refs'
                   , '/inspire/@pixelart/portraits'
@@ -170,6 +170,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
 // 120
                   , '/inspire/@characters/'         
                   , '/inspire/@pixelart/backgrounds/landsref' // 121  
+                  , '/inspire/@pixelart/backgrounds/others'   // 122  
 
                 );
 
