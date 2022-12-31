@@ -49,11 +49,11 @@
   <div class="_exa">
     <h4>PAGES</h4>
       <ul>
-        <li> <a href="index.php" target="_blank"><b>INDEX</b></a> </li>
-        <li> <a href="unity.php" target="_blank"><b>UNITY page</b></a> </li>
-        <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
-        <li> <a href="pixelart.php" target="_blank"><b>PIXELART page</b></a> </li>
-        <li> <a href="tools.php" target="_blank"><b>TOOLS page</b></a> </li>
+        <li> <a href="index.php" target="_blank"><b>INDEX</b></a> 
+             <a href="unity.php" target="_blank"><b>UNITY</b></a> 
+             <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
+        <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
+             <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
         <li> <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank"><b>WORKFLOWS</b></a> </li>
@@ -77,7 +77,6 @@
         </li>
         <li> cards:<a href="http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1&seed=999999" target="_blank"><b>magic</b></a> 
           <a href="https://db.ygoprodeck.com/card/?search=Phantom%20Magician" target="_blank"><b>yugioh</b></a> </li>
-
         <li> <a href="/HTML5/holden/index.php?folder=@STYLE%20style/MISC"><b>MISC STYLE</b></a> </li>
         <li> <a href="https://earth.google.com" target="_blank"><b>G.Earth</b></a>  <a href="https://www.masayume.it/blog/content/instant-archetypes" target="_blank"><b>Tarots</b></a></li>
         <li>  <a href="https://www.pinterest.co.uk/search/pins/?q=drain&rs=typed&term_meta[]=drain%7Ctyped" target="_blank"><b>pinterest</b></a> 
@@ -86,9 +85,8 @@
         <li> <a href="https://www.deviantart.com/?qh=&section=&global=1&q=android+netrunner&offset=15" target="_blank"><b>deviantart</b></a> </li>
 
         <li> <a href="https://www.pinterest.co.uk/masayume/lateral/" target="_blank"><b>pinterest LATERAL</b></a> </li>
-        <li><a href="http://www.progettoemma.net/mess/random.php" target="_blank">EPIC game juxtapose</a>
+        <li><a href="http://www.progettoemma.net/mess/random.php" target="_blank">EPIC game juxtapose</a> </li>
         <li>Dr. Slump Cards
-
       </ul>
 
       <h4>SPECIAL</h4>

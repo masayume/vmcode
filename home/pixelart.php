@@ -68,29 +68,32 @@
         <li> <a href="/html5/isotope/isotope-WF/" target="_blank">ISO-WF ★</a> 
              <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank">WF page</a> </li>
       </ul>
-    <h4>IDEAS</h4>
-      <ul>
-        <li> <a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>twitter adv query</b> ★</a></li>
-        <li> <a href="https://www.masayume.it/blog/content/bill-evans-il-processo-creativo-e-lautoapprendimento" target="_blank"><b>processo creativo ★</b></a> </li>
-        <li>  <a href="https://en.wiktionary.org/wiki/drain" target="_blank"><b>Wiktnry</b></a>
-              <a href="http://context.reverso.net/translation/english-italian/slice" target="_blank"><b>Rev.Ctext</b></a> </li>
-        <li>  <a href="http://www.coverbrowser.com/random"><b>RND cover</b></a>, 
-                <a href="https://gifs.alphacoders.com/gifs/random"><b>gif</b></a>, 
-                <a href="https://tvtropes.org/pmwiki/changes.php"><b>trope</b></a> </li>
-        <li>  <a href="https://www.nationalgeographic.com/photo-galleries/"><b>NAT.GEO</b></a> 
-              <a href="https://www.nationalgeographic.com/photography/proof/"><b>stories</b></a> 
-              <a href="https://www.youtube.com/user/NationalGeographic/videos"><b>YT</b></a> 
-        </li>
-        <li> cards:<a href="http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1&seed=999999" target="_blank"><b>magic</b></a> 
-          <a href="https://db.ygoprodeck.com/card/?search=Phantom%20Magician" target="_blank"><b>yugioh</b></a> </li>
-        <li> <a href="https://earth.google.com" target="_blank"><b>G.Earth</b></a>  <a href="https://www.masayume.it/blog/content/instant-archetypes" target="_blank"><b>Tarots</b></a></li>
-        <li>  <a href="https://www.pinterest.co.uk/search/pins/?q=drain&rs=typed&term_meta[]=drain%7Ctyped" target="_blank"><b>pinterest</b></a> 
-              <a href="https://www.pinterest.co.uk/masayume/neko/" target="_blank"><b>board</b></a> </li>
-        <li> <a href="https://www.sakugabooru.com/tag?name=&type=&order=count" target="_blank"><b>sakugabooru</b></a> </li>
-        <li> <a href="https://www.deviantart.com/?qh=&section=&global=1&q=android+netrunner&offset=15" target="_blank"><b>deviantart</b></a> </li>
 
-        <li> <a href="https://www.pinterest.co.uk/masayume/lateral/" target="_blank"><b>pinterest LATERAL</b></a> </li>
-        <li><a href="http://www.progettoemma.net/mess/random.php" target="_blank">EPIC game juxtapose</a> </li>
+    <h4>PIXEL RESOURCES</h4>
+      <ul>
+        <li><a href="https://www.masayume.it/blog/content/pixel-art-tutorials-resourcesp"><b>my tutorials ★</b></a> </li>
+        <li><a href="https://lospec.com/pixel-editor/app">lospec editor ★</a> </li>
+        <li><a href="https://www11.lunapic.com/editor/?action=line-effect">lunapic</a>
+            <a href="https://github.com/makeworld-the-better-one/didder">didder</a></li>
+        <li><a href="https://charlesstover.com/spritesheet2gif">spritesheet2gif</a>
+        <li><a href="https://mugenarchive.com/forums/downloads.php?do=cat&id=261-sprite-packs&__cf_chl_jschl_tk__=d08760070c9f7c6e2676da94317ecdd11f6ca7a0-1604924843-0-Aa4lAc5iwBGhMVaElV3PdE3ybykr-fKu5HkTAktXk7YIL71M1TRs04f4N8fZQLa7tPJ8DRYxyHLPTEDuVrrBwKsUuE5fgnIQkk8eLNaxJdhriCaYFx8eUdCa1TeJ19k8IVAVhWDuYDEJPpYfofTQqaUpBsHkYSiDYJxeliX6n9mtJWtxy4UfmZl6xoeuW_VZzxxtpW1sD8rbuE7uSXL2LWTfZMojNFSWkFm7w8XvfCHvoyQ6ucxzuTOgoU7LXNTPplkoutbNersc9HE-rH39bZaPdVjt5SVcCkXkYCJlvVMyMwmfLbXjb9aEIlX53sutwjpNuWVVd1xg-yIBDJ_osN8">mugen sprites</a><li>
+            <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>   
+            <a href="https://app.monopro.org/pixel/"><b>monopro★</b></a></li> 
+        <li><a href="https://ditherit.com/"><b>ditherIt★</b></a>
+            <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a></li>
+        <li><a href="https://simulacroix.github.io/dithering/">pattern maker</a>
+            <a href="https://ezgif.com/video-to-gif">video2gif</a></li>    
+        <li><a href="https://www.airtightinteractive.com/demos/js/imageglitcher/">scanline IG ★</a></li>    
+        <li><a href="https://www4.lunapic.com/editor/?action=pixels"><b>lunapic pixels ★</b></a>
+        <li><a href="https://pinetools.com/pixelate-effect-image"><b>pixelate★</b></a>
+            <a href="https://pixel-me.tokyo/"><b>pixel-me★</b></a></li>
+        <li><a href="https://morgan3d.github.io/quadplay/tools/scalepix.html"><b>scalepix★</b></a>
+            <a href="https://www.masayume.it/blog/content/bitmapflow-procedural-inbetweening-animated-sprites"><b>bitmapflow★</b></a>
+        <li><a href="http://deathgenerator.com/#minit">foone pixel gen</a>
+        <li><a href="http://arcade.photonstorm.com/">arcade text</a>
+            <a href="http://lvllvl.com/">lvllvl.com</a></li>
+        <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>Twitter A Query ★</b> </a> </li>
+        <li><a href="https://www.masayume.it/blog/content/il-workflow-blender-pixelart"><b>my blender to pixelart</b></a></li>
       </ul>
 
   </div>
@@ -194,10 +197,12 @@
     <li><a href="https://sites.google.com/view/rejected-palettes/palette-list">rejected palettes</a></li>
   </ul>
 
+  <!--
   <h4>COLORING</h4>
   <ul>
     <li> <a href="https://www.masayume.it/blog/content/marc-brunet-e-i-fondamentali-del-digital-painting"><b>Marc Brunet ★</b></a> </li> 
   </ul>
+  -->
 
   <h4>PHOTOBASH</h4>
   <ul>
@@ -236,22 +241,22 @@
         <li> <a href="/HTML5/texturizer/">texturizer</a> - <a href="/HTML5/mondrian/">mondrian</a> </li>
         <li> <a href="https://www.remove.bg/"><b>RMV BCK ★</b></a>, 
              <a href="https://www.remove.bg/"><b>C.A.Fill ★</b></a></li>
-        <li> <a href="https://bigjpg.com/">bigjpg scale</a></li>
-        <li> <a href="https://squoosh.app/">squoosh compress</a></li>
+        <li> <a href="https://bigjpg.com/">bigjpg scale</a>
+             <a href="https://squoosh.app/">squoosh zip</a></li>
         <li> <a href="https://distill.pub/selforg/2021/textures/"><b>texture generator ★</b></a></li>
         <li> <a href="https://jasonwebb.github.io/reaction-diffusion-playground/"><b>reaction-diffusion ★</b></a> <a href="https://www.masayume.it/blog/content/reaction-diffusion"><b>my</b></a>  </li>
         <li> <a href="https://doodad.dev/pattern-generator/">pattern generator</a></li>
-        <li> patterns: <a href="https://observablehq.com/@rreusser/multiscale-turing-patterns-in-webgl">turing★</a>
+        <li> pattern: <a href="https://observablehq.com/@rreusser/multiscale-turing-patterns-in-webgl">turing★</a>
              <a href="https://observablehq.com/@makio135/creative-coding">creative★</a></li>
         <li> <a href="/HTML5/crosshatch/">crosshatch</a></li>
-        <li> <a href="https://www.masayume.it/blog/content/p5js"><b>P5.js</b> ★</a></li>
+        <li> <a href="https://www.masayume.it/blog/content/p5js"><b>P5.js</b> ★</a>
+             <a href="/HTML5/triangle-divider/">triangle divider</a> </li>
         <li> <a href="https://anvaka.github.io/streamlines/">streamlines</a>
              <a href="https://roughjs.com/">roughjs</a></li>
         <li> <a href="https://photomosh.com/"><b>photomosh ★</b></a></li>
         <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">GLSL</a>, <a href="/html5/mojs/">mo.js demo</a></li>
-        <li> <a href="http://localhost:3000">m.g.moe</a> - npm start</li>
+<!--        <li> <a href="http://localhost:3000">m.g.moe</a> - npm start</li> -->
         <li> <a href="/deepart01/">deepart</a> - <a href="https://developer.deeparteffects.com/dashboard/index">online</a> - <a href='https://github.com/deeparteffects/deepart-api-html-js-example'>git</a> </li>
-        <li> <a href="/HTML5/triangle-divider/">triangle divider</a> </li>
       </ul>      
 
     </div>
@@ -341,14 +346,14 @@
 
     <h4>RANDOM GENs</h4>
       <ul>
-        <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> </li>
-        <li><a href="/keplerion/layerizer.php">layerizer</a> </li>
+        <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
+            <a href="/keplerion/layerizer.php">layerizer</a> </li>
         <li> <a href="https://talktotransformer.com/" target="_blank"><b>GPT-2 online &nbsp; ★</b></a> </li>
         <li> <a href="https://books.google.com/talktobooks/" target="_blank"><b>talk to books</b></a> </li>
         <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions.htm">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
         <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">readme</a> </li>
         <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> (online) </li>
-        <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrammar</a> (online) </li>
+<!--        <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrammar</a> (online) </li> -->
         <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> (online) </li>
         <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.) </li>
       </ul>
@@ -437,9 +442,10 @@
             <a href="https://www.google.it/search?q=disney+bat&source=lnms&tbm=isch&sa=X">disney</a>
             <a href="https://www.google.it/search?q=anime+bat&source=lnms&tbm=isch&sa=X">anime</a>
             <a href="https://www.google.it/search?q=sakuga+bat&source=lnms&tbm=isch&sa=X">sakuga</a></li>
-        <li><a href="https://www.bing.com/?scope=images&nr=1&FORM=NOFORM">bing images</a></li>
-        <li><a href="https://yandex.com/images">yandex images</a></li>
-        <li><a href="https://gogl.app/">google images</a></li>
+        <li><b>images:</b><br> 
+        <li><a href="https://www.bing.com/?scope=images&nr=1&FORM=NOFORM">bing</a>
+            <a href="https://yandex.com/images">yandex</a>
+            <a href="https://gogl.app/">google</a> </li>
       </ul>
 
 </div>
@@ -448,33 +454,6 @@
   <script type="text/javascript">
         document.write(getImageTag());
   </script>
-
-<h4>Pixels</h4>
-<ul>
-  <li><a href="https://www.masayume.it/blog/content/pixel-art-tutorials-resourcesp"><b>my tutorials ★</b></a>
-      <a href="https://lospec.com/pixel-editor/app">lospec editor ★</a>
-      <a href="https://www11.lunapic.com/editor/?action=line-effect">lunapic</a></li>
-  <li><a href="https://charlesstover.com/spritesheet2gif">spritesheet2gif</a>
-      <a href="https://mugenarchive.com/forums/downloads.php?do=cat&id=261-sprite-packs&__cf_chl_jschl_tk__=d08760070c9f7c6e2676da94317ecdd11f6ca7a0-1604924843-0-Aa4lAc5iwBGhMVaElV3PdE3ybykr-fKu5HkTAktXk7YIL71M1TRs04f4N8fZQLa7tPJ8DRYxyHLPTEDuVrrBwKsUuE5fgnIQkk8eLNaxJdhriCaYFx8eUdCa1TeJ19k8IVAVhWDuYDEJPpYfofTQqaUpBsHkYSiDYJxeliX6n9mtJWtxy4UfmZl6xoeuW_VZzxxtpW1sD8rbuE7uSXL2LWTfZMojNFSWkFm7w8XvfCHvoyQ6ucxzuTOgoU7LXNTPplkoutbNersc9HE-rH39bZaPdVjt5SVcCkXkYCJlvVMyMwmfLbXjb9aEIlX53sutwjpNuWVVd1xg-yIBDJ_osN8">mugen sprites</a>
-      <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite</b> ★</a></li>    
-  <li><a href="https://app.monopro.org/pixel/"><b>monopro ★★</b></a>
-      <a href="https://ditherit.com/"><b>dither it ★</b></a>
-      <a href="https://doodad.dev/dither-me-this/"><b>dither me this ★</b></a></li>
-  <li><a href="https://github.com/makeworld-the-better-one/didder">didder</a>, <a href="https://simulacroix.github.io/dithering/">pattern maker</a>
-      <a href="https://ezgif.com/video-to-gif">video-to-gif</a>
-      <a href="https://www.airtightinteractive.com/demos/js/imageglitcher/">scanline IG ★</a></li>    
-  <li><a href="https://www4.lunapic.com/editor/?action=pixels"><b>lunapic pixels ★</b></a>
-      <a href="https://pinetools.com/pixelate-effect-image"><b>pixelate ★</b></a>
-      <a href="https://pixel-me.tokyo/"><b>pixel-me ★</b></a></li>
-  <li><a href="https://morgan3d.github.io/quadplay/tools/scalepix.html"><b>scalepix★</b></a>
-      <a href="https://www.masayume.it/blog/content/bitmapflow-procedural-inbetweening-animated-sprites"><b>bitmapflow ★</b></a>
-      <a href="http://twittervideodownloader.com/">twitter-to-video</a></li> 
-  <li><a href="http://deathgenerator.com/#minit">foone pixel gen</a>
-      <a href="http://arcade.photonstorm.com/">arcade text</a>
-      <a href="http://lvllvl.com/">lvllvl.com</a></li>
-  <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>Twitter A Query ★</b> </a>
-      <a href="https://www.masayume.it/blog/content/il-workflow-blender-pixelart"><b>my blender to pixelart</b></a></li>
-</ul>
 
 </div>
 
