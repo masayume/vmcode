@@ -54,8 +54,8 @@
   <div class="_exa">
     <h4>PAGES</h4>
       <ul>
-        <li> <a href="index.html" target="_blank"><b>INDEX</b></a> 
-             <a href="unity.htm" target="_blank"><b>UNITY</b></a> 
+        <li> <a href="index.php" target="_blank"><b>INDEX</b></a> 
+             <a href="unity.php" target="_blank"><b>UNITY</b></a> 
              <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/category/pixelart" target="_blank"><b>■ my</b></a> 
              <a href="https://www.masayume.it/blog/content/il-workflow-blender-pixelart" target="_blank"><b>Blend</b></a> 

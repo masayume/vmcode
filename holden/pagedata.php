@@ -97,11 +97,21 @@ function pagenewtemp($dir, $tag) {
 
     $file2check = '/home/masayume' . $file; 
     $filedate   = $file2check; // "no data"; 
+    $filesize   = filesize($file2check);
     if (file_exists($file2check)) {
-      $filedate = date('d F Y h:i A', filemtime($file2check) );
+      $filedate = date('d F Y h:i', filemtime($file2check) );
     }
+
+    $pixelate_limit = 50000;
+    $pixelate   = '';
+    /*
+    */
+    if ($filesize < $pixelate_limit) {
+      $pixelate = "image-rendering: pixelated;";
+    }
+
     $template =<<<TEM
-      <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'; image-rendering: pixelated;">
+      <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'; $pixelate">
           $embed_asset
           <!-- <img src="$file" style="width: 100%;" title="$file"> -->
           <br />
@@ -109,7 +119,7 @@ function pagenewtemp($dir, $tag) {
           <br />
           <small><small>$file</small></small>
           <br />
-          <small><small>downloaded: $filedate</small></small>
+          <small><small>downloaded: $filedate - $filesize bytes </small></small>
 
       </div>
 TEM;

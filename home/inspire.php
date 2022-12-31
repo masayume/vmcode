@@ -49,12 +49,12 @@
   <div class="_exa">
     <h4>PAGES</h4>
       <ul>
-        <li> <a href="index.html" target="_blank"><b>INDEX</b></a> </li>
-        <li> <a href="unity.htm" target="_blank"><b>UNITY page</b></a> </li>
-        <li> <a href="inspire.htm" target="_blank"><b>INSPIRE page</b></a> </li>
-        <li> <a href="pixelart.htm" target="_blank"><b>PIXELART page</b></a> </li>
+        <li> <a href="index.php" target="_blank"><b>INDEX</b></a> </li>
+        <li> <a href="unity.php" target="_blank"><b>UNITY page</b></a> </li>
+        <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
+        <li> <a href="pixelart.php" target="_blank"><b>PIXELART page</b></a> </li>
         <li> <a href="tools.php" target="_blank"><b>TOOLS page</b></a> </li>
-        <li> <a href="nihongo.htm" target="_blank"><b>NIHONGO page</b></a> </li>
+        <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
         <li> <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank"><b>WORKFLOWS</b></a> </li>
       </ul>

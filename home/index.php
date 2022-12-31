@@ -50,13 +50,13 @@
     <h4>PAGES</h4>
       <ul>
         <li> <a href="tools.php" target="_blank"><b>TOOLS page</b></a> </li>
-        <li> <a href="unity.htm" target="_blank"><b>UNITY page</b></a> </li>
-        <li> <a href="inspire.htm" target="_blank"><b>INSPIRE page</b></a> </li>
-        <li> <a href="pixelart.htm" target="_blank"><b>PIXELART page</b></a> </li>
-        <li> <a href="nihongo.htm" target="_blank"><b>NIHONGO page</b></a> </li>
+        <li> <a href="unity.php" target="_blank"><b>UNITY page</b></a> </li>
+        <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
+        <li> <a href="pixelart.php" target="_blank"><b>PIXELART page</b></a> </li>
+        <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
         <li> <a href="ai.php" target="_blank"><b>AI page</b></a> </li>
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
-        <li> <a href="retro.htm" target="_blank"><b>RETRO page</b></a> </li>
+        <li> <a href="retro.php" target="_blank"><b>RETRO page</b></a> </li>
         </ul>
     <h4>Solomon's World</h4>
 	<ul>
@@ -160,12 +160,6 @@
     <li> <a href="/HTML5/packery/">packery</a> </li>
     <li> <a href="/gamedesignerpills/index.php">game designer pills</a> </li>
   </ul> 
-  <!--
-  <h4>DRAWING</h4>
-  <ul>
-        <li> <a href="inspire.htm" target="_blank"><b>INSPIRE page</b></a> </li>
-  </ul>
--->
 
 </div>
 
@@ -251,7 +245,7 @@
     </ul>
     <h4>DRAWING</h4>
     <ul>
-          <li> <a href="inspire.htm" target="_blank"><b>INSPIRE page</b></a> </li>
+          <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
     </ul>
   </div>
 
@@ -259,7 +253,7 @@
     <div class="_exa">
       <h4>Artists</h4>
         <ul>
-          <li> <a href="inspire.htm" target="_blank"><b>INSPIRE page</b></a> </li>
+          <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
 
           <li><a href="/HTML5/holden/index.php">Holden</a>,<a href="/HTML5/holden/index.php?art=1">Altan</a></li>    
           <li><a href="/HTML5/holden/index.php?art=2">expressions</a></li>

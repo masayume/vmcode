@@ -111,7 +111,7 @@
       
     <h4>GRAPH 4PIXATOOL</h4> <!-- also in INSPIRE, UNITY -->
     <ul>
-      <li> <a href="/inspire.htm"><b>INSPIRE</b></a> or <a href="/unity.htm"><b>UNITY</b></a></li>
+      <li> <a href="/inspire.php"><b>INSPIRE</b></a> or <a href="/unity.htm"><b>UNITY</b></a></li>
     </ul>
 
     <h4>RESOURCES</h4> <!-- also in INSPIRE, UNITY -->
