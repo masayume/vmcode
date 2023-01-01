@@ -248,15 +248,16 @@
       "class": ["player", "tool", "game", "engine"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
-      "img": "140.png",
+      "img": "140b.jpg",
       "designer": "DESIGNER",
-      "weight": "2.COMPLEX", 
+      "weight": "2", 
       "status": "todo", 
       "year-start": 2022,
       "year": 2022,
       "players": [1, 2, 3, 4],
       "length": 0,
       "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/defold",
+      "url_WF": "pages/002-defold.htm#Project01",
       "dir": "-"
     },
     "pico8": {
@@ -268,13 +269,14 @@
       "theme": ["THEME"],
       "img": "150.png",
       "designer": "DESIGNER",
-      "weight": "2.COMPLEX", 
+      "weight": "2", 
       "status": "todo", 
       "year-start": 2022,
       "year": 2022,
       "players": [1, 2, 3, 4],
       "length": 0,
       "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
+      "url_WF": "pages/003-pico8.htm#Project01",
       "dir": "-"
     }
 
