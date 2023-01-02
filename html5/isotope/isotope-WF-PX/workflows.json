@@ -316,8 +316,25 @@
       "url_WF": "pages/001-pixatool.htm#Workflow01",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0019": {
+      "name": "Retro Gamer",
+      "number": "19",
+      "data_cat": "player",
+      "class": ["player", "2D", "pixelart", "style", "book", "source"],
+      "theme": ["editor"],
+      "img": "wfpx019.jpg",
+      "author": "",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2022,
+      "players": [1],
+      "length": 90,
+      "url": "https://21427.gradio.app",
+      "url_WF": "pages/010-photomania.htm#Workflow03",
+      "localdir": "/home/masayume/DATA/E/books/retro/retrogamer UK/",
+      "notes": "utile per ..."
     }
-
 
   },
   "template":
