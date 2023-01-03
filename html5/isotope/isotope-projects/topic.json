@@ -278,8 +278,26 @@
       "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
       "url_WF": "pages/003-pico8.htm#Project01",
       "dir": "-"
+    },
+    "drupal": {
+      "name": "drupal",
+      "number": "160",
+      "data_cat": "player",
+      "class": ["player", "tool", "content"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "160.png",
+      "designer": "DESIGNER",
+      "weight": "2", 
+      "status": "todo", 
+      "year-start": 2003,
+      "year": 2023,
+      "players": [1, 2, 3, 4],
+      "length": 0,
+      "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
+      "url_WF": "pages/004-drupal.htm#masayume",
+      "dir": "-"
     }
-
 
 
   },

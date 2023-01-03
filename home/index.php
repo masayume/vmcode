@@ -49,20 +49,20 @@
   <div class="_exa">
     <h4>PAGES</h4>
       <ul>
-        <li> <a href="tools.php" target="_blank"><b>TOOLS page</b></a> </li>
-        <li> <a href="unity.php" target="_blank"><b>UNITY page</b></a> </li>
-        <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
-        <li> <a href="pixelart.php" target="_blank"><b>PIXELART page</b></a> </li>
-        <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
-        <li> <a href="ai.php" target="_blank"><b>AI page</b></a> </li>
-        <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
-        <li> <a href="retro.php" target="_blank"><b>RETRO page</b></a> </li>
+        <li> <a href="tools.php" target="_blank"><b>TOOLS</b></a> 
+             <a href="unity.php" target="_blank"><b>UNITY</b></a>
+             <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
+        <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
+             <a href="nihongo.php" target="_blank"><b>NIHONGO</b></a>
+             <a href="ai.php" target="_blank"><b>AI</b></a> </li>
+        <li> <a href="retro.php" target="_blank"><b>RETRO</b></a>
+             <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
         </ul>
     <h4>Solomon's World</h4>
 	<ul>
-	<li><a href="/solomons/solomons.php">solomon tools</a></li>
-	<li><a href="/solomons/sprite.htm">sprites</a></li>
-	<li><a href="/solomons/assets.php">assets</a></li>
+	<li><a href="/solomons/solomons.php">TOOLS</a>
+	    <a href="/solomons/sprite.htm">SPRITES</a>
+	    <a href="/solomons/assets.php">ASSETS</a></li>
 	</ul>
     <h4>Video, Music, Sounds</h4>
 	<ul>
@@ -214,7 +214,7 @@
             <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a></li> 
                 <a href="/HTML5/taktix/">Oblique Taktix</a> 
                 <a href="/inspire/@CARTOONS/SIO/bin/sio.php"><b>siomixbot</b></a> </a>
-                <a href="http://localhost:8989/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> </li>
+                <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> </li>
             <li>    <a href="/oglaf.php">Oglaf RND comic</a> 
                 <a href="/rory.php">rory story cubes</a> </li>
           </ul>
@@ -329,7 +329,7 @@
   <div class="_exa">
 	<h4>js graph</h4>
 	<ul>
-    <li><a href="http://localhost:8989/three.js/examples/">Three.js examples</a></li>
+    <li><a href="/three.js/examples/">Three.js examples</a></li>
     <li><a href="https://www.babylonjs.com/">babylonjs</a> - <a href="http://www.babylonjs-playground.com/#BCU1XR#0">examples</a></li>
     <li><a href="https://pixijs.io/examples">pixi.js</a> examples</li>
     <li><a href="/c64/crayon.js%20-%20example.htm">Crayon.js</a></li>
