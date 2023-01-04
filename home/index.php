@@ -72,7 +72,15 @@
 		<li><a href="/3dpiano">piano 3D</a> - <a href='https://github.com/reality3d/3d-piano-player'>github</a></li>
 		<li><a href="/demon/soundboard/">soundboard</a></li>
   </ul>
-    <h4>Text 2 Speech</h4>
+
+  <h4>AI img repositories</h4>
+    <ul>
+      <li> <a href="https://lexica.art/"><b>lexica.art </b></a> </li>
+      <li> <a href="https://libraire.ai/"><b>libraire.ai</b></a>  </li>
+      <li> <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
+    </ul>
+
+  <h4>Text 2 Speech</h4>
   <ul>
     <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
   </ul>
