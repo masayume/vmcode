@@ -1332,16 +1332,20 @@ sub page_footer {
 	my ($lsfile) = @_;
 
 	my ($dev,$ino,$mode,$nlink,$uid,$gid,$rdev,$size,$atime,$mtime,$ctime,$blksize,$blocks) = stat($lsfile) if -e $lsfile ;
-	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: $size - last mod: " . strftime('%d/%m/%Y', localtime($mtime)) . "<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'><b>generate card list file</b></a> (from images)<br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite2=1'>generate card list file</a> (from cardsfolder) ";
+	my $filestats = "card list file name: <a href='/css/$lsfile' target='_blank'>$lsfile</a> - size: <b>$size</b> - last mod: <b>" . strftime('%d/%m/%Y', localtime($mtime)) . 
+		"</b><br> - <a href='/cgi-bin/magic-cards2.pl?smartwrite=1'><b>generate card list file</b></a> (from images) - <a href='/cgi-bin/magic-cards2.pl?smartwrite2=1'>generate card list file</a> (from cardsfolder) ";
 
     my $page =<<"EOF";
-
 
 <div style="padding-left: 20px; width: 500px;">
 <small>
 <br><br>
 <b>$#cards cards in directory: $dir (VM) </b> - <a href="file:///home/masayume/DATA/C/pics/cards/" target="_blank">file:///home/masayume/DATA/C/pics/cards/</a> (locale) 
 <br>$filestats
+
+<br><b>1. save new card images to:</b> <code>/home/masayume/DATA/C/pics/cards-new-faster/</code>
+<br><b>2. move new card images saved from previous dir to:</b> <code>/home/masayume/DATA/C/pics/cards/</code>
+
 <br><a href="/cgi-bin/magic-missing.pl" target="_blank">missing cards (use this script and please wait)</a> 
 <br><a href="/cgi-bin/magic-cards2.pl?realimagelist=1" target="_blank">missing cards (by cards.diff)</a> 
 <br><a href="/css/magic-cards.css" target="_blank">magic-cards.css</a> in /var/www/html/css/
