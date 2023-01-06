@@ -14,6 +14,7 @@ closedir DIR;
 
 $counter = 0;
 @subdirs = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'w', 'y', 'z' );
+# @subdirs = ('s');
 foreach $sd (@subdirs) {
 	# @texts = ();
 	$dir = "/home/masayume/forge/res/cardsfolder/$sd";
@@ -23,6 +24,7 @@ foreach $sd (@subdirs) {
 
 	foreach $t (@texts) {
 
+		if($t eq "." || $t eq ".."){ next; }
 		# if ($counter > 100) { exit(1); }
 
 		$cardrawname = `head -1 /home/masayume/forge/res/cardsfolder/$sd/$t`;
@@ -32,8 +34,8 @@ foreach $sd (@subdirs) {
 #	    ($tname, $null) = split /\./, $t;
 #		$tname =~ s/_/ /g;
 #		$tname = uc($tname);
-
 #		print "\n<br> TEXT: " . $tname ;
+
 	    $texts{$tname} = 1;
 
 	    ### check if exists file
@@ -42,7 +44,10 @@ foreach $sd (@subdirs) {
 			$cardlink = "http://magiccards.info/query?q=" . $tname . "&v=card&s=cname";
 			print "\n<br>missing: <a href='$cardlink' target='_blank'>$tname</a> ($imagefilename)";
 			$counter++;
-		}
+		} 
+		else {
+			print "\n <!-- <br>OK: <a href='$cardlink' target='_blank'>$tname</a> ($imagefilename) -->";
+		} 
 	}
 
 ### http://magiccards.info/query?q=Yawgmoth,%20Thran%20Physician&v=card&s=cname

@@ -3,15 +3,15 @@
 
 use lib qw(.);
 
-### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1				READS card list file above
-### http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1&seed=999999&filter=sepia	
-### http://localhost:8989/cgi-bin/magic-cards2.pl?cardname=indreaver 			SPECIFIC CARD
-### http://localhost:8989/cgi-bin/magic-cards2.pl?l=1#top
-### http://localhost:8989/cgi-bin/magic-cards2.pl?wordnet=1
-### http://localhost:8989/cgi-bin/magic-cards2.pl?lowfi=1
-### http://localhost:8989/cgi-bin/magic-cards2.pl?dbxtract=1
-### http://localhost:8989/cgi-bin/magic-cards2.pl?smartwrite2=1			WRITES card list file from TEXT card files in forge/res/cardsfolder
-### http://localhost:8989/cgi-bin/magic-cards2.pl?filter=random			applies a random filter to card images
+### /cgi-bin/magic-cards2.pl?smartread2=1							READS card list file above
+### /cgi-bin/magic-cards2.pl?smartread2=1&seed=999999&filter=sepia	
+### /cgi-bin/magic-cards2.pl?cardname=indreaver 					SPECIFIC CARD
+### /cgi-bin/magic-cards2.pl?l=1#top
+### /cgi-bin/magic-cards2.pl?wordnet=1
+### /cgi-bin/magic-cards2.pl?lowfi=1
+### /cgi-bin/magic-cards2.pl?dbxtract=1
+### /cgi-bin/magic-cards2.pl?smartwrite2=1			WRITES card list file from TEXT card files in forge/res/cardsfolder
+### /cgi-bin/magic-cards2.pl?filter=random			applies a random filter to card images
 
 ### functions
 #	page_footer: 
@@ -1342,6 +1342,7 @@ sub page_footer {
 <br><br>
 <b>$#cards cards in directory: $dir (VM) </b> - <a href="file:///home/masayume/DATA/C/pics/cards/" target="_blank">file:///home/masayume/DATA/C/pics/cards/</a> (locale) 
 <br>$filestats
+<br><a href="/cgi-bin/magic-missing.pl" target="_blank">missing cards (use this script and please wait)</a> 
 <br><a href="/cgi-bin/magic-cards2.pl?realimagelist=1" target="_blank">missing cards (by cards.diff)</a> 
 <br><a href="/css/magic-cards.css" target="_blank">magic-cards.css</a> in /var/www/html/css/
 <br><a href="/js/" target="_blank">javascript libraries</a> in /var/www/html/js/
