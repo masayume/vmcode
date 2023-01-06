@@ -60,7 +60,7 @@ my 	$enable_wordnet = 0; ### 1: ENABLE WORDNET - 0: DISABLE WORDNET
 my (%POST, %QUERY, @cards);
 &parse_args;
 
-$cardsnum 		= 3;
+$cardsnum 		= 4;
 $dir 			= $Config->{ImageDir}; 	# IMAGE cards directory
 $dir2			= $Config->{CardDir}; 	# TEXT cards directory 
 $lsfile			= 'mtglsfile.list';
@@ -1340,7 +1340,7 @@ sub page_footer {
 <div style="padding-left: 20px; width: 500px;">
 <small>
 <br><br>
-<b>$#cards cards in directory: $dir </b> - <a href="file:///home/masayume/DATA/C/pics/cards/" target="_blank">file:///home/masayume/DATA/C/pics/cards/</a> 
+<b>$#cards cards in directory: $dir (VM) </b> - <a href="file:///home/masayume/DATA/C/pics/cards/" target="_blank">file:///home/masayume/DATA/C/pics/cards/</a> (locale) 
 <br>$filestats
 <br><a href="/cgi-bin/magic-cards2.pl?realimagelist=1" target="_blank">missing cards (by cards.diff)</a> 
 <br><a href="/css/magic-cards.css" target="_blank">magic-cards.css</a> in /var/www/html/css/
