@@ -728,15 +728,23 @@ sub cards { # imposta il layout principale per mostrare le carte
 
 		$cssmanastyle = &manacost2style($carddata{'ManaCost'});
 
+		$sizeStr = "<br>Size: $size  </small>";
+		if ($size < 110000) {
+			$sizeStr = "<br></small><b>Size: <strong>$size</strong></b>  ";
+		} else {
+			$sizeStr = "<br>Size: $size  </small>";
+		}
+
 		$cddata		=<<"EOF";
 <!-- The text field -->
 <input type="text" value="$carddata{'Name'}.full.jpg" id="myInput$i" size="42">
 <!-- The button used to copy the text -->
-<button onclick="myFunction$i()">Copy</button>
+<button onclick="myFunction$i()">Copy Card Name to Clipboard</button>
 <br><small>Imagefile: $imagefile
 <br>image filename: $cdname
 <br >textfile2: $textfile2 
-<br>Size: $size  </small>
+<!-- <br>Size: $size  </small> -->
+$sizeStr
 <script type='text/javascript'>
 function myFunction$i() {
   /* Get the text field */
@@ -1048,7 +1056,8 @@ sub cardimage {
 	$cardtitle 	=~ s/\.full\.jpg$//;
 	$cardtitle 	=~ s/_/\+/;
 	$cardurl 	= 'http://magiccards.info/query?q=' . $cardtitle . '&v=card&s=cname';
-	$cardurl2	= 'https://magidex.com/search?q=' . $cardtitle;
+	$cardurl2	= 'https://magidex.com/search?q=' . $cardtitle; 
+	$cardurl3	= 'https://www.facetofacegames.com/search/?keyword=' . $cardtitle; # https://www.facetofacegames.com/search/?keyword=syphon%20mind
 	my $enc_img = $cardtitle;
 
 	$imageurl = $rcards[$i]; $imageurl =~ s/[:"\?]//g;
@@ -1082,7 +1091,11 @@ sub cardimage {
 
 	
 	
-	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> <a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> <a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> --- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
+	$cardimage .= "<a href=\"/cards2/" . $rcards[$i] . "\" target='_blank'><small> $rcards[$i] </small></a> 
+		<a href=\"$cardurl\" target=\"_blank\">[MtGC]</a> 
+		<a href=\"$cardurl2\" target=\"_blank\">[magidex]</a> 
+		<a href=\"$cardurl3\" target=\"_blank\">[face2face]</a> 
+		--- <td style='height:300px; width:380px; table-layout:fixed;'>" . 
 		"<a href=\"/cgi-bin/magic-cards2.pl$smartread_url\">" . 
 		"\n" . 
 		"\n<!-- CARD -->" . 
@@ -1337,7 +1350,7 @@ sub page_footer {
 
     my $page =<<"EOF";
 
-<div style="padding-left: 20px; width: 500px;">
+<div style="padding-left: 20px; width: 520px;">
 <small>
 <br><br>
 <b>$#cards cards in directory: $dir (VM) </b> - <a href="file:///home/masayume/DATA/C/pics/cards/" target="_blank">file:///home/masayume/DATA/C/pics/cards/</a> (locale) 
