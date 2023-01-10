@@ -68,8 +68,8 @@
 	<ul>
     <li><a href="/HTML5/holden/index.php?vfolder=VIDEO">local video ★★</a></li>
     <li><a href="/demon/OSS/oss.php">OSS ★★★</a></li>
-		<li><a href="/jsSID">jsSID</a> - <a href='https://github.com/jhohertz/jsSID'>github</a></li>
-		<li><a href="/3dpiano">piano 3D</a> - <a href='https://github.com/reality3d/3d-piano-player'>github</a></li>
+		<li><a href="/jsSID">jsSID</a> <a href='https://github.com/jhohertz/jsSID'>gh</a> - 
+		    <a href="/3dpiano">piano3D</a> <a href='https://github.com/reality3d/3d-piano-player'>gh</a></li>
 		<li><a href="/demon/soundboard/">soundboard</a></li>
   </ul>
 
@@ -80,10 +80,12 @@
       <li> <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
     </ul>
 
-  <h4>Text 2 Speech</h4>
-  <ul>
-    <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
-  </ul>
+  <h4>holden</h4>
+    <ul>
+      <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC</b></a> </li>
+      <li> <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>mabius</b></a>  </li>
+    </ul>
+
 
   </div>
 
@@ -149,7 +151,7 @@
     <li> <a href="/html5/isotope/isotope-VGinfo/"><b>ISO VG by Year</b></a> </li>
     <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
     <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a> </li>
-
+  </ul>
 
   <h4>VIDEO</h4>
   <ul>
@@ -172,20 +174,18 @@
 </div>
 
   <div class="_exa">
-        <h4>DRUPAL</h4>
-        <ul>
-        <li><a href="/drupal8">drupal8-01</a></li>
-        </ul>
 
         <h4>WEB TOOLS</h4>
         <ul>
-          <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
-          <li><a href="http://webtoolkitonline.com">webtools</a></li>
+          <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
+              <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a>
+              <a href="http://webtoolkitonline.com">webtools</a></li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
           <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
 	        <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
-	        <li><a href="/HTML5/dagre/">dagre</a> - <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a></li>
-          <li><a href="http://jupyter.org/">jupyter</a></li>
+	        <li><a href="/HTML5/dagre/">dagre</a> - 
+              <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a> - 
+              <a href="http://jupyter.org/">jupyter</a></li>
           <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
 
@@ -196,8 +196,8 @@
         <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabius all</b></a>          
             <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
             <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
-        <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> </li>
-        <li><a href="/keplerion/layerizer.php">layerizer</a> </li>
+        <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
+            <a href="/keplerion/layerizer.php">layerizer</a> </li>
         <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions.htm">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
         <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">readme</a> </li>
         <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> (online) </li>
@@ -310,6 +310,16 @@
     <h4>pico-8</h4>
       <ul>
         <li><a href="https://www.masayume.it/blog/content/pico-8-la-fantasy-console"><b>my.it (L/PICO8)</b></a></li>
+      </ul>
+
+    <h4>DRUPAL</h4>
+      <ul>
+        <li><a href="/drupal8">drupal8-01</a></li>
+      </ul>
+
+    <h4>Text 2 Speech</h4>
+      <ul>
+        <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
       </ul>
 
   </div>
