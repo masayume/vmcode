@@ -844,11 +844,34 @@ EOF
 
 	}
 
+	# tool column
+	$cards_html .= &extracardcol();
+
 	$cards_html .= "\n\n</tr><tr> $selected </tr></table></center>";
 
 	return $cards_html;
 
 } #end sub cards
+
+
+sub extracardcol {
+
+	$col_html = "<td rowspan=\"2\" style=\"width: 120px; \"><ul style=\"padding-inline-start: 20px; \">";
+
+	$tddata		=<<"EOF";
+<h2>img-tools</h2>
+<li><a href="https://www.restorephotos.io/restore" target="_blank" title="AI upscale and sharpen image tool">restorephoto</a></li>
+<li><a href="https://cloudconvert.com/webp-to-jpg" target="_blank" title="convert from webp to jpg or other formats">webp2jpg</a></li>
+<li><a href="link" target="_blank">text</a></li>
+<li><a href="link" target="_blank">text</a></li>
+<li><a href="https://huggingface.co/spaces/fffiloni/stable-diffusion-img2img" target="_blank" title="transform image">img2img</a></li>
+EOF
+	$col_html .= $tddata;
+	$col_html .= "</ul></td>";
+
+	return $col_html;
+
+} # end extracardcol
 
 sub skillmapper {
 		my $skill2map = $_[0];
