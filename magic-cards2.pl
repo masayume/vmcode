@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-##!/usr/bin/speedy
 
 use lib qw(.);
 
@@ -856,18 +855,25 @@ EOF
 
 sub extracardcol {
 
-	$col_html = "<td rowspan=\"2\" style=\"width: 120px; \"><ul style=\"padding-inline-start: 20px; \">";
+	$col_html = "<td rowspan=\"2\" style=\"width: 120px; \">";
 
 	$tddata		=<<"EOF";
 <h2>img-tools</h2>
+<ul style="padding-inline-start: 20px; ">
 <li><a href="https://www.restorephotos.io/restore" target="_blank" title="AI upscale and sharpen image tool">restorephoto</a></li>
 <li><a href="https://cloudconvert.com/webp-to-jpg" target="_blank" title="convert from webp to jpg or other formats">webp2jpg</a></li>
 <li><a href="link" target="_blank">text</a></li>
 <li><a href="link" target="_blank">text</a></li>
 <li><a href="https://huggingface.co/spaces/fffiloni/stable-diffusion-img2img" target="_blank" title="transform image">img2img</a></li>
+</ul>
+<h2>scripts</h2>
+<ul style="padding-inline-start: 20px; ">
+<li><a href="link" target="_blank">text</a></li>
+</ul>
+
 EOF
 	$col_html .= $tddata;
-	$col_html .= "</ul></td>";
+	$col_html .= "</td>";
 
 	return $col_html;
 
