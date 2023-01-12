@@ -55,13 +55,13 @@ my $Config 	= $cfg->vars();
 
 my 	$enable_wordnet = 0; ### 1: ENABLE WORDNET - 0: DISABLE WORDNET
 
-
 my (%POST, %QUERY, @cards);
 &parse_args;
 
 $cardsnum 		= 4;
 $dir 			= $Config->{ImageDir}; 	# IMAGE cards directory
 $dir2			= $Config->{CardDir}; 	# TEXT cards directory 
+$version		= $Config->{Version}; 	# TEXT cards directory 
 $lsfile			= 'mtglsfile.list';
 $lsfile2		= 'mtglsfile2.list';
 $lsfile_prefx 	= 'mtgls-';
@@ -855,20 +855,24 @@ EOF
 
 sub extracardcol {
 
-	$col_html = "<td rowspan=\"2\" style=\"width: 120px; \">";
+	$col_html 	= "<td rowspan=\"2\" style=\"width: 130px; \">";
 
 	$tddata		=<<"EOF";
-<h2>img-tools</h2>
+<h2>Version</h2>
+$version
+<h2> img-tools</h2>
 <ul style="padding-inline-start: 20px; ">
 <li><a href="https://www.restorephotos.io/restore" target="_blank" title="AI upscale and sharpen image tool">restorephoto</a></li>
 <li><a href="https://cloudconvert.com/webp-to-jpg" target="_blank" title="convert from webp to jpg or other formats">webp2jpg</a></li>
-<li><a href="link" target="_blank">text</a></li>
-<li><a href="link" target="_blank">text</a></li>
+<li><a href="link" target="_blank"><i>text</i></a></li>
+<li><a href="link" target="_blank"><i>text</i></a></li>
 <li><a href="https://huggingface.co/spaces/fffiloni/stable-diffusion-img2img" target="_blank" title="transform image">img2img</a></li>
 </ul>
-<h2>scripts</h2>
+<h2> scripts</h2>
 <ul style="padding-inline-start: 20px; ">
-<li><a href="link" target="_blank">text</a></li>
+<li> <a title="script in vmcode dir to be run via CLI: creates an html page with a list of low size card images in /home/masayume/DATA/C/pics/cards-new-faster/ directory">magic-lowres.sh</a> </li>
+<li> <i>text</i> </li>
+<li> <i>text</i> </li>
 </ul>
 
 EOF
