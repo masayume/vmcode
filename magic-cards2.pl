@@ -871,7 +871,7 @@ $version
 <h2> scripts</h2>
 <ul style="padding-inline-start: 20px; ">
 <li> <a title="script in vmcode dir to be run via CLI: creates an html page with a list of low size card images in /home/masayume/DATA/C/pics/cards-new-faster/ directory">magic-lowres.sh</a> </li>
-<li> <i>text</i> </li>
+<li> <a title="script to change image.jpg to image.full.jpg in /home/masayume/DATA/C/pics/cards-new-faster/ directory"><i>0-2full.sh</i></a> </li>
 <li> <i>text</i> </li>
 </ul>
 
