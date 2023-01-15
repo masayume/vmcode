@@ -35,11 +35,16 @@ small {
 	word-break: break-word;
 }
 .info { font-size: 14px;  }
-.title { height: 40px; line-height: 40px; padding-left: 20px; margin-top: -12px; }
-.longtitle { height: 40px; line-height: 40px; padding-left: 0px; margin-top: -12px; letter-spacing: -2px; }
+.title { height: 40px; line-height: 40px; padding-left: 20px; margin-top: 0px; }
+.longtitle { height: 40px; line-height: 40px; padding-left: 0px; margin-top: 0px; letter-spacing: -2px; }
+
+hr {
+	margin-top: 2px;
+}
+
 .strenght { 
 	position: relative; 
-	top: -16px;
+	top: -18px;
 	float: right;
 	margin-right: 4px;
 	color: #fff; 
@@ -55,7 +60,7 @@ small {
 }
 .life { 
 	position: relative; 
-	top: -16px;
+	top: -18px;
 	float: right;
 	margin-right: 4px;
 	color: #fff; 
@@ -71,7 +76,7 @@ small {
 }
 .level { 
 	position: relative; 
-	top: -16px;
+	top: -18px;
 	float: right;
 	margin-right: 4px;
 	color: #fff; 
@@ -87,7 +92,7 @@ small {
 }
 .skillicon { 
 	position: relative; 
-	top: -16px;
+	top: -18px;
 	float: right;
 	margin-right: 4px;
 	color: #fff; 

@@ -243,7 +243,7 @@ sub realimagelist {
 			if (-e "$filename") {
 					$existing .= "<br>" . $image . 'exists';
 			} else {
-				print "\n<tr><td>" . $i++ ." </td><td> " ;
+				print "\n<tr><td> " . $i++ ." </td><td> " ;
 				$image2src = uri_escape($image);
 				$image2src =~ s/.full.jpg%0A//;
 				print " <a href='http://magiccards.info/query?q=" . $image2src . "&v=card&s=cname' target='_blank'>$image</a> </td><td> " . " <a href='/cards2/$image' target='_blank'>local image</a> </td></tr>";
@@ -616,7 +616,7 @@ sub listwordnet {
                 $sizehtml = "<b>" . $size . "</b>";
                 $imagehtml = "<td><a href='/cards2/$card'><img src='/cards2/$card' style='width:100px;' border=0></a></td>";
                 
-                $table .= "\n\n<tr><td>$i</td><td>"  . $card . "</td><td><pre>" . $image . "</pre></td><td>$sizehtml</td>$imagehtml</tr>";
+                $table .= "\n\n<tr><td>  $i </td><td>"  . $card . "</td><td><pre>" . $image . "</pre></td><td>$sizehtml</td>$imagehtml</tr>";
 
                 if ($i++ >= $maxpaging) { last; }
         }
@@ -669,7 +669,8 @@ sub list {
 			# $i++;$text
 		}
 
-		$table .= "\n\n<tr><td>$i</td><td>"  . $card . "</td><td><pre>" . $image . "</pre></td><td>$sizehtml</td>$imagehtml</tr>";
+		$table .= "\n\n<tr><td>$i </td><td>"  . $card . "</td><td><pre>" . $image . "</pre></td><td>$sizehtml</td>$imagehtml</tr>";
+		$table .= "\n <!-- QQ -->";
 
 #		print "<pre>" . $forgetext[0] ; exit(0);
 #		print "<pre>" . $text ; exit(0);
@@ -828,7 +829,7 @@ EOF
 
 	    	"<hr><div class='info'>" .  
 	    	# "color: $cssmanastyle" . 
-	    	"<br>type(s): <b>" . ucfirst($cssmanastyle) . " " . $carddata{'Types'} .  $ptstring . "</b>" . 
+	    	"type(s): <b>" . ucfirst($cssmanastyle) . " " . $carddata{'Types'} .  $ptstring . "</b>" . 
 	    	# "<br>power/thoughness: $pt" .
 	    	# "<br><span style='word-break: break-all;'>Special: <b>$k</b></span>" . 
 	    	$specialstring . 
@@ -872,7 +873,7 @@ $version
 <ul style="padding-inline-start: 20px; ">
 <li> <a title="script in vmcode dir to be run via CLI: creates an html page with a list of low size card images in /home/masayume/DATA/C/pics/cards-new-faster/ directory">magic-lowres.sh</a> </li>
 <li> <a title="script to change image.jpg to image.full.jpg in /home/masayume/DATA/C/pics/cards-new-faster/ directory"><i>0-2full.sh</i></a> </li>
-<li> <i>text</i> </li>
+<li> <i>text text</i> </li>
 </ul>
 
 EOF
