@@ -859,9 +859,9 @@ sub extracardcol {
 	$col_html 	= "<td rowspan=\"2\" style=\"width: 130px; \">";
 
 	$tddata		=<<"EOF";
-<h2>Version</h2>
-$version
-<h2> img-tools</h2>
+<h2> &nbsp; Version</h2>
+&nbsp; $version
+<h2> &nbsp; img-tools</h2>
 <ul style="padding-inline-start: 20px; ">
 <li><a href="https://www.restorephotos.io/restore" target="_blank" title="AI upscale and sharpen image tool">restorephoto</a></li>
 <li><a href="https://cloudconvert.com/webp-to-jpg" target="_blank" title="convert from webp to jpg or other formats">webp2jpg</a></li>
@@ -869,11 +869,21 @@ $version
 <li><a href="link" target="_blank"><i>text</i></a></li>
 <li><a href="https://huggingface.co/spaces/fffiloni/stable-diffusion-img2img" target="_blank" title="transform image">img2img</a></li>
 </ul>
-<h2> scripts</h2>
+<h2> &nbsp; scripts</h2>
 <ul style="padding-inline-start: 20px; ">
 <li> <a title="script in vmcode dir to be run via CLI: creates an html page with a list of low size card images in /home/masayume/DATA/C/pics/cards-new-faster/ directory">magic-lowres.sh</a> </li>
 <li> <a title="script to change image.jpg to image.full.jpg in /home/masayume/DATA/C/pics/cards-new-faster/ directory"><i>0-2full.sh</i></a> </li>
 <li> <i>text text</i> </li>
+</ul>
+
+<h2> &nbsp; links</h2>
+<ul style="padding-inline-start: 20px; ">
+<li> <a href="https://www.mtgpics.com/" title="" target="_blank">mtgpics</a> </li>
+<li> <a href="https://www.artofmtg.com/" title="" target="_blank">artofmtg</a> </li>
+<li> <a href="https://scryfall.com/" title="" target="_blank">scryfall</a> </li>
+<li> <a href="https://www.cardmarket.com/en/Magic/" title="" target="_blank">cardmarket</a> </li>
+<li> <a href="https://www.cardkingdom.com/" title="" target="_blank">cardkingdom</a> </li>
+<li> <a href="#" title="" target="_blank">link</a> </li>
 </ul>
 
 EOF
