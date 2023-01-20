@@ -171,6 +171,8 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@characters/'         
                   , '/inspire/@pixelart/backgrounds/landsref' // 121  
                   , '/inspire/@pixelart/backgrounds/others'   // 122  
+                  , '/inspire/@REF-poses'                     // 123  
+                  , '/inspire/@ALT_POSES'                     // 124  
 
                 );
 

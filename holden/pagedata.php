@@ -24,7 +24,7 @@ function count_assets($dir, $tag) {
 
   $dir_fullpath   = '/var/www/html' . $dir; 
   
-  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp}", GLOB_BRACE);
+  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp,mp4}", GLOB_BRACE);
 
   return count($files);
 

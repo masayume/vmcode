@@ -515,6 +515,22 @@
       "url": "https://www.masayume.it/blog/content/disco-diffusion-google-colab",
       "localdir": "",
       "notes": "utile per ..."
+    },
+    "0035": {
+      "name": "Poses",
+      "number": "35",
+      "data_cat": "player",
+      "class": ["player", "2D", "source", "reference"],
+      "theme": ["game"],
+      "img": "wf035.jpg",
+      "author": "",
+      "year": 2023,
+      "players": [1],
+      "length": 20,
+      "url": "/HTML5/inspire/workflows/workflows.infogen.htm#edits",
+      "url_WF": "pages/001-workflows.htm#Workflow04",
+      "localdir": "",
+      "notes": "utile per ..."
     }
 
 
