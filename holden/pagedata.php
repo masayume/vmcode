@@ -79,7 +79,6 @@ function pagenewtemp($dir, $tag) {
       $twitterRaw3 = "<b>safebooru:</b> <a href='https://safebooru.org/index.php?page=post&s=list&tags=" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
 
-
     $embed_asset = "<img src=\"$file\" style=\"width: 100%;\" title=\"$file\">";
 
     if (preg_match('/.mp4$/', $file)) {
@@ -110,6 +109,22 @@ function pagenewtemp($dir, $tag) {
       $pixelate = "image-rendering: pixelated;";
     }
 
+    // calculate image file TAGS and print links
+    $tags = findtags($twitterRaw2);
+    $thtmlrow = "";
+    $toppx = -20;
+    foreach ($tags as $t) {
+      $toppx    += 36;
+      $thtmlrow .= "<div style=\"width: 70px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px;\">";
+      $thtmlrow .= "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
+      $thtmlrow .= "</div>";
+    }
+    $tagshtml =<<<TGHT
+$thtmlrow
+TGHT;
+
+// print " === REQUEST_URI" . $_SERVER{'REQUEST_URI'};
+
     $template =<<<TEM
       <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'; $pixelate">
           $embed_asset
@@ -121,6 +136,8 @@ function pagenewtemp($dir, $tag) {
           <br />
           <small><small>downloaded: $filedate - $filesize bytes </small></small>
 
+          $tagshtml
+
       </div>
 TEM;
   
@@ -129,6 +146,29 @@ TEM;
     return $html_elements;
   
 } // end function page
+
+
+function findtags($tw) {
+
+  // print "TW parameter: " . $tw;
+  $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
+  $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.(\w+)\-/', '', $tw);    // clears mastodon prefix
+  $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
+  $matches = explode('-', $tw);
+  array_pop($matches);
+
+  /*
+  preg_match("/\-(\w+)\-/g", $tw, $matches);
+  print "<pre>";
+  print_r($matches);
+  print "</pre>";
+
+  $found = ["PS2", "JAP"];
+  */ 
+
+  return $matches;
+
+} // end function findtags
 
 
 function page($dir, $tag) {
