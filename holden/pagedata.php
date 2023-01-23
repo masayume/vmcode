@@ -109,7 +109,9 @@ function pagenewtemp($dir, $tag) {
       $pixelate = "image-rendering: pixelated;";
     }
 
+    // TAGS DIV
     // calculate image file TAGS and print links
+
     $tags = findtags($twitterRaw2);
     $thtmlrow = "";
     $toppx = -20;
@@ -119,11 +121,11 @@ function pagenewtemp($dir, $tag) {
       $thtmlrow .= "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
       $thtmlrow .= "</div>";
     }
+
     $tagshtml =<<<TGHT
 $thtmlrow
 TGHT;
 
-// print " === REQUEST_URI" . $_SERVER{'REQUEST_URI'};
 
     $template =<<<TEM
       <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'; $pixelate">
@@ -152,7 +154,7 @@ function findtags($tw) {
 
   // print "TW parameter: " . $tw;
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
-  $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.(\w+)\-/', '', $tw);    // clears mastodon prefix
+  $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);    // clears mastodon prefix - ma-@LordArse@toot.community-
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
   array_pop($matches);
