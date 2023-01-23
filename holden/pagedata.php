@@ -154,6 +154,7 @@ function findtags($tw) {
 
   // print "TW parameter: " . $tw;
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
+  $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);    // clears mastodon prefix - ma-@LordArse@toot.community-
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
