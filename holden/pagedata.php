@@ -117,7 +117,8 @@ function pagenewtemp($dir, $tag) {
     $toppx = -20;
     foreach ($tags as $t) {
       $toppx    += 36;
-      $thtmlrow .= "<div style=\"width: 70px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px;\">";
+      $width     = max(50, (10*strlen($t)) );
+      $thtmlrow .= "<div style=\"width: ${width}px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px;\">";
       $thtmlrow .= "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
       $thtmlrow .= "</div>";
     }
@@ -155,6 +156,7 @@ function findtags($tw) {
   // print "TW parameter: " . $tw;
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
+  $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);    // clears mastodon prefix - ma-@LordArse@toot.community-
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
