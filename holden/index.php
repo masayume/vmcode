@@ -237,11 +237,11 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
 <div class="float-left" style=" position: fixed; margin-top: 10px; top: 10px; transform: translateY(0px); z-index: 1000;">
 
     <br clear="all" />
-    <h4>assets</h4>
-    <div id="references" style="position:relative; left: -20px; ">
-      <ul>
-        <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" >RELOAD</a><br />
-        <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" >NO TAGS</a>
+    <h4>&nbsp; holden</h4>
+    <div id="references" style="position:relative; left: 6px; ">
+      <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" style="">RELOAD</a><br style="padding-bottom: 8px;"/>
+      <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" >NO TAGS</a><br />
+      <ul style="margin-left:-5px;">
         <li><?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
         <li><a href='refURL'>ref</a></li>
         <!--

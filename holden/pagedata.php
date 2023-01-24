@@ -117,7 +117,7 @@ function pagenewtemp($dir, $tag) {
     $toppx = -20;
     foreach ($tags as $t) {
       $toppx    += 36;
-      $width     = max(50, (10*strlen($t)) );
+      $width     = max(68, (10*strlen($t)) );
       $thtmlrow .= "<div style=\"width: ${width}px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px;\">";
       $thtmlrow .= "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
       $thtmlrow .= "</div>";
