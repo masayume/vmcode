@@ -63,6 +63,7 @@
         <li> <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
         <li> <a href="https://lexica.art/" target="_blank"><b>lexica.art</b></a> </li>
         <li> <a href="https://libraire.ai/" target="_blank"><b>libraire.ai</b></a> </li>
+        <li> <a href="https://civit.ai/" target="_blank"><b>civit.ai</b></a> </li>
       </ul>
 
     <h4>SOURCES</h4>
