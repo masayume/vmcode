@@ -173,6 +173,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/backgrounds/others'   // 122  
                   , '/inspire/@REF-poses'                     // 123  
                   , '/inspire/@ALT_POSES'                     // 124  
+                  , '/inspire/@backs'                         // 125
 
                 );
 
@@ -239,8 +240,8 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
     <br clear="all" />
     <h4>&nbsp; holden</h4>
     <div id="references" style="position:relative; left: 6px; ">
-      <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" style="">RELOAD</a><br style="padding-bottom: 8px;"/>
-      <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" >NO TAGS</a><br />
+      <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" style="width: 104px; " > RELOAD </a><br style="padding-bottom: 8px;"/>
+      <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" style="width: 104px; " > NO TAGS </a><br />
       <ul style="margin-left:-5px;">
         <li><?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
         <li><a href='refURL'>ref</a></li>
