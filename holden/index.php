@@ -159,7 +159,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
 // 110
                   , '/inspire/@characters/Asuka'
                   , '/inspire/@CARTOONS/bayonetta'    // 111
-                  , '/inspire/@characters/VOID'
+                  , '/inspire/@pixelart/1bit'
                   , '/inspire/@characters/Lamu'
                   , '/inspire/@characters/MIKU'
                   , '/inspire/@characters/Misato'

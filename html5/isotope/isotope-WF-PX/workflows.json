@@ -56,20 +56,21 @@
       "notes": "utile per ..."
     },
     "0004": {
-      "name": "MRMO-Halftone",
-      "number": "4",
+      "name": "Aseprite",
+      "number": "16",
       "data_cat": "player",
-      "class": ["player", "2D", "pixelart", "rendering", "style", "tools"],
+      "class": ["player", "2D", "pixelart", "tools"],
       "theme": ["game"],
-      "img": "wfpx004.jpg",
-      "author": "MRMO Tarius",
+      "img": "wfpx016.jpg",
+      "author": "",
       "rating": 3, 
       "weight": 3, 
-      "year": 2022,
+      "year": 2020,
       "players": [1],
       "length": 150,
-      "url": "https://mrmotarius.itch.io/mrmo-halftone",
-      "localdir": "/home/masayume/Downloads/MRMO-Halftone Basic V1.23b.zip",
+      "url": "https://github.com/masayume/DigitalGarden/tree/main/2dgraphics/aseprite",
+      "url_WF": "pages/001-pixatool.htm#Workflow05",
+      "localdir": "",
       "notes": "utile per ..."
     },
     "0005": {
@@ -86,6 +87,7 @@
       "players": [1],
       "length": 150,
       "url": "https://twitter.com/gxndyy/status/1539020045728325633",
+      "url_WF": "/HTML5/holden/index.php?art1=112&art2=112",
       "localdir": "",
       "notes": "utile per ..."
     },
@@ -265,20 +267,20 @@
       "notes": "utile per ..."
     },
     "0016": {
-      "name": "Aseprite",
-      "number": "16",
+      "name": "MRMO-Halftone",
+      "number": "4",
       "data_cat": "player",
-      "class": ["player", "2D", "pixelart", "tools"],
+      "class": ["player", "2D", "pixelart", "rendering", "style", "tools"],
       "theme": ["game"],
-      "img": "wfpx016.jpg",
-      "author": "",
+      "img": "wfpx004.jpg",
+      "author": "MRMO Tarius",
       "rating": 3, 
       "weight": 3, 
-      "year": 2020,
+      "year": 2022,
       "players": [1],
       "length": 150,
-      "url": "https://github.com/masayume/DigitalGarden/tree/main/2dgraphics/aseprite",
-      "localdir": "",
+      "url": "https://mrmotarius.itch.io/mrmo-halftone",
+      "localdir": "/home/masayume/Downloads/MRMO-Halftone Basic V1.23b.zip",
       "notes": "utile per ..."
     },
     "0017": {
@@ -313,7 +315,7 @@
       "players": [1],
       "length": 150,
       "url": "/html5/CleanEdge/",
-      "url_WF": "pages/001-pixatool.htm#Workflow01",
+      "url_WF": "http://localhost:8910/html5/CleanEdge/",
       "localdir": "",
       "notes": "utile per ..."
     },
@@ -609,6 +611,7 @@
       "players": [1],
       "length": 20,
       "url": "https://www.pinterest.co.uk/masayume/lateral/",
+      "url_WF": "/HTML5/holden/index.php?art1=112&art2=112",
       "localdir": "",
       "notes": "utile per ..."
     },
