@@ -40,13 +40,13 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/altan/'
                   , '/inspire/@CARTOONS/@expressions/'
                   , '/inspire/@CARTOONS/@NIEMANN/'
+                  , '/inspire/@CARTOONS/ADAM HUGHES'  // 4
                   , '/inspire/@CARTOONS/arthurdepins'
                   , '/inspire/@CARTOONS/azumanga'
                   , '/inspire/@CARTOONS/BALDAZZINI'
                   , '/inspire/@CARTOONS/bayonetta'
-                  , '/inspire/@CARTOONS/BEATON'
-                  , '/inspire/@CARTOONS/bernet'
-                  , '/inspire/@CARTOONS/Boulet'       // 9
+                  , '/inspire/@CARTOONS/bernet'       
+                  , '/inspire/@CARTOONS/Boulet'       // 10
 // 10
                   , '/inspire/@CARTOONS/brosgol'
                   , '/inspire/@MISC-STYLE'            // 12
@@ -65,10 +65,10 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/DCWJ'
                   , '/inspire/@CARTOONS/dillon'
                   , '/inspire/@CARTOONS/Elvgren'
-                  , '/inspire/@CARTOONS/eriadan'
+                  , '/inspire/@CARTOONS/birault'
                   , '/inspire/@CARTOONS/EVA'
                   , '/inspire/@CARTOONS/@expressions'
-                  , '/inspire/@CARTOONS/faboarts'     // 29
+                  , '/inspire/@CARTOONS/faboarts'     // 30
 // 30
                   , '/inspire/@CARTOONS/fran'
                   , '/inspire/@CARTOONS/gamercat'
@@ -79,7 +79,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/hatsune'
                   , '/inspire/@CARTOONS/hipp'
                   , '/inspire/@CARTOONS/Hogarth'
-                  , '/inspire/@CARTOONS/IMAGINISM'    // 39
+                  , '/inspire/@CARTOONS/IMAGINISM'    // 40
 // 40
                   , '/inspire/@CARTOONS/incidental'
                   , '/inspire/@CARTOONS/inkspinster'
@@ -90,7 +90,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/IMAGINISM'
                   , '/inspire/@CARTOONS/incidental'
                   , '/inspire/@CARTOONS/inkspinster'
-                  , '/inspire/@CARTOONS/JAIME'        // 49
+                  , '/inspire/@CARTOONS/JAIME'        // 50
 // 50
                   , '/inspire/@CARTOONS/karioks'
                   , '/inspire/@CARTOONS/Karla'
@@ -101,7 +101,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/lucky'
                   , '/inspire/@CARTOONS/lucy'
                   , '/inspire/@CARTOONS/mersenne-reference'
-                  , '/inspire/@CARTOONS/MAGNUS'      // 59
+                  , '/inspire/@CARTOONS/MAGNUS'      // 60
 // 60
                   , '/inspire/@CARTOONS/MANGA'
                   , '/inspire/@CARTOONS/moebius'
@@ -112,7 +112,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/NENDOROID'
                   , '/inspire/@CARTOONS/@NIEMANN'
                   , '/inspire/@CARTOONS/NOndoroid'
-                  , '/inspire/@CARTOONS/Oglaf'       // 69
+                  , '/inspire/@CARTOONS/Oglaf'       // 70
 // 70
                   , '/inspire/@CARTOONS/oji'
                   , '/inspire/@CARTOONS/pixels'
@@ -121,11 +121,11 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/Ross'
                   , '/inspire/@CARTOONS/sakimi'
                   , '/inspire/@CARTOONS/Sandman'
-                  , '/inspire/@CARTOONS/satira'
+                  , '/inspire/@CARTOONS/satira'      // 78
                   , '/inspire/@CARTOONS/savage'
-                  , '/inspire/@CARTOONS/sho'         // 79
+                  , '/inspire/@CARTOONS/sho'         // 80
 // 80
-                  , '/inspire/@CARTOONS/shunya'
+                  , '/inspire/@CARTOONS/shunya yamashita'
                   , '/inspire/@CARTOONS/SIO'                  
                   , '/inspire/@CARTOONS/soffritti'
                   , '/inspire/@CARTOONS/stanley'
@@ -134,7 +134,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/@surreal'
                   , '/inspire/@CARTOONS/TARA'
                   , '/inspire/@CARTOONS/TOM'
-                  , '/inspire/@CARTOONS/tron'         // 89
+                  , '/inspire/@CARTOONS/tron'         // 90
 // 90
                   , '/inspire/@CARTOONS/vanillaware'
                   , '/inspire/@CARTOONS/vincenzina'
@@ -146,7 +146,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/STYLE'
                   , '/inspire/@characters/chun li'    // 99 
 // 100
-                  , '/inspire/@pixelart/cute'
+                  , '/inspire/@pixelart/cute'         // 100
                   , '/inspire/@pixelart/backgrounds'  // 101
                   , '/inspire/@pixelart/frame'
                   , '/inspire/@pixelart/monster-refs'
@@ -158,15 +158,15 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/'             // 109
 // 110
                   , '/inspire/@characters/Asuka'
-                  , '/inspire/@characters/bayonetta'
-                  , '/inspire/@characters/chun li'
+                  , '/inspire/@CARTOONS/bayonetta'    // 111
+                  , '/inspire/@characters/VOID'
                   , '/inspire/@characters/Lamu'
                   , '/inspire/@characters/MIKU'
                   , '/inspire/@characters/Misato'
-                  , '/inspire/@characters/Mona'
-                  , '/inspire/@characters/morrigan'
+                  , '/inspire/@characters/Mona' 
+                  , '/inspire/@characters/morrigan'   
                   , '/inspire/@characters/quorra'
-                  , '/inspire/@characters/motoko'    // 119
+                  , '/inspire/@characters/motoko'    // 120
 // 120
                   , '/inspire/@characters/'         
                   , '/inspire/@pixelart/backgrounds/landsref' // 121  
