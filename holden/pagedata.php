@@ -78,6 +78,12 @@ function pagenewtemp($dir, $tag) {
       // print "<pre>"; print_r($exploded) ;
       $twitterRaw3 = "<b>safebooru:</b> <a href='https://safebooru.org/index.php?page=post&s=list&tags=" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
+    elseif (preg_match('/^da-/', $twitterRaw2) )  // calculate deviantart link
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ;
+      $twitterRaw3 = "<b>deviantart:</b> <a href='https://deviantart.com/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+    }
 
     $embed_asset = "<img src=\"$file\" style=\"width: 100%;\" title=\"$file\">";
 
@@ -157,6 +163,7 @@ function findtags($tw) {
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
+  $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);    // clears mastodon prefix - ma-@LordArse@toot.community-
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
