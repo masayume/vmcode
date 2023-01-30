@@ -118,13 +118,14 @@ function pagenewtemp($dir, $tag) {
     // TAGS DIV
     // calculate image file TAGS and print links
 
-    $tags = findtags($twitterRaw2);
+    $tags     = findtags($twitterRaw2);
     $thtmlrow = "";
-    $toppx = -20;
+    $toppx    = -20;
+    $butmagw  = 72;
     foreach ($tags as $t) {
       $toppx    += 36;
-      $width     = max(68, (10*strlen($t)) );
-      $thtmlrow .= "<div style=\"width: ${width}px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px;\">";
+      $width     = max($butmagw, (12*strlen($t)) );
+      $thtmlrow .= "<div style=\"width: ${width}px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px; border:1px solid black;\">";
       $thtmlrow .= "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
       $thtmlrow .= "</div>";
     }

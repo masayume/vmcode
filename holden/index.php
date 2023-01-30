@@ -242,7 +242,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
     <div id="references" style="position:relative; left: 6px; ">
       <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" style="width: 104px; " > RELOAD </a><br style="padding-bottom: 8px;"/>
       <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" style="width: 104px; " > NO TAGS </a><br />
-      <ul style="margin-left:-5px;">
+      <ul style="margin-left:-28px;">
         <li><?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
         <li><a href='refURL'>ref</a></li>
         <!--
