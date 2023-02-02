@@ -58,10 +58,12 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 				<h1>Covers</h1>
 			</header>
 			<p>	
-				<a href='/HTML5/holden/index.php?art1=14&art2=14'>covers ★★★</a> 
-				<a href='/HTML5/holden/index.php?art1=108&art2=108'>retro ★★★</a> 
-				<a href='/HTML5/holden/index.php?art1=15&art2=15'>atari ★★★</a>
-				<a href='/HTML5/holden/index.php?art1=12&art2=12&tag1=-80s-&tag2=-80s-'>80s ★★★</a>
+				<a href='/HTML5/holden/index.php?art1=14&art2=14'>covers</a> ★ &nbsp;  
+				<a href='/HTML5/holden/index.php?art1=108&art2=108'>retro</a> ★  &nbsp;
+				<a href='/HTML5/holden/index.php?art1=127&art2=127'>snap</a> ★  &nbsp;
+				<a href='/HTML5/holden/index.php?art1=126&art2=126'>titles</a> ★  &nbsp;
+				<a href='/HTML5/holden/index.php?art1=15&art2=15'>atari</a> ★ &nbsp;
+				<a href='/HTML5/holden/index.php?art1=12&art2=12&tag1=-80s-&tag2=-80s-'>80s ★</a>
 			</p>
 			
 			<hr class="clearfix" />
