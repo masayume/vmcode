@@ -2,7 +2,7 @@
 <html >
 <head>
 <!--
-  save to ~git/vmcode/holden
+  use ./align2git.sh to sync to ~/git/vmcode/holden
 -->
 
   <meta charset="UTF-8">
@@ -244,12 +244,32 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
       <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" style="width: 104px; " > NO TAGS </a><br />
       <ul style="margin-left:-28px;">
         <li><?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
-        <li><a href='refURL'>ref</a></li>
+      </ul><br>
+
+        <h5>TAGS (<a title='<?php print $artists[$_GET['art1']]; ?>'><?php print $_GET['art1']; ?></a>)</h5><ul style="margin-left:-28px;">
         <!--
+        <li><a href='refURL'>ref</a></li>
           <pre>
             <?php // system(' cd /home/masayume/inspire/@pixelart/ ; du -a | cut -d/ -f2 | sort | uniq -c | sort -nr | head -25 ')?> 
           </pre>
         -->
+            <?php
+              // Read the JSON file $artists[$_GET['art']] = /inspire/@COVERS/retrocovers
+              $jsonfile = '/var/www/html' . $artists[$_GET['art1']] . '/tags.json';
+              $json = file_get_contents($jsonfile);
+                
+              // Decode the JSON file
+              $json_data = json_decode($json,true);
+              if ($json_data) {
+                foreach ($json_data['tags'] as $key => $value) {
+                  $NOTAG = $_GET;  unset($NOTAG['tag1']) ;   unset($NOTAG['tag2']);
+                  print "<li> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";
+                }
+              }
+              // Display data
+              // print "<pre>tags"; print_r($json_data['tags']); print "</pre>";  
+            ?>
+
       </ul>
       
     </div>

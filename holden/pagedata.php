@@ -1,7 +1,7 @@
 <?php
-/*
-save to ~git/vmcode/holden
-*/
+
+// use ./align2git.sh to sync to ~/git/vmcode/holden
+
 global $glob_res;
 
 $float = "";
