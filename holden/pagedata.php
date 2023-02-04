@@ -39,10 +39,12 @@ function pagenewtemp($dir, $tag) {
   $dir_fullpath   = '/var/www/html' . $dir; 
   
   $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp,mp4}", GLOB_BRACE);
-  
+
+  // print "pagenewtemp<br><pre>"; print_r($files); print "</pre>";
+
   $glob_res[$tag] = count($files);
 
-  $imgnum = rand(1, count($files));
+  $imgnum = rand(1, count($files)) - 1;
   
     $file = preg_replace('/^\/var\/www\/html/', "", $files[$imgnum]);
     $imagename = explode('/', $file);
@@ -161,6 +163,7 @@ TEM;
 function findtags($tw) {
 
   // print "TW parameter: " . $tw;
+  $tw = preg_replace('/^pi\-(\w+)\-/', '', $tw);                    // clears pinterest prefix
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
@@ -191,7 +194,7 @@ function page($dir, $tag) {
 
   $files = glob("$dir_fullpath/*.{jpg,png,gif,webp,mp4}", GLOB_BRACE);
 
-  $imgnum = rand(1, count($files));
+  $imgnum = rand(1, count($files)) - 1;
 
   $file = preg_replace('/^\/var\/www\/html/', "", $files[$imgnum]);
 
