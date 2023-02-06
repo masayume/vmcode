@@ -126,9 +126,18 @@ function pagenewtemp($dir, $tag) {
     $butmagw  = 72;
     foreach ($tags as $t) {
       $toppx    += 36;
-      $width     = max($butmagw, (12*strlen($t)) );
+      $tagcode   = "";
+      if ( preg_match('/^TITLE/', $t) ) {
+        $tit = explode(':', $t);
+        $tagcode = "<a href=\"https://www.youtube.com/results?search_query=" . $tit[1] . "\"> 🎥 </a>";
+        $t = "🎥";
+      } else {
+        $tagcode = "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
+      }
+
+      $width     = max($butmagw, (13*strlen($t)) );
       $thtmlrow .= "<div style=\"width: ${width}px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px; border:1px solid black;\">";
-      $thtmlrow .= "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
+      $thtmlrow .= $tagcode;
       $thtmlrow .= "</div>";
     }
 
@@ -163,7 +172,7 @@ TEM;
 function findtags($tw) {
 
   // print "TW parameter: " . $tw;
-  $tw = preg_replace('/^pi\-(\w+)\-/', '', $tw);                    // clears pinterest prefix
+  $tw = preg_replace('/^pi\-/', '', $tw);                           // clears pinterest prefix
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
@@ -171,7 +180,17 @@ function findtags($tw) {
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);    // clears mastodon prefix - ma-@LordArse@toot.community-
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
-  array_pop($matches);
+  $title = "";
+
+  if ( strlen(end($matches)) > 7 && strlen(prev($matches)) > 7 ) { // there is a title as last array element
+    $tit = explode('.', end($matches));
+    $title = "TITLE:" . str_replace('_', " ", $tit[0]);  //  print $title . " | " ;
+    array_pop($matches);
+    array_pop($matches);
+    array_push($matches, $title);
+  } else if ( strlen(end($matches)) > 7 ) {
+    array_pop($matches);    
+  }
 
   /*
   preg_match("/\-(\w+)\-/g", $tw, $matches);
