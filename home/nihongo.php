@@ -58,6 +58,7 @@
 
     <h4>NIHONGO URLS</h4>
       <ul>
+        <li> <a href="https://www.tofugu.com/learn-japanese/" target="_blank"><b>Tofugu Guide</b></a> </li>
         <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>kotoba ★</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/taxonomy/term/42" target="_blank"><b>masayume</b></a> </li>
         <li> <a href="https://jisho.org/" target="_blank"><b>jisho.org</b></a> </li>
