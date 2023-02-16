@@ -56,6 +56,10 @@ function pagenewtemp($dir, $tag) {
 
     $twitterRaw3 = $twitterRaw2;
 
+    /*  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+          DECODE EXTERNAL ACCOUNTS 
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
     //    VaporwaveAesthetics
     if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate twitter link
       $exploded = explode('-', $twitterRaw2);
@@ -177,18 +181,18 @@ function findtags($tw) {
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
   $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
-  $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);    // clears mastodon prefix - ma-@LordArse@toot.community-
+  $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);   // clears mastodon prefix - ma-@LordArse@toot.community-
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
   $title = "";
 
-  if ( strlen(end($matches)) > 7 && strlen(prev($matches)) > 7 ) { // there is a title as last array element
+  if ( strlen(end($matches)) > 8 && strlen(prev($matches)) > 8 ) { // there is a title as last array element
     $tit = explode('.', end($matches));
     $title = "TITLE:" . str_replace('_', " ", $tit[0]);  //  print $title . " | " ;
     array_pop($matches);
     array_pop($matches);
     array_push($matches, $title);
-  } else if ( strlen(end($matches)) > 7 ) {
+  } else if ( strlen(end($matches)) > 8 ) {
     array_pop($matches);    
   }
 
