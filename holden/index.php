@@ -311,7 +311,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
                     if ($counter > $limit) {
                       $counter++;
                       $NOTAG = $_GET;  unset($NOTAG['tag1']) ;   unset($NOTAG['tag2']);
-                      print "<li style=\"margin-left: -20px;\"> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";
+                      print "<li style=\"margin-left: -24px;\"> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";
                     } else {
                       $counter++;
                     }
