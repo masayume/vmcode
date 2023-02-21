@@ -121,8 +121,31 @@
     <li><a href="https://masayume.itch.io"><b>itch.io ★</b></a></li>
     <li><a href="https://masayume.newgrounds.com"><b>newgrounds</b></a></li>
     <li><a href="https://www.deviantart.com/lordyupa"><b>deviantart</b></a></li>
+    <li><details>
+      <summary><b>HOLDEN pix ⬇️</b></summary>
+      <p>
+        <ul>
+          <li> <a href="/HTML5/holden/index.php?folder=@pixelart"><b>@pixelart ★</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>@mockups ★</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=103&art2=103"><b>monster-refs</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=104&art2=104"><b>portraits</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=106&art2=106"><b>ref-TILES</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=105&art2=105"><b>TECH</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=107&art2=107"><b>workflow</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=108&art2=108"><b>RETRO</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>1bit</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=121&art2=121"><b>lands REF</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=122&art2=122"><b>lands other</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=127&art2=127"><b>snap</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=126&art2=126"><b>titles</b></a> </li>
+<!--          <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>WHAT</b></a> </li> -->
 
-    <li> <a href="/HTML5/holden/index.php?folder=@pixelart">@pixelart</a> </li>
+        </ul>
+      </p>
+    </details></li>  
+
     <li> <a href="https://twitter.com/search?q=pixelart%20(%23pixelart)%20min_faves%3A500&src=typed_query"PIX ><b>tw pixelart ★</b></a> </li>
     <li> <a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>ドット絵 ★</b> </a>    </li>
     <li> <a href="https://www.reddit.com/r/PixelArt">reddit</a></li>
