@@ -13,7 +13,7 @@
 <body>
 
 <div id="pagetitle" style="float: left;">  
-  Pixelart WORKFLOWS 
+  Pixelart TOOLS & WORKFLOWS 
 </div>
 
 <div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
@@ -36,7 +36,8 @@
   <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".2D">2D</button>
   <button class="button" data-filter=".3D">3D</button>
-  <button class="button" data-filter=".tools">tools</button>
+  <button class="button" data-filter=".tools">TOOLS</button>
+  <button class="button" data-filter=".ai">AI</button>
   <button class="button" data-filter=".source">source</button>
   <button class="button" data-filter=".style">style</button>
   <button class="button" data-filter=".scripting">scripting</button>
