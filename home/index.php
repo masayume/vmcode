@@ -60,11 +60,11 @@
         </ul>
     <h4>Solomon's World</h4>
 	<ul>
-	<li><a href="/solomons/solomons.php">TOOLS</a>
-	    <a href="/solomons/sprite.htm">SPRITES</a>
-	    <a href="/solomons/assets.php">ASSETS</a></li>
+	<li><a href="/solomons/solomons.php">tools</a>
+	    <a href="/solomons/sprite.htm">sprites</a>
+	    <a href="/solomons/assets.php">assets</a></li>
 	</ul>
-    <h4>Video, Music, Sounds</h4>
+    <h4>Video,Music,Sound</h4>
 	<ul>
     <li><a href="/HTML5/holden/index.php?vfolder=VIDEO">local video ★★</a></li>
     <li><a href="/demon/OSS/oss.php">OSS ★★★</a></li>
@@ -82,9 +82,9 @@
 
   <h4>holden</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC</b></a> </li>
-      <li> <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>mabius ref</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=125&art2=125"><b>@backs</b></a>  </li>
+      <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC</b></a> 
+           <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
+           <a href="/HTML5/holden/index.php?art1=125&art2=125"><b>@backs</b></a>  </li>
     </ul>
 
 
@@ -124,6 +124,7 @@
       <li> <a href="https://twitter.com/ericjang11" target="_blank">eric jang 11</a> </li>
       <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
       <li> <a href="https://twitter.com/qntm" target="_blank">QNTM</a> <a href="https://twitter.com/icijorg" target="_blank">ICIJ</a></li>
+      <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
 
       <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
 
@@ -148,7 +149,7 @@
     <li> <a href="/html5/isotope/isotope-unitytuts/"><b>ISO unity tuts</b></a> </li>
     <li> <a href="/html5/isotope/isotope-WF-PX/"><b>ISO pixelart WF</b></a> </li>
     <li> <a href="/html5/isotope/isotope-WF/"><b>ISO workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-    <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">(onl.)</a> </li>
+    <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
     <li> <a href="/html5/isotope/isotope-VGinfo/"><b>ISO VG by Year</b></a> </li>
     <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
     <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a> </li>
