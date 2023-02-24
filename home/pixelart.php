@@ -208,8 +208,10 @@
 
   <h4>PALETTE</h4> <!-- also in tools -->
   <ul>
-    <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledPQ ★</b></a> 
-        <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a> </li> 
+    <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
+        <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a>  
+        <a href="https://www.masayume.it/blog9/web/content/tiled-palette-quantization"><b>my</b></a> 
+        <a href="/HTML5/tiledpalettequant/"><b>loc</b></a> </li> 
     <li><a href="https://lospec.com/palette-list"><b>LoSPEC ★</b></a>, 
         <a href="https://lospec.com/palette-list/dawnbringer-32"><b>DB32 ★</b></a></li>
     <li><a href="https://lospec.com/palettes/dawnbringer-palette-analyser">analyzer</a>
