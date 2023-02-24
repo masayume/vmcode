@@ -40,7 +40,7 @@
   <button class="button" data-filter=".ai">AI</button>
   <button class="button" data-filter=".source">source</button>
   <button class="button" data-filter=".style">style</button>
-  <button class="button" data-filter=".scripting">scripting</button>
+  <button class="button" data-filter=".palette">palette</button>
   <button class="button" data-filter=".shader">shader</button>
   <button class="button" data-filter=".assetstore">ASSETS</button>
   <button class="button" data-filter=".GUI">GUI</button>

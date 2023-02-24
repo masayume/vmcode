@@ -60,6 +60,7 @@
     <h4>GALLERIES</h4>
       <ul>
         <li> <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GeneratedImage</b></a> </li>
+        <li> <a href="https://twitter.com/hashtag/synthography" target="_blank"><b>synthography</b></a> </li> 
         <li> <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
         <li> <a href="https://lexica.art/" target="_blank"><b>lexica.art</b></a> </li>
         <li> <a href="https://libraire.ai/" target="_blank"><b>libraire.ai</b></a> </li>
