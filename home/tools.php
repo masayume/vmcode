@@ -143,10 +143,10 @@
         <p>
           <ul>
             <li> <a href="https://www.youtube.com/watch?v=ZpdP_28N-oQ&list=PLHDWQaj1wMEw7buji4J5SMSUl3cYC5_xn"><b>texturelabs ★★</b></a></li> 
-
-            <li> <a href="https://www.youtube.com/watch?v=1Lv4_atfkqo"><b>Analog Retro-Futuristic Monitor★</b></a></li> 
-            <li> <a href="https://www.youtube.com/watch?v=dZF6JGFuXAE"><b>ArtRage Colouring for beginners </b></a></li>
+            <li> <a href="https://www.youtube.com/watch?v=1Lv4_atfkqo"><b>Retro-Future Monitor ★</b></a></li> 
+            <li> <a href="https://www.youtube.com/watch?v=dZF6JGFuXAE"><b>ArtRage Colouring ! </b></a></li>
             <li> <a href="https://www.youtube.com/watch?v=NmZxWXeIjJI"><b>Collage Art Effect</b></a></li> 
+            <li> <a href="https://www.youtube.com/watch?v=5EuYKEvugLU"><b>Difference of Gaussians</b></a></li> 
           </ul>
         </p>
       </details>
