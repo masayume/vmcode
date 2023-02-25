@@ -122,10 +122,12 @@
       <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
     </ul>
 
-  <h4>PALETTE</h4> <!-- also in pixelart -->
+  <h4>PALETTE</h4> <!-- also in PIXELART -->
     <ul>
-      <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledPQ ★</b></a> 
-          <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a> </li> 
+      <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
+          <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a>  
+          <a href="https://www.masayume.it/blog9/web/content/tiled-palette-quantization"><b>my</b></a> 
+          <a href="/HTML5/tiledpalettequant/"><b>loc</b></a> </li> 
       <li><a href="https://lospec.com/palette-list"><b>LoSPEC ★</b></a>, 
           <a href="https://lospec.com/palette-list/dawnbringer-32"><b>DB32 ★</b></a></li>
       <li><a href="https://lospec.com/palettes/dawnbringer-palette-analyser">analyzer</a>
@@ -136,6 +138,20 @@
       <li><a href="https://sites.google.com/view/rejected-palettes/palette-list">rejected palettes</a></li>
     </ul>
 
+    <details>
+        <summary><strong><b>PHOTOSHOP+ TUTS ⬇️</b></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://www.youtube.com/watch?v=ZpdP_28N-oQ&list=PLHDWQaj1wMEw7buji4J5SMSUl3cYC5_xn"><b>texturelabs ★★</b></a></li> 
+
+            <li> <a href="https://www.youtube.com/watch?v=1Lv4_atfkqo"><b>Analog Retro-Futuristic Monitor★</b></a></li> 
+            <li> <a href="https://www.youtube.com/watch?v=dZF6JGFuXAE"><b>ArtRage Colouring for beginners </b></a></li>
+            <li> <a href="https://www.youtube.com/watch?v=NmZxWXeIjJI"><b>Collage Art Effect</b></a></li> 
+          </ul>
+        </p>
+      </details>
+
+    
   </div>
 
   <div class="_exa">

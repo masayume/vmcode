@@ -206,7 +206,7 @@
   </ul>
 
 
-  <h4>PALETTE</h4> <!-- also in tools -->
+  <h4>PALETTE</h4> <!-- also in TOOLS -->
   <ul>
     <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
         <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a>  
