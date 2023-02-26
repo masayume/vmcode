@@ -48,7 +48,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/bernet'       
                   , '/inspire/@CARTOONS/Boulet'       // 10
 // 10
-                  , '/inspire/@CARTOONS/brosgol'
+                  , '/inspire/masayume/pub'
                   , '/inspire/@MISC-STYLE'            // 12
                   , '/inspire/@CARTOONS/carroll'
                   , '/inspire/@COVERS/retrocovers'
