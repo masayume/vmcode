@@ -7,16 +7,12 @@
     <meta charset="UTF-8">
 <style>
   body { 
-/*	background-image:url('img/ub-wallp.jpg'); 
-	background-color: #0033cc;
-*/
-
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-	background: rgb(130,87,53); /* Old browsers */
-	background: -moz-linear-gradient(-45deg, rgba(130,27,53,1) 0%, rgba(141,37,16,1) 50%, rgba(125,85,22,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, rgba(130,27,53,1) 0%,rgb(141, 37, 16, 1) 50%,rgba(125,85,22,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, rgba(130,27,53,1) 0%,rgba(141,37,16,1) 50%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+70,2b2b2b+76,1c1c1c+91,131313+100 */
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 70%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 70%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 70%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
   a, a:visited {  color: #ffffff; }
   h3, h4 {  color: #00aaff; }
