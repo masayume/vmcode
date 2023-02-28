@@ -64,9 +64,9 @@
 
     <h4>SHADERS</h4>
           <ul>
-            <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
-            <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://editor.thebookofshaders.com/">editor</a> </li>
-            <li> <a href="/html5/threejs-dithershader/imagec64shader.html"><b>threejs C64</b></a>, <a href="https://github.com/mnmxmx/toon-shading">js toon shading</a></li> 
+            <li> <a href="https://thebookofshaders.com/">BookOfShaders</a>
+                 <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> <a href="http://editor.thebookofshaders.com/">edit</a> </li>
+            <li> <a href="/html5/threejs-dithershader/imagec64shader.html"><b>threejs C64</b></a>, <a href="https://github.com/mnmxmx/toon-shading">JStoon shadr</a></li> 
             <li> <a href="https://www.shadertoy.com/results?query=tag%3Dcrosshatch">shadertoy xhatch</a></li> 
             <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">crosshatching</a></li> 
 
@@ -149,7 +149,12 @@
             <li> <a href="https://www.youtube.com/watch?v=5EuYKEvugLU"><b>Difference of Gaussians</b></a></li> 
           </ul>
         </p>
-      </details>
+    </details>
+
+  <h4>AI TOOLS</h4> <!-- also in AI -->
+    <ul>
+      <li><a href="https://paintbytext.chat/"><b>paint by text ★</b></a>  </li>
+    </ul>
 
     
   </div>

@@ -192,7 +192,7 @@
      , "inspire/@CARTOONS/@gif%20animations/_rDavey-055.gif"     , "inspire/@CARTOONS/@gif%20animations/_rDavey-056.gif"
      , "inspire/@CARTOONS/@gif%20animations/_rDavey-057.gif"     , "inspire/@CARTOONS/@gif%20animations/_rDavey-058.gif"
      , "inspire/@CARTOONS/@gif%20animations/_rDavey-059.gif"     , "inspire/@CARTOONS/@gif%20animations/_rDavey-060.gif"
-     , "inspire/@CARTOONS/@gif%20animations/_rDavey-061.gif"     , "inspire/@CARTOONS/@gif%20animations/_rDavey-062.gif"
+     , "inspire/@CARTOONS/@gif%20animations/_rDavey-061.gif"     // , "inspire/@CARTOONS/@gif%20animations/_rDavey-062.gif"
 //     , "inspire/@CARTOONS/@gif%20animations/_rDavey-063.gif"     
      , "inspire/@CARTOONS/@gif%20animations/_retro-001.gif"      , "inspire/@CARTOONS/@gif%20animations/_retro-002.gif"     
      , "inspire/@CARTOONS/@gif%20animations/_retro-003.gif"      , "inspire/@CARTOONS/@gif%20animations/_retro-004.gif"     
