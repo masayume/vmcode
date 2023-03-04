@@ -65,6 +65,15 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^site-/', $twitterRaw2) )  // calculate SITE link (must decode | (in file name) as / (URL) and = (in file name) as - (URL) )
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ;
+      $path2dec = explode('|', $exploded[1]);
+      $path   = implode('/', $path2dec);
+      $path   = str_replace('=', '-', $path); 
+      $twitterRaw3 = "<b>site:</b> <a href='https://" . $path . "' target='_blank' title='" . $file . "'> " . $path . "</a>";
+    }
     elseif (preg_match('/^re-/', $twitterRaw2) )  // calculate reddit link
     {    
       $exploded = explode('-', $twitterRaw2);
@@ -182,6 +191,7 @@ function findtags($tw) {
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
   $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);   // clears mastodon prefix - ma-@LordArse@toot.community-
+  $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                  // clears site prefix
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
   $title = "";
