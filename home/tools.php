@@ -79,7 +79,7 @@
             <li> <a href="https://github.com/marian42/wavefunctioncollapse">wave fn collapse ★</a> </li>
             <li> <a href="https://www.masayume.it/blog9/web/content/markov-jr">markov junior ★</a> </li>
             <li> <a href="https://thisxdoesnotexist.com/">this does not exist ★</a> </li>
-            <li> <a href="https://waifulabs.com/">waifulabs ★</a> </li>
+            <li> <a href="/html5/slant/">Golid slant ★</a> <a href="https://www.masayume.it/blog/content/kjetil-midtgarden-golid">my</a></li>
             <li> <a href="/html5/gengrid/dist/">generative grid ★</a> </li>
             <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
             <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>

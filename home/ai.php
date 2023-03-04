@@ -139,6 +139,7 @@
       <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet ★</b></a> <a href="https://aituts.com/controlnet/">tut</a></li>
       <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stablediffusion 🤗★</b></a>
       <li> <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifu diffusion ★★</b></a></li>
+      <li>  <a href="https://waifulabs.com/"><b>(waifulabs)</b></a> </li>
       <li> <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGANv2 ★</b></a></li>
       <li> <a href="https://huggingface.co/spaces/aipicasso/cool-japan-diffusion-2-1-0-demo	">japan diff</a>
            <a href="https://huggingface.co/spaces/anzorq/finetuned_diffusion">finetuned diff</a> </li>
