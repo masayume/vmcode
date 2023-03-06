@@ -61,10 +61,16 @@ function pagenewtemp($dir, $tag) {
         = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
     //    VaporwaveAesthetics
-    if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate twitter link
+    if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate TWITTER link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^tu-/', $twitterRaw2) )  // calculate TUMBLR link
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ;
+      $twitterRaw3 = "<b>reddit:</b> <a href='https://www.tumblr.com/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+    }
     elseif (preg_match('/^site-/', $twitterRaw2) )  // calculate SITE link (must decode | (in file name) as / (URL) and = (in file name) as - (URL) )
     {    
       $exploded = explode('-', $twitterRaw2);
@@ -74,26 +80,26 @@ function pagenewtemp($dir, $tag) {
       $path   = str_replace('=', '-', $path); 
       $twitterRaw3 = "<b>site:</b> <a href='https://" . $path . "' target='_blank' title='" . $file . "'> " . $path . "</a>";
     }
-    elseif (preg_match('/^re-/', $twitterRaw2) )  // calculate reddit link
+    elseif (preg_match('/^re-/', $twitterRaw2) )  // calculate REDDIT link
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
       $twitterRaw3 = "<b>reddit:</b> <a href='https://reddit.com/r/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
-    elseif (preg_match('/^ma-/', $twitterRaw2) )  // calculate mastodon link (i.e. https://toot.community/@LordArse)
+    elseif (preg_match('/^ma-/', $twitterRaw2) )  // calculate MASTODON link (i.e. https://toot.community/@LordArse)
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ; print "/<pre>";
       $mastodon = explode('@', $exploded[1]);
       $twitterRaw3 = "<b>mastodon:</b> <a href='https://" . $mastodon[2] . "/@" . $mastodon[1].  "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
-    elseif (preg_match('/^sb-/', $twitterRaw2) )  // calculate safebooru link
+    elseif (preg_match('/^sb-/', $twitterRaw2) )  // calculate SAFEBOORU link
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
       $twitterRaw3 = "<b>safebooru:</b> <a href='https://safebooru.org/index.php?page=post&s=list&tags=" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
-    elseif (preg_match('/^da-/', $twitterRaw2) )  // calculate deviantart link
+    elseif (preg_match('/^da-/', $twitterRaw2) )  // calculate DEVIANTART link
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
@@ -188,6 +194,7 @@ function findtags($tw) {
   $tw = preg_replace('/^pi\-/', '', $tw);                           // clears pinterest prefix
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
+  $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
   $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);   // clears mastodon prefix - ma-@LordArse@toot.community-
