@@ -374,7 +374,7 @@
     },
     "0022": {
       "name": "Tiled Palette Quant",
-      "number": "21",
+      "number": "22",
       "data_cat": "player",
       "class": ["player", "palette", "2D", "pixelart", "tools"],
       "theme": ["technique"],
@@ -386,6 +386,23 @@
       "players": [1],
       "length": 9,
       "url": "https://rilden.github.io/tiledpalettequant/",
+      "localdir": "",
+      "notes": "manage palette colors"
+    },
+    "0023": {
+      "name": "SD pixelization",
+      "number": "23",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools", "ai"],
+      "theme": ["technique"],
+      "img": "wfpx023.png",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2023,
+      "players": [1],
+      "length": 9,
+      "url": "https://huggingface.co/spaces/NoCrypt/pixelization",
       "localdir": "",
       "notes": "manage palette colors"
     }
