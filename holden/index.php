@@ -322,8 +322,37 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
           ?>
 
       </ul>
-        
-    </div>
+
+      <!-- RIGHT SIDE URLS (conditional) -->
+      <?php
+
+                $jsonfile = '/var/www/html' . $artists[$_GET['art1']] . '/tags.json';
+                $json = file_get_contents($jsonfile);
+
+                if ($json_data['urls']) {
+
+                  echo "<h5 style=\"position:relative; right: -0px; \">URLS</h5>       ";
+                  echo "<ul>";
+
+                  // Decode the JSON file
+                  $json_data = json_decode($json,true);
+                  if ($json_data) {
+                    foreach ($json_data['urls'] as $key => $value) {
+                        $counter++;
+                        print "<li style=\"margin-left: -34px;\"> <a href='" . $value . "' target='_blank'>" . $key . "</a> </li>";
+                    }
+                  }
+
+                  echo "</ul>";
+                }
+
+      ?>   <!-- end right side URLS -->
+
+
+      
+
+    </div> <!-- END right side tags & urls-->
+
 
   <div class="grid">
 
