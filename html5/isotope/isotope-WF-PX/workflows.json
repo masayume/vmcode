@@ -404,7 +404,41 @@
       "length": 9,
       "url": "https://huggingface.co/spaces/NoCrypt/pixelization",
       "localdir": "",
-      "notes": "manage palette colors"
+      "notes": "convert to pixel"
+    },
+    "0024": {
+      "name": "SD pixel_art",
+      "number": "24",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools", "ai"],
+      "theme": ["technique"],
+      "img": "wfpx024.png",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2023,
+      "players": [1],
+      "length": 9,
+      "url": "https://huggingface.co/spaces/pedrogengo/pixel_art",
+      "localdir": "",
+      "notes": "convert to pixel"
+    },
+    "0025": {
+      "name": "SD pixelartifier",
+      "number": "25",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools", "ai"],
+      "theme": ["technique"],
+      "img": "wfpx025.png",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2023,
+      "players": [1],
+      "length": 9,
+      "url": "https://huggingface.co/spaces/Rothfeld/kmeans-pixelartifier",
+      "localdir": "",
+      "notes": "convert to pixel"
     }
 
 
