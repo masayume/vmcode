@@ -123,6 +123,7 @@
 
   <h4>AI TOOLS</h4>
     <ul>
+      <li> <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> </li>
       <li>  <a href="https://paintbytext.chat/"><b>paint by text ★</b></a> </li>
       <li>  <a href="https://labs.openai.com/"><b>dall-e ★</b></a> 
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
@@ -150,7 +151,6 @@
       <li> <a href="URL">SPACE #3</a> </li>
       <li> <a href="URL">SPACE #4</a> </li>
       <li> <a href="URL">SPACE #3</a> </li>
-      <li> <a href="URL">SPACE #4</a> </li>
     </ul>
 
 
@@ -229,36 +229,41 @@
 
   </div>
 
-
-
   <div class="_exa">
-    <script type="text/javascript">
-        document.write(getImageTag());
-    </script>
-  <br />
-    <h4>benkyo shite imasu</h4>
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/FILM/', 'inspire/@AI/Monster Mash/', 
+                          'inspire/@AI/other/', 'inspire/@AI/shining/', 'inspire/@AI/star wars/', 'inspire/@AI/Stronzo Toys');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+
+    ?>
+    <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
+
+    <br />
+
+      <h4>TITLE 1</h4>
       <ul>
+        <li><a href="https://link">link text #1</a> - <a href="https://link">link text #2</a></li>
+        <li><a href="https://link">link text #3</a></li>
+        <li><a href="https://link">link text #4</a> - <a href="https://link">link text #5</a></li>
       </ul>
 
-      <h4>SENSEI</h4>
+      <h4>TITLE 2</h4>
       <ul>
-        <li><a href="https://www.twitter.com/kayoshodo">Kayo sensei</a> - <a href="https://www.youtube.com/watch?v=VNs1NuBKYkc">youtube</a></li>
-        <li><a href="https://www.youtube.com/watch?v=xIPCbiHs-io">Miku sensei</a></li>
-        <li><a href="https://twitter.com/akokitamura">Ako sensei</a> - <a href="https://www.youtube.com/c/akokitamura">youtube</a></li>
-      </ul>
-
-      <h4>ZASSHI</h4>
-      <ul>
-        <li> <a href="https://www.masayume.it/blog/content/classic-japanese-magazines">classic mags ★</a></li>
-        <li> <a href="https://magazinelib.com/japan/">magazine lib</a> </li>
+      <li><a href="https://link">link text #1</a> - <a href="https://link">link text #2</a></li>
+        <li><a href="https://link">link text #3</a></li>
 
       </ul>
   </div>
 
   <div class="_exa">
-    <h4>TITLE #5</h4>
+    <h4>text graph</h4>
     <ul>
-      <li> <a href="URL">LINK #10</a> </li>
+      <li> <a href="https://www.calligrapher.ai/"><b>calligrapher.ai</b></a> </li>
       <li> <a href="URL">LINK #11</a> </li>
       <li> <a href="URL">LINK #12</a> </li>
       <li> <a href="URL">LINK #13</a> </li>
@@ -293,6 +298,21 @@
       <li> <a href="URL">LINK #17</a> </li>
     </ul>
   </div>
+
+  <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+      $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/FILM/', 'inspire/@AI/Monster Mash/', 
+                          'inspire/@AI/other/', 'inspire/@AI/shining/', 'inspire/@AI/star wars/', 'inspire/@AI/Stronzo Toys');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+
+    ?>
+  </div>
+
 
   <div class="_exa">
   <h4>...</h4>
