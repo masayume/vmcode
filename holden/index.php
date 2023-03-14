@@ -239,16 +239,15 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
 
 ?>
 
-<div class="float-left" style=" position: fixed; margin-top: 10px; top: 10px; transform: translateY(0px); z-index: 1000;">
+<div class="float-left" style=" position: fixed; margin-top: 0px; top: 0px; transform: translateY(0px); z-index: 1000;">
 
-    <br clear="all" />
     <h4>&nbsp; holden</h4>
     <div id="references" style="position:relative; left: 6px; ">
       <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" style="width: 104px; " > RELOAD </a><br style="padding-bottom: 8px;"/>
       <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" style="width: 104px; " > NO TAGS </a><br />
       <ul style="margin-left:-28px;">
         <li><?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
-      </ul><br>
+      </ul>
 
         <!-- LEFT SIDE TAGS -->
         <h5>TAGS (<a title='<?php print $artists[$_GET['art1']]; ?>'><?php print $_GET['art1']; ?></a>)</h5><ul style="margin-left:-28px;">
@@ -259,7 +258,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
           </pre>
         -->
 
-      <!-- LEFT SIDE TAGS 20 -->    
+      <!-- LEFT SIDE TAGS 54 -->    
             <?php
               // Read the JSON file; note:  $artists[$_GET['art']] = /inspire/@COVERS/retrocovers
               $jsonfile = '/var/www/html' . $artists[$_GET['art1']] . '/tags.json';
@@ -268,13 +267,13 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
               // Decode the JSON file
               $json_data = json_decode($json,true);
               $counter  = 0;
-              $limit    = 26;
+              $limit    = 50;
               if ($json_data) {
                 foreach ($json_data['tags'] as $key => $value) {
                   if ($counter <= $limit) {
                     $counter++;
                     $NOTAG = $_GET;  unset($NOTAG['tag1']) ;   unset($NOTAG['tag2']);
-                    print "<li> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";  
+                    print "<li style=\"height: 16px; \"> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";  
                   }
 
                 }
@@ -292,7 +291,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
 
 </div>
 
-  <!-- RIGHT SIDE TAGS next 20 -->
+  <!-- RIGHT SIDE TAGS next 55 -->
     <div id="references" style="width: 90px; position:absolute; right: 0px;">
         <h5 style="position:relative; right: -0px; ">TAGS <a title='<?php print $artists[$_GET['art1']]; ?>'><?php print $_GET['art1']; ?></a></h5>
         
@@ -306,13 +305,13 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
                 // Decode the JSON file
                 $json_data = json_decode($json,true);
                 $counter  = 0;
-                $limit    = 26;  
+                $limit    = 50;  
                 if ($json_data) {
                   foreach ($json_data['tags'] as $key => $value) {
                     if ($counter > $limit) {
                       $counter++;
                       $NOTAG = $_GET;  unset($NOTAG['tag1']) ;   unset($NOTAG['tag2']);
-                      print "<li style=\"margin-left: -24px;\"> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";
+                      print "<li style=\"height: 16px; margin-left: -24px;\"> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";
                     } else {
                       $counter++;
                     }
