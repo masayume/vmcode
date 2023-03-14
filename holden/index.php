@@ -176,7 +176,8 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@backs'                         // 125
                   , '/inspire/@pixelart/ref-TEXT/titles'      // 126  
                   , '/inspire/@pixelart/RETRO/snap'           // 127
-                  , '/inspire/VOID'                         // 128
+                  , '/inspire/@CARTOONS/ALAN DAVIS'           // 128
+                  , '/inspire/VOID'                           // 129
 
                 );
 
