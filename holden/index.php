@@ -137,7 +137,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/tron'         // 90
 // 90
                   , '/inspire/@CARTOONS/vanillaware'
-                  , '/inspire/@CARTOONS/vincenzina'
+                  , '/inspire/@CARTOONS/TORIYAMA'
                   , '/inspire/@CARTOONS/wakkawa'
                   , '/inspire/@CARTOONS/yotsuba'
                   , '/inspire/@CARTOONS/Zeronis'

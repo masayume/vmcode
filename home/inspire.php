@@ -51,7 +51,7 @@
       <ul>
         <li> <a href="index.php" target="_blank"><b>INDEX</b></a> 
              <a href="unity.php" target="_blank"><b>UNITY</b></a> 
-             <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
+             <a href="inspire.php" target="_blank"><b>inspire</b></a> </li>
         <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
              <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
@@ -108,7 +108,7 @@
         <li> <a href="https://www.eadeverell.com/writing-worksheet-wednesday-idea-engine/"><b>idea GEN</b></a> 
              <a href="https://www.eadeverell.com/tarot-spread/"><b>tarot spread</b></a> </li>
         <li> <a href="http://www.eadeverell.com/forwriters/"><b>resources4writers</b></a>  </li>
-        <li> <a href="/HTML5/holden/index.php?folder=storytelling/DIXIT"><b>DIXIT</b></a> (<a href="https://www.pinterest.co.uk/ernerogiaguaro/dixit-card/" target="_blank"><b>pint</b></a>) 
+        <li> <a href="/HTML5/holden/index.php?folder=storytelling/DIXIT"><b>DIXIT</b></a> (<a href="https://www.pinterest.co.uk/ernerogiaguaro/dixit-card/" target="_blank"><b>pin</b></a>) 
             <a href="https://www.storycubes.com/"><b>storycubes</b></a> </li>
         <li> <a href="https://www.samcodes.co.uk/project/markov-namegen/" target="_blank"><b>Markov ★</b></a> (<a href="http://bit.do/cybermarkov" target="_blank"><b>cyber</b></a>)
         <li> <a href="/HTML5/taktix/index.php?jfile=1" target="_blank"><b>TAKTIX</b></a> <a href="/HTML5/taktix/index.php?jfile=2" target="_blank"><b>Ppts</b></a> <a href="/HTML5/taktix/index.php?jfile=3" target="_blank"><b>Theme</b></a></li> 
@@ -119,7 +119,7 @@
       <ul>
         <li><a href="https://www.masayume.it/blog/content/writing-prompts">Writing Prompts</a></li>
         <li><a href="https://www.masayume.it/blog/content/ai-assisted-writing-un-nuovo-metodo-per-scrivere"><b>sudowrite</b></a></li>
-        <li><a href="/html5/isotope/isotope-characters/" target="_blank"><b>ISOTOPE characters ★</b></a> </li>
+        <li><a href="/html5/isotope/isotope-characters/" target="_blank"><b>ISOTOPE chars ★</b></a> </li>
         <li><a href="https://letterboxd.com/">Letterboxd synopsis</a></li>
         <li><a href="https://www.masayume.it/blog/content/la-pixar-e-le-regole-scrivere-una-storia" target="_blank"><b>pixar rules</b></a> </li>
         <li><a href="https://www.masayume.it/img/masapdf/004.pdf">Rodari-GrammaticaFant.</a></li>
@@ -131,7 +131,7 @@
         <li><a href="https://colab.research.google.com/drive/1SEOirnDmoqjDAFushDBVr3AAguh3UxZm#scrollTo=-fxL77nvAMAX">Gaiman GPT-2</a></li>  
         <li><a href="https://www.masayume.it/blog/content/oisin-wave-function-collapse-poetry">Oisin text WFC</a></li>  
         <li><a href="https://www.youtube.com/watch?v=YAKcbvioxFk">Show, don't tell !</a></li>  
-        <li><a href="https://www.masayume.it/blog/content/myers-briggs-test-isfp">Myers Briggs personality</a></li>  
+        <li><a href="https://www.masayume.it/blog/content/myers-briggs-test-isfp">Myers-Briggs</a></li>  
       </ul>
   
   </div>
@@ -191,20 +191,20 @@
           <li> <a href="https://readcomiconline.li/Comic/Fantastic-Four-1961/Annual-2?id=56197"><b>comics online ★</b></a></li>
           <li> <a href="/HTML5/holden/index.php?folder=@poses"><b>POSES</b></a> - <a href="https://www.pinterest.co.uk/masayume/the-pose-board/" target="_blank"><b>pint.POSE</b></a> </li>
           <li> <a href="https://setpose.com/"><b>Set Pose</b></a> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b> </li>
-          <li> <a href="https://twitter.com/theposearchives/media"><b>TW pose1★</b></a> 
-            <a href="https://twitter.com/zero808works/media"><b>pose2★</b></a> </li>
+          <li> <a href="https://twitter.com/theposearchives/media"><b>TWpose1★</b></a> 
+               <a href="https://twitter.com/zero808works/media"><b>pose2★</b></a> </li>
           <li> <a href="https://www.pinterest.it/search/pins/?q=pose%20reference&rs=typed&term_meta[]=pose%7Ctyped&term_meta[]=reference%7Ctyped"><b>FB pose ref</b></a>, 
-              <a href="https://www.facebook.com/taco1704/photos/?ref=page_internal">1</a> 
-              <a href="https://www.facebook.com/masa.yume/posts/10159286295354131">2</a> 
-              <a href="https://twitter.com/JookPub/media">3</a>
-              <a href="https://twitter.com/hanari0716/media">4</a>
+               <a href="https://www.facebook.com/taco1704/photos/?ref=page_internal">1</a> 
+               <a href="https://www.facebook.com/masa.yume/posts/10159286295354131">2</a> 
+               <a href="https://twitter.com/JookPub/media">3</a>
+               <a href="https://twitter.com/hanari0716/media">4</a>
           </li>
           <li> <a href="/HTML5/holden/index.php?folder=@gnokkenland/dubnitskiy"><b>Dubnitskiy</b></a>, <a href="https://www.flickr.com/photos/canhgioi007/albums/72157681058113460/">FL</a>, <a href="https://www.tumblr.com/tagged/david-dubnitskiy">TB</a></li>
           <li> <a href="https://www.pinterest.co.uk/masayume/_saved/"><b>PINTEREST</b></a>, 
-            <a href="https://www.pinterest.co.uk/masayume/pixels/">1</a> 
-            <a href="https://www.pinterest.co.uk/masayume/backgrounds/">2</a> 
-            <a href="https://www.pinterest.co.uk/masayume/inspire/">3</a>
-            <a href="https://www.pinterest.co.uk/masayume/sexy-references/">4</a>
+               <a href="https://www.pinterest.co.uk/masayume/pixels/">1</a> 
+               <a href="https://www.pinterest.co.uk/masayume/backgrounds/">2</a> 
+               <a href="https://www.pinterest.co.uk/masayume/inspire/">3</a>
+               <a href="https://www.pinterest.co.uk/masayume/sexy-references/">4</a>
           </li>
           <li> <a href="https://www.facebook.com/photo?fbid=10151234523987151&set=a.10151117615697151">FB orientalisme</a> </li>
           <li> <a href="http://reference.sketchdaily.net/en">daily sketch</a></li>
@@ -247,7 +247,7 @@
           <li><a href="https://www.sakugabooru.com/post?tags=order%3Arandom"><b>sakugabooru</b></a> 
               <a href="https://danbooru.donmai.us/posts/random"><b>danbooru</b></a> </li>
           <li><a href="https://twitter.com/randomsakuga"><b>RNDsakuga</b>★</a> 
-              <a href="https://twitter.com/search?f=top&q=(%23dalle2)%20min_faves%3A50&src=typed_query"><b>#Dall-E2★</b></a> </li>
+              <a href="https://twitter.com/search?f=top&q=(%23dalle2)%20min_faves%3A50&src=typed_query"><b>#DallE2★</b></a> </li>
           <li><a href="https://twitter.com/CoolComicArt/media"><b>CoolComicArt★</b></a>
               <a href="https://twitter.com/TheOtaking/media"><b>Otaking</b></a></li>
           <li><a href="https://twitter.com/fraveris/media"><b>F.Ribeiro ★</b></a>
@@ -265,7 +265,7 @@
               <a href="https://twitter.com/ImagesAlbum/media"><b>albums</b></a></li>
           <li><a href="https://twitter.com/Bizarraperfeita/media"><b>Artes</b></a>
               <a href="https://twitter.com/EromancerAI/media"><b>Erom</b></a>
-              <a href="https://twitter.com/LINK/media"><b>.</b></a></li>
+              <a href="http://localhost:8910/HTML5/holden/index.php?art1=92&art2=92"><b>Toriyama</b></a></li>
           </ul>
 
       <h4>cartoon artists</h4>
@@ -346,7 +346,7 @@
         <h4>artbooks</h4>
         <ul>
           <li> <a href="https://setteidreams.net/"><b>Settei ★</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art=book-Know-How-KH"><b>know-how Hultgren</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art=book-Know-How-KH"><b>knowhow.Hultgren</b></a> </li>
           <li> <a href="fb-artbooks.htm"><b>ALL artbooks ★★</b></a> </li>
           <li> <a href="https://www.facebook.com/pg/animationartgallery/photos/?tab=album&album_id=2406976406045729&__tn__=-UCH-R"><b>Totoro</b></a> </li>
           <li> <a href="https://www.facebook.com/pg/animationartgallery/photos/?tab=album&album_id=1061401293936587&__tn__=-UCH-R"><b>Black Caultron</b></a> </li>
@@ -456,7 +456,8 @@
         <ul>
           <li><a href="https://booth.pm/en"><b>booth.pm</b></a></li>
           <li><a href="https://artvee.com/topics/"><b>artvee</b></a>, <a href="https://www.eastman.org/collections-online"><b>eastman</b></a></li>
-          <li><a href="https://stockfresh.com/royalty-free-stock-photos/kyoto">stockfresh</a></li>
+          <li><a href="https://stockfresh.com/royalty-free-stock-photos/kyoto">stockfresh</a>
+              <a href="http://startupstockphotos.com/">startupstock</a> </li>
           <li><a href="https://www.oldbookillustrations.com/subjects/"><b>old book illustrations</b></a></li>
           <li><a href="https://www.pixoto.com">pixoto</a>,<a href="https://www.flickr.com/photos/britishlibrary">britishlibrary</a></li>
           <li><a href="https://www.sakugabooru.com/tag?name=&type=&order=count" target="_blank"><b>sakugabooru</b></a> </li>
@@ -466,14 +467,16 @@
           <li><a href="http://www.shutterstock.com/">shutterstock</a>,<a href="https://www.stockvault.net/">stockvault</a></li>
           <li><a href="https://negativespace.co/">negativespc</a>,<a href="https://kaboompics.com/">kaboompix</a></li>
           <li><a href="http://fancycrave.com/">fancycrave</a>,<a href="https://www.rawpixel.com/">rawpixel</a></li>
-          <li><a href="https://stocksnap.io/view-photos/sort/trending/desc">stocksnap</a>,<a href="https://www.pexels.com/">pexels</a></li>
-          <li><a href="http://startupstockphotos.com/">startupstockphotos</a></li>
-          <li><a href="https://www.vectorstock.com">vectorstock</a></li>
+          <li><a href="https://stocksnap.io/view-photos/sort/trending/desc">stocksnap</a> 
+              <a href="https://www.pexels.com/">pexels</a> </li>
+          <li><a href="https://www.vectorstock.com">vectorstock</a> 
+              <a href="http://unsplash.com">unsplash</a> </li>
           <li><a href="https://www.lifeofpix.com/">lifeofpix</a>,<a href="https://www.splitshire.com/">splitshire</a></li>
           <li><a href="https://unsplash.com/">unsplash</a>,<a href="https://picjumbo.com/">picjumbo</a></li>
-          <li><a href="http://imgur.com/gallery/KlzhGuE">imgur</a>,<a href="http://unsplash.com">unsplash</a></li>
+          <li><a href="http://imgur.com/gallery/KlzhGuE">imgur</a> 
+              <a href="http://morguefile.com">morguefile</a> </li>
           <li><a href="http://superfamous.com">superfamous</a>,<a href="http://picjumbo.com">picjumbo</a></li>
-          <li><a href="http://gratisography.com">gratisography</a>,<a href="http://morguefile.com">morguefile</a></li>
+          <li><a href="http://gratisography.com">gratisography</a> </li>
           <li><a href="http://freeimages.com">freeimages</a>,<a href="http://jaymantri.com/">jaymantri</a></li>
           <li><a href="https://isorepublic.com/">isorepublic</a>,<a href="http://littlevisuals.co">littlevisuals</a></li>
           <li><a href="http://nos.twnsnd.co">twnsnd</a>,<a href="http://picography.co">picography</a></li>
