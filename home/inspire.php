@@ -265,7 +265,7 @@
               <a href="https://twitter.com/ImagesAlbum/media"><b>albums</b></a></li>
           <li><a href="https://twitter.com/Bizarraperfeita/media"><b>Artes</b></a>
               <a href="https://twitter.com/EromancerAI/media"><b>Erom</b></a>
-              <a href="http://localhost:8910/HTML5/holden/index.php?art1=92&art2=92"><b>Toriyama</b></a></li>
+              <a href="http://localhost:8910/HTML5/holden/index.php?art1=92&art2=92"><b>Toriyama ♥</b></a></li>
           </ul>
 
       <h4>cartoon artists</h4>
@@ -523,6 +523,22 @@
       </ul>
   </div>
 
+  
+  <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
+                            'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+      ?>
+
+  </div>
+
+  
   <div class="_exa">
   <h4>PIXELS</h4>
   <ul>
@@ -587,6 +603,20 @@
   </div>
 
   <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
+                            'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+      ?>
+
+  </div>
+
+<div class="_exa">
     <h4>??</h4>
     <ul>
       <li><a href="link" target="_blank">...</a></li>
