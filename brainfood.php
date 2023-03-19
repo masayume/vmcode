@@ -1,6 +1,6 @@
 <?php
 
-$brainfoodFile  = '/home/masayume/DATA/E/Desktop/DSET/INFO/INFO.my/brainfood.infogen.txt';
+$brainfoodFile  = '/home/masayume/git/vmcode/brainfood.infogen.txt';
 $handle         = fopen($brainfoodFile, "r") or die("Unable to open file $brainfoodFile !");
 $bfcontent      = fread($handle,filesize($brainfoodFile));
 fclose($handle);
