@@ -47,7 +47,7 @@
 <div class="container-fluid">
 
   <div class="_exa">
-    <h4>PAGES</h4>
+    <h4>INSPIRE PAGE</h4>
       <ul>
         <li> <a href="index.php" target="_blank"><b>INDEX</b></a> 
              <a href="unity.php" target="_blank"><b>UNITY</b></a> 
@@ -170,12 +170,15 @@
 
   <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
   <details>
-    <summary><strong><b>HOLDEN 2 IMAGES ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+    <summary><strong><b>HOLDEN 2 IMAGES ★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <p>
         <ul>
-          <li> <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>mersenne reference ★</b></a></li> 
-          <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC STYLE ★</b></a></li> 
-          <li> <a href="/HTML5/holden/index.php?art1=99&art2=12"><b>Chun Li Style ★</b></a></li>
+          <li> <a href="/HTML5/holden/index.php?art1=59&art2=59" target="_blank"><b>mersenne reference ★</b></a></li> 
+          <li> <a href="/HTML5/holden/index.php?art1=12&art2=12" target="_blank"><b>MISC STYLE ★</b></a></li> 
+          <li> <a href="/HTML5/holden/index.php?art1=99&art2=12" target="_blank"><b>Chun Li Style ★</b></a></li>
+          <li> <a href="/HTML5/holden/index.php?art1=130&art2=130" target="_blank"><b>Think before Drawing ★</b></a></li>
+          <li> <a href="/HTML5/holden/index.php?art1=132&art2=132" target="_blank"><b>TEXTURES ★</b></a></li>
+          <li> <a href="/HTML5/holden/index.php?art1=133&art2=133" target="_blank"><b>Texturing ★</b></a></li>
         </ul>
       </p>
   </details>

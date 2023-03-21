@@ -35,7 +35,7 @@ TO DO:
 <body>
 
 <?php
-
+error_reporting (E_ALL ^ E_NOTICE);
 $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/' 
                   , '/inspire/@CARTOONS/altan/'
                   , '/inspire/@CARTOONS/@expressions/'
@@ -178,33 +178,38 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/RETRO/snap'           // 127
                   , '/inspire/@CARTOONS/ALAN DAVIS'           // 128
                   , '/inspire/VOID'                           // 129
+// 130
+                  , '/inspire/@drawthink/'         
+                  , '/inspire/@drawthink/@drawwrite'          // 131  
+                  , '/inspire/@TEXTURES'                      // 132  
+                  , '/inspire/@drawthink/texturing'         // 133  
 
                 );
 
 include 'pagedata.php';
 
-$data = "";
-$tag  = $_GET['tag'];
-$tag1 = $_GET['tag1'];
-$tag2 = $_GET['tag2'];
+global $data;   $data = "";
+global $tag;    $tag = isset($_GET['tag']) ? $_GET['tag'] : ''; // $tag  = $_GET['tag'];
+global $tag1;   $tag1 = isset($_GET['tag1']) ? $_GET['tag1'] : '';
+global $tag2;   $tag2 = isset($_GET['tag2']) ? $_GET['tag2'] : '';
 
-if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
+if ( !isset($_GET['art']) && !isset($_GET['art1']) && !isset($_GET['folder']) && !isset($_GET['vfolder']) ) {
   $data = page($artists[0], $tag);
 } else {
-  if ($_GET['vfolder']) { 
+  if ( isset($_GET['vfolder']) ) { 
       echo $path;
       $pathF = '/inspire/' . $_GET['vfolder'];
       $data = video($pathF);
-  } else if ($_GET['folder']) { 
+  } else if ( isset($_GET['folder']) ) { 
       echo $path;
       $pathF = '/inspire/' . $_GET['folder'];
       $data = page($pathF, $tag);
-  } else if (is_numeric($_GET['art'])) { 
+  } else if (is_numeric( isset($_GET['art']) )) { 
 // art è un intero
       echo $artists[$_GET['art']];
       $data = page($artists[$_GET['art']], $tag);
-  } else if ($_GET['art1'] && $_GET['art2']) { 
-      echo $path;
+  } else if ( $_GET['art1'] && $_GET['art2'] ) { 
+      // echo $path;
       $path1 = ""; $path2 = "";
       if ( is_numeric($_GET['art1']) ) 
       {
@@ -246,7 +251,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
       <a href="<?php echo $link_url ?>" type="button" class="btn btn-primary" style="width: 104px; " > RELOAD </a><br style="padding-bottom: 8px;"/>
       <a href="<?php echo $link_url_notags ?>" type="button" class="btn btn-secondary" style="width: 104px; " > NO TAGS </a><br />
       <ul style="margin-left:-28px;">
-        <li><?php global $glob_res; echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
+        <li><?php global $glob_res; if (isset($_GET['tag1'])) echo $_GET['tag1'] . " " . $glob_res[$_GET['tag1']] ?>  </li>
       </ul>
 
         <!-- LEFT SIDE TAGS -->
@@ -267,7 +272,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
               // Decode the JSON file
               $json_data = json_decode($json,true);
               $counter  = 0;
-              $limit    = 50;
+              $limit    = 40;
               if ($json_data) {
                 foreach ($json_data['tags'] as $key => $value) {
                   if ($counter <= $limit) {
@@ -305,7 +310,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
                 // Decode the JSON file
                 $json_data = json_decode($json,true);
                 $counter  = 0;
-                $limit    = 50;  
+                $limit    = 40;  
                 if ($json_data) {
                   foreach ($json_data['tags'] as $key => $value) {
                     if ($counter > $limit) {
@@ -329,7 +334,7 @@ if (!$_GET['art'] && !$_GET['art1'] && !$_GET['folder'] && !$_GET['vfolder']) {
                 $jsonfile = '/var/www/html' . $artists[$_GET['art1']] . '/tags.json';
                 $json = file_get_contents($jsonfile);
 
-                if ($json_data['urls']) {
+                if ( isset($json_data['urls']) ) {
 
                   echo "<h5 style=\"position:relative; right: -0px; \">URLS</h5>       ";
                   echo "<ul>";
@@ -378,3 +383,4 @@ echo $data;
 
 </body>
 </html>
+

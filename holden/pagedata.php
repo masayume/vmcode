@@ -9,6 +9,7 @@ $float = "";
 function page2($dir1, $dir2, $tag1, $tag2) {
 
   global $float;
+  global $html_elements;
   $float = "float: left; ";
   $template1 = pagenewtemp($dir1, $tag1);
   $float = "float: right; ";
@@ -151,7 +152,7 @@ function pagenewtemp($dir, $tag) {
         $tagcode = "<a href=\"https://www.youtube.com/results?search_query=" . $tit[1] . "\"> 🎥 </a>";
         $t = "🎥";
       } else {
-        $tagcode = "<a href=\"" . $_SERVER{'REQUEST_URI'} . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
+        $tagcode = "<a href=\"" . $_SERVER['REQUEST_URI'] . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
       }
 
       $width     = max($butmagw, (13*strlen($t)) );
@@ -166,7 +167,7 @@ TGHT;
 
 
     $template =<<<TEM
-      <div class="col" data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'; $pixelate">
+      <div class="col" data-category="" style="$float background-image: url('img/'); background-size: cover; alt='$file'; $pixelate">
           $embed_asset
           <!-- <img src="$file" style="width: 100%;" title="$file"> -->
           <br />
@@ -181,10 +182,11 @@ TGHT;
       </div>
 TEM;
   
-    $html_elements .= $template;
-      
-    return $html_elements;
-  
+//    $html_elements .= $template;      
+//    return $html_elements;
+
+    return $template;
+
 } // end function page
 
 
