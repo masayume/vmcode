@@ -71,6 +71,30 @@
 
     <h4>PIXEL RESOURCES</h4>
       <ul>
+        <li><details>
+        <summary><b>HOLDEN pix ⬇️⬇️★★</b></summary>
+          <p>
+            <ul>
+              <li> <a href="/HTML5/holden/index.php?folder=@pixelart"><b>@pixelart ★</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>@mockups ★</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=103&art2=103"><b>monster-refs</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=104&art2=104"><b>portraits</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=106&art2=106"><b>ref-TILES</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=105&art2=105"><b>TECH</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=107&art2=107"><b>workflow</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=108&art2=108"><b>RETRO</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>1bit</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=121&art2=121"><b>lands REF</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=122&art2=122"><b>lands other</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=127&art2=127"><b>snap</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=126&art2=126"><b>titles</b></a> </li>
+  <!--          <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>WHAT</b></a> </li> -->
+
+           </ul>
+          </p>
+        </details></li>  
         <li><a href="https://www.masayume.it/blog/content/pixel-art-tutorials-resourcesp"><b>my tutorials ★</b></a> </li>
         <li><a href="https://lospec.com/pixel-editor/app">lospec editor ★</a> </li>
         <li><a href="https://www11.lunapic.com/editor/?action=line-effect">lunapic</a>
@@ -79,8 +103,6 @@
         <li><a href="https://mugenarchive.com/forums/downloads.php?do=cat&id=261-sprite-packs&__cf_chl_jschl_tk__=d08760070c9f7c6e2676da94317ecdd11f6ca7a0-1604924843-0-Aa4lAc5iwBGhMVaElV3PdE3ybykr-fKu5HkTAktXk7YIL71M1TRs04f4N8fZQLa7tPJ8DRYxyHLPTEDuVrrBwKsUuE5fgnIQkk8eLNaxJdhriCaYFx8eUdCa1TeJ19k8IVAVhWDuYDEJPpYfofTQqaUpBsHkYSiDYJxeliX6n9mtJWtxy4UfmZl6xoeuW_VZzxxtpW1sD8rbuE7uSXL2LWTfZMojNFSWkFm7w8XvfCHvoyQ6ucxzuTOgoU7LXNTPplkoutbNersc9HE-rH39bZaPdVjt5SVcCkXkYCJlvVMyMwmfLbXjb9aEIlX53sutwjpNuWVVd1xg-yIBDJ_osN8">mugen sprites</a><li>
             <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>   
             <a href="https://app.monopro.org/pixel/"><b>monopro★</b></a></li> 
-        <li><a href="https://ditherit.com/"><b>ditherIt★</b></a>
-            <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a></li>
         <li><a href="https://simulacroix.github.io/dithering/">pattern maker</a>
             <a href="https://ezgif.com/video-to-gif">video2gif</a></li>    
         <li><a href="https://www.airtightinteractive.com/demos/js/imageglitcher/">scanline IG ★</a></li>    
@@ -121,41 +143,18 @@
     <li><a href="https://masayume.itch.io"><b>itch.io ★</b></a></li>
     <li><a href="https://masayume.newgrounds.com"><b>newgrounds</b></a></li>
     <li><a href="https://www.deviantart.com/lordyupa"><b>deviantart</b></a></li>
-    <li><details>
-      <summary><b>HOLDEN pix ⬇️</b></summary>
-      <p>
-        <ul>
-          <li> <a href="/HTML5/holden/index.php?folder=@pixelart"><b>@pixelart ★</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>@mockups ★</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=103&art2=103"><b>monster-refs</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=104&art2=104"><b>portraits</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=106&art2=106"><b>ref-TILES</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=105&art2=105"><b>TECH</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=107&art2=107"><b>workflow</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=108&art2=108"><b>RETRO</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>1bit</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=121&art2=121"><b>lands REF</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=122&art2=122"><b>lands other</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=127&art2=127"><b>snap</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=126&art2=126"><b>titles</b></a> </li>
-<!--          <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>WHAT</b></a> </li> -->
-
-        </ul>
-      </p>
-    </details></li>  
-
     <li> <a href="https://twitter.com/search?q=pixelart%20(%23pixelart)%20min_faves%3A500&src=typed_query"PIX ><b>tw pixelart ★</b></a> </li>
-    <li> <a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>ドット絵 ★</b> </a>    </li>
-    <li> <a href="https://www.reddit.com/r/PixelArt">reddit</a></li>
+    <li> <a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>ドット絵 ★</b> </a>    
+         <a href="https://www.reddit.com/r/PixelArt">reddit</a></li>
   </ul>
 
 
-  <h4>REACH</h4>
+  <h4>DITHER</h4>
   <ul>
-    <li><a href="https://twitter.com/JiskeyJasket/status/1512779088955678720"><b>twitter reach ★</b></a></li>
-    <li><a href="https://twitter.com/gif_not_jif/status/1520333504315334658"><b>sell on itch.io ★</b></a></li>
+    <li>  <a href="https://ditherit.com/"><b>ditherIt★</b></a> </li>
+          <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a>  </li>
+    <li>  <a href="https://seleb.github.io/ordered-dither-maker/"><b>ordered dither ★</b></a>  </li>
+    <li>  <a href="/home/masayume/DATA/L/pix dither machine/"><b>dither machine</b></a>  </li>
   </ul>
 
   <h4>Pixel REFS</h4>
@@ -479,6 +478,12 @@
   <script type="text/javascript">
         document.write(getImageTag());
   </script>
+
+  <h4>REACH</h4>
+  <ul>
+    <li><a href="https://twitter.com/JiskeyJasket/status/1512779088955678720"><b>twitter reach ★</b></a></li>
+    <li><a href="https://twitter.com/gif_not_jif/status/1520333504315334658"><b>sell on itch.io ★</b></a></li>
+  </ul>
 
 </div>
 
