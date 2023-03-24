@@ -352,7 +352,7 @@
 
     <h4>CGI-BIN</h4>
       <ul>
-        <li><a href="/demon/webcomix/index.htm"><b>webcomix</b></a> - (<a href="/cgi-bin/dailystrips.pl">dailystrips</a>)</li>
+        <li><a href="/demon/webcomix/index.htm"><b>webcomix</b></a> <a href="/cgi-bin/dailystrips.pl">dailystrips</a> </li>
         <li><a href="/demon/pixelize/index.htm"><b>pixelize</b></a> </li>
       </ul>
 
@@ -366,31 +366,28 @@
         <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
       </ul>
 
-  </div>
+    <h4>js graph</h4>
+      <ul>
+        <li> <a href="/three.js/examples/">Three.js examples</a></li>
+        <li> <a href="https://www.babylonjs.com/">babylonjs</a> - <a href="http://www.babylonjs-playground.com/#BCU1XR#0">examples</a></li>
+        <li> <a href="https://pixijs.io/examples">pixi.js</a> examples</li>
+        <li> <a href="/c64/crayon.js%20-%20example.htm">Crayon.js</a>
+            <a href="/HTML5/packery/">packery</a> </li>
+        <li> <a href="/demon/DART/mazes.htm">mazes (DART)</a></li>
+        <li> <a href="/netart/netart.htm">netart</a>
+            <a href="/netart/neurogram.htm?gallery=b0e7ffcb9fe9c1c2c743623d67008515">neurogram</a></li>
+        <li> <a href="/freewall/">freewall JS</a></li>
+        <!-- <li> <a href="/paper.js/examples/Paperjs.org/DivisionRaster.html">Division Raster (paperjs)</a></li> -->
+        <li> <a href="/workflow/Jit/Examples/AreaChart/example1.html">AreaChart</a>
+            <a href="/workflow/Jit/Examples/BarChart/example1.html">BarChart</a></li>
+        <li> <a href="/workflow/Jit/Examples/ForceDirected/example1.html">ForceDirected</a></li>
+        <li> <a href="/workflow/Jit/Examples/Hypertree/example1.html">Hypertree</a></li>
+        <li> <a href="/workflow/Jit/Examples/Icicle/example1.html">Icicle</a>
+            <a href="/workflow/Jit/Examples/Other/example1.html">Other</a></li>
+        <li> <a href="/workflow/Jit/Examples/PieChart/example1.html">PieChart</a>
+            <a href="/workflow/Jit/Examples/Treemap/example1.html">Treemap</a></li>
+      </ul>
 
-  
-  <div class="_exa">
-	<h4>js graph</h4>
-	<ul>
-    <li> <a href="/three.js/examples/">Three.js examples</a></li>
-    <li> <a href="https://www.babylonjs.com/">babylonjs</a> - <a href="http://www.babylonjs-playground.com/#BCU1XR#0">examples</a></li>
-    <li> <a href="https://pixijs.io/examples">pixi.js</a> examples</li>
-    <li> <a href="/c64/crayon.js%20-%20example.htm">Crayon.js</a>
-         <a href="/HTML5/packery/">packery</a> </li>
-    <li> <a href="/demon/DART/mazes.htm">mazes (DART)</a></li>
-	  <li> <a href="/netart/netart.htm">netart</a>
-	       <a href="/netart/neurogram.htm?gallery=b0e7ffcb9fe9c1c2c743623d67008515">neurogram</a></li>
-	  <li> <a href="/freewall/">freewall JS</a></li>
-	  <!-- <li> <a href="/paper.js/examples/Paperjs.org/DivisionRaster.html">Division Raster (paperjs)</a></li> -->
-	  <li> <a href="/workflow/Jit/Examples/AreaChart/example1.html">AreaChart</a>
-	       <a href="/workflow/Jit/Examples/BarChart/example1.html">BarChart</a></li>
-	  <li> <a href="/workflow/Jit/Examples/ForceDirected/example1.html">ForceDirected</a></li>
-	  <li> <a href="/workflow/Jit/Examples/Hypertree/example1.html">Hypertree</a></li>
-	  <li> <a href="/workflow/Jit/Examples/Icicle/example1.html">Icicle</a>
-	       <a href="/workflow/Jit/Examples/Other/example1.html">Other</a></li>
-	  <li> <a href="/workflow/Jit/Examples/PieChart/example1.html">PieChart</a>
-	       <a href="/workflow/Jit/Examples/Treemap/example1.html">Treemap</a></li>
-	</ul>
   </div>
 
 
@@ -412,22 +409,18 @@
   <div class="_exa">
     <h4>SERVICES</h4>
     <ul>
-    <li><a href="/phpmyadmin"><b>phpmyadmin</b> - mysql</a>
-    <li><a href="/phppgadmin">phppgadmin - postgres</a>
-    <li><a href="/matomo">matomo</a> 
-    <li><a href="http://cpanel.2freehosting.com/website/auto-installer">2fh</a> (2freehosting)
+    <li><a href="/phpmyadmin"><b>phpmyadmin</b> - mysql</a> </li>
+    <li><a href="/phppgadmin">phppgadmin - postgres</a> </li>
+    <li><a href="/matomo">matomo</a>  </li>
+    <li><a href="http://cpanel.2freehosting.com/website/auto-installer">2fh</a> (2freehosting) </li>
     </ul>
 
     <ul>
-      <li><a href="/cgi-bin/phpinfo.php">phpinfo</a>
-      <!-- <li><a href="/projects/genre-table.htm">periodic table of videogame innovations</a> -->
-      <!-- <li><a href="/rt">request tracker</a> -->
-      <li><a href="/jtype/ztype/index.html">j-type</a> <pre><small> j-type </small></pre> <a href="https://github.com/masayume/k-type">GIT REPO</a>  <a href="http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github">howto</a>
+      <li><a href="/cgi-bin/phpinfo.php">phpinfo</a> </li>
+      <!-- <li><a href="/projects/genre-table.htm">periodic table of videogame innovations</a> </li> -->
+      <!-- <li><a href="/rt">request tracker</a> </li> -->
+      <li><a href="/jtype/ztype/index.html">j-type</a> <pre><small> j-type </small></pre> <a href="https://github.com/masayume/k-type">GIT REPO</a>  <a href="http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github">howto</a> </li>
     </ul>
-  </div>
-
-
-  <div class="_exa">
 
     <h4>DEV</h4>
       <ul>
@@ -453,13 +446,13 @@
     <!-- ABANDONWARE -->
     <h4>cardrogue</h4>
       <ul>
-        <li><a href="/cardrogue/prototype-01">cardrogue pt01</a> <a href="/cardrogue/prototype-02">cardrogue pt02</a>
-        <li><a href="/cgi-bin/maze2.pl?cards=1">maze prototype 0.1</a>
+        <li><a href="/cardrogue/prototype-01">cardrogue pt01</a> <a href="/cardrogue/prototype-02">cardrogue pt02</a> </li>
+        <li><a href="/cgi-bin/maze2.pl?cards=1">maze prototype 0.1</a> </li>
       </ul>
     <h4>No Man's Sky</h4>
 
     <ul>
-      <li> <a href="/demon/lightgallery.js/demo/NMS.htm">masayume@PS4</a>          
+      <li> <a href="/demon/lightgallery.js/demo/NMS.htm">masayume@PS4</a>           </li>
     </ul>
 
   </div>
@@ -482,29 +475,40 @@
   <div class="_exa">
     <h4>VIVUS</h4>
       <ul>
-        <li><a href="/vivus/index.html">example</a>
-        <li><a href="/vivus/index2.htm">my example</a>
-        <li><a href="http://www.autotracer.org/">autotracer.org</a>
-        <li><a href="http://vectormagic.com/home">vectormagic</a>
+        <li><a href="/vivus/index.html">example</a> </li>
+        <li><a href="/vivus/index2.htm">my example</a> </li>
+        <li><a href="http://www.autotracer.org/">autotracer.org</a> </li>
+        <li><a href="http://vectormagic.com/home">vectormagic</a> </li>
       </ul>
+
+    <h4>1001 fables (1k1f) </h4>
+      <ul>
+        <li><a href="/cgi-bin/1k1f/1k1f-editor.pl">1k1f.CHAR.editor.LOCAL</a> </li>
+        <li><a href="http://www.masayume.it/cgi-bin/1k1f-editor.pl">1k1f.CHAR.editor.ONLINE</a> </li>
+        <li><a href="/1k1f/dnd-div.htm">1k1f scene editor</a> </li>
+        <li><a href="https://docs.google.com/spreadsheet/ccc?key=0Av5S34ISFEfrdHZGVVFFQ1RRQktuQmxPQ0lMYVRRbGc#gid=0">google 1001 spreadsheet</a> </li>
+      </ul>
+
+    <h4>Five Elements</h4>
+      <ul>
+        <li><a href="/cgi-bin/5elems/hikiko.pl">hikiko.pl</a> </li>
+      </ul>
+
   </div>
 
   <div class="_exa">
-	<h4>1001 fables (1k1f) </h4>
-	<ul>
-	<li><a href="/cgi-bin/1k1f/1k1f-editor.pl">1k1f character editor (LOCAL)</a> - <a href="http://www.masayume.it/cgi-bin/1k1f-editor.pl">1k1f character editor (ONLINE)</a>
-	<li><a href="/1k1f/dnd-div.htm">1k1f scene editor</a>
-	<li><a href="https://docs.google.com/spreadsheet/ccc?key=0Av5S34ISFEfrdHZGVVFFQ1RRQktuQmxPQ0lMYVRRbGc#gid=0">google 1001 spreadsheet</a>
-	</ul>
-  </div>
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/masayume/pub/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
 
-  <div class="_exa">
-	<h4>Five Elements</h4>
-	<ul>
-	<li><a href="/cgi-bin/5elems/hikiko.pl">hikiko.pl</a>
-	</ul>
-  </div>
+    ?>
 
+  </div>
 
 </div> <!-- container -->
 
