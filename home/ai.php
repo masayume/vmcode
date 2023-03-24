@@ -124,6 +124,7 @@
   <h4>AI TOOLS</h4>
     <ul>
       <li> <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> </li>
+      <li> <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>
       <li>  <a href="https://paintbytext.chat/"><b>paint by text ★</b></a> </li>
       <li>  <a href="https://labs.openai.com/"><b>dall-e ★</b></a> 
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
