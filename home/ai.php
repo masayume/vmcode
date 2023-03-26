@@ -235,8 +235,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/FILM/', 'inspire/@AI/Monster Mash/', 
-                          'inspire/@AI/other/', 'inspire/@AI/shining/', 'inspire/@AI/star wars/', 'inspire/@AI/Stronzo Toys');
+      $ai_dirs    = array('inspire/@AI/faces/', 'inspire/@AI/lands/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
