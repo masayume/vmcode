@@ -122,21 +122,23 @@
   <div class="_exa">
 
   <h4>AI TOOLS</h4>
-    <ul>
-      <li> <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> </li>
-      <li> <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>
-      <li>  <a href="https://paintbytext.chat/"><b>paint by text ★</b></a> </li>
-      <li>  <a href="https://labs.openai.com/"><b>dall-e ★</b></a> 
+    <ul> 
+      <li>  <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> (edge) </li>
+      <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>
+      <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
+            <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
+      <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a>
+            <a href="https://www.artbreeder.com/image/98be33492cace0d80982577ec211"><b>Artbreeder★</b></a> </li>
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
             <a href="https://github.com/replicate/tilemaker">git</a> 
-            <a href="https://replicate.com/tstramer/material-diffusion"><b>material diff.</b></a> </li>
+            <a href="https://replicate.com/tstramer/material-diffusion"><b>MAT diff.</b></a> </li>
       <li>  <a href="https://replicate.com/"><b>replicate</b></a> </li>
       <li>  <a href="https://vercel.com/templates/ai"><b>vercel</b></a> </li>
     </ul>
 
     <h4>HUGGINGFACE</h4>
     <ul>
-      <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
+      <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★</b></a></li> 
       <li> <a href="https://huggingface.co/spaces/timbrooks/instruct-pix2pix"><b>pix2pix ★</b></a> </li>
       <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet ★</b></a> <a href="https://aituts.com/controlnet/">tut</a></li>
       <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stablediffusion 🤗★</b></a>
@@ -262,6 +264,14 @@
   </div>
 
   <div class="_exa">
+    <h4>LOCAL AI APPS</h4>
+      <ul>
+        <li> <a href="URL"><b>chatGPT page</b></a> </li>
+        <li> <a href="URL">LINK #11</a> </li>
+        <li> <a href="URL">LINK #12</a> </li>
+        <li> <a href="URL">LINK #13</a> </li>
+      </ul>
+
     <h4>text graph</h4>
     <ul>
       <li> <a href="https://www.calligrapher.ai/"><b>calligrapher.ai</b></a> </li>
@@ -281,29 +291,23 @@
   
   </div>
 
-
   <div class="_exa">
-    <h4>TITLE #7</h4>
-    <ul>
-      <li> <a href="URL">LINK #10</a> </li>
-      <li> <a href="URL">LINK #11</a> </li>
-      <li> <a href="URL">LINK #12</a> </li>
-      <li> <a href="URL">LINK #13</a> </li>
-    </ul>
+      <!-- php_image_show -->
+      <?php
+      $ai_dirs    = array('inspire/@AI/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
 
-    <h4>TITLE #8</h4>
-    <ul>
-      <li> <a href="URL">LINK #14</a> </li>
-      <li> <a href="URL">LINK #15</a> </li>
-      <li> <a href="URL">LINK #16</a> </li>
-      <li> <a href="URL">LINK #17</a> </li>
-    </ul>
+    ?>
   </div>
 
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/FILM/', 'inspire/@AI/Monster Mash/', 
+      $ai_dirs    = array('inspire/@AI/FILM/', 'inspire/@AI/Monster Mash/', 
                           'inspire/@AI/other/', 'inspire/@AI/shining/', 'inspire/@AI/star wars/', 'inspire/@AI/Stronzo Toys');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
