@@ -311,8 +311,9 @@
       <!-- php_image_show -->
       <?php
       $ai_dirs    = array('inspire/@AI/FILM/', 'inspire/@AI/Monster Mash/', 
-                          'inspire/@AI/other/', 'inspire/@AI/shining/', 'inspire/@AI/star wars/', 'inspire/@AI/Stronzo Toys');
+                          'inspire/@AI/other/', 'inspire/@AI/shining/', 'inspire/@AI/star wars/', 'inspire/@AI/Stronzo Toys/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
