@@ -310,8 +310,9 @@
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/FILM/', 'inspire/@AI/Monster Mash/', 
-                          'inspire/@AI/other/', 'inspire/@AI/shining/', 'inspire/@AI/star wars/', 'inspire/@AI/Stronzo Toys/');
+      $ai_dirs    = array('inspire/@AI/Douggy Pledger/FILM/', 'inspire/@AI/Douggy Pledger/Monster Mash/', 
+                          'inspire/@AI/Douggy Pledger/other/', 'inspire/@AI/Douggy Pledger/shining/', 
+                          'inspire/@AI/Douggy Pledger/star wars/', 'inspire/@AI/Douggy Pledger/Stronzo Toys/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
