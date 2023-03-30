@@ -62,78 +62,84 @@
              <a href="https://creator.nightcafe.studio/explore ">nightcafe</a></li>
       </ul>
 
-    <h4>SOURCES</h4>
+    <h4>COLLECTIONS</h4>
       <ul>
-        <li> <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GeneratedImage</b></a> </li>
-        <li> <a href="https://twitter.com/OliverAltair/media" target="_blank"><b>OliverAltair</b></a> </li>
-        <li> <a href="https://twitter.com/frankenmizer/media" target="_blank"><b>frankenmizer</b></a> </li>
-        <li> <a href="https://twitter.com/hardmaru" target="_blank"><b>Hardmaru</b></a> 
-             <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
-        <li> <a href="https://twitter.com/DreamStudioAI" target="_blank"><b>DreamStudio</b></a> </li>
-        <li> <a href="https://twitter.com/KaliYuga_ai" target="_blank"><b>KaliYuga</b></a> 
-             <a href="https://twitter.com/8co28/media" target="_blank"><b>852話</b></a> </li>
+        <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io ★</b></a> </li>
+        <li> <a href="https://www.futuretools.io/">futuretools</a> 
+           <a href="https://aitools.fyi/">aitools</a> 
+           <a href="https://aidepot.co/">aidepot</a> </li>
+      </ul>
+
+    <h4>HASHTAGS</h4>
+      <ul>
         <li> <a href="https://twitter.com/hashtag/synthography" target="_blank"><b>#synthography</b></a> </li> 
         <li> <a href="https://twitter.com/hashtag/stablediffusionart"><b>#stablediffusion★</b></a></li>  
         <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a> </li>
         <li> <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a> </li>  
-
       </ul>
       
   </div>
 
   <div class="_exa">
-    <h4>TOOLS</h4>
+    <h4>GRAPH AI TOOLS</h4>
     <ul>
-      <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io ★</b></a> </li>
-      <li> <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> </li>
-      <li> <a href="https://www.futuretools.io/">futuretools</a> 
-           <a href="https://aitools.fyi/">aitools</a> 
-           <a href="https://aidepot.co/">aidepot</a> </li>
-           <a href="https://stablediffusionweb.com/"><b>stable diffusion</b></a></li>
-      <li><a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a></li>
-      <li> <a href="https://weirdwonderfulai.art/"><b>Weird Wonderful AI</b></a> </li>
-      <li> <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Stable Diffusion ★</b></a> </li>
-      <li> <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diffusion ★</b></a> </li>    
-      <li><a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
-      <li><a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a></li>
-      <li><a href="https://www.reddit.com/r/deepdream/"><b>Red.Deepdream</b></a></li>
+      <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
+            <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
+      <li>  <a href="https://stablediffusionweb.com/"><b>StableDIFF</b></a>
+            <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Colab★</b></a> </li>
+      <li>  <a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a>
+            <a href="https://www.artbreeder.com/image/98be33492cace0d80982577ec211"><b>Artbreeder★</b></a> </li>
+      <li>  <a href="https://weirdwonderfulai.art/"><b>Weird Wonderful AI</b></a> </li>
+      <li>  <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diffusion ★</b></a> </li>    
+      <li>  <a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
+      <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a> </li>
+      
     </ul>
 
     <h4>TW-SOURCES</h4>
     <ul>
-      <li><a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
-          <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
-          <a href="https://twitter.com/snecc_art/media">snecc</a></li>
-      <li><a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
-          <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
-      <li><a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
-      <li><a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
-          <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
-      <li><a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
-          <a href="https://twitter.com/inigma_a/media">AInigma</a>
-          <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
-      <li><a href="https://twitter.com/noir_random/media">noirndom</a>
-          <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
-      <li><a href="https://twitter.com/magnasoma/media">magnasoma</a></li>
+      <li>  <a href="https://twitter.com/hardmaru" target="_blank"><b>Hardmaru</b></a> 
+            <a href="https://twitter.com/DreamStudioAI" target="_blank"><b>DreamStudio</b></a> </li>
+      <li>  <a href="https://twitter.com/KaliYuga_ai" target="_blank"><b>KaliYuga</b></a> 
+            <a href="https://twitter.com/8co28/media" target="_blank"><b>852話</b></a> 
+            <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GenImg</b></a> </li>
+      <li>  <a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
+            <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
+            <a href="https://twitter.com/snecc_art/media">snecc</a></li>
+      <li>  <a href="https://twitter.com/OliverAltair/media" target="_blank"><b>OAltair</b></a> 
+            <a href="https://twitter.com/frankenmizer/media" target="_blank"><b>Fnmizer</b></a> 
+            <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
+      <li>  <a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
+            <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
+      <li>  <a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
+      <li>  <a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
+            <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
+      <li>  <a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
+            <a href="https://twitter.com/inigma_a/media">AInigma</a>
+            <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
+      <li>  <a href="https://twitter.com/noir_random/media">noirndom</a>
+            <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
+      <li>  <a href="https://twitter.com/magnasoma/media">magnasoma</a>
+            <a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a> </li>
+      <li>  <a href="https://www.reddit.com/r/deepdream/"><b>Red.Deepdream</b></a></li>
     </ul>
     
   </div>
 
   <div class="_exa">
 
-  <h4>AI TOOLS</h4>
+  <h4>TEXT AI TOOLS</h4>
     <ul> 
       <li>  <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> (edge) </li>
-      <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>
-      <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
-            <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
-      <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a>
-            <a href="https://www.artbreeder.com/image/98be33492cace0d80982577ec211"><b>Artbreeder★</b></a> </li>
+      <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
+      <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> 
+      <li> <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> 
+
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
             <a href="https://github.com/replicate/tilemaker">git</a> 
             <a href="https://replicate.com/tstramer/material-diffusion"><b>MAT diff.</b></a> </li>
-      <li>  <a href="https://replicate.com/"><b>replicate</b></a> </li>
-      <li>  <a href="https://vercel.com/templates/ai"><b>vercel</b></a> </li>
+      <li>  <a href="https://replicate.com/"><b>replicate</b></a> 
+            <a href="https://vercel.com/templates/ai"><b>vercel</b></a> </li>
     </ul>
 
     <h4>HUGGINGFACE</h4>
@@ -150,8 +156,6 @@
       <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> 
            <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrompt</a> </li>
       <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> </li>
-      <li> <a href="URL">SPACE #4</a> </li>
-      <li> <a href="URL">SPACE #3</a> </li>
       <li> <a href="URL">SPACE #4</a> </li>
       <li> <a href="URL">SPACE #3</a> </li>
     </ul>
