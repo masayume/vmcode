@@ -85,14 +85,17 @@
     <ul>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
+      <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourney ★</b></a> 
+            <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://stablediffusionweb.com/"><b>StableDIFF</b></a>
             <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Colab★</b></a> </li>
       <li>  <a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a>
             <a href="https://www.artbreeder.com/image/98be33492cace0d80982577ec211"><b>Artbreeder★</b></a> </li>
-      <li>  <a href="https://weirdwonderfulai.art/"><b>Weird Wonderful AI</b></a> </li>
-      <li>  <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diffusion ★</b></a> </li>    
+      <li>  <a href="https://weirdwonderfulai.art/"><b>W.W.AI</b></a> 
+            <a href="https://discord.com/channels/1004969787828473926/1004969788528934975"><b>discord</b></a> </li>
       <li>  <a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
-      <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a> </li>
+      <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a> 
+            <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diff ★</b></a> </li>
       
     </ul>
 
@@ -351,6 +354,19 @@
     </ul>
   </div>
 
+  <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+      $ai_dirs    = array('inspire/@AI/fromMISC/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+
+    ?>
+  </div>
 
 </div> <!-- container -->
 
