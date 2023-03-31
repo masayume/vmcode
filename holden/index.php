@@ -50,7 +50,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
 // 10
                   , '/inspire/masayume/pub'
                   , '/inspire/@MISC-STYLE'            // 12
-                  , '/inspire/@CARTOONS/carroll'
+                  , '/inspire/@CARTOONS/@gif animations'
                   , '/inspire/@COVERS/retrocovers'
                   , '/inspire/@COVERS/ataricovers'
                   , '/inspire/@CARTOONS/@chibi'

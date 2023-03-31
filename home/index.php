@@ -86,7 +86,8 @@
            <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
            <a href="/HTML5/holden/index.php?art1=125&art2=125"><b>@backs</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=11&art2=11"><b>masayume</b></a>  
-           <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>covers</b></a>  </li>
+           <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>covers</b></a>  
+           <a href="/HTML5/holden/index.php?art1=13&art2=13"><b>gifs</b></a>  </li>
     </ul>
 
 
