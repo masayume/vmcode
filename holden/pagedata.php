@@ -65,6 +65,15 @@ function pagenewtemp($dir, $tag) {
     if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate TWITTER link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    
+    }
+    elseif (preg_match('/^in-/', $twitterRaw2) ){     // calculate INSTAGRAM link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>instagram:</b> <a href='https://www.instagram.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
+    elseif (preg_match('/^it-/', $twitterRaw2) ){     // calculate ITCH.IO link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>instagram:</b> <a href='https://" . $exploded[1] . ".itch.io" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . ".itch.io</a>";
     } 
     elseif (preg_match('/^tu-/', $twitterRaw2) )  // calculate TUMBLR link
     {    
@@ -195,6 +204,8 @@ function findtags($tw) {
   // print "TW parameter: " . $tw;
   $tw = preg_replace('/^pi\-/', '', $tw);                           // clears pinterest prefix
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
+  $tw = preg_replace('/^in\-(\w+)\-/', '', $tw);                    // clears instagram prefix
+  $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix

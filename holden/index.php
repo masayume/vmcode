@@ -15,7 +15,7 @@
 <!------ sidebar ---------->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     document.addEventListener('keyup', function(e){
       if( e.keyCode == 13 || e.keyCode == 32 )
@@ -66,9 +66,9 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/dillon'
                   , '/inspire/@CARTOONS/Elvgren'
                   , '/inspire/@CARTOONS/birault'
-                  , '/inspire/@CARTOONS/EVA'
+                  , '/inspire/@WORKFLOWS'
                   , '/inspire/@CARTOONS/@expressions'
-                  , '/inspire/@CARTOONS/faboarts'     // 30
+                  , '/inspire/@CARTOONS/faboarts'     
 // 30
                   , '/inspire/@CARTOONS/fran'
                   , '/inspire/@CARTOONS/gamercat'
