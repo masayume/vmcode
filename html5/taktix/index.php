@@ -23,7 +23,7 @@ $page =<<< "EOP"
   <title>masayume oblique taktix - ver. $version</title>
   <link rel="stylesheet" href="utilities/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
   <script src="utilities/jquery.bigSlide.min.js"></script>
   <style>
 .wrapper {
@@ -85,14 +85,14 @@ $page =<<< "EOP"
     </div>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
 
   <script src="php/info.php?file=$jfile"></script>
   <script src="js/index.js"></script>
 
 
-    <script src="utilities/jquery.min.js"></script>
+<!--    <script src="utilities/jquery.min.js"></script> -->
     <script src="utilities/bigSlide.js"></script>
     <script>
         $(document).ready(function() {
