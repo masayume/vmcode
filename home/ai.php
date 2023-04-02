@@ -272,9 +272,9 @@
   <div class="_exa">
     <h4>LOCAL AI APPS</h4>
       <ul>
-        <li> <a href="URL"><b>chatGPT page</b></a> </li>
-        <li> <a href="URL">LINK #11</a> </li>
-        <li> <a href="URL">LINK #12</a> </li>
+        <li> <a href="/ai-chatgpt.php"><b>chatGPT page</b></a> </li>
+        <li> <a href="http://localhost:8910/HTML5/holden/index.php?art1=12&art2=12&tag1=-AI-&tag2=-AI-"><b>AI in MISC</b></a> </li>
+        <li> <a href="http://localhost:8910/HTML5/holden/index.php?art1=59&art2=59&tag1=-AI-&tag2=-AI-"><b>AI in mabius</b></a> </li>
         <li> <a href="URL">LINK #13</a> </li>
       </ul>
 
