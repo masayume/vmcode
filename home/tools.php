@@ -485,7 +485,7 @@
       <li><a href="/keplerion/layerizer.php">layerizer</a> </li>
       <li> <a href="https://talktotransformer.com/" target="_blank"><b>GPT-2 online &nbsp; ★</b></a> </li>
       <li> <a href="https://books.google.com/talktobooks/" target="_blank"><b>talk to books</b></a> </li>
-      <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions.htm">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
+      <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
       <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">readme</a> </li>
       <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> (online) </li>
       <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrammar</a> (online) </li>
