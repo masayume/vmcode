@@ -89,6 +89,13 @@
       <li> <a href="http://radio.garden/listen/fm-76-2-poco/8VGR1T24"><b>radio.garden ★</b></a> </li>
       <li> <a href="https://radiooooo.com/">radiooooo ★</a> </li>
     </ul>
+
+    <h4>SENSEI</h4>
+      <ul>
+        <li><a href="https://www.twitter.com/kayoshodo">Kayo sensei</a> - <a href="https://www.youtube.com/watch?v=VNs1NuBKYkc">youtube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xIPCbiHs-io">Miku sensei</a></li>
+        <li><a href="https://twitter.com/akokitamura">Ako sensei</a> - <a href="https://www.youtube.com/c/akokitamura">youtube</a></li>
+      </ul>
     
   </div>
 
@@ -118,6 +125,12 @@
       <li> <a href="https://fontsinuse.com/typefaces/42771/matisse">fonts in use ★</a> </li>
     </ul>
 
+    <h4>ZASSHI</h4>
+      <ul>
+        <li> <a href="https://www.masayume.it/blog/content/classic-japanese-magazines">classic mags ★</a></li>
+        <li> <a href="https://magazinelib.com/japan/">magazine lib</a> </li>
+
+      </ul>
 
   </div>
 
@@ -181,27 +194,22 @@
   </div>
 
   <div class="_exa">
-    <script type="text/javascript">
-        document.write(getImageTag());
-    </script>
+      <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
+
+      <!-- php_image_show -->
+      <?php
+      $ai_dirs    = array('inspire/@backs/shinkai/', 'inspire/@JAPAN/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" style=\"width: 400px; \">";
+
+    ?>
+
   <br />
     <h4>benkyo shite imasu</h4>
-      <ul>
-      </ul>
-
-      <h4>SENSEI</h4>
-      <ul>
-        <li><a href="https://www.twitter.com/kayoshodo">Kayo sensei</a> - <a href="https://www.youtube.com/watch?v=VNs1NuBKYkc">youtube</a></li>
-        <li><a href="https://www.youtube.com/watch?v=xIPCbiHs-io">Miku sensei</a></li>
-        <li><a href="https://twitter.com/akokitamura">Ako sensei</a> - <a href="https://www.youtube.com/c/akokitamura">youtube</a></li>
-      </ul>
-
-      <h4>ZASSHI</h4>
-      <ul>
-        <li> <a href="https://www.masayume.it/blog/content/classic-japanese-magazines">classic mags ★</a></li>
-        <li> <a href="https://magazinelib.com/japan/">magazine lib</a> </li>
-
-      </ul>
   </div>
 
   <div class="_exa">
@@ -258,9 +266,18 @@
 
 
   <div class="_exa">
-    <h4>...</h4>
-    <ul>
-    </ul>
+      <!-- php_image_show -->
+      <?php
+      $ai_dirs    = array('inspire/@JAPAN/@J-hiroshi_yoshida/', 'inspire/@JAPAN/@J-ikenaga yasunari/', 'inspire/@JAPAN/@J-ikenaga yasunari/'
+                        , 'inspire/@JAPAN/@J-kawase_hasui/', 'inspire/@JAPAN/@J-kento_iida/', 'inspire/@JAPAN/@J-masayasu_uchida/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"400\">";
+      ?>
+
   </div>
 
   <div class="_exa">
@@ -275,6 +292,19 @@
     </ul>
   </div>
 
+  <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+      $ai_dirs    = array('inspire/@JAPAN/kanji/' );
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" style=\"width: 300px; background-color:#ccc; \" title=\"$imagefile\">";
+      ?>
+
+  </div>
 
 </div> <!-- container -->
 
