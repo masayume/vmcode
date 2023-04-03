@@ -50,13 +50,14 @@
     <h4>PAGES</h4>
       <ul>
         <li> <a href="tools.php" target="_blank"><b>TOOLS</b></a> 
-             <a href="unity.php" target="_blank"><b>UNITY</b></a>
+             <a href="godot.php" target="_blank"><b>GODOT</b></a>
              <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
         <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
              <a href="nihongo.php" target="_blank"><b>NIHONGO</b></a>
              <a href="ai.php" target="_blank"><b>AI</b></a> </li>
         <li> <a href="retro.php" target="_blank"><b>RETRO</b></a>
              <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
+        <li> <a href="unity.php" target="_blank">UNITY</a> </li>
         </ul>
     <h4>Solomon's World</h4>
 	<ul>
@@ -66,8 +67,8 @@
 	</ul>
     <h4>Video,Music,Sound</h4>
 	<ul>
-    <li><a href="/HTML5/holden/index.php?vfolder=VIDEO">local video ★★</a></li>
-    <li><a href="/demon/OSS/oss.php">OSS ★★★</a></li>
+    <li><a href="/HTML5/holden/index.php?vfolder=VIDEO"><b>VIDEO ★★</b></a>
+        <a href="/demon/OSS/oss.php"><b>OSS ★★</b></a></li>
 		<li><a href="/jsSID">jsSID</a> <a href='https://github.com/jhohertz/jsSID'>gh</a> - 
 		    <a href="/3dpiano">piano3D</a> <a href='https://github.com/reality3d/3d-piano-player'>gh</a></li>
 		<li><a href="/demon/soundboard/">soundboard</a></li>
@@ -75,8 +76,8 @@
 
   <h4>AI img repositories</h4>
     <ul>
-      <li> <a href="https://lexica.art/"><b>lexica.art </b></a> </li>
-      <li> <a href="https://libraire.ai/"><b>libraire.ai</b></a>  </li>
+      <li> <a href="https://lexica.art/"><b>lexica.art </b></a> 
+           <a href="https://libraire.ai/"><b>libraire.ai</b></a>  </li>
       <li> <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
     </ul>
 
