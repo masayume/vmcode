@@ -112,19 +112,26 @@
   
   <h4>masa sources</h4>
     <ul>
+      <li> <a href="https://twitter.com/hackernoon" target="_blank">hackernoon</a> </li>
       <li> <a href="https://news.ycombinator.com/news" target="_blank">hackrnews</a> 
            <a href="https://www.getrevue.co/profile/Recomendo" target="_blank">recom</a> </li>
       <li> <a href="https://www.lesswrong.com/" target="_blank">lesswrong</a>
            <a href="https://samim.io/" target="_blank">samim</a> </li>
-      <li> <a href="https://tympanus.net/codrops/collective/collective-435/" target="_blank">tympanus</a> </li>
+      <li> <a href="https://tympanus.net/codrops/collective/collective-435/" target="_blank">tympanus</a> 
+           <a href="https://twitter.com/historydefined" target="_blank">histDef</a> </li>
       <li> <a href="https://weeklyfilet.com/surprise/?ref=thebrowser" target="_blank">WF gem ■</a> <a href="https://weeklyfilet.substack.com/?ref=wf-surprise" target="_blank">hist</a> </li>
+      <li> <a href="https://www.reddit.com/r/proceduralgeneration/" target="_blank">proc gen</a>
+           <a href="https://twitter.com/david_perell/status/1248834927409238016" target="_blank">perrell</a> </li>
+      <li> <a href="http://crpgaddict.blogspot.com/" target="_blank">crpgaddt</a> 
+           <a href="http://datadrivengamer.blogspot.com/" target="_blank">DDgamr</a> </li>
+    </ul>
+
+    <h4>graph sources</h4>
+    <ul>
       <li> <a href="https://twitter.com/thatsgoodweb/" target="_blank">𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥</a>
            <a href="https://twitter.com/xe0_xeo/media" target="_blank"><b>Xeo³</b></a> </li>
       <li> <a href="https://mobile.twitter.com/scott_kerr/media" target="_blank">ScottKerr■</a>
            <a href="https://mobile.twitter.com/qdqdminbpbp/media" target="_blank">MiN★</a> </li>
-      <li> <a href="https://twitter.com/hackernoon" target="_blank">hackernoon</a> </li>
-      <li> <a href="https://www.reddit.com/r/proceduralgeneration/" target="_blank">proc gen</a>
-           <a href="https://twitter.com/david_perell/status/1248834927409238016" target="_blank">perrell</a> </li>
       <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
            <a href="https://twitter.com/ericjang11/media" target="_blank">ericJang</a> </li>
       <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
@@ -134,8 +141,6 @@
       <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
       <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> 
            <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
-      <li> <a href="http://crpgaddict.blogspot.com/" target="_blank">crpgaddt</a> 
-           <a href="http://datadrivengamer.blogspot.com/" target="_blank">DDgamr</a> </li>
 
     </ul>
 
