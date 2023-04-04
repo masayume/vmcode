@@ -6,7 +6,7 @@ function gamepage($jfile) {
 
   $string = file_get_contents($jfile);
   $json_a = json_decode($string, true);
-  $gdata = $json_a[data];
+  $gdata = $json_a['data'];
   $html_elements = "";
 
 // print "<pre>"; print_r($json_a);
@@ -22,27 +22,27 @@ function gamepage($jfile) {
     }
 
     $game= "";
-    if (isset($item[url])){
-      $game="<p class=\"game\"><a href=\"{$item[url]}\" target=\"_blank\">{$item[game]}</a></p>";
+    if (isset($item['url'])){
+      $game="<p class=\"game\"><a href=\"{$item['url']}\" target=\"_blank\">{$item['game']}</a></p>";
     } else {
-      $game="<p class=\"game\">{$item[game]}</p>";
+      $game="<p class=\"game\">{$item['game']}</p>";
     }
 
     $url_making= "";
-    if (isset($item[url_making])){
-      $url_making="<p class=\"url_making\"><a href=\"{$item[url_making]}\" target=\"_blank\">making of</a></p>";
+    if (isset($item['url_making'])){
+      $url_making="<p class=\"url_making\"><a href=\"{$item['url_making']}\" target=\"_blank\">making of</a></p>";
     } else {
       $url_making="";
     }
 
 
     $template =<<<TEM
-  <div class="element-item $class " data-category="{$item[data_cat]}" style="background-image: url('img/{$item[img]}'); background-size: 100%;">
+  <div class="element-item $class " data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
 <!--    <h3 class="name">$key</h3> -->
-<!--    <p class="symbol">{$item[symbol]}</p> -->
+<!--    <p class="symbol">{$item['symbol']}</p> -->
     $game
-    <p class="by">{$item[by]}</p>
-    <p class="year">{$item[year]}</p>
+    <p class="by">{$item['by']}</p>
+    <p class="year">{$item['year']}</p>
     $url_making
     </div>
 

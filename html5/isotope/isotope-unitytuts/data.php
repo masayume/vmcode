@@ -6,7 +6,7 @@ function gamepage($jfile) {
 
   $string = file_get_contents($jfile);
   $json_a = json_decode($string, true);
-  $gdata = $json_a[data];
+  $gdata = $json_a['data'];
   $html_elements = "";
 
 // print "<pre>"; print_r($json_a);
@@ -22,20 +22,20 @@ function gamepage($jfile) {
     }
 
     $books = "";
-    if ($item[books]) {
-      $books = $item[books] . " vol ";
+    if ( isset($item['books']) ) {
+      $books = $item['books'] . " vol ";
     } else {
-      $books = $item[length] . " min";
+      $books = $item['length'] . " min";
     }
 
     $template =<<<TEM
-      <div class="element-item $class overcard" data-category="{$item[data_cat]}" style="background-image: url('img/{$item[img]}'); background-size: 100%;">
-        <p class="name"><a href='{$item[url]}'>{$item[name]}</a></p>
-        <p class="number">{$item[number]}</p>
-        <p class="year">{$item[year]}</p>
-        <p class="rating">r:{$item[rating]}</p> 
-        <p class="length">{$item[length]}</p>
-        <p class="weight">d:{$item[weight]}</p> 
+      <div class="element-item $class overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
+        <p class="name"><a href='{$item['url']}'>{$item['name']}</a></p>
+        <p class="number">{$item['number']}</p>
+        <p class="year">{$item['year']}</p>
+        <p class="rating">r:{$item['rating']}</p> 
+        <p class="length">{$item['length']}</p>
+        <p class="weight">d:{$item['weight']}</p> 
         <p class="book">$books</p>
       </div>
 
