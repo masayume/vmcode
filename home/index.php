@@ -94,19 +94,6 @@
 
   </div>
 
-<!-- twitter
-  <div class="_exa">
-    <ul>
-      <li> <a href="URL" target="_blank">text</a> </li>      
-      <li> <a href="URL" target="_blank">text</a> </li>      
-      <li> <a href="URL" target="_blank">text</a> </li>      
-      <li> <a href="URL" target="_blank">text</a> </li>      
-      <li> <a href="URL" target="_blank">text</a> </li>      
-      <li> <a href="URL" target="_blank">text</a> </li>      
-  
-    </ul>
-  </div>
--->
 
   <div class="_exa">
   
@@ -124,6 +111,7 @@
            <a href="https://twitter.com/david_perell/status/1248834927409238016" target="_blank">perrell</a> </li>
       <li> <a href="http://crpgaddict.blogspot.com/" target="_blank">crpgaddt</a> 
            <a href="http://datadrivengamer.blogspot.com/" target="_blank">DDgamr</a> </li>
+      <li> <a href="https://webcurios.co.uk/all-curios/" target="_blank">web curious</a> </li>
     </ul>
 
     <h4>graph sources</h4>
