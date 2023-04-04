@@ -147,6 +147,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <h4>TOOLS</h4>
       <ul>
         <li> <a href="https://github.com/ellisonleao/magictools/commits/master"><b>MAGICTOOLS★</b></a> </li>
+        <li> <a href="https://whatdoesthiscodedo.com/"><b>WhatTheCode ★</b></a> </li>
         <li> <a href="http://www.taskade.com/spaces/H1316-R3M" target="_blank"><b>TASKADE</b></a> </li>
         <li> <a href='/writing'>writing</a> 
              <a href='/stackedit'>stackedit</a> </li>

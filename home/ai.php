@@ -135,7 +135,8 @@
     <ul> 
       <li>  <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> (edge) </li>
       <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
-      <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> 
+      <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> </li>      
+      <li>  <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
       <li> <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> 
 
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
