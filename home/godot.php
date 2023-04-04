@@ -11,12 +11,12 @@
 	background-color: #0033cc;
 */
 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-	background: rgb(30,27,193); /* Old browsers */
-	background: -moz-linear-gradient(-127deg, rgba(6,227,250,1) 23%, rgba(80, 119, 144,1) 77.37%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-127deg, rgba(6,227,250,1) 23%,rgba(80, 119, 144,1) 77.37%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(127deg, rgba(6, 227, 250,1) 23%,rgba(80, 119, 144,1) 77.37%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+34,e86c57+34,ea2803+51,ff6600+75,c72200+100 */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f3c5bd 0%, #e86c57 34%, #e86c57 34%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f3c5bd 0%,#e86c57 34%,#e86c57 34%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f3c5bd 0%,#e86c57 34%,#e86c57 34%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
   a, a:visited {  color: #ffffff; }
   h3, h4 {  color: #002244; }
@@ -86,6 +86,56 @@
   </div>
 
   <div class="_exa">
+
+  </div>
+
+
+  <div class="_exa">
+
+  </div>
+
+
+  <div class="_exa">
+    <h4>MY PROJECTS</h4>
+      <ul> 
+<!--        <li> <a href="/keplerion/mersenne-03.php"><b>keplerion tool</b></a> </li>  -->
+      </ul>
+  
+      <h4>MAIN LINKS</h4>
+      <ul>
+        <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
+        <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
+        <li> <a href="https://dev.to/github/top-five-godot-games-and-source-code-from-game-off-2022-3690"><b>game off 2022</b></a> </li>
+      </ul>
+
+
+      <h4>LINKS</h4>
+      <ul>
+        <li> <a href="https://dev.to/t/godot"><b>dev.to godot</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/godot/"><b>Reddit Godot</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/madeWithGodot/"><b>R madeWithGodot</b></a> </li>
+        <li> <a href="https://www.reddit.com/t/gdscript/"><b>GDscript</b></a> 
+             <a href="https://dev.to/t/gdscript"><b>@dev.to</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/gamedev/"><b>Reddit gamedev</b></a> </li>
+        <li> <a href="https://livellosegreto.it/tags/godotengine"><b>#godotengine</b></a> </li>
+      </ul>
+
+      <h4>ALGORITHMS</h4>
+      <ul>
+        <li> <a href="https://github.com/tlobig/godot-procedural-generation/tree/godot4update"><b>Godot procgen</b></a> </li>
+        <li> <a href="https://www.redblobgames.com"><b>Amit Patel</b></a> </li>
+      </ul>
+ 
+      <h4>STYLE</h4>
+      <ul>
+        <li> <a href="https://www.masayume.it/blog/content/petscii-unaltra-pixel-art"><b>Playscii★</b></a>
+             <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
+      </ul>
+
+    </div>
+
+
+  <div class="_exa">
     <h4>PROCESS</h4>
       <ul>
         <li> <a href="/html5/game-dev-process/the-making-of-shovel-knight-specter-of-torment-part-1.htm" target="_blank"><b>Shovel Knight 2 ★★★</b></a> </li>
@@ -96,25 +146,14 @@
 
     <h4>TOOLS</h4>
       <ul>
-        <li> <a href="https://github.com/ellisonleao/magictools/commits/master">MAGIC TOOLS ★★★</a></li>
+        <li> <a href="https://github.com/ellisonleao/magictools/commits/master"><b>MAGICTOOLS★</b></a> </li>
         <li> <a href="http://www.taskade.com/spaces/H1316-R3M" target="_blank"><b>TASKADE</b></a> </li>
-        <li> <a href='/writing'>writing</a> </li>
-        <li> <a href='/stackedit'>stackedit</a> </li>
-        <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
-        <li> <a href='https://threejs.org/'>threejs</a></li>
+        <li> <a href='/writing'>writing</a> 
+             <a href='/stackedit'>stackedit</a> </li>
+        <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(rem)</a>
+             <a href='https://threejs.org/'>threejs</a> </li>
         <li> <a href='https://www.masayume.it/blog/content/ldtk-level-designer-toolkit'><b>LDtk LVL Design ★</b>  <a href="https://www.masayume.it/blog/content/ldtk-level-designer-toolkit" target="_blank">my</a></a></li>
         </ul>
-
-
-    <h4>SHADERS</h4>
-          <ul>
-            <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
-            <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://editor.thebookofshaders.com/">editor</a> </li>
-            <li> <a href="https://github.com/mnmxmx/toon-shading">js toon shading</a></li> 
-            <li> <a href="https://www.shadertoy.com/results?query=tag%3Dcrosshatch">shadertoy xhatch</a></li> 
-            <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">crosshatching</a></li> 
-
-          </ul>
 
 
     <h4>GENERATIVE</h4>
@@ -125,61 +164,20 @@
             <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
             <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
           </ul>
+    
+    <h4>Music & Sound</h4>
+    <ul>
+      <li> <a href="/unity.php">on unity page</a></li> 
+    </ul>
 
-    <h4>TEXTGEN</h4>
-          <ul>
-            <li> <a href="https://talktotransformer.com/" target="_blank"><b>GPT-2 online &nbsp; ★</b></a> </li>
-            <li> <a href="https://github.com/minimaxir/textgenrnn" target="_blank"><b>textgenrnn</b></a> <a href="https://colab.research.google.com/drive/1e2yJMxW6co10yh_9wXZp5UoijsXSsiMi">CO</a> <a href="https://www.youtube.com/watch?v=RW7mP6BfZuY">V ★</a> </li> 
-          </ul>
+    <h4>Graph & Sprites</h4>
+    <ul>
+      <li> <a href="/unity.php">on unity page</a></li> 
+    </ul>
+
   </div>
 
-  <div class="_exa">
-    <h4>MY PROJECTS</h4>
-      <ul> 
-        <li> <a href="/keplerion/mersenne-03.php"><b>keplerion tool</b></a> </li>
-        <li> <a href="LINK"><b>demon/unity/slalom2020</b></a> </li>
-        <li><a href="/solomons/solomons.php">solomon tools</a></li>
-        <li><a href="/solomons/sprite.htm">sprites</a></li>
-        <li><a href="/solomons/assets.php">assets</a></li>
-      </ul>
-        <h4>C#</h4>
-      <ul>
-          <li><a href="https://repl.it/@masayume/ScentedHuskyPlanes#main.cs">c# online repl.it</a>
-          <li><a href="https://www.nuget.org/packages/">nuget search</a>
-          <li><a href="https://www.masayume.it/blog9/web/content/the-perfect-pixel-art-parallax-tutorial"><b>parallax scrolling</b></a>
-      </ul>
 
-      <h4>OPEN PROJECTS</h4>
-      <ul>
-        <li> <a href="https://osgameclones.com/?filter=unity&tag=c%23"><b>open unity projects</b></a> </li>
-      </ul>
-
-      <h4>ALGORITHMS</h4>
-      <ul>
-        <li> <a href="https://www.redblobgames.com"><b>Amit Patel</b></a> </li>
-      </ul>
-
-      <h4>LINKS</h4>
-      <ul>
-        <li> <a href="https://www.reddit.com/r/Unity2D/"><b>Reddit unity 2D</b></a> </li>
-        <li> <a href="https://www.reddit.com/r/gamedev/"><b>Reddit gamedev</b></a> </li>
-      </ul>
-
-      <h4>ASSETS</h4>
-      <ul> 
-        <li> <a href="https://openupm.com/packages/"><b>★ OPEN UPM</b></a> </li>     
-      </ul>
- 
-      <h4>GAME DESIGN </h4>
-      <ul> 
-        <li> <a href="https://openupm.com/packages/"><b>★ Raph Koster</b></a> <a href="https://www.youtube.com/watch?v=zyVTxGpEO30"><b>★ video</b></a> </li>     
-      </ul>
-
-      <h4>STYLE</h4>
-      <ul>
-        <li> <a href="https://www.masayume.it/blog/content/petscii-unaltra-pixel-art"><b>Playscii ★</b></a></li>
-      </ul>
-    </div>
 
   <div class="_exa">
 
@@ -249,210 +247,33 @@
       <li> <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
     </ul>
 
-    <h4>VIDEO EDIT</h4>
-    <ul>
-      <li> <a href="http://www.masayume.it/blog/content/kdenlive-non-linear-video-editor">kdenlive LMX</a> </li> 
-    </ul>
+    <h4>SHADERS</h4>
+          <ul>
+            <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
+            <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://editor.thebookofshaders.com/">editor</a> </li>
+            <li> <a href="https://github.com/mnmxmx/toon-shading">js toon shading</a></li> 
+            <li> <a href="https://www.shadertoy.com/results?query=tag%3Dcrosshatch">shadertoy xhatch</a></li> 
+            <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">crosshatching</a></li> 
+
+          </ul>
 
         
   </div>
   
 
-
   <div class="_exa">
-      
-      <h4>GRAPH</h4> <!-- also in TOOLS, INSPIRE -->
-        <ul>
-          <li> <a href="https://artbreeder.com/"><b>artbreeder</b> ★</a> <a href="https://www.artbreeder.com/gturk1#genes"><b>#1</b></a> <a href="https://www.artbreeder.com/i?k=9ef6c53e3f452bb1d28ec62f32b9"><b>#2</b></a> <a href="https://www.artbreeder.com/i?k=807d792b6f2d3e5d6573a33d176c"><b>#3</b></a></li>
-          <li> <a href="https://21427.gradio.app"><b>waifu diffusion ★★</b></a></li>
-          <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>#stablediffusion HF ★</b></a></li>
-          <li> <a href="https://twitter.com/hashtag/stablediffusion"><b>#stablediffusion★</b></a></li>
-          <li> <a href="https://discord.com/channels/662267976984297473/989268365870776411">midjourney ★</a></li>
-              <li> <a href="https://colab.research.google.com/drive/1ySrqJOzPXQG1oNgllfN5ARJcXGYf35xm#scrollTo=yzYVMxTPTdmw"><b>ArcaneGAN ★</b></a></li>
-          <li> <a href="https://toonify.justinpinkney.com/"><b>toonify</b></a>, <a href="https://twitter.com/Buntworthy">via★</a>  <a href="https://toonme.com/"><b>toonme★</b></a> </li>
-          <li> <a href="https://colab.research.google.com/github/yuval-alaluf/restyle-encoder/blob/master/notebooks/inference_playground.ipynb#scrollTo=qaB7RN7cOSDN"><b>colab★</b></a> <a href="https://twitter.com/ak92501/status/1379602670848241666"><b>via★</b></a> <a href="https://www.masayume.it/blog/content/twigl"><b>twigl</b> ★</a> </li>
-          <li> <a href="https://colab.research.google.com/drive/1O5XbpMRU9i83mLAiTrMufCqmImgTRI7A?usp=sharing#scrollTo=PtOVza7H9z3Y"><b>google colab</b> ★</a></li>
-          <li> <a href="https://petalica-paint.pixiv.dev/index_en.html">petalica paint</a></li>
-          <li> <a href="https://deepdreamgenerator.com"><b>deepdreamgen</b> ★</a></li>
-          <li> <a href="https://gradio.app/g/AK391/Anime2Sketch#3"><b>sketch simpl</b></a> <a href="http://hi.cs.waseda.ac.jp:8081/"><b>#2</b></a> <a href="https://sketch.esslab.jp/"><b>#3</b></a> <a href="https://www.masayume.it/blog/content/sketch-simplification"><b>my</b></a></li>
-          <li> <a href="/HTML5/texturizer/">texturizer</a> - <a href="/HTML5/mondrian/">mondrian</a> </li>
-          <li> <a href="https://www.remove.bg/"><b>RMV BCK ★</b></a>, 
-               <a href="https://www.remove.bg/"><b>C.A.Fill ★</b></a></li>
-          <li> <a href="https://bigjpg.com/">bigjpg scale</a></li>
-          <li> <a href="https://squoosh.app/">squoosh compress</a></li>
-          <li> <a href="https://distill.pub/selforg/2021/textures/"><b>texture generator ★</b></a></li>
-          <li> <a href="https://jasonwebb.github.io/reaction-diffusion-playground/"><b>reaction-diffusion★</b></a> <a href="https://www.masayume.it/blog/content/reaction-diffusion"><b>my</b></a>  </li>
-          <li> <a href="https://doodad.dev/pattern-generator/">pattern generator</a></li>
-          <li> <a href="https://observablehq.com/@rreusser/multiscale-turing-patterns-in-webgl">turing★</a>
-               <a href="https://observablehq.com/@makio135/creative-coding">creative★</a></li>
-          <li> <a href="/HTML5/crosshatch/">crosshatch</a></li>
-          <li> <a href="https://www.masayume.it/blog/content/p5js"><b>P5.js</b> ★</a></li>
-          <li> <a href="https://anvaka.github.io/streamlines/">streamlines</a>
-               <a href="https://roughjs.com/">roughjs</a></li>
-          <li> <a href="https://photomosh.com/"><b>photomosh ★</b></a></li>
-          <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">GLSL</a>, <a href="/html5/mojs/">mo.js demo</a></li>
-          <li> <a href="http://localhost:3000">m.g.moe</a> - npm start</li>
-          <li> <a href="/deepart01/">deepart</a> - <a href="https://developer.deeparteffects.com/dashboard/index">online</a> - <a href='https://github.com/deeparteffects/deepart-api-html-js-example'>git</a> </li>
-          <li> <a href="/HTML5/triangle-divider/">triangle divider</a> </li>
-        </ul>
 
-  </div>
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@COVERS/retrocovers/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"360\">";
 
-  <div class="_exa">
-    <h4>Sprites</h4>
-  <ul>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Akuma">Akuma</a>, 
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Athena%20Asamiya">Athena</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Balrog">Balrog</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Benimaru%20Nikaido">Benimaru</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Blanka">Blanka</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Cammy">Cammy</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Chun-Li">Chun-Li</a>, 
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Dan%20Hibiki">Dan H.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Dhalsim">Dhalsim</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Eagle">Eagle</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Edmund%20Honda">Honda</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Evil%Ryu">Evil Ryu</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Geese%20Howard">G.Howard</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/God%20Rugal">G.Rugal</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Guile">Guile</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Haohmaru">Haohmaru</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Hibiki">Hibiki</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Iori%20Yagami">Yagami</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Joe%20Higashi">Higashi</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ken%20Masters">Ken</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kim%20Kaphwan">Kim K.</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/King">King</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kyo%20Kusanagi">Kyo K.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kyosuke">Kyosuke</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/M.%20Bison">M. Bison</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Mai%20Shiranui">Mai S.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Maki">Maki</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Morrigan%20Aensland">Morrigan</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Nakoruru">Nakoruru</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Orochi%20Iori">Orochi</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Raiden">Raiden</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rock%20Howard">Rock H.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rolento">Rolento</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rugal%20Bernstein">Rugal B.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ryo%20Sakazaki">Ryo S.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ryu">Ryu</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Sagat">Sagat</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Sakura%20Kasugano">Sakura K.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Shin%20Akuma">S.Akuma</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Terry%20Bogard">Terry B.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Todoh">Todoh</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Vega">Vega</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Vice">Vice</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yamazaki">Yamazaki</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yun">Yun</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yuri%20Sakazaki">Yuri S.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Zangief">Zangief</a></li>
-    </ul>
-    <h4>Sprites RCG</h4>
-    <ul>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Kyoko">Kyoko</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Misako">Misako</a> </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Cheerleader">Cheerleader</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Cyborg">Cyborg</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Hanase%20Mami">Hanase-Mami</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Kunio">Kunio</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Linda">Linda</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Misuzu">Misuzu</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/MT">MT</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Noize">Noize</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Policeman">Policeman</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Trasher">Trasher</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Waver">Waver</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Riki">Riki</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/School%20Boy">School%20Boy</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/School%20Girl">School%20Girl</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Tigerman">Tigerman</a>,
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yamada">Yamada</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yakuza%20Female">Yakuza F</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yakuza%20Male">Yakuza M</a>, </li>
-
-    </ul>
-
-  </div>
-
-
-  <div class="_exa">
-    <h4>Music</h4>
-    <ul>
-      <li><a href="http://www.dl-sounds.com/">dl-sounds ★</a></li>
-      <li><a href="http://everynoise.com/">everysound ★</a></li>
-      <li><a href="/demon/OSS/oss.php"><b>OSS ★</b></a>, <a href="https://incompetech.com/music">incompetech</a></li>
-      <li><a href="https://openai.com/blog/musenet/#try">musenet ★</a></li>
-      <li><a href="https://musescore.com/user/2891181/sheetmusic">musescore</a>,<a href="https://www.noteflight.com/home">noteflight ★</a></li>
-      <li><a href="https://boscaceoil.net/linux-info.html">Bosca Ceoil</a>,<a href="tenori-off.glitch.me">Tenori Off</a></li>
-      <li><a href="/jsSID">jsSID</a> - <a href='https://github.com/jhohertz/jsSID'>github</a></li>
-      <li><a href="/3dpiano">piano 3D</a> - <a href='https://github.com/reality3d/3d-piano-player'>github</a></li>
-      <li><a href="https://www.youtube.com/c/8bitMusicTheory/playlists" target="_blank"><b>8bitMusicTheory ★</b></a></li>
-      <li><a href="https://icons8.com/music/?ref=masayume.it" target="_blank"><b><i>Fugue</i></b></a></li>
-      <li><a href="https://no-lick.com/?ref=masayume.it" target="_blank"><b><i>No Lick</i></b></a></li>
-      <li><a href="https://musicformakers.com/?ref=masayume.it" target="_blank"><b><i>music for makers</i></b></a></li>
-      <li><a href="http://stampede.it/?ref=masayume.it" target="_blank"><b><i>stampede</i></b></a></li>
-      <li><a href="https://musicmaker.site/?ref=masayume.it" target="_blank"><b><i>music maker</i></b></a></li>
-      <li><a href="https://www.tunepocket.com/?ref=masayume.it" target="_blank"><b><i>tune pocket</i></b></a></li>
-      <li><a href=""><b>BFXR WIN</b></a>, <a href="https://musopen.org/">musopen</a></li>
-      <li><a href="https://tabletopaudio.com/">tabletopaudio</a>, <a href="https://www.masayume.it/blog/content/ambient-music-sounds">my</a></li>
-      <li><a href="https://www.tony-b.org/">Tony-B machine</a></li>      
-      <li><a href="https://openmusicarchive">openmusicarchive</a></li>
-      <li><a href="https://freepd.com">freepd</a>, <a href="https://imslp.org/wiki/Main_Page">imslp</a>,<a href="https://www.cpdl.org/wiki/index.php/Main_Page">cpdl</a></li>
-      <li><a href="https://ccmixter.org">ccmixter</a>, <a href="https://typatone.com/m/ACD8HPxsxG">Typatone</a></li>
-      <li><a href="https://www.freemusicpublicdomain.com/">freemusicpublicdomain</a></li>
-      <li><a href="https://www.freesoundtrackmusic.com/">freesoundtrackmusic</a></li>
-      <li><a href="https://www.youtube.com/c/audiolibrary-channel/videos">youtube</a>
-          <a href="https://www.youtube.com/c/TheFatRat/videos"><b>TheFatRat</b></a></li>
-      <li><a href="https://publicdomain4u.com/music/">publicdomain4u</a></li>
-      <li><a href="https://www.masayume.it/blog/content/synthwave-retro-electro-music-themes">synthwave</a>
-      </li>
-      <li><a href="https://www.vitling.xyz/toys/autotracker/"><b>Autotracker ★</b></a></li>
-          </ul>
-
-  </div>
-
-
-  <div class="_exa">
-    <a href="https://www.masayume.it/blog/content/tero-parviainen-neural-arpeggiator"><h4>Teropa ★</h4></a>
-  <ul>
-    <li><a href="https://codepen.io/teropa/pen/JLjXGK">Neural Drums</a></li>
-    <li><a href="https://codepen.io/teropa/pen/zpbLOj">Deep Roll</a></li>
-    <li><a href="https://codepen.io/teropa/pen/rdoPbG">Latent Cycles</a></li>
-    <li><a href="https://codepen.io/teropa/pen/ddqEwj">N. Arpeggiator</a></li>
-    <li><a href="https://experiments.withgoogle.com/ai/beat-blender/view/">AI beatblender</a></li>
-    <li><a href="https://isartum.net/leimma">Leimma</a> <a href="https://isartum.net/apotome">Apotome</a> </li>
-  </ul>
-    
-    <h4>MIDI</h4>
-    <ul>
-      <li><a href="https://bitmidi.com/">BitMIDI</a></li>
-      <li><a href="">SID2MIDI WIN ★</a></li>
-    </ul>
-      
-    <h4>Sounds</h4> <!-- also in TOOLS -->
-  <ul>
-    <li><a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
-    <li><a href="https://www.masayume.it/blog/content/essential-game-audio-toolkit"><b>Essential Tools</b></a></li>
-    <li><a href="https://github.com/masayume/DigitalGarden/tree/main/resources/foley"><b>DigiGarden ★★</b></a></li>
-    <li><a href="/home/masayume/DATA/E/LOCALE/sonniss/sounds.txt"><b>SONNISS ★★</b></a></li>
-    <li><a href="https://freesound.org/browse/"><b>freesound ★</b></a>,<a href="https://freesound.org/search/?q=car&fbclid=IwAR2RYIcbws5MJihzo1IG8sCck8Awe-x9rcNpe1lqtGGxa_lR_msNlvYZ0qc">src</a></li>
-    <li><a href="https://www.shockwave-sound.com/">shockwavesound</a></li>
-    <li><a href="/demon/soundboard/">soundboard</a></li>
-    <li><a href="https://www.101soundboards.com/">101 soundboards</a></li>    
-    <li><a href="http://bbcsfx.acropolis.org.uk/">BBC 16k</a></li>
-    <li><a href="https://elements.envato.com/sound-effects">envato sound fx</a></li>
-    <li><a href="">BFXR WIN</a></li>
-    <li><a href="https://synapse.cephasteom.co.uk/">ambient sounds</a></li>
-    <li><a href="https://soundcloud.com/soundsuigood" target="_blank"><b><i>sounds ui good</i></b></a></li>
-  </ul>
-
-    <h4>Text 2 Speech</h4>
-  <ul>
-    <li><a href="https://colab.research.google.com/drive/1Pe93yRluSrgB_eQqkqTnQGcr-pN02uSK#scrollTo=msat5YjPEyyX"><b>flowtron ★</b></a></li>
-    <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">text2speech js</a></li>
-  </ul>
+    ?>
 
   </div>
 

@@ -139,6 +139,13 @@
 
     </ul>
 
+    <h4>REMEMBER!</h4>
+      <ul>
+        <li> <a href="https://zenhabits.net/transcendent"><b>zenH</b></a>
+             <a href="https://zenhabits.net/archives/"><b>[archives]</b></a></li> 
+
+      </ul>
+
 </div>
 
 <div class="_exa">
@@ -228,12 +235,6 @@
     ?>
 
     <br />
-      <h4>REMEMBER!</h4>
-      <ul>
-        <li> <a href="https://zenhabits.net/transcendent"><b>transcendent</b></a>
-             <a href="https://zenhabits.net/archives/"><b>[archives]</b></a></li> 
-
-      </ul>
       <h4>PROJECTS done</h4>
           <ul>
             <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a>
@@ -404,6 +405,17 @@
       echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
 
     ?>
+    <br clear="all"><br>
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/masayume/pub/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+
+    ?>
 
   </div>
 
@@ -470,6 +482,17 @@
       echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
 
     ?>
+    <br clear="all"><br>
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/masayume/pub/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+
+    ?>
 
   </div>
 
@@ -509,7 +532,17 @@
       echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
 
     ?>
+    <br clear="all"><br>
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/masayume/pub/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
 
+    ?>
   </div>
 
 </div> <!-- container -->
