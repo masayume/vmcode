@@ -182,7 +182,8 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@drawthink/'         
                   , '/inspire/@drawthink/@drawwrite'          // 131  
                   , '/inspire/@TEXTURES'                      // 132  
-                  , '/inspire/@drawthink/texturing'         // 133  
+                  , '/inspire/@drawthink/texturing'           // 133  
+                  , '/inspire/@AI'                            // 134  
 
                 );
 
