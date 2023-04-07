@@ -11,12 +11,12 @@
 	background-color: #0033cc;
 */
 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-	background: rgb(30,87,153); /* Old browsers */
-	background: -moz-linear-gradient(-127deg, rgba(6,227,250,1) 23%, rgba(80, 119, 144,1) 77.37%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-127deg, rgba(6,227,250,1) 23%,rgba(80, 119, 144,1) 77.37%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(127deg, rgba(6, 227, 250,1) 23%,rgba(80, 119, 144,1) 77.37%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+13,52b152+49,008a00+67,005700+97,002400+100 */
+background: #b4ddb4; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #b4ddb4 0%, #83c783 13%, #52b152 49%, #008a00 67%, #005700 97%, #002400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #b4ddb4 0%,#83c783 13%,#52b152 49%,#008a00 67%,#005700 97%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #b4ddb4 0%,#83c783 13%,#52b152 49%,#008a00 67%,#005700 97%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
   a, a:visited {  color: #ffffff; }
   h3, h4 {  color: #002244; }
@@ -32,10 +32,19 @@
 <div class="container-fluid">
 
   <div class="_exa">
-    <script type="text/javascript">
-         document.write(getImageTag());
-    </script>
-  <br />
+    <!-- <script type="text/javascript">document.write(getImageTag());</script> -->
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@CARTOONS/@gif animations/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+
+    ?>
+
+    <br />
 
           <h4>TOOLS</h4>
           <ul>
@@ -90,19 +99,20 @@
     <h4>LEVEL DESIGN</h4>
     <ul>
       <li> <a href="https://www.masayume.it/blog/content/ldtk-level-designer-toolkit" target="_blank"><b>LDtk LVL Design ★</b></a> <a href="https://www.masayume.it/blog/content/ldtk-level-designer-toolkit" target="_blank">my</a></li>
+      <li> <a href="https://vgmaps.com/" target="_blank"><b>VG Maps ★</b></a> <a href="/blog/content/mappe-di-videogame" target="_blank">my</a></li>
     </ul>
-
+    
     <h4>3D GRAPH</h4>  <!-- also in UNITY -->
     <ul>
       <li> <a href="">blender LMX</a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
       <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
       <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
       <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
-      <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a></li>
-      <li> <a href="">magicavoxel WIN</a></li>
+      <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a>
+           <a href=""><b>magicavoxel WIN</b></a></li>
       <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
-      <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu 2D->3D ★</a>
-      <li> <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
+      <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu 2D>3D★</a>
+           <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
     </ul>
 
   </div>
@@ -153,8 +163,48 @@
 
   <h4>AI TOOLS</h4> <!-- also in AI -->
     <ul>
-      <li><a href="https://paintbytext.chat/"><b>paint by text ★</b></a>  </li>
+      <li><a href="/ai.php"><b>AI PAGE ★</b></a>  </li>
     </ul>
+
+          <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
+          <details>
+        <summary><strong><b>DIFFUSION MODELS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+            <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
+            <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
+            <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li> 
+            <li> <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifu diffusion ★★</b></a></li>
+            <li> <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGANv2 ★</b></a></li>
+            <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stablediffusion 🤗★</b></a>
+                 <a href="https://stablediffusionweb.com/"><b>site</b></a></li>
+            <li> <a href="https://twitter.com/hashtag/stablediffusionart"><b>#stablediffusion★</b></a></li>  
+            <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a>
+                 <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a></li>  
+            <li><a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a></li>
+            <li> <a href="https://weirdwonderfulai.art/"><b>Weird Wonderful AI</b></a> </li>
+            <li> <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Stable Diffusion ★</b></a> </li>
+            <li> <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diffusion ★</b></a> </li>    
+            <li><a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
+            <li><a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a></li>
+            <li><a href="https://www.reddit.com/r/deepdream/"><b>Red.Deepdream</b></a></li>
+            <li><a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
+                <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
+                <a href="https://twitter.com/snecc_art/media">snecc</a></li>
+            <li><a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
+                <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
+            <li><a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
+            <li><a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
+                <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
+            <li><a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
+                <a href="https://twitter.com/inigma_a/media">AInigma</a>
+                <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
+            <li><a href="https://twitter.com/noir_random/media">noirndom</a>
+                <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
+            <li><a href="https://twitter.com/magnasoma/media">magnasoma</a></li>
+          </ul>
+        </p>
+      </details>
 
     
   </div>
@@ -325,66 +375,17 @@
 
   <div class="_exa">
 
-      <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
-      <details>
-        <summary><strong><b>DIFFUSION MODELS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
-        <p>
-          <ul>
-            <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
-            <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
-            <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li> 
-            <li> <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifu diffusion ★★</b></a></li>
-            <li> <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGANv2 ★</b></a></li>
-            <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stablediffusion 🤗★</b></a>
-                 <a href="https://stablediffusionweb.com/"><b>site</b></a></li>
-            <li> <a href="https://twitter.com/hashtag/stablediffusionart"><b>#stablediffusion★</b></a></li>  
-            <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a>
-                 <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a></li>  
-            <li><a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a></li>
-            <li> <a href="https://weirdwonderfulai.art/"><b>Weird Wonderful AI</b></a> </li>
-            <li> <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Stable Diffusion ★</b></a> </li>
-            <li> <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diffusion ★</b></a> </li>    
-            <li><a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
-            <li><a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a></li>
-            <li><a href="https://www.reddit.com/r/deepdream/"><b>Red.Deepdream</b></a></li>
-            <li><a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
-                <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
-                <a href="https://twitter.com/snecc_art/media">snecc</a></li>
-            <li><a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
-                <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
-            <li><a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
-            <li><a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
-                <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
-            <li><a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
-                <a href="https://twitter.com/inigma_a/media">AInigma</a>
-                <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
-            <li><a href="https://twitter.com/noir_random/media">noirndom</a>
-                <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
-            <li><a href="https://twitter.com/magnasoma/media">magnasoma</a></li>
-          </ul>
-        </p>
-      </details>
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@software pins/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
 
-    <h4>ML GAN</h4>
-      <ul>
-        <li> <a href="https://huggingface.co/spaces/akhaliq/Real-ESRGAN"><b>Real ERSGAN ★</b></a> </li>
-        <li> <a href="https://huggingface.co/spaces/givkashi/SwinIR-Super-resolution"><b>IRSwin upscale ★★</b></a> </li>
-        <li> <a href="https://github.com/xinntao/Real-ESRGAN">CLIPDROP upscale ★</a> </li>
-        <li> <a href="https://icons8.com/upscaler">smart upscaler</a> </li>
-        <li> <a href="https://github.com/xinntao/Real-ESRGAN">ERSGAN up</a> <a href="https://www.masayume.it/blog9/web/content/upscale-image-enhancement"><b>my ★</b></a> </li>
-        <li> <a href="https://app.baseten.co/apps/QPp4nPE/operator_views/RqgOnqV"><b>GFPGAN ★</b></a>
-             <a href="https://huggingface.co/spaces/akhaliq/GFPGAN"><b>hf</b></a>
-             <a href="https://www.masayume.it/blog9/web/content/baseten-image-restoration"><b>my</b></a> </li>
-        <li> <a href="https://github.com/CompVis/taming-transformers">HD transformers</a></li>
-        <li> <a href="https://colab.research.google.com/drive/1ZAus_gn2RhTZWzOWUpPERNC0Q8OhZRTZ"><b>VQGAN+CLIP</b></a>
-             <a href="https://huggingface.co/spaces/akhaliq/VQGAN_CLIP"><b>online</b></a>  
-        <li> <a href="https://huggingface.co/spaces/akhaliq/Robustvideomatting">GuidedD</a> 
-             <a href="https://colab.research.google.com/drive/12a_Wrfi2_gwwAuN3VvMTwVMz9TfqctNj">colab</a>  </li>
-        <li> <a href="https://www.masayume.it/blog/content/ebsynth"><b>EbSynth (wine) ★</b></a> </li>
-        <li> <a href="https://www.reddit.com/r/MachineLearning/"><b>ML reddit</b></a> </li>
-        <li> <a href="https://twitter.com/EErratica"><b>tw: EErratica ★</b></a> </li>
-        <li> <a href="https://github.com/megvii-research/NAFNet"><b>Denoise/Deblur ★</b></a> </li>
-      </ul>
+    ?>
+
 
     <h4>ANIMATION</h4>
       <ul>

@@ -330,10 +330,29 @@
 
 
   <div class="_exa">
-  <h4>...</h4>
-    <ul>
-    </ul>
-  </div>
+
+    <h4>ML GAN</h4>
+      <ul>
+        <li> <a href="https://huggingface.co/spaces/akhaliq/Real-ESRGAN"><b>Real ERSGAN ★</b></a> </li>
+        <li> <a href="https://huggingface.co/spaces/givkashi/SwinIR-Super-resolution"><b>IRSwin upscale ★★</b></a> </li>
+        <li> <a href="https://github.com/xinntao/Real-ESRGAN">CLIPDROP upscale ★</a> </li>
+        <li> <a href="https://icons8.com/upscaler">smart upscaler</a> </li>
+        <li> <a href="https://github.com/xinntao/Real-ESRGAN">ERSGAN up</a> <a href="https://www.masayume.it/blog9/web/content/upscale-image-enhancement"><b>my ★</b></a> </li>
+        <li> <a href="https://app.baseten.co/apps/QPp4nPE/operator_views/RqgOnqV"><b>GFPGAN ★</b></a>
+             <a href="https://huggingface.co/spaces/akhaliq/GFPGAN"><b>hf</b></a>
+             <a href="https://www.masayume.it/blog9/web/content/baseten-image-restoration"><b>my</b></a> </li>
+        <li> <a href="https://github.com/CompVis/taming-transformers">HD transformers</a></li>
+        <li> <a href="https://colab.research.google.com/drive/1ZAus_gn2RhTZWzOWUpPERNC0Q8OhZRTZ"><b>VQGAN+CLIP</b></a>
+             <a href="https://huggingface.co/spaces/akhaliq/VQGAN_CLIP"><b>online</b></a>  
+        <li> <a href="https://huggingface.co/spaces/akhaliq/Robustvideomatting">GuidedD</a> 
+             <a href="https://colab.research.google.com/drive/12a_Wrfi2_gwwAuN3VvMTwVMz9TfqctNj">colab</a>  </li>
+        <li> <a href="https://www.masayume.it/blog/content/ebsynth"><b>EbSynth (wine) ★</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/MachineLearning/"><b>ML reddit</b></a> </li>
+        <li> <a href="https://twitter.com/EErratica"><b>tw: EErratica ★</b></a> </li>
+        <li> <a href="https://github.com/megvii-research/NAFNet"><b>Denoise/Deblur ★</b></a> </li>
+      </ul>
+
+</div>
 
 
   <div class="_exa">
