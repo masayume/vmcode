@@ -71,18 +71,18 @@ button:focus {
     background-color: rgba(0, 0, 255, 0.2);
     border-radius: 4px;
     z-index: 15;
-    position: absolute;
-    top: 10;
+    position: relative;
+    top: 0px;
     outline: 0;
     width: 428px;
-    height: 488px;
+    height: 588px;
     padding: 4px 4px 4px 4px;
 }
 
 .KanjiCard {
   width: 440px;
-  min-height: 500px;
-  height: 500px;
+  min-height: 600px;
+  height: 600px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 20px -3px gray;
@@ -97,28 +97,30 @@ button:focus {
 }
 .KanjiCard_kanji {
   position: relative;
-  top: -20px;
-  font-size: 192pt;
+  top: -650px;
+  font-size: 212pt;
   font-weight: 900;
   padding: 4px;
   opacity: 0.9;
+  -webkit-text-stroke: 3px blue;
 }
 .KanjiCard_kana {
   position: relative;
-  top: -50px;
+  top: -30px;
   font-size: 12pt;
   padding: 0px;
   opacity: 0.8;
 }
 .KanjiCard_translation {
   position: relative;
-  top: -120px;
+  top: -700px;
   z-index: 10;
   font-size: 26pt;
   font-style: italic;
   font-family: 'Permanent Marker', cursive;
-  padding: 4px;
+  padding: 24px;
   opacity: 0.8;
+  transform: rotate(-2deg);
 }
 .KanjiCard_words {
   position: relative;

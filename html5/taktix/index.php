@@ -1,6 +1,6 @@
 <?php
 
-$version = '1.1';
+$version = '1.2';
 
 $jfile = $_GET['jfile'];
 if (!$jfile) {
@@ -23,7 +23,7 @@ $page =<<< "EOP"
   <title>masayume oblique taktix - ver. $version</title>
   <link rel="stylesheet" href="utilities/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="utilities/jquery.bigSlide.min.js"></script>
   <style>
 .wrapper {
@@ -71,11 +71,13 @@ $page =<<< "EOP"
     <div id="menu" class="panel" role="navigation">
         <br />
         <ul>
-            <li>"oblique tactics " - v. $version</li>
+            <li>TAKTIX, "oblique tactics" - v. $version</li>
+            <li>inspired by "oblique strategies"</li>
             <li>&nbsp;</li>
             <li><a href="index.php"><span class="icon-github nav-icon"></span>standard oblique strategies</a></li>
             <li><a href="index.php?jfile=2"><span class="icon-github nav-icon"></span>Taktix (prompts)</a></li>
             <li><a href="index.php?jfile=1"><span class="icon-github nav-icon"></span>Taktix (improve)</a></li>
+            <li><a href="index.php?jfile=3"><span class="icon-github nav-icon"></span>Taktix (theme)</a></li>
             <li>&nbsp;</li>
             <li><b>Credits:</b></li>
             <li><a href="http://codepen.io/reccanti/pen/BjwOev"><span class="icon-cog nav-icon"></span>Random Kanji Card by B. Wilcox</a></li>
@@ -85,14 +87,14 @@ $page =<<< "EOP"
     </div>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
 
   <script src="php/info.php?file=$jfile"></script>
   <script src="js/index.js"></script>
 
 
-<!--    <script src="utilities/jquery.min.js"></script> -->
+    <script src="utilities/jquery.min.js"></script>
     <script src="utilities/bigSlide.js"></script>
     <script>
         $(document).ready(function() {
