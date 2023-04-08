@@ -40,7 +40,7 @@
   })();
 </script>
 <!-- End Matomo Code -->
-<script type="text/javascript" src="index-gifs.js"></script>
+<!-- <script type="text/javascript" src="index-gifs.js"></script> -->
 
 </head>
 <body>
@@ -56,10 +56,11 @@
              <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
-        <li> <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank"><b>WORKFLOWS</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=28&art2=28" target="_blank"><b>WORKFLOWs</b></a>
+             <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank"><b>oldWF</b></a> </li>
       </ul>
     <h4>WORKFLOWS</h4>
-      <ul>
+      <ul> 
         <li> <a href="/html5/isotope/isotope-WF/" target="_blank"><b>ISOTOPE WF ★</b></a> </li>
       </ul>
     <h4>IDEAS</h4>
@@ -137,9 +138,17 @@
   </div>
 
 <div class="_exa">
-  <script type="text/javascript">
-        document.write(getImageTag());
-  </script>
+  <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@CARTOONS/@gif animations/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+
+    ?>
 
   <h4>DRAWING</h4>
   <ul>
