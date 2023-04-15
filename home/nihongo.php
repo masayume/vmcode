@@ -198,7 +198,7 @@
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" style=\"width: 400px; \">";
 
-    ?>
+      ?>
 
   <br />
     <h4>benkyo shite imasu</h4>
