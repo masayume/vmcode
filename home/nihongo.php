@@ -196,7 +196,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" style=\"width: 400px; \">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
       ?>
 
@@ -280,7 +280,8 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"400\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
       ?>
 
   </div>
@@ -306,7 +307,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" style=\"width: 300px; background-color:#ccc; \" title=\"$imagefile\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" style=\"width: 300px; background-color:#ccc; \" title=\"$imagefile\">";
       ?>
 
   </div>
