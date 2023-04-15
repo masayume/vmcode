@@ -142,23 +142,24 @@
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
             <a href="https://github.com/replicate/tilemaker">git</a> 
             <a href="https://replicate.com/tstramer/material-diffusion"><b>MAT diff.</b></a> </li>
-      <li>  <a href="https://replicate.com/"><b>replicate</b></a> 
-            <a href="https://vercel.com/templates/ai"><b>vercel</b></a> </li>
+      <li>  <a href="https://replicate.com/"><b>replicate</b></a> -
+            <a href="https://vercel.com/templates/ai"><b>vercel tmpl</b></a> </li>
     </ul>
 
     <h4>HUGGINGFACE</h4>
     <ul>
       <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★</b></a></li> 
-      <li> <a href="https://huggingface.co/spaces/timbrooks/instruct-pix2pix"><b>pix2pix ★</b></a> </li>
-      <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet ★</b></a> <a href="https://aituts.com/controlnet/">tut</a></li>
-      <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stablediffusion 🤗★</b></a>
-      <li> <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifu diffusion ★★</b></a></li>
-      <li>  <a href="https://waifulabs.com/"><b>(waifulabs)</b></a> </li>
-      <li> <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGANv2 ★</b></a></li>
+      <li> <a href="https://huggingface.co/spaces/timbrooks/instruct-pix2pix"><b>pix2pix★</b></a> 
+           <a href="https://huggingface.co/spaces/Adapter/CoAdapter"><b>coadapter★</b></a><a href="https://github.com/TencentARC/T2I-Adapter/blob/main/docs/coadapter.md"><b>?</b></a></li>
+      <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet ★</b></a> <a href="https://aituts.com/controlnet/"><b>?<b></a></li>
+      <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stableDiff🤗</b></a>
+           <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifuDiff★</b></a></li>
+      <li> <a href="https://waifulabs.com/"><b>waifulabs</b></a> 
+           <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGAN</b></a></li>
       <li> <a href="https://huggingface.co/spaces/aipicasso/cool-japan-diffusion-2-1-0-demo	">japan diff</a>
            <a href="https://huggingface.co/spaces/anzorq/finetuned_diffusion">finetuned diff</a> </li>
-      <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> 
-           <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrompt</a> </li>
+      <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrmpt</a> 
+           <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrmpt</a> </li>
       <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> </li>
       <li> <a href="URL">SPACE #4</a> </li>
       <li> <a href="URL">SPACE #3</a> </li>
@@ -248,7 +249,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
     ?>
     <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
@@ -307,7 +308,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
     ?>
   </div>
@@ -323,7 +324,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
     ?>
   </div>
@@ -384,7 +385,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" alt=\"Some alt text\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
     ?>
   </div>
