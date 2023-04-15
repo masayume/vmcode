@@ -99,40 +99,32 @@
     
   </div>
 
+
   <div class="_exa">
-
-    <h4>MANGA</h4>
+    <h4>READING EASY</h4>
     <ul>
-      <li> <a href="https://mangareader.to/read/chainsaw-man-96/ja/chapter-1">Chainsaw Man ★</a> </li>
-      <li> <a href="https://mangareader.to/read/dr-slump-1444/en/chapter-4">Dr. Slump ★</a> </li>
+      <li> <a href="https://www3.nhk.or.jp/news/easy/"><b>NHK news easy</b> ★</a> </li>
+      <li> <a href="https://twitter.com/jpn_tadokuorg"><b>Reading 日本語 ★</b></a> </li>
+      <li> <a href="https://www.masayume.it/blog/content/proverbi-giapponesi-kotowaza">kotowaza</a> </li>
+      <li> <a href="http://life.ou.edu/stories/">Old Fairy Tales</a> </li>
+      <li> <a href="https://www.ehonnavi.net/">ehonnavi</a> </li>
+      <li> <a href="https://www.wasabi-jpn.com/japanese-lessons/fairy-tales-and-short-stories-with-easy-japanese/">wasabi</a> </li>
     </ul>
 
-
-    <h4>BOOKS, ITEMS</h4>
+    <h4>READING AVG</h4>
     <ul>
-      <li> <a href="https://verasia.it/">verasia ★</a> </li>
-      <li> <a href="https://www.nekonokoeshop.com/">neko no koe shop ★</a> </li>
+      <li> <a href="http://watanoc.com/">watanoc</a> </li>
+      <li> <a href="https://hirogaru-nihongo.jp/">hirogaru</a> </li>
+      <li> <a href="https://matcha-jp.com/easy/">matcha</a> </li>
+      <li> <a href="http://www.nippontalk.com/en">nippontalk</a> </li>
+      <li> <a href="https://www3.nhk.or.jp/news/easy/">nhk news easy</a> </li>
+      <li> <a href="https://hiraganatimes.com/">hiragana times</a> </li>
+      <li> <a href="https://www.wasabi-jpn.com/japanese-lessons/materials-for-japanese-lessons-intensive-reading/">wasabi manga</a> </li>
     </ul>
-
-    <h4>MAGAZINE articles</h4>
-    <ul>
-      <li> <a href="    https://thearkhound.tumblr.com/post/671686258080317440/notes-of-policenauts-from-the-playstation-vol">Policenauts ★</a> </li>
-    </ul>
-
-    <h4>KANJI, fonts</h4>
-    <ul>
-      <li> <a href="https://en.fontworks.co.jp/fontsearch/MatissePro-EB/?word=%E3%83%9E%E3%83%86%E3%82%A3%E3%82%B9%C2%A0EB%C2%A0%20%E6%AD%A3%E5%A4%A2%C2%A0%20%C2%A0%C2%A0">matisse EB ★</a> </li>
-      <li> <a href="https://fontsinuse.com/typefaces/42771/matisse">fonts in use ★</a> </li>
-    </ul>
-
-    <h4>ZASSHI</h4>
-      <ul>
-        <li> <a href="https://www.masayume.it/blog/content/classic-japanese-magazines">classic mags ★</a></li>
-        <li> <a href="https://magazinelib.com/japan/">magazine lib</a> </li>
-
-      </ul>
-
   </div>
+  
+
+
 
 <div class="_exa">
 
@@ -213,25 +205,38 @@
   </div>
 
   <div class="_exa">
-    <h4>READING EASY</h4>
+
+    <h4>MANGA</h4>
     <ul>
-      <li> <a href="https://www.masayume.it/blog/content/proverbi-giapponesi-kotowaza">kotowaza</a> </li>
-      <li> <a href="https://twitter.com/jpn_tadokuorg">Reading Japanese 日本語 ★</a> </li>
-      <li> <a href="http://life.ou.edu/stories/">Old Fairy Tales</a> </li>
-      <li> <a href="https://www.ehonnavi.net/">ehonnavi</a> </li>
-      <li> <a href="https://www.wasabi-jpn.com/japanese-lessons/fairy-tales-and-short-stories-with-easy-japanese/">wasabi</a> </li>
+      <li> <a href="https://mangareader.to/read/chainsaw-man-96/ja/chapter-1">Chainsaw Man ★</a> </li>
+      <li> <a href="https://mangareader.to/read/dr-slump-1444/en/chapter-4">Dr. Slump ★</a> </li>
     </ul>
 
-    <h4>READING AVG</h4>
+
+    <h4>BOOKS, ITEMS</h4>
     <ul>
-      <li> <a href="http://watanoc.com/">watanoc</a> </li>
-      <li> <a href="https://hirogaru-nihongo.jp/">hirogaru</a> </li>
-      <li> <a href="https://matcha-jp.com/easy/">matcha</a> </li>
-      <li> <a href="http://www.nippontalk.com/en">nippontalk</a> </li>
-      <li> <a href="https://www3.nhk.or.jp/news/easy/">nhk news easy</a> </li>
-      <li> <a href="https://hiraganatimes.com/">hiragana times</a> </li>
-      <li> <a href="https://www.wasabi-jpn.com/japanese-lessons/materials-for-japanese-lessons-intensive-reading/">wasabi manga</a> </li>
+      <li> <a href="https://verasia.it/">verasia ★</a> </li>
+      <li> <a href="https://www.nekonokoeshop.com/">neko no koe shop ★</a> </li>
     </ul>
+
+    <h4>MAGAZINE articles</h4>
+    <ul>
+      <li> <a href="    https://thearkhound.tumblr.com/post/671686258080317440/notes-of-policenauts-from-the-playstation-vol">Policenauts ★</a> </li>
+    </ul>
+
+    <h4>KANJI, fonts</h4>
+    <ul>
+      <li> <a href="https://en.fontworks.co.jp/fontsearch/MatissePro-EB/?word=%E3%83%9E%E3%83%86%E3%82%A3%E3%82%B9%C2%A0EB%C2%A0%20%E6%AD%A3%E5%A4%A2%C2%A0%20%C2%A0%C2%A0">matisse EB ★</a> </li>
+      <li> <a href="https://fontsinuse.com/typefaces/42771/matisse">fonts in use ★</a> </li>
+    </ul>
+
+    <h4>ZASSHI</h4>
+      <ul>
+        <li> <a href="https://www.masayume.it/blog/content/classic-japanese-magazines">classic mags ★</a></li>
+        <li> <a href="https://magazinelib.com/japan/">magazine lib</a> </li>
+
+      </ul>
+
   </div>
 
   <div class="_exa">
