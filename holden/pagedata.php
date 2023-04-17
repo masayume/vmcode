@@ -71,6 +71,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>instagram:</b> <a href='https://www.instagram.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^ar-/', $twitterRaw2) ){     // calculate ARTSTATION link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>artstation:</b> <a href='https://www.artstation.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
     elseif (preg_match('/^it-/', $twitterRaw2) ){     // calculate ITCH.IO link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>instagram:</b> <a href='https://" . $exploded[1] . ".itch.io" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . ".itch.io</a>";
@@ -205,6 +209,7 @@ function findtags($tw) {
   $tw = preg_replace('/^pi\-/', '', $tw);                           // clears pinterest prefix
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $tw = preg_replace('/^in\-(\w+)\-/', '', $tw);                    // clears instagram prefix
+  $tw = preg_replace('/^ar\-(\w+)\-/', '', $tw);                    // clears artstation prefix
   $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
