@@ -137,7 +137,8 @@
       <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
       <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> </li>      
       <li>  <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
-      <li> <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> 
+      <li>  <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> 
+      <li>  <a href="https://halfwaywords.com/"><b>halfwaywords</b></a> </li>      
 
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
             <a href="https://github.com/replicate/tilemaker">git</a> 
@@ -221,7 +222,6 @@
     <ul>
       <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo ">speecht5-tts</a> </li>
       <li> <a href="URL">LINK #4</a> </li>
-      <li> <a href="URL">LINK #5</a> </li>
     </ul>
 
     <h4>PROMPTS</h4>
@@ -232,9 +232,9 @@
       <li> <a href="URL">LINK #7</a> </li>
     </ul>
 
-    <h4>TITLE #4</h4>
+    <h4>TRAVEL</h4>
     <ul>
-      <li> <a href="URL">LINK #7</a> </li>
+      <li> <a href="https://tripnotes.ai/app/notes/95534b5d088864f5fd83b20274143f3c0066be46?demo=true">tripnotes.ai</a> </li>
       <li> <a href="URL">LINK #8</a> </li>
     </ul>
 

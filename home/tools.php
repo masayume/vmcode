@@ -71,6 +71,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <div class="_exa">
 
+    <h4>IMAGE TOOLS</h4>
+      <ul>
+        <li> <a href="https://cleanup.pictures/?utm_source=masayume.it"><b>image cleanup ★</b></a>
+      </ul>
+
     <h4>SHADERS</h4>
           <ul>
             <li> <a href="https://thebookofshaders.com/">BookOfShaders</a>
@@ -102,18 +107,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <li> <a href="https://vgmaps.com/" target="_blank"><b>VG Maps ★</b></a> <a href="/blog/content/mappe-di-videogame" target="_blank">my</a></li>
     </ul>
     
-    <h4>3D GRAPH</h4>  <!-- also in UNITY -->
-    <ul>
-      <li> <a href="">blender LMX</a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
-      <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
-      <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
-      <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
-      <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a>
-           <a href=""><b>magicavoxel WIN</b></a></li>
-      <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
-      <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu 2D>3D★</a>
-           <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
-    </ul>
 
   </div>
 
@@ -206,7 +199,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         </p>
       </details>
 
-    
+    <h4>3D GRAPH</h4>  <!-- also in UNITY -->
+      <ul>
+        <li> <a href="">blender LMX</a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
+        <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
+        <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
+        <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
+        <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a>
+            <a href=""><b>magicavoxel WIN</b></a></li>
+        <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
+        <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu 2D>3D★</a>
+            <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
+      </ul>
+
+      
   </div>
 
   <div class="_exa">
@@ -382,7 +388,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"260\">";
 
     ?>
 
