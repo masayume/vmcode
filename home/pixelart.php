@@ -247,6 +247,7 @@
           <li> <a href="/HTML5/holden/index.php?art1=59&art2=99"><b>mersenne + Chun Li ★</b></a></li>
           <li> <a href="/HTML5/holden/index.php?art1=100&art2=100"><b>cute pixelart ★</b></a></li> 
           <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>style pixelart ★</b></a></li>
+          <li> <a href="/HTML5/holden/index.php?art1=135&art2=135"><b>FONTS TTF pixelart ★</b></a></li>
         </ul>
       </p>
   </details>
