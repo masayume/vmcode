@@ -71,6 +71,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <div class="_exa">
 
+    <h4>GENERAL TOOLS</h4>
+      <ul>
+        <li> <a href="https://www.virustotal.com/?utm_source=masayume.it"><b>virustotal ★★</b></a>
+      </ul>
+ 
+
     <h4>IMAGE TOOLS</h4>
       <ul>
         <li> <a href="https://cleanup.pictures/?utm_source=masayume.it"><b>image cleanup ★</b></a>

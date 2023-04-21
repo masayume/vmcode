@@ -8,11 +8,28 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 		<link rel="stylesheet" href="/docroot/css/style.css" type="text/css" media="screen" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Amiga 2000 &#8211; Retro Corner</title>
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel='stylesheet' id='wp-block-library-css'  href='/docroot/css/style.min.css' type='text/css' media='all' />
-<script type='text/javascript' src='/docroot/js/flipcursor.js'></script>
+		<link rel='dns-prefetch' href='//s.w.org' />
+		<link rel='stylesheet' id='wp-block-library-css'  href='/docroot/css/style.min.css' type='text/css' media='all' />
+		<script type='text/javascript' src='/docroot/js/flipcursor.js'></script>
+		<style>
+			html {
+				background-color: powderblue;
+				animation-duration: 0.01s;
+				animation-name: textflicker;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;			
+			}
+			@keyframes textflicker {
+				from {
+					text-shadow: 1px 0 0 #ea36af, -1px 0 0 #75fa69;
+				}
+				to {
+					text-shadow: 2px 0.3px 2px #ea36af, -1px -0.3px 2px #75fa69;
+				}
+			}
+		</style>
 	</head>
-<body onload="flipcursor(0);initWrite();" class="page-template-default page page-id-111 has_sidebar">
+	<body onload="flipcursor(0);initWrite();" class="page-template-default page page-id-111 has_sidebar">
 
 	<div id="container">
   		<header class="header-home">
