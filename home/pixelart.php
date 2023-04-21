@@ -83,6 +83,7 @@
               <li> <a href="/HTML5/holden/index.php?art1=105&art2=105"><b>TECH</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=107&art2=107"><b>workflow</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=108&art2=108"><b>RETRO</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=135&art2=135"><b>ref-TEXT (fonts) ■</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>1bit</b></a> </li>
@@ -90,6 +91,7 @@
               <li> <a href="/HTML5/holden/index.php?art1=122&art2=122"><b>lands other</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=127&art2=127"><b>snap</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=126&art2=126"><b>titles</b></a> </li>
+
   <!--          <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>WHAT</b></a> </li> -->
 
            </ul>
@@ -235,7 +237,47 @@
 
 </div>
 
-    <div class="_exa"> <!-- also in TOOLS,UNITY,INSPIRE -->
+
+<div class="_exa">
+  <h4> PIXELS </h4>
+  <ul>
+    <li> <a href="/HTML5/holden/index.php?folder=@pixelart"><b>■■■, </b></a> 
+      <a href="https://www.pinterest.co.uk/masayume/pixels/"><b>pintRest, </b></a>
+      <a href="https://twitter.com/i/topics/1401934144238604294"><b>twiT■</b></a> </li>
+    <li> <a href="/HTML5/holden/index.php?folder=@pixelart/src-mixed"><b>mixed ■, </b></a> 
+         <a href="/HTML5/holden/index.php?folder=@pixelart/src-movies"><b>movies ■, </b></a> </li>
+    <li><a href="http://www.masayume.it/blog/content/pixel-art-tutorials-resources"><b>masayume tuts</b></a> </li>
+    <li><a href="https://pixelation.org/index.php?topic=2076.msg161933#msg161933"><b>pixelation: </b></a> 
+        <a href="https://pixelation.org/index.php?topic=2076.msg161934#msg161934">sprites</a> </li>
+    <li><a href="https://www.spriters-resource.com/arcade/"><b>spriters resource</b></a> </li>
+    <li><a href="https://pixelation.org/index.php?topic=2076.msg161935#msg161935">game-art, </a>
+        <a href="https://pixelation.org/index.php?topic=2076.msg161937#msg161937">artworks</a> </li>
+    <li><a href="https://pixelation.org/index.php?topic=2076.msg161941#msg161941">portrait, </a> 
+        <a href="https://pixelation.org/index.php?topic=2076.msg161942#msg161942">gesture, </a> 
+        <a href="https://pixelation.org/index.php?topic=2076.msg161946#msg161946">tiles</a> </li>
+    <li><a href="https://twitter.com/muchopixels/media"><b>muchopix ■</b></a> </li>
+        <!--  <li><a href="URL">TITLE</a> -->
+  </ul>
+
+  <h4>FONTS</h4>
+    <ul> 
+      <li> <a href="/HTML5/holden/index.php?art1=135&art2=135"><b>local pixel fonts ■</b></a> </li>
+      <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
+      <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
+      <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> </li>
+      <li> <a href="https://fontawesome.com/icons?d=gallery"><b>fontawesome</b></a></li>
+      <li> <a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
+      <li> <a href="https://fontstruct.com/fontstructor/edit"><b>Fontstruct ■</b></a>
+           <a href="https://www.masayume.it/blog9/web/content/splintered-pixel-fonts-fontstruct"><b>my</b></a></li>
+    </ul>
+    
+    
+
+  </div>
+
+
+
+<div class="_exa"> <!-- also in TOOLS,UNITY,INSPIRE -->
 
   <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
   <details>
@@ -270,10 +312,10 @@
              <a href="https://squoosh.app/">squoosh zip</a></li>
         <li> <a href="https://distill.pub/selforg/2021/textures/"><b>texture generator ★</b></a></li>
         <li> <a href="https://jasonwebb.github.io/reaction-diffusion-playground/"><b>reaction-diffusion ★</b></a> <a href="https://www.masayume.it/blog/content/reaction-diffusion"><b>my</b></a>  </li>
-        <li> <a href="https://doodad.dev/pattern-generator/">pattern generator</a></li>
-        <li> pattern: <a href="https://observablehq.com/@rreusser/multiscale-turing-patterns-in-webgl">turing★</a>
+        <li> pattern <a href="https://observablehq.com/@rreusser/multiscale-turing-patterns-in-webgl">turing★</a>
              <a href="https://observablehq.com/@makio135/creative-coding">creative★</a></li>
-        <li> <a href="/HTML5/crosshatch/">crosshatch</a></li>
+        <li> <a href="/HTML5/crosshatch/">crosshatch</a>
+             <a href="https://doodad.dev/pattern-generator/">generator</a> </li>
         <li> <a href="https://www.masayume.it/blog/content/p5js"><b>P5.js</b> ★</a>
              <a href="/HTML5/triangle-divider/">triangle divider</a> </li>
         <li> <a href="https://anvaka.github.io/streamlines/">streamlines</a>
@@ -383,52 +425,6 @@
         <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.) </li>
       </ul>
   </div>
-
-  <div class="_exa">
-  <h4> PIXELS </h4>
-  <ul>
-    <li> <a href="/HTML5/holden/index.php?folder=@pixelart"><b>■■■, </b></a> 
-      <a href="https://www.pinterest.co.uk/masayume/pixels/"><b>pintRest, </b></a>
-      <a href="https://twitter.com/i/topics/1401934144238604294"><b>twiT■</b></a> </li>
-    <li> <a href="/HTML5/holden/index.php?folder=@pixelart/src-mixed"><b>mixed ■, </b></a> 
-         <a href="/HTML5/holden/index.php?folder=@pixelart/src-movies"><b>movies ■, </b></a> </li>
-    <li><a href="http://www.masayume.it/blog/content/pixel-art-tutorials-resources"><b>masayume tuts</b></a> </li>
-    <li><a href="https://pixelation.org/index.php?topic=2076.msg161933#msg161933"><b>pixelation: </b></a> 
-        <a href="https://pixelation.org/index.php?topic=2076.msg161934#msg161934">sprites</a> </li>
-    <li><a href="https://www.spriters-resource.com/arcade/"><b>spriters resource</b></a> </li>
-    <li><a href="https://pixelation.org/index.php?topic=2076.msg161935#msg161935">game-art, </a>
-        <a href="https://pixelation.org/index.php?topic=2076.msg161937#msg161937">artworks</a> </li>
-    <li><a href="https://pixelation.org/index.php?topic=2076.msg161941#msg161941">portrait, </a> 
-        <a href="https://pixelation.org/index.php?topic=2076.msg161942#msg161942">gesture, </a> 
-        <a href="https://pixelation.org/index.php?topic=2076.msg161946#msg161946">tiles</a> </li>
-    <li><a href="https://twitter.com/muchopixels/media"><b>muchopix ■</b></a> </li>
-        <!--  <li><a href="URL">TITLE</a> -->
-  </ul>
-
-    <h4>WEB TOOLS</h4> <!-- also in TOOLS -->
-    <ul>
-      <li><a href="http://www.colorzilla.com/gradient-editor/"><b>gradient</b></a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
-      <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a></li>
-      <li><a href="https://webgems.io"><b>webgems</b></a>
-          <a href="http://webtoolkitonline.com">webtools</a></li>
-      <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
-      <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> </li>
-      <li> <a href="https://fontawesome.com/icons?d=gallery"><b>fontawesome</b></a></li>
-      <li><a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
-      <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
-      <li><a href="/HTML5/dagre/">dagre</a> - <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a></li>
-      <li><a href="http://jupyter.org/">jupyter</a></li>
-      <li><a href="http://jsoneditoronline.org/">JSONEdit</a> <a href="https://github.com/josdejong/jsoneditor">git</a> <a href="https://jsonformatter.org/json-editor">jsonf</a></li>
-    </ul>
-
-    <h4>WEB TOOLS</h4> <!-- also in TOOLS -->
-    <ul>
-      <li><a href="/HTML5/chromab/"><b>ChromAb ★</b></a></li> <!-- https://codepen.io/lukemeyrick/pen/eYMvymP -->
-    </ul>
-
-  </div>
-
-
 
 
   <div class="_exa">
