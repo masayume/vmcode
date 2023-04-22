@@ -134,7 +134,8 @@
   <h4>NIHONGO</h4>
   <ul>
     <li> <a href="/html5/isotope/isotope-nihon/">ISO 100 motives</a> </li>
-    <li> <a href="/nihongo/"><b>ISO grammar ★</b></a> </li>
+    <li> <a href="/nihongo/"><b>ISO grammar ★</b></a> 
+         <a href="https://www.masayume.it/nihongo/isotope-nihongo/"><b>my</b></a> </li>
     <li> <a href="/html5/isotope/isotope-nihongo-uta/">ISO uta</a> </li>
     <li> <a href="https://japanesetest4you.com/">japanesetest4you ★</a> </li>
     <li> <a href="https://www.youtube.com/channel/UCsQCbl3a9FtYvA55BxdzYiQ/videos">miku real japanese ★</a> </li>
@@ -165,11 +166,18 @@
 
 
   <div class="_exa">
-    <h4>Grammar</h4>
+    <h4>Grammar </h4>
     <ul>
-      <li><a href="https://www.mlcjapanese.co.jp/n5_jlpt_grammar_quiz_01.html">JLPT QUIZ N5</a></li>
-      <li><a href="https://www.mlcjapanese.co.jp/n4.html">JLPT N4</a> <a href="https://www.mlcjapanese.co.jp/n4_jlpt_grammar_quiz_01.html">JLPT QUIZ N4</a></li>
-      <li><a href="https://www.mlcjapanese.co.jp/n3.html">JLPT N3</a> <a href="https://www.mlcjapanese.co.jp/n3_jlpt_grammar_quiz_01.html">JLPT QUIZ N3</a></li>
+      <li> <a href="/nihongo/"><b>ISO grammar ★</b></a> 
+           <a href="https://www.masayume.it/nihongo/isotope-nihongo/"><b>online</b></a> </li>
+      <li> <a href="https://www.mlcjapanese.co.jp/n5_jlpt_grammar_quiz_01.html">JLPT QUIZ N5</a></li>
+      <li> <a href="https://www.mlcjapanese.co.jp/n4.html">JLPT N4</a> <a href="https://www.mlcjapanese.co.jp/n4_jlpt_grammar_quiz_01.html">JLPT QUIZ N4</a></li>
+      <li> <a href="https://www.mlcjapanese.co.jp/n3.html">JLPT N3</a> <a href="https://www.mlcjapanese.co.jp/n3_jlpt_grammar_quiz_01.html">JLPT QUIZ N3</a></li>
+    </ul>
+
+    <h4>VOCABULARY</h4>
+    <ul>
+      <li> <a href="https://jisho.org/"><b>jisho.org ★</b></a> </li>
     </ul>
 
     <h4>KANJI</h4>
