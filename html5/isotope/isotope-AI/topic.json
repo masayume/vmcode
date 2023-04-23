@@ -32,19 +32,19 @@
       "url_WF": "pages/001-lyriel.htm#Amigurumi"
     },
     "Scraping": {
-      "name": "AI#3",
+      "name": "MMT-CNET",
       "number": "30",
       "data_cat": "player",
-      "class": ["player", "resources"],
-      "mechanics": ["scraping", "node", "headless chrome", "puppeteer"],
+      "class": ["player", "workflow", "animation"],
+      "mechanics": ["grid"],
       "theme": ["tools"],
-      "img": "030.png",
-      "designer": "",
+      "img": "030.gif",
+      "designer": "aimikummd",
       "status": "todo", 
-      "year": 2017,
+      "year": 2023,
       "length": 30,
-      "url": "https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0",
-      "locale": "~/SCRAPE/scrape-puppeteer"
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/12uad6a/controlnet11_lineart_test_ai_animation/",
+      "url_WF": "pages/001-lyriel.htm#MMD-CNET"
     },
     "CardRogue": {
       "name": "AI#4",

@@ -37,7 +37,7 @@
   <button class="button" data-filter=".tool">tools</button>
   <button class="button" data-filter=".resources">resources</button>
   <button class="button" data-filter=".style">style</button>
-  <button class="button" data-filter=".godot">godot</button>
+  <button class="button" data-filter=".animation">animation</button>
   <button class="button" data-filter=".now">NOW!</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
