@@ -151,7 +151,8 @@
   <h4>WEEKLY todo</h4>
   <ul>
     <li> <a href="/html5/isotope/isotope-projects/"><b>ISO projects</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-books/"><b>ISO books</b></a> </li>
+    <li> <a href="/html5/isotope/isotope-books/"><b>ISO books</b></a> 
+         <a href="/html5/isotope/isotope-AI/"><b>ISO AI</b></a> </li>
     <li> <a href="/html5/isotope/isotope-boardgame/"><b>ISO boardgames</b></a> </li>
     <li> <a href="/html5/isotope/isotope-unitytuts/"><b>ISO unity tuts</b></a> </li>
     <li> <a href="/html5/isotope/isotope-WF-PX/"><b>ISO pixelart WF</b></a> </li>
@@ -166,12 +167,12 @@
   <ul>
     <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
     <li> <a href="https://flickmetrix.com/">flickmetrix</a> - <a href="https://www.justwatch.com/">justwatch</a> </li>
-    <li> <a href="netflix.htm">netflix codes</a> </li>
-    <li> <a href="https://opencritic.com/"><b>open critic</b></a> </li>
-    <li> <a href="https://www.rottentomatoes.com/"><b>rotten tomatoes</b></a> </li>
+    <li> <a href="https://opencritic.com/" target="_blank"><b>opencrit</b></a> 
+         <a href="https://www.rottentomatoes.com/" target="_blank"><b>rottentoms</b></a> </li>
     <li> <a href="https://www.primevideo.com/">prime video</a> </li>
-    <li> <a href="http://raiplay.it/">RaiPlay ★</a> </li>
-    <li> <a href="https://netflix.com">netflix ★</a> </li>
+    <li> <a href="http://raiplay.it/">RaiPlay ★</a> 
+         <a href="https://netflix.com">Netflix ★</a> </li>
+    <li> <a href="netflix.htm">netflix codes</a> </li>
   </ul>
 
     <!-- <li> <a href="/gamedesignerpills/index.php">game designer pills</a> </li> -->
