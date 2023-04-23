@@ -42,7 +42,50 @@
 <body>
 <div class="container-fluid">
 
-  <div class="_exa">
+<div class="_exa">
+
+  <details>
+        <summary><strong><b>AI GEN TOOLS Megalist ⬇️</b></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://docs.google.com/spreadsheets/d/1zYJUM-srhgIA7wrj4Pe4QqepAsHIEC00DydoTPv4PWg/edit#gid=0"><b>megalist @docs.google ★★</b></a></li> 
+  
+            <li> <a href="https://ai-art.tokyo/en/"><b>AI Gahaku</b></a></li> 
+            <li> <a href="https://artprompts.org/"><b>artprompts</b></a></li> 
+            <li> <a href="https://www.artbreeder.com/"><b>artbreeder</b></a></li> 
+            <li> <a href="https://artimator.io/"><b>artimator</b></a></li> 
+            <li> <a href="https://boredai.com/"><b>boredai</b></a></li> 
+            <li> <a href="https://storage.googleapis.com/chimera-painter/index.html"><b>chimera-painter</b></a></li> 
+            <li> <a href="https://www.craiyon.com/"><b>craiyon</b></a></li> 
+            <li> <a href="https://openai.com/product/dall-e-2"><b>dall-e-2</b></a></li> 
+            <li> <a href="https://deepai.org/machine-learning-model/text2img"><b>deepai</b></a></li> 
+            <li> <a href="https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb"><b>Disco_Diffusion</b></a></li> 
+            <li> <a href="https://drawthings.ai/"><b>drawthings</b></a></li> 
+            <li> <a href="https://www.dreamup.com/"><b>dreamup</b></a></li> 
+            <li> <a href="https://hotpot.ai/"><b>hotpot</b></a></li> 
+            <li> <a href="https://www.jasper.ai/art"><b>jasper</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/multimodalart/latentdiffusion"><b>HF latentdiffusion</b></a></li> 
+            <li> <a href="https://replicate.com/laion-ai/laionide-v3"><b>laionide</b></a></li> 
+            <li> <a href="https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F"><b>midjourney</b></a></li> 
+            <li> <a href="https://nightcafe.studio/"><b>nightcafe</b></a></li> 
+            <li> <a href="https://novelai.net/"><b>novelai</b></a></li> 
+            <li> <a href="https://photosonic.writesonic.com/"><b>photosonic</b></a></li> 
+            <li> <a href="https://picso.ai/"><b>picso</b></a></li> 
+            <li> <a href="https://pixelz.ai/"><b>pixelz</b></a></li> 
+            <li> <a href="https://replicate.com/pixray/text2image"><b>RP: text2image</b></a></li> 
+            <li> <a href="https://replicate.com/explore"><b>R: explore</b></a></li> 
+            <li> <a href="https://runwayml.com/"><b>runwayml</b></a></li> 
+            <li> <a href="https://snowpixel.app/"><b>snowpixel</b></a></li> 
+            <li> <a href="https://stablecog.com/"><b>stablecog</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>HF: stable-diffusion</b></a></li> 
+            <li> <a href="https://starryai.com/"><b>starryai</b></a></li> 
+            <li> <a href="https://colab.research.google.com/drive/1lx9AGsrh7MlyJhK9UrNTK8pYpARnx457"><b>VQGAN+Clip</b></a></li> 
+            <li> <a href="https://dream.ai/"><b>dream</b></a></li> 
+            <li> <a href="https://lexica.art/"><b>lexica</b></a></li> 
+          </ul>
+        </p>
+    </details>
+
     <h4>AI models page</h4>
       <ul>
         <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
@@ -61,6 +104,8 @@
         <li> <a href="https://civit.ai/" target="_blank">civit.ai</a> 
              <a href="https://creator.nightcafe.studio/explore ">nightcafe</a></li>
       </ul>
+
+      
 
     <h4>COLLECTIONS</h4>
       <ul>
@@ -163,13 +208,41 @@
       <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrmpt</a> 
            <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrmpt</a> </li>
       <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> </li>
-      <li> <a href="URL">SPACE #4</a> </li>
+      <li> <a href="https://huggingface.co/spaces/Fantasy-Studio/Paint-by-Example">Paint-by-Example</a> </li>
       <li> <a href="URL">SPACE #3</a> </li>
     </ul>
 
 
 </div>
 
+
+
+  <div class="_exa">
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@AI/faces/', 'inspire/@AI/lands/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+
+    ?>
+    <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
+
+    <br />
+
+      <h4>MAIN LINKS</h4>
+      <ul>
+        <li><a href="https://www.reddit.com/r/StableDiffusion/">r/StableDiffusion ★</a> 
+            <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Workflow%20Included%22"><b>WF INC ★</b></a>
+            <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Resource%20%7C%20Update%22"><b>RES UP ★</b></a></li>
+        <li><a href="/html5/isotope/isotope-AI"><b>ISOTOPE AI</b></a></li>
+        <li><a href="/"><b>&nbsp;</b></a></li>
+        <li><a href="https://link">link text #4</a> - <a href="https://link">link text #5</a></li>
+      </ul>
+
+  </div>
 
   <div class="_exa">
 
@@ -242,38 +315,11 @@
 
   </div>
 
-  <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@AI/faces/', 'inspire/@AI/lands/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-    ?>
-    <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
 
-    <br />
-
-      <h4>TITLE 1</h4>
-      <ul>
-        <li><a href="https://link">link text #1</a> - <a href="https://link">link text #2</a></li>
-        <li><a href="https://link">link text #3</a></li>
-        <li><a href="https://link">link text #4</a> - <a href="https://link">link text #5</a></li>
-      </ul>
-
-      <h4>TITLE 2</h4>
-      <ul>
-      <li><a href="https://link">link text #1</a> - <a href="https://link">link text #2</a></li>
-        <li><a href="https://link">link text #3</a></li>
-
-      </ul>
-  </div>
 
   <div class="_exa">
-    <h4>LOCAL AI APPS</h4>
+    <h4>LOC AI.APPS</h4>
       <ul>
         <li> <a href="/ai-chatgpt.php"><b>chatGPT page</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-AI-&tag2=-AI-"><b>@AI</b></a> </li>

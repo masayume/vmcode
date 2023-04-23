@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>AI - Documentation </title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id="navbar">
+  <header><h1>Pixatool</h1></header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#lyriel">WF 01: Lyriel</a></li>
+      <li><a class="nav-link" href="#project02">Project 02: Mersenne</a></li>
+      <li><a class="nav-link" href="#project03">Project 03: Pac-Man</a></li>
+      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+      <li><a class="nav-link" href="#masayume">masayume</a></li>
+    </ul>
+  </nav>
+
+
+<div id="main-doc" class="main">
+  <section id="Introduction" class="main-section">
+    <header>Lyriel Workflow</header>
+      <p>https://kronbits.itch.io/pixatool is a pixel converter utility software created by Kronbits.</p>
+    <ul>
+      <li><a href="https://github.com/masayume/DigitalGarden/tree/main/engineering-code/godot">godot @ digigarden</a></li>
+    </ul>
+  </section>
+  
+  <section id="Workflow01" class="main-section">
+    <header>Godot Project 01: Grotto Escape Prototype</header>
+
+    <p>
+      <img src="../img/010.webp" style="width: 512px;">
+    </p>
+
+    <p><strong>Step 1 -</strong>&nbsp;Generate Base Potrait (txt2img):</p>
+
+<p><strong>Prompt:</strong>&nbsp;(8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.37), ultra high res, ultra-detailed, woman, professional lighting, photon mapping, radiosity, physically-based rendering, (detailed symmetrical face), (extremely detailed eyes and face), (symmetrical mouth), (symmetrical eyes) , (detailed eyebrows), (extremely detailed eyes), (detailed beautiful lips), (symmetrical lips), light on face, ((chinese clothes)), ((big red eyes)), ((flower hair pin)), ((tight clothes))</p>
+
+<p><strong>Negative prompt:</strong>&nbsp;Paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), glans ,extra fingers ,fewer fingers ,strange fingers ,bad hand ,signature, watermark, username, blurry, bad feet ,bad leg, duplicate, extra limb, ugly, disgusting, light reflection, poorly drawn hands, weird teeth showing, abnormal upper tooth, unbalance eyes, thick eyebrows, abnormal smile, abnormal lips ,unsymmetrical lips, artificial glow, unsymmetrical teeth, abnormal teeth, missing limb, glowing, weird shadow, floating limbs, disconnected limbs, malformed hands, blurry ,mutated hands and fingers, loli, young</p>
+
+<p><strong>Steps:</strong>&nbsp;30,&nbsp;<strong>Sampler:</strong>&nbsp;DPM++ 2M Karras,&nbsp;<strong>CFG scale:</strong>&nbsp;7,&nbsp;<strong>Seed:</strong>&nbsp;3188709985,&nbsp;<strong>Size:</strong>&nbsp;512x768,&nbsp;<strong>Model hash:</strong>&nbsp;f1b08b30f8,&nbsp;<strong>Model:</strong>&nbsp;lyriel_v14,&nbsp;<strong>Clip skip:</strong>&nbsp;2,&nbsp;<strong>Restore Faces:</strong>&nbsp;OFF,</p>
+
+<p>------------------------------------------------------------------------------</p>
+
+<p><strong>Step 2</strong>&nbsp;- Outpainting (img2img)</p>
+
+<p>*Maintain the same prompts above</p>
+
+<p><strong>Resize Mode:</strong>&nbsp;Resize and Fill,&nbsp;<strong>Sampling Method:</strong>&nbsp;Euler a / DPM++ SDE Karras / DPM ++ 2M Karras / DDIM (<em>experiment and see which one gives the best result</em>),&nbsp;<strong>Sampling Steps:</strong>&nbsp;50-100,&nbsp;<strong>CFG scale:</strong>&nbsp;7,&nbsp;<strong>Seed:</strong>&nbsp;318870998 ,&nbsp;<strong>Denoising strength:</strong>&nbsp;0.8,&nbsp;<strong>Clip skip:</strong>&nbsp;2,&nbsp;<strong>Script:</strong>&nbsp;Poor man&#39;s outpainting,&nbsp;<strong>Pixel to expand:</strong>&nbsp;128 (<em>you may get weird result if this is set too high per run</em>),&nbsp;<strong>Mask Blur:</strong>&nbsp;4,&nbsp;<strong>Masked Content:</strong>&nbsp;fill,&nbsp;<strong>Outpainting Direction:</strong>&nbsp;down.</p>
+
+<p>------------------------------------------------------------------------------</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Step 3</strong>&nbsp;- Inpainting (img2img)</p>
+
+<p>*<em>This step is to fix any artifacts / seam generated from outpainting</em></p>
+
+<p>*Maintain the same prompts above</p>
+
+<p><strong>Resize Mode:</strong>&nbsp;Resize and Fill,&nbsp;<strong>Mask Blur:</strong>&nbsp;4,&nbsp;<strong>Mask Mode:</strong>&nbsp;Inpaint Mask,&nbsp;<strong>Masked Content:</strong>&nbsp;Latent Noise,&nbsp;<strong>Inpaint Area:</strong>&nbsp;Whole Picture,&nbsp;<strong>Sampling Method:</strong>&nbsp;Euler a / DPM++ SDE Karras / DPM ++ 2M Karras / DDIM (<em>experiment and see which one gives the best result</em>),&nbsp;<strong>Sampling Steps:</strong>&nbsp;30-50,&nbsp;<strong>CFG scale:</strong>&nbsp;7,&nbsp;<strong>Seed:</strong>&nbsp;318870998 ,&nbsp;<strong>Denoising strength:</strong>&nbsp;0.8,&nbsp;<strong>Clip skip:</strong>&nbsp;2,</p>
+
+<p>------------------------------------------------------------------------------</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Step 4 -</strong>&nbsp;Repeat steps 2&amp;3</p>
+
+<p>This is basically an iterative process where we generate new content bit by bit and subsequently fix any errors via inpainting. For Step 2, once you have generated sufficient vertical pixels, swap&nbsp;<em><strong>Outpainting Direction</strong></em>&nbsp;to Left and Right.&nbsp;<strong>Add or remove prompts depending on the content you want generated.</strong>&nbsp;For the image above, I repeated until it reached 1920px vertically.</p>
+
+<p>------------------------------------------------------------------------------</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Step 5 -</strong>&nbsp;Upscale (img2img)</p>
+
+<p>* This is to upscale the image to 4K or higher.</p>
+
+<p><strong>Steps:</strong>&nbsp;30,&nbsp;<strong>Sampler:</strong>&nbsp;DPM++ 2M Karras,&nbsp;<strong>CFG scale:</strong>&nbsp;7,&nbsp;<strong>Seed:</strong>&nbsp;3188709985,&nbsp;<strong>Size:</strong>&nbsp;1088x1920,&nbsp;<strong>Script:</strong>&nbsp;SD Upscale,&nbsp;<strong>Model hash:</strong>&nbsp;4d91c4c217,&nbsp;<strong>Model:</strong>&nbsp;lyriel_v15,&nbsp;<strong>Denoising strength:</strong>&nbsp;0.15,&nbsp;<strong>Clip skip:</strong>&nbsp;2,&nbsp;<strong>SD upscale overlap:</strong>&nbsp;64,&nbsp;<strong>SD upscale upscaler:</strong>&nbsp;lollypop (4x-UltraSharp and Remacri works well too),&nbsp;<strong>Scale Factor:</strong>&nbsp;2</p>
+
+
+
+    
+    <p>
+      <a href="https://www.reddit.com/r/StableDiffusion/comments/12vemzw/lyriel_outpainting/">original post</a>
+      <a href="https://onlinehtmleditor.dev/">onlinehtmleditor</a></a>
+    </p>
+
+    <p>Directories</p>
+    <ul>
+      <li>original: <code>/home/masayume/DATA/L/GODOT/PROJECTS/Grotto_Escape_2D_Platformer/</code></li>
+      <li>my custom project <code>/home/masayume/DATA/L/GODOT/PROJECTS/GodotPlatform/</code></li>
+    </ul>
+    
+  </section>
+
+
+
+  <section id="project02" class="main-section">
+    <header>Project 02: mersenne remake</header>
+    <p>
+      <img src="../img/wfpx007.gif" style="width: 512px;" >
+    </p>
+
+    <p>Image sources:</p>
+    <ul>
+      <li><a href="/HTML5/holden/index.php?art=108" target="_blank">@pixelart src-movie GIFs</a></li>
+      <li><a href="/HTML5/holden/index.php?art=98" target="_blank">@pixelart STYLE</a></li>
+    </ul>
+
+      <p>Follow this sequence:</p>
+    <ul>
+      <li>0: Prepare the image: resize, optimize contrast and saturation, evaluate posterization/color reduction.</li>
+      <li>1: <b>Import</b> the image</li>
+      <li>2: Left Sidebar <b>Palette</b> -> <b>Clear</b> </li>
+      <li>3: Palette -> <b>New</b> </li>
+      <li>4: click color position and use <b>Pick</b> on all the main colors</li>
+      <li>5: Palette -> <b>Set</b> to convert the colors</li>
+      <li>6: Iterate eventually back to <b>step 4</b> to add more hues</li>
+      <li>7: Proceed with <b>General</b> for <b>pixelate H/W</b>, <b>Contrast</b>, <b>Basic Blur</b> etc. </li>
+    </ul>
+  </section>
+
+
+
+
+  <section id="project03" class="main-section">
+    <header>Project 03: Pac Man</header>
+    <p>
+      <img src="../img/wfpx002.png" style="width: 512px;">
+    </p>
+
+    <p>Move new image chosen from Image Source:</p>
+    <ul>
+      <code>/home/masayume/Downloads/masayumeP/DONE/LANDS-READY/NEW/</code>
+    </ul>
+    <p>To Image Destination:</p>
+    <ul>
+      <code>/home/masayume/Downloads/masayumeP/DONE/LANDS-READY/PUB/published.2/</code>
+    </ul>
+    
+    <p>Follow this sequence:</p>
+    <ul>
+      <li>0: edit new image in <a href="https://www.photopea.com/" target="_BLANK">Photopea</a> </li>
+      <li>1: <b>CTRL+U</b> +20 saturation</li>
+      <li>2: <b>CTRL+J</b> duplicate layer</li>
+      <li>3: set new "layer style" to: <b>Color</b> </li>
+      <li>4: choose "image adjustment": <b>Posterize</b> </li>
+      <li>5: add new image to another layer in  /home/masayume/Downloads/masayumeP/DONE/LANDS-READY/PUB/_02-serie-template.psd </li>
+      <li>6: edit new layer image number </li>
+      <li>7: save new _02-serie-template.psd and move to /home/masayume/Downloads/masayumeP/DONE/LANDS-READY/PUB/ </li>
+    </ul>
+  </section>
+
+
+
+
+  <section id="Workflow04" class="main-section">
+    <header>Workflow 04: MRMO-stitch</header>
+    <p>
+      <img src="../img/wfpx017.png" style="width: 512px;">
+    </p>
+
+    <p>Image sources:</p>
+    <ul>
+      <code>/home/masayume/DATA/E/INSPIRE/@pixelart/</code>
+    </ul>
+    
+    <p>Follow this sequence:</p>
+    <ul>
+      <li>0: Blender 3.4 file: /home/masayume/DATA/E/PROJECTS/BLENDER/BLENDER/MRMO-STITCH Basic V1.01.zip</li>
+      <li>1: <a href="https://www.masayume.it/blog9/web/content/mrmo-stitch">MRMO-stitch on masayume.it</a> </li>
+      <li>2: ... </li>
+      <li>3: ... </li>
+    </ul>
+
+    <p>Other tools:</p>
+    <img src="../img/wfpx017b.png" style="height: 400px; padding-left: 30px;">
+
+    <img src="../img/wfpx017c.jpg" style="height: 400px;">
+
+  </section>
+
+  <section id="Hello_world" class="main-section">
+    <header>Hello world</header>
+      <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+     <code>function greetMe(yourName) { alert("Hello " + yourName);</code>
+      <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+  </section>
+
+  <section id="masayume" class="main-section">
+    <header>masayume</header>
+    <p>I am an IT pro, blogger, game developer and pixel artist. I am also intersted in Web Developing.</p>
+    <p>If you want to see my works, Visit the below links:</p>
+    <ul>
+      <li>twitter.com/masayumeP</li>
+      <li>github.com/masayume</li>
+      <li>www.masayume.it</li>
+      <li>pinterest.co.uk/masayume</li>
+    </ul>
+    <p>page designed by <b>Umar Farooq</b>.</p>
+      
+  </section>
+</div>
+<!-- partial -->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>
