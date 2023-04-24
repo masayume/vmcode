@@ -184,10 +184,11 @@
 
         <h4>WEB TOOLS</h4>
         <ul>
+          <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
+              <a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
               <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a>
               <a href="http://webtoolkitonline.com">webtools</a></li>
-          <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
           <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
 	        <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
 	        <li><a href="/HTML5/dagre/">dagre</a> - 
