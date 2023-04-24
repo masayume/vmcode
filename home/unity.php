@@ -40,17 +40,14 @@
   })();
 </script>
 <!-- End Matomo Code -->
-<script type="text/javascript" src="index-gifs.js"></script>
 
 </head>
 <body>
 <div class="container-fluid">
 
   <div class="_exa">
-    <script type="text/javascript">
-         document.write(getImageTag());
-    </script>
-  <br />
+
+<br />
       <h4>PAGES</h4>
           <ul>
             <li> <a href="/html5/isotope/isotope-projects/"><b>ISO Projects ★★</b></a></li> 

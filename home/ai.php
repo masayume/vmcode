@@ -36,7 +36,6 @@
   })();
 </script>
 <!-- End Matomo Code -->
-<script type="text/javascript" src="index-gifs.js"></script>
 
 </head>
 <body>
@@ -228,7 +227,6 @@
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
     ?>
-    <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
 
     <br />
 

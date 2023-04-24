@@ -42,10 +42,6 @@
 </script>
 -->
 <!-- End Matomo Code -->
-<script type="text/javascript" src="index-gifs-px.js"></script>
-<script type="text/javascript" src="index-gifs-px-2.js"></script>
-<script type="text/javascript" src="index-gifs-px-3.js"></script>
-<script type="text/javascript" src="index-gifs-px-4.js"></script>
 
 </head>
 <body>
@@ -472,7 +468,6 @@
 </div>
 
 <div class="_exa">
-  <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
 
       <!-- php_image_show -->
       <?php
@@ -495,7 +490,6 @@
 </div>
 
 <div class="_exa">
-  <!-- <script type="text/javascript"> document.write(getImageTag2()); </script> -->
 
       <?php
         $ai_dirs    = array('inspire/@pixelart/backgrounds/');
@@ -596,7 +590,6 @@
 </div>
 
 <div class="_exa">
-  <!-- <script type="text/javascript"> document.write(getImageTag3()); </script> -->
 
       <?php
         $ai_dirs    = array('inspire/@pixelart/ref-MAP/', 'inspire/@pixelart/ref-MONSTER/', 'inspire/@pixelart/ref-ITEM/');
@@ -692,9 +685,20 @@
 
 
     <div class="_exa">
-      <script type="text/javascript">
-        document.write(getImageTag4()); // 
-      </script>
+
+      <?php
+        $ai_dirs    = array('inspire/@pixelart/workflow/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
+      ?>
+
+
+
 
     </div>
 

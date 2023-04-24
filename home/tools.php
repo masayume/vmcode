@@ -25,14 +25,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
   ._exa{ display:inline-block; margin:5px 6px; padding:5px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
-<script type="text/javascript" src="index-gifs.js"></script>
 
 </head>
 <body>
 <div class="container-fluid">
 
   <div class="_exa">
-    <!-- <script type="text/javascript">document.write(getImageTag());</script> -->
     <!-- php_image_show -->
     <?php
       $ai_dirs    = array('inspire/@CARTOONS/@gif animations/');

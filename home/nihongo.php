@@ -40,7 +40,6 @@
   })();
 </script>
 <!-- End Matomo Code -->
-<script type="text/javascript" src="index-gifs.js"></script>
 
 </head>
 <body>
@@ -194,7 +193,6 @@
   </div>
 
   <div class="_exa">
-      <!-- <script type="text/javascript"> document.write(getImageTag()); </script> -->
 
       <!-- php_image_show -->
       <?php
