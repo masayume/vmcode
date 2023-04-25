@@ -100,6 +100,7 @@
         <li> <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
         <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
         <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li>
+        <li> <a href="https://openart.ai/@artificialartist/nijijourney"><b>openart.ai ★★</b></a></li>
         <li> <a href="https://civit.ai/" target="_blank">civit.ai</a> 
              <a href="https://creator.nightcafe.studio/explore ">nightcafe</a></li>
       </ul>
@@ -129,7 +130,7 @@
     <ul>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
-      <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourney ★</b></a> 
+      <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdrop SD ★</b></a> </li>
       <li>  <a href="https://stablediffusionweb.com/"><b>StableDIFF</b></a>
@@ -159,7 +160,8 @@
             <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
       <li>  <a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
             <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
-      <li>  <a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
+      <li>  <a href="https://twitter.com/arare_no_re/media"><b>arare★</b></a>
+            <a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
       <li>  <a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
             <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
       <li>  <a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
@@ -290,24 +292,24 @@
     </ul>
 
 
-    <h4>TTS</h4>
+    <h4>TUTORIALS</h4>
     <ul>
-      <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo ">speecht5-tts</a> </li>
+      <li> <a href="https://aituts.com/category/niji-journey/"><b>aituts.com ★</b></a> </li>
       <li> <a href="URL">LINK #4</a> </li>
     </ul>
 
     <h4>PROMPTS</h4>
     <ul>
+      <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
       <li> <a href="https://twitter.com/nickfloats/status/1627157305040027648">consistent chars</a> </li>
       <li> <a href="https://www.youtube.com/watch?v=lHcPtbZ0Mnc">prompt2prompt</a> </li>
       <li> <a href="https://huggingface.co/spaces/daspartho/prompt-extend">prompt extend</a> </li>
-      <li> <a href="URL">LINK #7</a> </li>
     </ul>
 
-    <h4>TRAVEL</h4>
+    <h4>TTS</h4>
     <ul>
-      <li> <a href="https://tripnotes.ai/app/notes/95534b5d088864f5fd83b20274143f3c0066be46?demo=true">tripnotes.ai</a> </li>
-      <li> <a href="URL">LINK #8</a> </li>
+      <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
+      <li> <a href="URL">LINK #4</a> </li>
     </ul>
 
 
@@ -330,16 +332,12 @@
     <ul>
       <li> <a href="https://www.calligrapher.ai/"><b>calligrapher.ai</b></a> </li>
       <li> <a href="URL">LINK #11</a> </li>
-      <li> <a href="URL">LINK #12</a> </li>
-      <li> <a href="URL">LINK #13</a> </li>
     </ul>
 
-    <h4>TITLE #6</h4>
+    <h4>TRAVEL</h4>
     <ul>
-      <li> <a href="URL">LINK #14</a> </li>
-      <li> <a href="URL">LINK #15</a> </li>
-      <li> <a href="URL">LINK #16</a> </li>
-      <li> <a href="URL">LINK #17</a> </li>
+      <li> <a href="https://tripnotes.ai/app/notes/95534b5d088864f5fd83b20274143f3c0066be46?demo=true">tripnotes.ai</a> </li>
+      <li> <a href="URL">LINK #8</a> </li>
     </ul>
 
   

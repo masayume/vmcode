@@ -103,6 +103,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
             <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
           </ul>
 
+    <h4>GENERATIVE</h4>
+          <ul>
+            <li> <a href="https://polyhedra.tessera.li/"><b>polyhedra★</b></a>
+                 <a href="https://www.masayume.it/blog/content/polyhedra-viewer"><b>my</b></a></li> 
+          </ul>
 
 
     <h4>LEVEL DESIGN</h4>
