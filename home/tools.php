@@ -409,7 +409,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     
     <h4>VIDEO EDIT</h4>
       <ul>
-        <li> <a href="http://www.masayume.it/blog/content/kdenlive-non-linear-video-editor">kdenlive LMX</a> </li> 
+        <li> <a href="http://www.masayume.it/blog/content/kdenlive-non-linear-video-editor"><b>kdenlive LMX★</b></a> </li> 
       </ul>
 
     <h4>TEXTGEN</h4>

@@ -199,7 +199,9 @@
       <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★</b></a></li> 
       <li> <a href="https://huggingface.co/spaces/timbrooks/instruct-pix2pix"><b>pix2pix★</b></a> 
            <a href="https://huggingface.co/spaces/Adapter/CoAdapter"><b>coadapter★</b></a><a href="https://github.com/TencentARC/T2I-Adapter/blob/main/docs/coadapter.md"><b>?</b></a></li>
-      <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet ★</b></a> <a href="https://aituts.com/controlnet/"><b>?<b></a></li>
+      <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet★</b></a> 
+           <a href="https://huggingface.co/ControlNet-1-1-preview/control_v11p_sd15_lineart"><b>lineart<b></a>
+           <a href="https://aituts.com/controlnet/"><b>??<b></a></li>
       <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stableDiff🤗</b></a>
            <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifuDiff★</b></a></li>
       <li> <a href="https://waifulabs.com/"><b>waifulabs</b></a> 
