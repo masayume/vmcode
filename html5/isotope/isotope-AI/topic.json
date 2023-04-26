@@ -22,7 +22,7 @@
       "data_cat": "player",
       "class": ["player", "workflow"],
       "mechanics": ["grid"],
-      "theme": ["Asia"],
+      "theme": ["Astoolsia"],
       "img": "020.webp",
       "designer": "hardmaru",
       "status": "prototype", 
@@ -46,19 +46,20 @@
       "url": "https://www.reddit.com/r/StableDiffusion/comments/12uad6a/controlnet11_lineart_test_ai_animation/",
       "url_WF": "pages/001-lyriel.htm#MMD-CNET"
     },
-    "CardRogue": {
-      "name": "AI#4",
+    "FromPixelart": {
+      "name": "From Pixelart",
       "number": "40",
       "data_cat": "player",
-      "class": ["player", "arcade", "videogame"],
-      "mechanics": ["Simultaneous Action Selection","Storytelling", "Voting"],
+      "class": ["player", "workflow"],
+      "mechanics": ["grid"],
       "theme": ["Fantasy"],
-      "img": "040.jpg",
+      "img": "040.webp",
       "designer": "masayume",
       "status": "design", 
-      "year": 2019,
+      "year": 2023,
       "length": 30,
-      "url": "https://boardgamegeek.com/boardgame/39856/dixit"
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/12vu9i9/i_also_made_characters_from_a_favorite_game/",
+      "url_WF": "pages/001-lyriel.htm#fromPixelart"
     },
     "Intellivision": {
       "name": "AI#5",

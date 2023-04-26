@@ -15,7 +15,7 @@
       <li><a class="nav-link" href="#lyriel">WF 01: Lyriel</a></li>
       <li><a class="nav-link" href="#Amigurumi">WF 02: Amigurumi</a></li>
       <li><a class="nav-link" href="#MMD-CNET">WF 03: MMD-CNET</a></li>
-      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+      <li><a class="nav-link" href="#fromPixelart">WF 04: From Pixelart to 3D</a></li>
       <li><a class="nav-link" href="#masayume">masayume</a></li>
     </ul>
   </nav>
@@ -155,94 +155,58 @@
     
   </section>
 
+  <br clear="all">
+
+  <section id="fromPixelart" class="main-section">
+    <header>From Pixelart to 3D</header>
+
+    <div>
+
+      <div style="float: left; width: 40%">
+        <p>
+          <img src="../img/040.webp" style="width: 320px;">
+        </p>
+      </div>
+      <div style="float: right; width: 60%">
+        <p><strong>Image Generator:</strong> <a href="https://www.reddit.com/r/StableDiffusion/comments/12vk4wk/comment/jhbij1k/?utm_source=reddit&utm_medium=web2x&context=3">ryanrybot workflow</a> </p>
+        <p><strong>Workflow</strong></p>
+        <p>For all the renders, I loaded the original portraits into img2img and would render each image at a low denoising strength; between 0.4 and 0.55. The initial images would keep much of the pixel look, but the facial features would start to get more detailed. I would then feed that image back into img2img, and refine again. I would repeat this process at least 6 or 7 times.</p>
+        <p>If i liked the look of an image, but didn&#39;t like the way certain features were coming out, I would load it up into Photoshop and fix it manually, then feed that image back through img2img with a low (0.25 - 0.4) denoising strength.</p>        
+        <p>The final image was then taken into Photoshop for final tweaks and that&#39;s about it.</p>
+        <p>Hope that helps anyone trying something similar.</p>
+        <p><em><strong>EDIT 1:</strong></em></p>
+        <p>Sorry! my denoising had wrong decimal places. Fixed now.</p>
+        <p>I used&nbsp;<a href="https://civitai.com/models/10028/neverending-dream-ned" rel="noopener nofollow ugc" target="_blank">NeverEnding Dream</a>,&nbsp;<a href="https://civitai.com/models/6424/chilloutmix" rel="noopener nofollow ugc" target="_blank">ChilloutMix</a>, and&nbsp;<a href="https://civitai.com/models/8281/perfect-world" rel="noopener nofollow ugc" target="_blank">PerfectWorld</a>&nbsp;(NSFW!!)</p>
+        <p>My prompts are nothing special, but here&#39;s an example of what I used. I would sometimes add extra prompts between iterations if I felt it needed more or less of something.</p>
+        <p><strong>Positive prompt:</strong><br />
+        unparalleled masterpiece, ultra realistic, 8k, perfect artwork, ((perfect male figure)), mature man, looking at viewer, alluring, clean, ((shiny skin)), intricate detail, prestige, anime-styled black hair, spiked hair, pale, emo, goth, asymmetrical hair, dark eyes, (lips closed), black hooded sweatshirt, pull strings</p>
+        <p><strong>Negative Prompt:</strong><br />
+        (worst quality:1.2), (low quality:1.2), (lowres:1.1), (monochrome:1.1), (greyscale),deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, ugly, disgusting, missing limb, floating limbs, disconnected limbs, blurry, doubled face, mutated hands, mutated fingers, multiple eyebrows, multiple views, sketch, child face, woman, girl, (((female))), (chiseled jaw)</p>
+        <p>Here&#39;s what Penny looked like between each iteration for a clear example of what to expect.</p>
+<!--        <p><a href="https://preview.redd.it/ato8vpyhomva1.png?width=1024&amp;format=png&amp;auto=webp&amp;v=enabled&amp;s=c1a102eac696372bf47b0b30819b6bf0ef65cc01" rel="noopener noreferrer" target="_blank"><img alt="Comment image" src="https://preview.redd.it/ato8vpyhomva1.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=970a45a34158e3dc00cddeab6c828b346ed3ca35" /></a></p> -->
+      </div>
+
+    </div>
+
+    <br clear="all">
+
+    <ul>
+      <li>
+        <a href="https://www.reddit.com/r/StableDiffusion/comments/12vu9i9/i_also_made_characters_from_a_favorite_game/">original post</a> 
+        by <a href="https://www.reddit.com/user/mynamesjenelle/">mynamesjenelle</a> 
+      </li>
+    </ul>
+
+    <p>Directories</p>
+    <ul>
+      <li>A: <code>---</code></li>
+      <li>B: <code>---</code></li>
+    </ul>
+
 <br clear="all">
 
 
 
-  <section id="project02" class="main-section">
-    <header>Project 02: mersenne remake</header>
-    <p>
-      <img src="../img/wfpx007.gif" style="width: 512px;" >
-    </p>
-
-    <p>Image sources:</p>
-    <ul>
-      <li><a href="/HTML5/holden/index.php?art=108" target="_blank">@pixelart src-movie GIFs</a></li>
-      <li><a href="/HTML5/holden/index.php?art=98" target="_blank">@pixelart STYLE</a></li>
-    </ul>
-
-      <p>Follow this sequence:</p>
-    <ul>
-      <li>0: Prepare the image: resize, optimize contrast and saturation, evaluate posterization/color reduction.</li>
-      <li>1: <b>Import</b> the image</li>
-      <li>2: Left Sidebar <b>Palette</b> -> <b>Clear</b> </li>
-      <li>3: Palette -> <b>New</b> </li>
-      <li>4: click color position and use <b>Pick</b> on all the main colors</li>
-      <li>5: Palette -> <b>Set</b> to convert the colors</li>
-      <li>6: Iterate eventually back to <b>step 4</b> to add more hues</li>
-      <li>7: Proceed with <b>General</b> for <b>pixelate H/W</b>, <b>Contrast</b>, <b>Basic Blur</b> etc. </li>
-    </ul>
-  </section>
-
-
-
-
-  <section id="project03" class="main-section">
-    <header>Project 03: Pac Man</header>
-    <p>
-      <img src="../img/wfpx002.png" style="width: 512px;">
-    </p>
-
-    <p>Move new image chosen from Image Source:</p>
-    <ul>
-      <code>/home/masayume/Downloads/masayumeP/DONE/LANDS-READY/NEW/</code>
-    </ul>
-    <p>To Image Destination:</p>
-    <ul>
-      <code>/home/masayume/Downloads/masayumeP/DONE/LANDS-READY/PUB/published.2/</code>
-    </ul>
-    
-    <p>Follow this sequence:</p>
-    <ul>
-      <li>0: edit new image in <a href="https://www.photopea.com/" target="_BLANK">Photopea</a> </li>
-      <li>1: <b>CTRL+U</b> +20 saturation</li>
-      <li>2: <b>CTRL+J</b> duplicate layer</li>
-      <li>3: set new "layer style" to: <b>Color</b> </li>
-      <li>4: choose "image adjustment": <b>Posterize</b> </li>
-      <li>5: add new image to another layer in  /home/masayume/Downloads/masayumeP/DONE/LANDS-READY/PUB/_02-serie-template.psd </li>
-      <li>6: edit new layer image number </li>
-      <li>7: save new _02-serie-template.psd and move to /home/masayume/Downloads/masayumeP/DONE/LANDS-READY/PUB/ </li>
-    </ul>
-  </section>
-
-
-
-
-  <section id="Workflow04" class="main-section">
-    <header>Workflow 04: MRMO-stitch</header>
-    <p>
-      <img src="../img/wfpx017.png" style="width: 512px;">
-    </p>
-
-    <p>Image sources:</p>
-    <ul>
-      <code>/home/masayume/DATA/E/INSPIRE/@pixelart/</code>
-    </ul>
-    
-    <p>Follow this sequence:</p>
-    <ul>
-      <li>0: Blender 3.4 file: /home/masayume/DATA/E/PROJECTS/BLENDER/BLENDER/MRMO-STITCH Basic V1.01.zip</li>
-      <li>1: <a href="https://www.masayume.it/blog9/web/content/mrmo-stitch">MRMO-stitch on masayume.it</a> </li>
-      <li>2: ... </li>
-      <li>3: ... </li>
-    </ul>
-
-    <p>Other tools:</p>
-    <img src="../img/wfpx017b.png" style="height: 400px; padding-left: 30px;">
-
-    <img src="../img/wfpx017c.jpg" style="height: 400px;">
-
-  </section>
 
   <section id="Hello_world" class="main-section">
     <header>Hello world</header>
