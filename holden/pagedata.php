@@ -67,6 +67,10 @@ function pagenewtemp($dir, $tag) {
       $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     
     }
+    elseif (preg_match('/^sp-/', $twitterRaw2) ){     // calculate SPOTIFY ALBUM link - https://open.spotify.com/album/4nEgdO6tkE2v5LO3mpUEe9
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>spotify:</b> <a href='https://open.spotify.com/album/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
     elseif (preg_match('/^pf-/', $twitterRaw2) ){     // calculate PIXELFED link - https://pixelfed.social/i/web/profile/512153585210633987
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>pixelfed:</b> <a href='https://pixelfed.social/i/web/profile/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
@@ -214,6 +218,7 @@ function findtags($tw) {
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $tw = preg_replace('/^in\-(\w+)\-/', '', $tw);                    // clears instagram prefix
   $tw = preg_replace('/^pf\-(\w+)\-/', '', $tw);                    // clears pixelfed prefix
+  $tw = preg_replace('/^sp\-(\w+)\-/', '', $tw);                    // clears spotify prefix
   $tw = preg_replace('/^ar\-(\w+)\-/', '', $tw);                    // clears artstation prefix
   $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix

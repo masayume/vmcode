@@ -90,9 +90,9 @@
            <a href="/HTML5/holden/index.php?art1=13&art2=13"><b>gifs</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=28&art2=28"><b>WFs</b></a>  
            <a href="/HTML5/holden/index.php?art1=133&art2=133"><b>texturing</b></a>  
-           <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  
-<!--           <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>covers</b></a>  
-           <a href="/HTML5/holden/index.php?art1=13&art2=13"><b>gifs</b></a>  --></li>
+           <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  </li>
+      <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b></a>  </li>
+<!--           <a href="/HTML5/holden/index.php?art1=13&art2=13"><b>gifs</b></a>  </li> -->
     </ul>
 
 

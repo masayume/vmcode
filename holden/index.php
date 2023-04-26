@@ -52,7 +52,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@MISC-STYLE'            // 12
                   , '/inspire/@CARTOONS/@gif animations'
                   , '/inspire/@COVERS/retrocovers'
-                  , '/inspire/@COVERS/ataricovers'
+                  , '/inspire/@COVERS/AlbumArt'
                   , '/inspire/@CARTOONS/@chibi'
                   , '/inspire/@CARTOONS/chibird'
                   , '/inspire/@CARTOONS/chichoni'
