@@ -61,20 +61,20 @@
       "url": "https://www.reddit.com/r/StableDiffusion/comments/12vu9i9/i_also_made_characters_from_a_favorite_game/",
       "url_WF": "pages/001-lyriel.htm#fromPixelart"
     },
-    "Intellivision": {
-      "name": "AI#5",
+    "KyotoForest": {
+      "name": "Kyoto Forest",
       "number": "50",
       "data_cat": "player",
-      "class": ["player", "arcade", "videogame", "style"],
-      "mechanics": ["Action Point Allowance System", "Dice Rolling", "Secret Unit Deployment", "Variable Player Powers"],
+      "class": ["player", "workflow"],
+      "mechanics": ["grid"],
       "theme": ["Fantasy"],
-      "img": "050.gif",
+      "img": "050.png",
       "designer": "more8bit",
       "status": "todo", 
-      "year": 2019,
+      "year": 2023,
       "length": 60,
-      "url": "https://www.youtube.com/watch?v=IJn0SS2WyGc",
-      "url2": "https://twitter.com/more8bit?lang=en"
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1311xvs/kyoto_forest/",
+      "url_WF": "pages/001-lyriel.htm#KyotoForest"
     },
     "Recompile": {
       "name": "AI#6",
@@ -165,20 +165,19 @@
       "url": "https://clipdrop.co/tools",
       "about": "https://www.outcast.it/?author=574c2b1efe5f74b73588ec04"
     },
-    "kdenline": {
-      "name": "AI#12",
+    "fastGPT": {
+      "name": "fastGPT",
       "number": "110",
       "data_cat": "player",
-      "class": ["player", "video", "videogame"],
-      "mechanics": ["MECH1", "MECH2"],
+      "class": ["player", "tool"],
+      "mechanics": ["grid"],
       "theme": ["THEME"],
-      "img": "110.png",
+      "img": "110.webp",
       "designer": "DESIGNER",
       "status": "todo", 
-      "year-start": 2020,
-      "year": 2021,
+      "year": 2023,
       "length": 0,
-      "url": "https://www.masayume.it/blog/content/kdenlive-non-linear-video-editor",
+      "url": "https://labs.kagi.com/fastgpt?utm_source=masayume.it",
       "dir": "?"
     },
     "Grotto": {
