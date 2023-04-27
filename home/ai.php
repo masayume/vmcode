@@ -180,6 +180,7 @@
 
   <h4>TEXT AI TOOLS</h4>
     <ul> 
+      <li>  <a href="https://labs.kagi.com/fastgpt?utm_source=masayume.it"><b>fastGPT ★</b></a> </li>
       <li>  <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> (edge) </li>
       <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
       <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> </li>      
