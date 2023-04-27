@@ -303,6 +303,7 @@
 
     <h4>PROMPTS</h4>
     <ul>
+      <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
       <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
       <li> <a href="https://twitter.com/nickfloats/status/1627157305040027648">consistent chars</a> </li>
       <li> <a href="https://www.youtube.com/watch?v=lHcPtbZ0Mnc">prompt2prompt</a> </li>
