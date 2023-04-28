@@ -404,9 +404,10 @@
     <li><a href="https://isartum.net/leimma">Leimma</a> <a href="https://isartum.net/apotome">Apotome</a> </li>
   </ul>
     
-    <h4>MIDI</h4>
+    <h4>MIDI</h4> <!-- also in TOOLS -->
     <ul>
       <li><a href="https://bitmidi.com/">BitMIDI</a></li>
+      <li><a href="https://twitter.com/OnlyMIDIs">OnlyMIDIs★</a></li>
       <li><a href="">SID2MIDI WIN ★</a></li>
     </ul>
       

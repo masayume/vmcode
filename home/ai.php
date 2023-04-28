@@ -241,9 +241,9 @@
         <li><a href="https://www.reddit.com/r/StableDiffusion/">r/StableDiffusion ★</a> 
             <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Workflow%20Included%22"><b>WF INC ★</b></a>
             <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Resource%20%7C%20Update%22"><b>RES UP ★</b></a></li>
-        <li><a href="/html5/isotope/isotope-AI"><b>ISOTOPE AI</b></a></li>
         <li><a href="/"><b>&nbsp;</b></a></li>
-        <li><a href="https://link">link text #4</a> - <a href="https://link">link text #5</a></li>
+        <li><a href="/html5/isotope/isotope-AI"><b>ISOTOPE AI</b></a> 
+            <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Workflow%20Included%22"><b><-- reddit WF</b></a> </li>
       </ul>
 
   </div>
