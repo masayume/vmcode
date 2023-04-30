@@ -134,6 +134,8 @@
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdrop SD ★</b></a> 
             <a href="https://app.prodia.com/"><b>Prodia</b></a>  </li>
+      <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>DeepFloyd★</b></a> 
+            <a href="https://deepfloyd.ai/"><b>site</b></a>  </li>
       <li>  <a href="https://stablediffusionweb.com/"><b>StableDIFF</b></a>
             <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Colab★</b></a> </li>
       <li>  <a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a>
@@ -160,7 +162,7 @@
             <a href="https://twitter.com/frankenmizer/media" target="_blank"><b>Fnmizer</b></a> 
             <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
       <li>  <a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
-            <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
+            <a href="https://www.reddit.com/r/deepdream/"><b>r/deepdream★</b></a></li>
       <li>  <a href="https://twitter.com/arare_no_re/media"><b>arare★</b></a>
             <a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
       <li>  <a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
@@ -172,9 +174,12 @@
             <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
       <li>  <a href="https://twitter.com/magnasoma/media">magnasoma</a>
             <a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a> </li>
-      <li>  <a href="https://www.reddit.com/r/deepdream/"><b>Red.Deepdream</b></a></li>
     </ul>
-    
+
+    <!--
+              <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a>
+  -->
+
   </div>
 
   <div class="_exa">
