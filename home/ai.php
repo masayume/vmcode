@@ -192,7 +192,8 @@
       <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> </li>      
       <li>  <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
       <li>  <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> 
-      <li>  <a href="https://halfwaywords.com/"><b>halfwaywords</b></a> </li>      
+      <li>  <a href="https://www.brevity.sh/"><b>brevity★</b></a>
+            <a href="https://halfwaywords.com/"><b>halfwaywords</b></a> </li>      
 
       <li>  <a href="https://tilemaker.app/"><b>tilemaker</b></a> 
             <a href="https://github.com/replicate/tilemaker">git</a> 
