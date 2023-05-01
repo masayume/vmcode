@@ -23,7 +23,7 @@
   .container{ text-align:left; border:1px solid #666; }
   ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
-  ._exa{ display:inline-block; margin:5px 6px; padding:5px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
+  ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
 <!-- Matomo -->
 <script type="text/javascript">
@@ -228,7 +228,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
     ?>
 
