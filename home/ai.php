@@ -334,9 +334,9 @@
     <h4>LOC AI.APPS</h4>
       <ul>
         <li> <a href="/ai-chatgpt.php"><b>chatGPT page</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-AI-&tag2=-AI-"><b>@AI</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=-AI-&tag2=-AI-"><b>@AI</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>@AI</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>holden @AI+wf</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-AI-&tag2=-AI-"><b>holden MISC</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=-AI-&tag2=-AI-"><b>holden mers</b></a> </li>
         <li> <a href="URL">LINK #13</a> </li>
       </ul>
 

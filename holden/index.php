@@ -36,6 +36,7 @@ TO DO:
 
 <?php
 error_reporting (E_ALL ^ E_NOTICE);
+global $artists;
 $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/' 
                   , '/inspire/@CARTOONS/altan/'
                   , '/inspire/@CARTOONS/@expressions/'
