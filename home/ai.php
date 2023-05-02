@@ -426,12 +426,6 @@
 
 
   <div class="_exa">
-    <h4>...</h4>
-    <ul>
-    </ul>
-  </div>
-
-  <div class="_exa">
       <!-- php_image_show -->
       <?php
       $ai_dirs    = array('inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/');
@@ -440,10 +434,29 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
     ?>
   </div>
+
+
+  <div class="_exa">
+    <h4>COLAB</h4>
+    <details>
+        <summary><strong><b>Colab list ⬇️</b></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://colab.research.google.com/drive/1f2q75FOdMkpV_4o3RynVopjjM_bG41I6?usp=sharing"><b>Train Lora</b></a>
+                 <a href="https://www.youtube.com/watch?v=9MT1n97ITaE"><b>tut</b></a>  </li> 
+          </ul>
+        </p>
+    </details>
+    <li> <a href="https://lexica.art/"><b>lexica</b></a></li> 
+
+  </div>
+
+  
+  
 
 </div> <!-- container -->
 
