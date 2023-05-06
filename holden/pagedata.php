@@ -193,7 +193,7 @@ function pagenewtemp($dir, $tag) {
       $width     = max($butmagw, (13*strlen($thistag)) );
 
       $thtmlrow .= "<div style=\"width: ${width}px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px; border:1px solid black;\">";
-      $thtmlrow .= '<a href=' . $txtfile . ' target=_blank><span style="color:#009000"><b>' . $thistag . '</b></span></a>';   // add FILE txt link
+      $thtmlrow .= '<a href=\'' . $txtfile . '\' target=_blank><span style="color:#009000"><b>' . $thistag . '</b></span></a>';   // add FILE txt link
       $thtmlrow .= "</div>";
       // print "txtfilepath: $txtfilepath";
     }
