@@ -100,13 +100,14 @@ function pagenewtemp($dir, $tag) {
       $path2dec = explode('|', $exploded[1]);
       $path   = implode('/', $path2dec);
       $path   = str_replace('=', '-', $path); 
+
       $twitterRaw3 = "<b>site:</b> <a href='https://" . $path . "' target='_blank' title='" . $file . "'> " . $path . "</a>";
     }
     elseif (preg_match('/^re-/', $twitterRaw2) )  // calculate REDDIT link
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
-      $twitterRaw3 = "<b>reddit:</b> <a href='https://reddit.com/r/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+      $twitterRaw3 = "<b>reddit:</b> <a href='https://reddit.com/r/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . mb_strimwidth($exploded[1], 0, 33, "!!") . "</a>";
     }
     elseif (preg_match('/^ma-/', $twitterRaw2) )  // calculate MASTODON link (i.e. https://toot.community/@LordArse)
     {    
