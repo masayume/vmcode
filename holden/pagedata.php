@@ -91,7 +91,7 @@ function pagenewtemp($dir, $tag) {
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
-      $twitterRaw3 = "<b>reddit:</b> <a href='https://www.tumblr.com/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+      $twitterRaw3 = "<b>tumblr:</b> <a href='https://www.tumblr.com/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
     elseif (preg_match('/^site-/', $twitterRaw2) )  // calculate SITE link (must decode | (in file name) as / (URL) and = (in file name) as - (URL) )
     {    
@@ -101,13 +101,13 @@ function pagenewtemp($dir, $tag) {
       $path   = implode('/', $path2dec);
       $path   = str_replace('=', '-', $path); 
 
-      $twitterRaw3 = "<b>site:</b> <a href='https://" . $path . "' target='_blank' title='" . $file . "'> " . $path . "</a>";
+      $twitterRaw3 = "<b>site:</b> <a href='https://" . $path . "' target='_blank' title='" . $file . "'> " . mb_strimwidth($path, 0, 89, "!!") . "</a>";
     }
     elseif (preg_match('/^re-/', $twitterRaw2) )  // calculate REDDIT link
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
-      $twitterRaw3 = "<b>reddit:</b> <a href='https://reddit.com/r/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . mb_strimwidth($exploded[1], 0, 33, "!!") . "</a>";
+      $twitterRaw3 = "<b>reddit:</b> <a href='https://reddit.com/r/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . mb_strimwidth($exploded[1], 0, 89, "!!") . "</a>";
     }
     elseif (preg_match('/^ma-/', $twitterRaw2) )  // calculate MASTODON link (i.e. https://toot.community/@LordArse)
     {    
