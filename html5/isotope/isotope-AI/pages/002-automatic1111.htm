@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>AI - Documentation 2</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id="navbar">
+  <header><h1>Automatic1111</h1></header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#instructions">Colab Instructions</a></li>
+      <li><a class="nav-link" href="#Amigurumi">WF 02: Amigurumi</a></li>
+      <li><a class="nav-link" href="#masayume">masayume</a></li>
+    </ul>
+  </nav>
+
+
+<div id="main-doc" class="main">
+  <section id="Introduction" class="main-section">
+    <header>Automatic1111</header>
+    <ul>
+      <li><a href="https://docs.dreamlook.ai/generate-images/automatic1111">dreamlook.ai instructions</a></li>
+      <li><a href="https://www.youtube.com/@Aitrepreneur/videos" target="_blank">@Aitrepreneur</a></a> </li>
+      <li><a href="https://onlinehtmleditor.dev/" target="_blank">rich text editor online</a></a> </li>
+    </ul>
+  </section>
+  
+  
+  <section id="instructions" class="main-section">
+    <header>Colab Instructions</header>
+
+    <div>
+
+  <div style="float: right; width: 80%">
+
+    <h1>AUTOMATIC1111 (advanced)</h1>
+
+    <p>State-of-the-art image generation using your custom dreamlook.ai models</p>
+    
+    <p><strong>AUTOMATIC1111 is one of the most advanced and actively developed tool to create images with Stable Diffusion: </strong><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"><strong>https://github.com/AUTOMATIC1111/stable-diffusion-webui</strong></a><strong>​</strong></p>
+    
+    <p>You can easily use custom models created with dreamlook.ai in AUTOMATIC1111! Here&#39;s a detailed guide.</p>
+    
+    <h2>&nbsp;</h2>
+    
+    <p>Step 1: Train your custom model</p>
+    
+    <p>To train a model that you will be able to use in AUTOMATIC1111, you must firist enable &quot;Expert&quot; mode, then select the checkpoint format &quot;CompVis (AUTOMATIC1111-compatible)&quot;:</p>
+    
+    <p><img alt="" src="../img/0701.png" style="height:auto; width:100%" /></p>
+    
+    <p>You can choose the other options freely such as the number of images, the number of training steps, the base model etc.</p>
+    
+    <h2>&nbsp;</h2>
+    
+    <p>Step 2: Start an AUTOMATIC1111 instance</p>
+    
+    <p>There are <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui#installation-and-running">multiple ways</a> to run AUTOMATIC1111, and the precise steps will depend on what you use.</p>
+    
+    <p>In this guide, we will run it on Google Colab, using the excellent notebook from TheLastBen:</p>
+    
+    <p><strong>🔗 </strong><a href="https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb"><strong>https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb</strong></a><strong>​</strong></p>
+    
+    <ul>
+      <li>
+      <p>Simply open this Colab notebook, and run all the cells:</p>
+      </li>
+    </ul>
+    
+    <ul>
+    </ul>
+    
+    <p><img alt="" src="../img/0702.webp" style="height:auto; width:100%" /></p>
+    
+    <ul>
+      <li>
+      <p>After a while, you will see a public URL displayed:</p>
+      </li>
+    </ul>
+    
+    <ul>
+    </ul>
+    
+    <p><img alt="" src="../img/0703.png" style="height:auto; width:100%" /></p>
+    
+    <ul>
+      <li>
+      <p>Open that URL to reveal the AUTOMATIC1111 web ui!</p>
+      </li>
+    </ul>
+    
+    <ul>
+    </ul>
+    
+    <p><img alt="" src="../img/0704.webp" style="height:auto; width:100%" /></p>
+    
+    <h2>&nbsp;</h2>
+    
+    <p>Step 3: Add your custom model to AUTOMATIC1111</p>
+    
+    <ul>
+      <li>
+      <p>Now that everything is setup, let&#39;s interrupt the web ui so we can download the checkpoint:</p>
+      </li>
+    </ul>
+    
+    <ul>
+    </ul>
+    
+    <p><img alt="" src="../img/0705.webp" style="height:auto; width:100%" /></p>
+    
+    <ul>
+      <li>
+      <p>Copy the custom model URL from dreamlook.ai, then create a new cell and download the checkpoint to the AUTOMATIC1111 model folder:</p>
+      </li>
+    </ul>
+    
+    <ul>
+    </ul>
+    
+    <p>!wget &quot;&lt;model_url&gt;&quot; -O &quot;/content/gdrive/MyDrive/sd/stable-diffusion-webui/models/Stable-diffusion/custom_model.safetensors&quot;</p>
+    
+    <p><img alt="" src="../img/0706.webp" style="height:auto; width:100%" /></p>
+    
+    <ul>
+      <li>
+      <p>You can now restart the web ui by running the previous cell. You will now be able to select your custom model in the &quot;Stable Diffusion checkpoint&quot; dropdown:</p>
+      </li>
+    </ul>
+    
+    <ul>
+    </ul>
+    
+    <p><img alt="" src="../img/0707.webp" style="height:auto; width:100%" /></p>
+    
+    <p><em>It should be straightforward to adapt these steps if you use another AUTOMATIC1111 notebook or run it on another platform. If you have any issue, just ask on the </em><a href="https://discord.gg/yX9D9KxHMS"><em>dreamlook.ai Discord server</em></a><em>!</em></p>
+    
+    <h2>&nbsp;</h2>
+    
+    <p>Step 4: Generate images!</p>
+    
+    <p>You can now use the full power of the AUTOMATIC1111 web ui to create images 🤩🖼️</p>
+    
+    <p><img alt="" src="../img/0708.webp" style="height:auto; width:100%" /></p>
+    
+    <p>AUTOMATIC1111 is a powerful tool with a large array of options. There are many great tutorials to get started on YouTube - we particularly recommend content from <a href="https://www.youtube.com/@Aitrepreneur">Aitrepreneur</a>.</p>
+    
+    <p>&nbsp;</p>
+        
+
+
+
+
+
+
+  </div>
+
+</div>
+    <ul>
+      <li><a href="https://docs.dreamlook.ai/generate-images/automatic1111">original post</a> </li>
+    </ul>
+
+    <p>Directories</p>
+    <ul>
+      <li>A: <code>---</code></li>
+      <li>B: <code>---</code></li>
+    </ul>
+    
+  </section>
+
+<br clear="all">
+
+  <section id="Amigurumi" class="main-section">
+    <header>Amigurumi Workflow</header>
+
+    <div>
+
+      <div style="float: left; width: 40%">
+        <p>
+          <img src="../img/020.webp" style="width: 512px;">
+        </p>
+      </div>
+      <div style="float: right; width: 60%">
+        <p><strong>Workflow</strong></p>
+        <p><strong>Model: SDXL</strong></p>
+        <p><strong>Image Generator:</strong> <a href="https://clipdrop.co/stable-diffusion">clipdrop.co/stable-diffusion</a> </p>
+        <p><strong>Prompt:</strong> "[Name of World Leader] Amigurumi" (Photographic Style)</p>
+      </div>
+
+    </div>
+
+    <br clear="all">
+
+    <ul>
+      <li>
+        <a href="https://www.reddit.com/r/StableDiffusion/comments/12w2d5q/amigurumi_dolls_of_world_leaders/">original post</a> 
+        by <a href="https://www.reddit.com/user/hardmaru/">hardmaru</a> 
+      </li>
+    </ul>
+
+    <p>Directories</p>
+    <ul>
+      <li>A: <code>---</code></li>
+      <li>B: <code>---</code></li>
+    </ul>
+    
+  </section>
+
+<br clear="all">
+
+
+  <section id="Hello_world" class="main-section">
+    <header>Hello world</header>
+      <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+     <code>function greetMe(yourName) { alert("Hello " + yourName);</code>
+      <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+  </section>
+
+  <section id="masayume" class="main-section">
+    <header>masayume</header>
+    <p>I am an IT pro, blogger, game developer and pixel artist. I am also intersted in Web Developing.</p>
+    <p>If you want to see my works, Visit the below links:</p>
+    <ul>
+      <li>twitter.com/masayumeP</li>
+      <li>github.com/masayume</li>
+      <li>www.masayume.it</li>
+      <li>pinterest.co.uk/masayume</li>
+    </ul>
+    <p>page designed by <b>Umar Farooq</b>.</p>
+      
+  </section>
+</div>
+<!-- partial -->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>
