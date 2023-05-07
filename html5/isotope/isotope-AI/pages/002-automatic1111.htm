@@ -12,7 +12,8 @@
   <header><h1>Automatic1111</h1></header>
     <ul>
       <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-      <li><a class="nav-link" href="#instructions">Colab Instructions</a></li>
+      <li><a class="nav-link" href="#colab_instructions">automatic1111 Colab Instructions</a></li>
+      <li><a class="nav-link" href="#civitai_instructions">CivitAI to automatic1111</a></li>
       <li><a class="nav-link" href="#Amigurumi">WF 02: Amigurumi</a></li>
       <li><a class="nav-link" href="#masayume">masayume</a></li>
     </ul>
@@ -30,8 +31,8 @@
   </section>
   
   
-  <section id="instructions" class="main-section">
-    <header>Colab Instructions</header>
+  <section id="colab_instructions" class="main-section">
+    <header>Automatic1111 Colab Instructions</header>
 
     <div>
 
@@ -173,6 +174,87 @@
   </section>
 
 <br clear="all">
+
+
+  
+  
+  <section id="civitai_instructions" class="main-section">
+    <header>CivitAI to Automatic1111 Instructions</header>
+
+    <div>
+
+      <div style="float: right; width: 80%">
+
+
+        <h1>Civitai Extension for Automatic 1111 Stable Diffusion Web UI</h1>
+
+        <p>Manage and interact with your Automatic 1111 SD instance right from Civitai</p>
+        
+        <p>&nbsp;Civitai.Link.-.March.2023.Alpha.mp4&nbsp;</p>
+        
+        <h2>Features</h2>
+        
+        <ul>
+          <li>&nbsp;Automatically download preview images for all models, LORAs, hypernetworks, and embeds</li>
+          <li>&nbsp;Automatically download a model based on the model hash upon applying pasted generation params</li>
+          <li>&nbsp;Resources in Metadata: Include the SHA256 hash of all resources used in an image to be able to automatically link to corresponding resources on Civitai</li>
+          <li>&nbsp;Flexible Resource Naming in Metadata: Hashify the names of resources in prompts to avoid issues with resource renaming and make prompts more portable</li>
+          <li>&nbsp;<strong>Civitai Link (Alpha):</strong>&nbsp;Optional websocket connection to be able to add/remove resources and more in your SD instance while browsing Civitai or other Civitai Link enabled sites.</li>
+        </ul>
+        
+        <h2>Installation</h2>
+        
+        <h3>Through the Extensions UI (Recommended)</h3>
+        
+        <ol>
+          <li>Open the Extensions Tab in Automatic1111 SD Web UI</li>
+          <li>In the Extension Tab Open the &quot;Instal from URL&quot; tab</li>
+          <li>Paste&nbsp;<code>https://github.com/civitai/sd_civitai_extension.git</code>&nbsp;into the URL input</li>
+          <li>Press install and wait for it to complete</li>
+          <li><strong>Restart Automatic1111</strong>&nbsp;(Reloading the UI will not install the necessary requirements)</li>
+        </ol>
+        
+        <h3>Manually</h3>
+        
+        <ol>
+          <li>Download the repo using any method (zip download or cloning)</li>
+        </ol>
+        
+        <pre>
+        git clone https://github.com/civitai/sd_civitai_extension.git</pre>
+        
+        <ol start="2">
+          <li>After downloading the repo, open a command prompt in that location</li>
+        </ol>
+        
+        <pre>
+        cd C:\path\to\sd_civitai_extension</pre>
+        
+        <ol start="3">
+          <li>Then run the included install.py script</li>
+        </ol>
+        
+        <pre>
+        py install.py
+        # OR
+        python install.py</pre>
+        
+
+
+      </div>
+
+    </div>
+
+    <ul>
+      <li><a href="https://github.com/civitai/sd_civitai_extension">original post</a> </li>
+    </ul>
+
+
+  </section>
+
+<br clear="all">    
+
+
 
   <section id="Amigurumi" class="main-section">
     <header>Amigurumi Workflow</header>
