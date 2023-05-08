@@ -406,27 +406,10 @@
     
     <h4>MIDI</h4> <!-- also in TOOLS -->
     <ul>
-      <li><a href="https://bitmidi.com/">BitMIDI</a></li>
-      <li><a href="https://twitter.com/OnlyMIDIs">OnlyMIDIs★</a></li>
+      <li><a href="https://bitmidi.com/">BitMIDI</a>
+          <a href="https://twitter.com/OnlyMIDIs">OnlyMIDIs★</a></li>
       <li><a href="">SID2MIDI WIN ★</a></li>
-    </ul>
-      
-    <h4>Sounds</h4> <!-- also in TOOLS -->
-  <ul>
-    <li><a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
-    <li><a href="https://www.masayume.it/blog/content/essential-game-audio-toolkit"><b>Essential Tools</b></a></li>
-    <li><a href="https://github.com/masayume/DigitalGarden/tree/main/resources/foley"><b>DigiGarden ★★</b></a></li>
-    <li><a href="/home/masayume/DATA/E/LOCALE/sonniss/sounds.txt"><b>SONNISS ★★</b></a></li>
-    <li><a href="https://freesound.org/browse/"><b>freesound ★</b></a>,<a href="https://freesound.org/search/?q=car&fbclid=IwAR2RYIcbws5MJihzo1IG8sCck8Awe-x9rcNpe1lqtGGxa_lR_msNlvYZ0qc">src</a></li>
-    <li><a href="https://www.shockwave-sound.com/">shockwavesound</a></li>
-    <li><a href="/demon/soundboard/">soundboard</a></li>
-    <li><a href="https://www.101soundboards.com/">101 soundboards</a></li>    
-    <li><a href="http://bbcsfx.acropolis.org.uk/">BBC 16k</a></li>
-    <li><a href="https://elements.envato.com/sound-effects">envato sound fx</a></li>
-    <li><a href="">BFXR WIN</a></li>
-    <li><a href="https://synapse.cephasteom.co.uk/">ambient sounds</a></li>
-    <li><a href="https://soundcloud.com/soundsuigood" target="_blank"><b><i>sounds ui good</i></b></a></li>
-  </ul>
+    </ul>      
 
     <h4>Text 2 Speech</h4>
   <ul>

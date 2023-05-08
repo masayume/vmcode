@@ -302,13 +302,6 @@
       <li> <a href="https://ckovalev.com/midjourney-ai/styles">midj styles</a> </li>
     </ul>
 
-
-    <h4>TUTORIALS</h4>
-    <ul>
-      <li> <a href="https://aituts.com/category/niji-journey/"><b>aituts.com ★</b></a> </li>
-      <li> <a href="URL">LINK #4</a> </li>
-    </ul>
-
     <h4>PROMPTS</h4>
     <ul>
       <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
@@ -389,16 +382,25 @@
 
 
   <div class="_exa">
-    <h4>LORA</h4> 
-    <ul>
-    <li><a href="https://civitai.com/tag/lora"><b>Civit.ai LORA</b></a>  </li> 
-    <li><a href="https://colab.research.google.com/drive/1f2q75FOdMkpV_4o3RynVopjjM_bG41I6?usp=sharing"><b>Train Lora</b></a>
-        <a href="https://www.youtube.com/watch?v=9MT1n97ITaE"><b>tut</b></a>  </li> 
-    </ul>
+    <h4>TUTORIALS</h4>
+      <ul>
+        <li> <a href="https://aituts.com/category/niji-journey/"><b>aituts.com ★</b></a> </li>
+        <li> <a href="https://stable-diffusion-art.com/inpainting_basics/">inpainting★</a> </li>
+      </ul>
+
   </div>
 
 
   <div class="_exa">
+
+    <h4>LORA</h4> 
+      <ul>
+      <li><a href="https://civitai.com/tag/lora"><b>Civit.ai LORA</b></a>  </li> 
+      <li><a href="https://colab.research.google.com/drive/1f2q75FOdMkpV_4o3RynVopjjM_bG41I6?usp=sharing"><b>Train Lora</b></a>
+          <a href="https://www.youtube.com/watch?v=9MT1n97ITaE"><b>tut</b></a>  </li> 
+      </ul>
+
+
     <h4>COLAB</h4>
     <details>
         <summary><strong><b>Colab list ⬇️</b></strong></summary> 
