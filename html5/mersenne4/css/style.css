@@ -1,11 +1,94 @@
-#overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
+.container {
+    position: relative;
+    width: 1260px;
+    height: 600px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.image-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 512px;
+    height: 512px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+  
+.image-container img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    justify-content: center;
-    align-items: center;
-  }
+    object-fit: cover;
+}
+  
+.controls1 {
+    position: absolute;
+    top: 0px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls2 {
+    position: absolute;
+    top: 40px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls3 {
+    position: absolute;
+    top: 80px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls4 {
+    position: absolute;
+    top: 120px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls5 {
+    position: absolute;
+    top: 160px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls6 {
+    position: absolute;
+    top: 200px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls7 {
+    position: absolute;
+    top: 240px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls8 {
+    position: absolute;
+    top: 280px;
+    left: 512px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls button {
+    margin-right: 10px;
+}

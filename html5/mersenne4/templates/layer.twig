@@ -1,0 +1,13 @@
+
+        <!-- BEGIN layer.twig -->
+        <div class="image-container">
+            <img id="{{ image_num }}" src="{{ image_file }}">
+            <div class="{{ controls_num }}">
+            <button onclick="reloadImage('{{ image_num }}')"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
+            <button onclick="changeSize('{{ image_num }}', 0.5)"><i class="fa fa-search-minus fa-2x" aria-hidden="true"></i></button>
+            <button onclick="changeSize('{{ image_num }}', 2)"><i class="fa fa-search-plus fa-2x" aria-hidden="true"></i></button>
+            <button onclick="changeColor('{{ image_num }}', 'grayscale')">Grayscale</button>
+            <button onclick="changeColor('{{ image_num }}', 'sepia')">Sepia</button>
+            </div>
+        </div>
+        <!-- END layer.twig -->
