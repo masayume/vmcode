@@ -9,7 +9,6 @@
 .image-container {
     position: absolute;
     top: 0px;
-    left: 0px;
     width: 512px;
     height: 512px;
     margin: 20px;
@@ -19,74 +18,134 @@
 .image-container img {
     position: absolute;
     top: 0px;
-    left: 0px;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-  
+
+.controls_main {
+    left: 532px;
+
+}
+
 .controls1 {
     position: absolute;
     top: 0px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
 }
 
 .controls2 {
     position: absolute;
     top: 40px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
 }
 
 .controls3 {
     position: absolute;
     top: 80px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
 }
 
 .controls4 {
     position: absolute;
     top: 120px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
 }
 
 .controls5 {
     position: absolute;
     top: 160px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
 }
 
 .controls6 {
     position: absolute;
     top: 200px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
 }
 
 .controls7 {
     position: absolute;
     top: 240px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
 }
 
 .controls8 {
     position: absolute;
     top: 280px;
-    left: 512px;
     display: flex;
     flex-direction: row;
+    z-index: 1000;
+}
+
+.controls9 {
+    position: absolute;
+    top: 320px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+
+.controls10 {
+    position: absolute;
+    top: 360px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+
+.controls11 {
+    position: absolute;
+    top: 400px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+
+.controls12 {
+    position: absolute;
+    top: 440px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+
+.controls13 {
+    position: absolute;
+    top: 480px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+
+.controls14 {
+    position: absolute;
+    top: 520px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+
+.controls15 {
+    position: absolute;
+    top: 560px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
 }
 
 .controls button {

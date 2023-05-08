@@ -8,97 +8,40 @@
     <!-- https://fontawesome.com/v4/icons/ -->
   </head>
   <body>
-    <p>mersenne 4</p>
 
-<?php
+  <?php
+    
+    require('config.php'); 
+    echo "<h2> mersenne 4 </h2><p><small>ver. $version </small></p>";
 
-// cfr. https://twig.symfony.com/doc/3.x/api.html
-require_once '/usr/share/php/Twig/autoload.php';
-$loader = new \Twig\Loader\FilesystemLoader('templates');
-$twig = new \Twig\Environment($loader, ['debug' => true ]);
+  ?>
 
-?>
-
+<!-- BEGIN LAYERS -->
     <div class="container">
 
     <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image1',
-        'controls_num'  => 'controls1',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_BKO_1_001.png'
-      ]);
+      
+      require('lib/mersenne4.php'); 
+      $layer_types = layer_types();
+
+      // calculate layer images
+      require('lib/layer_images.php'); 
+      $images = array();
+      foreach ($layer_types as $t) {
+        array_push($images, layer_images($t));
+      }
+      
+      // calculate html/js layer code and controls
+      require('lib/template_functions.php'); 
+      $layers_html = layer_code($images);
+
+      echo $layers_html;
+
     ?>
-
-    <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image2',
-        'controls_num'  => 'controls2',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_BKM_1_002.png'
-      ]);
-    ?>
-
-    <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image3',
-        'controls_num'  => 'controls3',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_VB_1_017.png'
-      ]);
-    ?>
-
-    <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image4',
-        'controls_num'  => 'controls4',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_LW_1_0251.png'
-      ]);
-    ?>
-
-    <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image5',
-        'controls_num'  => 'controls5',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_HE_1_0042.png'
-      ]);
-    ?>
-
-    <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image6',
-        'controls_num'  => 'controls6',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_BO_1_0271.png'
-      ]);
-    ?>
-
-    <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image7',
-        'controls_num'  => 'controls7',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_LB_1_0393.png'
-      ]);
-    ?>
-
-    <?php
-      echo $twig->render('layer.twig', [
-        'image_num'     => 'image8',
-        'controls_num'  => 'controls8',
-        'image_file'    => '/demon/mersenne/mabius/mabius_O_RW_1_034.png'
-      ]);
-    ?>
-
-
-      <div class="image-container">
-        <img id="image8" src="/demon/mersenne/mabius/mabius_O_RW_1_034.png">
-        <div class="controls8">
-          <button onclick="reloadImage('image8')"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
-          <button onclick="changeSize('image8', 0.5)"><i class="fa fa-search-minus fa-2x" aria-hidden="true"></i></button>
-          <button onclick="changeSize('image8', 2)"><i class="fa fa-search-plus fa-2x" aria-hidden="true"></i></button>
-          <button onclick="changeColor('image8', 'grayscale')">Grayscale</button>
-          <button onclick="changeColor('image8', 'sepia')">Sepia</button>
-        </div>
-      </div>
-
 
     </div>
+<!-- END LAYERS -->
+
 
 <div>
   <p>
