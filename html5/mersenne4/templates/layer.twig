@@ -1,11 +1,15 @@
 
         <!-- BEGIN layer.twig -->
         <div class="image-container">
-            <img id="{{ image_num }}" src="{{ image_file }}">
+            <img id="{{ image_num }}" src="{{ image_file }}" style="z-index: {{ zindex }};">
             <div class="{{ controls_num }} controls_main">
+                <div class="layertype" title="{{ layername }}"><p>{{ layername }}</p> &nbsp; </div>
+                <div class="imagetmb" title="{{ image_file }}"><a href="{{ image_file }}" target="_blank"><img src="{{ image_file }}" style="width: 40px; height: 40px; "></a></div>
                 <button onclick="reloadImage('{{ image_num }}')"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
                 <button onclick="changeSize('{{ image_num }}', 0.5)"><i class="fa fa-search-minus fa-2x" aria-hidden="true"></i></button>
                 <button onclick="changeSize('{{ image_num }}', 2)"><i class="fa fa-search-plus fa-2x" aria-hidden="true"></i></button>
+                <button onclick="toggleDiv('{{ image_num }}')"><i class="fa fa-eraser fa-2x" aria-hidden="true"></i></button>
+                <button onclick="swapZIndexes('{{ image_num }}', '{{ image_down }}')"><i class="fa fa-arrows-v fa-2x" aria-hidden="true"></i></button>
                 <button onclick="changeColor('{{ image_num }}', 'grayscale')">Grayscale</button>
                 <button onclick="changeColor('{{ image_num }}', 'sepia')">Sepia</button>
             </div>
