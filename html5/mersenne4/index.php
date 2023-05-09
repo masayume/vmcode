@@ -9,24 +9,58 @@
   </head>
   <body>
 
+    <!-- PARSE PARAMETERS -->
+    <?php
+      global $params, $file_content, $json;
+      parse_str($_SERVER['QUERY_STRING'], $params);
+
+      require('config.php'); 
+      if ( isset($params['atype']) ) { $atype = $params['atype']; }
+    ?>
+
+    <!-- PRELIMINARY CONTROLS -->
+    <?php
+      $workdir = $basedir . $atype;
+      if (!is_dir($workdir)) {
+        print "<b>ERROR</b>: work directory defined in config.php doesn't exist: $workdir";
+        exit(1);
+      }
+      $workfile = $basedir . $atype . '/' . $atype . '.json';
+      if (!is_file($workfile)) {
+        print "<b>ERROR</b>: asset configuration file doesn't exist: $workfile";
+        exit(2);
+      } else {
+        $file_content = file_get_contents($workfile);
+      }
+      $json = json_decode($file_content , true);
+      if (is_null($json)) {
+        print "<b>ERROR</b>: this is not a valid JSON configuration file: $workfile";
+        exit(3);
+      }      
+
+    ?>
+
+    <!-- HEADER -->
     <h2> mersenne 4 </h2>
     <?php      
-      require('config.php'); 
-      echo "<div class='version'><small>ver. $version </small></div>";
+      echo "<div class='version'><small>ver: <b>$version</b> <br>directory: <b>$atype</b></small></div>";
     ?>
 
     <div class="container">
 
       <!-- BEGIN LAYERS -->
       <?php
-        
+
+//       print "<pre>"; print_r($_SERVER);
+//       var_dump($json);
+
         require('lib/mersenne4.php'); 
-        $layer_types = layer_types();
+        $layer_types = layer_types($json);
 
         // calculate layer images
         require('lib/layer_images.php'); 
         $images = array();
-        foreach ($layer_types as $t) {
+        foreach ($layer_types as $t => $val) {
           // array_push($images, layer_images($t));
           $images[$t] = layer_images($t);
         }

@@ -8,7 +8,7 @@
                 <button onclick="reloadImage('{{ image_num }}')"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
                 <button onclick="changeSize('{{ image_num }}', 0.5)"><i class="fa fa-search-minus fa-2x" aria-hidden="true"></i></button>
                 <button onclick="changeSize('{{ image_num }}', 2)"><i class="fa fa-search-plus fa-2x" aria-hidden="true"></i></button>
-                <button onclick="toggleDiv('{{ image_num }}')"><i class="fa fa-eraser fa-2x" aria-hidden="true"></i></button>
+                <button onclick="toggleDiv('{{ image_num }}', 'toggle{{ zindex }}')"><i id="toggle{{ zindex }}" class="fa fa-toggle-on fa-2x" aria-hidden="true"></i></button>
                 <button onclick="swapZIndexes('{{ image_num }}', '{{ image_down }}')"><i class="fa fa-arrows-v fa-2x" aria-hidden="true"></i></button>
                 <button onclick="changeColor('{{ image_num }}', 'grayscale')">Grayscale</button>
                 <button onclick="changeColor('{{ image_num }}', 'sepia')">Sepia</button>

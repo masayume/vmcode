@@ -13,12 +13,20 @@ function reloadImage(id) {
     img.style.filter = filter;
   }
 
-  function toggleDiv(id) {
+  function toggleDiv(id, tid) {
     var div = document.getElementById(id);
     if (div.style.display === 'none') {
         div.style.display = 'block';
     } else {
         div.style.display = 'none';
+    }
+    var toggle = document.getElementById(tid);
+    if (toggle.classList.contains("fa-toggle-on")) {
+        toggle.classList.remove("fa-toggle-on");
+        toggle.classList.add("fa-toggle-off");
+    } else {
+        toggle.classList.remove("fa-toggle-off");
+        toggle.classList.add("fa-toggle-on");
     }
   }
 
