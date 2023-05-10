@@ -1,17 +1,25 @@
 <?php
 
-function layer_images($type) {
+// $atype   = 'mabius'
+// $type    = 'BKO'
+// $subtype = 'D'
 
-  $layer_type = array( 
-    'BKO' => '/demon/mersenne/mabius/mabius_O_BKO_1_001.png', 
-    'BKM' => '/demon/mersenne/mabius/mabius_O_BKM_1_002.png', 
-    'VB'  => '/demon/mersenne/mabius/mabius_O_VB_1_017.png', 
-    'LW'  => '/demon/mersenne/mabius/mabius_O_LW_1_0251.png', 
-    'HE'  => '/demon/mersenne/mabius/mabius_O_HE_1_0042.png',
-    'BO'  => '/demon/mersenne/mabius/mabius_O_BO_1_0271.png',
-    'LB'  => '/demon/mersenne/mabius/mabius_O_LB_1_0393.png',
-    'RW'  => '/demon/mersenne/mabius/mabius_O_RW_1_034.png'
-  );
+function find_layer_images($atype, $subtype, $type, $workdir) { 
+  
+  // Find all files in the directory that contain the substring in their name
+  // NAME: /demon/mersenne/mabius/ mabius . _  .    D     . _  .  BKO  .  * 
 
-  return $layer_type[$type];
+  $files = glob($workdir . '/' . $atype . '_' . $subtype . '_' . $type . '*');
+
+  // print "workdir: " . $workdir; print_r($files); exit(1);
+
+  // Select a random file from the list
+  $rndFile = $files[array_rand($files)];
+
+  // $randomfile = preg_replace('/\/var\//', '', $randomfile);  
+  $rndFile = str_replace('/var/www/html', '', $rndFile);
+  
+  // return $layer_type[$type];
+  return $rndFile;
+
 }

@@ -1,10 +1,16 @@
 TODO:
+    mostrare atype, type e subtype (decodifica del significato di O, D ecc.)
     verificare il contenuto di atype.json
+    aggiungere le modifiche direzionali per layer
     importare il descrittore JSON (mabius4js.json, template4js.json)
     salvare l'immagine
 
+versione 0.5
+
+
 versione 0.4
-    implementare le funzioni layer_images($type) in lib/layer_images.php
+    implementate le funzioni layer_images($type) in lib/layer_images.php
+    aggiunte le icone direzionali per muovere i layer
 
 versione 0.3
     gestione dei parametri della querystring: atype=mabius

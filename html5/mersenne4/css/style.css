@@ -40,12 +40,14 @@
     width: 40px;
     height: 40px;
     font-weight: 900;
+    margin-right: 1px;
 }
 
 .imagetmb {
     vertical-align: middle;   
     width: 40px;
     height: 40px;
+    margin-right: 1px;
 }
 
 .controls1 {
@@ -170,4 +172,8 @@
 
 .controls button {
     margin-right: 10px;
+}
+
+button {
+    margin-right: 1px;
 }

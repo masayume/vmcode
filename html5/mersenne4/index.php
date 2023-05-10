@@ -11,11 +11,12 @@
 
     <!-- PARSE PARAMETERS -->
     <?php
-      global $params, $file_content, $json;
+      global $params, $file_content, $json, $workdir, $atype, $subtype;
       parse_str($_SERVER['QUERY_STRING'], $params);
 
       require('config.php'); 
       if ( isset($params['atype']) ) { $atype = $params['atype']; }
+      if ( isset($params['subtype']) ) { $subtype = $params['subtype']; }
     ?>
 
     <!-- PRELIMINARY CONTROLS -->
@@ -61,8 +62,7 @@
         require('lib/layer_images.php'); 
         $images = array();
         foreach ($layer_types as $t => $val) {
-          // array_push($images, layer_images($t));
-          $images[$t] = layer_images($t);
+          $images[$t] = find_layer_images($atype, $subtype, $t, $workdir);
         }
         
         // calculate html/js layer code and controls
