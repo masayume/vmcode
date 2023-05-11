@@ -26,7 +26,9 @@ function layer_code($images) {
             'zindex'        => $count,
             'controls_num'  => $controlnum,
             'layername'     => $layername,
-            'image_file'    => $img
+            'image_file'    => $img,
+            'atype'         => $atype,
+            'host_dir'      => '/home/masayume/DATA/E/Temp'
         ]);
 
     }

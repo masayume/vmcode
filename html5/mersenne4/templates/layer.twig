@@ -10,11 +10,14 @@
                 <button onclick="changeSize('{{ image_num }}', 2)"><i class="fa fa-search-plus fa-2x" aria-hidden="true"></i></button>
                 <button onclick="toggleDiv('{{ image_num }}', 'toggle{{ zindex }}')"><i id="toggle{{ zindex }}" class="fa fa-toggle-on fa-2x" aria-hidden="true"></i></button>
                 <button onclick="swapZIndexes('{{ image_num }}', '{{ image_down }}')"><i class="fa fa-arrows-v fa-2x" aria-hidden="true"></i></button>
-                <button onclick="moveLeft('{{ image_num }}', 'grayscale')"><i id="toggle{{ zindex }}" class="fa fa-angle-left fa-2x" aria-hidden="true"></i></button>
-                <button onclick="moveUp('{{ image_num }}', 'grayscale')"><i id="toggle{{ zindex }}" class="fa fa-angle-up fa-2x" aria-hidden="true"></i></button>
-                <button onclick="moveDown('{{ image_num }}', 'grayscale')"><i id="toggle{{ zindex }}" class="fa fa-angle-down fa-2x" aria-hidden="true"></i></button>
-                <button onclick="moveRight('{{ image_num }}', 'grayscale')"><i id="toggle{{ zindex }}" class="fa fa-angle-right fa-2x" aria-hidden="true"></i></button>
+                <button onclick="moveLeft('{{ image_num }}', 'grayscale')"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></button>
+                <button onclick="moveUp('{{ image_num }}', 'grayscale')"><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></button>
+                <button onclick="moveDown('{{ image_num }}', 'grayscale')"><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i></button>
+                <button onclick="moveRight('{{ image_num }}', 'grayscale')"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></button>
+                <button onclick="increaseOpacity('{{ image_num }}', 'grayscale')"><i class="fa fa-sun-o fa-2x" aria-hidden="true"></i></button>
+                <button onclick="decreaseOpacity('{{ image_num }}', 'grayscale')"><i class="fa fa-moon-o fa-2x" aria-hidden="true"></i></button>
                 <button onclick="changeColor('{{ image_num }}', 'sepia')">Sepia</button>
+                <button onclick="showMessage('aseprite {{ host_dir }}{{ atype }}{{ image_file }}')"><i class="fa fa-pencil fa-2x" aria-hidden="true"></i></button>
             </div>
         </div>
         <!-- END layer.twig -->

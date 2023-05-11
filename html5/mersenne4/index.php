@@ -11,41 +11,43 @@
 
     <!-- PARSE PARAMETERS -->
     <?php
-      global $params, $file_content, $json, $workdir, $atype, $subtype;
+      global $params, $file_content, $json, $workdir, $atype, $subtype, $jstruct;
       parse_str($_SERVER['QUERY_STRING'], $params);
 
       require('config.php'); 
       if ( isset($params['atype']) ) { $atype = $params['atype']; }
+      if ( isset($params['jstruct']) ) { $jstruct = $params['jstruct']; }
       if ( isset($params['subtype']) ) { $subtype = $params['subtype']; }
+      if (!$subtype) { $subtype = "A"; }
     ?>
 
     <!-- PRELIMINARY CONTROLS -->
     <?php
+
+      require('lib/controls.php'); 
+
       $workdir = $basedir . $atype;
-      if (!is_dir($workdir)) {
-        print "<b>ERROR</b>: work directory defined in config.php doesn't exist: $workdir";
-        exit(1);
-      }
+      check_workdir($workdir);
+
       $workfile = $basedir . $atype . '/' . $atype . '.json';
-      if (!is_file($workfile)) {
-        print "<b>ERROR</b>: asset configuration file doesn't exist: $workfile";
-        exit(2);
-      } else {
-        $file_content = file_get_contents($workfile);
-      }
+      $file_content = check_workfile($workfile);
+
       $json = json_decode($file_content , true);
-      if (is_null($json)) {
-        print "<b>ERROR</b>: this is not a valid JSON configuration file: $workfile";
-        exit(3);
-      }      
+      check_json($json);
 
     ?>
 
-    <!-- HEADER -->
+
+    <!-- BEGIN HEADER -->
+    <div class="mersenne">
     <h2> mersenne 4 </h2>
+    </div>
+
     <?php      
       echo "<div class='version'><small>ver: <b>$version</b> <br>directory: <b>$atype</b></small></div>";
     ?>
+    <!-- END HEADER -->
+
 
     <div class="container">
 
@@ -56,7 +58,12 @@
 //       var_dump($json);
 
         require('lib/mersenne4.php'); 
-        $layer_types = layer_types($json);
+        $layer_types = Array();
+        if ($jstruct){
+          $layer_types = layer_types($json, $jstruct);
+        } else {
+          $layer_types = layer_types($json);
+        }
 
         // calculate layer images
         require('lib/layer_images.php'); 
@@ -76,6 +83,10 @@
 
 </div>
 
+<div class="messages">
+  <textarea id="messages">
+  </textarea>
+</div>
 
 <div>
   <p>
@@ -85,6 +96,7 @@
   </p>
 </div>
 
+<!-- JAVASCRIPT FUNCTIONS -->
 <script src="js/functions.js"></script>
 
   </body>

@@ -37,3 +37,52 @@ function reloadImage(id) {
     div1.style.zIndex = div2.style.zIndex;
     div2.style.zIndex = tempZIndex;
   }
+
+  function moveUp(id) {
+    var div = document.getElementById(id);
+    var currentPosition = parseInt(div.style.top) || 0;
+    var newPosition = currentPosition - 2;
+    div.style.top = newPosition + "px";
+  }
+
+  function moveDown(id) {
+    var div = document.getElementById(id);
+    var currentPosition = parseInt(div.style.top) || 0;
+    var newPosition = currentPosition + 2;
+    div.style.top = newPosition + "px";
+  }
+
+  function moveLeft(id) {
+    var div = document.getElementById(id);
+    var currentPosition = parseInt(div.style.left) || 0;
+    var newPosition = currentPosition - 2;
+    div.style.left = newPosition + "px";
+  }
+
+  function moveRight(id) {
+    var div = document.getElementById(id);
+    var currentPosition = parseInt(div.style.left) || 0;
+    var newPosition = currentPosition + 2;
+    div.style.left = newPosition + "px";
+  }
+
+  function decreaseOpacity(id) {
+    var div = document.getElementById(id);
+    var currentOpacity = parseFloat(div.style.opacity) || 1.0;
+    var newOpacity = currentOpacity - 0.1;
+    div.style.opacity = newOpacity;
+  }
+
+  function increaseOpacity(id) {
+    var div = document.getElementById(id);
+    var currentOpacity = parseFloat(div.style.opacity) || 1.0;
+    var newOpacity = currentOpacity + 0.1;
+    div.style.opacity = newOpacity;
+  }
+
+  function showMessage(message) {
+    var textarea = document.getElementById("messages");
+    textarea.value = "";
+    textarea.value = message;
+  }
+  

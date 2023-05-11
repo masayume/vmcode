@@ -1,11 +1,17 @@
 <?php
 
-function layer_types($json) {
+function layer_types($json, $jstruct = "") {
 
-//     $layer_types = array('BKO' ,'BKM' ,'VB' ,'LW' ,'HE' ,'BO' ,'LB' ,'RW');
-    $layer_types = $json["layers"];
+    $layer_types = Array();
 
-//    print "<pre>"; var_dump($json["layers"]);
+    if ($jstruct) {
+        $layer_types = $json["structs"][$jstruct]["layers"];
+    } else {
+        $layer_types = $json["layers"];
+    }
+
+
+    // print "<pre>"; var_dump($json["structs"]); exit(0);
 
     return $layer_types; 
 }

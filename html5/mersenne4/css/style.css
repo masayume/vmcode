@@ -6,12 +6,32 @@
     border: 1px solid #ccc;
 }
 
+.mersenne {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    height: 20px; 
+    margin: 10px;
+    text-align: left;
+}
+
 .version {
     position: absolute;
     top: 0px;
     right: 10px;
     margin: 20px;
+    margin-bottom: 2px;
     text-align: right;
+}
+
+.messages {
+    float: right; 
+}
+
+textarea {
+    width: 800px;
+    height: 100px;
+    border: 1px solid #ccc;
 }
 
 .image-container {

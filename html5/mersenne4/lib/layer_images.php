@@ -11,7 +11,11 @@ function find_layer_images($atype, $subtype, $type, $workdir) {
 
   $files = glob($workdir . '/' . $atype . '_' . $subtype . '_' . $type . '*');
 
-  // print "workdir: " . $workdir; print_r($files); exit(1);
+  if (empty($files)) {
+    print "workdir: " . $workdir . "<br><pre>"; print_r($files);
+    print "Couldn't retrieve any image from: " . $workdir . '/' . $atype . '_' . $subtype . '_' . $type . '*';
+    exit(1);
+  }
 
   // Select a random file from the list
   $rndFile = $files[array_rand($files)];

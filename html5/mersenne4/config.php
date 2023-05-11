@@ -1,6 +1,8 @@
 <?php
 
-$version    = '0.4';
+$version    = '0.5';
+
+global $hostdir;
 
 $atype      = 'uchida';     // default "atype" directory in: /home/masayume/DATA/E/Temp/demon/mersenne/
 
