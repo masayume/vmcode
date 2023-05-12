@@ -146,7 +146,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
           <a href="https://mdigi.tools/color-extractor/?utm_source=pocket_mylist">xtractor</a>
           <a href="https://palettegenerator.com/?utm_source=pocket_mylist">genertr</a></li>
       <li><a href="http://www.cssdrive.com/imagepalette/">cssdrive palettegen</a></li>
-      <li><a href="https://codepen.io/meodai/pen/GRyjQoZ">color scaler</a></li>
+      <li><a href="https://meodai.github.io/poline/"><b>Poline</b></a>
+          <a href="https://codepen.io/meodai/pen/GRyjQoZ">color scaler</a></li>
       <li><a href="https://sites.google.com/view/rejected-palettes/palette-list">rejected palettes</a></li>
     </ul>
 
