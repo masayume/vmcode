@@ -183,6 +183,7 @@
 
         <h4>WEB TOOLS</h4>
         <ul>
+          <li><a href="https://onlinehtmleditor.dev/"><b>RICH TEXT EDITOR</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
               <a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
