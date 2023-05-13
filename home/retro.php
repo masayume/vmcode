@@ -52,8 +52,8 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 
 			<p>	
 				<a href='/retro/pengo/pengo.html'>Pengo 1982</a> - <a href='/retro/pengo/pengo-ui.html'>Pengo UI</a>
-				<br><a href='/retro/bombjack/bombjack.html'>Bombjack 1984</a> - <a href='/retro/bombjack/bombjack-ui.html'>Bombjack UI</a>
-				<br><a href='https://floooh.github.io/tiny8bit'>Tiny Emus</a> 
+				<a href='/retro/bombjack/bombjack.html'>Bombjack 1984</a> - <a href='/retro/bombjack/bombjack-ui.html'>Bombjack UI</a>
+				<a href='https://floooh.github.io/tiny8bit'>Tiny Emus</a> 
 			</p>
 
 			<header>
@@ -69,6 +69,13 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 			</header>
 			<p>	
 				<a href='https://www.masayume.it/blog/content/retro-riviste'>retro riviste ★★★</a> 
+			</p>
+
+			<header>
+				<h1>Sources</h1>
+			</header>
+			<p>	
+				<a href='https://twitter.com/timeextension64'>Time Extension★</a>
 			</p>
 
 			<header>
