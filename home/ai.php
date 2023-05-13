@@ -109,7 +109,8 @@
 
     <h4>COLLECTIONS</h4>
       <ul>
-        <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io ★</b></a> </li>
+        <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io★</b></a> 
+             <a href="https://supertools.therundown.ai/"><b>stools ★</b></a> </li>
         <li> <a href="https://www.futuretools.io/">futuretools</a> 
            <a href="https://aitools.fyi/">aitools</a> 
            <a href="https://aidepot.co/">aidepot</a> </li>

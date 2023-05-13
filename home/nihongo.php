@@ -181,12 +181,13 @@
 
     <h4>KANJI</h4>
     <ul>
-      <li> <a href="https://kanji.club/?s=09"><b>kanji club</b></a> </li>
-      <li> <a href="https://app.kanjialive.com/search">kanji alive</a> </li>
-      <li> <a href="https://www.nihongomaster.com/dictionary/kanji#p=1">kanji master</a> </li>
-      <li> <a href="https://kanjialive.com/214-traditional-kanji-radicals/">kanji radicals</a> </li>
-      <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a> <a href="/HTML5/kanjisvg/">Kanji SVG</a> </li>
-      <li> <a href="https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php">my kanji page</a> </li>
+      <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php"><b>random kanji cards</b></a> 
+           <a href="https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php">my</a> </li>
+      <li> <a href="https://kanji.club/?s=09"><b>kanji club</b></a> 
+           <a href="https://app.kanjialive.com/search">kanji alive</a> </li>
+      <li> <a href="https://www.nihongomaster.com/dictionary/kanji#p=1">kanji master</a> 
+           <a href="https://kanjialive.com/214-traditional-kanji-radicals/"><b>Radicals</b></a> </li>
+      <li> <a href="/HTML5/kanjisvg/">Kanji SVG</a> </li>
       <li> <a href="https://colors.japanesewithanime.com/japanese-colors/">all colors</a></li>
     </ul>
 
@@ -318,6 +319,47 @@
 
   </div>
 
+
+
+  <div class="_exa">
+    <h4>4500 phrases</h4>
+    <ul>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-01-1-500.pdf">01-1-500</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-02-501-1000.pdf">02-501-1000</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-03-1001-1500.pdf">03-1001-1500</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-04-1501-2000.pdf">04-1501-2000</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-05-2001-2500.pdf">05-2001-2500</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-06-2501-3000.pdf">06-2501-3000</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-07-3001-3500.pdf">07-3001-3500</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-08-3501-4000.pdf">08-3501-4000</a> </li>
+      <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-09-4001-4500.pdf">09-4001-4500</a> </li>
+    </ul>
+  </div>
+
+  <div class="_exa">
+    <h4>...</h4>
+    <ul>
+    </ul>
+  </div>
+
+  <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+      $ai_dirs    = array('inspire/@JAPAN/kiyohiko_azuma/' );
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" style=\"width: 420px; background-color:#ccc; \" title=\"$imagefile\">";
+      ?>
+
+  </div>
+
+
+
+
+  
 </div> <!-- container -->
 
 <!-- FOOTER -->
