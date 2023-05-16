@@ -420,7 +420,7 @@
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/');
+      $ai_dirs    = array('inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);

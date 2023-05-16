@@ -419,6 +419,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>TEXTGEN</h4>
       <ul>
+        <li> <a href="https://lettering.org/lettering-generator/" target="_blank"><b>Calligraphy Lettering ★</b></a> </li>
         <li> <a href="https://talktotransformer.com/" target="_blank"><b>GPT-2 online &nbsp; ★</b></a> </li>
         <li> <a href="https://github.com/minimaxir/textgenrnn" target="_blank"><b>textgenrnn</b></a> <a href="https://colab.research.google.com/drive/1e2yJMxW6co10yh_9wXZp5UoijsXSsiMi">CO</a> <a href="https://www.youtube.com/watch?v=RW7mP6BfZuY">V ★</a> </li> 
       </ul>      
