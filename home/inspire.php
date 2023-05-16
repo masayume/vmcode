@@ -502,8 +502,11 @@
 
     <h4>WEB TOOLS</h4> <!-- also in TOOLS -->
       <ul>
+        <li><a href="https://stackblitz.com/"><b>stackblitz★</b></a></li>
+        <li><a href="https://onlinehtmleditor.dev/"><b>htmleditor★</b></a></li>
         <li><a href="http://www.colorzilla.com/gradient-editor/"><b>gradient</b></a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
-        <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a></li>
+        <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a>
+	          <a href="http://jupyter.org/"><b>jupyter</b></a></li>
         <li><a href="https://webgems.io"><b>webgems</b></a>
             <a href="http://webtoolkitonline.com">webtools</a></li>
         <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
@@ -511,7 +514,6 @@
         <li><a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
 	      <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
 	      <li><a href="/HTML5/dagre/">dagre</a> - <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a></li>
-	      <li><a href="http://jupyter.org/">jupyter</a></li>
         <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
       </ul>
   </div>
