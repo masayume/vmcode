@@ -111,17 +111,10 @@
       <ul>
         <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io★</b></a> 
              <a href="https://supertools.therundown.ai/"><b>stools ★</b></a> </li>
+        <li> <a href="https://allthingsai.com/?ref=masayume.it">allthingsai</a> </li>
         <li> <a href="https://www.futuretools.io/">futuretools</a> 
            <a href="https://aitools.fyi/">aitools</a> 
            <a href="https://aidepot.co/">aidepot</a> </li>
-      </ul>
-
-    <h4>HASHTAGS</h4>
-      <ul>
-        <li> <a href="https://twitter.com/hashtag/synthography" target="_blank"><b>#synthography</b></a> </li> 
-        <li> <a href="https://twitter.com/hashtag/stablediffusionart"><b>#stablediffusion★</b></a></li>  
-        <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a> </li>
-        <li> <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a> </li>  
       </ul>
       
   </div>
@@ -453,9 +446,19 @@
         <li> <a href="https://twitter.com/EErratica"><b>tw: EErratica ★</b></a> </li>
         <li> <a href="https://github.com/megvii-research/NAFNet"><b>Denoise/Deblur ★</b></a> </li>
       </ul>
-</div>
+  </div>
 
-  
+
+  <div class="_exa">
+    <h4>HASHTAGS</h4>
+      <ul>
+        <li> <a href="https://twitter.com/hashtag/synthography" target="_blank"><b>#synthography</b></a> </li> 
+        <li> <a href="https://twitter.com/hashtag/stablediffusionart"><b>#stablediffusion★</b></a></li>  
+        <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a> </li>
+        <li> <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a> </li>  
+      </ul>
+  </div>
+
   
 
 </div> <!-- container -->

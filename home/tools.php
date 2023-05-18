@@ -23,12 +23,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   .container{ text-align:left; border:1px solid #666; }
   ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
-  ._exa{ display:inline-block; margin:5px 6px; padding:5px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
+  ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
 
 </head>
 <body>
 <div class="container-fluid">
+
+  <div class="_exa">
+  
+  <h4>WEB TOOLS</h4> <!-- also in INSPIRE -->
+  <ul>
+    <li><a href="https://onlinehtmleditor.dev/"><b>htmleditor★</b></a>
+        <a href="https://numbr.dev/?ref=masayume.it"><b>numbr★</b></a></li>
+    <li><a href="https://stackblitz.com/"><b>stackblitz★</b></a></li>
+    <li><a href="http://www.colorzilla.com/gradient-editor/"><b>gradient</b></a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
+    <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a>
+        <a href="http://jupyter.org/"><b>jupyter</b></a></li>
+    <li><a href="https://webgems.io"><b>webgems</b></a>
+        <a href="http://webtoolkitonline.com">webtools</a></li>
+    <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
+    <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
+    <li><a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
+    <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
+    <li><a href="/HTML5/dagre/">dagre</a> - <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a></li>
+    <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
+  </ul>
+
+  </div>  
+
 
   <div class="_exa">
     <!-- php_image_show -->
@@ -216,10 +239,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
         <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
         <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a>
-            <a href=""><b>magicavoxel WIN</b></a></li>
+             <a href=""><b>magicavoxel</b></a></li>
         <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
-        <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu 2D>3D★</a>
-            <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
+        <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu2D>3D★</a>
+             <a href="https://www.masayume.it/blog/content/blockbench">blckbnch★</a> </li>  
       </ul>
 
       
@@ -478,26 +501,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
 </div>
 
-  <div class="_exa">
- 
-        <h4>WEB TOOLS</h4> <!-- also in INSPIRE -->
-        <ul>
-          <li><a href="https://stackblitz.com/"><b>stackblitz★</b></a></li>
-          <li><a href="https://onlinehtmleditor.dev/"><b>htmleditor★</b></a></li>
-          <li><a href="http://www.colorzilla.com/gradient-editor/"><b>gradient</b></a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
-          <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a>
-	            <a href="http://jupyter.org/"><b>jupyter</b></a></li>
-          <li><a href="https://webgems.io"><b>webgems</b></a>
-              <a href="http://webtoolkitonline.com">webtools</a></li>
-          <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
-          <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
-          <li><a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
-	        <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
-	        <li><a href="/HTML5/dagre/">dagre</a> - <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a></li>
-          <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
-        </ul>
-
-  </div>  
 
   <div class="_exa">
 
