@@ -147,18 +147,27 @@
 
 <div class="_exa">
 
+  <h4>ART</h4>
+    <ul>
+      <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> </li>
+    </ul>
+
+  <h4>ISO</h4>
+    <ul>
+      <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
+           <a href="/html5/isotope/isotope-books/"><b>books</b></a> 
+           <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
+      <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
+           <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li>
+      <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelart WF</b></a> </li>
+      <li> <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
+      <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> </li>
+      <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
+      <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
+    </ul>
+
   <h4>WEEKLY todo</h4>
   <ul>
-    <li> <a href="/html5/isotope/isotope-projects/"><b>ISO projects</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-books/"><b>ISO books</b></a> 
-         <a href="/html5/isotope/isotope-AI/"><b>ISO AI</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-boardgame/"><b>ISO boardgames</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-unitytuts/"><b>ISO unity tuts</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-WF-PX/"><b>ISO pixelart WF</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-WF/"><b>ISO workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-    <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
-    <li> <a href="/html5/isotope/isotope-VGinfo/"><b>ISO VG by Year</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
     <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a> </li>
   </ul>
 
@@ -173,9 +182,6 @@
          <a href="https://netflix.com">Netflix ★</a> </li>
     <li> <a href="netflix.htm">netflix codes</a> </li>
   </ul>
-
-    <!-- <li> <a href="/gamedesignerpills/index.php">game designer pills</a> </li> -->
-  </ul> 
 
 </div>
 
