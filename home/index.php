@@ -150,6 +150,7 @@
   <h4>ART</h4>
     <ul>
       <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> </li>
+      <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
     </ul>
 
   <h4>ISO</h4>

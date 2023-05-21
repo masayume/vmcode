@@ -188,6 +188,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/ref-TEXT'             // 135  
                   , '/inspire/@pixelart/src-MIXED'            // 136
                   , '/inspire/@CARTOONS/Magritte'
+                  , '/inspire/@CARTOONS/myDixit'
 
                 );
 
