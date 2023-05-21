@@ -181,7 +181,7 @@
 
     <h4>KANJI</h4>
     <ul>
-      <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php"><b>random kanji cards</b></a> 
+      <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php"><b>RND.KANJI.CARDS</b></a> 
            <a href="https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php">my</a> </li>
       <li> <a href="https://kanji.club/?s=09"><b>kanji club</b></a> 
            <a href="https://app.kanjialive.com/search">kanji alive</a> </li>
