@@ -122,6 +122,7 @@
   <div class="_exa">
     <h4>GRAPH AI TOOLS</h4>
     <ul>
+      <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio ★</b></a> 
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
@@ -165,14 +166,13 @@
             <a href="https://twitter.com/inigma_a/media">AInigma</a>
             <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
       <li>  <a href="https://twitter.com/noir_random/media">noirndom</a>
-            <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
-      <li>  <a href="https://twitter.com/magnasoma/media">magnasoma</a>
-            <a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a> </li>
+            <a href="https://twitter.com/magnasoma/media">magnasoma</a> </li>
     </ul>
 
-    <!--
-              <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a>
-  -->
+    <!--  <a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a>  -->
+    <!--  <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a>  -->
+    <!--  <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a> -->
+
 
   </div>
 
@@ -376,6 +376,12 @@
 
 
   <div class="_exa">
+    <h4>PROGRAMMING</h4>
+      <ul>
+        <li> <a href="https://huggingface.co/spaces/bigcode/bigcode-playground"><b>🤗starcoderBig★</b></a> </li>
+        <li> <a href="https://huggingface.co/spaces/HuggingFaceH4/starchat-playground?utm_source=masayume.it">🤗starcoder★</a> </li>
+      </ul>
+
     <h4>TUTORIALS</h4>
       <ul>
         <li> <a href="https://aituts.com/category/niji-journey/"><b>aituts.com ★</b></a> </li>
