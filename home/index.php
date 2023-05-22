@@ -149,7 +149,8 @@
 
   <h4>ART</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> </li>
+      <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> 
+           <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
     </ul>
 
