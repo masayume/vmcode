@@ -76,21 +76,20 @@
       "url": "https://www.reddit.com/r/StableDiffusion/comments/1311xvs/kyoto_forest/",
       "url_WF": "pages/001-lyriel.htm#KyotoForest"
     },
-    "Recompile": {
-      "name": "AI#6",
-      "number": "52",
+    "StyleVideos": {
+      "name": "Style Videos",
+      "number": "60",
       "data_cat": "player",
-      "class": ["player", "arcade", "videogame", "style"],
-      "mechanics": ["Action Point Allowance System", "Dice Rolling", "Secret Unit Deployment", "Variable Player Powers"],
+      "class": ["player", "workflow", "animation"],
+      "mechanics": ["grid"],
       "theme": ["Fantasy"],
-      "img": "052.gif",
-      "designer": "Phi Dinh",
+      "img": "060.webp",
+      "designer": "Nejc Susec",
       "status": "todo", 
-      "year": 2021,
+      "year": 2023,
       "length": 60,
-      "url": "https://www.gamasutra.com/blogs/PhiDinh/20180523/318444/Art_Design_Deep_Dive_Rendering_the_player_as_a_form_of_pure_energy_in_Recompile.php",
-      "url2": "https://store.steampowered.com/app/986310/Recompile/",
-      "url3": "https://www.youtube.com/watch?v=PVmDgrr75nE"
+      "url": "https://nejcsusec.beehiiv.com/p/stylizing-videos-ai",
+      "url_WF": "pages/001-lyriel.htm#StyleVideos"
     },
     "KanjiGame": {
       "name": "AI#7",
