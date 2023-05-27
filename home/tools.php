@@ -329,10 +329,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <div class="_exa">
 
-  <h4>Sounds</h4> <!-- also in UNITY -->
+  <h4>Sounds</h4>
   <ul>
-    <li><a href="https://audioalter.com/?ref=masayume.it"><b>audioalter ★</b></a> </a></li>
-    <li><a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
+    <li><a href="https://archive.org/details/usc-sound-effect-archive?&sort=-week&page=3"><b>USC foley ★★</b></a> 
+        <a href="https://www.masayume.it/blog9/web/content/foley-sse-sound-library"><b>my</b></a> </li>
+    <li><a href="https://audioalter.com/?ref=masayume.it"><b>audioalter ★</b></a> </li>
+    <li><a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </li>
     <li><a href="https://www.masayume.it/blog/content/essential-game-audio-toolkit"><b>Essential Tools</b></a></li>
     <li><a href="https://github.com/masayume/DigitalGarden/tree/main/resources/foley"><b>DigiGarden ★★</b></a></li>
     <li><a href="/home/masayume/DATA/E/LOCALE/sonniss/sounds.txt"><b>SONNISS ★★</b></a></li>
