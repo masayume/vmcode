@@ -110,6 +110,7 @@
     <h4>COLLECTIONS</h4>
       <ul>
         <li> <a href="https://allthingsai.com/?ref=masayume.it"><b>ilib★</b></a> 
+             <a href="https://www.masayume.it/blog9/web/content/ai-list-services-tools">my</a> 
              <a href="https://allthingsai.com/?ref=masayume.it">allthingsai</a> </li>
         <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io★</b></a> 
              <a href="https://supertools.therundown.ai/"><b>stools★</b></a> </li>
