@@ -110,7 +110,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/monsters'
                   , '/inspire/@CARTOONS/nagato'
                   , '/inspire/@CARTOONS/NAGEL'
-                  , '/inspire/@CARTOONS/NENDOROID'
+                  , '/inspire/@CARTOONS/NENDOROID'   // 67
                   , '/inspire/@CARTOONS/@NIEMANN'
                   , '/inspire/@CARTOONS/NOndoroid'
                   , '/inspire/@CARTOONS/Oglaf'       // 70

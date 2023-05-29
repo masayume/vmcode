@@ -23,7 +23,7 @@
   .container{ text-align:left; border:1px solid #666; }
   ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
-  ._exa{ display:inline-block; margin:5px 6px; padding:5px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
+  ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
 <!-- Matomo -->
 <script type="text/javascript">
@@ -187,6 +187,7 @@
           <li> <a href="/HTML5/holden/index.php?art1=130&art2=130" target="_blank"><b>Think before Drawing ★</b></a></li>
           <li> <a href="/HTML5/holden/index.php?art1=132&art2=132" target="_blank"><b>TEXTURES ★</b></a></li>
           <li> <a href="/HTML5/holden/index.php?art1=133&art2=133" target="_blank"><b>Texturing ★</b></a></li>
+          <li> <a href="/HTML5/holden/index.php?art1=67&art2=67" target="_blank"><b>Nendoroid ★</b></a></li>
         </ul>
       </p>
   </details>
