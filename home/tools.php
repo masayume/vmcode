@@ -43,13 +43,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <li><a href="https://webgems.io"><b>webgems</b></a>
         <a href="http://webtoolkitonline.com">webtools</a></li>
     <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
-    <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
-    <li><a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
     <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
     <li><a href="/HTML5/dagre/">dagre</a> - <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a></li>
     <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
   </ul>
 
+  <h4>FONTS</h4>  <!-- also in PIXELART -->
+  <ul>
+    <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
+    <li> <a href="/HTML5/holden/index.php?art1=135&art2=135"><b>ref-TEXT (fonts) ■</b></a> </li>
+    <li> <a href="/HTML5/holden/index.php?art1=135&art2=135"><b>local pixel fonts ■</b></a> </li>
+    <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
+    <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
+    <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> </li>
+    <li> <a href="https://fontawesome.com/icons?d=gallery"><b>fontawesome</b></a></li>
+    <li> <a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
+    <li> <a href="https://fontstruct.com/fontstructor/edit"><b>Fontstruct ■</b></a>
+         <a href="https://www.masayume.it/blog9/web/content/splintered-pixel-fonts-fontstruct"><b>my</b></a></li>
+  </ul>
   </div>  
 
 
@@ -493,7 +504,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <li><a href="/HTML5/step-anim/">sprite anim</a> by <a href="http://codepen.io/simurai/">simurai</a></li>
     <li><a href="/HTML5/filmator"><b>filmator</b></a></li>
     <li><a href="/HTML5/random-words/"><b>random words</b></a></li>
-    <li><a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">online</a></li>
     <li><a href="/html5/pixelize-canvas.htm">pixelize canvas</a></li>
     <li><a href="/html5/interactive-canvas.htm">interactive canvas</a></li>
     <li><a >C64 shader:</a> <a href="/c64/C64Shader.htm" title="Cyberpunk 2077">1</a>, <a href="/c64/C64Shader2.htm" title="Gangnam Style">2</a>, <a href="/c64/C64Shader3.htm" title="ATARI TEMPEST">3</a>, <a href="/c64/C64Shader4.htm" title="DRAGON's LAIR">4</a>, <a href="/c64/C64Shader5.htm"  title="BAYONETTA">5</a>, <a href="/c64/C64Shader6.htm"  title="Ju Ju">6</a></li>
