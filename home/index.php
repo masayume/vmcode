@@ -55,8 +55,9 @@
              <a href="nihongo.php" target="_blank"><b>NIHONGO</b></a>
              <a href="ai.php" target="_blank"><b>AI</b></a> </li>
         <li> <a href="retro.php" target="_blank"><b>RETRO</b></a>
+             <a href="linux.php" target="_blank"><b>LINUX</b></a> </li>
+        <li> <a href="unity.php" target="_blank">UNITY</a> 
              <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
-        <li> <a href="unity.php" target="_blank">UNITY</a> </li>
         </ul>
     <h4>Solomon's World</h4>
 	<ul>
@@ -189,7 +190,7 @@
 
   <div class="_exa">
 
-        <h4>WEB TOOLS</h4>
+        <h4>WEB TOOLS</h4> <!-- ALSO IN linux.php -->
         <ul>
           <li><a href="https://onlinehtmleditor.dev/"><b>RICH TEXT EDITOR</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
