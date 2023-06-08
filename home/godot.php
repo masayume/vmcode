@@ -248,11 +248,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     <h4>SHADERS</h4>
           <ul>
+            <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
             <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
             <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://editor.thebookofshaders.com/">editor</a> </li>
             <li> <a href="https://github.com/mnmxmx/toon-shading">js toon shading</a></li> 
             <li> <a href="https://www.shadertoy.com/results?query=tag%3Dcrosshatch">shadertoy xhatch</a></li> 
             <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">crosshatching</a></li> 
+            <li> <a href="http://dev.thi.ng/gradients/">Color palette webapp</a></li> 
+            <li> <a href="https://graphtoy.com/">graphtoy</a></li> 
 
           </ul>
 
