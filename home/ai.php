@@ -130,10 +130,11 @@
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
-      <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdrop SD ★</b></a> 
+      <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
+            <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
+      <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
+            <a href="https://deepfloyd.ai/"><b>site</b></a>  
             <a href="https://app.prodia.com/"><b>Prodia</b></a>  </li>
-      <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>DeepFloyd★</b></a> 
-            <a href="https://deepfloyd.ai/"><b>site</b></a>  </li>
       <li>  <a href="https://stablediffusionweb.com/"><b>StableDIFF</b></a>
             <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Colab★</b></a> </li>
       <li>  <a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a>
