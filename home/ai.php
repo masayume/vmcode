@@ -218,7 +218,8 @@
            <a href="https://huggingface.co/spaces/anzorq/finetuned_diffusion">finetuned diff</a> </li>
       <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrmpt</a> 
            <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrmpt</a> </li>
-      <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> </li>
+      <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> 
+           <a href="https://huggingface.co/spaces/facebook/MusicGen">MusicGen</a> </li>
       <li> <a href="https://huggingface.co/spaces/Fantasy-Studio/Paint-by-Example">Paint-by-Example</a> </li>
       <li> <a href="URL">SPACE #3</a> </li>
     </ul>
