@@ -181,6 +181,7 @@
 
     <h4>KANJI</h4>
     <ul>
+      <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>kotoba ★</b></a> </li>
       <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php"><b>RND.KANJI.CARDS</b></a> 
            <a href="https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php">my</a> </li>
       <li> <a href="https://kanji.club/?s=09"><b>kanji club</b></a> 
