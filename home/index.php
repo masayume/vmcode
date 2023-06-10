@@ -190,8 +190,9 @@
 
   <div class="_exa">
 
-        <h4>WEB TOOLS</h4> <!-- ALSO IN linux.php -->
+        <h4>WEB TOOLS</h4> <!-- ALSO IN linux.php --> 
         <ul>
+          <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
           <li><a href="https://onlinehtmleditor.dev/"><b>RICH TEXT EDITOR</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
               <a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
@@ -200,8 +201,8 @@
               <a href="http://webtoolkitonline.com">webtools</a></li>
           <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
 	        <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
-	        <li><a href="/HTML5/dagre/">dagre</a> - 
-              <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a> - 
+	        <li><a href="/HTML5/dagre/">dagre</a>
+              <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a>
               <a href="http://jupyter.org/">jupyter</a></li>
           <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
