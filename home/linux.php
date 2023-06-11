@@ -144,21 +144,13 @@
           <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
 
-        <h4>RANDOM GENs</h4>
+        <h4>WEB LAYOUT</h4> 
         <ul>
-        <li><a href="/keplerion/mersenne-01.php">mersenne-01</a> <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-02-demon</a> </li>
-        <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>mersenne uchida</b></a></li>          
-        <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabius all</b></a>          
-            <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
-            <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
-        <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
-            <a href="/keplerion/layerizer.php">layerizer</a> </li>
-        <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
-        <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">readme</a> </li>
-        <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> (online) </li>
-        <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrammar</a> (online) </li>
-        <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> (online) </li>
+          <li><a href="/pulp2/public/"><b>pulp2★</b></a> 
+
         </ul>
+  
+        
 
     <h4>open source</h4>
       <ul>
@@ -196,22 +188,20 @@
 
 
   <div class="_exa">
-    <h4>...</h4>
-    <ul>
-      <li> <a href="nihongo.htm" target="_blank"><b>NIHONGO page</b></a> </li>
-
-    </ul>
-    <h4>DRAWING</h4>
-    <ul>
-          <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
-    </ul>
-  </div>
-
-
-  <div class="_exa">
-    <h4>...</h4>
+    <h4>RANDOM GENs</h4>
       <ul>
-        <li><a href="/cgi-bin/magic-cardrogue.php"><b>...</b></a></li>
+      <li><a href="/keplerion/mersenne-01.php">mersenne-01</a> <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-02-demon</a> </li>
+      <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>mersenne uchida</b></a></li>          
+      <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabius all</b></a>          
+          <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
+          <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
+      <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
+          <a href="/keplerion/layerizer.php">layerizer</a> </li>
+      <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
+      <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">readme</a> </li>
+      <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> (online) </li>
+      <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrammar</a> (online) </li>
+      <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> (online) </li>
       </ul>
 
     <h4>pico-8</h4>
@@ -224,7 +214,10 @@
         <li><a href="/drupal8">drupal8-01</a></li>
       </ul>
 
-  </div>
+ </div>
+
+
+ 
   
   <div class="_exa">
     <h4>Boardgames</h4>
@@ -275,17 +268,6 @@
 
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-    ?>
-    <br clear="all"><br>
     <!-- php_image_show -->
     <?php
       $ai_dirs    = array('inspire/masayume/pub/');
