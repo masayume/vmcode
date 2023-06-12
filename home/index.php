@@ -246,7 +246,7 @@
     <br />
       <h4>PROJECTS done</h4>
           <ul>
-            <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a>
+            <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php">Kanji Cards</a>
                  <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a>
                  <a href="/demon/overlayer/overlayer.infogen.txt">info</a></li>
             <li> <a href="/HTML5/taktix/">Oblique Taktix</a> 
@@ -263,7 +263,7 @@
   <div class="_exa">
     <h4>NIHONGO</h4>
     <ul>
-      <li> <a href="nihongo.htm" target="_blank"><b>NIHONGO page</b></a> </li>
+      <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
 
       <li> <a href="https://www3.nhk.or.jp/news/easy/">NHK news easy ★</a> </li>
       <li> <a href="/html5/isotope/isotope-nihon/">ISO 100 motives</a> </li>
