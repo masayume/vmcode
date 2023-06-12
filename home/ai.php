@@ -146,6 +146,7 @@
       <li>  <a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
       <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a> 
             <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diff ★</b></a> </li>
+      <li>  <a href="https://vectorizer.ai"><b>vectorizer.ai</b></a> </li>
       
     </ul>
 
