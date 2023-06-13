@@ -83,9 +83,16 @@
 
 </div>
 
+<!-- JAVASCRIPT FUNCTIONS -->
+<script src="js/functions.js"></script>
+
 <div class="messages">
   <textarea id="messages">
   </textarea>
+
+  <script>
+        selectStringOnClick('messages');
+  </script>
 </div>
 
 <div>
@@ -96,8 +103,6 @@
   </p>
 </div>
 
-<!-- JAVASCRIPT FUNCTIONS -->
-<script src="js/functions.js"></script>
 
   </body>
 </html>

@@ -85,4 +85,21 @@ function reloadImage(id) {
     textarea.value = "";
     textarea.value = message;
   }
-  
+
+  function  selectStringOnClick(id) {
+    var element = document.getElementById(id);
+
+    element.addEventListener('click', function() {
+      element.focus();
+      element.setSelectionRange(0, element.value.length);
+/*
+      var range = document.createRange();
+      range.selectNodeContents(element);
+
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+*/
+    });
+
+  }
