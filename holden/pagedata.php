@@ -285,8 +285,8 @@ function page($dir, $tag) {
   $file = preg_replace('/^\/var\/www\/html/', "", $files[$imgnum]);
 
   $template =<<<TEM
-    <!-- <div class="element-item $class " data-category="{$item[data_cat]}" style="$float background-image: url('img/{$item[img]}'); background-size: cover; alt='$file'"> -->
-    <div class="element-item $class " data-category="{$item[data_cat]}" style="$float; background-size: cover;" alt='$file' >
+    <!-- <div class="element-item $class " data-category="{$item['data_cat']}" style="$float background-image: url('img/{$item['img']}'); background-size: cover; alt='$file'"> -->
+    <div class="element-item $class " data-category="{$item['data_cat']}" style="$float; background-size: cover;" alt='$file' >
       <img src="$file">
         <br />
         $file
