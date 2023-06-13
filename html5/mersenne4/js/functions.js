@@ -86,20 +86,18 @@ function reloadImage(id) {
     textarea.value = message;
   }
 
-  function  selectStringOnClick(id) {
+  function selectStringOnClick(id) {
     var element = document.getElementById(id);
 
     element.addEventListener('click', function() {
-      element.focus();
-      element.setSelectionRange(0, element.value.length);
-/*
-      var range = document.createRange();
-      range.selectNodeContents(element);
+      var startIndex = element.value.lastIndexOf(' ') + 1;
+      var endIndex = element.value.indexOf(' ', startIndex);
 
-      var selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-*/
+      if (endIndex === -1) {
+        endIndex = element.value.length;
+      }
+
+      element.setSelectionRange(startIndex, endIndex);
     });
 
   }
