@@ -39,7 +39,7 @@ error_reporting (E_ALL ^ E_NOTICE);
 global $artists;
 $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/' 
                   , '/inspire/@CARTOONS/altan/'
-                  , '/inspire/@CARTOONS/@expressions/'
+                  , '/inspire/@REF-expressions/'
                   , '/inspire/@CARTOONS/@NIEMANN/'
                   , '/inspire/@CARTOONS/ADAM HUGHES'  // 4
                   , '/inspire/@CARTOONS/arthurdepins'
@@ -68,7 +68,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/Elvgren'
                   , '/inspire/@CARTOONS/birault'
                   , '/inspire/@WORKFLOWS'
-                  , '/inspire/@CARTOONS/@expressions'
+                  , '/inspire/VOID'                   // VOID
                   , '/inspire/@CARTOONS/faboarts'     
 // 30
                   , '/inspire/@CARTOONS/fran'
