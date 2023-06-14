@@ -196,6 +196,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@JAPAN/@J-kawase_hasui'         // 142
                   , '/inspire/@JAPAN/@J-masayasu_uchida'      // 143
                   , '/inspire/@CARTOONS/TOM GAULD/'
+                  , '/inspire/@COVERS/BookCovers'
 
                 );
 
