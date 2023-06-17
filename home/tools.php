@@ -48,6 +48,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
   </ul>
 
+  <h4>PDF TOOLS</h4>  <!-- also in PIXELART -->
+  <ul>
+    <li>  <a href="https://webtopdf.com/"><b>webtopdf</b></a> 
+          <a href="https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/">pdftk</a>
+          <a href="https://www.pdflabs.com/docs/pdftk-cli-examples/">CLI</a></li>
+    </ul>
+
   <h4>FONTS</h4>  <!-- also in PIXELART -->
   <ul>
     <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
