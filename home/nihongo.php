@@ -281,8 +281,9 @@
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@JAPAN/@J-hiroshi_yoshida/', 'inspire/@JAPAN/@J-ikenaga yasunari/', 'inspire/@JAPAN/@J-ikenaga yasunari/'
-                        , 'inspire/@JAPAN/@J-kawase_hasui/', 'inspire/@JAPAN/@J-kento_iida/', 'inspire/@JAPAN/@J-masayasu_uchida/');
+      $ai_dirs    = array(  'inspire/@JAPAN/@J-hiroshi_yoshida/', 'inspire/@JAPAN/@J-ikenaga_yasunari/', 'inspire/@JAPAN/@J-kawase_hasui/'
+                          , 'inspire/@JAPAN/@J-kento_iida/', 'inspire/@JAPAN/@J-masayasu_uchida/', 'inspire/@JAPAN/@J-yukio_kitta/');
+
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
