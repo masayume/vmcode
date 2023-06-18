@@ -74,13 +74,25 @@
 		<li><a href="/demon/soundboard/">soundboard</a></li>
   </ul>
 
-  <h4>AI img repositories</h4>
-    <ul>
-      <li> <a href="https://lexica.art/"><b>lexica.art </b></a> 
-           <a href="https://libraire.ai/"><b>libraire.ai</b></a>  </li>
-      <li> <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
-    </ul>
 
+  <details>
+        <summary><strong><b>Holden Megalist ⬇️</b></strong></summary> 
+        <p>
+          <ul>
+            <li>  <a href="/HTML5/holden/index.php?art1=99&art2=99"><b>Chun Li</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=110&art2=110"><b>Asuka</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=113&art2=113"><b>Lamu</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=114&art2=114"><b>MIKU</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=115&art2=115"><b>Misato</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=116&art2=116"><b>Mona</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=117&art2=117"><b>Morrigan</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=118&art2=118"><b>Quorra</b></a>  </li>
+            <li>  <a href="/HTML5/holden/index.php?art1=119&art2=119"><b>Motoko</b></a>  </li>
+          </ul>
+        </p>
+  </details>
+
+  
   <h4>holden</h4>
     <ul>
       <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC</b></a> 

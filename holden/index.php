@@ -167,7 +167,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@characters/Mona' 
                   , '/inspire/@characters/morrigan'   
                   , '/inspire/@characters/quorra'
-                  , '/inspire/@characters/motoko'    // 120
+                  , '/inspire/@characters/motoko'    // 119
 // 120
                   , '/inspire/@characters/'         
                   , '/inspire/@pixelart/backgrounds/landsref' // 121  

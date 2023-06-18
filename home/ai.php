@@ -100,6 +100,7 @@
         <li> <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
         <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
         <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li>
+        <li> <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
         <li> <a href="https://openart.ai/@artificialartist/nijijourney"><b>openart.ai ★★</b></a></li>
         <li> <a href="https://civit.ai/" target="_blank">civit.ai</a> 
              <a href="https://creator.nightcafe.studio/explore ">nightcafe</a></li>
