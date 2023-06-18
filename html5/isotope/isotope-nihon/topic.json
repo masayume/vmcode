@@ -27,7 +27,7 @@
       "data_cat": "world",
       "class": ["world", "metal", "arcade"],
       "img": "003.png",
-      "game": "Asteroids",
+      "game": "Manga",
       "note": "NOTE",
       "year": 1979
     },
@@ -37,7 +37,7 @@
       "data_cat": "avatar",
       "class": ["avatar", "metal", "arcade"],
       "img": "004.png",
-      "game": "Battlezone",
+      "game": "Anime",
       "note": "NOTE",
       "year": 1980
     },
@@ -51,13 +51,13 @@
       "note": "Manga and Anime are about ANY subject",
       "year": 1981
     },
-    "Power Up": {
+    "jpop": {
       "number": "6",
       "data_cat": "avatar",
       "class": ["avatar", "metal", "arcade"],
       "img": "006.png",
-      "symbol": "Pw",
-      "game": "Pac Man",
+      "symbol": "Jp",
+      "game": "jpop",
       "year": 1981
     },
     "Scrolling": {

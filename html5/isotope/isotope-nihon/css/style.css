@@ -91,8 +91,8 @@ body {
 .element-item {
   position: relative;
   float: left;
-  width: 126px;
-  height: 156px;
+  width: 156px;
+  height: 186px;
   margin: 4px;
   padding: 10px;
   background: #888;

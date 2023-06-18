@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>MINT4C</title>
+<title>masayume NIHONGO PAGE</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
@@ -289,7 +289,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
 

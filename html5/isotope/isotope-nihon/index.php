@@ -13,7 +13,47 @@
 </head>
 
 <body>
-  <h3>masayume - 100 Motives to Love Japan</h3>
+<div id="pagetitle" style="float: left;">  
+  masayume - 1000 Motives to Love Japan
+</div>
+
+<div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
+  <button class="button" data-sort-by="name">name</button>
+  <button class="button" data-sort-by="year">year</button>
+  <button class="button" data-sort-by="number">number</button>
+  <button class="button" data-sort-by="length">duration</button>
+  <button class="button" data-sort-by="weight">complexity</button>
+<!--
+  <button class="button" data-sort-by="category">category</button>
+-->
+</div>
+
+<div class="button-group" style="float: right;">  
+  &nbsp;  &nbsp;
+</div>
+
+<div id="filters" class="button-group" style="float: right;">  
+  <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".resources">resources</button>
+  <button class="button" data-filter=".cards">cards</button>
+  <button class="button" data-filter=".checkerboard">grid</button>
+  <button class="button" data-filter=".dice">dice</button>
+  <button class="button" data-filter=".player">player</button>
+<!--
+  <button class="button" data-filter=".interaction">interaction</button>
+  <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+  <button class="button" data-filter=":not(.transition)">not transition</button>
+  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+  <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+  <button class="button" data-filter="not(.arcade)">home - NW</button>
+  <button class="button" data-filter="ing">name -ing - NW</button>
+-->
+</div>
+
+
+<div>
+<br clear="all"/>
+</div>
 
 <div class="grid">
 <?php
@@ -30,30 +70,7 @@ echo $data;
 data-filter defined in js/index.js
 -->
 
-<h3>Filter</h3>
-<div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".arcade">arcade</button>
-  <button class="button" data-filter=".avatar">avatar</button>
-  <button class="button" data-filter=".world">world</button>
-  <button class="button" data-filter=".player">player</button>
-  <button class="button" data-filter=".graphics">graphics</button>
-  <button class="button" data-filter=".interaction">interaction</button>
-  <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
-  <button class="button" data-filter=":not(.transition)">not transition</button>
-  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
-  <button class="button" data-filter="numberGreaterThan50">number > 50</button>
-  <button class="button" data-filter="not(.arcade)">home - NW</button>
-  <button class="button" data-filter="ing">name -ing - NW</button>
-</div>
 
-<h3>Sort</h3>
-<div id="sorts" class="button-group">  <button class="button is-checked" data-sort-by="original-order">original order</button>
-  <button class="button" data-sort-by="name">name</button>
-  <button class="button" data-sort-by="symbol">symbol</button>
-  <button class="button" data-sort-by="number">number</button>
-  <button class="button" data-sort-by="weight">weight</button>
-  <button class="button" data-sort-by="category">category</button>
-</div>
 
 <h3>References</h3>
 <div id="references">
