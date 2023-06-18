@@ -1,3 +1,5 @@
+code index.php lib/mersenne4.php js/functions.js css/style.css templates/layer.twig README.txt lib/template_functions.php lib/layer_images.php config.php
+
 TODO:
     mostrare atype, type e subtype (decodifica del significato di O, D ecc.)
     verificare il contenuto di atype.json
