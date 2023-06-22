@@ -23,7 +23,7 @@
   .container{ text-align:left; border:1px solid #666; }
   ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
-  ._exa{ display:inline-block; margin:5px 6px; padding:5px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
+  ._exa{ display:inline-block; margin:5px 2px; padding:1px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
 <!-- Matomo -->
 <script type="text/javascript">
@@ -204,12 +204,16 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
       ?>
 
   <br />
-    <h4>benkyo shite imasu</h4>
+    <h4>benkyoshirooo !</h4>
+    <ul>
+      <li> <a href="https://taximanli.github.io/kotobade-asobou/">JWORDLE ★</a> 
+           <a href="https://jisho.org/search/*kiri">JISHO *</a> </li>
+    </ul>
   </div>
 
   <div class="_exa">
