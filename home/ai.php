@@ -100,7 +100,7 @@
         <li> <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
         <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
         <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li>
-        <li> <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
+        <li> <a href="https://playgroundai.com/feed"><b>playgroundai.com</b></a>  </li>
         <li> <a href="https://openart.ai/@artificialartist/nijijourney"><b>openart.ai ★★</b></a></li>
         <li> <a href="https://civit.ai/" target="_blank">civit.ai</a> 
              <a href="https://creator.nightcafe.studio/explore ">nightcafe</a></li>
@@ -133,6 +133,7 @@
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
             <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
+      <li>  <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
             <a href="https://deepfloyd.ai/"><b>site</b></a>  
             <a href="https://app.prodia.com/"><b>Prodia</b></a>  </li>
