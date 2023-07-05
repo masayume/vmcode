@@ -269,29 +269,16 @@
           </ul>
     </div>
 
-  <!--
-    GIAPPONESE
-  -->
   <div class="_exa">
-    <h4>NIHONGO</h4>
+    <h4>RADIO</h4>
     <ul>
-      <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
-
-      <li> <a href="https://www3.nhk.or.jp/news/easy/">NHK news easy ★</a> </li>
-      <li> <a href="/html5/isotope/isotope-nihon/">ISO 100 motives</a> </li>
-      <li> <a href="/nihongo/"><b>ISO grammar ★</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-nihongo-uta/">ISO uta</a> </li>
-      <li> <a href="https://japanesetest4you.com/">japanesetest4you ★</a> </li>
-      <li> <a href="https://www.youtube.com/channel/UCsQCbl3a9FtYvA55BxdzYiQ/videos">miku real japanese ★</a> </li>
-      <li> <a href="https://www.jishonari.com/b?utm_source=masayume.it&v=1&a=CAMQARgA&s=IAA&d=IgQIAUgA">JISHONARI</a> </li>
-      <li> <a href="/nihongo/general.md">nihongo.md</a> - <a href='http://www.jgram.org/pages/viewList.php?lv=4'>N5</a> - <a href='http://www.jgram.org/pages/viewList.php?lv=3'>N4</a> </li>
-      <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a> <a href="/HTML5/kanjisvg/">Kanji SVG</a> </li>
-      <li> <a href="https://jisho.org/search/***%E6%B0%97%20%23common">jisho (ending)</a> </li>
-      <li> <a href="http://tangorin.com/">tangorin</a> </li>
-      <li> <a href="https://www.nihongomaster.com/dictionary/kanji#p=1">kanji master</a> </li>
-      <li> <a href="https://kanjialive.com/214-traditional-kanji-radicals/">kanji radicals</a> </li>
-      <li> <a href="https://tunein.com/radio/Osumi-FM-Network-772-s98123/">tuninradio Osumi FM</a> </li>    
+      <li> <a href="https://www.raiplaysound.it/dirette" target="_blank"><b>Raiplay Sound</b></a> </li>
+      <li> <a href="https://www.radio24.ilsole24ore.com/">Radio24</a> </li>    
+      <li> <a href="https://www.capital.it/on-air/">Capital</a> </li>    
+      <li> <a href="https://www.radio80.it/ascolta/">Anni 80</a> </li>    
+      <li> <a href="https://tunein.com/radio/Osumi-FM-Network-772-s98123/">tuninradio Osumi FM</a> </li>          
     </ul>
+ 
     <h4>DRAWING</h4>
     <ul>
           <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>

@@ -75,7 +75,6 @@
     <ul>
       <li> <a href="https://www3.nhk.or.jp/news/easy/"><b>NHK news easy</b> ★</a> </li>
       <li> <a href="https://librivox.org/search?primary_key=35&search_category=language&search_page=1&search_form=get_results">Librivox jbooks ★</a> </li>      
-      <li> <a href="https://tunein.com/radio/Osumi-FM-Network-772-s98123/">tuninradio Osumi FM</a> </li>    
       <li> <a href="https://www.youtube.com/watch?v=Wxsnr7knQqI&list=PL0Q1d6dxwVT8y4oqisz64_6c1QoV00JBV">kodomo no uta</a> </li>    
       <li> <a href="https://www.japanesepod101.com/">podcasts j101</a> </li>
       <li> <a href="https://www.youtube.com/user/NewsInSlowJapanese/videos">slow news </a> </li>
@@ -87,6 +86,7 @@
     <ul>
       <li> <a href="http://radio.garden/listen/fm-76-2-poco/8VGR1T24"><b>radio.garden ★</b></a> </li>
       <li> <a href="https://radiooooo.com/">radiooooo ★</a> </li>
+      <li> <a href="https://tunein.com/radio/Osumi-FM-Network-772-s98123/">tuninradio Osumi FM</a> </li>    
     </ul>
 
     <h4>SENSEI</h4>
