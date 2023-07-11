@@ -224,6 +224,8 @@
       <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> 
            <a href="https://huggingface.co/spaces/facebook/MusicGen">MusicGen</a> </li>
       <li> <a href="https://huggingface.co/spaces/Fantasy-Studio/Paint-by-Example">Paint-by-Example</a> </li>
+      <li> <a href="https://huggingface.co/spaces/editing-images/ledits?utm_source=masayume.it">LEDITS</a> 
+           <a href="https://huggingface.co/spaces/DragGan/DragGan-Inversion">DragGAN</a> </li>
       <li> <a href="URL">SPACE #3</a> </li>
     </ul>
 
