@@ -197,6 +197,32 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@JAPAN/@J-masayasu_uchida'      // 143
                   , '/inspire/@CARTOONS/TOM GAULD/'
                   , '/inspire/@COVERS/BookCovers'
+                  , '/inspire/@gnokkenland/Eva'
+                  , '/inspire/@gnokkenland/Sigourney'         // 147
+                  , '/inspire/@gnokkenland/BETTIE'
+                  , '/inspire/@gnokkenland/miriam'
+// 150
+                  , '/inspire/@gnokkenland/emily'
+                  , '/inspire/@gnokkenland/Helmut Newton'
+                  , '/inspire/@gnokkenland/Isabella'
+                  , '/inspire/@gnokkenland/kate'
+                  , '/inspire/@gnokkenland/katy'
+                  , '/inspire/@gnokkenland/louise'
+                  , '/inspire/@gnokkenland/monica'
+                  , '/inspire/@gnokkenland/nocchi'
+                  , '/inspire/@gnokkenland/Raffa'             // 158
+                  , '/inspire/@gnokkenland/Scarlett'
+// 150
+                  , '/inspire/@gnokkenland/Silvana'
+                  , '/inspire/@gnokkenland/Shirley'
+                  , '/inspire/@gnokkenland/Sonia'
+                  , '/inspire/@gnokkenland/Tina'
+                  , '/inspire/@gnokkenland/katy'
+                  , '/inspire/@gnokkenland/Sandra'
+                  , '/inspire/@gnokkenland/Anya'
+                  , '/inspire/@gnokkenland/Cate'
+                  , '/inspire/@gnokkenland/Emma'
+                  , '/inspire/@gnokkenland/Jennifer'
 
                 );
 

@@ -181,7 +181,8 @@
         <ul>
           <li> <a href="/HTML5/holden/index.php?art1=59&art2=59" target="_blank"><b>mersenne reference ★</b></a> 
                <a href="/HTML5/holden/index.php?art1=12&art2=12" target="_blank"><b>MISC STYLE ★</b></a></li> 
-          <li> <a href="/HTML5/holden/index.php?art1=99&art2=12" target="_blank"><b>Chun Li Style ★</b></a>
+          <li> <a href="/HTML5/holden/index.php?art1=99&art2=99" target="_blank"><b>Chun Li Style ★</b></a>
+               <a href="/HTML5/holden/index.php?art1=113&art2=113" target="_blank"><b>Lamu ★</b></a>
                <a href="/HTML5/holden/index.php?art1=67&art2=67" target="_blank"><b>Nendoroid ★</b></a></li>
           <li> <a href="/HTML5/holden/index.php?art1=130&art2=130" target="_blank"><b>Think before Drawing ★</b></a></li>
           <li> <a href="/HTML5/holden/index.php?art1=132&art2=132" target="_blank"><b>TEXTURES ★</b></a>
