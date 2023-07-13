@@ -134,6 +134,7 @@
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
             <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
       <li>  <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
+      <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
             <a href="https://deepfloyd.ai/"><b>site</b></a>  
             <a href="https://app.prodia.com/"><b>Prodia</b></a>  </li>
@@ -150,32 +151,6 @@
             <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diff ★</b></a> </li>
       <li>  <a href="https://vectorizer.ai"><b>vectorizer.ai</b></a> </li>
       
-    </ul>
-
-    <h4>TW-SOURCES</h4>
-    <ul>
-      <li>  <a href="https://twitter.com/hardmaru" target="_blank"><b>Hardmaru</b></a> 
-            <a href="https://twitter.com/DreamStudioAI" target="_blank"><b>DreamStudio</b></a> </li>
-      <li>  <a href="https://twitter.com/KaliYuga_ai" target="_blank"><b>KaliYuga</b></a> 
-            <a href="https://twitter.com/8co28/media" target="_blank"><b>852話</b></a> 
-            <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GenImg</b></a> </li>
-      <li>  <a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
-            <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
-            <a href="https://twitter.com/snecc_art/media">snecc</a></li>
-      <li>  <a href="https://twitter.com/OliverAltair/media" target="_blank"><b>OAltair</b></a> 
-            <a href="https://twitter.com/frankenmizer/media" target="_blank"><b>Fnmizer</b></a> 
-            <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
-      <li>  <a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
-            <a href="https://www.reddit.com/r/deepdream/"><b>r/deepdream★</b></a></li>
-      <li>  <a href="https://twitter.com/arare_no_re/media"><b>arare★</b></a>
-            <a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
-      <li>  <a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
-            <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
-      <li>  <a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
-            <a href="https://twitter.com/inigma_a/media">AInigma</a>
-            <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
-      <li>  <a href="https://twitter.com/noir_random/media">noirndom</a>
-            <a href="https://twitter.com/magnasoma/media">magnasoma</a> </li>
     </ul>
 
     <!--  <a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a>  -->
@@ -386,20 +361,32 @@
 
 
 
-
   <div class="_exa">
-    <h4>PROGRAMMING</h4>
+    <h4>TW-SOURCES</h4>
       <ul>
-        <li> <a href="https://huggingface.co/spaces/bigcode/bigcode-playground"><b>🤗starcoderBig★</b></a> </li>
-        <li> <a href="https://huggingface.co/spaces/HuggingFaceH4/starchat-playground?utm_source=masayume.it">🤗starcoder★</a> </li>
+        <li>  <a href="https://twitter.com/hardmaru" target="_blank"><b>Hardmaru</b></a> 
+              <a href="https://twitter.com/DreamStudioAI" target="_blank"><b>DreamStudio</b></a> </li>
+        <li>  <a href="https://twitter.com/KaliYuga_ai" target="_blank"><b>KaliYuga</b></a> 
+              <a href="https://twitter.com/8co28/media" target="_blank"><b>852話</b></a> 
+              <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GenImg</b></a> </li>
+        <li>  <a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
+              <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
+              <a href="https://twitter.com/snecc_art/media">snecc</a></li>
+        <li>  <a href="https://twitter.com/OliverAltair/media" target="_blank"><b>OAltair</b></a> 
+              <a href="https://twitter.com/frankenmizer/media" target="_blank"><b>Fnmizer</b></a> 
+              <a href="https://twitter.com/EMostaque" target="_blank"><b>Emad</b></a> </li>
+        <li>  <a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
+              <a href="https://www.reddit.com/r/deepdream/"><b>r/deepdream★</b></a></li>
+        <li>  <a href="https://twitter.com/arare_no_re/media"><b>arare★</b></a>
+              <a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
+        <li>  <a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
+              <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
+        <li>  <a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
+              <a href="https://twitter.com/inigma_a/media">AInigma</a>
+              <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
+        <li>  <a href="https://twitter.com/noir_random/media">noirndom</a>
+              <a href="https://twitter.com/magnasoma/media">magnasoma</a> </li>
       </ul>
-
-    <h4>TUTORIALS</h4>
-      <ul>
-        <li> <a href="https://aituts.com/category/niji-journey/"><b>aituts.com ★</b></a> </li>
-        <li> <a href="https://stable-diffusion-art.com/inpainting_basics/">inpainting★</a> </li>
-      </ul>
-
   </div>
 
 
@@ -424,6 +411,18 @@
         </p>
     </details>
     <li> <a href="https://lexica.art/"><b>lexica</b></a></li> 
+
+    <h4>PROGRAMMING</h4>
+      <ul>
+        <li> <a href="https://huggingface.co/spaces/bigcode/bigcode-playground"><b>🤗starcoderBig★</b></a> </li>
+        <li> <a href="https://huggingface.co/spaces/HuggingFaceH4/starchat-playground?utm_source=masayume.it">🤗starcoder★</a> </li>
+      </ul>
+
+    <h4>TUTORIALS</h4>
+      <ul>
+        <li> <a href="https://aituts.com/category/niji-journey/"><b>aituts.com ★</b></a> </li>
+        <li> <a href="https://stable-diffusion-art.com/inpainting_basics/">inpainting★</a> </li>
+      </ul>
 
   </div>
 
