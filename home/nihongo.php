@@ -300,18 +300,6 @@
   </div>
 
   <div class="_exa">
-    <h4>...</h4>
-    <ul>
-    </ul>
-  </div>
-
-  <div class="_exa">
-    <h4>...</h4>
-    <ul>
-    </ul>
-  </div>
-
-  <div class="_exa">
       <!-- php_image_show -->
       <?php
       $ai_dirs    = array('inspire/@JAPAN/kanji/' );
@@ -341,13 +329,7 @@
       <li> <a href="https://www.masayume.it/nihongo/tofugu4500/4500_japanese_sentences-09-4001-4500.pdf">09-4001-4500</a> </li>
     </ul>
   </div>
-
-  <div class="_exa">
-    <h4>...</h4>
-    <ul>
-    </ul>
-  </div>
-
+  
   <div class="_exa">
       <!-- php_image_show -->
       <?php
@@ -362,7 +344,58 @@
 
   </div>
 
+  <div class="_exa">
+<!--
+  https://api.open-meteo.com/v1/jma?latitude=52.52&longitude=13.41&hourly=temperature_2m
+-->
+    <h4>JAPAN DATA</h4>
+    <ul>
+<?php
 
+  $lat = Array(
+    "Tokyo" => 35.676,
+    "Kyoto" => 35.011,
+    "Osaka" => 34.693,
+    "Okinawa" => 26.334,
+    "Sapporo" => 43.061
+  );
+  $long = Array(
+    "Tokyo" => 139.650,
+    "Kyoto" => 135.768,
+    "Osaka" => 135.502,
+    "Okinawa" => 127.805,
+    "Sapporo" => 141.354
+  );
+
+
+  // date_default_timezone_set('Europe/Rome'); 
+  date_default_timezone_set('Asia/Tokyo'); 
+  $currenttime = date('Y-m-dTH:i:s');
+  $currenttime = preg_replace('/JST/', 'T', $currenttime);
+  list($datetime,$mins,$secs) = explode(':',$currenttime);
+
+  $japanTime = "2023-07-15T22:00"; // reference datetime format for API
+  $japanTimeHour = $datetime . ":00:00";
+  $japanTimeHour2Print = preg_replace('/T/', ' ', $currenttime);
+  print "<a href=''><b>$japanTimeHour2Print &nbsp;&nbsp;&nbsp;</b></a><hr>";
+
+  $data = getTimeAndTemp("Tokyo", $lat['Tokyo'], $long['Tokyo'], $japanTimeHour);
+  print "<a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Tokyo'] . "&longitude=" . $long['Tokyo'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  $data = getTimeAndTemp("Osaka", $lat['Osaka'], $long['Osaka'], $japanTimeHour);
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Osaka'] . "&longitude=" . $long['Osaka'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  $data = getTimeAndTemp("Kyoto", $lat['Kyoto'], $long['Kyoto'], $japanTimeHour);
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Kyoto'] . "&longitude=" . $long['Kyoto'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  $data = getTimeAndTemp("Sapporo", $lat['Sapporo'], $long['Sapporo'], $japanTimeHour);
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Sapporo'] . "&longitude=" . $long['Sapporo'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  $data = getTimeAndTemp("Okinawa", $lat['Okinawa'], $long['Okinawa'], $japanTimeHour);
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Okinawa'] . "&longitude=" . $long['Okinawa'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+
+?></ul>
+
+    <h4>...</h4>
+    <ul>
+    </ul>
+  </div>
 
 
   
@@ -371,3 +404,53 @@
 <!-- FOOTER -->
 </body>
 </html>
+
+<?php 
+
+function getTimeAndTemp($place, $lat, $long, $jt) {
+
+  // Initiate curl session in a variable (resource)
+  $curl_handle = curl_init();
+
+  $url = "https://api.open-meteo.com/v1/jma?latitude=" . $lat . "&longitude=" . $long . "&hourly=temperature_2m";
+
+  curl_setopt($curl_handle, CURLOPT_URL, $url);   // Set the curl URL option
+
+  curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, true);   // This option will return data as a string instead of direct output
+
+  $curl_data = curl_exec($curl_handle);  // Execute curl & store data in a variable
+
+  curl_close($curl_handle);
+
+  $response_data = json_decode($curl_data);   // Decode JSON into PHP array
+
+  $timeindex = in_array($jt, $response_data->hourly->time);
+
+//  print "<pre>";  print_r($response_data->hourly->); die();
+//  print $timeindex;
+
+  // Print all data if needed
+  $data[0] = $place;
+  $data[1] = $response_data->hourly->time[$timeindex]; 
+  $data[2] = $response_data->hourly->temperature_2m[$timeindex]; 
+  $data[3] = $response_data->hourly_units->temperature_2m;
+
+  // print "<pre>";  print_r($response_data); die();
+
+  // All user data exists in 'data' object
+  // $user_data = $response_data->data;
+
+  // Extract only first 5 user data (or 5 array elements)
+  // $user_data = array_slice($user_data, 0, 4);
+
+  // Traverse array and print employee data
+  // foreach ($user_data as $user) {
+  //	echo "name: ".$user->employee_name;
+  //	echo "<br />";
+  // }
+
+  return $data;
+
+}
+
+?>
