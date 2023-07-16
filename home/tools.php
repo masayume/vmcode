@@ -401,7 +401,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   <ul>
     <li><a href="https://www.aiva.ai/"><b>AIVA AI ★</b></a>
         <a href="https://www.masayume.it/blog/content/aiva-ai-assisted-music-composing"><b>my</b></a></li>
-    <li><a href="https://www.masayume.it/blog9/web/content/famistudio/">famistudio ★</a></li>
+    <li><a href="https://chiptune.app/">Chipjs★</a>
+        <a href="https://www.masayume.it/blog9/web/content/famistudio/">famistudio★</a></li>
     <li><a href="https://telesplit.com/"><b>telesplit ★</b></a> <a href="https://www.masayume.it/blog9/web/content/telesplit"><b>my</b></a></li>
     <li><a href="http://everynoise.com/">everysound ★</a></li>
     <li><a href="https://www.zophar.net/music"><b>zophar.net ★★</b></a></li>
