@@ -204,6 +204,7 @@
 
         <h4>WEB TOOLS</h4> <!-- ALSO IN linux.php --> 
         <ul>
+          <li><a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> </li>
           <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
           <li><a href="https://onlinehtmleditor.dev/"><b>RICH TEXT EDITOR</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>

@@ -128,6 +128,7 @@
 
         <h4>WEB TOOLS 2</h4> <!-- ALSO IN index.php -->
         <ul>
+          <li><a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> </li>
           <li><a href="/html5/focustxt/"><b>FOCUSTXT★</b></a> 
               <a href="/writing/"><b>WRITING★</b></a> </li>
           <li><a href="https://onlinehtmleditor.dev/"><b>RICH TEXT EDITOR</b></a> </li>
