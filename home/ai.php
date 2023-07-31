@@ -153,6 +153,12 @@
       
     </ul>
 
+    <h4>3D AI TOOLS</h4>
+    <ul>
+      <li>  <a href="https://dreamstudio.ai/generate"><b>3d.csm.ai objects</b></a> </li>
+      <li>  <a href="https://huggingface.co/spaces/brjathu/HMR2.0"><b>Cedro 3D human models</b></a> </li>
+    </ul>
+
     <!--  <a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a>  -->
     <!--  <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a>  -->
     <!--  <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a> -->
