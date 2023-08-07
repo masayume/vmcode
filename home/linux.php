@@ -97,6 +97,7 @@
 
   <h4>FONTS</h4>
       <ul>
+        <li> <a href="https://www.debugpoint.com/install-fonts-linux/" target="_blank"><b>Install Fonts</b></a> 
         <li> <a href="https://www.masayume.it/blog/index.php/content/nerd-fonts" target="_blank"><b>Nerd Fonts</b></a> 
         
       </ul>
