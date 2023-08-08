@@ -25,7 +25,7 @@ function gamepage($jfile) {
     if ( isset($item['books']) ) {
       $books = $item['books'] . " vol ";
     } else {
-      $books = $item['length'] . " min";
+      $books = $item['length'] . " pages";
     }
 
     $urlWF = "";

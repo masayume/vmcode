@@ -2463,8 +2463,23 @@
       "dir": "books/ANIMATION",
       "download": "https://ia601005.us.archive.org/26/items/theanimatorssurvivalkit1_201909/The__Animator%27s_Survival_Kit%5B1%5D.pdf",
       "url": "https://www.goodreads.com/book/show/136091.The_Animator_s_Survival_Kit"
+    },
+    "ExcellentAdvice4Living": {
+      "name": "Excellent Advice for Living",
+      "number": "161",
+      "data_cat": "player",
+      "class": ["books", "tips", "digital"],
+      "theme": ["arcade", "meta"],
+      "img": "0161.jpg",
+      "author": "Kevin Kelly",
+      "store": "???", 
+      "weight": "", 
+      "year": 2023,
+      "players": [1],
+      "length": 224,
+      "dir": "books/",
+      "url": "https://www.goodreads.com/book/show/62313346-excellent-advice-for-living"
     }
-
 
 
 
