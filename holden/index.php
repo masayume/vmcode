@@ -212,7 +212,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@gnokkenland/nocchi'
                   , '/inspire/@gnokkenland/Raffa'             // 158
                   , '/inspire/@gnokkenland/Scarlett'
-// 150
+// 160
                   , '/inspire/@gnokkenland/Silvana'
                   , '/inspire/@gnokkenland/Shirley'
                   , '/inspire/@gnokkenland/Sonia'
@@ -223,6 +223,12 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@gnokkenland/Cate'
                   , '/inspire/@gnokkenland/Emma'
                   , '/inspire/@gnokkenland/Jennifer'
+// 170
+                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
+                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
+                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
+                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
+                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
 
                 );
 
