@@ -64,6 +64,12 @@
         <li> <a href="https://translate.google.com/" target="_blank"><b>google translate</b></a> </li>
       </ul>
 
+      <h4>ART</h4>
+      <ul>
+        <li><a href="https://twitter.com/JapanTraCul/media"><b>MASTERPIECES</b></a></li>
+      </ul>
+
+      
     <h4>Text 2 Speech</h4>
       <ul>
         <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
