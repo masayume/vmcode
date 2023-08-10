@@ -206,7 +206,8 @@
         <ul>
           <li><a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> </li>
           <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
-          <li><a href="https://onlinehtmleditor.dev/"><b>RICH TEXT EDITOR</b></a> </li>
+          <li><a href="https://onlinehtmleditor.dev/"><b>RT-EDITOR</b></a> 
+              <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
               <a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
@@ -236,11 +237,6 @@
         <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> (online) </li>
         </ul>
 
-    <h4>open source</h4>
-      <ul>
-        <li> <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li> 
-      </ul>
-
   </div>
 
   <div class="_exa">
@@ -268,7 +264,14 @@
             <li> <a href="/oglaf.php">Oglaf RND comic</a> 
                  <a href="/rory.php">rory story cubes</a> </li>
           </ul>
-    </div>
+      
+      <h4>open source</h4>
+      <ul>
+        <li> <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li> 
+      </ul>
+
+          
+  </div>
 
   <div class="_exa">
     <h4>RADIO</h4>
@@ -276,10 +279,11 @@
       <li> <a href="https://www.raiplaysound.it/dirette" target="_blank"><b>Raiplay Sound</b></a> </li>
       <li> <a href="https://www.radio24.ilsole24ore.com/">Radio24</a> </li>    
       <li> <a href="https://www.capital.it/on-air/">Capital</a> </li>    
+      <li> <a href="https://www.radiopopolare.it/">Radio Popolare</a> </li>    
       <li> <a href="https://www.radio80.it/ascolta/">Anni 80</a> </li>    
       <li> <a href="https://tunein.com/radio/Osumi-FM-Network-772-s98123/">tuninradio Osumi FM</a> </li>          
     </ul>
- 
+    
     <h4>DRAWING</h4>
     <ul>
           <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
