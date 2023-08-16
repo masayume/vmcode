@@ -126,7 +126,7 @@
     <h4>GRAPH AI TOOLS</h4>
     <ul>
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
-            <a href="zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
+            <a href="https://zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
@@ -134,7 +134,8 @@
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
             <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
       <li>  <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
-      <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  </li>
+      <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
+            <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
             <a href="https://deepfloyd.ai/"><b>site</b></a>  
             <a href="https://app.prodia.com/"><b>Prodia</b></a>  </li>
