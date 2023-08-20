@@ -33,6 +33,7 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".pixelart">pixelart</button>
   <button class="button" data-filter=".workflow">workflow</button>
   <button class="button" data-filter=".tool">tools</button>
   <button class="button" data-filter=".resources">resources</button>

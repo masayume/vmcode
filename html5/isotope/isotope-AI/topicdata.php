@@ -27,7 +27,7 @@ function gamepage($jfile) {
     } 
 
     $template =<<<TEM
-      <div class="element-item $class overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
+      <div class="element-item $class overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-position: center; background-size: {$item['length']}%;">
         <p class="name"><a href='{$item['url']}'>{$item['name']}</a></p>
         <p class="number">{$item['number']}</p>
         <p class="year">{$item['year']}</p>
