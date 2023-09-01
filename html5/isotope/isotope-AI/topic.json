@@ -134,20 +134,20 @@
       "length": 100,
       "url": "https://huggingface.co/spaces/multimodalart/LoraTheExplorer"
     },
-    "Pacman": {
-      "name": "AI#10",
-      "number": "90",
+    "HumanGenerator": {
+      "name": "Human Gen",
+      "number": "100",
       "data_cat": "player",
-      "class": ["player", "arcade", "videogame", "now"],
+      "class": ["player", "arcade", "videogame", "tools"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
-      "img": "090.jpg",
+      "img": "100.jpg",
       "designer": "DESIGNER",
       "status": "todo", 
-      "year-start": 2020,
-      "year": 2021,
-      "length": 0,
-      "url": "https://boardgamegeek.com/boardgame/217861/paper-tales"
+      "year-start": 2023,
+      "year": 2023,
+      "length": 70,
+      "url": "https://generated.photos/human-generator/"
     },
     "CLIPDROP": {
       "name": "CLIPDROP",
