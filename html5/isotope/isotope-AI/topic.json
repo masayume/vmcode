@@ -119,20 +119,20 @@
       "dir": "E:\\PROJECTS\\cyberrogue boardgame",
       "url": "https://huggingface.co/nerijs/pixel-art-xl?utm_source=pocket_saves&text=pixel+art%2C+a+cute+corgi%2C+simple%2C+flat+colors"
     },
-    "Scrittura": {
-      "name": "AI#9",
-      "number": "80",
+    "LoRA Explorer": {
+      "name": "LoRA Explorer",
+      "number": "90",
       "data_cat": "player",
-      "class": ["player", "creative", "now"],
+      "class": ["player", "creative", "pixelart", "best"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
-      "img": "000.jpg",
+      "img": "090.webp",
       "designer": "DESIGNER",
       "status": "todo", 
-      "year-start": 2020,
-      "year": 2021,
-      "length": 0,
-      "url": "https://www.masayume.it/blog/content/come-si-costruisce-una-storia-il-corso-di-scrittura-di-fabio-bonifacci"
+      "year-start": 2023,
+      "year": 2023,
+      "length": 100,
+      "url": "https://huggingface.co/spaces/multimodalart/LoraTheExplorer"
     },
     "Pacman": {
       "name": "AI#10",

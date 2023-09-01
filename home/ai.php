@@ -154,6 +154,13 @@
       
     </ul>
 
+
+    <h4>PIXELART</h4>
+    <ul>
+      <li>  <a href="https://huggingface.co/nerijs/pixel-art-xl?utm_source=pocket_saves&text=pixel+art%2C+a+cute+corgi%2C+simple%2C+flat+colors"><b>pixel art xl ★</b></a> </li>
+      <li>  <a href="https://huggingface.co/spaces/MrKetchupp/nerijs-pixel-art-xl"><b>nerijs.HF</b></a> </li>
+    </ul>
+
     <h4>3D AI TOOLS</h4>
     <ul>
       <li>  <a href="https://dreamstudio.ai/generate"><b>3d.csm.ai objects</b></a> </li>
@@ -303,7 +310,8 @@
     <ul>
       <li> <a href="https://huggingface.co/spaces/declare-lab/tango">TANGO T2Sound</a> </li>
       <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
-      <li> <a href="https://beta.elevenlabs.io/?ref=masayume.it">elevenlabs.io</a> </li>
+      <li> <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
+           <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
     </ul>
 
 
