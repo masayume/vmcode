@@ -127,13 +127,15 @@
     <ul>
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
             <a href="https://zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
+      <li>  <a href="https://generated.photos/human-generator/"><b>Human Generator ★</b></a>  </li>
+      <li>  <a href="https://easywithai.com/free-ai-image-tools/"><b>Easy with AI ★</b></a>  </li>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
             <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
-      <li>  <a href="https://playgroundai.com/"><b>playgroundai.com</b></a>  </li>
+      <li>  <a href="https://playgroundai.com/"><b>playgroundai</b></a> </li> 
       <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
             <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
@@ -157,8 +159,8 @@
 
     <h4>PIXELART</h4>
     <ul>
-      <li>  <a href="https://huggingface.co/nerijs/pixel-art-xl?utm_source=pocket_saves&text=pixel+art%2C+a+cute+corgi%2C+simple%2C+flat+colors"><b>pixel art xl ★</b></a> </li>
-      <li>  <a href="https://huggingface.co/spaces/MrKetchupp/nerijs-pixel-art-xl"><b>nerijs.HF</b></a> </li>
+      <li>  <a href="https://huggingface.co/nerijs/pixel-art-xl?utm_source=pocket_saves&text=pixel+art%2C+a+cute+corgi%2C+simple%2C+flat+colors"><b>pixelartXL★</b></a> 
+            <a href="https://huggingface.co/spaces/MrKetchupp/nerijs-pixel-art-xl"><b>nerijs.HF</b></a> </li>
     </ul>
 
     <h4>3D AI TOOLS</h4>
@@ -184,6 +186,7 @@
       <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> </li>      
       <li>  <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
       <li>  <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> 
+      <li>  <a href="https://listenmonster.com/?utm_source=masayume.it"><b>LM subtitles</b></a> 
       <li>  <a href="https://www.brevity.sh/"><b>brevity★</b></a>
             <a href="https://halfwaywords.com/"><b>halfwaywords</b></a> </li>      
 

@@ -97,6 +97,7 @@
     <ul>
       <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC</b></a> 
            <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
+           <a href="/HTML5/holden/index.php?art1=171&art2=171"><b>M</b></a>  
            <a href="/HTML5/holden/index.php?art1=125&art2=125"><b>@backs</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=11&art2=11"><b>masayume</b></a>  
            <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>covers</b></a>  
@@ -104,8 +105,9 @@
       <li> <a href="/HTML5/holden/index.php?art1=28&art2=28"><b>WFs</b></a>  
            <a href="/HTML5/holden/index.php?art1=133&art2=133"><b>texturing</b></a>  
            <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b></a>  
-           <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Books</b></a>  </li>
+      <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b ></a>  
+           <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Books</b></a>     
+          <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a> </li>
     </ul>
 
 
@@ -305,7 +307,8 @@
           <li><a href="/HTML5/holden/index.php?art=Alan%20Davis">Davis</a>,<a href="/HTML5/holden/index.php?art=arthurdepins">De Pins</a></li>    
           <li><a href="/HTML5/holden/index.php?art=azumanga">Azuma</a>,<a href="/HTML5/holden/index.php?art=azumabacks">Backs</a></li>    
           <li><a href="/HTML5/holden/index.php?art=BALDAZZINI">BALDAZZINI</a></li>    
-          <li><a href="/HTML5/holden/index.php?art=BUTCHERBILLY">BTCHBILLY ★</a></li>
+          <li><a href="/HTML5/holden/index.php?art=BUTCHERBILLY">BUTCH★</a>
+              <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a></li>
           <li><a href="/HTML5/holden/index.php?art=bayonetta">Bayonetta</a></li>    
           <li><a href="/HTML5/holden/index.php?art=ciia%20chhuying">Ciia</a>,<a href="/HTML5/holden/index.php?art=Craig%20Drake">Drake</a></li>    
           <li><a href="/HTML5/holden/index.php?art=DCWJ">DCWJ</a>,<a href="/HTML5/holden/index.php?art=k-on">K-On</a></li>    
