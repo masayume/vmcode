@@ -212,7 +212,8 @@
           <li><a href="https://onlinehtmleditor.dev/"><b>RT-EDITOR</b></a> 
               <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
-              <a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
+              <a href="https://uniqcode.com/typewriter/"><b>OverType</b></a></li>
+          <li><a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
               <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a>
               <a href="http://webtoolkitonline.com">webtools</a></li>
@@ -279,7 +280,9 @@
   <div class="_exa">
     <h4>RADIO/MUSIC</h4>
     <ul>
-      <li> <a href="https://www.raiplaysound.it/dirette" target="_blank"><b>Raiplay Sound</b></a> </li>
+      <li> <a href="https://theonestopradio.com/" target="_blank"><b>OneStopRadio</b></a> 
+      <li> <a href="https://www.raiplaysound.it/dirette" target="_blank"><b>RaiplaySound</b></a> 
+           <a href="https://www.raiplaysound.it/programmi/leparoledelleconomia">lPdE</a> </li>    
       <li> <a href="https://www.radio24.ilsole24ore.com/">Radio24</a> </li>    
       <li> <a href="https://www.capital.it/on-air/">Capital</a> </li>    
       <li> <a href="https://www.radiopopolare.it/">Radio Popolare</a> </li>    

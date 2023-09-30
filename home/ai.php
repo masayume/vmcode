@@ -110,7 +110,7 @@
 
     <h4>COLLECTIONS</h4>
       <ul>
-        <li> <a href="https://allthingsai.com/?ref=masayume.it"><b>ilib★</b></a> 
+        <li> <a href="https://www.ilib.com/ai-websites"><b>ilib★</b></a> 
              <a href="https://www.masayume.it/blog9/web/content/ai-list-services-tools">my</a> 
              <a href="https://allthingsai.com/?ref=masayume.it">allthingsai</a> </li>
         <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io★</b></a> 
@@ -128,7 +128,8 @@
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
             <a href="https://zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
       <li>  <a href="https://generated.photos/human-generator/"><b>Human Generator ★</b></a>  </li>
-      <li>  <a href="https://easywithai.com/free-ai-image-tools/"><b>Easy with AI ★</b></a>  </li>
+      <li>  <a href="https://easywithai.com/free-ai-image-tools/"><b>Easy with AI★</b></a>  
+            <a href="https://www.cutout.pro/?ref=masayume.it"><b>Cutout★</b></a>  </li>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
@@ -148,12 +149,13 @@
       <li>  <a href="https://removal.ai/upload/"><b>background remove</b></a> 
             <a href="https://www.masayume.it/blog9/web/content/remove-background"><b>my</b></a> </li>
       <li>  <a href="https://weirdwonderfulai.art/"><b>W.W.AI</b></a> 
-            <a href="https://discord.com/channels/1004969787828473926/1004969788528934975"><b>discord</b></a> </li>
+            <a href="https://discord.com/channels/1004969787828473926/1004969788528934975"><b>discord</b></a> 
+            <a href="https://huggingface.co/spaces/Shopify/background-replacement"><b>shopify</b></a> </li>
       <li>  <a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
       <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a> 
             <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diff ★</b></a> </li>
-      <li>  <a href="https://vectorizer.ai"><b>vectorizer.ai</b></a> </li>
-      
+      <li>  <a href="https://vectorizer.ai"><b>vectorizer.ai</b></a> 
+            <a href="https://www.genmo.ai/chat"><b>genmo</b></a> </li>
     </ul>
 
 
@@ -183,8 +185,9 @@
       <li>  <a href="https://labs.kagi.com/fastgpt?utm_source=masayume.it"><b>fastGPT ★</b></a> </li>
       <li>  <a href="https://chat.openai.com/chat"><b>chatGPT ★</b></a> (edge) </li>
       <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
-      <li>  <a href="https://klavier.ai/"><b>klavier PDF ★</b></a> </li>      
-      <li>  <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
+      <li>  <a href="https://klavier.ai/"><b>klavierPDF★</b></a> 
+            <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
+      <li>  <a href="https://beta.character.ai/"><b>character.ai★</b></a> </li>      
       <li>  <a href="https://www.perplexity.ai/"><b>perplexity.ai ★</b></a> 
       <li>  <a href="https://listenmonster.com/?utm_source=masayume.it"><b>LM subtitles</b></a> 
       <li>  <a href="https://www.brevity.sh/"><b>brevity★</b></a>
@@ -315,6 +318,9 @@
       <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
       <li> <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
            <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
+      <li> <a href="https://huggingface.co/spaces/coqui/xtts">Coqui XTTS</a> </li>
+
+           
     </ul>
 
 
