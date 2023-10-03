@@ -136,7 +136,8 @@
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
             <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
-      <li>  <a href="https://playgroundai.com/"><b>playgroundai</b></a> </li> 
+      <li>  <a href="https://poe.com/chat/2l7ao091hjkbzivnn9d"><b>poe SDXL★</b></a> 
+            <a href="https://playgroundai.com/"><b>playgroundai</b></a> </li> 
       <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
             <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
