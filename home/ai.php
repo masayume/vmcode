@@ -127,7 +127,8 @@
     <ul>
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
             <a href="https://zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
-      <li>  <a href="https://generated.photos/human-generator/"><b>Human Generator ★</b></a>  </li>
+      <li>  <a href="https://generated.photos/human-generator/" title="Human Generator"><b>HumanGen★</b></a>  
+            <a href="https://www.watermarkremover.io/upload"><b>WMremove</b></a>  </li>
       <li>  <a href="https://easywithai.com/free-ai-image-tools/"><b>Easy with AI★</b></a>  
             <a href="https://www.cutout.pro/?ref=masayume.it"><b>Cutout★</b></a>  </li>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
