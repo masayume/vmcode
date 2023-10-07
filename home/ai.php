@@ -110,6 +110,7 @@
 
     <h4>COLLECTIONS</h4>
       <ul>
+        <li> <a href="https://tinywow.com/?ref=masayume.it"><b>tinywow ★</b></a> </li>
         <li> <a href="https://www.ilib.com/ai-websites"><b>ilib★</b></a> 
              <a href="https://www.masayume.it/blog9/web/content/ai-list-services-tools">my</a> 
              <a href="https://allthingsai.com/?ref=masayume.it">allthingsai</a> </li>
@@ -321,8 +322,14 @@
       <li> <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
            <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
       <li> <a href="https://huggingface.co/spaces/coqui/xtts">Coqui XTTS</a> </li>
+    </ul>
 
-           
+    <h4>MUSIC</h4>
+    <ul>
+      <li> <a href="https://sync.beatoven.ai/">beatoven.ai</a> </li>
+    </ul>
+
+      
     </ul>
 
 
