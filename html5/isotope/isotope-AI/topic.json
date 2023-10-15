@@ -212,20 +212,20 @@
       "url": "https://www.seaart.ai/",
       "dir": "/git/python/oisin"
     },
-    "defold": {
-      "name": "AI#15",
+    "Seeart.pixelart": {
+      "name": "Seeart.pixelart",
       "number": "140",
       "data_cat": "player",
-      "class": ["player", "tool", "game", "engine"],
+      "class": ["player", "tool", "game", "pixelart"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
-      "img": "140b.jpg",
+      "img": "140.png",
       "designer": "DESIGNER",
       "status": "todo", 
-      "year-start": 2022,
-      "year": 2022,
-      "length": 0,
-      "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/defold",
+      "year-start": 2023,
+      "year": 2023,
+      "length": 130,
+      "url": "https://www.seaart.ai/explore?keyword=pixelart",
       "url_WF": "pages/002-defold.htm#Project01",
       "dir": "-"
     },
