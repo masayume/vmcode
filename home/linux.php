@@ -102,18 +102,14 @@
         
       </ul>
 
-  <h4>ISO</h4>
+  <h4>BEST</h4>
     <ul>
-      <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
-           <a href="/html5/isotope/isotope-books/"><b>books</b></a> 
+      <li> <a href="https://www.masayume.it/blog9/web/content/linux-performance-observability-tools"><b>performance tools</b></a>
            <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
-           <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelart WF</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-      <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> </li>
+<!--
       <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
       <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
+-->
     </ul>
 
   <h4>WEEKLY todo</h4>
