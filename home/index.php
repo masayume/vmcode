@@ -213,7 +213,8 @@
               <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
               <a href="https://uniqcode.com/typewriter/"><b>OverType</b></a></li>
-          <li><a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
+          <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
+              <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
               <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a>
               <a href="http://webtoolkitonline.com">webtools</a></li>
