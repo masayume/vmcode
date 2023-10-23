@@ -133,7 +133,7 @@
       <li>  <a href="https://easywithai.com/free-ai-image-tools/"><b>Easy with AI★</b></a>  
             <a href="https://www.cutout.pro/?ref=masayume.it"><b>Cutout★</b></a>  </li>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
-            <a href="https://www.bing.com/images/create?FORM=GENILP"><b>Bing Create ★</b></a> </li>
+            <a href="https://www.bing.com/images/create?FORM=GENILP"><b>BING Create ★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
@@ -251,6 +251,8 @@
         <li><a href="https://www.reddit.com/r/StableDiffusion/">r/StableDiffusion ★</a> 
             <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Workflow%20Included%22"><b>WF INC ★</b></a>
             <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Resource%20%7C%20Update%22"><b>RES UP ★</b></a></li>
+        <li><a href="/"><b>&nbsp;</b></a></li>
+        <li> <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>holden @AI+wf</b></a> </li>
         <li><a href="/"><b>&nbsp;</b></a></li>
         <li><a href="/html5/isotope/isotope-AI"><b>ISOTOPE AI</b></a> 
             <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Workflow%20Included%22"><b><-- reddit WF ★</b></a> 
