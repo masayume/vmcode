@@ -95,6 +95,9 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 			<header>
 				<h1>Amiga 2000</h1>
 			</header>
+			<p>	
+				<a href='https://amiga.abime.net/'>Hall of Light</a> ★ &nbsp;  
+			</p>
 
 			<section>
 
