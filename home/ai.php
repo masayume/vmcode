@@ -141,7 +141,7 @@
       <li>  <a href="https://poe.com/chat/2l7ao091hjkbzivnn9d"><b>poe SDXL★</b></a> 
             <a href="https://playgroundai.com/"><b>playgroundai</b></a> </li> 
       <li>  <a href="https://www.phot.ai/ai-art-generator?tool=tti"><b>phot.ai tools</b></a>  
-            <a href="https://www.replicover.com/"><b>replicover+*</b></a>  </li>            
+            <a href="https://www.replicover.com/"><b>replicover+★</b></a>  </li>            
       <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
             <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
