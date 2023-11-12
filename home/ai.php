@@ -140,6 +140,8 @@
             <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
       <li>  <a href="https://poe.com/chat/2l7ao091hjkbzivnn9d"><b>poe SDXL★</b></a> 
             <a href="https://playgroundai.com/"><b>playgroundai</b></a> </li> 
+      <li>  <a href="https://www.phot.ai/ai-art-generator?tool=tti"><b>phot.ai tools</b></a>  
+            <a href="https://www.replicover.com/"><b>replicover+*</b></a>  </li>            
       <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
             <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
@@ -166,12 +168,6 @@
     <ul>
       <li>  <a href="https://huggingface.co/nerijs/pixel-art-xl?utm_source=pocket_saves&text=pixel+art%2C+a+cute+corgi%2C+simple%2C+flat+colors"><b>pixelartXL★</b></a> 
             <a href="https://huggingface.co/spaces/MrKetchupp/nerijs-pixel-art-xl"><b>nerijs.HF</b></a> </li>
-    </ul>
-
-    <h4>3D AI TOOLS</h4>
-    <ul>
-      <li>  <a href="https://dreamstudio.ai/generate"><b>3d.csm.ai objects</b></a> </li>
-      <li>  <a href="https://huggingface.co/spaces/brjathu/HMR2.0"><b>Cedro 3D human models</b></a> </li>
     </ul>
 
     <!--  <a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a>  -->
@@ -332,13 +328,15 @@
       <li> <a href="https://sync.beatoven.ai/">beatoven.ai</a> </li>
     </ul>
 
+    <h4>ANIMATION</h4>
+    <ul>
+      <li> <a href="https://ai.nero.com/face-animation">nero.ai face anim+★</a> </li>
+    </ul>
       
     </ul>
 
 
   </div>
-
-
 
 
   <div class="_exa">
@@ -363,7 +361,17 @@
       <li> <a href="URL">LINK #8</a> </li>
     </ul>
 
-  
+    <h4>3D AI TOOLS</h4>
+    <ul>
+      <li>  <a href="https://dreamstudio.ai/generate"><b>3d.csm.ai objects</b></a> </li>
+      <li>  <a href="https://huggingface.co/spaces/brjathu/HMR2.0"><b>Cedro3D humans</b></a> </li>
+    </ul>
+
+    <h4>COLORS</h4>
+    <ul>
+      <li>  <a href="https://www.khroma.co/generator"><b>khroma generator</b></a> </li>
+    </ul>
+
   </div>
 
   <div class="_exa">
