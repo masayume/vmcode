@@ -63,6 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <li> <a href="/HTML5/holden/index.php?art1=135&art2=135"><b>local pixel fonts ■</b></a> </li>
     <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
     <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
+    <li> <a href="https://www.masayume.it/blog/content/fontforge" target="_blank"><b>Fontforge (L)</b></a>
     <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> </li>
     <li> <a href="https://fontawesome.com/icons?d=gallery"><b>fontawesome</b></a></li>
     <li> <a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
