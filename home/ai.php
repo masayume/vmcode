@@ -261,7 +261,7 @@
   <div class="_exa">
 
     <details>
-        <summary><strong><b>DIFFUSION MODELS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <summary><h3><b>MODELS⬇️</h3></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
             <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
@@ -314,30 +314,36 @@
       <li> <a href="https://huggingface.co/spaces/daspartho/prompt-extend">prompt extend</a> </li>
     </ul>
 
-    <h4>TtS</h4>
-    <ul>
-      <li> <a href="https://huggingface.co/spaces/declare-lab/tango">TANGO T2Sound</a> </li>
-      <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
-      <li> <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
-           <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
-      <li> <a href="https://huggingface.co/spaces/coqui/xtts">Coqui XTTS</a> </li>
-    </ul>
+    <details>
+        <summary><h3><b>SOUND ⬇️</h3></strong></summary> 
+        <p>
 
-    <h4>StT</h4>
-    <ul>
-      <li> <a href="https://huggingface.co/spaces/hf-audio/whisper-large-v3">Whisper Large</a> </li>
-    </ul>
+          <h4>TtS</h4>
+          <ul>
+            <li> <a href="https://huggingface.co/spaces/declare-lab/tango">TANGO T2Sound</a> </li>
+            <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
+            <li> <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
+                <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
+            <li> <a href="https://huggingface.co/spaces/coqui/xtts">Coqui XTTS</a> </li>
+          </ul>
+
+          <h4>StT</h4>
+          <ul>
+            <li> <a href="https://huggingface.co/spaces/hf-audio/whisper-large-v3">Whisper Large</a> </li>
+          </ul>
+
+          <h4>StS</h4>
+          <ul>
+            <li> <a href="https://altered.studio/">Altered Studio</a> </li>
+          </ul>
+
+        </p>
+    </details>
+
 
     <h4>MUSIC</h4>
     <ul>
       <li> <a href="https://sync.beatoven.ai/">beatoven.ai</a> </li>
-    </ul>
-
-    <h4>ANIMATION</h4>
-    <ul>
-      <li> <a href="https://ai.nero.com/face-animation">nero.ai face anim+★</a> </li>
-    </ul>
-      
     </ul>
 
 
@@ -351,19 +357,16 @@
         <li> <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>holden @AI+wf</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-AI-&tag2=-AI-"><b>holden MISC</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=-AI-&tag2=-AI-"><b>holden mers</b></a> </li>
-        <li> <a href="URL">LINK #13</a> </li>
       </ul>
 
     <h4>text graph</h4>
     <ul>
       <li> <a href="https://www.calligrapher.ai/"><b>calligrapher.ai</b></a> </li>
-      <li> <a href="URL">LINK #11</a> </li>
     </ul>
 
     <h4>TRAVEL</h4>
     <ul>
       <li> <a href="https://tripnotes.ai/app/notes/95534b5d088864f5fd83b20274143f3c0066be46?demo=true">tripnotes.ai</a> </li>
-      <li> <a href="URL">LINK #8</a> </li>
     </ul>
 
     <h4>3D AI TOOLS</h4>
@@ -376,6 +379,12 @@
     <ul>
       <li>  <a href="https://www.khroma.co/generator"><b>khroma generator</b></a> </li>
     </ul>
+
+    <h4>ANIMATION</h4>
+    <ul>
+      <li> <a href="https://ai.nero.com/face-animation">nero.ai face+★</a> </li>
+    </ul>      
+
 
   </div>
 
