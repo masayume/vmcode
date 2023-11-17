@@ -314,13 +314,18 @@
       <li> <a href="https://huggingface.co/spaces/daspartho/prompt-extend">prompt extend</a> </li>
     </ul>
 
-    <h4>TTS</h4>
+    <h4>TtS</h4>
     <ul>
       <li> <a href="https://huggingface.co/spaces/declare-lab/tango">TANGO T2Sound</a> </li>
       <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
       <li> <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
            <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
       <li> <a href="https://huggingface.co/spaces/coqui/xtts">Coqui XTTS</a> </li>
+    </ul>
+
+    <h4>StT</h4>
+    <ul>
+      <li> <a href="https://huggingface.co/spaces/hf-audio/whisper-large-v3">Whisper Large</a> </li>
     </ul>
 
     <h4>MUSIC</h4>
