@@ -120,6 +120,8 @@
     <ul>
       <li> <a href="http://watanoc.com/">watanoc</a> </li>
       <li> <a href="https://hirogaru-nihongo.jp/">hirogaru</a> </li>
+      <li> <a href="https://www.coelang.tufs.ac.jp/mt/it/vmod/v_kisogoi.php">tokyo s.u.</a> </li>
+      <li> <a href="https://sites.smith.edu/tadoku/">tadoku tree house</a> </li>
       <li> <a href="https://matcha-jp.com/easy/">matcha</a> </li>
       <li> <a href="http://www.nippontalk.com/en">nippontalk</a> </li>
       <li> <a href="https://www3.nhk.or.jp/news/easy/">nhk news easy</a> </li>
