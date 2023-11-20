@@ -69,6 +69,7 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 			</header>
 			<p>	
 				<a href='https://www.masayume.it/blog/content/retro-riviste'>retro riviste ★★★</a> 
+				<a href='https://www.retromags.com/forums/forum/88-new-releases'>retromags ★★</a> 				
 			</p>
 
 			<header>
