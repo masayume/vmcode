@@ -129,7 +129,15 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 				</div>
 			</div>
 			</form>
-		</aside>	
+		</aside>
+
+		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />
+
+		<header><h3 class="widgettitle">Images</h3></header>
+
+		<p><br><a href="https://flyers.arcade-museum.com/">tAFA</a></p>
+
+		
 	</nav>	  </div>
 
 	<footer>

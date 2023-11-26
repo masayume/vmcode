@@ -160,9 +160,10 @@
       <li>  <a href="https://paintbytext.chat/"><b>paintBtext</b></a> 
             <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diff ★</b></a> </li>
       <li>  <a href="https://vectorizer.ai"><b>vectorizer.ai</b></a> 
-            <a href="https://www.genmo.ai/chat"><b>genmo</b></a> </li>
+            <a href="https://www.genmo.ai/chat"><b>genmo</b></a>
+            <a href="https://brandmark.io/ "><b>Logo</b></a> </li>
     </ul>
-
+       
 
     <h4>PIXELART</h4>
     <ul>
