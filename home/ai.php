@@ -144,6 +144,8 @@
             <a href="https://www.replicover.com/"><b>replicover+★</b></a>  </li>            
       <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
             <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
+      <li>  <a href="https://leonardo.ai"><b>leonardo.ai ★</b></a>  
+            <a href="https://www.youtube.com/watch?v=KKQDtBLla08"><b>tips</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
             <a href="https://deepfloyd.ai/"><b>site</b></a>  
             <a href="https://app.prodia.com/"><b>Prodia</b></a>  </li>
