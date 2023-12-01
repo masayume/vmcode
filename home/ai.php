@@ -134,6 +134,8 @@
             <a href="https://www.cutout.pro/?ref=masayume.it"><b>Cutout★</b></a>  </li>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>BING Create ★</b></a> </li>
+      <li>  <a href="https://leonardo.ai"><b>Leonardo.ai ★</b></a>  
+            <a href="https://www.youtube.com/watch?v=KKQDtBLla08"><b>tips</b></a>  </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
@@ -144,8 +146,6 @@
             <a href="https://www.replicover.com/"><b>replicover+★</b></a>  </li>            
       <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
             <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
-      <li>  <a href="https://leonardo.ai"><b>leonardo.ai ★</b></a>  
-            <a href="https://www.youtube.com/watch?v=KKQDtBLla08"><b>tips</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
             <a href="https://deepfloyd.ai/"><b>site</b></a>  
             <a href="https://app.prodia.com/"><b>Prodia</b></a>  </li>
