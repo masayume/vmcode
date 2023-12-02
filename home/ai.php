@@ -85,6 +85,11 @@
         </p>
     </details>
 
+    <h4>NEWS</h4>
+      <ul>
+        <li> <a href="https://twitter.com/rowancheung" target="_blank"><b>Rowan Cheung</b></a> 
+      </ul>
+
     <h4>AI models page</h4>
       <ul>
         <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
@@ -97,9 +102,10 @@
     <h4>GALLERIES</h4>
       <ul>
         <li> <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GeneratedImage</b></a> </li>
-        <li> <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
-        <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
-        <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li>
+        <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a>
+             <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
+        <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a>
+             <a href="https://pixlr.com/image-generator/"><b>Pixlr ★</b></a>  </li>
         <li> <a href="https://playgroundai.com/feed"><b>playgroundai.com</b></a>  </li>
         <li> <a href="https://openart.ai/@artificialartist/nijijourney"><b>openart.ai ★★</b></a></li>
         <li> <a href="https://civit.ai/" target="_blank">civit.ai</a> 
@@ -134,8 +140,9 @@
             <a href="https://www.cutout.pro/?ref=masayume.it"><b>Cutout★</b></a>  </li>
       <li>  <a href="https://labs.openai.com/"><b>Dall-e ★</b></a> 
             <a href="https://www.bing.com/images/create?FORM=GENILP"><b>BING Create ★</b></a> </li>
-      <li>  <a href="https://leonardo.ai"><b>Leonardo.ai ★</b></a>  
-            <a href="https://www.youtube.com/watch?v=KKQDtBLla08"><b>tips</b></a>  </li>
+      <li>  <a href="https://leonardo.ai"><b>Leonardo.ai★</b></a>  
+            <a href="https://www.youtube.com/watch?v=KKQDtBLla08"><b>?</b></a> 
+            <a href="https://pixlr.com/editor/"><b>Pixlr ★</b></a>  </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
