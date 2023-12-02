@@ -184,8 +184,8 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@drawthink/@drawwrite'          // 131  
                   , '/inspire/@TEXTURES'                      // 132  
                   , '/inspire/@drawthink/texturing'           // 133  
-                  , '/inspire/@AI'                            // 134  
-                  , '/inspire/@pixelart/ref-TEXT'             // 135  
+                  , '/inspire/@AI'                            // 134
+                  , '/inspire/@AI/ai-pixelart/'               // 135  
                   , '/inspire/@pixelart/src-MIXED'            // 136
                   , '/inspire/@CARTOONS/Magritte'
                   , '/inspire/@CARTOONS/myDixit'
@@ -224,13 +224,14 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@gnokkenland/Emma'
                   , '/inspire/@gnokkenland/Jennifer'
 // 170
-                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
+                  , '/inspire/@CARTOONS/BUTCHERBILLY'
                   , '/inspire/@gnokkenland/M/milena'
-                  , '/inspire/@gnokkenland/tPatricia'
+                  , '/inspire/@gnokkenland/M/tPatricia'
                   , '/inspire/@gnokkenland/M/milena.art'
-                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
-                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
-                  , '/inspire/@CARTOONS/BUTCHERBILLY'          
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             // 175  
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
 
                 );
 
