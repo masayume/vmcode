@@ -211,8 +211,9 @@
           <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
           <li><a href="https://onlinehtmleditor.dev/"><b>RT-EDITOR</b></a> 
               <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
-          <li><a href="https://edit.photo/?ref=masayume.it"><b>EDIT PHOTO</b></a>
-              <a href="https://uniqcode.com/typewriter/"><b>OverType</b></a></li>
+          <li><a href="https://edit.photo/?ref=masayume.it"><b>Edit.Photo ★</b></a>
+              <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a></li>
+          <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a></li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
               <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
