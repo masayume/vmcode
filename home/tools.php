@@ -89,8 +89,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
           <h4>TOOLS</h4>
           <ul>
-            <li> <a href="https://github.com/ellisonleao/magictools/commits/master">MAGIC TOOLS ★★</a> - 
-                 <a href="https://www.notion.so/" target="_blank"><b>Notion ★★</b></a> </li>
+            <li> <a href="https://1000.tools/" target="_blank"><b>1000 tools ★★</b></a> -
+                 <a href="https://github.com/ellisonleao/magictools/commits/master">MAGIC TOOLS ★★</a></li>
             <li> <a href="http://www.taskade.com/spaces/H1316-R3M" target="_blank">taskade</a> - 
                  <a href='https://www.devpen.io/editor'>github MD ★</a> </li>
             <li> <a href='/writing'>writing</a> -
