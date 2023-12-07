@@ -212,7 +212,8 @@
           <li><a href="https://onlinehtmleditor.dev/"><b>RT-EDITOR</b></a> 
               <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>Edit.Photo ★</b></a>
-              <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a></li>
+              <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a>
+              <a href="https://www.masayume.it/blog/content/pixlr"><b>??</b></a></li>
           <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a></li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
               <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
