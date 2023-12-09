@@ -145,12 +145,12 @@
             <a href="https://pixlr.com/editor/"><b>Pixlr ★</b></a>  </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
+      <li>  <a href="https://playgroundai.com/"><b>playgrndai★</b></a> 
+            <a href="https://poe.com/chat/2l7ao091hjkbzivnn9d"><b>poeSDXL★</b></a> </li> 
       <li>  <a href="https://clipdrop.co/stable-diffusion"><b>clipdropSD★</b></a> 
             <a href="https://clipdrop.co/uncrop"><b>uncrop★</b></a>  </li>
-      <li>  <a href="https://poe.com/chat/2l7ao091hjkbzivnn9d"><b>poe SDXL★</b></a> 
-            <a href="https://playgroundai.com/"><b>playgroundai</b></a> </li> 
-      <li>  <a href="https://www.phot.ai/ai-art-generator?tool=tti"><b>phot.ai tools</b></a>  
-            <a href="https://www.replicover.com/"><b>replicover+★</b></a>  </li>            
+      <li>  <a href="https://www.phot.ai/ai-art-generator?tool=tti"><b>phot.aiTools</b></a>  
+            <a href="https://www.replicover.com/"><b>replcover+★</b></a>  </li>            
       <li>  <a href="https://firefly.adobe.com/inspire/images#"><b>adobe firefly</b></a>  
             <a href="https://imgcreator.zmo.ai/"><b>imgcreator</b></a>  </li>
       <li>  <a href="https://huggingface.co/spaces/DeepFloyd/IF"><b>deepfloyd</b></a> 
@@ -162,6 +162,7 @@
             <a href="https://www.artbreeder.com/image/98be33492cace0d80982577ec211"><b>Artbreeder★</b></a> </li>
       <li>  <a href="https://removal.ai/upload/"><b>background remove</b></a> 
             <a href="https://www.masayume.it/blog9/web/content/remove-background"><b>my</b></a> </li>
+      <li>  <a href="https://magnific.ai/editor/"><b>UPSCALE: magnific.ai</b></a> </li>
       <li>  <a href="https://weirdwonderfulai.art/"><b>W.W.AI</b></a> 
             <a href="https://discord.com/channels/1004969787828473926/1004969788528934975"><b>discord</b></a> 
             <a href="https://huggingface.co/spaces/Shopify/background-replacement"><b>shopify</b></a> </li>
