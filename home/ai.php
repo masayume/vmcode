@@ -114,17 +114,17 @@
 
       
 
-    <h4>COLLECTIONS</h4>
+    <h4>TOOLS</h4>
       <ul>
-        <li> <a href="https://tinywow.com/?ref=masayume.it"><b>tinywow ★</b></a> </li>
+        <li> <a href="https://tinywow.com/?ref=masayume.it"><b>tinywow★</b></a> 
+             <a href="https://supertools.therundown.ai/"><b>supertools★</b></a> </li>
         <li> <a href="https://www.ilib.com/ai-websites"><b>ilib★</b></a> 
              <a href="https://www.masayume.it/blog9/web/content/ai-list-services-tools">my</a> 
              <a href="https://allthingsai.com/?ref=masayume.it">allthingsai</a> </li>
         <li> <a href="https://www.futurepedia.io/"><b>futurepedia.io★</b></a> 
-             <a href="https://supertools.therundown.ai/"><b>stools★</b></a> </li>
         <li> <a href="https://www.futuretools.io/">futuretools</a> 
-           <a href="https://aitools.fyi/">aitools</a> 
-           <a href="https://aidepot.co/">aidepot</a> </li>
+             <a href="https://aitools.fyi/">aitools</a> 
+             <a href="https://aidepot.co/">aidepot</a> </li>
       </ul>
       
   </div>
