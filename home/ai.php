@@ -331,11 +331,13 @@
 
           <h4>TtS</h4>
           <ul>
-            <li> <a href="https://huggingface.co/spaces/declare-lab/tango">TANGO T2Sound</a> </li>
-            <li> <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
-            <li> <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
-                <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
-            <li> <a href="https://huggingface.co/spaces/coqui/xtts">Coqui XTTS</a> </li>
+            <li>  <a href="https://audiobox.metademolab.com/capabilities/text_to_audio">Meta Audiobox★</a> </li>
+            <li>  <a href="https://huggingface.co/spaces/declare-lab/tango">TANGO T2Sound</a> </li>
+            <li>  <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
+            <li>  <a href="https://audiobox.metademolab.com/capabilities/tts_description_condition">Audiobox voices</a> </li>
+            <li>  <a href="https://huggingface.co/spaces/elevenlabs/tts">elevenlabs.HF</a> 
+                  <a href="https://beta.elevenlabs.io/?ref=masayume.it">beta</a> </li>
+            <li>  <a href="https://huggingface.co/spaces/coqui/xtts">Coqui XTTS</a> </li>
           </ul>
 
           <h4>StT</h4>
