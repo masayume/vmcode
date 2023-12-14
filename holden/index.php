@@ -228,7 +228,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@gnokkenland/M/milena'
                   , '/inspire/@gnokkenland/M/tPatricia'
                   , '/inspire/@gnokkenland/M/milena.art'
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@gnokkenland/M/Milena_working_dir'
                   , '/inspire/@pixelart/ref-TEXT'             // 175  
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
