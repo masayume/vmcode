@@ -232,6 +232,10 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/ref-TEXT'             // 175  
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+// 180
+                  , '/inspire/@pixelart/1bit/bitartbot'       // 180
 
                 );
 

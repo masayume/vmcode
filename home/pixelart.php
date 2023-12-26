@@ -83,6 +83,7 @@
               <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>1bit</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>bitartbot</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=121&art2=121"><b>lands REF</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=122&art2=122"><b>lands other</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=127&art2=127"><b>snap</b></a> </li>
