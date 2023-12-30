@@ -95,9 +95,9 @@
   
   <h4>holden</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC</b></a> 
+      <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>Misc</b></a> 
            <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
-           <a href="/HTML5/holden/index.php?art1=171&art2=171"><b>M</b></a>  
+           <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a> 
            <a href="/HTML5/holden/index.php?art1=125&art2=125"><b>@backs</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=11&art2=11"><b>masayume</b></a>  
            <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>covers</b></a>  
@@ -107,7 +107,8 @@
            <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b ></a>  
            <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Books</b></a>     
-          <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a> </li>
+           <a href="/HTML5/holden/index.php?art1=171&art2=171"><b>M</b></a>  
+           <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a>  </li>
     </ul>
 
 
@@ -162,11 +163,10 @@
 
 <div class="_exa">
 
-  <h4>ART</h4>
+  <h4>AI</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> 
-           <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
-      <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
+      <li> <a href="https://chat.openai.com/"><b>chatGPT</b></a>
+           <a href="https://bard.google.com/"><b>Bard</b></a> </li>
     </ul>
 
   <h4>ISO</h4>
@@ -302,6 +302,15 @@
     <ul>
           <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
     </ul>
+
+    <h4>ART</h4>
+    <ul>
+      <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> 
+           <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
+      <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
+    </ul>
+    
+
   </div>
 
 
