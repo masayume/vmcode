@@ -225,8 +225,7 @@
            <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGAN</b></a></li>
       <li> <a href="https://huggingface.co/spaces/aipicasso/cool-japan-diffusion-2-1-0-demo	">japan diff</a>
            <a href="https://huggingface.co/spaces/anzorq/finetuned_diffusion">finetuned diff</a> </li>
-      <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrmpt</a> 
-           <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrmpt</a> </li>
+      <li> <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrmpt</a> </li>
       <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> 
            <a href="https://huggingface.co/spaces/facebook/MusicGen">MusicGen</a> </li>
       <li> <a href="https://huggingface.co/spaces/Fantasy-Studio/Paint-by-Example">Paint-by-Example</a> </li>
@@ -318,6 +317,7 @@
 
     <h4>PROMPTS</h4>
     <ul>
+      <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> </li>      
       <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
       <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
       <li> <a href="https://twitter.com/nickfloats/status/1627157305040027648">consistent chars</a> </li>
