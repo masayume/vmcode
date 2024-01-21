@@ -340,13 +340,14 @@
           <li><a href="https://twitter.com/lookcaitlin/media"><b>archive lookcaitlin</b></a></li>    
         </ul>
   
-        <h4>covers</h4>
+        <h4>covers, posters</h4>
         <ul>
           <li> <a href="http://www.coverbrowser.com/"><b>coverBRW ■</b></a> </li>
           <li> <a href="https://twitter.com/70sscifi/media"><b>70s scifi ■</b></a> </li> 
           <li> <a href="https://twitter.com/retroscifiart/media"><b>retroscifi ■</b></a></li> 
           <li> <a href="https://twitter.com/CGdrawing/media"><b>aesthetic ■</b></a></li> 
-          <li> <a href="https://www.masayume.it/blog/content/locandine-cinematografiche"><b>cineposters ★</b></a></li> 
+          <li> <a href="https://www.masayume.it/blog/content/locandine-cinematografiche"><b>cineposters★</b></a>
+               <a href="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search"><b>coll</b></a></li> 
           <li> <a href="http://www.coverbrowser.com/a-z"><b>A-Z</b></a> - <a href="http://www.coverbrowser.com/artists"><b>artists</b></a> </li> 
           <li> <a href="http://www.coverbrowser.com/covers/new-yorker">New Yorker</a> </li>   
           <li> <a href="http://www.coverbrowser.com/covers/love-rockets">Love & Rockets</a> </li>   
