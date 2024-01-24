@@ -245,24 +245,24 @@
       "url": "https://lumalabs.ai/genie",
       "dir": "-"
     },
-    "AI#16": {
-      "name": "AI#16",
+    "Recraft": {
+      "name": "Recraft",
       "number": "160",
       "data_cat": "player",
-      "class": ["player", "tool", "game", "engine"],
+      "class": ["player", "tool", "pixelart", "tools"],
       "mechanics": ["MECH1", "MECH2"],
       "theme": ["THEME"],
-      "img": "160.png",
+      "img": "160.webp",
       "designer": "DESIGNER",
       "status": "todo", 
-      "year-start": 2022,
-      "year": 2022,
-      "length": 0,
-      "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
-      "url_WF": "pages/003-pico8.htm#Project01",
+      "year-start": 2024,
+      "year": 2024,
+      "length": 130,
+      "url": "https://app.recraft.ai",
+      "url_WF": "pages/003-recraft.htm#Project01",
       "dir": "-"
     },
-    "drupal": {
+    "AI#17": {
       "name": "AI#17",
       "number": "170",
       "data_cat": "player",
@@ -278,8 +278,41 @@
       "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
       "url_WF": "pages/004-drupal.htm#masayume",
       "dir": "-"
+    },
+    "AI#18": {
+      "name": "AI#18",
+      "number": "180",
+      "data_cat": "player",
+      "class": ["player", "tool", "game", "engine"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "180.png",
+      "designer": "DESIGNER",
+      "status": "todo", 
+      "year-start": 2022,
+      "year": 2022,
+      "length": 0,
+      "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
+      "url_WF": "pages/003-pico8.htm#Project01",
+      "dir": "-"
+    },
+    "AI#19": {
+      "name": "AI#19",
+      "number": "190",
+      "data_cat": "player",
+      "class": ["player", "tool", "content"],
+      "mechanics": ["MECH1", "MECH2"],
+      "theme": ["THEME"],
+      "img": "190.png",
+      "designer": "DESIGNER",
+      "status": "todo", 
+      "year-start": 2003,
+      "year": 2023,
+      "length": 0,
+      "url": "https://github.com/masayume/DigitalGarden/tree/main/engineering-code/pico-8",
+      "url_WF": "pages/004-drupal.htm#masayume",
+      "dir": "-"
     }
-
 
   },
   "template":
