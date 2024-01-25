@@ -329,8 +329,10 @@
         <summary><h3><b>SOUND ⬇️</h3></strong></summary> 
         <p>
 
+        
           <h4>TtS</h4>
           <ul>
+            <li>  <a href="https://textreader.ai/">textreader★</a> </li>
             <li>  <a href="https://audiobox.metademolab.com/capabilities/text_to_audio">Meta Audiobox★</a> </li>
             <li>  <a href="https://huggingface.co/spaces/declare-lab/tango">TANGO T2Sound</a> </li>
             <li>  <a href="https://huggingface.co/spaces/Matthijs/speecht5-tts-demo">speecht5-tts</a> </li>
