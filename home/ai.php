@@ -195,7 +195,8 @@
       <li>  <a href="https://toolbaz.com/?ref=masayume.it"><b>toolbaz★</b></a> </li>
       <li>  <a href="https://labs.kagi.com/fastgpt?utm_source=masayume.it"><b>fastGPT★</b></a> 
             <a href="https://chat.openai.com/chat"><b>chatGPT★</b></a> edge</li>
-      <li>  <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
+      <li>  <a href="https://bard.google.com"><b>BARD ★</b></a> 
+            <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
       <li>  <a href="https://klavier.ai/"><b>klavierPDF★</b></a> 
             <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
       <li>  <a href="https://beta.character.ai/"><b>character ★</b></a> 
