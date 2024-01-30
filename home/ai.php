@@ -189,10 +189,11 @@
   </div>
 
   <div class="_exa">
-
+  
   <h4>TEXT AI TOOLS</h4>
     <ul> 
-      <li>  <a href="https://toolbaz.com/?ref=masayume.it"><b>toolbaz★</b></a> </li>
+      <li>  <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard?ref=masayume.it"><b>ChatLeaderboard★</b></a> 
+            <a href="https://toolbaz.com/?ref=masayume.it"><b>toolbaz</b></a> </li>
       <li>  <a href="https://labs.kagi.com/fastgpt?utm_source=masayume.it"><b>fastGPT★</b></a> 
             <a href="https://chat.openai.com/chat"><b>chatGPT★</b></a> edge</li>
       <li>  <a href="https://bard.google.com"><b>BARD ★</b></a> 
