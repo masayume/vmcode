@@ -196,7 +196,7 @@
             <a href="https://toolbaz.com/?ref=masayume.it"><b>toolbaz</b></a> </li>
       <li>  <a href="https://labs.kagi.com/fastgpt?utm_source=masayume.it"><b>fastGPT★</b></a> 
             <a href="https://chat.openai.com/chat"><b>chatGPT★</b></a> edge</li>
-      <li>  <a href="https://bard.google.com"><b>BARD ★</b></a> 
+      <li>  <a href="https://gemini.google.com"><b>GEMINI★</b></a> 
             <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
       <li>  <a href="https://klavier.ai/"><b>klavierPDF★</b></a> 
             <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
@@ -319,6 +319,10 @@
 
     <h4>PROMPTS</h4>
     <ul>
+
+    
+      <li> <a href="https://drawzer.com/?utm_source=masayume.it">Drawzer</a> </li>      
+      <li> <a href="https://mitenmit.github.io/gpt">ChatGPT Prompts</a> </li>      
       <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> </li>      
       <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
       <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
