@@ -56,6 +56,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
           <a href="https://www.pdflabs.com/docs/pdftk-cli-examples/">CLI</a></li>
     </ul>
 
+  <h4>MOBILE</h4>  
+  <ul>
+    <li>  <a href="http://192.168.1.16:1200/"><b>REALME file comm</b></a> </li>
+    </ul>
+
+    
   <h4>FONTS</h4>  <!-- also in PIXELART -->
   <ul>
     <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
@@ -101,12 +107,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
           <h4>WEEKLY done</h4>
             <ul>
-              <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a></li> 
-              <li> <a href="/HTML5/taktix/">Oblique Taktix</a> </li>
-              <li> <a href="/inspire/@CARTOONS/SIO/bin/sio.php">siomixbot</a> - <a href="https://twitter.com/siomixbot"></a></li>
-              <li> <a href="/oglaf.php">Oglaf RND comic</a> </li>
-              <li> <a href="/rory.php">rory story cubes</a> </li>
-              <li> <a href="/mersenne/mersenne.php">mersenne general</a> </li>
+              <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a>
+                   <a href="/HTML5/taktix/">Oblique Taktix</a> </li>
+              <li> <a href="/inspire/@CARTOONS/SIO/bin/sio.php">siomixbot</a> - <a href="https://twitter.com/siomixbot"></a>
+                   <a href="/oglaf.php">Oglaf RND comic</a> </li>
+              <li> <a href="/rory.php">rory story cubes</a>
+                   <a href="/mersenne/mersenne.php">mersenne general</a> </li>
             </ul>    
   </div>
 
