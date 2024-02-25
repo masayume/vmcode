@@ -223,7 +223,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     </ul>
 
           <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
-          <details>
+      <details>
         <summary><strong><b>DIFFUSION MODELS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
@@ -280,79 +280,103 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <div class="_exa">
     <h4>Sprites</h4>
-  <ul>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Akuma">Akuma</a>, 
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Athena%20Asamiya">Athena</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Balrog">Balrog</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Benimaru%20Nikaido">Benimaru</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Blanka">Blanka</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Cammy">Cammy</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Chun-Li">Chun-Li</a>, 
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Dan%20Hibiki">Dan H.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Dhalsim">Dhalsim</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Eagle">Eagle</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Edmund%20Honda">Honda</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Evil%Ryu">Evil Ryu</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Geese%20Howard">G.Howard</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/God%20Rugal">G.Rugal</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Guile">Guile</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Haohmaru">Haohmaru</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Hibiki">Hibiki</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Iori%20Yagami">Yagami</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Joe%20Higashi">Higashi</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ken%20Masters">Ken</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kim%20Kaphwan">Kim K.</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/King">King</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kyo%20Kusanagi">Kyo K.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kyosuke">Kyosuke</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/M.%20Bison">M. Bison</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Mai%20Shiranui">Mai S.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Maki">Maki</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Morrigan%20Aensland">Morrigan</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Nakoruru">Nakoruru</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Orochi%20Iori">Orochi</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Raiden">Raiden</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rock%20Howard">Rock H.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rolento">Rolento</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rugal%20Bernstein">Rugal B.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ryo%20Sakazaki">Ryo S.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ryu">Ryu</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Sagat">Sagat</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Sakura%20Kasugano">Sakura K.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Shin%20Akuma">S.Akuma</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Terry%20Bogard">Terry B.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Todoh">Todoh</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Vega">Vega</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Vice">Vice</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yamazaki">Yamazaki</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yun">Yun</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yuri%20Sakazaki">Yuri S.</a>,
-        <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Zangief">Zangief</a></li>
-    </ul>
-    <h4>Sprites RCG</h4>
-    <ul>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Kyoko">Kyoko</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Misako">Misako</a> </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Cheerleader">Cheerleader</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Cyborg">Cyborg</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Hanase%20Mami">Hanase-Mami</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Kunio">Kunio</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Linda">Linda</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Misuzu">Misuzu</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/MT">MT</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Noize">Noize</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Policeman">Policeman</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Trasher">Trasher</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Waver">Waver</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Riki">Riki</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/School%20Boy">School%20Boy</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/School%20Girl">School%20Girl</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Tigerman">Tigerman</a>,
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yamada">Yamada</a>, </li>
-      <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yakuza%20Female">Yakuza F</a>, 
-          <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yakuza%20Male">Yakuza M</a>, </li>
 
+    <details>
+      <summary><strong><b>Sprites ⬇️</b></strong></summary> 
+      <p>    
+    
+        <ul>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Akuma">Akuma</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Athena%20Asamiya">Athena</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Balrog">Balrog</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Benimaru%20Nikaido">Benimaru</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Blanka">Blanka</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Cammy">Cammy</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Chun-Li">Chun-Li</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Dan%20Hibiki">Dan H.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Dhalsim">Dhalsim</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Eagle">Eagle</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Edmund%20Honda">Honda</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Evil%Ryu">Evil Ryu</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Geese%20Howard">G.Howard</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/God%20Rugal">G.Rugal</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Guile">Guile</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Haohmaru">Haohmaru</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Hibiki">Hibiki</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Iori%20Yagami">Yagami</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Joe%20Higashi">Higashi</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ken%20Masters">Ken</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kim%20Kaphwan">Kim K.</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/King">King</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kyo%20Kusanagi">Kyo K.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Kyosuke">Kyosuke</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/M.%20Bison">M. Bison</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Mai%20Shiranui">Mai S.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Maki">Maki</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Morrigan%20Aensland">Morrigan</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Nakoruru">Nakoruru</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Orochi%20Iori">Orochi</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Raiden">Raiden</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rock%20Howard">Rock H.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rolento">Rolento</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Rugal%20Bernstein">Rugal B.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ryo%20Sakazaki">Ryo S.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Ryu">Ryu</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Sagat">Sagat</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Sakura%20Kasugano">Sakura K.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Shin%20Akuma">S.Akuma</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Terry%20Bogard">Terry B.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Todoh">Todoh</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Vega">Vega</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Vice">Vice</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yamazaki">Yamazaki</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yun">Yun</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Yuri%20Sakazaki">Yuri S.</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/Zangief">Zangief</a></li>
+        </ul>
+      </p>
+    </details>
+
+
+    <details>
+      <summary><strong><b>Sprites RCG ⬇️</b></strong></summary> 
+      <p>    
+    
+        <ul>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Kyoko">Kyoko</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Misako">Misako</a> </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Cheerleader">Cheerleader</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Cyborg">Cyborg</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Hanase%20Mami">Hanase-Mami</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Kunio">Kunio</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Linda">Linda</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Misuzu">Misuzu</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/MT">MT</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Noize">Noize</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Policeman">Policeman</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Trasher">Trasher</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Waver">Waver</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Riki">Riki</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/School%20Boy">School%20Boy</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/School%20Girl">School%20Girl</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Tigerman">Tigerman</a>,
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yamada">Yamada</a>, </li>
+          <li><a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yakuza%20Female">Yakuza F</a>, 
+              <a href="/HTML5/holden/index.php?folder=@pixelart/SPRITES/_RiverCityGirls/Yakuza%20Male">Yakuza M</a>, </li>
+
+        </ul>
+
+      </p>
+    </details>
+
+    <h4>Downloaders</h4>
+    <ul>
+      <li><a href="https://cobalt.tools/"><b>cobalt ★</b></a> </li>
+      <li><a href="https://fdownloader.net/en"><b>facebookD ★</b></a> </li>
+      <li><a href="https://snapinsta.app/"><b>snapinsta ★</b></a> </li>
+      <li><a href="https://imginn.com/"><b>imginn ★</b></a> </li>
     </ul>
+
 
   </div>
 
@@ -539,7 +563,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <div class="_exa">
 
-    <h4>RANDOM GENs</h4> <!-- also in INSPIRE -->
+    <h4>RANDOM GENs</h4> <!-- also in INDEX, INSPIRE -->
     <ul>
       <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>uchida mersenne ★</b></a> </li>
       <li><a href="/keplerion/mersenne-01.php">mersenne-01</a> <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-02-demon</a> </li>

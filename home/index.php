@@ -228,7 +228,7 @@
           <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
 
-        <h4>RANDOM GENs</h4>
+        <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
         <ul>
         <li><a href="/keplerion/mersenne-01.php">mersenne-01</a> <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-02-demon</a> </li>
         <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>mersenne uchida</b></a></li>          

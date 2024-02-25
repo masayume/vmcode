@@ -527,7 +527,7 @@
 
   
   <div class="_exa">
-    <h4>RANDOM GENs</h4> <!-- also in TOOLS -->
+    <h4>RANDOM GENs</h4> <!-- also in INDEX, TOOLS -->
       <ul>
         <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>uchida mersenne ★</b></a> </li>
         <li><a href="/keplerion/mersenne-01.php">mersenne-01</a> <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-02-demon</a> </li>
