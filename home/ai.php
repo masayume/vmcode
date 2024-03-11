@@ -320,10 +320,10 @@
 
     <h4>PROMPTS</h4>
     <ul>
-
     
       <li> <a href="https://drawzer.com/?utm_source=masayume.it">Drawzer</a> </li>      
-      <li> <a href="https://mitenmit.github.io/gpt">ChatGPT Prompts</a> </li>      
+      <li> <a href="https://docs.anthropic.com/claude/prompt-library">Antr.PromptLib</a> </li>      
+      <li> <a href="https://drawzer.com/?utm_source=masayume.it">Drawzer</a> </li>      
       <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> </li>      
       <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
       <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
