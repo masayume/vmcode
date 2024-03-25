@@ -79,7 +79,8 @@
   <div class="_exa">
     <h4>LISTENING</h4>
     <ul>
-      <li> <a href="https://www3.nhk.or.jp/news/easy/"><b>NHK news easy</b> ★</a> </li>
+      <li> <a href="https://www.youtube.com/@WALKSJAPAN/videos"><b>Walks Japan ★★</b> </a> </li>
+      <li> <a href="https://www3.nhk.or.jp/news/easy/"><b>NHK news easy ★</b> </a> </li>
       <li> <a href="https://librivox.org/search?primary_key=35&search_category=language&search_page=1&search_form=get_results">Librivox jbooks ★</a> </li>      
       <li> <a href="https://www.youtube.com/watch?v=Wxsnr7knQqI&list=PL0Q1d6dxwVT8y4oqisz64_6c1QoV00JBV">kodomo no uta</a> </li>    
       <li> <a href="https://www.japanesepod101.com/">podcasts j101</a> </li>
