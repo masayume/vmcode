@@ -163,6 +163,7 @@
             <a href="https://www.artbreeder.com/image/98be33492cace0d80982577ec211"><b>Artbreeder★</b></a> </li>
       <li>  <a href="https://removal.ai/upload/"><b>background remove</b></a> 
             <a href="https://www.masayume.it/blog9/web/content/remove-background"><b>my</b></a> </li>
+      <li>  <a href="https://img.coframe.ai/"><b>coframe background★</b></a> </li> 
       <li>  <a href="https://magnific.ai/editor/"><b>UPSCALE: magnific.ai</b></a> </li>
       <li>  <a href="https://weirdwonderfulai.art/"><b>W.W.AI</b></a> 
             <a href="https://discord.com/channels/1004969787828473926/1004969788528934975"><b>discord</b></a> 
