@@ -2479,6 +2479,22 @@
       "length": 224,
       "dir": "books/",
       "url": "https://www.goodreads.com/book/show/62313346-excellent-advice-for-living"
+    },
+    "ADictionaryOfSymbols": {
+      "name": "A Dictionary of Symbols",
+      "number": "162",
+      "data_cat": "player",
+      "class": ["books", "tips", "symbolism", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0162.jpg",
+      "author": "Juan Eduardo Cirlot",
+      "store": "???", 
+      "weight": "", 
+      "year": 1958,
+      "players": [1],
+      "length": 528,
+      "dir": "books/",
+      "url": "https://www.goodreads.com/en/book/show/211589"
     }
 
 
