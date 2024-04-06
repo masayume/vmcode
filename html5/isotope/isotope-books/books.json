@@ -2495,8 +2495,39 @@
       "length": 528,
       "dir": "books/",
       "url": "https://www.goodreads.com/en/book/show/211589"
+    },
+    "TheActOfCreation": {
+      "name": "The Act Of Creation",
+      "number": "163",
+      "data_cat": "player",
+      "class": ["books", "tips", "creativity", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0163.jpg",
+      "author": "Arthur Koestler",
+      "store": "???", 
+      "weight": "", 
+      "year": 1964,
+      "players": [1],
+      "length": 528,
+      "dir": "books/",
+      "url": "https://www.goodreads.com/book/show/30676.The_Act_of_Creation"
+    },
+    "LaViaDeiTarocchi": {
+      "name": "La Via Dei Tarocchi",
+      "number": "164",
+      "data_cat": "player",
+      "class": ["books", "tips", "creativity", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0164.jpg",
+      "author": "Alejandro Jodorowsky, Marianne Costa",
+      "store": "???", 
+      "weight": "", 
+      "year": 2004,
+      "players": [1],
+      "length": 552,
+      "dir": "fisico",
+      "url": "https://www.goodreads.com/en/book/show/6551807"
     }
-
 
 
 
