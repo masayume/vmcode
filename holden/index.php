@@ -229,13 +229,35 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@gnokkenland/M/tPatricia'
                   , '/inspire/@gnokkenland/M/milena.art'
                   , '/inspire/@gnokkenland/M/Milena_working_dir'
-                  , '/inspire/@pixelart/ref-TEXT'             // 175  
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@gnokkenland/M/galleries/t-Johanna'   // 175
+                  , '/inspire/@gnokkenland/M/galleries/t-Jenny'
+                  , '/inspire/@gnokkenland/M/galleries/t-Patricia'
+                  , '/inspire/@gnokkenland/M/galleries/t-Saladams'
                   , '/inspire/@pixelart/ref-TEXT'             
 // 180
                   , '/inspire/@pixelart/1bit/bitartbot'       // 180
+                  , '/inspire/TAROT/marseille'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+// 190                  
+                  , '/inspire/@pixelart/ref-TEXT'             // 190 
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+
+                  , '/inspire/@pixelart/ref-TEXT'             // 200
 
                 );
 
