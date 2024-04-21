@@ -143,7 +143,8 @@
       <li>  <a href="https://leonardo.ai"><b>Leonardo.ai★</b></a>  
             <a href="https://www.youtube.com/watch?v=KKQDtBLla08"><b>?</b></a> 
             <a href="https://pixlr.com/editor/"><b>Pixlr ★</b></a>  </li>
-      <li>  <a href="https://copilot.microsoft.com/"><b>Copilot★</b></a> </li>
+      <li>  <a href="https://copilot.microsoft.com/"><b>Copilot★</b></a> 
+            <a href="https://visualelectric.com/inspo"><b>Visualelectric★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://playgroundai.com/"><b>playgrndai★</b></a> 
