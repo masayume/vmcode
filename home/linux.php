@@ -49,7 +49,7 @@
     <h4>PAGES</h4>
       <ul>
         <li> <a href="tools.php" target="_blank"><b>TOOLS</b></a> 
-             <a href=df"godot.php" target="_blank"><b>GODOT</b></a>
+             <a href="godot.php" target="_blank"><b>GODOT</b></a>
              <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
         <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
              <a href="nihongo.php" target="_blank"><b>NIHONGO</b></a>
@@ -61,6 +61,7 @@
 
     <h4>TOOLS</h4>
       <ul>
+        <li> <a href="" target="_blank"><b>nomachine connect</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/content/cool-retro-term" target="_blank"><b>CoolRetroTerm</b></a> 
              <a href="https://www.masayume.it/blog/taxonomy/term/45" target="_blank"><b>myTools</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/content/wezterm" target="_blank"><b>WezTerm</b></a> 
