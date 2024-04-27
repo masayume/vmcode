@@ -2527,8 +2527,55 @@
       "length": 552,
       "dir": "fisico",
       "url": "https://www.goodreads.com/en/book/show/6551807"
+    },
+    "GPsicologia": {
+      "name": "Garzantine Psicologia",
+      "number": "165",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0165.jpg",
+      "author": "Umberto Galimberti",
+      "store": "???", 
+      "weight": "", 
+      "year": 1999,
+      "players": [1],
+      "length": 1264,
+      "dir": "fisico",
+      "url": "https://www.garzanti.it/libri/umberto-galimberti-psicologia-9788811504795/"
+    },
+    "IPsicologia": {
+      "name": "Introduzione alla Psicologia",
+      "number": "166",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0166.jpg",
+      "author": " M. Manca, V. De Blasi, A. Vitale",
+      "store": "???", 
+      "weight": "", 
+      "year": 2010,
+      "players": [1],
+      "length": 144,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/Introduzione-alla-psicologia-M-Manca/dp/8865310375"
+    },
+    "Apsicologia": {
+      "name": "Psicologia Generale",
+      "number": "167",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0167.jpg",
+      "author": "Robert S. Feldman, Guido Amoretti, Maria Rita Ciceri",
+      "store": "???", 
+      "weight": "", 
+      "year": 2021,
+      "players": [1],
+      "length": 502,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/Psicologia-generale-connect-Robert-Feldman/dp/8838699305/ref=sr_1_1"
     }
-
 
 
   },
