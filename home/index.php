@@ -270,7 +270,9 @@
                  <a href="/inspire/@CARTOONS/SIO/bin/sio.php"><b>siomixbot</b></a> </a>
                  <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> </li>
             <li> <a href="/oglaf.php">Oglaf RND comic</a> 
-                 <a href="/rory.php">rory story cubes</a> </li>
+                 <a href="/rory.php">rory story cubes</a> 
+                 <a href="/HTML5/holden/index.php?art1=182&art2=182"><b>tarot jodorovski</b></a> </li>
+                 
           </ul>
       
       <h4>open source</h4>
