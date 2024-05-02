@@ -9,11 +9,11 @@
   <title>masayume - HOLDEN - random viz browser (WiP)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 <!------ sidebar ---------->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
@@ -330,7 +330,8 @@ if ( !isset($_GET['art']) && !isset($_GET['art1']) && !isset($_GET['folder']) &&
       </ul>
 
         <!-- LEFT SIDE TAGS -->
-        <h5>TAGS (<a title='<?php print $artists[$_GET['art1']]; ?>'><?php print $_GET['art1']; ?></a>)</h5><ul style="margin-left:-28px;">
+        <h5>TAGS (<a title='<?php print $artists[$_GET['art1']]; ?>'><?php print $_GET['art1']; ?></a>)</h5>
+        <ul  style='list-style-type: none; margin-left:-38px;'>
         <!--
         <li><a href='refURL'>ref</a></li>
           <pre>
@@ -375,7 +376,7 @@ if ( !isset($_GET['art']) && !isset($_GET['art1']) && !isset($_GET['folder']) &&
     <div id="references" style="width: 90px; position:absolute; right: 0px;">
         <h5 style="position:relative; right: -0px; ">TAGS <a title='<?php print $artists[$_GET['art1']]; ?>'><?php print $_GET['art1']; ?></a></h5>
         
-        <ul>
+        <ul style='list-style-type: none; margin-left: -38px;'>
         
           <?php
                 // Read the JSON file; note:  $artists[$_GET['art']] = /inspire/@COVERS/retrocovers
@@ -391,7 +392,7 @@ if ( !isset($_GET['art']) && !isset($_GET['art1']) && !isset($_GET['folder']) &&
                     if ($counter > $limit) {
                       $counter++;
                       $NOTAG = $_GET;  unset($NOTAG['tag1']) ;   unset($NOTAG['tag2']);
-                      print "<li style=\"height: 16px; margin-left: -24px;\"> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";
+                      print "<li style=\"height: 16px; \"> <a href='index.php?" . http_build_query($NOTAG) . "&tag1=" . $key . "&tag2=" . $key . "' title='" . $value . "'>" . $key . "</a> </li>";
                     } else {
                       $counter++;
                     }
@@ -412,14 +413,14 @@ if ( !isset($_GET['art']) && !isset($_GET['art1']) && !isset($_GET['folder']) &&
                 if ( isset($json_data['urls']) ) {
 
                   echo "<h5 style=\"position:relative; right: -0px; \">URLS</h5>       ";
-                  echo "<ul>";
+                  echo "<ul style='list-style-type: none; margin-left: -18px;'>";
 
                   // Decode the JSON file
                   $json_data = json_decode($json,true);
                   if ($json_data) {
                     foreach ($json_data['urls'] as $key => $value) {
                         $counter++;
-                        print "<li style=\"margin-left: -34px;\"> <a href='" . $value . "' target='_blank'>" . $key . "</a> </li>";
+                        print "<li style=\"margin-left: -34px; height: 16px; \"> <a href='" . $value . "' target='_blank'>" . $key . "</a> </li>";
                     }
                   }
 

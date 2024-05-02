@@ -247,7 +247,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@AI/faces/', 'inspire/@AI/lands/');
+      $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/faces/', 'inspire/@AI/lands/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -430,12 +430,10 @@
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/Douggy Pledger/FILM/', 'inspire/@AI/Douggy Pledger/Monster Mash/', 
-                          'inspire/@AI/Douggy Pledger/other/', 'inspire/@AI/Douggy Pledger/shining/', 
-                          'inspire/@AI/Douggy Pledger/star wars/', 'inspire/@AI/Douggy Pledger/Stronzo Toys/');
+      $ai_dirs    = array('inspire/@AI/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
@@ -471,6 +469,16 @@
         <li>  <a href="https://twitter.com/noir_random/media">noirndom</a>
               <a href="https://twitter.com/magnasoma/media">magnasoma</a> </li>
       </ul>
+
+    <h4>HASHTAGS</h4>
+      <ul>
+        <li> <a href="https://twitter.com/hashtag/synthography" target="_blank"><b>#synthography</b></a> </li> 
+        <li> <a href="https://twitter.com/hashtag/stablediffusionart"><b>#stablediffusion★</b></a></li>  
+        <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a> </li>
+        <li> <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a> </li>  
+      </ul>
+      
+
   </div>
 
 
@@ -514,7 +522,10 @@
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
+      $ai_dirs    = array('inspire/@AI/Douggy Pledger/FILM/', 'inspire/@AI/Douggy Pledger/Monster Mash/', 
+      'inspire/@AI/Douggy Pledger/other/', 'inspire/@AI/Douggy Pledger/shining/', 
+      'inspire/@AI/Douggy Pledger/star wars/', 'inspire/@AI/Douggy Pledger/Stronzo Toys/',
+      'inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
@@ -550,15 +561,7 @@
   </div>
 
 
-  <div class="_exa">
-    <h4>HASHTAGS</h4>
-      <ul>
-        <li> <a href="https://twitter.com/hashtag/synthography" target="_blank"><b>#synthography</b></a> </li> 
-        <li> <a href="https://twitter.com/hashtag/stablediffusionart"><b>#stablediffusion★</b></a></li>  
-        <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a> </li>
-        <li> <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a> </li>  
-      </ul>
-  </div>
+
 
   
 
