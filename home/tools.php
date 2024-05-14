@@ -35,9 +35,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   <h4>WEB TOOLS</h4> <!-- also in INSPIRE -->
   <ul>
     <li><a href="https://onlinehtmleditor.dev/"><b>htmleditor★</b></a>
-        <a href="https://numbr.dev/?ref=masayume.it"><b>numbr★</b></a></li>
-    <li><a href="https://photomosh.com/"><b>photomosh ★</b></a></li>
-    <li><a href="https://stackblitz.com/"><b>stackblitz★</b></a></li>
+        <a href="https://numbr.dev/?ref=masayume.it" title="excel alternative"><b>numbr★</b></a></li>
+    <li><a href="https://photomosh.com/"><b>photomosh★</b></a></li>
+    <li><a href="https://snappa.com/" title="canva alternative"><b>snappa★</b></a>
+        <a href="https://stackblitz.com/" title="canva alternative"><b>stackblitz★</b></a></li>
     <li><a href="http://www.colorzilla.com/gradient-editor/"><b>gradient</b></a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
     <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a>
         <a href="http://jupyter.org/"><b>jupyter</b></a></li>
@@ -126,6 +127,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>IMAGE TOOLS</h4>
       <ul>
+        <li> <a href="https://imgupscaler.com/?utm_source=masayume.it"><b>image upscaler ★</b></a>
         <li> <a href="https://cleanup.pictures/?utm_source=masayume.it"><b>image cleanup ★</b></a>
       </ul>
 
