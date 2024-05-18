@@ -172,11 +172,11 @@
   <h4>ISO</h4>
     <ul>
       <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
-           <a href="/html5/isotope/isotope-books/"><b>books</b></a> 
+           <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
            <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
       <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
            <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelart WF</b></a> </li>
+      <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> </li>
       <li> <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
       <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> </li>
       <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
