@@ -2528,21 +2528,21 @@
       "dir": "fisico",
       "url": "https://www.goodreads.com/en/book/show/6551807"
     },
-    "GPsicologia": {
-      "name": "Garzantine Psicologia",
+    "IoITarocchi": {
+      "name": "Io, I Tarocchi",
       "number": "165",
       "data_cat": "player",
       "class": ["books", "psychology"],
       "theme": ["arcade", "meta"],
       "img": "0165.jpg",
-      "author": "Umberto Galimberti",
+      "author": "Alejandro Jodorowsky",
       "store": "???", 
       "weight": "", 
-      "year": 1999,
+      "year": 2021,
       "players": [1],
-      "length": 1264,
+      "length": 190,
       "dir": "fisico",
-      "url": "https://www.garzanti.it/libri/umberto-galimberti-psicologia-9788811504795/"
+      "url": "https://www.goodreads.com/book/show/112925573-io-i-tarocchi"
     },
     "IPsicologia": {
       "name": "Introduzione alla Psicologia",
@@ -2575,6 +2575,38 @@
       "length": 502,
       "dir": "fisico",
       "url": "https://www.amazon.it/Psicologia-generale-connect-Robert-Feldman/dp/8838699305/ref=sr_1_1"
+    },
+    "J1psicologia": {
+      "name": "Psicologia dell'inconscio",
+      "number": "168",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0168.jpg",
+      "author": "Carl Gustav Jung",
+      "store": "???", 
+      "weight": "", 
+      "year": 1916,
+      "players": [1],
+      "length": 585,
+      "dir": "fisico",
+      "url": "https://www.goodreads.com/book/show/59439073-psicologia-dell-inconscio"
+    },
+    "GPsicologia": {
+      "name": "Garzantine Psicologia",
+      "number": "169",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0169.jpg",
+      "author": "Umberto Galimberti",
+      "store": "???", 
+      "weight": "", 
+      "year": 1999,
+      "players": [1],
+      "length": 1264,
+      "dir": "fisico",
+      "url": "https://www.garzanti.it/libri/umberto-galimberti-psicologia-9788811504795/"
     }
 
 
