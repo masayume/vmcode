@@ -2607,7 +2607,40 @@
       "length": 1264,
       "dir": "fisico",
       "url": "https://www.garzanti.it/libri/umberto-galimberti-psicologia-9788811504795/"
+    },
+    "Psicologia01": {
+      "name": "The Graphical Language of Insanity",
+      "number": "170",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0170.jpg",
+      "author": "Vittorino Andreoli",
+      "store": "???", 
+      "weight": "", 
+      "year": 1999,
+      "players": [1],
+      "length": 186,
+      "dir": "fisico",
+      "url": "https://opac.bncf.firenze.sbn.it/Record/RML0086218"
+    },
+    "Psicologia02": {
+      "name": "Psicologia del Giudizio e della decisione",
+      "number": "171",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0171.jpg",
+      "author": "N. Bonini, F. Del Missier, R. Rumiati",
+      "store": "???", 
+      "weight": "", 
+      "year": 2008,
+      "players": [1],
+      "length": 284,
+      "dir": "fisico",
+      "url": "https://www.mulino.it/isbn/9788815126009"
     }
+
 
 
   },
