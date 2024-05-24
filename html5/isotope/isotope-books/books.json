@@ -2639,6 +2639,38 @@
       "length": 284,
       "dir": "fisico",
       "url": "https://www.mulino.it/isbn/9788815126009"
+    },
+    "Psicologia03": {
+      "name": "La psicoanalisi Un percorso concettuale fra tradizione e attualità",
+      "number": "172",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0172.jpg",
+      "author": "Adriana Lis, Claudia Mazzeschi, Alessandro Zennaro",
+      "store": "???", 
+      "weight": "", 
+      "year": 2021,
+      "players": [1],
+      "length": 358,
+      "dir": "fisico",
+      "url": "https://www.carocci.it/prodotto/la-psicoanalisi-2"
+    },
+    "Psicologia04": {
+      "name": "Introduzione alla Psicologia delle Emozioni",
+      "number": "173",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0173.jpg",
+      "author": "Valentina D'Urso, Rosanna Trentin",
+      "store": "???", 
+      "weight": "", 
+      "year": 2001,
+      "players": [1],
+      "length": 416,
+      "dir": "fisico",
+      "url": "https://www.laterza.it/scheda-libro/?isbn=9788842063841"
     }
 
 
