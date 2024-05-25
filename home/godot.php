@@ -118,6 +118,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         <li> <a href="https://livellosegreto.it/tags/godotengine"><b>#godotengine</b></a> </li>
       </ul>
 
+      
+      <h4>CODE</h4>
+      <ul>
+        <li> <a href="https://godbolt.org/z/sbYh6vW8M"><b>Compiler Explorer</b></a> </li>
+      </ul>
+
+      
       <h4>ALGORITHMS</h4>
       <ul>
         <li> <a href="https://github.com/tlobig/godot-procedural-generation/tree/godot4update"><b>Godot procgen</b></a> </li>
