@@ -2671,9 +2671,23 @@
       "length": 416,
       "dir": "fisico",
       "url": "https://www.laterza.it/scheda-libro/?isbn=9788842063841"
+    },
+    "Psicologia05": {
+      "name": "Psicologia Sociale",
+      "number": "174",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0174.jpg",
+      "author": "Elliot Aronson , Timothy D. Wilson, Robin M. Akert",
+      "store": "???", 
+      "weight": "", 
+      "year": 2013,
+      "players": [1],
+      "length": 334,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/Psicologia-sociale-Elliot-Aronson/dp/8815246274"
     }
-
-
 
   },
   "template":
