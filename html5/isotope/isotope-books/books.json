@@ -2687,6 +2687,23 @@
       "length": 334,
       "dir": "fisico",
       "url": "https://www.amazon.it/Psicologia-sociale-Elliot-Aronson/dp/8815246274"
+    },
+    "Rettorica": {
+      "name": "Elementi di Rettorica",
+      "number": "175",
+      "data_cat": "player",
+      "class": ["books", "vintage"],
+      "theme": ["arcade", "meta"],
+      "img": "0175.jpg",
+      "author": "Giuseppe Riguttini",
+      "store": "???", 
+      "weight": "", 
+      "year": 1887,
+      "edition": 5,
+      "players": [1],
+      "length": 438,
+      "dir": "fisico",
+      "url": "https://www.ibs.it/elementi-di-rettorica-compilati-per-libri-vintage-giuseppe-rigutini/e/2570071750855"
     }
 
   },

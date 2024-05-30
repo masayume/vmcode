@@ -43,6 +43,7 @@
   <button class="button" data-filter=".digital">digital</button>
   <button class="button" data-filter=".nihongo">nihongo</button>
   <button class="button" data-filter=".psychology">psych/creat</button>
+  <button class="button" data-filter=".vintage">vintage</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
   <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
