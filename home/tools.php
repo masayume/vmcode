@@ -157,10 +157,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
             <li> <a href="/html5/gengrid/dist/">generative grid ★</a> </li>
             <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
             <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
-          </ul>
-
-    <h4>GENERATIVE</h4>
-          <ul>
             <li> <a href="https://polyhedra.tessera.li/"><b>polyhedra★</b></a>
                  <a href="https://www.masayume.it/blog/content/polyhedra-viewer"><b>my</b></a></li> 
           </ul>
@@ -220,10 +216,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         </p>
     </details>
 
-  <h4>AI TOOLS</h4> <!-- also in AI -->
-    <ul>
-      <li><a href="/ai.php"><b>AI PAGE ★</b></a>  </li>
-    </ul>
 
           <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
       <details>
@@ -434,7 +426,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   <div class="_exa">
     <h4>MUSIC</h4>
   <ul>
-    <li><a href="https://www.aiva.ai/"><b>AIVA AI ★</b></a>
+    <li><a href="https://huggingface.co/spaces/enzostvs/ai-jukebox"><b>AIjukebox★</b></a>
+        <a href="https://www.aiva.ai/"><b>AIVAAI★</b></a></li>
+    <li><a href="https://eternalbox.dev/jukebox_index.html"><b>eternalbox</b></a>
         <a href="https://www.masayume.it/blog/content/aiva-ai-assisted-music-composing"><b>my</b></a></li>
     <li><a href="https://chiptune.app/">Chipjs★</a>
         <a href="https://www.masayume.it/blog9/web/content/famistudio/">famistudio★</a></li>
@@ -448,7 +442,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <li><a href="https://www.bespokesynth.com/"><b>bespoke synth</b></a>
         <a href="https://www.masayume.it/blog9/web/content/bespoke-synth"><b>my</b></a></li>
     <li><a href="https://onlinesequencer.net/"><b>online sequencer ★</b></a></li>
-    <li><a href="https://www.noteflight.com/home">noteflight ★</a></li>
+
     <li><a href="https://boscaceoil.net/linux-info.html">BoscaCeoil</a>,
         <a href="tenori-off.glitch.me">TenoriOff</a></li>
     <li><a href="/jsSID">jsSID</a> <a href='https://github.com/jhohertz/jsSID'>gh</a>,
@@ -458,9 +452,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         <a href="https://no-lick.com/?ref=masayume.it" target="_blank"><b><i>No Lick</i></b></a></li>
     <li><a href="https://soundcloud.com/soundsuigood" target="_blank"><b><i>sounds ui good</i></b></a></li>
     <li><a href="https://musicformakers.com/?ref=masayume.it" target="_blank"><b><i>music for makers</i></b></a></li>
-    <li><a href="http://stampede.it/?ref=masayume.it" target="_blank"><b><i>stampede</i></b></a></li>
-    <li><a href="https://musicmaker.site/?ref=masayume.it" target="_blank"><b><i>music maker</i></b></a></li>
-    <li><a href="https://www.tunepocket.com/?ref=masayume.it" target="_blank"><b><i>tune pocket</i></b></a></li>
+    <li><a href="http://stampede.it/?ref=masayume.it" target="_blank"><b><i>stampede</i></b></a>
+        <a href="https://musicmaker.site/?ref=masayume.it" target="_blank"><b><i>musicmaker</i></b></a></li>
+    <li><a href="https://www.tunepocket.com/?ref=masayume.it" target="_blank"><b><i>TunePocket</i></b></a>
+        <a href="https://www.noteflight.com/home">noteflight★</a></li>
     <li><a href="">SID2MIDI WIN ★</a></li>
     <li><a href="https://www.tony-b.org/">Tony-B 機</a> <a href="https://teropa.info/musicmouse/"><b>music鼠</b></a></li>
     <li><a href="https://openmusicarchive">O.M.A.</a> <a href="https://musopen.org/">musopen</a></li>
