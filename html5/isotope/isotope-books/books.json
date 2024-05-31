@@ -2704,7 +2704,25 @@
       "length": 438,
       "dir": "fisico",
       "url": "https://www.ibs.it/elementi-di-rettorica-compilati-per-libri-vintage-giuseppe-rigutini/e/2570071750855"
+    },
+    "OpereTaoismo2": {
+      "name": "Tao Te Ching",
+      "number": "176",
+      "data_cat": "player",
+      "class": ["player", "books"],
+      "theme": ["filosofia"],
+      "img": "0176.jpg",
+      "author": "Lao Tzu,Ursula K. Le Guin",
+      "store": "???", 
+      "weight": "", 
+      "year": 2019,
+      "players": [1],
+      "length": 138,
+      "url": "https://www.ursulakleguin.com/lao-tzu-the-tao-te-ching",
+      "via": "https://annas-archive.org/md5/e396e557bc699917c55c8e6b7de02af4"
     }
+
+
 
   },
   "template":
