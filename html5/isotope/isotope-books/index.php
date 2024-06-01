@@ -33,6 +33,7 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".tools">tools</button>
   <button class="button" data-filter=".comics">comix</button>
   <button class="button" data-filter=".books">books</button>
   <button class="button" data-filter=".artworks">artworks</button>
@@ -43,6 +44,7 @@
   <button class="button" data-filter=".digital">digital</button>
   <button class="button" data-filter=".nihongo">nihongo</button>
   <button class="button" data-filter=".psychology">psych/creat</button>
+  <button class="button" data-filter=".meditation">meditation</button>
   <button class="button" data-filter=".vintage">vintage</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
