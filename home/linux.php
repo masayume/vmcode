@@ -174,29 +174,23 @@
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
+      $ai_dirs    = array('inspire/LINUX/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"440\">";
 
     ?>
 
+<!--
     <br />
       <h4>PROJECTS done</h4>
           <ul>
-            <li> <a href="/HTML5/random-kanji-card/kanjipage.php">Kanji Cards</a>
-                 <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a>
-                 <a href="/demon/overlayer/overlayer.infogen.txt">info</a></li>
-            <li> <a href="/HTML5/taktix/">Oblique Taktix</a> 
-                 <a href="/inspire/@CARTOONS/SIO/bin/sio.php"><b>siomixbot</b></a> </a>
-                 <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> </li>
-            <li> <a href="/oglaf.php">Oglaf RND comic</a> 
-                 <a href="/rory.php">rory story cubes</a> </li>
           </ul>
-    </div>
+-->
 
+  </div>
 
   <div class="_exa">
 
@@ -266,12 +260,12 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
+      $ai_dirs    = array('inspire/@CARTOONS/QotD/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
     ?>
 
