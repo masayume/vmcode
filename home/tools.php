@@ -130,6 +130,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <ul>
         <li> <a href="https://imgupscaler.com/?utm_source=masayume.it"><b>image upscaler ★</b></a>
         <li> <a href="https://cleanup.pictures/?utm_source=masayume.it"><b>image cleanup ★</b></a>
+        <li> <a href="https://www.masayume.it/blog9/web/content/exiftool-gestione-dati-fotografie"><b>EXIF tools ★</b></a>
       </ul>
 
     <h4>SHADERS</h4> <!-- also in GODOT -->
@@ -161,13 +162,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
                  <a href="https://www.masayume.it/blog/content/polyhedra-viewer"><b>my</b></a></li> 
           </ul>
 
-
-    <h4>LEVEL DESIGN</h4>
-    <ul>
-      <li> <a href="https://www.masayume.it/blog/content/ldtk-level-designer-toolkit" target="_blank"><b>LDtk LVL Design ★</b></a> <a href="https://www.masayume.it/blog/content/ldtk-level-designer-toolkit" target="_blank">my</a></li>
-      <li> <a href="https://vgmaps.com/" target="_blank"><b>VG Maps ★</b></a> <a href="/blog/content/mappe-di-videogame" target="_blank">my</a></li>
-    </ul>
-    
 
   </div>
 
@@ -363,6 +357,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
       </p>
     </details>
+
+
+    <h4>Level Design</h4>
+    <ul>
+      <li> <a href="https://www.masayume.it/blog/content/ldtk-level-designer-toolkit" target="_blank"><b>LDtk ★</b></a> <a href="https://www.masayume.it/blog/content/ldtk-level-designer-toolkit" target="_blank">my</a></li>
+      <li> <a href="https://vgmaps.com/" target="_blank"><b>VG Maps ★</b></a> <a href="/blog/content/mappe-di-videogame" target="_blank">my</a></li>
+    </ul>
+
 
     <h4>Downloaders</h4>
     <ul>
