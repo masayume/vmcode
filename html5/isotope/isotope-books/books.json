@@ -2770,8 +2770,23 @@
       "length": 230,
       "url": "https://fabiensanglard.net/bash/",
       "via": "https://annas-archive.org/"
+    },
+    "PracticalVim": {
+      "name": "Practical Vim",
+      "number": "180",
+      "data_cat": "player",
+      "class": ["player", "books", "tools"],
+      "theme": ["tools"],
+      "img": "0180.jpg",
+      "author": "Drew Neil",
+      "store": "???", 
+      "weight": "", 
+      "year": 2015,
+      "players": [1],
+      "length": 354,
+      "url": "https://pragprog.com/titles/dnvim2/practical-vim-second-edition/",
+      "via": "https://annas-archive.org/"
     }
-
 
 
   },
