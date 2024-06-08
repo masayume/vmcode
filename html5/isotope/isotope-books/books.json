@@ -2786,8 +2786,39 @@
       "length": 354,
       "url": "https://pragprog.com/titles/dnvim2/practical-vim-second-edition/",
       "via": "https://annas-archive.org/"
+    },
+    "Psicologia06": {
+      "name": "Psicologia dello Sviluppo",
+      "number": "181",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0181.jpg",
+      "author": "Luigia Camaioni, Paola di Blasio",
+      "store": "???", 
+      "weight": "", 
+      "year": 2007,
+      "players": [1],
+      "length": 344,
+      "dir": "fisico",
+      "url": "https://www.mulino.it/isbn/9788815119735?forcedLocale=it"
+    },
+    "Psicologia07": {
+      "name": "Psicologia Generale",
+      "number": "182",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0182.jpg",
+      "author": "Luigi Anolli, Paolo Legrenzi",
+      "store": "???", 
+      "weight": "", 
+      "year": 2012,
+      "players": [1],
+      "length": 448,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/Psicologia-sociale-Elliot-Aronson/dp/8815246274"
     }
-
 
   },
   "template":
