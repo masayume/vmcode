@@ -90,6 +90,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
   <div class="_exa">
 
+    <h4>DOWNLOAD</h4>
+      <ul> 
+        <li> <a href="https://godotengine.org/download/linux/"><b>linux version</b></a> </li> 
+      </ul>  
+
+    <h4>TUTORIALS</h4>
+      <ul> 
+        <li> <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/"><b>step by step</b></a> </li> 
+        <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
+      </ul>  
+      
+    <h4>ASSETS</h4>
+      <ul> 
+        <li> <a href="https://godotengine.org/asset-library/asset"><b>asset library</b></a> </li> 
+      </ul>  
+      
   </div>
 
 
