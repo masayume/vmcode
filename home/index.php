@@ -161,46 +161,6 @@
 
 </div>
 
-<div class="_exa">
-
-  <h4>AI</h4>
-    <ul>
-      <li> <a href="https://chat.openai.com/"><b>chatGPT</b></a>
-           <a href="https://bard.google.com/"><b>Bard</b></a> </li>
-    </ul>
-
-  <h4>ISO</h4>
-    <ul>
-      <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
-           <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
-           <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
-           <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-      <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> </li>
-      <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
-      <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
-    </ul>
-
-  <h4>WEEKLY todo</h4>
-  <ul>
-    <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a> </li>
-  </ul>
-
-  <h4>VIDEO</h4>
-  <ul>
-    <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
-    <li> <a href="https://flickmetrix.com/">flickmetrix</a> - <a href="https://www.justwatch.com/">justwatch</a> </li>
-    <li> <a href="https://opencritic.com/" target="_blank"><b>opencrit</b></a> 
-         <a href="https://www.rottentomatoes.com/" target="_blank"><b>rottentoms</b></a> </li>
-    <li> <a href="https://www.primevideo.com/">prime video</a> </li>
-    <li> <a href="http://raiplay.it/">RaiPlay ★</a> 
-         <a href="https://netflix.com">Netflix ★</a> </li>
-    <li> <a href="netflix.htm">netflix codes</a> </li>
-  </ul>
-
-</div>
 
   <div class="_exa">
 
@@ -246,6 +206,48 @@
         </ul>
 
   </div>
+
+
+  
+  <div class="_exa">
+
+    <h4>SEARCH</h4>
+      <ul>
+        <li> <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
+            <a href="https://www.perplexity.ai/"><b>Perplexity</b></a> </li>
+      </ul>
+
+
+    <h4>AI</h4>
+      <ul>
+        <li> <a href="https://chat.openai.com/"><b>chatGPT</b></a>
+             <a href="https://bard.google.com/"><b>Bard</b></a> </li>
+        <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
+             <a href="https://claude.ai/"><b>Claude</b></a> </li>
+      </ul>
+
+    <h4>ISO</h4>
+      <ul>
+        <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
+            <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
+            <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
+        <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
+            <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li>
+        <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> </li>
+        <li> <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
+        <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> </li>
+        <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
+        <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
+      </ul>
+
+    <h4>WEEKLY todo</h4>
+    <ul>
+      <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a> </li>
+    </ul>
+
+</div>
+
+
 
   <div class="_exa">
 
@@ -300,24 +302,40 @@
            <a href="https://www.masayume.it/blog9/web/content/ambient-music-sounds">my</a> </li>    
 
     </ul>
-    
+
+
+<!--    
     <h4>DRAWING</h4>
     <ul>
           <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
     </ul>
+-->
 
-    <h4>ART</h4>
-    <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> 
-           <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
-      <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
-    </ul>
+    <h4>VIDEO</h4>
+      <ul>
+        <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
+        <li> <a href="https://flickmetrix.com/">flickmetrix</a> - <a href="https://www.justwatch.com/">justwatch</a> </li>
+        <li> <a href="https://opencritic.com/" target="_blank"><b>opencrit</b></a> 
+            <a href="https://www.rottentomatoes.com/" target="_blank"><b>rottentoms</b></a> </li>
+        <li> <a href="https://www.primevideo.com/">prime video</a> </li>
+        <li> <a href="http://raiplay.it/">RaiPlay ★</a> 
+            <a href="https://netflix.com">Netflix ★</a> </li>
+        <li> <a href="netflix.htm">netflix codes</a> </li>
+      </ul>
     
 
   </div>
 
 
     <div class="_exa">
+
+      <h4>ART</h4>
+      <ul>
+        <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a>  </li>
+        <li> <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
+      </ul>
+    
       <h4>Artists</h4>
         <ul>
           <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
@@ -341,8 +359,8 @@
           <li><a href="/HTML5/holden/index.php?art=oglaf">oglaf</a>,<a href="/HTML5/holden/index.php?art=TOM%20GAULD">Gauld</a></li>
           <li><a href="/HTML5/holden/index.php?art=presing">presing</a>
               <a href="/HTML5/holden/index.php?art=shunya%20yamashita"><b>Shunya</b></a></li>          
-          <li><a href="/HTML5/holden/index.php?art=Zeronis">Zeronis</a></li>
-          <li><a href="/HTML5/holden/index.php?art=クッパ姫">クッパ姫</a></li>
+          <li><a href="/HTML5/holden/index.php?art=Zeronis">Zeronis</a>
+              <a href="/HTML5/holden/index.php?art=クッパ姫">クッパ姫</a></li>
         </ul>
   
     </div>
@@ -399,10 +417,12 @@
         <li><a href="/demon/pixelize/index.htm"><b>pixelize</b></a> </li>
       </ul>
 
+<!-- not working 10/06/2024
     <h4>GAMES</h4>
       <ul>
         <li><a href="http://www.progettoemma.net/mess/random.php" target="_blank">EPIC game juxtapose</a>
       </ul>
+-->
 
     <h4>Text 2 Speech</h4>
       <ul>
