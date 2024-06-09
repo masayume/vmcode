@@ -2818,7 +2818,76 @@
       "length": 448,
       "dir": "fisico",
       "url": "https://www.amazon.it/Psicologia-sociale-Elliot-Aronson/dp/8815246274"
+    },
+    "Psicologia08": {
+      "name": "Storia della psicologia dal Novecento a oggi",
+      "number": "183",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0183.jpg",
+      "author": "Luciano Mecacci",
+      "store": "???", 
+      "weight": "", 
+      "year": 2019,
+      "players": [1],
+      "length": 516,
+      "dir": "fisico",
+      "url": "https://www.laterza.it/scheda-libro/?isbn=9788858136829"
+    },
+    "Psicologia09": {
+      "name": "Psicologia Generale",
+      "number": "184",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0184.jpg",
+      "author": "Richard J. Gerrig - Philip G. Zimbardo - Luigi M. Anolli - Pier Luigi Baldi",
+      "store": "???", 
+      "weight": "", 
+      "year": 2018,
+      "players": [1],
+      "length": 475,
+      "dir": "fisico",
+      "url": "https://he.pearson.it/catalogo/1020"
+    },
+    "Psicologia10": {
+      "name": "Psicologia dello Sviluppo",
+      "number": "185",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0185.jpg",
+      "author": "Dario Grossi, Luigi Trojano",
+      "store": "???", 
+      "weight": "", 
+      "year": 2023,
+      "players": [1],
+      "length": 232,
+      "dir": "fisico",
+      "url": "https://www.carocci.it/prodotto/lineamenti-di-neuropsicologia-clinica-3"
+    },
+    "Psicologia11": {
+      "name": "Psicologia della personalità e delle differenze individuali",
+      "number": "186",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0186.jpg",
+      "author": "Rossana de Beni, Barbara Carretti, Angelica Moè, Francesca Pazzaglia",
+      "store": "???", 
+      "weight": "", 
+      "year": 2014,
+      "players": [1],
+      "length": 216,
+      "dir": "fisico",
+      "url": "https://www.mulino.it/isbn/9788815252265"
     }
+
+
+
+
+
 
   },
   "template":
