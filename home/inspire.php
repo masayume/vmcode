@@ -507,7 +507,12 @@
 
 
   <div class="_exa">
+    <h4>WEB GALLERY</h4> <!--  -->
+      <ul>
+        <li><a href="https://godly.website/"><b>godly.webs★</b></a></li>
+      </ul>
 
+  
     <h4>WEB TOOLS</h4> <!-- also in TOOLS -->
       <ul>
         <li><a href="https://stackblitz.com/"><b>stackblitz★</b></a></li>
