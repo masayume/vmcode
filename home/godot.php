@@ -68,12 +68,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
             <li> <a href="https://unity.stelabouras.com/"><b>Curated Tutorials ★</b></a></li>            -->
             <li> <a href="https://github.com/masayume/DigitalGarden/tree/main/engineering-code/godot"><b>Godot DG</b></a></li> 
           </ul>  
-      <h4>ONGOING</h4>
-          <ul>
-            <li> <a href="https://bitbucket.org/radicalbit/slalom2020/commits/"><b>Slalom 2020</b></a> -
-                 <a href="https://bitbucket.org/radicalbit/keplerion/commits/"><b>Keplerion</b></a> -
-                 <a href="https://bitbucket.org/radicalbit/solomon/commits/"><b>Solomon's World</b></a></li> 
-          </ul>
       <h4>MAGAZINES</h4>
           <ul>
             <li> <a href="/retro.htm"><b>Retro★</b></a> -
@@ -125,8 +119,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
       <h4>LINKS</h4>
       <ul>
-        <li> <a href="https://dev.to/t/godot"><b>dev.to godot</b></a> </li>
         <li> <a href="https://www.reddit.com/r/godot/"><b>Reddit Godot</b></a> </li>
+        <li> <a href="https://dev.to/t/godot"><b>dev.to godot</b></a> </li>
         <li> <a href="https://www.reddit.com/r/madeWithGodot/"><b>R madeWithGodot</b></a> </li>
         <li> <a href="https://www.reddit.com/t/gdscript/"><b>GDscript</b></a> 
              <a href="https://dev.to/t/gdscript"><b>@dev.to</b></a> </li>
@@ -270,17 +264,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <li> <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
     </ul>
 
-    <h4>SHADERS</h4> <!-- also in TOOLS -->
+    <h4>SHADERS</h4> 
           <ul>
+            <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
             <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
             <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
             <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://editor.thebookofshaders.com/">editor</a> </li>
-            <li> <a href="https://github.com/mnmxmx/toon-shading">js toon shading</a></li> 
-            <li> <a href="https://www.shadertoy.com/results?query=tag%3Dcrosshatch"><b>shadertoy xhatch</b></a></li> 
-            <li> <a href="https://www.poshbrolly.net/"><b>posh brolly</b></a></li> 
-            <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">crosshatching</a></li> 
-            <li> <a href="http://dev.thi.ng/gradients/">Color palette webapp</a></li> 
-            <li> <a href="https://graphtoy.com/">graphtoy</a></li> 
 
           </ul>
 
@@ -301,6 +290,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
     ?>
+
+    <h4>ONGOING</h4>
+          <ul>
+            <li> <a href="https://bitbucket.org/radicalbit/slalom2020/commits/"><b>Slalom 2020</b></a> -
+                 <a href="https://bitbucket.org/radicalbit/keplerion/commits/"><b>Keplerion</b></a> -
+                 <a href="https://bitbucket.org/radicalbit/solomon/commits/"><b>Solomon's World</b></a></li> 
+          </ul>
+
 
   </div>
 
