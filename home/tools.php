@@ -133,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         <li> <a href="https://www.masayume.it/blog9/web/content/exiftool-gestione-dati-fotografie"><b>EXIF tools ★</b></a>
       </ul>
 
-    <h4>SHADERS</h4> <!-- also in GODOT -->
+    <h4>SHADERS</h4> 
           <ul>
             <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
             <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
