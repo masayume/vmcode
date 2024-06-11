@@ -119,6 +119,7 @@
   
   <h4>masa sources</h4>
     <ul>
+      <li> <a href="https://www.reddit.com/r/dataisbeautiful" target="_blank">dataisbeautiful</a> </li>
       <li> <a href="https://twitter.com/hackernoon" target="_blank">hackernoon</a> </li>
       <li> <a href="https://news.ycombinator.com/news" target="_blank">hackrnews</a> 
            <a href="https://www.getrevue.co/profile/Recomendo" target="_blank">recom</a> </li>
