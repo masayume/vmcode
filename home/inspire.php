@@ -507,28 +507,7 @@
 
 
   <div class="_exa">
-    <h4>WEB GALLERY</h4> <!--  -->
-      <ul>
-        <li><a href="https://godly.website/"><b>godly.webs★</b></a></li>
-      </ul>
 
-  
-    <h4>WEB TOOLS</h4> <!-- also in TOOLS -->
-      <ul>
-        <li><a href="https://stackblitz.com/"><b>stackblitz★</b></a></li>
-        <li><a href="https://onlinehtmleditor.dev/"><b>htmleditor★</b></a></li>
-        <li><a href="http://www.colorzilla.com/gradient-editor/"><b>gradient</b></a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
-        <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a>
-	          <a href="http://jupyter.org/"><b>jupyter</b></a></li>
-        <li><a href="https://webgems.io"><b>webgems</b></a>
-            <a href="http://webtoolkitonline.com">webtools</a></li>
-        <li><a href="/HTML5/SVGbackgrounds">SVG backgrounds</a></li>
-        <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
-        <li><a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
-	      <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
-	      <li><a href="/HTML5/dagre/">dagre</a> - <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a></li>
-        <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
-      </ul>
   </div>
 
   
@@ -594,16 +573,15 @@
 
   </div>
 
+
+
   <div class="_exa">
+
     <h4>WORDS</h4>
-    <ul>
-      <li><a href="https://www.powerthesaurus.org/enclave/synonyms" target="_blank">power thesaurus</a></li>
-      <li><a href="https://www.masayume.it/blog/content/onelook-reverse-thesaurus" target="_blank">reverse thesaurus</a></li>
-    </ul>
-
-  </div>
-
-  <div class="_exa">
+      <ul>
+        <li><a href="https://www.powerthesaurus.org/enclave/synonyms" target="_blank">power thesaurus</a></li>
+        <li><a href="https://www.masayume.it/blog/content/onelook-reverse-thesaurus" target="_blank">reverse thesaurus</a></li>
+      </ul>
 
     <h4>RPG</h4>
     <ul>
@@ -664,7 +642,26 @@
 
   </div>
 
+  <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@backs/', 'inspire/@backs/101_dalmatians/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+
+      ?>
+
+  </div>  
+
   
+
+
+
+
+
 </div> <!-- container -->
 
 <!-- FOOTER -->
