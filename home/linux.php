@@ -194,6 +194,13 @@
 
   <div class="_exa">
 
+    <h4>CLOUD</h4>
+      <ul>
+        <li><a href="https://www.masayume.it/blog/content/pico-8-la-fantasy-console" title="kdrive"><b>kdrive★</b></a></li>
+        <li><a href="https://drive.proton.me/" title="proton drive"><b>pdrive★</b></a>
+            <a href="https://mail.proton.me/" title="proton drive"><b>pmail</b></a> </li>
+      </ul>
+
     <h4>pico-8</h4>
       <ul>
         <li><a href="https://www.masayume.it/blog/content/pico-8-la-fantasy-console"><b>my.it (L/PICO8)</b></a></li>
