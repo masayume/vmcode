@@ -2882,8 +2882,55 @@
       "length": 216,
       "dir": "fisico",
       "url": "https://www.mulino.it/isbn/9788815252265"
+    },
+    "Psicologia12": {
+      "name": "Sè e Identità",
+      "number": "187",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0187.jpg",
+      "author": "Tiziana Mancini",
+      "store": "???", 
+      "weight": "", 
+      "year": 2001,
+      "players": [1],
+      "length": 296,
+      "dir": "fisico",
+      "url": "https://www.carocci.it/prodotto/se-e-identita"
+    },
+    "Psicologia13": {
+      "name": "Psicologia Sociale",
+      "number": "188",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0188.jpg",
+      "author": "Augusto Palmonari, Nicoletta Cavazza, Monica Rubini",
+      "store": "???", 
+      "weight": "", 
+      "year": 2012,
+      "players": [1],
+      "length": 360,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/Psicologia-sociale-Augusto-Palmonari/dp/8815239537"
+    },
+    "Psicologia14": {
+      "name": "Oltre la Mente Modulare",
+      "number": "189",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0189.jpg",
+      "author": "Annette Karmiloff-Smith",
+      "store": "???", 
+      "weight": "", 
+      "year": 1997,
+      "players": [1],
+      "length": 320,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/modulare-prospettiva-evolutiva-scienza-cognitiva/dp/8815063250"
     }
-
 
 
 
