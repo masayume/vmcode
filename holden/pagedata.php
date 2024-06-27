@@ -83,6 +83,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>artstation:</b> <a href='https://www.artstation.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^ca-/', $twitterRaw2) ){     // calculate CARA link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>instagram:</b> <a href='https://cara.app/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    }     
     elseif (preg_match('/^it-/', $twitterRaw2) ){     // calculate ITCH.IO link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>instagram:</b> <a href='https://" . $exploded[1] . ".itch.io" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . ".itch.io</a>";

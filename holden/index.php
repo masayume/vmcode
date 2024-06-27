@@ -238,7 +238,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/1bit/bitartbot'       // 180
                   , '/inspire/TAROT/marseille-01'             
                   , '/inspire/TAROT/marseille-jodorowsky'                 
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@JAPAN/kanji-shodo-01'          // 183
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
