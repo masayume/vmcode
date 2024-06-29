@@ -190,7 +190,8 @@
 
     <h4>KANJI</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=183&art2=183">holden kanji</a></li>
+      <li> <a href="/HTML5/holden/index.php?art1=183&art2=183"><b>holden kanji</b></a>
+           <a href="https://jisho.org/search/公%23kanji">radical</a></li>
       <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>kotoba ★</b></a> </li>
       <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php"><b>RND.KANJI.CARDS</b></a> 
            <a href="https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php">my</a> </li>
