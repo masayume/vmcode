@@ -85,6 +85,7 @@
         </p>
     </details>
 
+
     <h4>NEWS</h4>
       <ul>
         <li> <a href="https://twitter.com/rowancheung" target="_blank"><b>Rowan Cheung</b></a> 
@@ -216,29 +217,38 @@
             <a href="https://vercel.com/templates/ai"><b>vercel tmpl</b></a> </li>
     </ul>
 
-    <h4>HUGGINGFACE</h4>
-    <ul>
-      <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★</b></a></li> 
-      <li> <a href="https://huggingface.co/spaces/timbrooks/instruct-pix2pix"><b>pix2pix★</b></a> 
-           <a href="https://huggingface.co/spaces/Adapter/CoAdapter"><b>coadapter★</b></a><a href="https://github.com/TencentARC/T2I-Adapter/blob/main/docs/coadapter.md"><b>?</b></a></li>
-      <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet★</b></a> 
-           <a href="https://huggingface.co/ControlNet-1-1-preview/control_v11p_sd15_lineart"><b>lineart<b></a>
-           <a href="https://aituts.com/controlnet/"><b>??<b></a></li>
-      <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stableDiff🤗</b></a>
-           <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifuDiff★</b></a></li>
-      <li> <a href="https://waifulabs.com/"><b>waifulabs</b></a> 
-           <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGAN</b></a></li>
-      <li> <a href="https://huggingface.co/spaces/aipicasso/cool-japan-diffusion-2-1-0-demo	">japan diff</a>
-           <a href="https://huggingface.co/spaces/anzorq/finetuned_diffusion">finetuned diff</a> </li>
-      <li> <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrmpt</a> </li>
-      <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> 
-           <a href="https://huggingface.co/spaces/facebook/MusicGen">MusicGen</a> </li>
-      <li> <a href="https://huggingface.co/spaces/Fantasy-Studio/Paint-by-Example">Paint-by-Example</a> </li>
-      <li> <a href="https://huggingface.co/spaces/editing-images/ledits?utm_source=masayume.it">LEDITS</a> 
-           <a href="https://huggingface.co/spaces/DragGan/DragGan-Inversion">DragGAN</a> </li>
-      <li> <a href="URL">SPACE #3</a> </li>
+    <h4>SEARCH TOOLS</h4>
+    <ul> 
+      <li>  <a href="https://mylens.ai/"><b>mylens.ai (maps)★</b></a> 
+      <li>  <a href="https://lenso.ai/"><b>lenso.ai (images)★</b></a> 
     </ul>
 
+      <details>
+        <summary><strong><b>HUGGINGFACE ⬇️</b></strong></summary> 
+        <p> 
+          <ul>
+            <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/timbrooks/instruct-pix2pix"><b>pix2pix★</b></a> 
+                <a href="https://huggingface.co/spaces/Adapter/CoAdapter"><b>coadapter★</b></a><a href="https://github.com/TencentARC/T2I-Adapter/blob/main/docs/coadapter.md"><b>?</b></a></li>
+            <li> <a href="https://huggingface.co/spaces/hysts/ControlNet"><b>ControlNet★</b></a> 
+                <a href="https://huggingface.co/ControlNet-1-1-preview/control_v11p_sd15_lineart"><b>lineart<b></a>
+                <a href="https://aituts.com/controlnet/"><b>??<b></a></li>
+            <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stableDiff🤗</b></a>
+                <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifuDiff★</b></a></li>
+            <li> <a href="https://waifulabs.com/"><b>waifulabs</b></a> 
+                <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGAN</b></a></li>
+            <li> <a href="https://huggingface.co/spaces/aipicasso/cool-japan-diffusion-2-1-0-demo	">japan diff</a>
+                <a href="https://huggingface.co/spaces/anzorq/finetuned_diffusion">finetuned diff</a> </li>
+            <li> <a href="https://huggingface.co/spaces/tomg-group-umd/pez-dispenser">PezPrmpt</a> </li>
+            <li> <a href="https://huggingface.co/spaces/xdecoder/Instruct-X-Decoder">X decoder</a> 
+                <a href="https://huggingface.co/spaces/facebook/MusicGen">MusicGen</a> </li>
+            <li> <a href="https://huggingface.co/spaces/Fantasy-Studio/Paint-by-Example">Paint-by-Example</a> </li>
+            <li> <a href="https://huggingface.co/spaces/editing-images/ledits?utm_source=masayume.it">LEDITS</a> 
+                <a href="https://huggingface.co/spaces/DragGan/DragGan-Inversion">DragGAN</a> </li>
+          </ul>
+
+      </p>
+    </details>
 
 </div>
 
