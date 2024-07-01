@@ -221,7 +221,10 @@
     <ul> 
       <li>  <a href="https://mylens.ai/"><b>mylens.ai (maps)★</b></a> 
       <li>  <a href="https://lenso.ai/"><b>lenso.ai (images)★</b></a> 
+      <li>  <a href="https://devv.ai/search"><b>devv.ai (code)★</b></a> 
     </ul>
+
+    
 
       <details>
         <summary><strong><b>HUGGINGFACE ⬇️</b></strong></summary> 
