@@ -2930,8 +2930,23 @@
       "length": 320,
       "dir": "fisico",
       "url": "https://www.amazon.it/modulare-prospettiva-evolutiva-scienza-cognitiva/dp/8815063250"
+    },
+    "HTfJ": {
+      "name": "Horror Tales from Japan",
+      "number": "190",
+      "data_cat": "player",
+      "class": ["design", "nihongo"],
+      "theme": ["arcade", "meta"],
+      "img": "0190.jpg",
+      "author": "Kyota Ko",
+      "store": "???", 
+      "weight": "", 
+      "year": 2024,
+      "players": [1],
+      "length": 239,
+      "dir": "fisico",
+      "url": "https://kyotako.myportfolio.com/"
     }
-
 
 
 
