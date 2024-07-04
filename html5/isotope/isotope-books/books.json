@@ -2946,9 +2946,39 @@
       "length": 239,
       "dir": "fisico",
       "url": "https://kyotako.myportfolio.com/"
+    },
+    "Psicologia15": {
+      "name": "Storia della Psicanalisi",
+      "number": "191",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0191.jpg",
+      "author": "Silvia Vegetti Finzi",
+      "store": "???", 
+      "weight": "", 
+      "year": 2004,
+      "players": [1],
+      "length": 420,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/modulare-prospettiva-evolutiva-scienza-cognitiva/dp/8815063250"
+    },    
+    "Psicologia16": {
+      "name": "Melanie Klein",
+      "number": "192",
+      "data_cat": "player",
+      "class": ["books", "psychology"],
+      "theme": ["arcade", "meta"],
+      "img": "0192.webp",
+      "author": "Anneah Segal",
+      "store": "???", 
+      "weight": "", 
+      "year": 1981,
+      "players": [1],
+      "length": 179,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/modulare-prospettiva-evolutiva-scienza-cognitiva/dp/8815063250"
     }
-
-
 
 
   },
