@@ -170,12 +170,13 @@
           <li><a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> 
               <a href="https://www.timer-tab.com/"><b>TimerTab ★</b></a> </li>
           <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
-          <li><a href="https://onlinehtmleditor.dev/"><b>RT-EDITOR</b></a> 
-              <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
+          <li><a href="https://onlinehtmleditor.dev/"><b>RichText★</b></a> 
+              <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>Edit.Photo ★</b></a>
               <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a>
               <a href="https://www.masayume.it/blog/content/pixlr"><b>??</b></a></li>
-          <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a></li>
+          <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a>
+              <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
               <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
@@ -200,10 +201,10 @@
         <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
             <a href="/keplerion/layerizer.php">layerizer</a> </li>
         <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
-        <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">readme</a> </li>
-        <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> (online) </li>
-        <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrammar</a> (online) </li>
-        <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> (online) </li>
+        <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">rd</a> 
+            <a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> </li>
+        <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrmr</a> 
+            <a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> </li>
         </ul>
 
   </div>
@@ -267,8 +268,10 @@
       <h4>PROJECTS done</h4>
           <ul>
             <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php">Kanji Cards</a>
-                 <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a>
-                 <a href="/demon/overlayer/overlayer.infogen.txt">info</a></li>
+                 - <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a>
+                 - <a href="/demon/overlayer/overlayer.infogen.txt">info</a>
+                 - <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li> 
+
             <li> <a href="/HTML5/taktix/">Oblique Taktix</a> 
                  <a href="/inspire/@CARTOONS/SIO/bin/sio.php"><b>siomixbot</b></a> </a>
                  <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> </li>
@@ -277,12 +280,6 @@
                  <a href="/HTML5/holden/index.php?art1=182&art2=182"><b>tarot jodorovski</b></a> </li>
                  
           </ul>
-      
-      <h4>open source</h4>
-      <ul>
-        <li> <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li> 
-      </ul>
-
           
   </div>
 
