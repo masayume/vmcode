@@ -62,10 +62,9 @@ function pagenewtemp($dir, $tag) {
         = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
     //    VaporwaveAesthetics
-    if (preg_match('/^tw-/', $twitterRaw2) ){     // calculate TWITTER link
+    if (preg_match('/^tw-/', $twitterRaw2) ){         // calculate TWITTER link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
-    
     }
     elseif (preg_match('/^sp-/', $twitterRaw2) ){     // calculate SPOTIFY ALBUM link - https://open.spotify.com/album/4nEgdO6tkE2v5LO3mpUEe9
       $exploded = explode('-', $twitterRaw2);
@@ -91,6 +90,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>instagram:</b> <a href='https://" . $exploded[1] . ".itch.io" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . ".itch.io</a>";
     } 
+    elseif (preg_match('/^fb-/', $twitterRaw2) ){     // calculate facebook link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>facebook:</b> <a href='https://www.facebook.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
     elseif (preg_match('/^tu-/', $twitterRaw2) )  // calculate TUMBLR link
     {    
       $exploded = explode('-', $twitterRaw2);
@@ -106,6 +109,12 @@ function pagenewtemp($dir, $tag) {
       $path   = str_replace('=', '-', $path); 
 
       $twitterRaw3 = "<b>site:</b> <a href='https://" . $path . "' target='_blank' title='" . $file . "'> " . mb_strimwidth($path, 0, 89, "!!") . "</a>";
+    }
+    elseif (preg_match('/^fl-/', $twitterRaw2) )  // calculate FLICKR link
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ;
+      $twitterRaw3 = "<b>flickr:</b> <a href='https://www.flickr.com/photos/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . mb_strimwidth($exploded[1], 0, 89, "!!") . "</a>";
     }
     elseif (preg_match('/^re-/', $twitterRaw2) )  // calculate REDDIT link
     {    
@@ -169,7 +178,7 @@ function pagenewtemp($dir, $tag) {
     $tags     = findtags($twitterRaw2);
     $thtmlrow = "";
     $toppx    = -20;
-    $butmagw  = 72;
+    $butmagw  = 66;
     foreach ($tags as $t) {
       $toppx    += 36;
       $tagcode   = "";
@@ -180,8 +189,8 @@ function pagenewtemp($dir, $tag) {
       } else {
         $tagcode = "<a href=\"" . $_SERVER['REQUEST_URI'] . "&tag1=$t&tag2=$t\"> <b> $t </b> </a>";
       }
-
-      $width     = max($butmagw, (13*strlen($t)) );
+      $toolong = 0; if ( strlen($t) > 16 ) { $toolong = 50; }
+      $width     = max($butmagw, ( (12*strlen($t)) - $toolong) );
 
       $thtmlrow .= "<div style=\"width: ${width}px; position: absolute; top: ${toppx}px; right: -8px; text-align: center; padding-right: 2px; padding-left: 2px; padding-top: 4px; padding-bottom: 4px; background-color: #ccc; vertical-align: middle; border-radius: 5px; border:1px solid black;\">";
       $thtmlrow .= $tagcode; 
@@ -245,10 +254,12 @@ function findtags($tw) {
   $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
+  $tw = preg_replace('/^fl\-(\w+)\-/', '', $tw);                    // clears flickr prefix
+  $tw = preg_replace('/^fb\-(\w+)\-/', '', $tw);                    // clears facebook prefix
   $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
   $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);   // clears mastodon prefix - ma-@LordArse@toot.community-
-  $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                  // clears site prefix
+  $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                // clears site prefix
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
   $matches = explode('-', $tw);
   $title = "";

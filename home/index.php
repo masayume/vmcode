@@ -312,6 +312,7 @@
 
     <h4>VIDEO</h4>
       <ul>
+        <li> <a href="http://localhost:8096"><b>Jellyfin★</b></a> </li>
         <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
         <li> <a href="https://flickmetrix.com/">flickmetrix</a> - <a href="https://www.justwatch.com/">justwatch</a> </li>
         <li> <a href="https://opencritic.com/" target="_blank"><b>opencrit</b></a> 
