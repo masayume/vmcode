@@ -202,6 +202,7 @@
             <a href="https://chat.openai.com/chat"><b>chatGPT★</b></a> edge</li>
       <li>  <a href="https://gemini.google.com"><b>GEMINI★</b></a> 
             <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
+      <li>  <a href="https://complimentme.replit.app/"><b>compliment me support★</b></a> </li>
       <li>  <a href="https://klavier.ai/"><b>klavierPDF★</b></a> 
             <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
       <li>  <a href="https://beta.character.ai/"><b>character ★</b></a> 
