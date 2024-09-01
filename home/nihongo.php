@@ -109,8 +109,8 @@
   <div class="_exa">
     <h4>READING EASY</h4>
     <ul>
+      <li> <a href="https://tadoku.org/"><b>TADOKU books</b> ★</a> </li>
       <li> <a href="https://www3.nhk.or.jp/news/easy/"><b>NHK news easy</b> ★</a> </li>
-      <li> <a href="https://twitter.com/jpn_tadokuorg"><b>Reading 日本語 ★</b></a> </li>
       <li> <a href="https://www.masayume.it/blog/content/proverbi-giapponesi-kotowaza">kotowaza</a> </li>
       <li> <a href="http://life.ou.edu/stories/">Old Fairy Tales</a> </li>
       <li> <a href="https://www.ehonnavi.net/">ehonnavi</a> </li>
@@ -129,10 +129,38 @@
       <li> <a href="https://hiraganatimes.com/">hiragana times</a> </li>
       <li> <a href="https://www.wasabi-jpn.com/japanese-lessons/materials-for-japanese-lessons-intensive-reading/">wasabi manga</a> </li>
     </ul>
+
   </div>
   
 
+  <div class="_exa">
 
+    <h4>READING ADV</h4>
+    <ul>
+      <li> <a href="https://rocketnews24.com/">Rocket News</a> </li>
+      <li> <a href="https://b.hatena.ne.jp/">Hatena Bookmarking</a> </li>
+      <li> <a href="https://www.1000moji.com/">1000 moji</a> </li>
+      <li> <a href="https://toyokeizai.net/">Toyo Keizai</a> </li>
+      <li> <a href="https://www.buzzfeed.com/jp#.sbzX5VlBA">BuzzFeed Japan</a> </li>
+      <li> <a href="https://www.lifehacker.jp">lifehacker</a> </li>
+    </ul>
+
+    <h4>READING ADV NEWS</h4>
+    <ul>
+      <li> <a href="https://www.nhk.or.jp/">NHK</a> </li>
+      <li> <a href="https://www.yomiuri.co.jp/">yomiuri</a> </li>
+      <li> <a href="https://mainichi.jp/">mainichi</a> </li>
+      <li> <a href="https://www.asahi.com/">asahi</a> </li>
+    </ul>
+
+    <h4>MANGA ADV</h4>
+    <ul>
+      <li> <a href="https://comic-walker.com/">comic-walker</a> </li>
+      <li> <a href="https://sai-zen-sen.jp/">Sai Zen Sen</a> </li>
+      <li> <a href="https://www.comico.jp/">comico</a> </li>
+    </ul>
+
+  </div>
 
 <div class="_exa">
 
@@ -259,35 +287,6 @@
         <li> <a href="https://magazinelib.com/japan/">magazine lib</a> </li>
 
       </ul>
-
-  </div>
-
-  <div class="_exa">
-
-    <h4>READING ADV</h4>
-    <ul>
-      <li> <a href="https://rocketnews24.com/">Rocket News</a> </li>
-      <li> <a href="https://b.hatena.ne.jp/">Hatena Bookmarking</a> </li>
-      <li> <a href="https://www.1000moji.com/">1000 moji</a> </li>
-      <li> <a href="https://toyokeizai.net/">Toyo Keizai</a> </li>
-      <li> <a href="https://www.buzzfeed.com/jp#.sbzX5VlBA">BuzzFeed Japan</a> </li>
-      <li> <a href="https://www.lifehacker.jp">lifehacker</a> </li>
-    </ul>
-
-    <h4>READING ADV NEWS</h4>
-    <ul>
-      <li> <a href="https://www.nhk.or.jp/">NHK</a> </li>
-      <li> <a href="https://www.yomiuri.co.jp/">yomiuri</a> </li>
-      <li> <a href="https://mainichi.jp/">mainichi</a> </li>
-      <li> <a href="https://www.asahi.com/">asahi</a> </li>
-    </ul>
-
-    <h4>MANGA ADV</h4>
-    <ul>
-      <li> <a href="https://comic-walker.com/">comic-walker</a> </li>
-      <li> <a href="https://sai-zen-sen.jp/">Sai Zen Sen</a> </li>
-      <li> <a href="https://www.comico.jp/">comico</a> </li>
-    </ul>
 
   </div>
 
