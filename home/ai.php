@@ -133,6 +133,8 @@
   <div class="_exa">
     <h4>GRAPH AI TOOLS</h4>
     <ul>
+    
+      <li>  <a href="https://ideogram.ai/"><b>ideogram★</b></a>  </li>
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
             <a href="https://zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
       <li>  <a href="https://generated.photos/human-generator/" title="Human Generator"><b>HumanGen★</b></a>  
