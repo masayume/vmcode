@@ -5,8 +5,8 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
     <meta charset="UTF-8">
-<style>
-  body { 
+    <style>
+      body { 
 /*	background-image:url('img/ub-wallp.jpg'); 
 	background-color: #0033cc;
 */
@@ -17,31 +17,19 @@
     background: -webkit-linear-gradient(top,  #f2ad00 0%,#f1da36 37%,#fcf29c 101%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #f2ad00 0%,#f1da36 37%,#fcf29c 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ad00', endColorstr='#fcf29c',GradientType=0 ); /* IE6-9 */
-  }
-  a, a:visited {  color: #ffffff; }
-  h3, h4 {  color: #00aaff; }
-  .container{ text-align:left; border:1px solid #666; }
-  ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
-  ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
-  ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
+      }
+      @font-face {
+        font-family: arcade;
+        src: url("/css/arcade.woff2");
+        }
+
+      a, a:visited {  color: #ffffff; }
+      h3, h4 {  color: #00aaff; font-family: arcade; font-size: 14px; color: #cc6622}
+      .container{ text-align:left; border:1px solid #666; }
+      ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
+      ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
+      ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
-<!-- Matomo -->
-<!--
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="/matomo/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
--->
-<!-- End Matomo Code -->
 
 </head>
 <body>
