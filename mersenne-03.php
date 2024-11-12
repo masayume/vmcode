@@ -32,7 +32,7 @@
 
 // phpinfo(); exit(0);
 
-$version    = '1.6';
+$version    = '1.62';
 
 $configfile = basename(__FILE__, '.php') . '-config.php'; 
 // include 'mersenne-config.php';
@@ -563,7 +563,7 @@ if ($page==1 && $results == 1 && $js_generation && (isset($generatejsfile[$atype
         // print "<hr>called for $part - </hr>"; 
         $scene_elems    = kind_elem($part, $dlayers, $assetmode, $name_struct); // tutti gli elementi di tipo zNN... 
 
-//        print "<br> viz chance per $part: " . $main_layers[$part]; 
+        // print "<br> viz chance per $part: " . $main_layers[$part]; 
 
         // SI PUO' randomizzare l'elemento $i della pagina $page in FUNZIONE di $page, $i.
 
@@ -576,7 +576,7 @@ if ($page==1 && $results == 1 && $js_generation && (isset($generatejsfile[$atype
 
             // se l'mt_rnd è da visualizzare secondo il valore di possibilità ($main_layers[$part]) di quel tipo di layer
             // carica nell'array da restituire "arr2ret" UN elemento preso con mt_rnd dalla lista di tutti gli asset di quel tipo
-            if (mt_rand(1,100) <= $main_layers[$part]) {
+            if (mt_rand(1,100) <= $main_layers[$part] && count($scene_elems) > 0) {
 
                 // carico nell'array da tornare l'rt_rnd-esimo elemento
                 array_push($arr2ret, $scene_elems[(mt_rand(1,1000) % count($scene_elems))]); 
