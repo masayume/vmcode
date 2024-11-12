@@ -767,7 +767,40 @@
       "players": [2, 3, 4],
       "length": 40,
       "url": "https://www.goblins.net/recensioni/fantasy"
+    },
+    "MTG": {
+      "name": "Magic The Gathering",
+      "number": "53",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": [ "Betting and Bluffing", "Closed Drafting", "Deck Construction", "Hand Management", "Income", "Interrupts", "Player Elimination", "Tags", "Take That" ],
+      "theme": ["Fantasy"],
+      "img": "053.jpg",
+      "designer": "Richard Garfield",
+      "weight": "3.27", 
+      "year": 1993,
+      "players": [2, 3, 4],
+      "length": 20,
+      "url": "https://boardgamegeek.com/boardgame/463/magic-the-gathering"
+    },
+    "HeroQuest": {
+      "name": "HeroQuest",
+      "number": "54",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": [ "Dice Rolling", "Die Icon Resolution", "Grid Movement", "Modular Board", "Role Playing", "Roll / Spin and Move", "Scenario / Mission / Campaign Game", "Square Grid", "Team-Based Game", "Variable Player Powers" ],
+      "theme": ["Fantasy"],
+      "img": "054.png",
+      "designer": "Stephen Baker",
+      "weight": "2.14", 
+      "year": 1989,
+      "players": [2, 3, 4, 5],
+      "length": 90,
+      "url": "https://boardgamegeek.com/boardgame/699/heroquest"
     }
+
+
+
 
   },
   "template":
