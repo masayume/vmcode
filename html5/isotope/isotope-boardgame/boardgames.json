@@ -797,8 +797,22 @@
       "players": [2, 3, 4, 5],
       "length": 90,
       "url": "https://boardgamegeek.com/boardgame/699/heroquest"
+    },
+    "LovelaceBabbage": {
+      "name": "Lovelace and Babbage",
+      "number": "55",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": [ "Action Queue", "Pattern Building", "Push Your Luck", "Real-Time", "Set Collection", "Variable Player Powers" ],
+      "theme": ["Fantasy"],
+      "img": "055.webp",
+      "designer": "Scott Almes",
+      "weight": "2.30", 
+      "year": 2019,
+      "players": [2, 3, 4],
+      "length": 30,
+      "url": "https://boardgamegeek.com/boardgame/257056/lovelace-and-babbage"
     }
-
 
 
 
