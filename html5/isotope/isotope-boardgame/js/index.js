@@ -20,6 +20,7 @@ var $grid = $('.grid').isotope({
       var score = $( itemElem ).find('.score').text();
       return parseFloat( score.replace( /[\(\)]/g, '') );
     }
+
   }
 });
 

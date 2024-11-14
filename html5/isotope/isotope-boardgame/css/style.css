@@ -212,7 +212,8 @@ body {
   left: 85px;
   bottom: 4px;
   font-family: 'Oswald';
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bolder;
 
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
