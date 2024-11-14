@@ -20,6 +20,7 @@
   <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="year">year</button>
   <button class="button" data-sort-by="number">number</button>
+  <button class="button" data-sort-by="score">score</button>
   <button class="button" data-sort-by="length">duration</button>
   <button class="button" data-sort-by="weight">complexity</button>
 <!--

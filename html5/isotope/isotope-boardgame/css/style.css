@@ -207,6 +207,20 @@ body {
   padding: 2px 2px 2px 2px ;
 }
 
+.element-item .score {
+  position: absolute;
+  left: 85px;
+  bottom: 4px;
+  font-family: 'Oswald';
+  font-size: 12px;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  z-index: 2;
+  outline: 0;
+  padding: 2px 2px 2px 2px ;
+}
+
 h3 {
   font-family: 'Oswald';
 }

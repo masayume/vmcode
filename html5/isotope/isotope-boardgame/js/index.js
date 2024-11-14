@@ -15,6 +15,10 @@ var $grid = $('.grid').isotope({
     weight: function( itemElem ) {
       var weight = $( itemElem ).find('.weight').text();
       return parseFloat( weight.replace( /[\(\)]/g, '') );
+    },
+    score: function( itemElem ) {
+      var score = $( itemElem ).find('.score').text();
+      return parseFloat( score.replace( /[\(\)]/g, '') );
     }
   }
 });
