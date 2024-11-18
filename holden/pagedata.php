@@ -82,6 +82,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>artstation:</b> <a href='https://www.artstation.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^ar-/', $twitterRaw2) ){     // calculate BLUESKY link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>bluesky:</b> <a href='https://bsky.app/profile/" . $exploded[1] . ".bsky.social" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
     elseif (preg_match('/^ca-/', $twitterRaw2) ){     // calculate CARA link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>instagram:</b> <a href='https://cara.app/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
@@ -245,22 +249,23 @@ TEM;
 function findtags($tw) {
 
   // print "TW parameter: " . $tw;
-  $tw = preg_replace('/^pi\-/', '', $tw);                           // clears pinterest prefix
-  $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
-  $tw = preg_replace('/^in\-(\w+)\-/', '', $tw);                    // clears instagram prefix
-  $tw = preg_replace('/^pf\-(\w+)\-/', '', $tw);                    // clears pixelfed prefix
-  $tw = preg_replace('/^sp\-(\w+)\-/', '', $tw);                    // clears spotify prefix
   $tw = preg_replace('/^ar\-(\w+)\-/', '', $tw);                    // clears artstation prefix
-  $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
-  $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
-  $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
-  $tw = preg_replace('/^fl\-(\w+)\-/', '', $tw);                    // clears flickr prefix
-  $tw = preg_replace('/^fb\-(\w+)\-/', '', $tw);                    // clears facebook prefix
-  $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
+  $tw = preg_replace('/^bs\-(\w+)\-/', '', $tw);                    // clears bluesky prefix
   $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
+  $tw = preg_replace('/^fb\-(\w+)\-/', '', $tw);                    // clears facebook prefix
+  $tw = preg_replace('/^fl\-(\w+)\-/', '', $tw);                    // clears flickr prefix
+  $tw = preg_replace('/^in\-(\w+)\-/', '', $tw);                    // clears instagram prefix
+  $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);   // clears mastodon prefix - ma-@LordArse@toot.community-
-  $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                // clears site prefix
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
+  $tw = preg_replace('/^pf\-(\w+)\-/', '', $tw);                    // clears pixelfed prefix
+  $tw = preg_replace('/^pi\-/', '', $tw);                           // clears pinterest prefix
+  $tw = preg_replace('/^re\-(\w+)\-/', '', $tw);                    // clears reddit prefix
+  $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
+  $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                // clears site prefix
+  $tw = preg_replace('/^sp\-(\w+)\-/', '', $tw);                    // clears spotify prefix
+  $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
+  $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $matches = explode('-', $tw);
   $title = "";
 
