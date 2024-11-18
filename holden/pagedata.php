@@ -82,7 +82,7 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>artstation:</b> <a href='https://www.artstation.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
-    elseif (preg_match('/^ar-/', $twitterRaw2) ){     // calculate BLUESKY link
+    elseif (preg_match('/^bs-/', $twitterRaw2) ){     // calculate BLUESKY link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>bluesky:</b> <a href='https://bsky.app/profile/" . $exploded[1] . ".bsky.social" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
