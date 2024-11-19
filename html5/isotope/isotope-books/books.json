@@ -2978,6 +2978,22 @@
       "length": 179,
       "dir": "fisico",
       "url": "https://www.amazon.it/modulare-prospettiva-evolutiva-scienza-cognitiva/dp/8815063250"
+    },
+    "Psicologia16": {
+      "name": "Elogio dell'Ignoranza e dell'Errore",
+      "number": "193",
+      "data_cat": "player",
+      "class": ["books", "saggio", "conoscenza"],
+      "theme": ["arcade", "meta"],
+      "img": "0193.jpg",
+      "author": "Gianrico Carofiglio",
+      "store": "???", 
+      "weight": "", 
+      "year": 2024,
+      "players": [1],
+      "length": 92,
+      "dir": "fisico",
+      "url": "https://www.amazon.it/modulare-prospettiva-evolutiva-scienza-cognitiva/dp/8815063250"
     }
 
 
