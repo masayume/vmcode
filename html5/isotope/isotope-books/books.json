@@ -3008,9 +3008,43 @@
       "year": 2024,
       "players": [1],
       "length": 206,
-      "dir": "fisico",
+      "dir": "digitale",
       "url": "https://www.routledge.com/Mathematics-of-Tabletop-Games/Montgomery/p/book/9781032468525?"
+    },
+    "TabletopBuildingBlocks": {
+      "name": "Building Blocks of Tabletop Game Design: An Encyclopedia of Mechanisms",
+      "number": "195",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0195.webp",
+      "author": "Geoffrey Engelstein , Isaac Shalev",
+      "store": "???", 
+      "weight": "", 
+      "year": 2022,
+      "players": [1],
+      "length": 626,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Mathematics-of-Tabletop-Games/Montgomery/p/book/9781032468525?"
+    },
+    "Meaningful Game Design": {
+      "name": "Meaningful Game Design",
+      "number": "196",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0196.webp",
+      "author": "Devon Allcoat, Chris Evans",
+      "store": "???", 
+      "weight": "", 
+      "year": 2023,
+      "players": [1],
+      "length": 206,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Meaningful-Game-Design-The-Methodology-and-Psychology-of-Tabletop-Games/Allcoat-Evans/p/book/9781032333076?"
     }
+
+
 
   },
   "template":
