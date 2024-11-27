@@ -866,6 +866,22 @@
       "length": 30,
       "score": "6.7",
       "url": "https://boardgamegeek.com/boardgame/257056/lovelace-and-babbage"
+    },
+    "Everdell": {
+      "name": "Everdell",
+      "number": "56",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": [ "Contracts", "End Game Bonuses", "Hand Management", "Income", "Open Drafting", "Ownership", "Set Collection", "Solo / Solitaire Game", "Variable Set-up", "Worker Placement"  ],
+      "theme": ["Fantasy"],
+      "img": "056.png",
+      "designer": "James A. Wilson",
+      "weight": "2.82", 
+      "year": 2018,
+      "players": [1, 2, 3, 4],
+      "length": 80,
+      "score": "8.0",
+      "url": "https://boardgamegeek.com/boardgame/199792/everdell"
     }
 
 
