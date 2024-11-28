@@ -3058,8 +3058,55 @@
       "length": 190,
       "dir": "digitale",
       "url": "https://www.routledge.com/The-Game-Design-Toolbox/Annander/p/book/9781032365510"
+    },
+    "GameMagic": {
+      "name": "Game Magic",
+      "number": "198",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0198.jpg",
+      "author": "Jeff Howard",
+      "store": "???", 
+      "weight": "", 
+      "year": 2014,
+      "players": [1],
+      "length": 376,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Game-Magic-A-Designers-Guide-to-Magic-Systems-in-Theory-and-Practice/Howard/p/book/9781466567856"
+    },
+    "ClockworkGameDesign": {
+      "name": "Clockwork Game Design",
+      "number": "199",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0199.webp",
+      "author": "Keith Burgun",
+      "store": "???", 
+      "weight": "", 
+      "year": 2015,
+      "players": [1],
+      "length": 146,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Clockwork-Game-Design/Burgun/p/book/9781138798731"
+    },
+    "ProceduralStorytelling": {
+      "name": "Procedural Storytelling in Game Design",
+      "number": "200",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0200.jpg",
+      "author": "Tanya X. Short, Tarn Adams",
+      "store": "???", 
+      "weight": "", 
+      "year": 2019,
+      "players": [1],
+      "length": 408,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Procedural-Storytelling-in-Game-Design/Short-Adams/p/book/9781138595309"
     }
-
 
   },
   "template":
