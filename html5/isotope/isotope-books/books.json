@@ -1215,7 +1215,7 @@
       "name": "The Eyes of Bayonetta 2",
       "number": "83",
       "data_cat": "player",
-      "class": ["player", "books", "gamedesign"],
+      "class": ["player", "books"],
       "theme": ["gamedesign"],
       "img": "0083.jpg",
       "author": "Scott Rogers",
@@ -3106,7 +3106,76 @@
       "length": 408,
       "dir": "digitale",
       "url": "https://www.routledge.com/Procedural-Storytelling-in-Game-Design/Short-Adams/p/book/9781138595309"
+    },
+    "GameDesignTools": {
+      "name": "Game Design Tools",
+      "number": "200",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0201.webp",
+      "author": "Diego Ricchiuti",
+      "store": "???", 
+      "weight": "", 
+      "year": 2022,
+      "players": [1],
+      "length": 268,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Game-Design-Tools-Cognitive-Psychological-and-Practical-Approaches/Ricchiuti/p/book/9781032134789"
+    },
+    "GameDesignTools": {
+      "name": "Game Design Tools",
+      "number": "200",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0202.webp",
+      "author": "Diego Ricchiuti",
+      "store": "???", 
+      "weight": "", 
+      "year": 2022,
+      "players": [1],
+      "length": 268,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Game-Design-Tools-Cognitive-Psychological-and-Practical-Approaches/Ricchiuti/p/book/9781032134789"
+    },
+    "RoutledgeRPGHandbook": {
+      "name": "The Routledge Handbook of Role-Playing Game Studies",
+      "number": "203",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0203.jpg",
+      "author": "José P. Zagal, Sebastian Deterding",
+      "store": "???", 
+      "weight": "", 
+      "year": 2024,
+      "players": [1],
+      "length": 524,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/The-Routledge-Handbook-of-Role-Playing-Game-Studies/Zagal-Deterding/p/book/9781003298045"
+    },
+    "ExploringRoguelikeGames": {
+      "name": "Exploring Roguelike Games",
+      "number": "204",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0204.jpg",
+      "author": "John Harris",
+      "store": "???", 
+      "weight": "", 
+      "year": 2021,
+      "players": [1],
+      "length": 556,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Exploring-Roguelike-Games/Harris/p/book/9780367482596"
     }
+
+
+
+
+
 
   },
   "template":
