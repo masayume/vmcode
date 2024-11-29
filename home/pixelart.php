@@ -39,7 +39,7 @@
     <h4>PAGES</h4>
       <ul>
         <li> <a href="index.php" target="_blank"><b>INDEX</b></a> 
-             <a href="unity.php" target="_blank"><b>UNITY</b></a> 
+             <a href="godot.php" target="_blank"><b>GODOT</b></a> 
              <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/category/pixelart" target="_blank"><b>■ my</b></a> 
              <a href="https://www.masayume.it/blog/content/il-workflow-blender-pixelart" target="_blank"><b>Blend</b></a> 
@@ -173,7 +173,8 @@
     <li><a href=""><b>pixatool ★</b></a> <a href="/html5/isotope/isotope-WF/" target="_blank"><b>isoWF ★</b></a> 
     <li><a href="https://captain4lk.itch.io/slk-img2pixel"><b>SLK_img2pixel★</b></a>
         <a href="https://github.com/Captain4LK/SoftLK-tools"><b>git</b></a></li>
-    <li><a href="https://github.com/masayume/DigitalGarden/tree/main/tools/imagemagick"><b>imagemagick ★</b></a></li>    
+    <li><a href="https://github.com/masayume/DigitalGarden/tree/main/tools/imagemagick"><b>imgmagick★</b></a>
+        <a href="https://jetrotal.github.io/SVG-2-PIXELART/"><b>SVG2px★</b></a></li>    
     <li><a href="https://irokaru.github.io/pixel-scaler/"><b>pixel scaler</b></a>
         <a href="https://posterize.imageonline.co/">posterizer</a> </li>
     <li><a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
