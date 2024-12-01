@@ -45,6 +45,7 @@
   <button class="button" data-filter=".nihongo">nihongo</button>
   <button class="button" data-filter=".psychology">psych/creat</button>
   <button class="button" data-filter=".meditation">meditation</button>
+  <button class="button" data-filter=".knowledge">knowledge</button>
   <button class="button" data-filter=".vintage">vintage</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>

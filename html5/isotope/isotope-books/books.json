@@ -2983,7 +2983,7 @@
       "name": "Elogio dell'Ignoranza e dell'Errore",
       "number": "193",
       "data_cat": "player",
-      "class": ["books", "saggio", "conoscenza"],
+      "class": ["books", "saggio", "filosofia", "knowledge"],
       "theme": ["arcade", "meta"],
       "img": "0193.jpg",
       "author": "Gianrico Carofiglio",
@@ -3170,6 +3170,22 @@
       "length": 556,
       "dir": "digitale",
       "url": "https://www.routledge.com/Exploring-Roguelike-Games/Harris/p/book/9780367482596"
+    },
+    "TechnicMagic": {
+      "name": "Technic and Magic",
+      "number": "205",
+      "data_cat": "player",
+      "class": ["books", "saggio", "filosofia", "knowledge"],
+      "theme": ["arcade", "meta"],
+      "img": "0205.jpg",
+      "author": "Federico Campagna",
+      "store": "???", 
+      "weight": "", 
+      "year": 2018,
+      "players": [1],
+      "length": 256,
+      "dir": "digitale",
+      "url": "https://www.goodreads.com/en/book/show/36302721-technic-and-magic"
     }
 
 
