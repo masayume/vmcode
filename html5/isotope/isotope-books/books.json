@@ -636,7 +636,7 @@
       "name": "L'arte di Essere Saggi",
       "number": "45",
       "data_cat": "player",
-      "class": ["player", "books"],
+      "class": ["player", "books", "knowledge"],
       "theme": ["culture"],
       "img": "0045.jpg",
       "author": "Seneca",
@@ -651,7 +651,7 @@
       "name": "Massime",
       "number": "46",
       "data_cat": "player",
-      "class": ["player", "books"],
+      "class": ["player", "books", "knowledge"],
       "theme": ["culture"],
       "img": "0046.jpg",
       "author": "Confucio",
@@ -3186,6 +3186,22 @@
       "length": 256,
       "dir": "digitale",
       "url": "https://www.goodreads.com/en/book/show/36302721-technic-and-magic"
+    },
+    "MIY": {
+      "name": "Make It Yourself",
+      "number": "206",
+      "data_cat": "player",
+      "class": ["books", "tips", "creativity", "MAKE"],
+      "theme": ["arcade", "meta"],
+      "img": "0206.webp",
+      "author": "-",
+      "store": "???", 
+      "weight": "", 
+      "year": 2024,
+      "players": [1],
+      "length": 220,
+      "dir": "digitale",
+      "url": "https://makeityourself.org/"
     }
 
 
@@ -3215,7 +3231,7 @@
       "name": "BOOKTITLE.2",
       "number": "000",
       "data_cat": "player",
-      "class": ["player", "books"],
+      "class": ["player", "books", "psychology"],
       "theme": ["design"],
       "img": "0000.jpg",
       "author": "AUTHORs",
