@@ -2,8 +2,8 @@
 <head>
 <title>PIXELART page - masayume </title>
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/home.css" rel="stylesheet">
     <meta charset="UTF-8">
     <style>
       body { 

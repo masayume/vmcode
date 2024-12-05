@@ -93,7 +93,7 @@
 
     <h4>AI models page</h4>
       <ul>
-        <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
+        <li> <a href="pixelart/" target="_blank"><b>PIXELART</b></a> 
              <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="unity.php" target="_blank"><b>UNITY</b></a> 
              <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>

@@ -51,7 +51,7 @@
         <li> <a href="tools.php" target="_blank"><b>TOOLS</b></a> 
              <a href="godot.php" target="_blank"><b>GODOT</b></a>
              <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
-        <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
+        <li> <a href="pixelart/" target="_blank"><b>PIXELART</b></a> 
              <a href="nihongo.php" target="_blank"><b>NIHONGO</b></a>
              <a href="ai.php" target="_blank"><b>AI</b></a> </li>
         <li> <a href="retro.php" target="_blank"><b>RETRO</b></a>

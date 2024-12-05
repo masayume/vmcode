@@ -51,7 +51,7 @@
         <li> <a href="index.php" target="_blank"><b>INDEX</b></a> 
              <a href="unity.php" target="_blank"><b>UNITY</b></a> 
              <a href="inspire.php" target="_blank"><b>inspire</b></a> </li>
-        <li> <a href="pixelart.php" target="_blank"><b>PIXELART</b></a> 
+        <li> <a href="pixelart/" target="_blank"><b>PIXELART</b></a> 
              <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
