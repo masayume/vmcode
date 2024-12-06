@@ -63,28 +63,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     </ul>
 
   <h4>MOBILE</h4>  
-  <ul>
-    <li>  <a href="http://192.168.1.16:1200/"><b>REALME file comm</b></a> </li>
+    <ul>
+      <li>  <a href="http://192.168.1.16:1200/"><b>REALME file comm</b></a> </li>
     </ul>
 
-    
-  <h4>FONTS</h4>  <!-- also in PIXELART -->
-  <ul>
-    <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
-    <li> <a href="https://fontsource.org/?query=na"><b>fontsource</b></a> </li>
-    <li> <a href="/HTML5/holden/index.php?art1=175&art2=175"><b>ref-TEXT (fonts) ■</b></a> </li>
-    <li> <a href="/HTML5/holden/index.php?art1=175&art2=175"><b>local pixel fonts ■</b></a> </li>
-    <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
-    <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
-    <li> <a href="https://www.masayume.it/blog/content/fontforge" target="_blank"><b>Fontforge (L)</b></a>
-    <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> </li>
-    <li> <a href="https://fontawesome.com/icons?d=gallery"><b>fontawesome</b></a></li>
-    <li> <a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
-    <li> <a href="https://fontstruct.com/fontstructor/edit"><b>Fontstruct ■</b></a>
-         <a href="https://www.masayume.it/blog9/web/content/splintered-pixel-fonts-fontstruct"><b>my</b></a></li>
-  </ul>
   </div>  
-
 
   <div class="_exa">
     <!-- php_image_show -->
@@ -149,7 +132,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
             <li> <a href="https://www.poshbrolly.net/"><b>posh brolly</b></a></li> 
             <li> <a href="https://www.clicktorelease.com/code/cross-hatching/">crosshatching</a></li> 
             <li> <a href="http://dev.thi.ng/gradients/">Color palette webapp</a></li> 
-            <li> <a href="https://graphtoy.com/">graphtoy</a></li> 
+            <li> <a href="https://graphtoy.com/">graphtoy</a>
+                 <a href="/pixelart/shaders/crt-shader-showcase-for-retroarch/">retroarCRT★</a></li> 
 
           </ul>
 
@@ -381,6 +365,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <li><a href="https://imginn.com/"><b>imginn ★</b></a> </li>
     </ul>
 
+    <h4>FONTS</h4>  <!-- also in PIXELART -->
+      <ul>
+        <li> <a href="/fonts"><b>local font page</b></a> </li>
+        <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
+        <li> <a href="https://fontsource.org/?query=na"><b>fontsource</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=175&art2=175"><b>ref-TEXT (fonts) ■</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=175&art2=175"><b>local pixel fonts ■</b></a> </li>
+        <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
+        <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
+        <li> <a href="https://www.masayume.it/blog/content/fontforge" target="_blank"><b>Fontforge (L)</b></a>
+        <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> </li>
+        <li> <a href="https://fontawesome.com/icons?d=gallery"><b>fontawesome</b></a></li>
+        <li> <a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
+        <li> <a href="https://fontstruct.com/fontstructor/edit"><b>Fontstruct ■</b></a>
+             <a href="https://www.masayume.it/blog9/web/content/splintered-pixel-fonts-fontstruct"><b>my</b></a></li>
+      </ul>
 
   </div>
 
