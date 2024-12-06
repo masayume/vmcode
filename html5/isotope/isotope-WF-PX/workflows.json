@@ -456,7 +456,27 @@
       "url": "https://pixelart.streamlit.app/",
       "via": "https://blog.streamlit.io/convert-images-into-pixel-art/",
       "notes": "convert to pixel"
+    },
+    "0027": {
+      "name": "Retroarch Shaders",
+      "number": "27",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools", "shader"],
+      "theme": ["technique"],
+      "img": "wfpx027.webp",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2024,
+      "players": [1],
+      "length": 9,
+      "url": "http://localhost:8912/pixelart/shaders/crt-shader-showcase-for-retroarch/",
+      "via": "https://thingsiplay.game.blog/2022/03/08/crt-shader-showcase-for-retroarch/#sidebysidecrops-sonic",
+      "notes": "CRT shader"
     }
+
+
+
 
   },
   "template":
