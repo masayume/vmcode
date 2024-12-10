@@ -41,6 +41,7 @@
   <button class="button" data-filter=".gamedesign">game design</button>
   <button class="button" data-filter=".design">design</button>
   <button class="button" data-filter=".reference">refs</button>
+  <button class="button" data-filter=".cinema">cinema</button>
   <button class="button" data-filter=".digital">digital</button>
   <button class="button" data-filter=".nihongo">nihongo</button>
   <button class="button" data-filter=".psychology">psych/creat</button>
