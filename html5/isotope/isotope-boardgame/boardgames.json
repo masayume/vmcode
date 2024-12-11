@@ -650,7 +650,7 @@
       "class": ["player", "cards"],
       "mechanics": ["Card Drafting", "Dice Rolling", "Hand Management", "Press Your Luck", "Set Collection", "Simultaneous Action Selection", "Variable Player Powers"],
       "theme": ["fantasy"],
-      "img": "042.jpg",
+      "img": "042.png",
       "designer": "Eric M. Lang",
       "weight": "2.05", 
       "year": 2016,
@@ -915,8 +915,23 @@
       "length": 45,
       "score": "7.4",
       "url": "https://boardgamegeek.com/boardgame/199792/everdell"
+    },
+    "ForbiddenCity": {
+      "name": "Forbidden City",
+      "number": "59",
+      "data_cat": "player",
+      "class": ["Area Majority / Influence", "Tile Placement"],
+      "mechanics": [ "Contracts"  ],
+      "theme": ["Fantasy"],
+      "img": "059.png",
+      "designer": "Reiner Knizia",
+      "weight": "1.78", 
+      "year": 2018,
+      "players": [2, 3, 4],
+      "length": 30,
+      "score": "6.4",
+      "url": "https://boardgamegeek.com/boardgame/246316/forbidden-city"
     }
-
 
 
 
