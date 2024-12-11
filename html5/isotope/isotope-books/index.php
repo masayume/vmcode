@@ -33,6 +33,7 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".narrativa">lit</button>
   <button class="button" data-filter=".tools">tools</button>
   <button class="button" data-filter=".comics">comix</button>
   <button class="button" data-filter=".books">books</button>
