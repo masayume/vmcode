@@ -100,8 +100,7 @@
         <li><a href="https://morgan3d.github.io/quadplay/tools/scalepix.html"><b>scalepix★</b></a>
             <a href="https://www.masayume.it/blog/content/bitmapflow-procedural-inbetweening-animated-sprites"><b>bitmapflow★</b></a>
         <li><a href="http://deathgenerator.com/#minit">foone pixel gen</a>
-        <li><a href="http://arcade.photonstorm.com/">arcade text</a>
-            <a href="http://lvllvl.com/">lvllvl.com</a></li>
+        <li><a href="http://lvllvl.com/">lvllvl.com</a></li>
         <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>Twitter A Query ★</b> </a> </li>
         <li><a href="https://www.masayume.it/blog/content/il-workflow-blender-pixelart"><b>my blender to pixelart</b></a></li>
       </ul>
@@ -178,7 +177,6 @@
         <a href="https://jetrotal.github.io/SVG-2-PIXELART/"><b>SVG2px★</b></a></li>    
     <li><a href="https://irokaru.github.io/pixel-scaler/"><b>pixel scaler</b></a>
         <a href="https://posterize.imageonline.co/">posterizer</a> </li>
-    <li><a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
         <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
     <li><details>
       <summary><b>masayumeP sketch ⬇️</b></summary>
@@ -400,8 +398,14 @@
             <a href="https://twitter.com/LINK/media"><b>.</b></a></li>
         </ul>
 
-  </div>
 
+        <h4>MEME GEN</h4>
+        <ul>
+          <li> <a href="/deathgenerator/"><b>MEME generator ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixelart-meme-death-generator-foone">my</a></li> 
+          <li> <a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
+          </ul>
+  </div>
+  
 
   <div class="_exa">
     <h4>REFERENCE</h4>
