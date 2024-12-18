@@ -931,8 +931,23 @@
       "length": 30,
       "score": "6.4",
       "url": "https://boardgamegeek.com/boardgame/246316/forbidden-city"
+    },
+    "Arnak": {
+      "name": "Lost Ruins of Arnak",
+      "number": "60",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": [ "Contracts", "Deck, Bag, and Pool Building", "Market", "Multi-Use Cards", "Once-Per-Game Abilities", "Resource to Move", "Solo / Solitaire Game", "Turn Order: Progressive", "Worker Placement" ],
+      "theme": ["Adventure"],
+      "img": "060.webp",
+      "designer": "Elwen, Mín",
+      "weight": "2.92", 
+      "year": 2020,
+      "players": [1, 2, 3, 4],
+      "length": 120,
+      "score": "8.1",
+      "url": "https://boardgamegeek.com/boardgame/312484/lost-ruins-of-arnak"
     }
-
 
 
 
