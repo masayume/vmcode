@@ -177,6 +177,7 @@
               <a href="https://www.masayume.it/blog/content/pixlr"><b>??</b></a></li>
           <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a>
               <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
+          <li><a href="https://inflact.com/downloader/instagram/photo/"><b>Instagram Downloader</b></a> </li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
               <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
@@ -217,6 +218,11 @@
       <ul>
         <li> <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
             <a href="https://www.perplexity.ai/"><b>Perplexity</b></a> </li>
+      </ul>
+      <h4>LISTS</h4>
+      <ul>
+        <li> <a href="https://glitchwave.com/"><b>Glitchwav</b></a>
+            <a href="https://opencritic.com/"><b>OpenCr.</b></a> </li>
       </ul>
 
 
