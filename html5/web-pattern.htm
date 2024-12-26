@@ -4,122 +4,285 @@
     <title>Binary Pattern Generator</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            background: #f0f0f0;
+        }
+        .sidebar {
+            width: 300px;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .main-content {
+            flex: 1;
+            padding: 10px 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            background: #f0f0f0;
-            font-family: Arial, sans-serif;
+            overflow-y: auto;
+        }
+        .main-content h1 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
         }
         canvas {
             border: 1px solid #333;
-            margin: 20px;
             background: white;
-        }
-        .controls {
-            display: flex;
-            gap: 20px;
-            margin: 10px;
+            image-rendering: pixelated;
+            margin: 10px 0;
         }
         .control-group {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            margin: 15px 0;
         }
         label {
-            margin: 5px;
+            display: block;
+            margin: 5px 0;
+        }
+        input[type="range"] {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            font-family: monospace;
+            font-size: 14px;
+            padding: 10px;
+            margin: 10px 0;
+            background: #34495e;
+            color: #ecf0f1;
+            border: 1px solid #7f8c8d;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        .title {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #ecf0f1;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+        }
+        .button-group button {
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <h1>Binary Pattern Generator</h1>
-    <canvas id="canvas" width="256" height="256"></canvas>
-    <div class="controls">
+    <div class="sidebar">
+        <div class="title">Pattern Controls</div>
         <div class="control-group">
-            <label for="param1">Parameter 1 (1-20):</label>
-            <input type="range" id="param1" min="1" max="20" value="11">
+            <label for="param1">Parameter 1 (1-30):</label>
+            <input type="range" id="param1" min="1" max="30" value="11">
         </div>
         <div class="control-group">
             <label for="param2">Parameter 2 (1-30):</label>
             <input type="range" id="param2" min="1" max="30" value="15">
         </div>
         <div class="control-group">
-            <label for="param3">Parameter 3 (1-10):</label>
-            <input type="range" id="param3" min="1" max="10" value="3">
+            <label for="param3">Parameter 3 (1-30):</label>
+            <input type="range" id="param3" min="1" max="30" value="3">
         </div>
         <div class="control-group">
             <label for="invert">Invert:</label>
             <input type="checkbox" id="invert">
         </div>
+        <div class="control-group">
+            <label for="function-code">Pattern Function:</label>
+            <textarea id="function-code">function f(x, y, param1, param2, param3) {
+    if (x === 0) return 0;
+    
+    const part1 = bitwiseAnd(x, x) % (y - param1);
+    const part2 = -(Math.floor(param2 / x));
+    const part3 = bitwiseNot(bitwiseXor(y, param3) + bitwiseNot(y));
+    
+    return bitwiseAnd(part1 - part2, part3) % param1;
+}</textarea>
+        </div>
+        <div class="button-group">
+            <button id="update-btn">Update Pattern</button>
+            <button id="save-btn">Save Image</button>
+            <button id="save4x-btn">Save 4X</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <h1>Binary Pattern Generator</h1>
+        <canvas id="canvas" width="768" height="768"></canvas>
     </div>
 
     <script>
-        // Bitwise operations helpers
-        function bitwiseAnd(a, b) {
-            return a & b;
-        }
+        function bitwiseOr(a, b)  { return a | b; }
+        function bitwiseAnd(a, b) { return a & b; }
+        function bitwiseXor(a, b) { return a ^ b; }
+        function bitwiseNot(n)    { return ~n; }
 
-        function bitwiseXor(a, b) {
-            return a ^ b;
-        }
-
-        function bitwiseNot(n) {
-            return ~n;
-        }
-
-        // The main pattern function
-        function f(x, y, param1, param2, param3) {
-            if (x === 0) return 0;
-            
-            const part1 = bitwiseAnd(x, x) % (y - param1);
-            const part2 = -(Math.floor(param2 / x));
-            const part3 = bitwiseNot(bitwiseXor(y, param3) + bitwiseNot(y));
-            
-            return bitwiseAnd(part1 - part2, part3) % param1;
-        }
-
-        // Setup canvas
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
-        const imageData = ctx.createImageData(256, 256);
+        const scale = 3;
+        const baseSize = 256;
+        
+        const bufferCanvas = document.createElement('canvas');
+        bufferCanvas.width = baseSize;
+        bufferCanvas.height = baseSize;
+        const bufferCtx = bufferCanvas.getContext('2d');
+        const imageData = bufferCtx.createImageData(baseSize, baseSize);
 
-        // Get controls
         const param1Input = document.getElementById('param1');
         const param2Input = document.getElementById('param2');
         const param3Input = document.getElementById('param3');
         const invertInput = document.getElementById('invert');
+        const functionCode = document.getElementById('function-code');
+        const updateBtn = document.getElementById('update-btn');
+        const saveBtn = document.getElementById('save-btn');
+        const save4xBtn = document.getElementById('save4x-btn');
+
+        let updateTimeout = null;
 
         function updatePattern() {
-            const param1 = parseInt(param1Input.value);
-            const param2 = parseInt(param2Input.value);
-            const param3 = parseInt(param3Input.value);
-            const invert = invertInput.checked;
-
-            // Generate pattern
-            for (let y = 0; y < 256; y++) {
-                for (let x = 0; x < 256; x++) {
-                    let value = f(x, y, param1, param2, param3) % 2;
-                    if (invert) value = 1 - value;
-                    
-                    const idx = (y * 256 + x) * 4;
-                    const color = value * 255;
-                    
-                    imageData.data[idx] = color;     // R
-                    imageData.data[idx + 1] = color; // G
-                    imageData.data[idx + 2] = color; // B
-                    imageData.data[idx + 3] = 255;   // A
-                }
+            if (updateTimeout) {
+                clearTimeout(updateTimeout);
             }
-            
-            ctx.putImageData(imageData, 0, 0);
+
+            updateTimeout = setTimeout(() => {
+                const param1 = parseInt(param1Input.value);
+                const param2 = parseInt(param2Input.value);
+                const param3 = parseInt(param3Input.value);
+                const invert = invertInput.checked;
+
+                try {
+                    eval(functionCode.value);
+                    
+                    const data = imageData.data;
+                    for (let y = 0; y < baseSize; y++) {
+                        for (let x = 0; x < baseSize; x++) {
+                            let value = f(x, y, param1, param2, param3) % 2;
+                            if (invert) value = 1 - value;
+                            const color = value * 255;
+                            
+                            const idx = (y * baseSize + x) * 4;
+                            data[idx] = data[idx + 1] = data[idx + 2] = color;
+                            data[idx + 3] = 255;
+                        }
+                    }
+                    
+                    bufferCtx.putImageData(imageData, 0, 0);
+                    
+                    ctx.imageSmoothingEnabled = false;
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.drawImage(bufferCanvas, 0, 0, canvas.width, canvas.height);
+                    
+                } catch (error) {
+                    alert('Error in function code: ' + error.message);
+                }
+            }, 50);
         }
 
-        // Add event listeners to controls
+        function flipCanvas(originalCanvas) {
+            // Create a new canvas with the same dimensions
+            const flippedCanvas = document.createElement('canvas');
+            const width = originalCanvas.width;
+            const height = originalCanvas.height;
+            flippedCanvas.width = width;
+            flippedCanvas.height = height;
+            
+            // Get the context for both canvases
+            const ctx = flippedCanvas.getContext('2d');
+            
+            // Save the current context state
+            ctx.save();
+            
+            // Translate and scale to flip both horizontally and vertically
+            ctx.translate(width, height);
+            ctx.scale(-1, -1);
+            
+            // Draw the original canvas onto the new one
+            ctx.drawImage(originalCanvas, 0, 0);
+            
+            // Restore the context state
+            ctx.restore();
+            
+            return flippedCanvas;
+        }
+
+        function saveImage() {
+            const link = document.createElement('a');
+            link.download = 'pattern.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+
+        function saveImage4X() {
+/*
+            const link = document.createElement('a');
+            link.download = 'pattern.png';
+            link.href = flipCanvas(canvas).toDataURL('image/png');
+            link.click();
+*/
+
+        const tempCanvas = document.createElement('canvas');
+            const tempCtx = tempCanvas.getContext('2d');
+            tempCanvas.width = canvas.width * 2;
+            tempCanvas.height = canvas.height * 2;
+
+            // Draw original (top-left)
+            tempCtx.drawImage(canvas, 0, 0);
+
+            // Draw horizontally flipped (top-right)
+            tempCtx.save();
+            tempCtx.translate(canvas.width * 2, 0);
+            tempCtx.scale(-1, 1);
+            tempCtx.drawImage(canvas, 0, 0);
+            tempCtx.restore();
+
+            // Draw vertically flipped (bottom-left)
+            tempCtx.save();
+            tempCtx.translate(0, canvas.height * 2);
+            tempCtx.scale(1, -1);
+            tempCtx.drawImage(canvas, 0, 0);
+            tempCtx.restore();
+
+            // Draw both flipped (bottom-right)
+            tempCtx.save();
+            tempCtx.translate(canvas.width * 2, canvas.height * 2);
+            tempCtx.scale(-1, -1);
+            tempCtx.drawImage(canvas, 0, 0);
+            tempCtx.restore();
+
+            // Save the combined image
+            const link = document.createElement('a');
+            link.download = 'pattern.png';
+            link.href = tempCanvas.toDataURL('image/png');
+            link.click();
+
+
+
+        }
+
         param1Input.addEventListener('input', updatePattern);
         param2Input.addEventListener('input', updatePattern);
         param3Input.addEventListener('input', updatePattern);
         invertInput.addEventListener('change', updatePattern);
+        updateBtn.addEventListener('click', updatePattern);
+        saveBtn.addEventListener('click', saveImage);
+        save4xBtn.addEventListener('click', saveImage4X);
 
-        // Initial render
         updatePattern();
     </script>
 </body>
