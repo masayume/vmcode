@@ -86,6 +86,19 @@
     </style>
 </head>
 <body>
+
+    <script>
+        const functions = [
+    "((((y | x) & (~y)) | ((~x) ** (y & y))) & (((x ^ y) & (x * param1)) - ((-y) - (x & y)))) % param2",
+    "(x & y) | ((~x) & (~y))",
+    "(x ^ y) & (param1 * (x | y)) % param2",
+    "((x & y) | (~x)) ^ (y & param1) % param2",
+    "(x | y) & ((x ^ param1) | (y & param2))"
+        ];
+
+    </script>
+
+
     <div class="sidebar">
         <div class="title">Pattern Controls</div>
         <div class="control-group">
@@ -121,9 +134,13 @@
             <button id="save-btn">Save Image</button>
             <button id="save4x-btn">Save 4X</button>
         </div>
+        <br />
+        <div class="button-group">
+            <button id="rndfn-btn">Random function f()</button>
+        </div>
     </div>
     <div class="main-content">
-        <h1>Binary Pattern Generator</h1>
+        <h1>Binary Pattern Generator ver. 0.3</h1>
         <canvas id="canvas" width="768" height="768"></canvas>
     </div>
 
@@ -152,6 +169,7 @@
         const updateBtn = document.getElementById('update-btn');
         const saveBtn = document.getElementById('save-btn');
         const save4xBtn = document.getElementById('save4x-btn');
+        const rnfFnBtn = document.getElementById('rndfn-btn');
 
         let updateTimeout = null;
 
@@ -229,14 +247,8 @@
         }
 
         function saveImage4X() {
-/*
-            const link = document.createElement('a');
-            link.download = 'pattern.png';
-            link.href = flipCanvas(canvas).toDataURL('image/png');
-            link.click();
-*/
 
-        const tempCanvas = document.createElement('canvas');
+            const tempCanvas = document.createElement('canvas');
             const tempCtx = tempCanvas.getContext('2d');
             tempCanvas.width = canvas.width * 2;
             tempCanvas.height = canvas.height * 2;
@@ -271,8 +283,20 @@
             link.href = tempCanvas.toDataURL('image/png');
             link.click();
 
+        }
 
+        const functionPrefix = `function f(x, y, param1, param2, param3) {
+if (x === 0) return 0;
+        
+return `;
 
+        const functionPostfix = `
+}
+        `;
+        function selectRandomFunction() {
+            const randomIndex = Math.floor(Math.random() * functions.length);
+            const textarea = document.getElementById('function-code');
+            textarea.value = functionPrefix + functions[randomIndex] + functionPostfix;
         }
 
         param1Input.addEventListener('input', updatePattern);
@@ -282,6 +306,8 @@
         updateBtn.addEventListener('click', updatePattern);
         saveBtn.addEventListener('click', saveImage);
         save4xBtn.addEventListener('click', saveImage4X);
+        rnfFnBtn.addEventListener('click', selectRandomFunction);
+
 
         updatePattern();
     </script>
