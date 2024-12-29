@@ -90,10 +90,11 @@
     <script>
         const functions = [
     "((((y | x) & (~y)) | ((~x) ** (y & y))) & (((x ^ y) & (x * param1)) - ((-y) - (x & y)))) % param2",
-    "(x & y) | ((~x) & (~y))",
     "(x ^ y) & (param1 * (x | y)) % param2",
-    "((x & y) | (~x)) ^ (y & param1) % param2",
-    "(x | y) & ((x ^ param1) | (y & param2))"
+    "(x | y) & ((x ^ param1) | (y & param2))",
+    "((((y - x) | (param1 / x)) / (~(y ^ x))) * ((~(~y)) & (~(y & param2)))) % param3",
+    "((((-x) * (y ^ param1)) / (~(x | param2))) & (((4 + y) % (~x)) * ((y | y) | (x % param3)))) % 10",
+    "((((y / x) % (x / y)) % ((y & y) % (y & param1))) ^ (((param2 | x) - (-x)) * ((-y) | (param3 | y)))) % 6"
         ];
 
     </script>
@@ -140,7 +141,7 @@
         </div>
     </div>
     <div class="main-content">
-        <h1>Binary Pattern Generator ver. 0.3</h1>
+        <h1>Binary Pattern Generator ver. 0.4</h1>
         <canvas id="canvas" width="768" height="768"></canvas>
     </div>
 
