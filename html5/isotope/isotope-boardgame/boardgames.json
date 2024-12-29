@@ -947,8 +947,23 @@
       "length": 120,
       "score": "8.1",
       "url": "https://boardgamegeek.com/boardgame/312484/lost-ruins-of-arnak"
+    },
+    "ForestShuffle": {
+      "name": "Forest Shuffle",
+      "number": "61",
+      "data_cat": "player",
+      "class": ["player", "arcade", "cards"],
+      "mechanics": ["End Game Bonuses", "Hand Management", "Layering", "Multi-Use Cards", "Open Drafting", "Set Collection", "Tags" ],
+      "theme": ["Animals"],
+      "img": "061.png",
+      "designer": "Kosch",
+      "weight": "2.18", 
+      "year": 2023,
+      "players": [2, 3, 4, 5],
+      "length": 60,
+      "score": "7.7",
+      "url": "https://boardgamegeek.com/boardgame/391163/forest-shuffle"
     }
-
 
 
 
