@@ -2992,6 +2992,7 @@
       "year": 2024,
       "players": [1],
       "length": 96,
+      "status": "read",
       "dir": "fisico",
       "url": "https://www.amazon.it/modulare-prospettiva-evolutiva-scienza-cognitiva/dp/8815063250"
     },
@@ -3024,6 +3025,7 @@
       "year": 2022,
       "players": [1],
       "length": 626,
+      "status": "2read",
       "dir": "digitale",
       "url": "https://www.routledge.com/Mathematics-of-Tabletop-Games/Montgomery/p/book/9781032468525?"
     },
@@ -3249,9 +3251,25 @@
       "players": [1],
       "length": 403,
       "dir": "fisico",
+      "status": "read",
       "url": "https://www.adelphi.it/libro/9788845938795"
+    },
+    "lVdS": {
+      "name": "La Via del Senso",
+      "number": "206",
+      "data_cat": "player",
+      "class": ["books", "tips", "linguaggio"],
+      "theme": ["arcade", "meta"],
+      "img": "0210.jpg",
+      "author": "Annamaria Testa",
+      "store": "???", 
+      "weight": "", 
+      "year": 2021,
+      "players": [1],
+      "length": 192,
+      "dir": "fisico",
+      "url": "https://www.garzanti.it/libri/annamaria-testa-le-vie-del-senso-9788811607816/"
     }
-
 
 
 
