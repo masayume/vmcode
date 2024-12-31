@@ -473,8 +473,24 @@
       "url": "http://localhost:8912/pixelart/shaders/crt-shader-showcase-for-retroarch/",
       "via": "https://thingsiplay.game.blog/2022/03/08/crt-shader-showcase-for-retroarch/#sidebysidecrops-sonic",
       "notes": "CRT shader"
+    },
+    "0028": {
+      "name": "CRT Shaders",
+      "number": "27",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools", "shader"],
+      "theme": ["technique"],
+      "img": "wfpx028.png",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2024,
+      "players": [1],
+      "length": 9,
+      "url": "/html5/web-pattern.htm",
+      "via": "https://thingsiplay.game.blog/2022/03/08/crt-shader-showcase-for-retroarch/#sidebysidecrops-sonic",
+      "notes": "1bit web pattern generator; CRT shaders via shadertoy in SHADERS section of pixelart page"
     }
-
 
 
 
