@@ -49,11 +49,11 @@
     <h4>WORKFLOWS</h4>
       <ul>
         <li> <a href="/html5/isotope/isotope-WF-PX/" target="_blank"><b>ISOTOPE Pixelart ★</b></a> </li>
-        <li> <a href="/html5/isotope/isotope-WF/" target="_blank">ISO-WF ★</a> 
+        <li> <a href="/html5/isotope/isotope-WF/" target="_blank"><b>ISO-WF</b> ★</a> 
              <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank">WF page</a> </li>
       </ul>
 
-    <h4>PIXEL RESOURCES</h4>
+    <h4>PIXEL RESRCs</h4>
       <ul>
         <li><details>
         <summary><b>HOLDEN pix ⬇️⬇️★★</b></summary>
@@ -83,15 +83,15 @@
            </ul>
           </p>
         </details></li>  
-        <li><a href="https://www.masayume.it/blog/content/pixel-art-tutorials-resourcesp"><b>my tutorials ★</b></a> </li>
-        <li><a href="https://lospec.com/pixel-editor/app">lospec editor ★</a> </li>
+        <li><a href="https://www.masayume.it/blog/content/pixel-art-tutorials-resourcesp"><b>my tuts ★</b></a> 
+            <a href="https://lospec.com/pixel-editor/app">lospec★</a> </li>
         <li><a href="https://www11.lunapic.com/editor/?action=line-effect">lunapic</a>
             <a href="https://github.com/makeworld-the-better-one/didder">didder</a></li>
         <li><a href="https://charlesstover.com/spritesheet2gif">spritesheet2gif</a>
         <li><a href="https://mugenarchive.com/forums/downloads.php?do=cat&id=261-sprite-packs&__cf_chl_jschl_tk__=d08760070c9f7c6e2676da94317ecdd11f6ca7a0-1604924843-0-Aa4lAc5iwBGhMVaElV3PdE3ybykr-fKu5HkTAktXk7YIL71M1TRs04f4N8fZQLa7tPJ8DRYxyHLPTEDuVrrBwKsUuE5fgnIQkk8eLNaxJdhriCaYFx8eUdCa1TeJ19k8IVAVhWDuYDEJPpYfofTQqaUpBsHkYSiDYJxeliX6n9mtJWtxy4UfmZl6xoeuW_VZzxxtpW1sD8rbuE7uSXL2LWTfZMojNFSWkFm7w8XvfCHvoyQ6ucxzuTOgoU7LXNTPplkoutbNersc9HE-rH39bZaPdVjt5SVcCkXkYCJlvVMyMwmfLbXjb9aEIlX53sutwjpNuWVVd1xg-yIBDJ_osN8">mugen sprites</a><li>
             <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>   
             <a href="https://app.monopro.org/pixel/"><b>monopro★</b></a></li> 
-        <li><a href="https://simulacroix.github.io/dithering/">pattern maker</a>
+        <li><a href="/pixelart/dithering/">pattern maker</a>
             <a href="https://ezgif.com/video-to-gif">video2gif</a></li>    
         <li><a href="https://www.airtightinteractive.com/demos/js/imageglitcher/">scanline IG ★</a></li>    
         <li><a href="https://www4.lunapic.com/editor/?action=pixels"><b>lunapic pixels ★</b></a>
@@ -126,33 +126,31 @@
 
   <h4>MAIN URLS</h4>
   <ul>
-    <li><a href="https://twitter.com/MasayumeP"><b>masayumeP ★</b></a></li>
-    <li><a href="https://masayume.itch.io"><b>itch.io ★</b></a></li>
-    <li><a href="https://masayume.newgrounds.com"><b>newgrounds</b></a></li>
-    <li><a href="https://www.deviantart.com/lordyupa"><b>deviantart</b></a></li>
+    <li><a href="https://mastodon.gamedev.place/@masayumep" title="use vivaldi browser"><b>MAST★</b></a>
+        <a href="https://twitter.com/MasayumeP" title="use vivaldi browser"><b>XmasaP★</b></a> </li>
+    <li><a href="https://masayume.itch.io"><b>itch.io★</b></a>
+        <a href="https://bsky.app/profile/masayume.bsky.social" title="use chrome browser"><b>bluesky★</b></a></li>
+    <li><a href="https://masayume.newgrounds.com"><b>newgrounds</b></a>
+        <a href="https://www.deviantart.com/lordyupa"><b>DA</b></a></li>
     <li> <a href="https://twitter.com/search?q=pixelart%20(%23pixelart)%20min_faves%3A500&src=typed_query"PIX ><b>tw pixelart ★</b></a> </li>
     <li> <a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>ドット絵 ★</b> </a>    
          <a href="https://www.reddit.com/r/PixelArt">reddit</a></li>
   </ul>
 
-
-  <h4>DITHER</h4>
+  <h4>DITHER★</h4>
   <ul>
-    <li>  <a href="https://ditherit.com/"><b>ditherIt★</b></a> </li>
+    <li>  <a href="https://ditherit.com/"><b>DITHERIT ★</b></a> </li>
           <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a>  </li>
     <li>  <a href="https://seleb.github.io/ordered-dither-maker/"><b>ordered dither ★</b></a>  </li>
     <li>  <a href="/home/masayume/DATA/L/pix dither machine/"><b>dither machine</b></a>  </li>
   </ul>
 
-  <h4>Pixel REFS</h4>
+  <h4>SHADERS★</h4> 
   <ul>
-    <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>twitter AdvQ ★</b></a></li>
-    <li><a href="https://www.deviantart.com/isohei/art/Chibi-character-14-poses-724368819"><b>deviantart</b></a>, 
-      <a href="https://www.deviantart.com/z-studios/art/Thunderbird-819283871"><b>#1</b></a>, 
-    </li>
-    <li><a href="https://gelbooru.com/index.php?page=post&s=view&id=3463389"><b>gelbooru</b></a>
-    </li>
-    <li><a href="https://www.pinterest.co.uk/pin/358880664065806936/"><b>pinterest</b></a></li>
+    <li><a href="https://www.shadertoy.com/view/43dyD2" title="chrome image upload via extension"><b>CRT#1</b></a>
+        <a href="https://www.shadertoy.com/view/XdyGzR" title="chrome image upload via extension"><b>CRT#2</b></a>
+        <a href="https://docs.libretro.com/shader/crt/" ><b>[via]</b></a></li>        
+    <li><a href="/pixelart/shaders/crt-shader-showcase-for-retroarch/"><b>Retroarch CRTShaders★</b></a> </li>  
   </ul>
 
 </div>
@@ -167,10 +165,8 @@
 
   <h4>TOOLS</h4>
   <ul>
-    <li><a href="/pixelart/shaders/crt-shader-showcase-for-retroarch/"><b>Retroarch CRTShaders★</b></a> </li>  
     <li><a href="/html5/CleanEdge/"><b>CleanEdge ★</b></a> <a href="https://twitter.com/torcado/status/1605693706345992193"><b>by torc.</b></a></li>
     <li><a href="https://giventofly.github.io/pixelit/#tryit"><b>Pixel It ★</b></a> <a href="https://pixel-me.tokyo/en/" target="_blank"><b>pixel-me</b></a> </li>
-    <li><a href=""><b>pixatool ★</b></a> <a href="/html5/isotope/isotope-WF/" target="_blank"><b>isoWF ★</b></a> 
     <li><a href="https://captain4lk.itch.io/slk-img2pixel"><b>SLK_img2pixel★</b></a>
         <a href="https://github.com/Captain4LK/SoftLK-tools"><b>git</b></a></li>
     <li><a href="https://github.com/masayume/DigitalGarden/tree/main/tools/imagemagick"><b>imgmagick★</b></a>
@@ -193,7 +189,6 @@
     </details></li>  
   </ul>
 
-
   <h4>PALETTE</h4> <!-- also in TOOLS -->
   <ul>
     <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
@@ -205,22 +200,20 @@
     <li><a href="https://lospec.com/palettes/dawnbringer-palette-analyser">analyzer</a>
         <a href="https://mdigi.tools/color-extractor/?utm_source=pocket_mylist">xtractor</a>
         <a href="https://palettegenerator.com/?utm_source=pocket_mylist">genertr</a></li>
-    <li><a href="http://www.cssdrive.com/imagepalette/">cssdrive palettegen</a></li>
+    <li><a href="http://www.cssdrive.com/imagepalette/">palettegen</a>
+        <a href="https://sites.google.com/view/rejected-palettes/palette-list">Rejected</a></li>
     <li><a href="https://meodai.github.io/poline/"><b>Poline</b></a>
         <a href="https://codepen.io/meodai/pen/GRyjQoZ">color scaler</a></li>
-    <li><a href="https://sites.google.com/view/rejected-palettes/palette-list">rejected palettes</a></li>
   </ul>
 
-  <!--
-  <h4>COLORING</h4>
+  <h4>Pixel REFS</h4>
   <ul>
-    <li> <a href="https://www.masayume.it/blog/content/marc-brunet-e-i-fondamentali-del-digital-painting"><b>Marc Brunet ★</b></a> </li> 
-  </ul>
-  -->
-
-  <h4>PHOTOBASH</h4>
-  <ul>
-    <li> <a href="https://twitter.com/Sidehiwinder/media"><b>Sidehiwinder ★</b></a> </li> 
+    <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>twitter AdvQ ★</b></a></li>
+    <li><a href="https://www.deviantart.com/isohei/art/Chibi-character-14-poses-724368819"><b>deviantart</b></a>, 
+      <a href="https://www.deviantart.com/z-studios/art/Thunderbird-819283871"><b>#1</b></a>, 
+    </li>
+    <li><a href="https://gelbooru.com/index.php?page=post&s=view&id=3463389"><b>gelbooru</b></a>
+        <a href="https://www.pinterest.co.uk/pin/358880664065806936/"><b>pinterest</b></a></li>
   </ul>
 
 </div>
@@ -409,7 +402,15 @@
         <ul>
           <li> <a href="/deathgenerator/"><b>MEME generator ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixelart-meme-death-generator-foone">my</a></li> 
           <li> <a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
-          </ul>
+        </ul>
+
+        <h4>PHOTOBASH</h4>
+        <ul>
+          <li> <a href="https://twitter.com/Sidehiwinder/media"><b>Sidehiwinder ★</b></a> </li> 
+        </ul>
+
+
+
   </div>
   
 
