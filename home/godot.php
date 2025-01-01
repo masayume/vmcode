@@ -96,7 +96,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       </ul>  
       
     <h4>ASSETS</h4>
-      <ul> 
+      <ul>  
+        <li> <a href="https://lotovik.itch.io/project-character-controller"><b>character controller</b></a> </li> 
         <li> <a href="https://godotengine.org/asset-library/asset"><b>asset library</b></a> </li> 
       </ul>  
       
