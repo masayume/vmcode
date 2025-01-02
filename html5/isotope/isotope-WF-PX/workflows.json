@@ -476,7 +476,7 @@
     },
     "0028": {
       "name": "CRT Shaders",
-      "number": "27",
+      "number": "28",
       "data_cat": "player",
       "class": ["player", "palette", "2D", "pixelart", "tools", "shader"],
       "theme": ["technique"],
@@ -490,8 +490,24 @@
       "url": "/html5/web-pattern.htm",
       "via": "https://thingsiplay.game.blog/2022/03/08/crt-shader-showcase-for-retroarch/#sidebysidecrops-sonic",
       "notes": "1bit web pattern generator; CRT shaders via shadertoy in SHADERS section of pixelart page"
+    },
+    "0029": {
+      "name": "switti",
+      "number": "29",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools"],
+      "theme": ["technique"],
+      "img": "wfpx029.webp",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2025,
+      "players": [1],
+      "length": 9,
+      "url": "https://huggingface.co/spaces/dbaranchuk/Switti-1024",
+      "via": "https://yandex-research.github.io/switti/",
+      "notes": ""
     }
-
 
 
   },
