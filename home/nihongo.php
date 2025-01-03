@@ -218,6 +218,7 @@
 
     <h4>KANJI</h4>
     <ul>
+      <li> <a href="https://en.wikipedia.org/wiki/Kangxi_radicals"><b>Kangxi Radicals ★</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=183&art2=183"><b>holden kanji</b></a>
            <a href="https://jisho.org/search/公%23kanji">radical</a></li>
       <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>kotoba ★</b></a> </li>
