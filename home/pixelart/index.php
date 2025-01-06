@@ -242,7 +242,7 @@
 
   <h4>1BIT</h4> 
   <ul> 
-    <li> <a href="/html5/web-pattern.htm"><b>1bitartbot ■</b></a> 
+    <li> <a href="/1bit-pattern-gen"><b>1bitartbot ■</b></a> 
          <a href="https://livellosegreto.it/@bitartbot@freeradical.zone"><b>online</b></a> </li>
   </ul>
 
