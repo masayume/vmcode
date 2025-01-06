@@ -3256,7 +3256,7 @@
     },
     "lVdS": {
       "name": "La Via del Senso",
-      "number": "206",
+      "number": "210",
       "data_cat": "player",
       "class": ["books", "tips", "linguaggio"],
       "theme": ["arcade", "meta"],
@@ -3269,8 +3269,24 @@
       "length": 192,
       "dir": "fisico",
       "url": "https://www.garzanti.it/libri/annamaria-testa-le-vie-del-senso-9788811607816/"
+    },
+    "GrimmsComplete": {
+      "name": "Grimm's Complete Fairy Tales",
+      "number": "211",
+      "data_cat": "player",
+      "class": ["player", "books", "narrativa"],
+      "theme": ["design"],
+      "img": "0211.webp",
+      "author": "Jacob Grimm",
+      "store": "LOCATION", 
+      "weight": "", 
+      "year": 1900,
+      "players": [1],
+      "length": 632,
+      "dir": "digitale",
+      "status": "2read",
+      "url": "https://archive.org/details/grimmscompletefa00grim"
     }
-
 
 
 
