@@ -149,7 +149,9 @@
 
   <h4>DRAWING</h4>
   <ul>
-    <li> <a href="/HTML5/holden/index.php?art=2"><b>EXPRESSIONS★</b></a></li>
+    <li> <a href="/HTML5/holden/index.php?art=2"><b>EXPRESSIONS★</b></a>
+         <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>ART★</b></a></li>
+
     <li>  <a href="/HTML5/holden/index.php?folder=@drawthink"><b>THINK'n'DRAW★</b></a> 
           <a href="/HTML5/holden/index.php?folder=@drawthink/@drawwrite"><b>THINK'n'WRITE</b></a> 
           <a href="https://twitter.com/start_yuji/media"><b>Yuji</b></a> </li>
