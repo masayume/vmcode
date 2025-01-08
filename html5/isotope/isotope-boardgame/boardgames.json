@@ -963,8 +963,24 @@
       "length": 60,
       "score": "7.7",
       "url": "https://boardgamegeek.com/boardgame/391163/forest-shuffle"
+    },
+    "puertorico": {
+      "name": "Puerto Rico",
+      "number": "62",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": ["Action Drafting", "End Game Bonuses", "Follow", "Hidden Victory Points", "Increase Value of Unchosen Resources", "Turn Order: Progressive", "Variable Phase Order" ],
+      "theme": ["Resources"],
+      "img": "062.png",
+      "designer": "Andreas Seyfarth",
+      "weight": "3.27", 
+      "year": 2002,
+      "players": [3, 4, 5],
+      "length": 150,
+      "score": "7.9",
+      "url": "https://boardgamegeek.com/boardgame/3076/puerto-rico"
     }
-
+  
 
 
 
