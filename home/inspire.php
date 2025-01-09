@@ -387,36 +387,52 @@
         <ul>
           <li><a href="http://unsplash.com"><b>unsplash</b></a> 
               <a href="https://www.pexels.com/"><b>pexels</b></a> </li>
+          <li> <a href="https://pdimagearchive"><b>Public Dom. ImgArch</b></a></li>          
           <li><a href="https://booth.pm/en"><b>booth.pm</b></a>
               <a href="https://dribbble.com/"><b>dribbble</b></a></li>
           <li><a href="https://artvee.com/topics/"><b>artvee★</b></a>, <a href="https://www.eastman.org/collections-online"><b>eastman</b></a></li>
-          <li><a href="https://www.lummi.ai/?ref=masayume.it&people=1">lummi.ai</a> </li>
           <li><a href="https://stocksnap.io/view-photos/sort/trending/desc">stocksnap</a>
               <a href="http://pixabay.com"><b>pixabay</b></a> </li>
           <li><a href="https://stockfresh.com/royalty-free-stock-photos/kyoto">stockfresh</a>
               <a href="http://startupstockphotos.com/">startupstock</a> </li>
-          <li><a href="https://www.oldbookillustrations.com/subjects/"><b>old book illustrations</b></a></li>
-          <li><a href="https://www.pixoto.com">pixoto</a>,<a href="https://www.flickr.com/photos/britishlibrary">britishlibrary</a></li>
-          <li><a href="https://www.sakugabooru.com/tag?name=&type=&order=count" target="_blank"><b>sakugabooru</b></a> </li>
-          <li><a href="https://gratisography.com/">gratisography</a>,<a href="http://imcreator.com/free">imcreator</a></li>
-          <li><a href="https://digitalcollections.nypl.org/">digitalcoll.</a>,
-              <a href="https://www.vectorstock.com">vectorstock</a></li>
-          <li><a href="https://burst.shopify.com/">burst.shopify</a>,<a href="http://www.photobash.org/">photobash</a></li>
-          <li><a href="http://www.shutterstock.com/">shutterstock</a>,<a href="https://www.stockvault.net/">stockvault</a></li>
-          <li><a href="https://negativespace.co/">negativespc</a>,<a href="https://kaboompics.com/">kaboompix</a></li>
-          <li><a href="http://fancycrave.com/">fancycrave</a>,<a href="https://www.rawpixel.com/">rawpixel</a></li>
-          <li><a href="https://www.lifeofpix.com/">lifeofpix</a>,<a href="https://www.splitshire.com/">splitshire</a></li>
-          <li><a href="https://unsplash.com/">unsplash</a>,<a href="https://picjumbo.com/">picjumbo</a></li>
-          <li><a href="http://imgur.com/gallery/KlzhGuE">imgur</a> 
-              <a href="http://morguefile.com">morguefile</a> </li>
-          <li><a href="http://superfamous.com">superfamous</a>,<a href="http://picjumbo.com">picjumbo</a></li>
-          <li><a href="http://gratisography.com">gratisography</a> </li>
-          <li><a href="http://freeimages.com">freeimages</a>,<a href="http://jaymantri.com/">jaymantri</a></li>
-          <li><a href="https://isorepublic.com/">isorepublic</a>,<a href="http://littlevisuals.co">littlevisuals</a></li>
-          <li><a href="http://nos.twnsnd.co">twnsnd</a>,<a href="http://picography.co">picography</a></li>
-          <li><a href="http://getrefe.tumblr.com">getrefe</a>,<a href="http://getrefe.com/downloads/category/free/">getrefe2</a></li>
-          <li><a href="http://publicdomainarchive.com">PDarchive</a>,<a href="http://www.textures.com/">textures</a></li>
+          <li><a href="https://www.oldbookillustrations.com/subjects/"><b>oldbook ill.</b></a>
+              <a href="https://www.flickr.com/photos/britishlibrary">britishlib</a></li>
+          <li><a href="https://www.sakugabooru.com/tag?name=&type=&order=count" target="_blank"><b>sakugabooru</b></a> 
+              <a href="https://www.pixoto.com">pixoto</a>,</li>
         </ul>
+        <details>
+          <summary><strong><b>Other STOCKS ⬇️</b></strong></summary> 
+            <p>
+              <ul>
+                <li><a href="https://gratisography.com/">gratisography</a>,<a href="http://imcreator.com/free">imcreator</a></li>
+                <li><a href="https://digitalcollections.nypl.org/">digitalcoll.</a>,
+                    <a href="https://www.vectorstock.com">vectorstock</a></li>
+                <li><a href="https://burst.shopify.com/">burst.shopify</a>,
+                    <a href="http://www.photobash.org/">photobash</a></li>
+                <li><a href="http://www.shutterstock.com/">shutterstock</a>,
+                    <a href="https://www.stockvault.net/">stockvault</a></li>
+                <li><a href="https://negativespace.co/">negativespc</a>,
+                    <a href="https://kaboompics.com/">kaboompix</a></li>
+                <li><a href="http://fancycrave.com/">fancycrave</a>,
+                    <a href="https://www.rawpixel.com/">rawpixel</a></li>
+                <li><a href="https://www.lifeofpix.com/">lifeofpix</a>,
+                    <a href="https://www.splitshire.com/">splitshire</a></li>
+                <li><a href="https://unsplash.com/">unsplash</a>,
+                    <a href="https://picjumbo.com/">picjumbo</a></li>
+                <li><a href="http://imgur.com/gallery/KlzhGuE">imgur</a> 
+                    <a href="http://morguefile.com">morguefile</a> </li>
+                <li><a href="http://superfamous.com">superfamous</a>,
+                    <a href="https://www.lummi.ai/?ref=masayume.it&people=1">lummi.ai</a></li>
+                <li><a href="http://gratisography.com">gratisography</a> </li>
+                <li><a href="http://freeimages.com">freeimages</a>,<a href="http://jaymantri.com/">jaymantri</a></li>
+                <li><a href="https://isorepublic.com/">isorepublic</a>,<a href="http://littlevisuals.co">littlevisuals</a></li>
+                <li><a href="http://nos.twnsnd.co">twnsnd</a>,<a href="http://picography.co">picography</a></li>
+                <li><a href="http://getrefe.com/">getrefe</a>
+                    <a href="http://getrefe.tumblr.com">tumblr</a> </li>
+                <li><a href="http://publicdomainarchive.com">PDarchive</a>,<a href="http://www.textures.com/">textures</a></li>
+              </ul>
+            </p>
+        </details>
     </div>
 
 
