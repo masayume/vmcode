@@ -66,7 +66,7 @@
             <li> <a href="https://huggingface.co/spaces/multimodalart/latentdiffusion"><b>HF latentdiffusion</b></a></li> 
             <li> <a href="https://replicate.com/laion-ai/laionide-v3"><b>laionide</b></a></li> 
             <li> <a href="https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F"><b>midjourney</b></a></li> 
-            <li> <a href="https://nightcafe.studio/"><b>nightcafe</b></a></li> 
+            <li> <a href="https://creator.nightcafe.studio/"><b>nightcafe</b></a></li> 
             <li> <a href="https://novelai.net/"><b>novelai</b></a></li> 
             <li> <a href="https://photosonic.writesonic.com/"><b>photosonic</b></a></li> 
             <li> <a href="https://picso.ai/"><b>picso</b></a></li> 
@@ -134,7 +134,8 @@
     <h4>GRAPH AI TOOLS</h4>
     <ul>
     
-      <li>  <a href="https://ideogram.ai/"><b>ideogram★</b></a>  </li>
+      <li>  <a href="https://ideogram.ai/"><b>ideogram★</b></a> 
+            <a href="https://creator.nightcafe.studio/"><b>nightcafe★</b></a></li> 
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
             <a href="https://zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
       <li>  <a href="https://generated.photos/human-generator/" title="Human Generator"><b>HumanGen★</b></a>  
