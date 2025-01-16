@@ -979,8 +979,23 @@
       "length": 150,
       "score": "7.9",
       "url": "https://boardgamegeek.com/boardgame/3076/puerto-rico"
-    }
-  
+    },
+    "summonerwars": {
+      "name": "Summoner Wars",
+      "number": "63",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Action Points", "Card Play Conflict Resolution", "Deck Construction", "Dice Rolling", "Die Icon Resolution", "Grid Movement", "Hand Management", "Multi-Use Cards", "Take That", "Variable Player Powers" ],
+      "theme": ["Resources"],
+      "img": "063.png",
+      "designer": "Colby Dauch",
+      "weight": "2.58", 
+      "year": 2021,
+      "players": [2],
+      "length": 60,
+      "score": "8.1",
+      "url": "https://boardgamegeek.com/boardgame/332800/summoner-wars-second-edition"
+    }  
 
 
 
