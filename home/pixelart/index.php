@@ -398,9 +398,9 @@
         </ul>
 
 
-        <h4>MEME GEN</h4>
+        <h4>MEME/TXT GEN</h4>
         <ul>
-          <li> <a href="/deathgenerator/"><b>MEME generator ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixelart-meme-death-generator-foone">my</a></li> 
+          <li> <a href="/deathgenerator/"><b>death generator ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixelart-meme-death-generator-foone">my</a></li> 
           <li> <a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
         </ul>
 
