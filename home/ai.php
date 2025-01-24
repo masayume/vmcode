@@ -133,7 +133,7 @@
   <div class="_exa">
     <h4>GRAPH AI TOOLS</h4>
     <ul>
-    
+      <li>  <a href="https://spell.spline.design/explore"><b>spline 3D★</b></a> </li>
       <li>  <a href="https://ideogram.ai/"><b>ideogram★</b></a> 
             <a href="https://creator.nightcafe.studio/"><b>nightcafe★</b></a></li> 
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
