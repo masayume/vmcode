@@ -995,6 +995,22 @@
       "length": 60,
       "score": "8.1",
       "url": "https://boardgamegeek.com/boardgame/332800/summoner-wars-second-edition"
+    },
+    "Bonfire": {
+      "name": "Bonfire",
+      "number": "64",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Market", "Pattern Building", "Point to Point Movement", "Set Collection", "Solo / Solitaire Game", "Tile Placement" ],
+      "theme": ["Resources"],
+      "img": "064.png",
+      "designer": "Stefen Feld",
+      "weight": "3.63", 
+      "year": 2020,
+      "players": [1, 2, 3, 4],
+      "length": 100,
+      "score": "7.6",
+      "url": "https://boardgamegeek.com/boardgame/304420/bonfire"
     }  
 
 
