@@ -172,6 +172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <h4>PALETTE</h4> <!-- also in PIXELART -->
     <ul>
+      <li><a href="https://colorify.rocks"><b>colorify ★</b></a> </li>
       <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
           <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a>  
           <a href="https://www.masayume.it/blog9/web/content/tiled-palette-quantization"><b>my</b></a> 
@@ -410,8 +411,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>Text 2 Speech</h4>
   <ul>
-    <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">text2speech js</a></li>
-    <li><a href="https://discordier.github.io/sam/">S.A.M (js)</a></li>
+    <li><a href="https://huggingface.co/spaces/hexgrad/Kokoro-TTS">kokoro TTS</a></li>
+    <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">text2speech</a>
+        <a href="https://discordier.github.io/sam/">S.A.M (js)</a></li>
   </ul>
 
   <h4>Teropa +</h4>
