@@ -1011,7 +1011,23 @@
       "length": 100,
       "score": "7.6",
       "url": "https://boardgamegeek.com/boardgame/304420/bonfire"
-    }  
+    },     
+    "Dominion": {
+      "name": "Dominion",
+      "number": "65",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Deck, Bag, and Pool Building", "Delayed Purchase", "Hand Management", "Open Drafting", "Take That", "Variable Set-up" ],
+      "theme": ["Resources"],
+      "img": "065.png",
+      "designer": "Donald X Vaccarino",
+      "weight": "2.35", 
+      "year": 2008,
+      "players": [2, 3, 4],
+      "length": 30,
+      "score": "7.6",
+      "url": "https://boardgamegeek.com/boardgame/36218/dominion"
+    }   
 
 
 
