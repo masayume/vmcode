@@ -131,6 +131,14 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 			</form>
 		</aside>
 
+		<ul>
+			<li><a href="https://opencritic.com">opencritic</a> </li>
+			<li><a href="https://gamesdb.launchbox-app.com">gamesdb</a> </li>
+			<li><a href="https://glitchwave.com">glitchwave</a> </li>
+			<li><a href="https://infinitebacklog.net">infinite backlog</a> </li>
+			<li><a href="https://darkadia.com/member/masayume">darkadia</a> </li>
+		</ul>
+
 		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />
 
 		<header><h3 class="widgettitle">Images</h3></header>

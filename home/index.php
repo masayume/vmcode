@@ -170,8 +170,6 @@
           <li><a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> 
               <a href="https://www.timer-tab.com/"><b>TimerTab ★</b></a> </li>
           <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
-          <li><a href="https://onlinehtmleditor.dev/"><b>RichText★</b></a> 
-              <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>Edit.Photo ★</b></a>
               <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a>
               <a href="https://www.masayume.it/blog/content/pixlr"><b>??</b></a></li>
@@ -194,8 +192,9 @@
         <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
         <ul>
         <li><a href="/html5/mersenne4" title='~/html5/mersenne4'>mersenne4 (new)</a>        
-        <li><a href="/keplerion/mersenne-01.php">mersenne-01</a> <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-02-demon</a> </li>
-        <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>mersenne uchida</b></a></li>          
+        <li><a href="/keplerion/mersenne-01.php">m-01</a> 
+            <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-demon</a> 
+        <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>m-uchida</b></a> </li>
         <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabius all</b></a>          
             <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
             <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
@@ -220,6 +219,14 @@
               <a href="https://www.perplexity.ai/"><b>Perplexity</b></a> </li>
         <li>  <a href="https://en.app/"><b>books</b></a> </li>
       </ul>
+
+      <h4>EDITORS</h4>
+      <ul>
+        <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
+            <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
+        <li><a href="https://notepad-online.co/"><b>notepad online</b></a> </li>
+      </ul>
+
       <h4>LISTS</h4>
       <ul>
         <li> <a href="https://glitchwave.com/"><b>Glitchwav</b></a>
@@ -249,11 +256,6 @@
         <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
       </ul>
 
-    <h4>WEEKLY todo</h4>
-    <ul>
-      <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a> </li>
-    </ul>
-
 </div>
 
 
@@ -277,11 +279,12 @@
             <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php">Kanji Cards</a>
                  - <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a>
                  - <a href="/demon/overlayer/overlayer.infogen.txt">info</a>
-                 - <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li> 
+                 - <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li>  
 
             <li> <a href="/HTML5/taktix/">Oblique Taktix</a> 
                  <a href="/inspire/@CARTOONS/SIO/bin/sio.php"><b>siomixbot</b></a> </a>
-                 <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> </li>
+                 <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> 
+                 <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a></li>
             <li> <a href="/oglaf.php">Oglaf RND comic</a> 
                  <a href="/rory.php">rory story cubes</a> 
                  <a href="/HTML5/holden/index.php?art1=182&art2=182"><b>tarot jodorovski</b></a> </li>
