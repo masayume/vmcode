@@ -399,10 +399,12 @@
         </ul>
 
 
-        <h4>MEME/TXT GEN</h4>
+        <h4>FONTS/MEME/TXT</h4>
         <ul>
           <li> <a href="/deathgenerator/"><b>death generator ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixelart-meme-death-generator-foone">my</a></li> 
           <li> <a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
+          <li> <a href="https://yellowafterlife.itch.io/pixelfont"><b>pixel font converter ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixel-font-converter">my</a></li>     
+
         </ul>
 
         <h4>PHOTOBASH</h4>
@@ -416,7 +418,19 @@
   
 
   <div class="_exa">
-    <h4>REFERENCE</h4>
+      <details>
+        <summary><strong><b>PIXEL ARTISTS ⬇️</b></strong></summary>
+        <p>
+          <ul>
+            <li> <a href="LINK"><b>artist</b></a></li> 
+            <li> <a href="LINK"><b>artist★</b></a></li> 
+        </ul>
+        </p>
+      </details>
+
+
+
+    <a href="/inspire.php" title="ALSO IN INSPIRE"><h4>REFERENCE</h4></a>   <!-- ALSO IN INSPIRE -->
       <ul>
         <li> <a href="/HTML5/holden/index.php?folder=@drawthink"><b>THINK'n'DRAW ★</b></a> </li> 
         <li> <a href="/HTML5/holden/index.php?folder=@drawthink/@drawwrite"><b>THINK'n'WRITE</b></a> </li>
@@ -431,30 +445,8 @@
             <a href="https://twitter.com/JookPub/media">3</a>
             <a href="https://twitter.com/hanari0716/media">4</a>
         </li>
-        <li> <a href="/HTML5/holden/index.php?folder=@gnokkenland/dubnitskiy"><b>Dubnitskiy</b></a>, <a href="https://www.flickr.com/photos/canhgioi007/albums/72157681058113460/">FL</a>, <a href="https://www.tumblr.com/tagged/david-dubnitskiy">TB</a></li>
-        <li> <a href="https://www.pinterest.co.uk/masayume/_saved/"><b>PINTEREST</b></a>, 
-          <a href="https://www.pinterest.co.uk/masayume/pixels/">1</a> 
-          <a href="https://www.pinterest.co.uk/masayume/backgrounds/">2</a> 
-          <a href="https://www.pinterest.co.uk/masayume/inspire/">3</a>
-          <a href="https://www.pinterest.co.uk/masayume/sexy-references/">4</a>
         </li>
-        <li> <a href="https://www.facebook.com/photo?fbid=10151234523987151&set=a.10151117615697151">FB orientalisme</a> </li>
-        <li> <a href="http://reference.sketchdaily.net/en">daily sketch</a></li>
-        <li> <a href="https://www.pinterest.fr/catsuka/animation-artworks/">ANIM.ARTWORKS</a></li>
-        <li> <a href="https://www.sakugabooru.com/tag?name=&type=&order=count" target="_blank"><b>sakugabooru ★</b></a> </li>
-        <li> <a href="https://safebooru.org/index.php?page=post&s=random">safebooru ★</a></li>
-        <li> <a href="https://danbooru.donmai.us/posts?tags=cyberpunk">danbooru cyber ★</a></li>
-        <li> <a href="/html5/isotope/isotope-refboard/">ISOreference (WIP)</a> </li>
-        <li> <a href="https://www.pinterest.co.uk/masayume/how-to-draw/"><b>P! how to draw ★</b></a> </li>
-        <li> <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a> - <a href="/demon/overlayer/overlayer.infogen.txt">info</a></li>
-        <li><b>bat:</b><br> 
-            <a href="https://www.google.it/search?q=disney+bat&source=lnms&tbm=isch&sa=X">disney</a>
-            <a href="https://www.google.it/search?q=anime+bat&source=lnms&tbm=isch&sa=X">anime</a>
-            <a href="https://www.google.it/search?q=sakuga+bat&source=lnms&tbm=isch&sa=X">sakuga</a></li>
-        <li><b>images:</b><br> 
-        <li><a href="https://www.bing.com/?scope=images&nr=1&FORM=NOFORM">bing</a>
-            <a href="https://yandex.com/images">yandex</a>
-            <a href="https://gogl.app/">google</a> </li>
+        <li><a href="/inspire.php" title="ALSO IN INSPIRE"><b>[...]</b></a></li>
       </ul>
 
 </div>
