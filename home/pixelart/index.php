@@ -422,8 +422,15 @@
         <summary><strong><b>PIXEL ARTISTS ⬇️</b></strong></summary>
         <p>
           <ul>
-            <li> <a href="LINK"><b>artist</b></a></li> 
-            <li> <a href="LINK"><b>artist★</b></a></li> 
+            <li> <a href="https://www.masayume.it/blog/content/thomas-feichtmeir-cyangmou" target="_blank"><b>cyangmou</b></a>
+                 <a href="https://bsky.app/profile/cyangmou.bsky.social" target="_blank"><b>BS</b></a>                
+            </li> 
+            <li> <a href="https://www.masayume.it/blog/content/aaron-michael-hain-hainsaw"><b>hainsaw★</b></a>
+                 <a href="https://x.com/hainsaw" target="_blank"><b>tw</b></a>
+
+            <li> <a href="LINK"><b>artist★</b></a>  </li>
+            <li> <a href="LINK"><b>artist★</b></a>  </li>
+
         </ul>
         </p>
       </details>
