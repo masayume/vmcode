@@ -1027,8 +1027,55 @@
       "length": 30,
       "score": "7.6",
       "url": "https://boardgamegeek.com/boardgame/36218/dominion"
-    }   
-
+    },
+    "Pillars": {
+      "name": "The Pillars of the Earth",
+      "number": "66",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Events", "Market", "Turn Order: Claim Action", "Turn Order: Random", "Worker Placement", "Worker Placement, Different Worker Types" ],
+      "theme": ["Resources"],
+      "img": "066.png",
+      "designer": "Michael Rieneck, Stefan Stadler",
+      "weight": "2.81", 
+      "year": 2006,
+      "players": [2, 3, 4],
+      "length": 120,
+      "score": "7.3",
+      "url": "https://boardgamegeek.com/boardgame/24480/the-pillars-of-the-earth"
+    },
+    "CastlesOfB": {
+      "name": "Castles Of Burgundy",
+      "number": "67",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Delayed Purchase", "Dice Rolling", "End Game Bonuses", "Grid Coverage", "Hexagon Grid", "Open Drafting", "Pattern Building", "Tile Placement", "Turn Order: Stat-Based", "VariablSet-up" ],
+      "theme": ["Resources"],
+      "img": "067.png",
+      "designer": "Stefan Feld",
+      "weight": "2.97", 
+      "year": 2011,
+      "players": [2, 3, 4],
+      "length": 90,
+      "score": "8.1",
+      "url": "https://boardgamegeek.com/boardgame/84876/the-castles-of-burgundy"
+    },
+    "AlienFate": {
+      "name": "Alien Fate of the Nostromo",
+      "number": "68",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Action Points", "Cooperative Game", "Pick-up and Deliver", "Variable Player Powers" ],
+      "theme": ["Resources"],
+      "img": "068.png",
+      "designer": "Scott Rogers",
+      "weight": "1.94", 
+      "year": 2021,
+      "players": [1, 2, 3, 4, 5],
+      "length": 60,
+      "score": "7.1",
+      "url": "https://boardgamegeek.com/boardgame/332321/alien-fate-of-the-nostromo"
+    }       
 
 
 
