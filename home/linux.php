@@ -195,7 +195,8 @@
   <div class="_exa">
     <h4>GRAPHICS</h4>
       <ul>
-        <li><a href="https://www.pinta-project.com/" title="kdrive"><b>Pinta★</b></a></li>
+        <li><a href="https://www.pinta-project.com/" title="kdrive"><b>Pinta★</b></a>
+            <a href="https://jeneira94.github.io/pintapals/shortcuts/" title="kdrive"><b>Keyb★</b></a></li>
       </ul>
 
     <h4>CLOUD</h4>
