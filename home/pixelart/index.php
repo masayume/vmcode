@@ -193,6 +193,8 @@
   <ul>
     <li><a href="https://colorify.rocks"><b>colorify ★</b></a> 
         <a href="https://paletton.com/#uid=b4Y2C1G0kJbrPmuA1-tDyOslPU9eQ"><b>paletton ★</b></a> </li>
+    <li><a href="https://davidjohnstone.net/lch-lab-colour-gradient-picker"><b>grad.pick★</b></a> 
+        <a href="https://leonardocolor.io/scales.html#"><b>leonardo★</b></a> </li>
     <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
         <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a>  
         <a href="https://www.masayume.it/blog9/web/content/tiled-palette-quantization"><b>my</b></a> 
