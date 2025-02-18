@@ -172,7 +172,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <h4>PALETTE</h4> <!-- also in PIXELART -->
     <ul>
-      <li><a href="https://colorify.rocks"><b>colorify ★</b></a> </li>
+      <li><a href="https://colorify.rocks"><b>colorify ★</b></a> 
+          <a href="https://paletton.com/#uid=b4Y2C1G0kJbrPmuA1-tDyOslPU9eQ"><b>paletton ★</b></a> </li>
       <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
           <a href="https://github.com/rilden/tiledpalettequant"><b>github</b></a>  
           <a href="https://www.masayume.it/blog9/web/content/tiled-palette-quantization"><b>my</b></a> 
