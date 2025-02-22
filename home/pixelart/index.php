@@ -430,7 +430,11 @@
             </li> 
             <li> <a href="https://www.masayume.it/blog/content/aaron-michael-hain-hainsaw"><b>hainsaw★</b></a>
                  <a href="https://x.com/hainsaw" target="_blank"><b>tw</b></a>
+            <li> <a href="https://bsky.app/profile/potemki11.bsky.social"><b>potemki12★</b></a>  </li>
 
+            <li> <a href="LINK"><b>artist★</b></a>  </li>
+            <li> <a href="LINK"><b>artist★</b></a>  </li>
+            <li> <a href="LINK"><b>artist★</b></a>  </li>
             <li> <a href="LINK"><b>artist★</b></a>  </li>
             <li> <a href="LINK"><b>artist★</b></a>  </li>
 
