@@ -385,6 +385,7 @@
         </ul>
       <h4>STOCK</h4>
         <ul>
+          <li><a href="http://freepik.com"><b>freepic</b></a> 
           <li><a href="http://unsplash.com"><b>unsplash</b></a> 
               <a href="https://www.pexels.com/"><b>pexels</b></a> </li>
           <li> <a href="https://pdimagearchive"><b>Public Dom. ImgArch</b></a></li>          
