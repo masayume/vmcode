@@ -174,6 +174,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <ul>
       <li><a href="https://colorify.rocks"><b>colorify ★</b></a> 
           <a href="https://paletton.com/#uid=b4Y2C1G0kJbrPmuA1-tDyOslPU9eQ"><b>paletton ★</b></a> </li>
+      <li><a href="https://thisisfranciswu.com/enterprise-ui-palette-generator/#"><b>palettegen★</b></a> 
+          <a href="https://hue.tools/mix?format=hex&mode=lch&colors=8a538eff%3Bfedc2aff&gamma=1.25"><b>HueTools★</b></a> </li>
+      <li><a href="http://dev.thi.ng/gradients/"><b>Color palette webapp</b></a></li> 
       <li><a href="https://davidjohnstone.net/lch-lab-colour-gradient-picker"><b>grad.pick★</b></a> 
           <a href="https://leonardocolor.io/scales.html#"><b>leonardo★</b></a> </li>
       <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
