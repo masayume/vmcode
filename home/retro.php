@@ -133,6 +133,7 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 
 		<ul>
 			<li><a href="https://opencritic.com">opencritic</a> </li>
+			<li><a href="https://www.igdb.com/games/space-crusade">IGDB</a> </li>
 			<li><a href="https://gamesdb.launchbox-app.com">gamesdb</a> </li>
 			<li><a href="https://glitchwave.com">glitchwave</a> </li>
 			<li><a href="https://infinitebacklog.net">infinite backlog</a> </li>
