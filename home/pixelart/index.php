@@ -67,7 +67,7 @@
               <li> <a href="/HTML5/holden/index.php?art1=105&art2=105"><b>TECH</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=107&art2=107"><b>workflow</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=108&art2=108"><b>RETRO</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=175&art2=175"><b>ref-TEXT (fonts) ■</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=179&art2=179"><b>ref-TEXT (fonts) ■</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>1bit</b></a> </li>
