@@ -59,7 +59,8 @@
       <ul>
         <li> <a href="https://www.tofugu.com/learn-japanese/" target="_blank"><b>Tofugu Guide</b></a> </li>
         <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>kotoba ★</b></a> </li>
-        <li> <a href="https://www.masayume.it/blog/taxonomy/term/42" target="_blank"><b>masayume</b></a> </li>
+        <li> <a href="https://www.masayume.it/blog/taxonomy/term/42" target="_blank"><b>MY.nihongo</b></a> 
+             <a href="https://www.masayume.it/blog/taxonomy/term/42" target="_blank"><b>MY.Asia</b></a> </li>
         <li> <a href="https://jisho.org/" target="_blank"><b>jisho.org</b></a> </li>
         <li> <a href="https://translate.google.com/" target="_blank"><b>google translate</b></a> </li>
       </ul>
