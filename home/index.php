@@ -55,7 +55,8 @@
              <a href="nihongo.php" target="_blank"><b>NIHONGO</b></a>
              <a href="ai.php" target="_blank"><b>AI</b></a> </li>
         <li> <a href="retro.php" target="_blank"><b>RETRO</b></a>
-             <a href="linux.php" target="_blank"><b>LINUX</b></a> </li>
+             <a href="linux.php" target="_blank"><b>LINUX</b></a> 
+             <a href="cosmo/" target="_blank"><b>COSMO</b></a> </li>
         <li> <a href="unity.php" target="_blank">UNITY</a> 
              <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
         </ul>
