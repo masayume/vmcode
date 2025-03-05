@@ -230,6 +230,8 @@
 
     <h4>UPSCALERS</h4>
     <ul> 
+      <li>  <a href="https://app.topazlabs.com/starlight"><b>TLabs Starlight</b></a>
+      <li>  <a href="https://app.topazlabs.com/enhance/upscale"><b>TLabs Upscale</b></a>
       <li>  <a href="https://huggingface.co/spaces/finegrain/finegrain-image-enhancer"><b>finegrain</b></a>
             <a href="https://magnific.ai/editor/"><b>magnific.ai</b></a> </li>
       <li>  <a href="https://mejorarimagen.org/en/upscaler"><b>mejorarimagen.org</b></a> </li>
