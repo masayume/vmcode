@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>LINUX</title>
+<title>COSMO</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
@@ -12,10 +12,12 @@
 */
 
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2485e5+0,b1c6d8+6,6199c7+42,6199c7+42,3a84c3+51,419ad6+59,009fef+71,3a8bc2+84,26558b+100 */
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0b8dd+0,ce65c5+22,f24864+51,ff4f51+59,bf353e+100 */
+    background: linear-gradient(to bottom,  #e0b8dd 0%,#ce65c5 22%,#f24864 51%,#ff4f51 59%,#bf353e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background: #2485e5; /* Old browsers */
-    background: -moz-linear-gradient(top,  #2485e5 0%, #b1c6d8 6%, #6199c7 42%, #6199c7 42%, #3a84c3 51%, #419ad6 59%, #009fef 71%, #3a8bc2 84%, #26558b 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #2485e5 0%,#b1c6d8 6%,#6199c7 42%,#6199c7 42%,#3a84c3 51%,#419ad6 59%,#009fef 71%,#3a8bc2 84%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #2485e5 0%,#b1c6d8 6%,#6199c7 42%,#6199c7 42%,#3a84c3 51%,#419ad6 59%,#009fef 71%,#3a8bc2 84%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(top,  #e0b8dd 0%,#ce65c5 22%,#f24864 51%,#ff4f51 59%,#bf353e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e0b8dd 0%,#ce65c5 22%,#f24864 51%,#ff4f51 59%,#bf353e 100%); /* Chrome10-25,Safari5.1-6 */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2485e5', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
   }
   a, a:visited {  color: #ffffff; }

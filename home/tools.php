@@ -31,6 +31,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 <div class="container-fluid">
 
   <div class="_exa">
+
+  <h4>WEB PAGES</h4> 
+      <ul>
+        <li><a href="https://aresluna.org/the-hardest-working-font-in-manhattan/"><b>book layout ♥</b></a></li>
+      </ul>
+
   
   <h4>WEB GALLERY</h4> 
       <ul>
