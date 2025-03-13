@@ -1075,7 +1075,23 @@
       "length": 60,
       "score": "7.1",
       "url": "https://boardgamegeek.com/boardgame/332321/alien-fate-of-the-nostromo"
-    }       
+    },
+    "ThroughtheAges": {
+      "name": "Through the Ages",
+      "number": "69",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Action Points", "Auction / Bidding", "Auction: Dutch", "Hand Management", "Open Drafting" ],
+      "theme": ["Resources"],
+      "img": "069.png",
+      "designer": "Vlaada Chvátil",
+      "weight": "4.18", 
+      "year": 2006,
+      "players": [2, 3, 4],
+      "length": 120,
+      "score": "7.8",
+      "url": "https://boardgamegeek.com/boardgame/25613/through-the-ages-a-story-of-civilization"
+    }
 
 
 
