@@ -190,22 +190,18 @@
           <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
 
-        <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
+      <h4>ISO</h4>
         <ul>
-        <li><a href="/html5/mersenne4" title='~/html5/mersenne4'>mersenne4 (new)</a>        
-        <li><a href="/keplerion/mersenne-01.php">m-01</a> 
-            <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-demon</a> 
-        <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>m-uchida</b></a> </li>
-        <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabius all</b></a>          
-            <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
-            <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
-        <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
-            <a href="/keplerion/layerizer.php">layerizer</a> </li>
-        <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
-        <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">rd</a> 
-            <a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> </li>
-        <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrmr</a> 
-            <a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> </li>
+          <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
+              <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
+              <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
+          <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
+              <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li>
+          <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> </li>
+          <li> <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
+          <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> </li>
+          <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
+          <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
         </ul>
 
   </div>
@@ -216,9 +212,13 @@
 
     <h4>SEARCH</h4>
       <ul>
+        <li>  <a href="https://duckduckgo.com"><b>Duck<sup>2</sup>go</b></a>
+              <a href="https://clippy.kenobit.it/"><b>Clippy</b></a> </li>
         <li>  <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
-              <a href="https://www.perplexity.ai/"><b>Perplexity</b></a> </li>
-        <li>  <a href="https://en.app/"><b>books</b></a> </li>
+              <a href="https://www.perplexity.ai/"><b>Perplexity</b></a>
+              <a href="https://en.app/"><b>Books</b></a> </li>
+        <li>  <a href="https://ukdataexplorer.com/european-translator/?word=thanks"><b>EUWords★</b></a> 
+              <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
       </ul>
 
       <h4>EDITORS</h4>
@@ -237,25 +237,30 @@
 
     <h4>AI</h4>
       <ul>
-        <li> <a href="https://chat.openai.com/"><b>chatGPT</b></a>
-             <a href="https://bard.google.com/"><b>Bard</b></a> </li>
         <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
-             <a href="https://claude.ai/"><b>Claude</b></a> </li>
+             <a href="https://claude.ai/"><b>Claude</b></a> 
+             <a href="https://bard.google.com/"><b>Bard</b></a> </li>
+        <li> <a href="https://chat.openai.com/"><b>chatGPT</b></a> </li>
       </ul>
 
-    <h4>ISO</h4>
-      <ul>
-        <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
-            <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
-            <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
-        <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
-            <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li>
-        <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> </li>
-        <li> <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-        <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> </li>
-        <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
-        <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
-      </ul>
+    <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
+        <ul>
+        <li><a href="/html5/mersenne4" title='~/html5/mersenne4'>mersenne4 (new)</a>        
+        <li><a href="/keplerion/mersenne-01.php">m-01</a> 
+            <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-demon</a> 
+            <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>m-uchida</b></a> </li>
+        <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabius all</b></a>          
+            <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
+            <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
+        <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
+            <a href="/keplerion/layerizer.php">layerizer</a> </li>
+        <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
+        <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">rd</a> 
+            <a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> </li>
+        <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrmr</a> 
+            <a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> </li>
+        </ul>
+
 
 </div>
 
