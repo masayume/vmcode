@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>COSMO</title>
+<title>COSMOgony</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
@@ -10,8 +10,6 @@
 /*	background-image:url('img/ub-wallp.jpg'); 
 	background-color: #0033cc;
 */
-
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2485e5+0,b1c6d8+6,6199c7+42,6199c7+42,3a84c3+51,419ad6+59,009fef+71,3a8bc2+84,26558b+100 */
 
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0b8dd+0,ce65c5+22,f24864+51,ff4f51+59,bf353e+100 */
     background: linear-gradient(to bottom,  #e0b8dd 0%,#ce65c5 22%,#f24864 51%,#ff4f51 59%,#bf353e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -50,46 +48,24 @@
   <div class="_exa">
     <h4>PAGES</h4>
       <ul>
-        <li> <a href="tools.php" target="_blank"><b>TOOLS</b></a> 
-             <a href="godot.php" target="_blank"><b>GODOT</b></a>
-             <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
-        <li> <a href="pixelart/" target="_blank"><b>PIXELART</b></a> 
-             <a href="nihongo.php" target="_blank"><b>NIHONGO</b></a>
-             <a href="ai.php" target="_blank"><b>AI</b></a> </li>
-        <li> <a href="retro.php" target="_blank"><b>RETRO</b></a>
+        <li> <a href="/tools.php" target="_blank"><b>TOOLS</b></a> 
+             <a href="/godot.php" target="_blank"><b>GODOT</b></a>
+             <a href="/inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
+        <li> <a href="/pixelart/" target="_blank"><b>PIXELART</b></a> 
+             <a href="/nihongo.php" target="_blank"><b>NIHONGO</b></a>
+             <a href="/ai.php" target="_blank"><b>AI</b></a> </li>
+        <li> <a href="/retro.php" target="_blank"><b>RETRO</b></a>
              <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
-        <li> <a href="unity.php" target="_blank">UNITY</a> </li>
       </ul>
 
     <h4>TOOLS</h4>
       <ul>
-        <li> <a href="" target="_blank"><b>nomachine connect</b></a> </li>
-        <li> <a href="https://www.masayume.it/blog/content/cool-retro-term" target="_blank"><b>CoolRetroTerm</b></a> 
-             <a href="https://www.masayume.it/blog/taxonomy/term/45" target="_blank"><b>myTools</b></a> </li>
-        <li> <a href="https://www.masayume.it/blog/content/wezterm" target="_blank"><b>WezTerm</b></a> 
-             <a href="https://www.masayume.it/blog/content/linux-bootable-usb" target="_blank"><b>Boot Disk</b></a>  </li>
-        <li> <a href="https://www.masayume.it/blog/content/open-source-alternatives" target="_blank"><b>OpenSource Alts</b></a>  </li>
-        <li> <a href="https://numbr.dev/?ref=masayume.it" target="_blank"><b>Numbr(calc)</b></a>  
-             <a href="https://www.masayume.it/blog9/web/index.php/content/tesseract-ocr-linux" target="_blank"><b>Tesseract</b></a>  </li>
-        <li> <a href="https://www.masayume.it/blog9/web/index.php/content/sqlite" target="_blank"><b>SQLite</b></a>  
-             <a href="https://www.masayume.it/blog9/web/index.php/content/awk-capirci-qualcosa" target="_blank"><b>myAWK</b></a>  </li>
-        <li> <a href="https://www.masayume.it/blog9/web/index.php/content/linux-automation-xdotool" target="_blank"><b>auto: xdotool</b></a>  </li>
-        <li> <a href="https://www.masayume.it/blog9/web/index.php/content/dolphin-kde-linux-file-manager" target="_blank"><b>myDolphin</b></a>  
-             <a href="https://www.masayume.it/blog9/web/content/open-desktop-e-nextcloud" target="_blank"><b>nextcloud</b></a>  </li>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
       </ul>
 
     <h4>WEB TOOLS</h4>
       <ul>
-        <li> <a href="https://archive.ph/" target="_blank"><b>screenshot</b></a>  </li>
-        <li> <a href="https://www.masayume.it/blog9/web/index.php/content/yt-dlp" target="_blank"><b>yt-dlp</b></a>  </li>
-        <li> <a href="https://saved.io/" target="_blank"><b>saved.io</b></a>  </li>
-        <li> <a href="https://www.urlvoid.com/" target="_blank"><b>reputation: urlvoid</b></a>  </li>
-        <li> <a href="https://www.masayume.it/blog9/web/content/last-cheat-sheet" target="_blank"><b>last cheatsheet</b></a>  </li>
-      </ul>
-
-        <li> <a href="https://www.masayume.it/blog9/web/index.php/taxonomy/term/45?page=9" target="_blank"><b>tools page continua</b></a>  </li>
-        <li> <a href="https://saved.io/" target="_blank"><b>saved.io</b></a>  </li>
-
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
       </ul>
 
 
@@ -100,74 +76,47 @@
 
   <h4>FONTS</h4>
       <ul>
-        <li> <a href="https://www.debugpoint.com/install-fonts-linux/" target="_blank"><b>Install Fonts</b></a> 
-        <li> <a href="https://www.masayume.it/blog/index.php/content/nerd-fonts" target="_blank"><b>Nerd Fonts</b></a> 
-        <li> <a href="https://www.masayume.it/blog/content/fontforge" target="_blank"><b>Fontforge (L)</b></a>
-        
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
       </ul>
 
   <h4>BEST</h4>
-    <ul>
-      <li> <a href="https://www.masayume.it/blog9/web/content/linux-performance-observability-tools"><b>performance tools</b></a>
-           <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
-<!--
-      <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
-      <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
--->
-    </ul>
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
   
   <h4>Game Making</h4>
-    <ul>
-      <li> <a href="https://www.masayume.it/blog9/web/content/tiled-e-lego-brick"><b>Tiled (appimg)</b></a>
-  </ul>
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
 
   <h4>CODE</h4>
-    <ul>
-      <li> <a href="https://godbolt.org/z/sbYh6vW8M"><b>Compiler Explorer</b></a> </li>
-    </ul>
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
 
   <h4>WEEKLY todo</h4>
-  <ul>
-    <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a> </li>
-  </ul>
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
 
-
-</div>
+  </div>
 
 
   <div class="_exa">
 
-        <h4>WEB TOOLS 2</h4> <!-- ALSO IN index.php -->
-        <ul>
-          <li><a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> </li>
-          <li><a href="/html5/focustxt/"><b>FOCUSTXT★</b></a> 
-              <a href="/writing/"><b>WRITING★</b></a> </li>
-          <li><a href="https://onlinehtmleditor.dev/"><b>RICH TEXT EDITOR</b></a> </li>
-          <li><a href="https://edit.photo/?ref=masayume.it"><b>Edit.Photo ★</b></a>
-              <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a></li>
-          <li><a href="/HTML5/SVGbackgrounds">SVG backs</a></li>
-          <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
-              <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a>
-              <a href="http://webtoolkitonline.com">webtools</a></li>
-          <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
-	        <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
-	        <li><a href="/HTML5/dagre/">dagre</a> - 
-              <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a> - 
-              <a href="http://jupyter.org/">jupyter</a></li>
-          <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
-        </ul>
+    <h4>WEB TOOLS 2</h4> <!-- ALSO IN index.php -->
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
 
-        <h4>WEB LAYOUT</h4> 
-        <ul>
-          <li><a href="/pulp2/public/"><b>pulp2★</b></a> 
-
-        </ul>
-  
-        
+      <h4>WEB LAYOUT</h4> 
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
 
     <h4>open source</h4>
       <ul>
-        <li> <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li> 
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
       </ul>
 
   </div>
@@ -176,15 +125,18 @@
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/LINUX/');
+      $ai_dirs    = array( 'inspire/@TEXTURES/@dynamic-textures/' );
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"440\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
     ?>
 
+    <p>
+      post image
+    </p>
 <!--
     <br />
       <h4>PROJECTS done</h4>
@@ -274,7 +226,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@CARTOONS/QotD/');
+      $ai_dirs    = array('inspire/@TEXTURES/@dynamic-textures/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
