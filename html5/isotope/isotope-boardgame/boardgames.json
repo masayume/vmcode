@@ -1091,6 +1091,22 @@
       "length": 120,
       "score": "7.8",
       "url": "https://boardgamegeek.com/boardgame/25613/through-the-ages-a-story-of-civilization"
+    },
+    "Talisman5thEd": {
+      "name": "Talisman 5th Ed.",
+      "number": "70",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Dice Rolling", "Role Playing", "Roll / Spin and Move", "Take That", "Variable Player Powers" ],
+      "theme": ["Resources"],
+      "img": "070.png",
+      "designer": " Robert Harris, Doug Hopkins",
+      "weight": "2.00", 
+      "year": 2024,
+      "players": [2, 3, 4, 5, 6],
+      "length": 120,
+      "score": "7.5",
+      "url": "https://boardgamegeek.com/boardgame/415550/talisman-the-magical-quest-game-5th-edition"
     }
 
 
