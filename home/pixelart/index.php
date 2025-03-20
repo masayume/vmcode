@@ -91,8 +91,7 @@
         <li><a href="https://mugenarchive.com/forums/downloads.php?do=cat&id=261-sprite-packs&__cf_chl_jschl_tk__=d08760070c9f7c6e2676da94317ecdd11f6ca7a0-1604924843-0-Aa4lAc5iwBGhMVaElV3PdE3ybykr-fKu5HkTAktXk7YIL71M1TRs04f4N8fZQLa7tPJ8DRYxyHLPTEDuVrrBwKsUuE5fgnIQkk8eLNaxJdhriCaYFx8eUdCa1TeJ19k8IVAVhWDuYDEJPpYfofTQqaUpBsHkYSiDYJxeliX6n9mtJWtxy4UfmZl6xoeuW_VZzxxtpW1sD8rbuE7uSXL2LWTfZMojNFSWkFm7w8XvfCHvoyQ6ucxzuTOgoU7LXNTPplkoutbNersc9HE-rH39bZaPdVjt5SVcCkXkYCJlvVMyMwmfLbXjb9aEIlX53sutwjpNuWVVd1xg-yIBDJ_osN8">mugen sprites</a><li>
             <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>   
             <a href="https://app.monopro.org/pixel/"><b>monopro★</b></a></li> 
-        <li><a href="/pixelart/dithering/">pattern maker</a>
-            <a href="https://ezgif.com/video-to-gif">video2gif</a></li>    
+        <li><a href="https://ezgif.com/video-to-gif">video2gif</a></li>    
         <li><a href="https://www.airtightinteractive.com/demos/js/imageglitcher/">scanline IG ★</a></li>    
         <li><a href="https://www4.lunapic.com/editor/?action=pixels"><b>lunapic pixels ★</b></a>
         <li><a href="https://pinetools.com/pixelate-effect-image"><b>pixelate★</b></a>
@@ -137,12 +136,15 @@
          <a href="https://www.reddit.com/r/PixelArt">reddit</a></li>
   </ul>
 
-  <h4>DITHER★</h4>
+  <h4>DITHERING★</h4>
   <ul>
-    <li>  <a href="https://ditherit.com/"><b>DITHERIT ★</b></a> </li>
-          <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a>  </li>
+    <li>  <a href="https://ditherit.com/"><b>DITHERIT ★</b></a> 
+          <a href="https://www.masayume.it/blog9/web/content/ditherpunk"><b>MY★</b></a> </li>
+    <li>  <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a>  </li>
     <li>  <a href="https://seleb.github.io/ordered-dither-maker/"><b>ordered dither ★</b></a>  </li>
     <li>  <a href="/home/masayume/DATA/L/pix dither machine/"><b>dither machine</b></a>  </li>
+    <li>  <a href="/pixelart/dithering/">pattern maker</a> </li>
+
   </ul>
 
   <h4>SHADERS★</h4> 
@@ -150,7 +152,7 @@
     <li><a href="https://www.shadertoy.com/view/43dyD2" title="chrome image upload via extension"><b>CRT#1</b></a>
         <a href="https://www.shadertoy.com/view/XdyGzR" title="chrome image upload via extension"><b>CRT#2</b></a>
         <a href="https://docs.libretro.com/shader/crt/" ><b>[via]</b></a></li>        
-    <li><a href="/pixelart/shaders/crt-shader-showcase-for-retroarch/"><b>Retroarch CRTShaders★</b></a> </li>  
+    <li><a href="/pixelart/shaders/crt-shader-showcase-for-retroarch/"><b>Retroarch CRT★</b></a> </li>  
   </ul>
 
 </div>
