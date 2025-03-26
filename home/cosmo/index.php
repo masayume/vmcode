@@ -125,7 +125,7 @@
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array( 'inspire/@TEXTURES/@dynamic-textures/' );
+      $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -228,140 +228,30 @@
     <?php
       $ai_dirs    = array('inspire/@TEXTURES/@dynamic-textures/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
     ?>
 
-  </div>
-
-
-  <div class="_exa">
-    <h4>SERVICES</h4>
-    <ul>
-    <li><a href="/phpmyadmin"><b>phpmyadmin</b> - mysql</a> </li>
-    <li><a href="/phppgadmin">phppgadmin - postgres</a> </li>
-    <li><a href="/matomo">matomo</a>  </li>
-    <li><a href="http://cpanel.2freehosting.com/website/auto-installer">2fh</a> (2freehosting) </li>
-    </ul>
-
-    <ul>
-      <li><a href="/cgi-bin/phpinfo.php">phpinfo</a> </li>
-      <!-- <li><a href="/projects/genre-table.htm">periodic table of videogame innovations</a> </li> -->
-      <!-- <li><a href="/rt">request tracker</a> </li> -->
-      <li><a href="/jtype/ztype/index.html">j-type</a> <pre><small> j-type </small></pre> <a href="https://github.com/masayume/k-type">GIT REPO</a>  <a href="http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github">howto</a> </li>
-    </ul>
-
-    <h4>DEV</h4>
-      <ul>
-        <li> <a href="/demon/lightgallery.js/demo/NMS.htm">masayume@PS4</a> (music)
-      </ul>
-
-<!--      
-    <h4>PHASER</h4>
-      <ul>
-        <li><a href="/phaser/v2/docs/">PHASER</a> - <a href="https://phaser.io/examples">PHASER examples</a>
-        <li><a href="/PHASER.my/myexamples">my examples</a> - <a href="/PHASER.my/myexamples/02-invader/index.html">invaders</a> - <a href="http://pgl.ilinov.eu/">game list</a> -  <a href="http://createdineden.com/blog/2014/may/01/multi-platform-games-with-phaserjs/">introduction</a>
-        <li><a href="http://www.html5gamedevs.com/forum/14-phaser/">forum</a> - <a href="http://examples.phaser.io/_site/view_full.html?d=loader&f=load+events.js&t=load%20events">ex. loader</a> - <a href="http://gamedev.stackexchange.com/questions/76048/phaser-preload-future-states-in-create">stack exchange</a>
-        <li>tips
-        <a href="/phaser-coding-tips/issue-001/tanks.html">tanks1</a>,
-        <a href="/phaser-coding-tips/issue-002/tanks.html">tanks2</a>,
-        <a href="/phaser-coding-tips/issue-003/jumpup.html">jumpup</a>,
-        <a href="/phaser-coding-tips/issue-004/clouds.html">clouds</a>,
-        <a href="/phaser-coding-tips/issue-005/car.html">car</a>,
-        <a href="/phaser-coding-tips/issue-005/pacman.html">pacman</a>,
-      </ul>
--->
-
-    <!-- ABANDONWARE -->
-    <h4>cardrogue</h4>
-      <ul>
-        <li><a href="/cardrogue/prototype-01">cardrogue pt01</a> <a href="/cardrogue/prototype-02">cardrogue pt02</a> </li>
-        <li><a href="/cgi-bin/maze2.pl?cards=1">maze prototype 0.1</a> </li>
-      </ul>
-    <h4>No Man's Sky</h4>
-
-    <ul>
-      <li> <a href="/demon/lightgallery.js/demo/NMS.htm">masayume@PS4</a>           </li>
-    </ul>
-
-  </div>
-
-  <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-    ?>
     <br clear="all"><br>
+
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
+      $ai_dirs    = array('inspire/@pixelart/frames/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
     ?>
 
-  </div>
-
-
-  <div class="_exa">
-    <h4>VIVUS</h4>
-      <ul>
-        <li><a href="/vivus/index.html">example</a> </li>
-        <li><a href="/vivus/index2.htm">my example</a> </li>
-        <li><a href="http://www.autotracer.org/">autotracer.org</a> </li>
-        <li><a href="http://vectormagic.com/home">vectormagic</a> </li>
-      </ul>
-
-    <h4>1001 fables (1k1f) </h4>
-      <ul>
-        <li><a href="/cgi-bin/1k1f/1k1f-editor.pl">1k1f.CHAR.editor.LOCAL</a> </li>
-        <li><a href="http://www.masayume.it/cgi-bin/1k1f-editor.pl">1k1f.CHAR.editor.ONLINE</a> </li>
-        <li><a href="/1k1f/dnd-div.htm">1k1f scene editor</a> </li>
-        <li><a href="https://docs.google.com/spreadsheet/ccc?key=0Av5S34ISFEfrdHZGVVFFQ1RRQktuQmxPQ0lMYVRRbGc#gid=0">google 1001 spreadsheet</a> </li>
-      </ul>
-
-    <h4>Five Elements</h4>
-      <ul>
-        <li><a href="/cgi-bin/5elems/hikiko.pl">hikiko.pl</a> </li>
-      </ul>
-
-  </div>
-
-  <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-    ?>
     <br clear="all"><br>
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-    ?>
   </div>
+
 
 </div> <!-- container -->
 
