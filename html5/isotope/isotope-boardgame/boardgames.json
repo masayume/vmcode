@@ -1107,8 +1107,23 @@
       "length": 120,
       "score": "7.5",
       "url": "https://boardgamegeek.com/boardgame/415550/talisman-the-magical-quest-game-5th-edition"
+    },
+    "TerraMystica": {
+      "name": "Terra Mystica",
+      "number": "71",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Chaining", "End Game Bonuses", "Hexagon Grid", "Income", "Increase Value of Unchosen Resources", "Network and Route Building", "Tech Trees / Tech Tracks", "Turn Order: Pass Order", "Variable Player Powers", "Variable Set-up", "Victory Points as a Resource" ],
+      "theme": ["Resources"],
+      "img": "071.png",
+      "designer": "Jens Drögemüller, Helge Ostertag",
+      "weight": "3.97", 
+      "year": 2012,
+      "players": [2, 3, 4, 5],
+      "length": 150,
+      "score": "8.0",
+      "url": "https://boardgamegeek.com/boardgame/120677/terra-mystica"
     }
-
 
 
     
