@@ -255,8 +255,7 @@
   <h4>FONTS</h4> <!-- also in TOOLS -->
   <ul> 
     <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
-    <li> <a href="/HTML5/holden/index.php?art1=175&art2=175"><b>ref-TEXT (fonts) ■</b></a> </li>
-    <li> <a href="/HTML5/holden/index.php?art1=175&art2=175"><b>local pixel fonts ■</b></a> </li>
+    <li> <a href="/HTML5/holden/index.php?art1=187&art2=187"><b>ref-TEXT local fonts ■</b></a> </li>
     <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
     <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
     <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> 
