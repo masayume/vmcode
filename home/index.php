@@ -222,11 +222,12 @@
               <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
       </ul>
 
-      <h4>EDITORS</h4>
+      <h4>TEXT/EDITORS</h4>
       <ul>
         <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
             <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
-        <li><a href="https://notepad-online.co/"><b>notepad online</b></a> </li>
+        <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
+            <a href="https://brevity.sh/"><b>Brevity</b></a> </li>
       </ul>
 
       <h4>LISTS</h4>
