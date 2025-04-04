@@ -523,8 +523,24 @@
       "length": 9,
       "url": "https://app.us.brick.me",
       "notes": ""
+    },
+    "0031": {
+      "name": "pixel art converter V2",
+      "number": "31",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools"],
+      "theme": ["technique"],
+      "img": "wfpx031.webp",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2025,
+      "players": [1],
+      "length": 9,
+      "url": "https://huggingface.co/spaces/GamerIsaac/Pixel-Art-Converter-V.2",
+      "notes": ""
     }
-    
+        
 
 
 
