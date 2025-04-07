@@ -214,7 +214,8 @@
     <h4>SEARCH</h4>
       <ul>
         <li>  <a href="https://duckduckgo.com"><b>Duck<sup>2</sup>go</b></a>
-              <a href="https://clippy.kenobit.it/"><b>Clippy</b></a> </li>
+              <a href="https://clippy.kenobit.it/"><b>Clippy</b></a> 
+              <a href="https://12ft.io/"><b>12FT</b></a> </li>
         <li>  <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
               <a href="https://www.perplexity.ai/"><b>Perplexity</b></a>
               <a href="https://en.app/"><b>Books</b></a> </li>
