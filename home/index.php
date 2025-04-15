@@ -74,25 +74,6 @@
 		    <a href="/3dpiano">piano3D</a> <a href='https://github.com/reality3d/3d-piano-player'>gh</a></li>
 		<li><a href="/demon/soundboard/">soundboard</a></li>
   </ul>
-
-
-  <details>
-        <summary><strong><b>Holden Megalist ⬇️</b></strong></summary> 
-        <p>
-          <ul>
-            <li>  <a href="/HTML5/holden/index.php?art1=99&art2=99"><b>Chun Li</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=110&art2=110"><b>Asuka</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=113&art2=113"><b>Lamu</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=114&art2=114"><b>MIKU</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=115&art2=115"><b>Misato</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=116&art2=116"><b>Mona</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=117&art2=117"><b>Morrigan</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=118&art2=118"><b>Quorra</b></a>  </li>
-            <li>  <a href="/HTML5/holden/index.php?art1=119&art2=119"><b>Motoko</b></a>  </li>
-          </ul>
-        </p>
-  </details>
-
   
   <h4>holden</h4>
     <ul>
@@ -117,42 +98,77 @@
 
 
   <div class="_exa">
+
+    <h4>image sources</h4>
+    <details>
+      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+            <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin ★</b></a>
+                 <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bluesky</b></a>
+                 <a href="https://www.masayume.it/blog9/web/content/lookcaitlin" target="_blank"><b> my</b></a></li>
+            <li> <a href="/HTML5/holden/index.php?art1=130&art2=130" target="_blank"><b>Think before Drawing ★</b></a></li>
+            <li> <a href="/HTML5/holden/index.php?art1=132&art2=132" target="_blank"><b>TEXTURES ★</b></a>
+                 <a href="/HTML5/holden/index.php?art1=133&art2=133" target="_blank"><b>Texturing ★</b></a> </li>
+            <li> <a href="/HTML5/holden/index.php?art1=28&art2=28" target="_blank"><b>@WORKFLOWS ★</b></a> 
+                 <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank"><b>oldWF</b></a> </li>
+          </ul>
+        </p>
+    </details>
+
+    <h4> ~ holden ~ </h4>
+    <details>
+      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li>  <a href="/HTML5/holden/index.php?art1=185&art2=185"><b>Fantasy + sources</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=99&art2=99"><b>Chun Li</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=110&art2=110"><b>Asuka</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=113&art2=113"><b>Lamu</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=114&art2=114"><b>MIKU</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=115&art2=115"><b>Misato</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=116&art2=116"><b>Mona</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=117&art2=117"><b>Morrigan</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=118&art2=118"><b>Quorra</b></a>  </li>
+              <li>  <a href="/HTML5/holden/index.php?art1=119&art2=119"><b>Motoko</b></a>  </li>
+            </ul>
+          </p>
+    </details>
+
+
+    <h4> ~ 2READ ~ </h4>
+    <details>
+      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+            <li> <a href="https://www.theguardian.com/profile/marinahyde" target="_blank">Marina Hyde</a> </li>
+            <!--
+            <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+            -->
+
+          </ul>
+        </p>
+    </details>
+
+
   
-  <h4>masa sources</h4>
-    <ul>
-      <li> <a href="https://www.reddit.com/r/dataisbeautiful" target="_blank">dataisbeautiful</a> </li>
-      <li> <a href="https://twitter.com/hackernoon" target="_blank">hackernoon</a> </li>
-      <li> <a href="https://news.ycombinator.com/news" target="_blank">hackrnews</a> 
-           <a href="https://www.getrevue.co/profile/Recomendo" target="_blank">recom</a> </li>
-      <li> <a href="https://www.lesswrong.com/" target="_blank">lesswrong</a>
-           <a href="https://samim.io/" target="_blank">samim</a> </li>
-      <li> <a href="https://tympanus.net/codrops/collective/collective-435/" target="_blank">tympanus</a> 
-           <a href="https://twitter.com/historydefined" target="_blank">histDef</a> </li>
-      <li> <a href="https://weeklyfilet.com/surprise/?ref=thebrowser" target="_blank">WF gem ■</a> <a href="https://weeklyfilet.substack.com/?ref=wf-surprise" target="_blank">hist</a> </li>
-      <li> <a href="https://www.reddit.com/r/proceduralgeneration/" target="_blank">proc gen</a>
-           <a href="https://twitter.com/david_perell/status/1248834927409238016" target="_blank">perrell</a> </li>
-      <li> <a href="http://crpgaddict.blogspot.com/" target="_blank">crpgaddt</a> 
-           <a href="http://datadrivengamer.blogspot.com/" target="_blank">DDgamr</a> </li>
-      <li> <a href="https://webcurios.co.uk/all-curios/" target="_blank">web curious</a> </li>
-    </ul>
-
     <h4>graph sources</h4>
-    <ul>
-      <li> <a href="https://twitter.com/thatsgoodweb/" target="_blank">𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥</a>
-           <a href="https://twitter.com/xe0_xeo/media" target="_blank"><b>Xeo³</b></a> </li>
-      <li> <a href="https://mobile.twitter.com/scott_kerr/media" target="_blank">ScottKerr■</a>
-           <a href="https://mobile.twitter.com/qdqdminbpbp/media" target="_blank">MiN★</a> </li>
-      <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
-           <a href="https://twitter.com/ericjang11/media" target="_blank">ericJang</a> </li>
-      <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
-      <li> <a href="https://twitter.com/qntm" target="_blank">QNTM</a> 
-           <a href="https://twitter.com/icijorg" target="_blank">ICIJ</a>
-           <a href="https://wiki.nikitavoloboev.xyz/media" target="_blank">Niki</a> </li>
-      <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
-      <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> 
-           <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
+      <ul>
+        <li> <a href="https://twitter.com/thatsgoodweb/" target="_blank">𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥</a>
+             <a href="https://twitter.com/xe0_xeo/media" target="_blank"><b>Xeo³</b></a> </li>
+        <li> <a href="https://mobile.twitter.com/scott_kerr/media" target="_blank">ScottKerr■</a>
+             <a href="https://mobile.twitter.com/qdqdminbpbp/media" target="_blank">MiN★</a> </li>
+        <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
+             <a href="https://twitter.com/ericjang11/media" target="_blank">ericJang</a> </li>
+        <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
+        <li> <a href="https://twitter.com/qntm" target="_blank">QNTM</a> 
+             <a href="https://twitter.com/icijorg" target="_blank">ICIJ</a>
+             <a href="https://wiki.nikitavoloboev.xyz/media" target="_blank">Niki</a> </li>
+        <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
+        <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> 
+             <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
 
-    </ul>
+      </ul>
 
     <h4>REMEMBER!</h4>
       <ul>
