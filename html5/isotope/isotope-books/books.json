@@ -3350,8 +3350,71 @@
       "length": 276,
       "dir": "books/game design",
       "url": "https://archive.org/details/learning-from-the-best-of-text/Learning%20from%20the%20Best%20of%20Text%20Brian%20Rushton%20Chicago%20Version/"
+    },
+    "ABookOfLenses": {
+      "name": "The Art of Game Design a Book of Lenses",
+      "number": "216",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0216.png",
+      "author": "Jesse Schell",
+      "store": "???", 
+      "weight": "", 
+      "year": 2008,
+      "players": [1],
+      "length": 520,
+      "dir": "books/game design",
+      "url": "https://www.goodreads.com/book/show/3396933-the-art-of-game-design"
+    },
+    "DesigningGames": {
+      "name": "Designing Games",
+      "number": "217",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0217.png",
+      "author": "Tynan Sylvester",
+      "store": "???", 
+      "weight": "", 
+      "year": 2013,
+      "players": [1],
+      "length": 413,
+      "dir": "books/game design",
+      "url": "https://www.goodreads.com/book/show/16144499-designing-games"
+    },
+    "GameFeel": {
+      "name": "Game Feel",
+      "number": "218",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0218.jpg",
+      "author": "Steve Swink",
+      "store": "???", 
+      "weight": "", 
+      "year": 2008,
+      "players": [1],
+      "length": 376,
+      "dir": "books/game design",
+      "url": "https://www.goodreads.com/book/show/3385050-game-feel"
+    },
+    "ArchitecturalLevelDesign": {
+      "name": "An Architectural Approach to Level Design",
+      "number": "219",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0219.png",
+      "author": "Christopher W. Totten",
+      "store": "???", 
+      "weight": "", 
+      "year": 2014,
+      "players": [1],
+      "length": 472,
+      "dir": "books/game design",
+      "url": "https://www.goodreads.com/book/show/19354638-an-architectural-approach-to-level-design"
     }
-
 
 
   },
