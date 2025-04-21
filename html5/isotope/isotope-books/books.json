@@ -3093,22 +3093,6 @@
       "dir": "digitale",
       "url": "https://www.routledge.com/Clockwork-Game-Design/Burgun/p/book/9781138798731"
     },
-    "ProceduralStorytelling": {
-      "name": "Procedural Storytelling in Game Design",
-      "number": "200",
-      "data_cat": "player",
-      "class": ["books", "saggio", "tools", "gamedesign"],
-      "theme": ["arcade", "meta"],
-      "img": "0200.jpg",
-      "author": "Tanya X. Short, Tarn Adams",
-      "store": "???", 
-      "weight": "", 
-      "year": 2019,
-      "players": [1],
-      "length": 408,
-      "dir": "digitale",
-      "url": "https://www.routledge.com/Procedural-Storytelling-in-Game-Design/Short-Adams/p/book/9781138595309"
-    },
     "GameDesignTools": {
       "name": "Game Design Tools",
       "number": "200",
@@ -3140,6 +3124,22 @@
       "length": 225,
       "dir": "digitale",
       "url": "https://mwp.com/product/slay-the-dragon-writing-great-video-games/"
+    },
+    "ProceduralStorytelling": {
+      "name": "Procedural Storytelling in Game Design",
+      "number": "202",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0202.jpg",
+      "author": "Tanya X. Short, Tarn Adams",
+      "store": "???", 
+      "weight": "", 
+      "year": 2019,
+      "players": [1],
+      "length": 408,
+      "dir": "digitale",
+      "url": "https://www.routledge.com/Procedural-Storytelling-in-Game-Design/Short-Adams/p/book/9781138595309"
     },
     "RoutledgeRPGHandbook": {
       "name": "The Routledge Handbook of Role-Playing Game Studies",
@@ -3300,7 +3300,7 @@
       "year": 2020,
       "players": [1],
       "length": 286,
-      "dir": "digitale",
+      "dir": "books/game design",
       "url": "https://www.goodreads.com/book/show/50489373-sid-meier-s-memoir"
     },
     "GenerativeArtJS": {
@@ -3316,8 +3316,24 @@
       "year": 2024,
       "players": [1],
       "length": 284,
-      "dir": "books/retro/BOOKS",
+      "dir": "books/generative",
       "url": "https://www.goodreads.com/book/show/199605349-generative-art-with-javascript-and-svg?ref=nav_sb_ss_1_38"
+    },
+    "C64ProgrammerRef": {
+      "name": "Commodore 64 Programmer's Reference Guide",
+      "number": "214",
+      "data_cat": "player",
+      "class": ["programming", "reference", "digital", "MAKE", "tools"],
+      "theme": ["programming", "meta"],
+      "img": "0214.jpg",
+      "author": "Commodore Computers",
+      "store": "???", 
+      "weight": "", 
+      "year": 1982,
+      "players": [1],
+      "length": 504,
+      "dir": "books/computer science",
+      "url": "https://www.c64-wiki.com/wiki/Commodore_64_Programmer%27s_Reference_Guide"
     }
 
 
