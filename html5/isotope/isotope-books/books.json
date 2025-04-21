@@ -3334,6 +3334,22 @@
       "length": 504,
       "dir": "books/computer science",
       "url": "https://www.c64-wiki.com/wiki/Commodore_64_Programmer%27s_Reference_Guide"
+    },
+    "LearningFromText": {
+      "name": "Learning from the Best of Text",
+      "number": "215",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0215.webp",
+      "author": "Brian Rushton",
+      "store": "???", 
+      "weight": "", 
+      "year": 2024,
+      "players": [1],
+      "length": 276,
+      "dir": "books/game design",
+      "url": "https://archive.org/details/learning-from-the-best-of-text/Learning%20from%20the%20Best%20of%20Text%20Brian%20Rushton%20Chicago%20Version/"
     }
 
 
