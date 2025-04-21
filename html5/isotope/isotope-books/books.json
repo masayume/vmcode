@@ -3125,21 +3125,21 @@
       "dir": "digitale",
       "url": "https://www.routledge.com/Game-Design-Tools-Cognitive-Psychological-and-Practical-Approaches/Ricchiuti/p/book/9781032134789"
     },
-    "GameDesignTools": {
-      "name": "Game Design Tools",
-      "number": "200",
+    "WritingGreatVideogames": {
+      "name": "Writing Great Videogames",
+      "number": "201",
       "data_cat": "player",
-      "class": ["books", "saggio", "tools", "gamedesign"],
+      "class": ["books", "saggio", "tools", "gamedesign", "Writing"],
       "theme": ["arcade", "meta"],
-      "img": "0202.webp",
-      "author": "Diego Ricchiuti",
+      "img": "0201.png",
+      "author": "Robert Denton Bryant, Keith Giglio",
       "store": "???", 
       "weight": "", 
-      "year": 2022,
+      "year": 2015,
       "players": [1],
-      "length": 268,
+      "length": 225,
       "dir": "digitale",
-      "url": "https://www.routledge.com/Game-Design-Tools-Cognitive-Psychological-and-Practical-Approaches/Ricchiuti/p/book/9781032134789"
+      "url": "https://mwp.com/product/slay-the-dragon-writing-great-video-games/"
     },
     "RoutledgeRPGHandbook": {
       "name": "The Routledge Handbook of Role-Playing Game Studies",
@@ -3286,8 +3286,39 @@
       "dir": "digitale",
       "status": "2read",
       "url": "https://archive.org/details/grimmscompletefa00grim"
+    },
+    "SidMeyerMemoir": {
+      "name": "Memoir",
+      "number": "212",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0212.jpg",
+      "author": "Sid Meyer",
+      "store": "???", 
+      "weight": "", 
+      "year": 2020,
+      "players": [1],
+      "length": 286,
+      "dir": "digitale",
+      "url": "https://www.goodreads.com/book/show/50489373-sid-meier-s-memoir"
+    },
+    "GenerativeArtJS": {
+      "name": "Generative Art with JavaScript and SVG",
+      "number": "213",
+      "data_cat": "player",
+      "class": ["programming", "reference", "digital", "MAKE", "tools"],
+      "theme": ["programming", "meta"],
+      "img": "0213.jpg",
+      "author": "David Matthew",
+      "store": "???", 
+      "weight": "", 
+      "year": 2024,
+      "players": [1],
+      "length": 284,
+      "dir": "books/retro/BOOKS",
+      "url": "https://www.goodreads.com/book/show/199605349-generative-art-with-javascript-and-svg?ref=nav_sb_ss_1_38"
     }
-
 
 
 
