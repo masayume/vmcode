@@ -3414,6 +3414,22 @@
       "length": 472,
       "dir": "books/game design",
       "url": "https://www.goodreads.com/book/show/19354638-an-architectural-approach-to-level-design"
+    },
+    "KoboldGuideBoardgame": {
+      "name": "The Kobold Guide to Board Game Design",
+      "number": "220",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0220.jpg",
+      "author": "Mike Selinker",
+      "store": "???", 
+      "weight": "", 
+      "year": 2011,
+      "players": [1],
+      "length": 148,
+      "dir": "books/game design",
+      "url": "https://www.goodreads.com/book/show/19172493-kobold-guide-to-board-game-design"
     }
 
 
