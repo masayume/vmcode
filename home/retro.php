@@ -140,11 +140,27 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 			<li><a href="https://darkadia.com/member/masayume">darkadia</a> </li>
 		</ul>
 
-		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />		<hr class="clearfix" />
+		<hr class="clearfix" />
+
+		<header><h3 class="widgettitle">C64</h3></header>
+
+		<ul>
+		  <li><a href="https://www.lemon64.com/game/hacker">lemon64</a></li>
+		  <li><a href="https://ready64.org/giochi/scheda_gioco/id/1225/hacker">ready64</a></li>
+		  <li><a href="https://gb64.com/game.php?id=3371">gb64</a></li>
+		  <li><a href="https://www.c64-wiki.com/wiki/Hacker">c64-wiki</a></li>
+		  <li><a href="https://csdb.dk/search/?seinsel=releases&search=Hacker">csdb</a></li>
+		  <li><a href="https://www.c64.com/games/1705">c64.com</a></li>
+		  <li><a href="https://www.uvlist.net/game-19671-Hacker">uvlist</a></li>	
+	  	</ul>
+
+		<hr class="clearfix" />
 
 		<header><h3 class="widgettitle">Images</h3></header>
 
-		<p><br><a href="https://flyers.arcade-museum.com/">tAFA</a></p>
+		<ul>
+		  <li><a href="https://flyers.arcade-museum.com/">tAFA</a></li>
+	  	</ul>
 
 		
 	</nav>	  </div>
