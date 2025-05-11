@@ -404,8 +404,10 @@
 
 
   <div class="_exa">
-    <h4>LOC AI.APPS</h4>
+    <h4>LOCALE</h4>
       <ul>
+        <li> <a href="https://www.masayume.it/blog/content/ollama-run-models-locally"><b>ollama★</b></a> 
+             <a href="https://www.masayume.it/blog/content/clippy-run-models-locally"><b>clippy★</b></a> </li>
         <li> <a href="/ai-chatgpt.php"><b>chatGPT page</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>holden @AI+wf</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-AI-&tag2=-AI-"><b>holden MISC</b></a> </li>
