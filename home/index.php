@@ -251,6 +251,8 @@
               <a href="https://en.app/"><b>Books</b></a> </li>
         <li>  <a href="https://ukdataexplorer.com/european-translator/?word=thanks"><b>EUWords★</b></a> 
               <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
+        <li>  <a href="https://www.masayume.it/blog9/web/content/verification-tools"><b>Verification Tools★</b></a> </li>
+
       </ul>
 
       <h4>TEXT/EDITORS</h4>
