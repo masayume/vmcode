@@ -1123,8 +1123,23 @@
       "length": 150,
       "score": "8.0",
       "url": "https://boardgamegeek.com/boardgame/120677/terra-mystica"
+    },
+    "SpellBook": {
+      "name": "SpellBook",
+      "number": "72",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Hand Management", "Set Collection", "Solo / Solitaire Game" ],
+      "theme": ["Resources"],
+      "img": "072.webp",
+      "designer": "Phil Walker-Harding",
+      "weight": "2.02", 
+      "year": 2023,
+      "players": [1, 2, 3, 4],
+      "length": 45,
+      "score": "6.5",
+      "url": "https://boardgamegeek.com/boardgame/391834/spellbook"
     }
-
 
     
   },
