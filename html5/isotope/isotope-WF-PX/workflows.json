@@ -539,7 +539,24 @@
       "length": 9,
       "url": "https://huggingface.co/spaces/GamerIsaac/Pixel-Art-Converter-V.2",
       "notes": ""
+    },
+    "0032": {
+      "name": "pixelization inference",
+      "number": "32",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools"],
+      "theme": ["technique"],
+      "img": "wfpx032.webp",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2025,
+      "players": [1],
+      "length": 9,
+      "url": "https://huggingface.co/spaces/NoCrypt/pixelization",
+      "notes": ""
     }
+        
         
 
 
