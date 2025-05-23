@@ -109,6 +109,12 @@
 
 
   <div class="_exa">
+
+    <h4>PRACTICE</h4>
+    <ul>
+      <li> <a href="https://tatsumoto-ren.github.io/blog/resources.html#anki-decks"><b>Anki ★</b> </a> </li>
+    </ul>
+
     <h4>READING EASY</h4>
     <ul>
       <li> <a href="https://tadoku.org/"><b>TADOKU books</b> ★</a> </li>
@@ -121,13 +127,12 @@
 
     <h4>READING AVG</h4>
     <ul>
-      <li> <a href="http://watanoc.com/">watanoc</a> </li>
-      <li> <a href="https://hirogaru-nihongo.jp/">hirogaru</a> </li>
+      <li> <a href="http://watanoc.com/">watanoc</a> 
+           <a href="https://hirogaru-nihongo.jp/">hirogaru</a> </li>
       <li> <a href="https://www.coelang.tufs.ac.jp/mt/it/vmod/v_kisogoi.php">tokyo s.u.</a> </li>
       <li> <a href="https://sites.smith.edu/tadoku/">tadoku tree house</a> </li>
-      <li> <a href="https://matcha-jp.com/easy/">matcha</a> </li>
-      <li> <a href="http://www.nippontalk.com/en">nippontalk</a> </li>
-      <li> <a href="https://www3.nhk.or.jp/news/easy/">nhk news easy</a> </li>
+      <li> <a href="https://matcha-jp.com/easy/">matcha</a> 
+           <a href="http://www.nippontalk.com/en">nippontalk</a> </li>
       <li> <a href="https://hiraganatimes.com/">hiragana times</a> </li>
       <li> <a href="https://www.wasabi-jpn.com/japanese-lessons/materials-for-japanese-lessons-intensive-reading/">wasabi manga</a> </li>
     </ul>
