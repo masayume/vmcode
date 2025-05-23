@@ -207,7 +207,8 @@
           <li><a href="https://imgflip.com/"><b>ImgFlip MEME</b></a>
           <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a>
               <a href="https://lingojam.com/FontChanger"><b>FontChanger</b></a> </li>
-          <li><a href="https://inflact.com/downloader/instagram/photo/"><b>Instagram Downloader</b></a> </li>
+          <li><a href="https://instaclip.app/"><b>Instagram</b></a>/ 
+              <a href="https://inflact.com/downloader/instagram/photo/"><b>Downloader</b></a> </li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
               <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
