@@ -258,8 +258,9 @@
   <br />
     <h4>benkyoshirooo !</h4>
     <ul>
-      <li> <a href="https://taximanli.github.io/kotobade-asobou/">JWORDLE ★</a> 
-           <a href="https://jisho.org/search/*kiri">JISHO *</a> </li>
+      <li> <a href="https://taximanli.github.io/kotobade-asobou/">JWORDLE</a> 
+           <a href="https://jisho.org/search/*kiri">JISHO★</a> 
+           <a href="/nihongo/kanjinode.php" title="kanji relations by radical">KANJINODE★</a> </li>
     </ul>
   </div>
 
