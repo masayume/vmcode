@@ -173,8 +173,9 @@
         <a href="https://github.com/Captain4LK/SoftLK-tools"><b>git</b></a></li>
     <li><a href="https://github.com/masayume/DigitalGarden/tree/main/tools/imagemagick"><b>imgmagick★</b></a>
         <a href="https://jetrotal.github.io/SVG-2-PIXELART/"><b>SVG2px★</b></a></li>    
-    <li><a href="https://irokaru.github.io/pixel-scaler/"><b>pixel scaler</b></a>
-        <a href="https://posterize.imageonline.co/">posterizer</a> </li>
+    <li><a href="https://irokaru.github.io/pixel-scaler/"><b>PixelScaler</b></a>
+        <a href="https://morgan3d.github.io/quadplay/tools/scalepix.html"><b>Quadplay</b></a> </li>
+    <li><a href="https://posterize.imageonline.co/">posterizer</a> </li>
         <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
     <li><details>
       <summary><b>masayumeP sketch ⬇️</b></summary>
