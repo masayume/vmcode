@@ -3430,7 +3430,41 @@
       "length": 148,
       "dir": "books/game design",
       "url": "https://www.goodreads.com/book/show/19172493-kobold-guide-to-board-game-design"
+    },
+   "ExplainingCreativity": {
+      "name": "Explaining Creativity",
+      "number": "221",
+      "data_cat": "player",
+      "class": ["player", "saggio", "creativity"],
+      "theme": ["design"],
+      "img": "221.jpg",
+      "author": "Keith Sawyer",
+      "store": "???", 
+      "weight": "", 
+      "year": 2006,
+      "players": [1],
+      "length": 368,
+      "dir": "digitale",
+      "url": "https://www.goodreads.com/book/show/365699.Explaining_Creativity"
+    },
+   "Learning2See": {
+      "name": "Learning to See",
+      "number": "222",
+      "data_cat": "player",
+      "class": ["player", "saggio", "creativity"],
+      "theme": ["design"],
+      "img": "222.jpg",
+      "author": "Keith Sawyer",
+      "store": "???", 
+      "weight": "", 
+      "year": 2025,
+      "players": [1],
+      "length": 352,
+      "dir": "digitale",
+      "url": "https://mitpress.mit.edu/9780262551649/learning-to-see/"
     }
+
+
 
 
   },
