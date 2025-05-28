@@ -1139,6 +1139,22 @@
       "length": 45,
       "score": "6.5",
       "url": "https://boardgamegeek.com/boardgame/391834/spellbook"
+    },
+    "CompileMain1": {
+      "name": "Compile Main 1",
+      "number": "73",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Area Majority / Influence", "Card Play Conflict Resolution", "Deck Construction", "Hand Management", "Multi-Use Cards", "Open Drafting", "Race " ],
+      "theme": ["Resources"],
+      "img": "073.png",
+      "designer": " Michael Yang",
+      "weight": "2.18", 
+      "year": 2025,
+      "players": [2],
+      "length": 30,
+      "score": "8.0",
+      "url": "https://boardgamegeek.com/boardgame/406652/compile-main-1"
     }
 
     
