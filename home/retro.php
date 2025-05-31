@@ -145,6 +145,7 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 		<header><h3 class="widgettitle">C64</h3></header>
 
 		<ul>
+		  <li><a href="/retro/c64">Krissz.hu C64</a></li>
 		  <li><a href="https://www.lemon64.com/game/hacker">lemon64</a></li>
 		  <li><a href="https://ready64.org/giochi/scheda_gioco/id/1225/hacker">ready64</a></li>
 		  <li><a href="https://gb64.com/game.php?id=3371">gb64</a></li>
