@@ -555,9 +555,35 @@
       "length": 9,
       "url": "https://huggingface.co/spaces/NoCrypt/pixelization",
       "notes": ""
+    },
+    "0033": {
+      "name": "retrodiffusion",
+      "number": "33",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools"],
+      "theme": ["technique"],
+      "img": "wfpx033.png",
+      "author": "masayume",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2025,
+      "players": [1],
+      "length": 9,
+      "url": "https://www.retrodiffusion.ai/app",
+      "notes": ""
     }
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
