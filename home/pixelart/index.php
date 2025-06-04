@@ -167,6 +167,10 @@
 
   <h4>TOOLS</h4>
   <ul>
+    <li><a href="/html5/pixelizer01.htm"><b>pixelizer01★</b></a> </li>
+    <li><a href="https://www.stef.be/dpaint/"><b>Dpaint★</b></a> 
+        <a href="/blog/content/dpaint-deluxe-paint-online"><b>my</b></a>
+        <a href="/DPaint-js"><b>LOCALE</b></a>  </li>
     <li><a href="/html5/CleanEdge/"><b>CleanEdge ★</b></a> <a href="https://twitter.com/torcado/status/1605693706345992193"><b>by torc.</b></a></li>
     <li><a href="https://giventofly.github.io/pixelit/#tryit"><b>Pixel It ★</b></a> <a href="https://pixel-me.tokyo/en/" target="_blank"><b>pixel-me</b></a> </li>
     <li><a href="https://captain4lk.itch.io/slk-img2pixel"><b>SLK_img2pixel★</b></a>
@@ -213,16 +217,6 @@
         <a href="https://codepen.io/meodai/pen/GRyjQoZ">color scaler</a></li>
   </ul>
 
-  <h4>Pixel REFS</h4>
-  <ul>
-    <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>twitter AdvQ ★</b></a></li>
-    <li><a href="https://www.deviantart.com/isohei/art/Chibi-character-14-poses-724368819"><b>deviantart</b></a>, 
-      <a href="https://www.deviantart.com/z-studios/art/Thunderbird-819283871"><b>#1</b></a>, 
-    </li>
-    <li><a href="https://gelbooru.com/index.php?page=post&s=view&id=3463389"><b>gelbooru</b></a>
-        <a href="https://www.pinterest.co.uk/pin/358880664065806936/"><b>pinterest</b></a></li>
-  </ul>
-
 </div>
 
 
@@ -265,6 +259,18 @@
     <li> <a href="https://fontstruct.com/fontstructor/edit"><b>Fontstruct ■</b></a>
          <a href="https://www.masayume.it/blog9/web/content/splintered-pixel-fonts-fontstruct"><b>my</b></a></li>
   </ul>
+
+  <h4>Pixel REFS</h4>
+  <ul>
+    <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>twitter AdvQ ★</b></a></li>
+    <li><a href="https://www.deviantart.com/isohei/art/Chibi-character-14-poses-724368819"><b>deviantart</b></a>, 
+      <a href="https://www.deviantart.com/z-studios/art/Thunderbird-819283871"><b>#1</b></a>, 
+    </li>
+    <li><a href="https://gelbooru.com/index.php?page=post&s=view&id=3463389"><b>gelbooru</b></a>
+        <a href="https://www.pinterest.co.uk/pin/358880664065806936/"><b>pinterest</b></a></li>
+  </ul>
+
+
     
   </div>
 
