@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-Bit Pixel Art Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .controls-card {
+            background-color: #f9fafb; /* gray-50 */
+            border: 1px solid #e5e7eb; /* gray-200 */
+        }
+        canvas {
+            border: 1px solid #d1d5db; /* gray-300 */
+            image-rendering: pixelated; /* Crisper pixels */
+            max-width: 100%;
+            height: auto;
+        }
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            background: #d1d5db; /* gray-300 */
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            border-radius: 9999px;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #3b82f6; /* blue-500 */
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #3b82f6; /* blue-500 */
+            cursor: pointer;
+            border-radius: 50%;
+            border: none;
+        }
+        .loader {
+            border: 4px solid #f3f3f3; /* Light grey */
+            border-top: 4px solid #3b82f6; /* Blue */
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 10px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center py-8 px-4">
+
+    <div class="w-full max-w-4xl bg-white p-6 sm:p-8 rounded-xl shadow-xl">
+        <header class="mb-8 text-center">
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-800">1-Bit Pixel Art Converter</h1>
+            <p class="text-gray-600 mt-2">Upload an image and transform it into classic 1-bit (black & white) pixel art.</p>
+        </header>
+
+        <!-- Controls Section -->
+        <div class="controls-card p-6 rounded-lg shadow-md mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label for="imageUpload" class="block text-sm font-medium text-gray-700 mb-1">Upload Image:</label>
+                    <input type="file" id="imageUpload" accept="image/*" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 transition-colors">
+                </div>
+                <div>
+                    <label for="pixelSize" class="block text-sm font-medium text-gray-700 mb-1">Pixel Size: <span id="pixelSizeValue" class="font-semibold text-blue-600">8</span>px</label>
+                    <input type="range" id="pixelSize" min="1" max="32" value="8" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <div class="flex items-center mb-4">
+                    <input type="checkbox" id="ditheringToggle" checked class="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <label for="ditheringToggle" class="ml-2 block text-sm font-medium text-gray-700">Use Dithering (Floyd-Steinberg)</label>
+                </div>
+                <div id="thresholdControlContainer" class="hidden">
+                    <label for="threshold" class="block text-sm font-medium text-gray-700 mb-1">Threshold: <span id="thresholdValue" class="font-semibold text-blue-600">128</span></label>
+                    <input type="range" id="threshold" min="0" max="255" value="128" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                </div>
+            </div>
+
+            <button id="processButton" disabled class="mt-8 w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v4H7a1 1 0 100 2h2v4a1 1 0 102 0v-4h2a1 1 0 100-2h-2V5z" clip-rule="evenodd" />
+                </svg>
+                Convert to 1-Bit
+            </button>
+            <div id="loadingIndicator" class="loader hidden mt-4"></div>
+            <p id="messageArea" class="text-sm text-red-600 mt-4 text-center"></p>
+        </div>
+
+        <!-- Display Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-700 mb-3 text-center">Original Image</h2>
+                <div class="bg-gray-200 rounded-lg p-2 min-h-[200px] flex items-center justify-center">
+                    <img id="originalImage" class="rounded-md shadow-sm" style="display: none; max-width: 100%; max-height: 400px; object-fit: contain;">
+                    <p id="originalPlaceholder" class="text-gray-500">Upload an image to see it here.</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-xl font-semibold text-gray-700 mb-3 text-center">1-Bit Pixel Art</h2>
+                 <div class="bg-gray-200 rounded-lg p-2 min-h-[200px] flex items-center justify-center">
+                    <canvas id="outputCanvas" class="rounded-md shadow-sm"></canvas>
+                    <p id="outputPlaceholder" class="text-gray-500">Your 1-bit art will appear here.</p>
+                </div>
+            </div>
+        </div>
+         <footer class="mt-12 text-center text-sm text-gray-500">
+            <p>Tip: For "Dan_Malone.jpg" or other previously uploaded images, please re-upload it using the button above.</p>
+        </footer>
+    </div>
+
+    <script>
+        const imageUpload = document.getElementById('imageUpload');
+        const pixelSizeSlider = document.getElementById('pixelSize');
+        const pixelSizeValue = document.getElementById('pixelSizeValue');
+        const ditheringToggle = document.getElementById('ditheringToggle');
+        const thresholdControlContainer = document.getElementById('thresholdControlContainer');
+        const thresholdSlider = document.getElementById('threshold');
+        const thresholdValue = document.getElementById('thresholdValue');
+        const processButton = document.getElementById('processButton');
+        const originalImageDisplay = document.getElementById('originalImage');
+        const outputCanvas = document.getElementById('outputCanvas');
+        const outputCtx = outputCanvas.getContext('2d');
+        const messageArea = document.getElementById('messageArea');
+        const originalPlaceholder = document.getElementById('originalPlaceholder');
+        const outputPlaceholder = document.getElementById('outputPlaceholder');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+
+        let currentImage = null;
+
+        // Update slider value displays
+        pixelSizeSlider.oninput = () => { pixelSizeValue.textContent = pixelSizeSlider.value; };
+        thresholdSlider.oninput = () => { thresholdValue.textContent = thresholdSlider.value; };
+
+        // Toggle threshold control based on dithering option
+        ditheringToggle.onchange = () => {
+            thresholdControlContainer.classList.toggle('hidden', ditheringToggle.checked);
+        };
+        // Initialize threshold visibility
+        thresholdControlContainer.classList.toggle('hidden', ditheringToggle.checked);
+
+
+        imageUpload.onchange = (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                messageArea.textContent = '';
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    currentImage = new Image();
+                    currentImage.onload = () => {
+                        originalImageDisplay.src = e.target.result;
+                        originalImageDisplay.style.display = 'block';
+                        originalPlaceholder.style.display = 'none';
+                        processButton.disabled = false;
+                        // Clear previous output
+                        outputCtx.clearRect(0, 0, outputCanvas.width, outputCanvas.height);
+                        outputCanvas.width = 0; // Reset canvas size
+                        outputCanvas.height = 0;
+                        outputPlaceholder.style.display = 'block';
+                    };
+                    currentImage.onerror = () => {
+                        messageArea.textContent = 'Error: Could not load the image file. Please try a different image.';
+                        processButton.disabled = true;
+                        currentImage = null;
+                    };
+                    currentImage.src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            } else {
+                processButton.disabled = true;
+                currentImage = null;
+                originalImageDisplay.style.display = 'none';
+                originalPlaceholder.style.display = 'block';
+            }
+        };
+
+        processButton.onclick = () => {
+            if (!currentImage) {
+                messageArea.textContent = 'Please upload an image first.';
+                return;
+            }
+
+            processButton.disabled = true;
+            loadingIndicator.classList.remove('hidden');
+            messageArea.textContent = '';
+            outputPlaceholder.style.display = 'none';
+
+
+            // Use a timeout to allow the UI to update (show loader) before heavy processing
+            setTimeout(() => {
+                try {
+                    const pixelSize = parseInt(pixelSizeSlider.value);
+                    const useDithering = ditheringToggle.checked;
+                    const threshold = parseInt(thresholdSlider.value);
+
+                    // Set up a temporary canvas for processing
+                    const tempCanvas = document.createElement('canvas');
+                    const tempCtx = tempCanvas.getContext('2d');
+                    tempCanvas.width = currentImage.naturalWidth;
+                    tempCanvas.height = currentImage.naturalHeight;
+                    tempCtx.drawImage(currentImage, 0, 0);
+
+                    const imageData = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+                    const data = imageData.data;
+                    const width = imageData.width;
+                    const height = imageData.height;
+
+                    // 1. Convert to Grayscale (and store in a separate array for dithering)
+                    const grayscaleData = new Uint8ClampedArray(width * height);
+                    for (let i = 0; i < data.length; i += 4) {
+                        const r = data[i];
+                        const g = data[i + 1];
+                        const b = data[i + 2];
+                        // Using luminosity method for grayscale
+                        const gray = Math.round(0.299 * r + 0.587 * g + 0.114 * b);
+                        grayscaleData[i / 4] = gray;
+                    }
+
+                    // 2. Apply Dithering or Thresholding to get 1-bit data (full resolution)
+                    const oneBitData = new Uint8ClampedArray(width * height); // 0 for black, 255 for white
+
+                    if (useDithering) {
+                        // Floyd-Steinberg Dithering
+                        // Create a copy of grayscale data as dithering modifies it
+                        const ditherGrayscale = new Float32Array(grayscaleData); // Use Float32 for error accumulation
+
+                        for (let y = 0; y < height; y++) {
+                            for (let x = 0; x < width; x++) {
+                                const index = y * width + x;
+                                const oldPixel = ditherGrayscale[index];
+                                const newPixel = oldPixel < threshold ? 0 : 255; // Simple threshold for the current pixel
+                                oneBitData[index] = newPixel;
+                                const quantError = oldPixel - newPixel;
+
+                                // Spread the error to neighboring pixels
+                                if (x + 1 < width) {
+                                    ditherGrayscale[y * width + (x + 1)] += quantError * 7 / 16;
+                                }
+                                if (x - 1 >= 0 && y + 1 < height) {
+                                    ditherGrayscale[(y + 1) * width + (x - 1)] += quantError * 3 / 16;
+                                }
+                                if (y + 1 < height) {
+                                    ditherGrayscale[(y + 1) * width + x] += quantError * 5 / 16;
+                                }
+                                if (x + 1 < width && y + 1 < height) {
+                                    ditherGrayscale[(y + 1) * width + (x + 1)] += quantError * 1 / 16;
+                                }
+                            }
+                        }
+                    } else {
+                        // Simple Thresholding
+                        for (let i = 0; i < grayscaleData.length; i++) {
+                            oneBitData[i] = grayscaleData[i] < threshold ? 0 : 255;
+                        }
+                    }
+
+                    // 3. Create final pixelated 1-bit image on outputCanvas
+                    outputCanvas.width = width;
+                    outputCanvas.height = height;
+                    outputCtx.clearRect(0, 0, width, height);
+
+                    for (let y = 0; y < height; y += pixelSize) {
+                        for (let x = 0; x < width; x += pixelSize) {
+                            let sum = 0;
+                            let count = 0;
+                            // Analyze the corresponding block in the full-res 1-bit data
+                            for (let blockY = 0; blockY < pixelSize && (y + blockY) < height; blockY++) {
+                                for (let blockX = 0; blockX < pixelSize && (x + blockX) < width; blockX++) {
+                                    const sourceIndex = (y + blockY) * width + (x + blockX);
+                                    sum += oneBitData[sourceIndex];
+                                    count++;
+                                }
+                            }
+                            
+                            const averageBlockColor = count > 0 ? sum / count : 0;
+                            // If average is closer to 255 (white), make block white, else black.
+                            outputCtx.fillStyle = averageBlockColor >= 128 ? 'white' : 'black';
+                            outputCtx.fillRect(x, y, pixelSize, pixelSize);
+                        }
+                    }
+                } catch (error) {
+                    console.error("Error during processing:", error);
+                    messageArea.textContent = 'An error occurred during conversion. Please try again or with a different image. Check console for details.';
+                } finally {
+                    processButton.disabled = false;
+                    loadingIndicator.classList.add('hidden');
+                }
+            }, 50); // Small timeout
+        };
+
+    </script>
+</body>
+</html>
+
