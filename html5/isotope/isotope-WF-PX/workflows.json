@@ -571,8 +571,23 @@
       "length": 9,
       "url": "https://www.retrodiffusion.ai/app",
       "notes": ""
+    },
+    "0034": {
+      "name": "1 bit pixelizer01",
+      "number": "34",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools"],
+      "theme": ["technique"],
+      "img": "wfpx034.png",
+      "author": "gemini",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2025,
+      "players": [1],
+      "length": 9,
+      "url": "/html5/pixelizer01",
+      "notes": ""
     }
-
 
 
 
