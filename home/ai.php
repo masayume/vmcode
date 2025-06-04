@@ -394,7 +394,9 @@
 
     <h4>MUSIC</h4>
     <ul>
-      <li> <a href="https://app.suno.ai/">suno.ai ★</a> </li>
+      <li> <a href="https://app.suno.ai/">suno.ai★</a> 
+           <a href="https://www.aiva.ai/">aiva.ai★</a> </li>
+      <li> <a href="https://openai.com/index/musenet/">musenet★</a> </li>
       <li> <a href="https://soundraw.io/edit_music">soundraw.io ★</a> </li>
       <li> <a href="https://sync.beatoven.ai/">beatoven.ai</a> </li>
     </ul>
