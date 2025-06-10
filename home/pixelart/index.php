@@ -167,7 +167,8 @@
 
   <h4>TOOLS</h4>
   <ul>
-    <li><a href="/html5/pixelizer01.htm"><b>pixelizer01★</b></a> </li>
+    <li><a href="/html5/pixelizer01.htm"><b>Pixelizer01★</b></a> 
+        <a href="/html5/pixelit/"><b>Pixelit★</b></a> </li>
     <li><a href="https://www.stef.be/dpaint/"><b>Dpaint★</b></a> 
         <a href="/blog/content/dpaint-deluxe-paint-online"><b>my</b></a>
         <a href="/DPaint-js"><b>LOCALE</b></a>  </li>
