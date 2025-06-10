@@ -356,21 +356,21 @@
       "notes": "utile per ..."
     },
     "0021": {
-      "name": "Pixelicious",
+      "name": "pixelit",
       "number": "21",
       "data_cat": "player",
       "class": ["player", "style", "drawing", "2D", "pixelart", "tools", "ai"],
       "theme": ["technique"],
-      "img": "wfpx021.png",
+      "img": "wfpx021.jpg",
       "author": "masayume",
       "rating": 3, 
       "weight": 2, 
-      "year": 2023,
+      "year": 2025,
       "players": [1],
       "length": 9,
-      "url": "https://www.pixelicious.xyz/",
+      "url": "http://localhost:8912/html5/pixelit/",
       "localdir": "",
-      "notes": "generate pixelart with AI"
+      "notes": "generate pixelart with AI: https://giventofly.github.io/pixelit/#tryit"
     },
     "0022": {
       "name": "Tiled Palette Quant",
