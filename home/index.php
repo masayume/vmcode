@@ -276,10 +276,10 @@
 
     <h4>AI</h4>
       <ul>
+        <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
+             <a href="https://perplexity.ai/"><b>Perplexity</b></a> </li>
         <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
              <a href="https://claude.ai/"><b>Claude</b></a> 
-             <a href="https://bard.google.com/"><b>Bard</b></a> </li>
-        <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
              <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
       </ul>
 
