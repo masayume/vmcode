@@ -279,7 +279,8 @@
         <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
              <a href="https://claude.ai/"><b>Claude</b></a> 
              <a href="https://bard.google.com/"><b>Bard</b></a> </li>
-        <li> <a href="https://chat.openai.com/"><b>chatGPT</b></a> </li>
+        <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
+             <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
       </ul>
 
     <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
