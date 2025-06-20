@@ -44,11 +44,30 @@
 <div class="_exa">
 
   <details>
+      <summary><strong><b>COMMON TOOLS Megalist ⬇️</b></strong></summary> 
+        <p>
+          <ul>
+
+            <li> <a href="https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev"><b>Generate stunning images</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/not-lain/background-removal"><b>remove an image’s background</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/finegrain/finegrain-image-enhancer"><b>Enhance an image</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/dn6/FLUX-GIFs"><b>Generate a gif</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha"><b>Generate a detailed caption</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On"><b>Preview an outfit</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/KwaiVGI/LivePortrait"><b>Animate an image</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/finegrain/finegrain-object-cutter"><b>Cut out an object</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/r3gm/SoniTranslate_translate_audio_of_a_video_content"><b>Translate a video</b></a></li> 
+            <li> <a href="https://huggingface.co/spaces/JournalistsonHF/text-to-image-bias"><b>Measure AI bias</b></a></li> 
+            <li> <a href="https://borgcloud.org/speech-to-text"><b>Speech to Text</b></a></li> 
+          </ul>
+        </p>
+  </details>
+
+  <details>
         <summary><strong><b>AI GEN TOOLS Megalist ⬇️</b></strong></summary> 
         <p>
           <ul>
-            <li> <a href="https://docs.google.com/spreadsheets/d/1zYJUM-srhgIA7wrj4Pe4QqepAsHIEC00DydoTPv4PWg/edit#gid=0"><b>megalist @docs.google ★★</b></a></li> 
-  
+            <li> <a href="https://docs.google.com/spreadsheets/d/1zYJUM-srhgIA7wrj4Pe4QqepAsHIEC00DydoTPv4PWg/edit#gid=0"><b>megalist @docs.google ★★</b></a></li>   
             <li> <a href="https://ai-art.tokyo/en/"><b>AI Gahaku</b></a></li> 
             <li> <a href="https://artprompts.org/"><b>artprompts</b></a></li> 
             <li> <a href="https://www.artbreeder.com/"><b>artbreeder</b></a></li> 
