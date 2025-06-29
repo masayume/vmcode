@@ -3462,7 +3462,40 @@
       "length": 352,
       "dir": "digitale",
       "url": "https://mitpress.mit.edu/9780262551649/learning-to-see/"
+    },
+    "VitaActiva": {
+      "name": "Vita Activa",
+      "number": "223",
+      "data_cat": "player",
+      "class": ["books", "saggio", "knowledge"],
+      "theme": ["arcade", "meta"],
+      "img": "0223.jpg",
+      "author": "Hannah Arendt",
+      "store": "???", 
+      "weight": "", 
+      "year": 1958,
+      "players": [1],
+      "length": 448,
+      "dir": "fisico",
+      "url": "https://www.masayume.it/blog/content/hannah-arendt-human-condition"
+    },
+     "Knave2ed": {
+      "name": "Knave 2nd Edition",
+      "number": "224",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0224.webp",
+      "author": "Ben Milton",
+      "store": "???", 
+      "weight": "", 
+      "year": 2023,
+      "players": [1],
+      "length": 84,
+      "dir": "digitale",
+      "url": "https://questingbeast.itch.io/knave-second-edition"
     }
+ 
 
 
 
