@@ -3494,8 +3494,23 @@
       "length": 84,
       "dir": "digitale",
       "url": "https://questingbeast.itch.io/knave-second-edition"
-    }
- 
+    },
+     "100gamedesigntips": {
+      "name": "100 Game Design Tips and Tricks",
+      "number": "225",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0225.webp",
+      "author": "Wlad Marhulets",
+      "store": "???", 
+      "weight": "", 
+      "year": 2020,
+      "players": [1],
+      "length": 89,
+      "dir": "digitale",
+      "url": "https://www.masayume.it/blog/content/wlad-marhulets-100-game-design-tips"
+    } 
 
 
 
