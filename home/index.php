@@ -246,7 +246,8 @@
 
     <h4>SEARCH</h4>
       <ul>
-        <li>  <a href="https://internet.io/search"><b>internet.io</b></a> </li>
+        <li>  <a href="https://internet.io/search"><b>internet.io</b></a> 
+              <a href="https://www.matthewsiu.com/pathfinder?utm_source=masayume.it"><b>pathfinder</b></a> </li>
         <li>  <a href="https://duckduckgo.com"><b>Duck<sup>2</sup>go</b></a>
               <a href="https://clippy.kenobit.it/"><b>Clippy</b></a> 
               <a href="https://12ft.io/"><b>12FT</b></a> </li>
