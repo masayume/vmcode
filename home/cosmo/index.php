@@ -74,15 +74,17 @@
       
 <div class="_exa">
 
-  <h4>FONTS</h4>
+  <h4>TAROTS</h4>
       <ul>
-        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+        <li> <a href="https://www.masayume.it/blog/content/tarocchi-storia" target="_blank"><b>Storia</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=188&art2=188" target="_blank"><b>Lost Arcana</b></a> </li>
       </ul>
 
-  <h4>BEST</h4>
+  <h4>FONTS</h4>
       <ul>
-        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+        <li> <a href="https://battleoftarot.com/" target="_blank"><b>Battle of Tarot</b></a> </li>
       </ul>
+
   
   <h4>Game Making</h4>
       <ul>
@@ -125,17 +127,17 @@
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/');
+      $ai_dirs    = array('inspire/@CARDS/cosmogony/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
     ?>
 
     <p>
-      post image
+      cosmogony
     </p>
 <!--
     <br />
@@ -145,34 +147,6 @@
 -->
 
   </div>
-
-  <div class="_exa">
-    <h4>GRAPHICS</h4>
-      <ul>
-        <li><a href="https://www.pinta-project.com/" title="kdrive"><b>Pinta★</b></a>
-            <a href="https://jeneira94.github.io/pintapals/shortcuts/" title="kdrive"><b>Keyb★</b></a></li>
-      </ul>
-
-    <h4>CLOUD</h4>
-      <ul>
-        <li><a href="https://www.masayume.it/blog/content/pico-8-la-fantasy-console" title="kdrive"><b>kdrive★</b></a></li>
-        <li><a href="https://drive.proton.me/" title="proton drive"><b>pdrive★</b></a>
-            <a href="https://mail.proton.me/" title="proton drive"><b>pmail</b></a> </li>
-      </ul>
-
-    <h4>pico-8</h4>
-      <ul>
-        <li><a href="https://www.masayume.it/blog/content/pico-8-la-fantasy-console"><b>my.it (L/PICO8)</b></a></li>
-      </ul>
-
-    <h4>DRUPAL</h4>
-      <ul>
-        <li><a href="/drupal8">drupal8-01</a></li>
-      </ul>
-
- </div>
-
-
  
   
   <div class="_exa">
@@ -198,30 +172,40 @@
         <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
       </ul>
 
-    <h4>js graph</h4>
-      <ul>
-        <li> <a href="/three.js/examples/">Three.js examples</a></li>
-        <li> <a href="https://www.babylonjs.com/">babylonjs</a> - <a href="http://www.babylonjs-playground.com/#BCU1XR#0">examples</a></li>
-        <li> <a href="https://pixijs.io/examples">pixi.js</a> examples</li>
-        <li> <a href="/c64/crayon.js%20-%20example.htm">Crayon.js</a>
-            <a href="/HTML5/packery/">packery</a> </li>
-        <li> <a href="/demon/DART/mazes.htm">mazes (DART)</a></li>
-        <li> <a href="/netart/netart.htm">netart</a>
-            <a href="/netart/neurogram.htm?gallery=b0e7ffcb9fe9c1c2c743623d67008515">neurogram</a></li>
-        <li> <a href="/freewall/">freewall JS</a></li>
-        <!-- <li> <a href="/paper.js/examples/Paperjs.org/DivisionRaster.html">Division Raster (paperjs)</a></li> -->
-        <li> <a href="/workflow/Jit/Examples/AreaChart/example1.html">AreaChart</a>
-            <a href="/workflow/Jit/Examples/BarChart/example1.html">BarChart</a></li>
-        <li> <a href="/workflow/Jit/Examples/ForceDirected/example1.html">ForceDirected</a></li>
-        <li> <a href="/workflow/Jit/Examples/Hypertree/example1.html">Hypertree</a></li>
-        <li> <a href="/workflow/Jit/Examples/Icicle/example1.html">Icicle</a>
-            <a href="/workflow/Jit/Examples/Other/example1.html">Other</a></li>
-        <li> <a href="/workflow/Jit/Examples/PieChart/example1.html">PieChart</a>
-            <a href="/workflow/Jit/Examples/Treemap/example1.html">Treemap</a></li>
-      </ul>
 
   </div>
 
+  <div class="_exa">
+
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"350\">";
+
+    ?>
+
+  </div>
+
+
+  <div class="_exa">
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
+
+    ?>
+
+    <br clear="all"><br>
+
+  </div>
 
   <div class="_exa">
     <!-- php_image_show -->
@@ -237,6 +221,9 @@
 
     <br clear="all"><br>
 
+  </div>
+
+  <div class="_exa">
     <!-- php_image_show -->
     <?php
       $ai_dirs    = array('inspire/@pixelart/frames/');
