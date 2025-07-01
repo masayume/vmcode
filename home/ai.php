@@ -44,7 +44,7 @@
 <div class="_exa">
 
   <details>
-      <summary><strong><b>COMMON TOOLS Megalist ⬇️</b></strong></summary> 
+      <summary><strong><b>TOOLS Megalist ⬇️</b></strong></summary> 
         <p>
           <ul>
 
@@ -64,7 +64,7 @@
   </details>
 
   <details>
-        <summary><strong><b>AI GEN TOOLS Megalist ⬇️</b></strong></summary> 
+        <summary><strong><b>genAI TOOLS Megalist ⬇️</b></strong></summary> 
         <p>
           <ul>
             <li> <a href="https://docs.google.com/spreadsheets/d/1zYJUM-srhgIA7wrj4Pe4QqepAsHIEC00DydoTPv4PWg/edit#gid=0"><b>megalist @docs.google ★★</b></a></li>   
@@ -104,24 +104,23 @@
         </p>
     </details>
 
-
-    <h4>NEWS</h4>
+    <h4>CODE</h4>
       <ul>
-        <li> <a href="https://twitter.com/rowancheung" target="_blank"><b>Rowan Cheung</b></a> 
+        <li> <a href="https://claude.ai/artifacts" target="_blank"><b>Artifacts</b></a> 
+        <li> <a href="https://tally.so/create" target="_blank"><b>Forms</b></a> 
       </ul>
 
     <h4>AI models page</h4>
       <ul>
         <li> <a href="pixelart/" target="_blank"><b>PIXELART</b></a> 
              <a href="tools.php" target="_blank"><b>TOOLS</b></a> </li>
-        <li> <a href="unity.php" target="_blank"><b>UNITY</b></a> 
-             <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> </li>
-        <li> <a href="retro.php" target="_blank"><b>RETRO</b></a> </li>
+        <li> <a href="godot.php" target="_blank"><b>GODOT</b></a> 
+             <a href="inspire.php" target="_blank"><b>INSPIRE</b></a> 
+             <a href="retro.php" target="_blank"><b>RETRO</b></a> </li>
       </ul>
 
     <h4>GALLERIES</h4>
       <ul>
-        <li> <a href="https://twitter.com/GeneratedImage/media" target="_blank"><b>GeneratedImage</b></a> </li>
         <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a>
              <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
         <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a>
@@ -604,19 +603,18 @@
       </ul>
   </div>
 
-
   <div class="_exa">
-      <!-- php_image_show -->
-      <?php
+    <!-- php_image_show -->
+    <?php
       $ai_dirs    = array('inspire/@AI/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
     ?>
+
   </div>
 
   
