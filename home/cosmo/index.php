@@ -71,37 +71,7 @@
 
   </div>
 
-      
-<div class="_exa">
 
-  <h4>TAROTS</h4>
-      <ul>
-        <li> <a href="https://www.masayume.it/blog/content/tarocchi-storia" target="_blank"><b>Storia</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=188&art2=188" target="_blank"><b>Lost Arcana</b></a> </li>
-      </ul>
-
-  <h4>FONTS</h4>
-      <ul>
-        <li> <a href="https://battleoftarot.com/" target="_blank"><b>Battle of Tarot</b></a> </li>
-      </ul>
-
-  
-  <h4>Game Making</h4>
-      <ul>
-        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
-      </ul>
-
-  <h4>CODE</h4>
-      <ul>
-        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
-      </ul>
-
-  <h4>WEEKLY todo</h4>
-      <ul>
-        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
-      </ul>
-
-  </div>
 
 
   <div class="_exa">
@@ -132,7 +102,7 @@
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
     ?>
 
@@ -158,7 +128,8 @@
 
     <h4>CGI-BIN</h4>
       <ul>
-        <li><a href="/demon/webcomix/index.htm"><b>webcomix</b></a> <a href="/cgi-bin/dailystrips.pl">dailystrips</a> </li>
+        <li><a href="/demon/webcomix/index.htm"><b>webcomix</b></a> 
+            <a href="/cgi-bin/dailystrips.pl">dailystrips</a> </li>
         <li><a href="/demon/pixelize/index.htm"><b>pixelize</b></a> </li>
       </ul>
 
@@ -172,8 +143,33 @@
         <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
       </ul>
 
+  </div>
+
+  <div class="_exa">
+
+    <h4>TAROTS</h4>
+      <ul>
+        <li> <a href="https://www.masayume.it/blog/content/tarocchi-storia" target="_blank"><b>Storia</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=188&art2=188" target="_blank"><b>Lost Arcana</b></a> </li>
+      </ul>
+
+    <h4>FONTS</h4>
+      <ul>
+        <li> <a href="https://battleoftarot.com/" target="_blank"><b>Battle of Tarot</b></a> </li>
+      </ul>
+
+    <h4>-</h4>
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
+
+    <h4>-</h4>
+      <ul>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+      </ul>
 
   </div>
+
 
   <div class="_exa">
 
