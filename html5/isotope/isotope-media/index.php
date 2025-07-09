@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>masayume boardgames</title>
+  <title> MEDIA - masayume - isotope</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,7 @@
 <body>
 
 <div id="pagetitle" style="float: left;">  
-  masayume's Boardgames
+  masayume's MEDIA
 </div>
 
 <div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
@@ -33,10 +33,22 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".cards">cards</button>
-  <button class="button" data-filter=".checkerboard">grid</button>
-  <button class="button" data-filter=".dice">dice</button>
-  <button class="button" data-filter=".player">player</button>
+  <button class="button" data-filter=".narrativa">lit</button>
+  <button class="button" data-filter=".tools">tools</button>
+  <button class="button" data-filter=".comics">comix</button>
+  <button class="button" data-filter=".books">books</button>
+  <button class="button" data-filter=".artworks">artworks</button>
+  <button class="button" data-filter=".magazines">mags</button>
+  <button class="button" data-filter=".gamedesign">game design</button>
+  <button class="button" data-filter=".design">design</button>
+  <button class="button" data-filter=".reference">refs</button>
+  <button class="button" data-filter=".cinema">cinema</button>
+  <button class="button" data-filter=".digital">digital</button>
+  <button class="button" data-filter=".nihongo">nihongo</button>
+  <button class="button" data-filter=".psychology">psych/creat</button>
+  <button class="button" data-filter=".meditation">meditation</button>
+  <button class="button" data-filter=".knowledge">knowledge</button>
+  <button class="button" data-filter=".vintage">vintage</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
   <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
@@ -58,10 +70,10 @@
 <div class="grid">
 <?php
 
-include 'gamedata.php';
+include 'mediadata.php';
 // read gamedata.htm
 // $gamedata = gamepage();
-$gamedata = gamepage("boardgames.json");
+$gamedata = gamepage("media.json");
 echo $gamedata;
 
 ?>
@@ -71,10 +83,12 @@ echo $gamedata;
 data-filter defined in js/index.js
 -->
 
+<!--
 <h3>References</h3>
 <div id="references">
   <a href='https://www.giantbomb.com/concepts/'>giantbomb concepts</a>
 </div>
+-->
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
