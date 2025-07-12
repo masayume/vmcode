@@ -21,11 +21,11 @@ function gamepage($jfile) {
       $class .= $cl . " ";
     }
 
-    $books = "";
+    $volume = "";
     if ( isset($item['books']) ) {
-      $books = $item['books'] . " vol ";
+      $volume = $item['books'] . " vol ";
     } else {
-      $books = $item['length'] . " pages";
+      $volume = $item['length'] . " pages";
     }
 
     $urlWF = "";
@@ -39,9 +39,10 @@ function gamepage($jfile) {
         <p class="name"><a href='{$item['url']}'>{$item['name']}</a></p>
         <p class="number">{$item['number']}</p>
         <p class="year">{$item['year']}</p>
+        <p class="author">{$item['author']}</p>
         <p class="length">{$item['length']}</p>
         <p class="weight">{$item['weight']}</p>        
-        <p class="book">$books</p>
+        <p class="score">{$item['score']}</p>
       </div>
 
 TEM;
