@@ -412,6 +412,7 @@
 
     <h4>MUSIC</h4>
     <ul>
+      <li> <a href="https://stocktune.com/free-songs">stocktune★</a> </li>
       <li> <a href="https://app.suno.ai/">suno.ai★</a> 
            <a href="https://www.aiva.ai/">aiva.ai★</a> </li>
       <li> <a href="https://openai.com/index/musenet/">musenet★</a> </li>
