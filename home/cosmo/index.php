@@ -219,6 +219,25 @@
 
   </div>
 
+
+  <div class="_exa">
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/other_renders/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
+
+    ?>
+
+    <br clear="all"><br>
+
+  </div>
+
+
+
   <div class="_exa">
     <!-- php_image_show -->
     <?php
