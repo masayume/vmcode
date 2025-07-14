@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Diagram (Portrait)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --card-width: 150px;
+            --card-height: 220px;
+        }
+
+        body {
+            background-color: #f3e9d2;
+            background-image: url('https://www.transparenttextures.com/patterns/old-paper.png');
+            font-family: 'IM Fell English', serif;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+
+        .diagram-container {
+            position: relative;
+            width: 1000px;
+            height: 1500px;
+            transform: scale(0.65);
+            transform-origin: top center;
+        }
+        
+        .card {
+            position: absolute;
+            width: var(--card-width);
+            height: var(--card-height);
+            border: 2px solid #3a3a3a;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            cursor: grab;
+            user-select: none;
+            transition: box-shadow 0.2s ease-in-out;
+        }
+
+        .card:active {
+            cursor: grabbing;
+            box-shadow: 8px 8px 20px rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+
+        .card-header, .card-footer {
+            font-family: 'Cinzel Decorative', cursive;
+            font-weight: 700;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .card-header {
+            font-size: 1.2rem;
+        }
+
+        .card-footer {
+            font-size: 1rem;
+        }
+
+        .card-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 5px;
+        }
+        
+        .card-sub-icon {
+            width: 40px;
+            height: 40px;
+        }
+        
+        [contenteditable] {
+            outline: none;
+            border: 1px dashed transparent;
+            padding: 2px;
+        }
+        
+        [contenteditable]:hover, [contenteditable]:focus {
+            border: 1px dashed #888;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Card Colors */
+        .divinity { background-color: #f5f5dc; color: #333; }
+        .spirit { background-color: #8B0000; color: white; }
+        .nature { background-color: #2E8B57; color: white; }
+        .water { background-color: #4682B4; color: white; }
+        .light { background-color: #FFFFE0; color: #333; }
+        .earth { background-color: #D2691E; color: white; }
+        .fire { background-color: #DC143C; color: white; }
+        .void { background-color: #1a1a1a; color: white; }
+
+        #arrow-svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 10;
+        }
+        
+        .arrow-path {
+            stroke: #5a4a3a;
+            stroke-width: 4; /* Increased thickness */
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+
+        .arrow-label {
+            font-family: 'IM Fell English', serif;
+            font-size: 18px;
+            fill: #3a3a3a;
+            text-anchor: middle;
+            pointer-events: all;
+            cursor: text;
+        }
+        
+        .border-frame {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            border: 10px solid transparent;
+            border-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle%3E.f%7Bfill:%23a18f73%3B%7D%3C/style%3E%3Cpath class='f' d='M0 100 L0 95 L5 95 L5 90 L10 90 L10 85 L15 85 L15 80 L20 80 L20 75 L25 75 L25 70 L30 70 L30 65 L35 65 L35 60 L40 60 L40 55 L45 55 L45 50 L50 50 L50 45 L55 45 L55 40 L60 40 L60 35 L65 35 L65 30 L70 30 L70 25 L75 25 L75 20 L80 20 L80 15 L85 15 L85 10 L90 10 L90 5 L95 5 L95 0 L100 0 L100 100 Z'/%3E%3Cpath class='f' d='M0 0 L5 0 L5 5 L10 5 L10 10 L15 10 L15 15 L20 15 L20 20 L25 20 L25 25 L30 25 L30 30 L35 30 L35 35 L40 35 L40 40 L45 40 L45 45 L50 45 L50 50 L55 50 L55 55 L60 55 L60 60 L65 60 L65 65 L70 65 L70 70 L75 70 L75 75 L80 75 L80 80 L85 80 L85 85 L90 85 L90 90 L95 90 L95 95 L100 95 L100 100 L0 100 Z' transform='rotate(90 50 50)'/%3E%3Cpath class='f' d='M0 0 L5 0 L5 5 L10 5 L10 10 L15 10 L15 15 L20 15 L20 20 L25 20 L25 25 L30 25 L30 30 L35 30 L35 35 L40 35 L40 40 L45 40 L45 45 L50 45 L50 50 L55 50 L55 55 L60 55 L60 60 L65 60 L65 65 L70 65 L70 70 L75 70 L75 75 L80 75 L80 80 L85 80 L85 85 L90 85 L90 90 L95 90 L95 95 L100 95 L100 100 L0 100 Z' transform='rotate(180 50 50)'/%3E%3Cpath class='f' d='M0 0 L5 0 L5 5 L10 5 L10 10 L15 10 L15 15 L20 15 L20 20 L25 20 L25 25 L30 25 L30 30 L35 30 L35 35 L40 35 L40 40 L45 40 L45 45 L50 45 L50 50 L55 50 L55 55 L60 55 L60 60 L65 60 L65 65 L70 65 L70 70 L75 70 L75 75 L80 75 L80 80 L85 80 L85 85 L90 85 L90 90 L95 90 L95 95 L100 95 L100 100 L0 100 Z' transform='rotate(270 50 50)'/%3E%3C/svg%3E") 30 round;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="diagram-container" id="diagram-container">
+        <div class="border-frame"></div>
+        <svg id="arrow-svg"></svg>
+        
+        <!-- Cards Definition -->
+        <div id="divinity" class="card divinity" style="left: 425px; top: 30px;">
+            <div class="card-header" contenteditable="true">DIVINITY</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 0 L61.8 38.2 L100 38.2 L69.1 61.8 L80.9 100 L50 76.4 L19.1 100 L30.9 61.8 L0 38.2 L38.2 38.2 Z" fill="#333"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#333" stroke-width="5"/><circle cx="50" cy="50" r="10" fill="#333"/></svg></div>
+            <div class="card-footer" contenteditable="true">SUN</div>
+        </div>
+
+        <div id="spirit" class="card spirit" style="left: 100px; top: 250px;">
+            <div class="card-header" contenteditable="true">SPIRIT</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 0 C-20 50, 120 50, 50 100 C-20 50, 120 50, 50 0 Z" fill="white"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="white" stroke-width="5"/><circle cx="50" cy="50" r="30" fill="white"/><path d="M50 20 A30 30 0 0 0 50 80" stroke="black" stroke-width="10" fill="none"/></svg></div>
+            <div class="card-footer" contenteditable="true">SPIRIT</div>
+        </div>
+        
+        <div id="nature" class="card nature" style="left: 750px; top: 250px;">
+            <div class="card-header" contenteditable="true">NATURE</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 90 C 70 90, 80 70, 80 50 C 80 30, 70 10, 50 10 C 30 10, 20 30, 20 50 C 20 70, 30 90, 50 90 Z M 50 90 L 50 100" stroke="white" stroke-width="5" fill="none"/><path d="M50 50 C 60 50, 65 40, 65 30" stroke="white" stroke-width="5" fill="none"/><path d="M50 50 C 40 50, 35 40, 35 30" stroke="white" stroke-width="5" fill="none"/></svg></div>
+            <div class="card-footer" contenteditable="true">JUPITER</div>
+        </div>
+
+        <div id="water" class="card water" style="left: 50px; top: 600px;">
+            <div class="card-header" contenteditable="true">WATER</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 0 L0 50 L50 100 L100 50 Z" fill="white" transform="rotate(180 50 50)"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="#4682B4" stroke="white" stroke-width="3"/><path d="M20 50 C 40 30, 60 70, 80 50" stroke="white" fill="none" stroke-width="3"/><path d="M15 60 C 35 40, 55 80, 75 60" stroke="white" fill="none" stroke-width="3"/></svg></div>
+            <div class="card-footer" contenteditable="true">EARTH</div>
+        </div>
+
+        <div id="light" class="card light" style="left: 425px; top: 600px;">
+            <div class="card-header" contenteditable="true">LIGHT</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 0 L61.8 38.2 L100 38.2 L69.1 61.8 L80.9 100 L50 76.4 L19.1 100 L30.9 61.8 L0 38.2 L38.2 38.2 Z" fill="#333"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><path d="M50,10 A40,40 0 1,0 50,90" fill="none" stroke="#333" stroke-width="5"/><path d="M50,10 A40,40 0 1,1 50,90" fill="#333"/></svg></div>
+            <div class="card-footer" contenteditable="true">MOON</div>
+        </div>
+        
+        <div id="earth" class="card earth" style="left: 800px; top: 600px;">
+            <div class="card-header" contenteditable="true">EARTH</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" stroke="white" stroke-width="5" fill="none"/><line x1="10" y1="50" x2="90" y2="50" stroke="white" stroke-width="5"/><line x1="50" y1="10" x2="50" y2="90" stroke="white" stroke-width="5"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="#D2691E" stroke="white" stroke-width="3"/><ellipse cx="50" cy="50" rx="40" ry="15" stroke="white" fill="none" stroke-width="3" transform="rotate(30 50 50)"/></svg></div>
+            <div class="card-footer" contenteditable="true">MARS</div>
+        </div>
+        
+        <div id="fire" class="card fire" style="left: 100px; top: 1050px;">
+            <div class="card-header" contenteditable="true">FIRE</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 0 L0 50 L50 100 L100 50 Z" fill="white"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="#DC143C" stroke="white" stroke-width="3"/><circle cx="50" cy="20" r="5" fill="white"/><circle cx="30" cy="30" r="3" fill="white"/><circle cx="70" cy="40" r="4" fill="white"/></svg></div>
+            <div class="card-footer" contenteditable="true">MERCURY</div>
+        </div>
+
+        <div id="void1" class="card void" style="left: 425px; top: 1050px;">
+            <div class="card-header" contenteditable="true">VOID</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 0 L0 100 L100 100 Z" stroke="white" stroke-width="5" fill="none"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="#1a1a1a" stroke="white" stroke-width="3"/><ellipse cx="50" cy="50" rx="40" ry="10" stroke="white" fill="none" stroke-width="3"/></svg></div>
+            <div class="card-footer" contenteditable="true">NEPTUNE</div>
+        </div>
+        
+        <div id="void2" class="card void" style="left: 750px; top: 1050px;">
+            <div class="card-header" contenteditable="true">VOID</div>
+            <div class="card-content"><svg class="card-icon" viewBox="0 0 100 100"><path d="M50 0 L0 100 L100 100 Z" stroke="white" stroke-width="5" fill="none"/></svg><svg class="card-sub-icon" viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="#1a1a1a" stroke="white" stroke-width="3"/><ellipse cx="50" cy="50" rx="40" ry="10" stroke="white" fill="none" stroke-width="3" transform="rotate(-30 50 50)"/></svg></div>
+            <div class="card-footer" contenteditable="true">NEPTUNE</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('diagram-container');
+            const svg = document.getElementById('arrow-svg');
+            const cards = document.querySelectorAll('.card');
+
+            const arrows = [
+                { from: 'divinity', to: 'light', label: 'illuminates', curve: 0 }, { from: 'spirit', to: 'divinity', label: 'guides', curve: 0.3 }, { from: 'nature', to: 'divinity', label: 'illuminates', curve: -0.3 }, { from: 'spirit', to: 'light', label: 'infuses', curve: 0 }, { from: 'nature', to: 'light', label: 'nourishes', curve: 0 }, { from: 'water', to: 'spirit', label: 'sinuses', curve: -0.3 }, { from: 'earth', to: 'nature', label: 'nourishes', curve: 0.3 }, { from: 'light', to: 'water', label: 'quenches', curve: 0 }, { from: 'light', to: 'earth', label: 'strengthens', curve: 0 }, { from: 'fire', to: 'water', label: 'stifles', curve: 0.4 }, { from: 'void1', to: 'earth', label: 'sustains', curve: -0.4 }, { from: 'void2', to: 'earth', label: 'void', curve: 0.3 }, { from: 'fire', to: 'light', label: 'destroys', curve: 0 }, { from: 'void1', to: 'light', label: 'sustains', curve: 0 }, { from: 'void2', to: 'light', label: 'sustains', curve: 0 }, { from: 'fire', to: 'void1', label: 'stifles', curve: 0 }, { from: 'void1', to: 'void2', label: 'stifles', curve: 0.3 }, { from: 'void2', to: 'void1', label: 'stifles', curve: -0.3 }, { from: 'fire', to: 'void2', label: 'void', curve: -0.5 }, { from: 'water', to: 'fire', label: 'stifles', curve: -0.4 },
+            ];
+
+            let activeCard = null;
+            let offsetX, offsetY;
+
+            function onDragStart(e) {
+                if (e.target.isContentEditable) return;
+                activeCard = this;
+                const event = e.touches ? e.touches[0] : e;
+                const rect = activeCard.getBoundingClientRect();
+                const containerRect = container.getBoundingClientRect();
+                const scale = containerRect.width / container.offsetWidth;
+                offsetX = (event.clientX - rect.left) / scale;
+                offsetY = (event.clientY - rect.top) / scale;
+                activeCard.style.transition = 'none';
+            }
+
+            function onDrag(e) {
+                if (!activeCard) return;
+                e.preventDefault();
+                const event = e.touches ? e.touches[0] : e;
+                const containerRect = container.getBoundingClientRect();
+                const scale = containerRect.width / container.offsetWidth;
+                let x = (event.clientX - containerRect.left) / scale - offsetX;
+                let y = (event.clientY - containerRect.top) / scale - offsetY;
+                x = Math.max(0, Math.min(x, container.offsetWidth - activeCard.offsetWidth));
+                y = Math.max(0, Math.min(y, container.offsetHeight - activeCard.offsetHeight));
+                activeCard.style.left = `${x}px`;
+                activeCard.style.top = `${y}px`;
+                drawAllArrows();
+            }
+
+            function onDragEnd() {
+                if (!activeCard) return;
+                activeCard.style.transition = '';
+                activeCard = null;
+            }
+
+            cards.forEach(card => {
+                card.addEventListener('mousedown', onDragStart);
+                card.addEventListener('touchstart', onDragStart, { passive: false });
+            });
+            document.addEventListener('mousemove', onDrag);
+            document.addEventListener('touchmove', onDrag, { passive: false });
+            document.addEventListener('mouseup', onDragEnd);
+            document.addEventListener('touchend', onDragEnd);
+
+            function getCardCenter(cardId) {
+                const card = document.getElementById(cardId);
+                if (!card) return { x: 0, y: 0 };
+                return { x: card.offsetLeft + card.offsetWidth / 2, y: card.offsetTop + card.offsetHeight / 2 };
+            }
+
+            // --- REVISED ARROW LOGIC ---
+            function getEdgePoint(startPos, endPos, cardElem) {
+                const w = cardElem.offsetWidth / 2;
+                const h = cardElem.offsetHeight / 2;
+                const dx = endPos.x - startPos.x;
+                const dy = endPos.y - startPos.y;
+
+                if (dx === 0 && dy === 0) return startPos;
+
+                // Calculate the ratio of distance to edge for x and y
+                const t_x = Math.abs(dx) > 0 ? w / Math.abs(dx) : Infinity;
+                const t_y = Math.abs(dy) > 0 ? h / Math.abs(dy) : Infinity;
+
+                // The smallest ratio determines the intersection edge
+                const t = Math.min(t_x, t_y);
+
+                // Calculate intersection point on the card's border
+                return { x: startPos.x + t * dx, y: startPos.y + t * dy };
+            }
+
+            function drawAllArrows() {
+                svg.innerHTML = '<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto" fill="#5a4a3a"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>';
+
+                arrows.forEach(arrow => {
+                    const fromCard = document.getElementById(arrow.from);
+                    const toCard = document.getElementById(arrow.to);
+                    if (!fromCard || !toCard) return;
+
+                    const startPos = getCardCenter(arrow.from);
+                    const endPos = getCardCenter(arrow.to);
+
+                    const startPoint = getEdgePoint(startPos, endPos, fromCard);
+                    const endPointRaw = getEdgePoint(endPos, startPos, toCard);
+
+                    // Vector from start to end
+                    const dx = endPointRaw.x - startPoint.x;
+                    const dy = endPointRaw.y - startPoint.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist === 0) return;
+
+                    // Pull back the end point to make space for the arrowhead
+                    const pullback = 10; // px, same as markerWidth
+                    const endPoint = {
+                        x: endPointRaw.x - pullback * dx / dist,
+                        y: endPointRaw.y - pullback * dy / dist
+                    };
+
+                    // Control point for the Bezier curve
+                    const curve = arrow.curve || 0;
+                    const midX = startPoint.x + dx / 2;
+                    const midY = startPoint.y + dy / 2;
+                    const cx = midX - dy * curve;
+                    const cy = midY + dx * curve;
+
+                    const pathData = `M ${startPoint.x} ${startPoint.y} Q ${cx} ${cy}, ${endPoint.x} ${endPoint.y}`;
+                    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    path.setAttribute('d', pathData);
+                    path.setAttribute('class', 'arrow-path');
+                    svg.appendChild(path);
+
+                    // Position the label at the control point of the curve
+                    const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    text.setAttribute('x', cx);
+                    text.setAttribute('y', cy);
+                    text.setAttribute('class', 'arrow-label');
+                    text.setAttribute('contenteditable', 'true');
+                    text.textContent = arrow.label;
+                    
+                    const angle = Math.atan2(dy, dx) * 180 / Math.PI;
+                    if(Math.abs(angle) > 90) {
+                        text.setAttribute('transform', `rotate(${angle + 180} ${cx} ${cy})`);
+                    } else {
+                        text.setAttribute('transform', `rotate(${angle} ${cx} ${cy})`);
+                    }
+
+                    svg.appendChild(text);
+                });
+            }
+
+            drawAllArrows();
+            window.addEventListener('resize', drawAllArrows);
+        });
+    </script>
+
+</body>
+</html>

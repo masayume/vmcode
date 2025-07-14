@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alchemical Elements Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5dc; /* Parchment-like background */
+            display: flex;
+            flex-direction: column; /* Allow content to stack vertically */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: auto; /* Allow scrolling if content overflows */
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px; /* Increased max width for larger cards */
+            aspect-ratio: 1 / 1.3; /* Approximate aspect ratio of the image */
+            background-image: url('https://placehold.co/1000x1300/f5f5dc/8B4513?text=Parchment+Background'); /* Placeholder for parchment texture */
+            background-size: cover;
+            background-position: center;
+            border: 10px solid #8B4513; /* Dark brown border */
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px; /* Space for buttons */
+        }
+        .card {
+            background-color: #fff;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition for hover */
+            position: absolute; /* Position cards absolutely within the container */
+            cursor: grab; /* Indicate draggable */
+            user-select: none; /* Prevent text selection during drag */
+            z-index: 1; /* Ensure cards are above arrows */
+        }
+        .card:hover {
+            border-color: #4CAF50; /* Highlight on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .card.dragging {
+            cursor: grabbing;
+            z-index: 10; /* Bring dragging card to front */
+        }
+        .card-title {
+            font-size: 1.5em; /* Larger font */
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .card-symbol {
+            font-size: 3.5em; /* Larger symbols */
+            margin-bottom: 5px;
+        }
+        .card-text {
+            font-size: 1em; /* Larger font */
+            text-transform: uppercase;
+        }
+        .card-subtext {
+            font-size: 0.9em; /* Larger font */
+            margin-top: 5px;
+        }
+
+        /* Specific card positioning and sizing (adjusted for larger size) */
+        /* Note: These are initial positions. Users can drag them. */
+        .card-divinity {
+            width: 28%; /* Larger */
+            height: 22%; /* Larger */
+            top: 3%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f8f8e0; /* Cream */
+            border-color: #a0522d; /* Sienna */
+        }
+        .card-spirit {
+            width: 28%;
+            height: 22%;
+            top: 25%;
+            left: 5%;
+            background-color: #9b2226; /* Dark Red */
+            color: white;
+            border-color: #6a040f;
+        }
+        .card-nature {
+            width: 28%;
+            height: 22%;
+            top: 25%;
+            right: 5%;
+            background-color: #386641; /* Dark Green */
+            color: white;
+            border-color: #2a4c30;
+        }
+        .card-light {
+            width: 28%;
+            height: 22%;
+            top: 38%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #fef9ef; /* Light Yellow */
+            border-color: #d4a017;
+        }
+        .card-water {
+            width: 28%;
+            height: 22%;
+            top: 50%;
+            left: 5%;
+            background-color: #0077b6; /* Blue */
+            color: white;
+            border-color: #023e8a;
+        }
+        .card-earth {
+            width: 28%;
+            height: 22%;
+            top: 50%;
+            right: 5%;
+            background-color: #d68c45; /* Orange-Brown */
+            color: white;
+            border-color: #a0522d;
+        }
+        .card-fire {
+            width: 28%;
+            height: 22%;
+            top: 75%;
+            left: 5%;
+            background-color: #e63946; /* Red */
+            color: white;
+            border-color: #c1121f;
+        }
+        .card-void-left {
+            width: 28%;
+            height: 22%;
+            top: 75%;
+            left: 35%; /* Adjusted for better spacing */
+            transform: translateX(-50%); /* Keep centered relative to its left position */
+            background-color: #212529; /* Dark Gray */
+            color: white;
+            border-color: #0f0f0f;
+        }
+        .card-void-right {
+            width: 28%;
+            height: 22%;
+            top: 75%;
+            right: 5%;
+            background-color: #212529; /* Dark Gray */
+            color: white;
+            border-color: #0f0f0f;
+        }
+
+        /* Arrow styling */
+        .arrow {
+            position: absolute;
+            background-color: var(--arrow-color, #8B4513); /* Use CSS variable for color */
+            height: 3px; /* Thickness of the arrow line */
+            transform-origin: 0 50%; /* Rotate from the start of the line */
+            pointer-events: auto; /* Allow clicks on the arrow */
+            z-index: 0; /* Ensure arrows are behind cards */
+            cursor: pointer;
+        }
+        .arrow::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 6px 0 6px 10px; /* Size of the arrowhead */
+            border-color: transparent transparent transparent var(--arrow-color, #8B4513); /* Arrowhead color */
+            right: -1px; /* Position at the end of the line */
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .arrow.reverse::after {
+            border-width: 6px 10px 6px 0;
+            border-color: transparent var(--arrow-color, #8B4513) transparent transparent;
+            left: -1px;
+            right: auto;
+        }
+        .arrow-text {
+            position: absolute;
+            top: -20px; /* Adjust position of text relative to arrow line */
+            left: 50%;
+            transform: translateX(-50%); /* Will be counter-rotated by JS */
+            white-space: nowrap;
+            color: #333; /* Text color */
+            font-size: 0.7em;
+            font-weight: bold;
+            pointer-events: auto; /* Make text editable */
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent background for readability */
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        /* Modal for editing */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 100; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        .close-button {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        .close-button:hover,
+        .close-button:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .modal-input-group {
+            margin-bottom: 15px;
+        }
+        .modal-input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .modal-input-group input[type="text"],
+        .modal-input-group input[type="color"] {
+            width: calc(100% - 20px);
+            padding: 8px 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .modal-input-group input[type="color"] {
+            height: 40px;
+            padding: 0;
+            cursor: pointer;
+        }
+        .modal-save-button, .action-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+            margin-right: 10px;
+            transition: background-color 0.2s ease;
+        }
+        .modal-save-button:hover, .action-button:hover {
+            background-color: #45a049;
+        }
+        .action-button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .action-button.load {
+            background-color: #008CBA;
+        }
+        .action-button.load:hover {
+            background-color: #0077a0;
+        }
+        .message-box {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #333;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            font-size: 1.1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <!-- Cards -->
+        <div class="card card-divinity" data-card-id="divinity">
+            <div class="card-title" contenteditable="true">DIVINITY</div>
+            <div class="card-symbol" contenteditable="true">★</div>
+            <div class="card-symbol" contenteditable="true">☀</div>
+            <div class="card-text" contenteditable="true">SUN</div>
+        </div>
+
+        <div class="card card-spirit" data-card-id="spirit">
+            <div class="card-title" contenteditable="true">SPIRIT</div>
+            <div class="card-symbol" contenteditable="true">☿</div>
+            <div class="card-text" contenteditable="true">SPIRIT</div>
+        </div>
+
+        <div class="card card-nature" data-card-id="nature">
+            <div class="card-title" contenteditable="true">NATURE</div>
+            <div class="card-symbol" contenteditable="true">🌿</div>
+            <div class="card-text" contenteditable="true">JUPITER</div>
+        </div>
+
+        <div class="card card-light" data-card-id="light">
+            <div class="card-title" contenteditable="true">LIGHT</div>
+            <div class="card-symbol" contenteditable="true">✶</div>
+            <div class="card-symbol" contenteditable="true">☾</div>
+            <div class="card-text" contenteditable="true">MOON</div>
+        </div>
+
+        <div class="card card-water" data-card-id="water">
+            <div class="card-title" contenteditable="true">WATER</div>
+            <div class="card-symbol" contenteditable="true">💧</div>
+            <div class="card-subtext" contenteditable="true">EARTH</div>
+        </div>
+
+        <div class="card card-earth" data-card-id="earth">
+            <div class="card-title" contenteditable="true">EARTH</div>
+            <div class="card-symbol" contenteditable="true">♁</div>
+            <div class="card-symbol" contenteditable="true">♄</div>
+            <div class="card-subtext" contenteditable="true">MARS</div>
+        </div>
+
+        <div class="card card-fire" data-card-id="fire">
+            <div class="card-title" contenteditable="true">FIRE</div>
+            <div class="card-symbol" contenteditable="true">🔥</div>
+            <div class="card-subtext" contenteditable="true">MERCURY</div>
+        </div>
+
+        <div class="card card-void-left" data-card-id="void-left">
+            <div class="card-title" contenteditable="true">VOID</div>
+            <div class="card-symbol" contenteditable="true">▽</div>
+            <div class="card-symbol" contenteditable="true">♆</div>
+            <div class="card-subtext" contenteditable="true">NEPTUNE</div>
+        </div>
+
+        <div class="card card-void-right" data-card-id="void-right">
+            <div class="card-title" contenteditable="true">VOID</div>
+            <div class="card-symbol" contenteditable="true">▽</div>
+            <div class="card-symbol" contenteditable="true">♆</div>
+            <div class="card-subtext" contenteditable="true">NEPTUNE</div>
+        </div>
+
+        <!-- Arrows will be dynamically created and positioned by JS -->
+    </div>
+
+    <div class="action-button-container">
+        <button class="action-button save" id="saveLayoutButton">Save Layout</button>
+        <button class="action-button load" id="loadLayoutButton">Load Layout</button>
+    </div>
+
+    <!-- Modal for editing card properties -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Edit Card</h2>
+            <div class="modal-input-group">
+                <label for="modalCardTitle">Title:</label>
+                <input type="text" id="modalCardTitle">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalCardSymbol1">Symbol 1:</label>
+                <input type="text" id="modalCardSymbol1">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalCardSymbol2">Symbol 2 (optional):</label>
+                <input type="text" id="modalCardSymbol2">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalCardText">Main Text:</label>
+                <input type="text" id="modalCardText">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalCardSubtext">Subtext (optional):</label>
+                <input type="text" id="modalCardSubtext">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalCardBgColor">Background Color:</label>
+                <input type="color" id="modalCardBgColor">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalCardTextColor">Text Color:</label>
+                <input type="color" id="modalCardTextColor">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalCardBorderColor">Border Color:</label>
+                <input type="color" id="modalCardBorderColor">
+            </div>
+            <button class="modal-save-button" id="saveCardChanges">Save Changes</button>
+        </div>
+    </div>
+
+    <!-- Modal for editing arrow properties -->
+    <div id="editArrowModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Edit Arrow</h2>
+            <div class="modal-input-group">
+                <label for="modalArrowText">Arrow Text:</label>
+                <input type="text" id="modalArrowText">
+            </div>
+            <div class="modal-input-group">
+                <label for="modalArrowColor">Arrow Color:</label>
+                <input type="color" id="modalArrowColor">
+            </div>
+            <button class="modal-save-button" id="saveArrowChanges">Save Changes</button>
+        </div>
+    </div>
+
+    <!-- Message Box -->
+    <div id="messageBox" class="message-box"></div>
+
+    <script>
+        const mainContainer = document.getElementById('mainContainer');
+        const editModal = document.getElementById('editModal');
+        const editArrowModal = document.getElementById('editArrowModal');
+        const closeButtons = document.querySelectorAll('.close-button');
+        const saveCardChangesButton = document.getElementById('saveCardChanges');
+        const saveArrowChangesButton = document.getElementById('saveArrowChanges');
+        const saveLayoutButton = document.getElementById('saveLayoutButton');
+        const loadLayoutButton = document.getElementById('loadLayoutButton');
+        const messageBox = document.getElementById('messageBox');
+
+        let currentEditableCard = null;
+        let currentEditableArrow = null;
+
+        let isDragging = false;
+        let activeCard = null;
+        let initialX, initialY;
+        let xOffset = 0, yOffset = 0;
+
+        // Initial arrow data - this will be the default if no layout is loaded
+        const initialArrowsData = [
+            { from: 'divinity', to: 'light', text: 'illuminates', color: '#8B4513' },
+            { from: 'spirit', to: 'light', text: 'infuses', color: '#8B4513' },
+            { from: 'spirit', to: 'water', text: 'intuits', color: '#8B4513', reverse: true },
+            { from: 'water', to: 'spirit', text: 'stifles', color: '#8B4513' },
+            { from: 'spirit', to: 'fire', text: 'stifles', color: '#8B4513' },
+            { from: 'fire', to: 'spirit', text: 'destroys', color: '#8B4513', reverse: true },
+            { from: 'nature', to: 'light', text: 'nourishes', color: '#8B4513' },
+            { from: 'nature', to: 'earth', text: 'strengthens', color: '#8B4513' },
+            { from: 'earth', to: 'nature', text: 'stifles', color: '#8B4513', reverse: true },
+            { from: 'light', to: 'water', text: 'quenches', color: '#8B4513' },
+            { from: 'water', to: 'light', text: 'desnahas', color: '#8B4513', reverse: true },
+            { from: 'light', to: 'earth', text: 'sustains', color: '#8B4513' },
+            { from: 'earth', to: 'light', text: 'scutains', color: '#8B4513', reverse: true },
+            { from: 'light', to: 'void-left', text: 'sustains', color: '#8B4513' },
+            { from: 'light', to: 'void-right', text: 'sustains', color: '#8B4513' },
+            { from: 'earth', to: 'fire', text: 'voil', color: '#8B4513' },
+            { from: 'fire', to: 'earth', text: 'stifles', color: '#8B4513', reverse: true },
+            { from: 'fire', to: 'void-left', text: 'stifles', color: '#8B4513' },
+            { from: 'void-left', to: 'fire', text: 'stifles', color: '#8B4513', reverse: true },
+            { from: 'void-left', to: 'void-right', text: 'stifles', color: '#8B4513' },
+            { from: 'void-right', to: 'void-left', text: 'stifles', color: '#8B4513', reverse: true },
+        ];
+        let currentArrowsData = [...initialArrowsData]; // Mutable copy for current state
+
+        // Function to show a temporary message
+        function showMessage(message, duration = 2000) {
+            messageBox.textContent = message;
+            messageBox.style.display = 'block';
+            setTimeout(() => {
+                messageBox.style.display = 'none';
+            }, duration);
+        }
+
+        // Helper function to convert RGB to Hex for color inputs
+        function rgbToHex(rgb) {
+            if (!rgb || rgb.startsWith('#')) return rgb; // Already hex or empty
+
+            const a = rgb.split("(")[1].split(")")[0].split(",");
+            const b = a.map(x => {
+                x = parseInt(x).toString(16);
+                return (x.length == 1) ? "0" + x : x;
+            });
+            return "#" + b.join("");
+        }
+
+        // Function to open the card editing modal
+        function openCardEditModal(cardElement) {
+            currentEditableCard = cardElement;
+            document.getElementById('modalCardTitle').value = cardElement.querySelector('.card-title')?.textContent || '';
+            const symbols = cardElement.querySelectorAll('.card-symbol');
+            document.getElementById('modalCardSymbol1').value = symbols[0]?.textContent || '';
+            document.getElementById('modalCardSymbol2').value = symbols[1]?.textContent || '';
+            document.getElementById('modalCardText').value = cardElement.querySelector('.card-text')?.textContent || '';
+            document.getElementById('modalCardSubtext').value = cardElement.querySelector('.card-subtext')?.textContent || '';
+            document.getElementById('modalCardBgColor').value = rgbToHex(cardElement.style.backgroundColor || getComputedStyle(cardElement).backgroundColor);
+            document.getElementById('modalCardTextColor').value = rgbToHex(cardElement.style.color || getComputedStyle(cardElement).color);
+            document.getElementById('modalCardBorderColor').value = rgbToHex(cardElement.style.borderColor || getComputedStyle(cardElement).borderColor);
+            editModal.style.display = 'flex';
+        }
+
+        // Function to open the arrow editing modal
+        function openArrowEditModal(arrowElement) {
+            currentEditableArrow = arrowElement;
+            document.getElementById('modalArrowText').value = arrowElement.querySelector('.arrow-text')?.textContent || '';
+            // Get the current color, falling back to computed style if not directly set
+            const currentColor = arrowElement.style.backgroundColor || getComputedStyle(arrowElement).backgroundColor;
+            document.getElementById('modalArrowColor').value = rgbToHex(currentColor);
+            editArrowModal.style.display = 'flex';
+        }
+
+        // Save changes for card
+        saveCardChangesButton.addEventListener('click', () => {
+            if (currentEditableCard) {
+                currentEditableCard.querySelector('.card-title').textContent = document.getElementById('modalCardTitle').value;
+                const symbols = currentEditableCard.querySelectorAll('.card-symbol');
+                if (symbols[0]) symbols[0].textContent = document.getElementById('modalCardSymbol1').value;
+                if (symbols[1]) symbols[1].textContent = document.getElementById('modalCardSymbol2').value;
+                const cardText = currentEditableCard.querySelector('.card-text');
+                if (cardText) cardText.textContent = document.getElementById('modalCardText').value;
+                const cardSubtext = currentEditableCard.querySelector('.card-subtext');
+                if (cardSubtext) cardSubtext.textContent = document.getElementById('modalCardSubtext').value;
+
+                currentEditableCard.style.backgroundColor = document.getElementById('modalCardBgColor').value;
+                currentEditableCard.style.color = document.getElementById('modalCardTextColor').value;
+                currentEditableCard.style.borderColor = document.getElementById('modalCardBorderColor').value;
+                editModal.style.display = 'none';
+                currentEditableCard = null;
+            }
+        });
+
+        // Save changes for arrow
+        saveArrowChangesButton.addEventListener('click', () => {
+            if (currentEditableArrow) {
+                currentEditableArrow.querySelector('.arrow-text').textContent = document.getElementById('modalArrowText').value;
+                const newColor = document.getElementById('modalArrowColor').value;
+                currentEditableArrow.style.backgroundColor = newColor;
+                currentEditableArrow.style.setProperty('--arrow-color', newColor); // Update CSS variable for arrowhead
+                
+                // Update the currentArrowsData array to reflect the change for saving
+                const fromCardId = currentEditableArrow.dataset.fromCardId;
+                const toCardId = currentEditableArrow.dataset.toCardId;
+                const arrowIndex = currentArrowsData.findIndex(arrow => 
+                    arrow.from === fromCardId && arrow.to === toCardId
+                );
+                if (arrowIndex !== -1) {
+                    currentArrowsData[arrowIndex].text = document.getElementById('modalArrowText').value;
+                    currentArrowsData[arrowIndex].color = newColor;
+                }
+
+                editArrowModal.style.display = 'none';
+                currentEditableArrow = null;
+            }
+        });
+
+        // Close modals
+        closeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                editModal.style.display = 'none';
+                editArrowModal.style.display = 'none';
+                currentEditableCard = null;
+                currentEditableArrow = null;
+            });
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target == editModal) {
+                editModal.style.display = 'none';
+                currentEditableCard = null;
+            }
+            if (event.target == editArrowModal) {
+                editArrowModal.style.display = 'none';
+                currentEditableArrow = null;
+            }
+        });
+
+        // Function to create and position arrows
+        function createArrow(fromCardId, toCardId, text, color, isReversed = false) {
+            const fromCard = document.querySelector(`[data-card-id="${fromCardId}"]`);
+            const toCard = document.querySelector(`[data-card-id="${toCardId}"]`);
+
+            if (!fromCard || !toCard) {
+                console.error(`Could not find cards for arrow from ${fromCardId} to ${toCardId}`);
+                return;
+            }
+
+            const containerRect = mainContainer.getBoundingClientRect();
+            const fromRect = fromCard.getBoundingClientRect();
+            const toRect = toCard.getBoundingClientRect();
+
+            // Calculate center points relative to the container
+            const fromX = (fromRect.left + fromRect.width / 2) - containerRect.left;
+            const fromY = (fromRect.top + fromRect.height / 2) - containerRect.top;
+            const toX = (toRect.left + toRect.width / 2) - containerRect.left;
+            const toY = (toRect.top + toRect.height / 2) - containerRect.top;
+
+            const dx = toX - fromX;
+            const dy = toY - fromY;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            const angle = Math.atan2(dy, dx) * 180 / Math.PI;
+
+            const arrow = document.createElement('div');
+            arrow.classList.add('arrow');
+            if (isReversed) {
+                arrow.classList.add('reverse');
+            }
+            arrow.style.width = `${distance}px`;
+            arrow.style.left = `${fromX}px`;
+            arrow.style.top = `${fromY}px`;
+            arrow.style.transform = `rotate(${angle}deg)`;
+            arrow.style.backgroundColor = color;
+            arrow.style.setProperty('--arrow-color', color); // Set CSS variable for arrowhead
+
+            // Store card IDs on the arrow for easy retrieval during saving
+            arrow.dataset.fromCardId = fromCardId;
+            arrow.dataset.toCardId = toCardId;
+            arrow.dataset.isReversed = isReversed; // Store boolean as string
+
+            if (isReversed) {
+                // Adjust position for reverse arrow to align correctly
+                arrow.style.left = `${toX}px`;
+                arrow.style.top = `${toY}px`;
+                arrow.style.transform = `rotate(${angle + 180}deg)`; // Rotate 180 for reverse
+            }
+
+            const arrowText = document.createElement('span');
+            arrowText.classList.add('arrow-text');
+            arrowText.textContent = text;
+            // Counter-rotate text to keep it horizontal
+            arrowText.style.transform = `translateX(-50%) rotate(${-angle}deg)`;
+            
+            arrow.appendChild(arrowText);
+            mainContainer.appendChild(arrow);
+
+            // Add event listener to the arrow for editing
+            arrow.addEventListener('click', (e) => {
+                e.stopPropagation(); // Prevent clicking the arrow from also opening card modal if it overlaps
+                openArrowEditModal(arrow);
+            });
+        }
+
+        // Function to clear all existing arrows
+        function clearArrows() {
+            document.querySelectorAll('.arrow').forEach(arrow => arrow.remove());
+        }
+
+        // Function to draw all arrows based on currentArrowsData
+        function drawAllArrows() {
+            clearArrows();
+            currentArrowsData.forEach(arrow => {
+                createArrow(arrow.from, arrow.to, arrow.text, arrow.color, arrow.reverse);
+            });
+        }
+
+        // Drag functionality
+        mainContainer.addEventListener('mousedown', (e) => {
+            const targetCard = e.target.closest('.card');
+            if (targetCard) {
+                activeCard = targetCard;
+                isDragging = true;
+                activeCard.classList.add('dragging');
+
+                const cardRect = activeCard.getBoundingClientRect();
+                const containerRect = mainContainer.getBoundingClientRect();
+
+                // Calculate offset relative to the card's current position within the container
+                initialX = e.clientX - containerRect.left;
+                initialY = e.clientY - containerRect.top;
+
+                xOffset = initialX - (cardRect.left - containerRect.left);
+                yOffset = initialY - (cardRect.top - containerRect.top);
+            }
+        });
+
+        mainContainer.addEventListener('mousemove', (e) => {
+            if (!isDragging || !activeCard) return;
+
+            e.preventDefault(); // Prevent default drag behavior (e.g., text selection)
+
+            const containerRect = mainContainer.getBoundingClientRect();
+            let newX = e.clientX - containerRect.left - xOffset;
+            let newY = e.clientY - containerRect.top - yOffset;
+
+            // Constrain movement within the container boundaries
+            const cardWidth = activeCard.offsetWidth;
+            const cardHeight = activeCard.offsetHeight;
+
+            newX = Math.max(0, Math.min(newX, containerRect.width - cardWidth));
+            newY = Math.max(0, Math.min(newY, containerRect.height - cardHeight));
+
+            activeCard.style.left = `${newX}px`;
+            activeCard.style.top = `${newY}px`;
+
+            // Redraw arrows continuously during drag for smooth updates
+            drawAllArrows();
+        });
+
+        mainContainer.addEventListener('mouseup', () => {
+            if (isDragging) {
+                isDragging = false;
+                if (activeCard) {
+                    activeCard.classList.remove('dragging');
+                    activeCard = null;
+                }
+                // Final redraw of arrows after drag ends
+                drawAllArrows();
+            }
+        });
+
+        mainContainer.addEventListener('mouseleave', () => {
+            // End drag if mouse leaves the container
+            if (isDragging) {
+                isDragging = false;
+                if (activeCard) {
+                    activeCard.classList.remove('dragging');
+                    activeCard = null;
+                }
+                drawAllArrows();
+            }
+        });
+
+        // Save Layout Functionality
+        saveLayoutButton.addEventListener('click', () => {
+            const cardsData = [];
+            document.querySelectorAll('.card').forEach(card => {
+                cardsData.push({
+                    id: card.dataset.cardId,
+                    top: card.style.top,
+                    left: card.style.left,
+                    backgroundColor: card.style.backgroundColor,
+                    color: card.style.color,
+                    borderColor: card.style.borderColor,
+                    title: card.querySelector('.card-title')?.textContent || '',
+                    symbol1: card.querySelectorAll('.card-symbol')[0]?.textContent || '',
+                    symbol2: card.querySelectorAll('.card-symbol')[1]?.textContent || '',
+                    text: card.querySelector('.card-text')?.textContent || '',
+                    subtext: card.querySelector('.card-subtext')?.textContent || ''
+                });
+            });
+
+            // currentArrowsData is already updated by arrow editing, so we can use it directly
+            const layoutData = {
+                cards: cardsData,
+                arrows: currentArrowsData
+            };
+
+            try {
+                localStorage.setItem('alchemicalLayout', JSON.stringify(layoutData));
+                showMessage('Layout saved successfully!');
+            } catch (e) {
+                showMessage('Error saving layout: ' + e.message);
+            }
+        });
+
+        // Load Layout Functionality
+        loadLayoutButton.addEventListener('click', () => {
+            try {
+                const savedLayout = localStorage.getItem('alchemicalLayout');
+                if (savedLayout) {
+                    const layoutData = JSON.parse(savedLayout);
+
+                    // Restore card properties
+                    layoutData.cards.forEach(savedCard => {
+                        const cardElement = document.querySelector(`[data-card-id="${savedCard.id}"]`);
+                        if (cardElement) {
+                            cardElement.style.top = savedCard.top;
+                            cardElement.style.left = savedCard.left;
+                            cardElement.style.backgroundColor = savedCard.backgroundColor;
+                            cardElement.style.color = savedCard.color;
+                            cardElement.style.borderColor = savedCard.borderColor;
+                            cardElement.querySelector('.card-title').textContent = savedCard.title;
+                            if (cardElement.querySelectorAll('.card-symbol')[0]) cardElement.querySelectorAll('.card-symbol')[0].textContent = savedCard.symbol1;
+                            if (cardElement.querySelectorAll('.card-symbol')[1]) cardElement.querySelectorAll('.card-symbol')[1].textContent = savedCard.symbol2;
+                            if (cardElement.querySelector('.card-text')) cardElement.querySelector('.card-text').textContent = savedCard.text;
+                            if (cardElement.querySelector('.card-subtext')) cardElement.querySelector('.card-subtext').textContent = savedCard.subtext;
+                        }
+                    });
+
+                    // Restore arrow properties and redraw
+                    currentArrowsData = layoutData.arrows; // Update the mutable array
+                    drawAllArrows();
+                    showMessage('Layout loaded successfully!');
+                } else {
+                    showMessage('No saved layout found.');
+                }
+            } catch (e) {
+                showMessage('Error loading layout: ' + e.message);
+            }
+        });
+
+        // Initial drawing of arrows when the window loads
+        window.onload = function() {
+            // Draw initial arrows based on default data
+            drawAllArrows();
+            // Attempt to load a saved layout immediately on load
+            loadLayoutButton.click(); // Simulate a click to load if available
+        };
+
+        // Recalculate arrow positions on window resize
+        window.addEventListener('resize', () => {
+            drawAllArrows();
+        });
+
+    </script>
+</body>
+</html>

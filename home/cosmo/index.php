@@ -107,7 +107,7 @@
     ?>
 
     <p>
-      cosmogony
+      <a href="/cosmo/cosmogony02"> cosmogony </a>
     </p>
 <!--
     <br />
