@@ -21,11 +21,16 @@ function gamepage($jfile) {
       $class .= $cl . " ";
     }
 
-    $volume = "";
-    if ( isset($item['books']) ) {
-      $volume = $item['books'] . " vol ";
-    } else {
-      $volume = $item['length'] . " pages";
+    $score = str_replace('%', '', $item['score']);
+
+    $author = "";
+    foreach($item['author'] as $aut) {
+      $author .= $aut . ", ";
+    }
+
+    $genre = "";
+    foreach($item['theme'] as $gen) {
+      $genre .= $gen . " ";
     }
 
     $urlWF = "";
@@ -35,14 +40,14 @@ function gamepage($jfile) {
 
 
     $template =<<<TEM
-      <div class="element-item $class overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
+      <div class="element-item $class $genre overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
         <p class="name"><a href='{$item['url']}'>{$item['name']}</a></p>
-        <p class="number">{$item['number']}</p>
         <p class="year">{$item['year']}</p>
-        <p class="author">{$item['author']}</p>
+        <p class="author">{$author}</p>
         <p class="length">{$item['length']}</p>
-        <p class="weight">{$item['weight']}</p>        
-        <p class="score">{$item['score']}</p>
+        <p class="perc">{$item['score']}</p>
+        <p class="score">{$score}</p>
+        <p class="genre">{$genre}</p>
       </div>
 
 TEM;

@@ -178,6 +178,55 @@ body {
 
 }
 
+.element-item .perc {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  font-family: 'Oswald';
+  font-size: 12px;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  z-index: 2;
+  outline: 0;
+  padding: 2px 2px 2px 2px ;
+
+}
+
+.element-item .score {
+  visibility: hidden;
+}
+
+.element-item .length {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  font-family: 'Oswald';
+  font-size: 12px;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  z-index: 2;
+  outline: 0;
+  padding: 2px 2px 2px 2px ;
+
+}
+
+.element-item .author {
+  position: absolute;
+  left: 4px;
+  top: 36px;
+  font-family: 'Oswald';
+  font-size: 12px;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  z-index: 2;
+  outline: 0;
+  padding: 2px 2px 2px 2px ;
+
+}
+
 .element-item .players {
   position: absolute;
   right: 4px;
@@ -193,9 +242,9 @@ body {
 
 }
 
-.element-item .weight {
+.element-item .genre {
   position: absolute;
-  left: 45px;
+  right: 4px;
   bottom: 4px;
   font-family: 'Oswald';
   font-size: 12px;

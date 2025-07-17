@@ -19,7 +19,7 @@
 <div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
   <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="year">year</button>
-  <button class="button" data-sort-by="number">number</button>
+  <button class="button" data-sort-by="score">score</button>
   <button class="button" data-sort-by="length">duration</button>
   <button class="button" data-sort-by="weight">complexity</button>
 <!--
@@ -33,22 +33,16 @@
 
 <div id="filters" class="button-group" style="float: right;">  
   <button class="button is-checked" data-filter="*">show all</button>
-  <button class="button" data-filter=".narrativa">lit</button>
-  <button class="button" data-filter=".tools">tools</button>
-  <button class="button" data-filter=".comics">comix</button>
-  <button class="button" data-filter=".books">books</button>
-  <button class="button" data-filter=".artworks">artworks</button>
-  <button class="button" data-filter=".magazines">mags</button>
-  <button class="button" data-filter=".gamedesign">game design</button>
-  <button class="button" data-filter=".design">design</button>
-  <button class="button" data-filter=".reference">refs</button>
-  <button class="button" data-filter=".cinema">cinema</button>
-  <button class="button" data-filter=".digital">digital</button>
-  <button class="button" data-filter=".nihongo">nihongo</button>
-  <button class="button" data-filter=".psychology">psych/creat</button>
-  <button class="button" data-filter=".meditation">meditation</button>
-  <button class="button" data-filter=".knowledge">knowledge</button>
-  <button class="button" data-filter=".vintage">vintage</button>
+  <button class="button" data-filter=".Action">Action</button>
+  <button class="button" data-filter=".Adventure">Adventure</button>
+  <button class="button" data-filter=".Comedy">Comedy</button>
+  <button class="button" data-filter=".Drama">Drama</button>
+  <button class="button" data-filter=".Horror">Horror</button>
+  <button class="button" data-filter=".Mystery">Mystery</button>
+  <button class="button" data-filter=".Romance">Romance</button>
+  <button class="button" data-filter=".Science">Science Fiction</button>
+  <button class="button" data-filter=".Thriller">Thriller</button>
+  <button class="button" data-filter=".War">War</button>
 <!--
   <button class="button" data-filter=".interaction">interaction</button>
   <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
