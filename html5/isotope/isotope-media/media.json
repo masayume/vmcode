@@ -238,6 +238,37 @@
       "tagline": null,
       "url": "https://www.themoviedb.org/movie/364-batman-returns?language=en-US"
     },
+    "BladeII2002": {
+      "media": "movie",
+      "name": "Blade II",
+      "year": "2002",
+      "img": "BladeII2002.jpg",
+      "theme": [
+        "Fantasy",
+        "Horror",
+        "Action",
+        "Thriller"
+      ],
+      "author": [
+        "Guillermo del Toro"
+      ],
+      "cast": [
+        "Wesley Snipes",
+        "Kris Kristofferson",
+        "Ron Perlman",
+        "Leonor Varela",
+        "Norman Reedus",
+        "Thomas Kretschmann",
+        "Luke Goss",
+        "Matt Schulze",
+        "Danny John-Jules"
+      ],
+      "length": "1h 57m",
+      "score": "66%",
+      "overview": "Blade forms an uneasy alliance with the vampire council in order to combat the Reapers, who are feeding on vampires.",
+      "tagline": "Faster. Sharper. Deadlier.",
+      "url": "https://www.themoviedb.org/movie/36586-blade-ii?language=en-US"
+    },
     "BladeRunner1982": {
       "media": "movie",
       "name": "Blade Runner",
@@ -296,6 +327,40 @@
       "overview": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
       "tagline": "The key to the future is finally unearthed.",
       "url": "https://www.themoviedb.org/movie/335984-blade-runner-2049?language=en-US"
+    },
+    "Brave2012": {
+      "media": "movie",
+      "name": "Brave",
+      "year": "2012",
+      "img": "Brave2012.jpg",
+      "theme": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Action",
+        "Fantasy"
+      ],
+      "author": [
+        "Brenda Chapman",
+        "Mark Andrews"
+      ],
+      "cast": [
+        "Kelly Macdonald",
+        "Emma Thompson",
+        "Billy Connolly",
+        "Julie Walters",
+        "Robbie Coltrane",
+        "Kevin McKidd",
+        "Craig Ferguson",
+        "Peigi Barker",
+        "Steve Purcell"
+      ],
+      "length": "1h 33m",
+      "score": "70%",
+      "overview": "Brave is set in the mystical Scottish Highlands, where Mérida is the princess of a kingdom ruled by King Fergus and Queen Elinor. An unruly daughter and an accomplished archer, Mérida one day defies a sacred custom of the land and inadvertently brings turmoil to the kingdom. In an attempt to set things right, Mérida seeks out an eccentric old Wise Woman and is granted an ill-fated wish. Also figuring into Mérida’s quest — and serving as comic relief — are the kingdom’s three lords: the enormous Lord MacGuffin, the surly Lord Macintosh, and the disagreeable Lord Dingwall.",
+      "tagline": "Change your fate.",
+      "url": "https://www.themoviedb.org/movie/62177-brave?language=en-US"
     },
     "BurkeHare2010": {
       "media": "movie",
@@ -446,6 +511,36 @@
       "tagline": "What a difference a day makes.",
       "url": "https://www.themoviedb.org/movie/11104?language=en-US"
     },
+    "ConantheBarbarian1982": {
+      "media": "movie",
+      "name": "Conan the Barbarian",
+      "year": "1982",
+      "img": "ConantheBarbarian1982.jpg",
+      "theme": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "author": [
+        "John Milius"
+      ],
+      "cast": [
+        "Arnold Schwarzenegger",
+        "James Earl Jones",
+        "Max von Sydow",
+        "Sandahl Bergman",
+        "Ben Davidson",
+        "Cassandra Gava",
+        "Gerry Lopez",
+        "Mako",
+        "Valérie Quennessen"
+      ],
+      "length": "2h 9m",
+      "score": "68%",
+      "overview": "A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.",
+      "tagline": "Thief. Warrior. Gladiator. King.",
+      "url": "https://www.themoviedb.org/movie/9387-conan-the-barbarian?language=en-US"
+    },
     "Departures2008": {
       "media": "movie",
       "name": "Departures",
@@ -504,6 +599,37 @@
       "overview": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal.",
       "tagline": "When the world needed a hero, they called a villain.",
       "url": "https://www.themoviedb.org/movie/93456-despicable-me-2?language=en-US"
+    },
+    "DungeonsDragonsHonorAmongThieves2023": {
+      "media": "movie",
+      "name": "Dungeons & Dragons: Honor Among Thieves",
+      "year": "2023",
+      "img": "DungeonsDragonsHonorAmongThieves2023.jpg",
+      "theme": [
+        "Adventure",
+        "Fantasy",
+        "Comedy"
+      ],
+      "author": [
+        "John Francis Daley",
+        "Jonathan Goldstein"
+      ],
+      "cast": [
+        "Chris Pine",
+        "Michelle Rodriguez",
+        "Justice Smith",
+        "Sophia Lillis",
+        "Hugh Grant",
+        "Regé-Jean Page",
+        "Chloe Coleman",
+        "Daisy Head",
+        "Kyle Hixon"
+      ],
+      "length": "2h 14m",
+      "score": "73%",
+      "overview": "A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
+      "tagline": "No experience necessary.",
+      "url": "https://www.themoviedb.org/movie/493529-dungeons-dragons-honor-among-thieves?language=en-US"
     },
     "EasyVirtue2008": {
       "media": "movie",
@@ -682,6 +808,36 @@
       "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer, and his mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
       "tagline": "He’s having the worst day of his life… Over and over again.",
       "url": "https://www.themoviedb.org/movie/137-groundhog-day?language=en-US"
+    },
+    "Immortal2004": {
+      "media": "movie",
+      "name": "Immortal",
+      "year": "2004",
+      "img": "Immortal2004.jpg",
+      "theme": [
+        "Drama",
+        "Action",
+        "Science Fiction"
+      ],
+      "author": [
+        "Enki Bilal"
+      ],
+      "cast": [
+        "Linda Hardy",
+        "Thomas Kretschmann",
+        "Charlotte Rampling",
+        "Yann Collette",
+        "Frédéric Pierrot",
+        "Thomas M. Pollard",
+        "Joe Sheridan",
+        "Corinne Jaber",
+        "Olivier Achard"
+      ],
+      "length": "1h 43m",
+      "score": "57%",
+      "overview": "In the distant future, Earth is occupied by ancient gods and genetically altered humans. When a god is sentenced to death he seeks a new human host and a woman to bear his child.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/5552-immortel-ad-vitam?language=en-US"
     },
     "Inkheart2008": {
       "media": "movie",
@@ -951,6 +1107,64 @@
       "tagline": "Reality is only the beginning.",
       "url": "https://www.themoviedb.org/movie/37178-virtuality?language=en-US"
     },
+    "NA2010": {
+      "media": "movie",
+      "name": "N/A",
+      "year": "2010",
+      "img": "NA2010.jpg",
+      "theme": [
+        "Horror",
+        "Thriller"
+      ],
+      "author": [
+        "Guillem Morales"
+      ],
+      "cast": [
+        "Belén Rueda",
+        "Lluís Homar",
+        "Pablo Derqui",
+        "Francesc Orella",
+        "Joan Dalmau",
+        "Julia Gutiérrez Caba",
+        "Boris Ruiz",
+        "Dani Codina",
+        "Andrea Hermosa"
+      ],
+      "length": "1h 58m",
+      "score": "67%",
+      "overview": "Julia, a woman suffering from a degenerative sight disease, finds her blind sister Sara hung in a basement. Despite all signs pointing to suicide, Julia decides to investigate what she intuitively feels is a murder case.",
+      "tagline": "You can't hide in the dark.",
+      "url": "https://www.themoviedb.org/movie/52274-los-ojos-de-julia?language=en-US"
+    },
+    "NA2013": {
+      "media": "movie",
+      "name": "N/A",
+      "year": "2013",
+      "img": "NA2013.jpg",
+      "theme": [
+        "Animation",
+        "Science Fiction"
+      ],
+      "author": [
+        "Shinji Aramaki"
+      ],
+      "cast": [
+        "Shun Oguri",
+        "Haruma Miura",
+        "Yu Aoi",
+        "Arata Furuta",
+        "Ayano Fukuda",
+        "Toshiyuki Morikawa",
+        "Maaya Sakamoto",
+        "Kiyoshi Kobayashi",
+        "Chikao Ohtsuka"
+      ],
+      "length": "1h 55m",
+      "score": "66%",
+      "overview": "Space Pirate Captain Harlock and his fearless crew face off against the space invaders who seek to conquer the planet Earth.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/192577?language=en-US"
+    },
     "Oblivion2013": {
       "media": "movie",
       "name": "Oblivion",
@@ -981,6 +1195,35 @@
       "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft. Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.",
       "tagline": "Earth is a memory worth fighting for.",
       "url": "https://www.themoviedb.org/movie/75612-oblivion?language=en-US"
+    },
+    "Oppenheimer2023": {
+      "media": "movie",
+      "name": "Oppenheimer",
+      "year": "2023",
+      "img": "Oppenheimer2023.jpg",
+      "theme": [
+        "Drama",
+        "History"
+      ],
+      "author": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr.",
+        "Florence Pugh",
+        "Josh Hartnett",
+        "Casey Affleck",
+        "Rami Malek",
+        "Kenneth Branagh"
+      ],
+      "length": "3h 1m",
+      "score": "81%",
+      "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "tagline": "The world forever changes.",
+      "url": "https://www.themoviedb.org/movie/872585-oppenheimer?language=en-US"
     },
     "PacificRim2013": {
       "media": "movie",
@@ -1102,6 +1345,67 @@
       "tagline": "Courage is stronger than steel.",
       "url": "https://www.themoviedb.org/movie/39254-real-steel?language=en-US"
     },
+    "RedSonja1985": {
+      "media": "movie",
+      "name": "Red Sonja",
+      "year": "1985",
+      "img": "RedSonja1985.jpg",
+      "theme": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "author": [
+        "Richard Fleischer"
+      ],
+      "cast": [
+        "Arnold Schwarzenegger",
+        "Brigitte Nielsen",
+        "Sandahl Bergman",
+        "Paul L. Smith",
+        "Ernie Reyes Jr.",
+        "Ronald Lacey",
+        "Pat Roach",
+        "Terry Richards",
+        "Janet Ågren"
+      ],
+      "length": "1h 29m",
+      "score": "54%",
+      "overview": "The tyrant Gedren seeks the total power in a world of barbarism. She raids the city Hablac and kills the keeper of a talisman that gives her great power. Red Sonja, sister of the keeper, sets out with her magic sword to overthrow Gedren.",
+      "tagline": "A woman and a warrior that became a legend.",
+      "url": "https://www.themoviedb.org/movie/9626-red-sonja?language=en-US"
+    },
+    "RepoMen2010": {
+      "media": "movie",
+      "name": "Repo Men",
+      "year": "2010",
+      "img": "RepoMen2010.jpg",
+      "theme": [
+        "Action",
+        "Science Fiction",
+        "Thriller",
+        "Crime"
+      ],
+      "author": [
+        "Miguel Sapochnik"
+      ],
+      "cast": [
+        "Jude Law",
+        "Forest Whitaker",
+        "Alice Braga",
+        "Liev Schreiber",
+        "Carice van Houten",
+        "Chandler Canterbury",
+        "RZA",
+        "Joe Pingue",
+        "Liza Lapira"
+      ],
+      "length": "1h 51m",
+      "score": "63%",
+      "overview": "In the future, medical technology has advanced to the point where people can buy artificial organs to extend their lives. But if they default on payments, an organization known as the Union sends agents to repossess the organs. Remy is one of the best agents in the business, but when he becomes the recipient of an artificial heart, he finds himself in the same dire straits as his many victims.",
+      "tagline": "For a price, any organ in your body can be replaced. But it can also be repossessed.",
+      "url": "https://www.themoviedb.org/movie/31867-repo-men?language=en-US"
+    },
     "ReturnoftheJedi1983": {
       "media": "movie",
       "name": "Return of the Jedi",
@@ -1132,6 +1436,36 @@
       "tagline": "Return to a galaxy far far away.",
       "url": "https://www.themoviedb.org/movie/1892-return-of-the-jedi?language=en-US"
     },
+    "Ring21999": {
+      "media": "movie",
+      "name": "Ring 2",
+      "year": "1999",
+      "img": "Ring21999.jpg",
+      "theme": [
+        "Horror",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "author": [
+        "Hideo Nakata"
+      ],
+      "cast": [
+        "Miki Nakatani",
+        "Hitomi Sato",
+        "Kyoko Fukada",
+        "Fumiyo Kohinata",
+        "Kenjirou Ishimaru",
+        "Yûrei Yanagi",
+        "Rikiya Ôtaka",
+        "Yōichi Numata",
+        "Masako"
+      ],
+      "length": "1h 35m",
+      "score": "57%",
+      "overview": "While investigating the horrifying death of her boyfriend, Mai Takano learns about a videotape haunted by the spirit of a disturbing girl named Sadako, which kills anyone who watches it exactly one week later. When her boyfriend’s son, Yoichi, starts to develop the same psychic abilities as Sadako, Takano must find a way to keep the boy and herself from becoming the next victims.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/9669-2?language=en-US"
+    },
     "RoboCop1987": {
       "media": "movie",
       "name": "RoboCop",
@@ -1160,6 +1494,36 @@
       "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
       "tagline": "Part man, part machine, all cop.",
       "url": "https://www.themoviedb.org/movie/5548-robocop?language=en-US"
+    },
+    "RoboCop2014": {
+      "media": "movie",
+      "name": "RoboCop",
+      "year": "2014",
+      "img": "RoboCop2014.jpg",
+      "theme": [
+        "Science Fiction",
+        "Action",
+        "Crime"
+      ],
+      "author": [
+        "José Padilha"
+      ],
+      "cast": [
+        "Joel Kinnaman",
+        "Gary Oldman",
+        "Michael Keaton",
+        "Abbie Cornish",
+        "Jackie Earle Haley",
+        "Michael Kenneth Williams",
+        "Jennifer Ehle",
+        "Jay Baruchel",
+        "Marianne Jean-Baptiste"
+      ],
+      "length": "1h 58m",
+      "score": "59%",
+      "overview": "In RoboCop, the year is 2028 and multinational conglomerate OmniCorp is at the center of robot technology.  Overseas, their drones have been used by the military for years, but have been forbidden for law enforcement in America.  Now OmniCorp wants to bring their controversial technology to the home front, and they see a golden opportunity to do it.  When Alex Murphy – a loving husband, father and good cop doing his best to stem the tide of crime and corruption in Detroit – is critically injured, OmniCorp sees their chance to build a part-man, part-robot police officer.  OmniCorp envisions a RoboCop in every city and even more billions for their shareholders, but they never counted on one thing: there is still a man inside the machine.",
+      "tagline": "Crime has a new enemy.",
+      "url": "https://www.themoviedb.org/movie/97020-robocop?language=en-US"
     },
     "RoboCop21990": {
       "media": "movie",
@@ -1342,6 +1706,35 @@
       "tagline": "A long time ago in a galaxy far, far away...",
       "url": "https://www.themoviedb.org/movie/11-star-wars?language=en-US"
     },
+    "Subway1985": {
+      "media": "movie",
+      "name": "Subway",
+      "year": "1985",
+      "img": "Subway1985.jpg",
+      "theme": [
+        "Action",
+        "Thriller"
+      ],
+      "author": [
+        "Luc Besson"
+      ],
+      "cast": [
+        "Isabelle Adjani",
+        "Christopher Lambert",
+        "Richard Bohringer",
+        "Michel Galabru",
+        "Jean-Hugues Anglade",
+        "Jean-Pierre Bacri",
+        "Jean Bouise",
+        "Jean Reno",
+        "Jean-Claude Lecas"
+      ],
+      "length": "1h 42m",
+      "score": "65%",
+      "overview": "Fred, a raffish safe blower, takes refuge in the Paris Metro after being chased by the henchmen of a shady businessman from whom he has just stolen some documents. While hiding out in the back rooms and conduits of the Metro, Fred encounters a subterranean society of eccentric characters and petty criminals.",
+      "tagline": "A seductive fable",
+      "url": "https://www.themoviedb.org/movie/10656-subway?language=en-US"
+    },
     "TerminatorSalvation2009": {
       "media": "movie",
       "name": "Terminator Salvation",
@@ -1400,6 +1793,36 @@
       "overview": "A man glimpses the future Fate has planned for him – and chooses to fight for his own destiny. Battling the powerful Adjustment Bureau across, under and through the streets of New York, he risks his destined greatness to be with the only woman he's ever loved.",
       "tagline": "They stole his future. Now he's taking it back.",
       "url": "https://www.themoviedb.org/movie/38050-the-adjustment-bureau?language=en-US"
+    },
+    "TheAdventuresofTintin2011": {
+      "media": "movie",
+      "name": "The Adventures of Tintin",
+      "year": "2011",
+      "img": "TheAdventuresofTintin2011.jpg",
+      "theme": [
+        "Adventure",
+        "Animation",
+        "Mystery"
+      ],
+      "author": [
+        "Steven Spielberg"
+      ],
+      "cast": [
+        "Jamie Bell",
+        "Andy Serkis",
+        "Daniel Craig",
+        "Nick Frost",
+        "Simon Pegg",
+        "Daniel Mays",
+        "Gad Elmaleh",
+        "Toby Jones",
+        "Enn Reitel"
+      ],
+      "length": "1h 47m",
+      "score": "69%",
+      "overview": "Intrepid young reporter, Tintin, and his loyal dog, Snowy, are thrust into a world of high adventure when they discover a ship carrying an explosive secret. As Tintin is drawn into a centuries-old mystery, Ivan Ivanovitch Sakharine suspects him of stealing a priceless treasure. Tintin and Snowy, with the help of salty, cantankerous Captain Haddock and bumbling detectives, Thompson and Thomson, travel half the world, one step ahead of their enemies, as Tintin endeavors to find the Unicorn, a sunken ship that may hold a vast fortune, but also an ancient curse.",
+      "tagline": "Discover how far adventure will take you.",
+      "url": "https://www.themoviedb.org/movie/17578-the-adventures-of-tintin?language=en-US"
     },
     "TheBatman2022": {
       "media": "movie",
@@ -1634,6 +2057,35 @@
       "tagline": "Meet the original force of nature.",
       "url": "https://www.themoviedb.org/movie/73723-the-lorax?language=en-US"
     },
+    "TheOmen1976": {
+      "media": "movie",
+      "name": "The Omen",
+      "year": "1976",
+      "img": "TheOmen1976.jpg",
+      "theme": [
+        "Horror",
+        "Thriller"
+      ],
+      "author": [
+        "Richard Donner"
+      ],
+      "cast": [
+        "Gregory Peck",
+        "Lee Remick",
+        "David Warner",
+        "Billie Whitelaw",
+        "Harvey Stephens",
+        "Patrick Troughton",
+        "Martin Benson",
+        "Robert Rietti",
+        "Tommy Duggan"
+      ],
+      "length": "1h 51m",
+      "score": "74%",
+      "overview": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil.",
+      "tagline": "You Have Been Warned",
+      "url": "https://www.themoviedb.org/movie/794-the-omen?language=en-US"
+    },
     "TheRemainsoftheDay1993": {
       "media": "movie",
       "name": "The Remains of the Day",
@@ -1749,6 +2201,36 @@
       "tagline": "Evil takes many forms.",
       "url": "https://www.themoviedb.org/movie/310131-the-witch?language=en-US"
     },
+    "ThinIce2012": {
+      "media": "movie",
+      "name": "Thin Ice",
+      "year": "2012",
+      "img": "ThinIce2012.jpg",
+      "theme": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "author": [
+        "Jill Sprecher"
+      ],
+      "cast": [
+        "Greg Kinnear",
+        "Alan Arkin",
+        "Billy Crudup",
+        "David Harbour",
+        "Michelle Arthur",
+        "Peter Thoemke",
+        "James Michael Detmar",
+        "Lea Thompson",
+        "Bob Balaban"
+      ],
+      "length": "1h 33m",
+      "score": "65%",
+      "overview": "A dishonest insurance salesman's life quickly disintegrates during a Wisconsin winter when he teams up with a psychopath to steal a rare violin at the home of a reclusive farmer.",
+      "tagline": "Greetings from Kenosha, WI! Where Ordinary Folks Can Make a Killing",
+      "url": "https://www.themoviedb.org/movie/51996-thin-ice?language=en-US"
+    },
     "U5712000": {
       "media": "movie",
       "name": "U-571",
@@ -1809,6 +2291,36 @@
       "tagline": "First it controls your mind. Then it destroys your body.",
       "url": "https://www.themoviedb.org/movie/837-videodrome?language=en-US"
     },
+    "WALLE2008": {
+      "media": "movie",
+      "name": "WALL·E",
+      "year": "2008",
+      "img": "WALLE2008.jpg",
+      "theme": [
+        "Animation",
+        "Family",
+        "Science Fiction"
+      ],
+      "author": [
+        "Andrew Stanton"
+      ],
+      "cast": [
+        "Ben Burtt",
+        "Elissa Knight",
+        "Jeff Garlin",
+        "Fred Willard",
+        "John Ratzenberger",
+        "Kathy Najimy",
+        "Sigourney Weaver",
+        "Lori Alan",
+        "Bob Bergen"
+      ],
+      "length": "1h 38m",
+      "score": "81%",
+      "overview": "What if mankind had to leave Earth and somebody forgot to turn the last robot off? After hundreds of years doing what he was built for, WALL•E discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
+      "tagline": "After 700 years of doing what he was built for, he'll discover what he was meant for.",
+      "url": "https://www.themoviedb.org/movie/10681-wall-e?language=en-US"
+    },
     "Watchmen2009": {
       "media": "movie",
       "name": "Watchmen",
@@ -1838,6 +2350,35 @@
       "overview": "In a gritty and alternate 1985, the glory days of costumed vigilantes have been brought to a close by a government crackdown. But after one of the masked veterans is brutally murdered, an investigation into the killer is initiated. The reunited heroes set out to prevent their own destruction, but in doing so they uncover a sinister plot that puts all of humanity in grave danger.",
       "tagline": "Justice is coming to all of us. No matter what we do.",
       "url": "https://www.themoviedb.org/movie/13183-watchmen?language=en-US"
+    },
+    "Willow1988": {
+      "media": "movie",
+      "name": "Willow",
+      "year": "1988",
+      "img": "Willow1988.jpg",
+      "theme": [
+        "Fantasy",
+        "Adventure",
+        "Action"
+      ],
+      "author": [
+        "Ron Howard"
+      ],
+      "cast": [
+        "Val Kilmer",
+        "Warwick Davis",
+        "Patricia Hayes",
+        "Gavan O'Herlihy",
+        "Phil Fondacaro",
+        "Pat Roach",
+        "Rick Overton",
+        "Kevin Pollak"
+      ],
+      "length": "2h 6m",
+      "score": "70%",
+      "overview": "The evil Queen Bavmorda hunts the newborn princess Elora Danan, a child prophesied to bring about her downfall. When the royal infant is found by Willow, a timid farmer and aspiring sorcerer, he's entrusted with delivering her from evil.",
+      "tagline": "A world where heroes come in all sizes and adventure is the greatest magic of all.",
+      "url": "https://www.themoviedb.org/movie/847-willow?language=en-US"
     },
     "XMenFirstClass2011": {
       "media": "movie",

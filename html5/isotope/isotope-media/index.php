@@ -37,6 +37,7 @@
   <button class="button" data-filter=".Adventure">Adventure</button>
   <button class="button" data-filter=".Comedy">Comedy</button>
   <button class="button" data-filter=".Drama">Drama</button>
+  <button class="button" data-filter=".Fantasy">Fantasy</button>
   <button class="button" data-filter=".Horror">Horror</button>
   <button class="button" data-filter=".Mystery">Mystery</button>
   <button class="button" data-filter=".Romance">Romance</button>
