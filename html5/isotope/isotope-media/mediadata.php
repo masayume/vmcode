@@ -21,17 +21,13 @@ function gamepage($jfile) {
       $class .= $cl . " ";
     }
 
-    $score = str_replace('%', '', $item['score']);
+    $score  = str_replace('%', '', $item['score']);
 
-    $author = "";
-    foreach($item['author'] as $aut) {
-      $author .= $aut . ", ";
-    }
+    $cast   = implode(', ', $item['cast']);
 
-    $genre = "";
-    foreach($item['theme'] as $gen) {
-      $genre .= $gen . " ";
-    }
+    $author = implode(', ', $item['author']);
+
+    $genre  = implode(' ', $item['theme']);
 
     $urlWF = "";
     if ( isset($item['url_WF']) ) {
@@ -41,13 +37,13 @@ function gamepage($jfile) {
 
     $template =<<<TEM
       <div class="element-item $class $genre overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
-        <p class="name"><a href='{$item['url']}'>{$item['name']}</a></p>
+        <p class="name" title="{$item['tagline']}"><a href='{$item['url']}'>{$item['name']}</a></p>
         <p class="year">{$item['year']}</p>
-        <p class="author">{$author}</p>
+        <p class="author" title="cast: $cast">{$author}</p>
         <p class="length">{$item['length']}</p>
         <p class="perc">{$item['score']}</p>
         <p class="score">{$score}</p>
-        <p class="genre">{$genre}</p>
+        <p class="genre" title="{$item['overview']}">{$genre}</p>
       </div>
 
 TEM;
