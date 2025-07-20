@@ -34,13 +34,13 @@ function gamepage($jfile) {
       $urlWF = "<a href=" . $item['url_WF'] . " target='_blank'>WF Page</a>";
     } 
 
-
     $template =<<<TEM
       <div class="element-item $class $genre overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
         <p class="name" title="{$item['tagline']}"><a href='{$item['url']}'>{$item['name']}</a></p>
         <p class="year">{$item['year']}</p>
         <p class="author" title="cast: $cast">{$author}</p>
         <p class="length">{$item['length']}</p>
+        <p class="minutes">{$item['minutes']}</p>
         <p class="perc">{$item['score']}</p>
         <p class="score">{$score}</p>
         <p class="genre" title="{$item['overview']}">{$genre}</p>

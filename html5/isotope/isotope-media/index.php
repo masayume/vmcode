@@ -17,10 +17,9 @@
 </div>
 
 <div id="sorts" class="button-group" style="float: right;">  <button class="button is-checked" data-sort-by="original-order">original order</button>
-  <button class="button" data-sort-by="name">name</button>
   <button class="button" data-sort-by="year">year</button>
   <button class="button" data-sort-by="score">score</button>
-  <button class="button" data-sort-by="length">duration</button>
+  <button class="button" data-sort-by="minutes">duration</button>
   <button class="button" data-sort-by="weight">complexity</button>
 <!--
   <button class="button" data-sort-by="category">category</button>
@@ -35,6 +34,7 @@
   <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".Action">Action</button>
   <button class="button" data-filter=".Adventure">Adventure</button>
+  <button class="button" data-filter=".Animation">Animation</button>
   <button class="button" data-filter=".Comedy">Comedy</button>
   <button class="button" data-filter=".Drama">Drama</button>
   <button class="button" data-filter=".Fantasy">Fantasy</button>

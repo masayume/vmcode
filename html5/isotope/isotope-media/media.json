@@ -25,6 +25,7 @@
         "Sean Sullivan"
       ],
       "length": "2h 29m",
+      "minutes": 149,
       "score": "81%",
       "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
       "tagline": "An epic drama of adventure and exploration.",
@@ -55,6 +56,7 @@
         "Andrew Tiernan"
       ],
       "length": "1h 56m",
+      "minutes": 116,
       "score": "72%",
       "overview": "Based on Frank Miller's graphic novel, \"300\" is very loosely based the 480 B.C. Battle of Thermopylae, where the King of Sparta led his army against the advancing Persians; the battle is said to have inspired all of Greece to band together against the Persians, and helped usher in the world's first democracy.",
       "tagline": "Prepare for glory!",
@@ -86,6 +88,7 @@
         "Scott Handy"
       ],
       "length": "2h 13m",
+      "minutes": 133,
       "score": "69%",
       "overview": "William Thatcher, a knight's peasant apprentice, gets a chance at glory when the knight dies suddenly mid-tournament. Posing as a knight himself, William won't stop until he's crowned tournament champion—assuming matters of the heart don't get in the way.",
       "tagline": "He Will Rock You",
@@ -115,10 +118,41 @@
         "Helen Horton"
       ],
       "length": "1h 57m",
+      "minutes": 117,
       "score": "82%",
       "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
       "tagline": "In space, no one can hear you scream.",
       "url": "https://www.themoviedb.org/movie/348-alien?language=en-US"
+    },
+    "AlienCovenant2017": {
+      "media": "movie",
+      "name": "Alien: Covenant",
+      "year": "2017",
+      "img": "AlienCovenant2017.jpg",
+      "theme": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "author": [
+        "Ridley Scott"
+      ],
+      "cast": [
+        "Michael Fassbender",
+        "Katherine Waterston",
+        "Billy Crudup",
+        "Danny McBride",
+        "Demián Bichir",
+        "Carmen Ejogo",
+        "Jussie Smollett",
+        "Amy Seimetz"
+      ],
+      "length": "2h 2m",
+      "minutes": 122,
+      "score": "62%",
+      "overview": "The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise but is actually a dark, dangerous world.",
+      "tagline": "The path to paradise begins in hell.",
+      "url": "https://www.themoviedb.org/movie/126889-alien-covenant?language=en-US"
     },
     "Aliens1986": {
       "media": "movie",
@@ -145,10 +179,102 @@
         "Al Matthews"
       ],
       "length": "2h 17m",
+      "minutes": 137,
       "score": "80%",
       "overview": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
       "tagline": "This time it's war.",
       "url": "https://www.themoviedb.org/movie/679-aliens?language=en-US"
+    },
+    "ANightmareonElmStreet3DreamWarriors1987": {
+      "media": "movie",
+      "name": "A Nightmare on Elm Street 3: Dream Warriors",
+      "year": "1987",
+      "img": "ANightmareonElmStreet3DreamWarriors1987.jpg",
+      "theme": [
+        "Horror",
+        "Thriller",
+        "Fantasy"
+      ],
+      "author": [
+        "Chuck Russell"
+      ],
+      "cast": [
+        "Patricia Arquette",
+        "Heather Langenkamp",
+        "Craig Wasson",
+        "Robert Englund",
+        "Ken Sagoes",
+        "Rodney Eastman",
+        "Jennifer Rubin",
+        "Bradley Gregg",
+        "Ira Heiden"
+      ],
+      "length": "1h 36m",
+      "minutes": 96,
+      "score": "67%",
+      "overview": "During a hallucinatory incident, Kristen Parker has her wrists slashed by dream-stalking monster, Freddy Krueger. Her mother, mistaking the wounds for a suicide attempt, sends her to a psychiatric ward, where she joins a group of similarly troubled teens.",
+      "tagline": "If you think you'll get out alive, you must be dreaming.",
+      "url": "https://www.themoviedb.org/movie/10072-a-nightmare-on-elm-street-3-dream-warriors?language=en-US"
+    },
+    "ANightmareonElmStreetPart2FreddysRevenge1985": {
+      "media": "movie",
+      "name": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
+      "year": "1985",
+      "img": "ANightmareonElmStreetPart2FreddysRevenge1985.jpg",
+      "theme": [
+        "Horror"
+      ],
+      "author": [
+        "Jack Sholder"
+      ],
+      "cast": [
+        "Robert Englund",
+        "Mark Patton",
+        "Kim Myers",
+        "Robert Rusler",
+        "Clu Gulager",
+        "Hope Lange",
+        "Melinda O. Fee",
+        "Tom McFadden"
+      ],
+      "length": "1h 27m",
+      "minutes": 87,
+      "score": "58%",
+      "overview": "Jesse Walsh moves with his family into the home of the lone survivor from a series of attacks by dream-stalking monster, Freddy Krueger. There, he is bedeviled by nightmares and inexplicably violent impulses.",
+      "tagline": "The man of your dreams is back!",
+      "url": "https://www.themoviedb.org/movie/10014-a-nightmare-on-elm-street-part-2-freddy-s-revenge?language=en-US"
+    },
+    "Avatar2009": {
+      "media": "movie",
+      "name": "Avatar",
+      "year": "2009",
+      "img": "Avatar2009.jpg",
+      "theme": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "author": [
+        "James Cameron"
+      ],
+      "cast": [
+        "Sam Worthington",
+        "Zoe Saldaña",
+        "Sigourney Weaver",
+        "Stephen Lang",
+        "Michelle Rodriguez",
+        "Giovanni Ribisi",
+        "Joel David Moore",
+        "CCH Pounder",
+        "Wes Studi"
+      ],
+      "length": "2h 42m",
+      "minutes": 162,
+      "score": "76%",
+      "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+      "tagline": "Enter the world of Pandora.",
+      "url": "https://www.themoviedb.org/movie/19995-avatar?language=en-US"
     },
     "BacktotheFuture1985": {
       "media": "movie",
@@ -175,6 +301,7 @@
         "George DiCenzo"
       ],
       "length": "1h 56m",
+      "minutes": 116,
       "score": "83%",
       "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
       "tagline": "He was never in time for his classes. He wasn't in time for his dinner. Then one day...he wasn't in his time at all.",
@@ -204,6 +331,7 @@
         "Jack Palance"
       ],
       "length": "2h 6m",
+      "minutes": 126,
       "score": "72%",
       "overview": "Batman must face his most ruthless nemesis when a deformed madman calling himself \"The Joker\" seizes control of Gotham's criminal underworld.",
       "tagline": "Justice is always darkest before the dawn.",
@@ -233,6 +361,7 @@
         "Andrew Bryniarski"
       ],
       "length": "2h 6m",
+      "minutes": 126,
       "score": "69%",
       "overview": "Batman must face The Penguin, a sewer-dwelling gangleader intent on being accepted into Gotham society.  Meanwhile, another Gotham resident finds herself transformed into Catwoman and is out for revenge...",
       "tagline": null,
@@ -264,6 +393,7 @@
         "Danny John-Jules"
       ],
       "length": "1h 57m",
+      "minutes": 117,
       "score": "66%",
       "overview": "Blade forms an uneasy alliance with the vampire council in order to combat the Reapers, who are feeding on vampires.",
       "tagline": "Faster. Sharper. Deadlier.",
@@ -294,6 +424,7 @@
         "Joe Turkel"
       ],
       "length": "1h 58m",
+      "minutes": 118,
       "score": "79%",
       "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
       "tagline": "Man has made his match... now it's his problem.",
@@ -323,10 +454,40 @@
         "Carla Juri"
       ],
       "length": "2h 44m",
+      "minutes": 164,
       "score": "76%",
       "overview": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
       "tagline": "The key to the future is finally unearthed.",
       "url": "https://www.themoviedb.org/movie/335984-blade-runner-2049?language=en-US"
+    },
+    "Brainstorm1983": {
+      "media": "movie",
+      "name": "Brainstorm",
+      "year": "1983",
+      "img": "Brainstorm1983.jpg",
+      "theme": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "author": [
+        "Douglas Trumbull"
+      ],
+      "cast": [
+        "Christopher Walken",
+        "Natalie Wood",
+        "Louise Fletcher",
+        "Cliff Robertson",
+        "Jordan Christopher",
+        "Donald Hotton",
+        "Alan Fudge",
+        "Joe Dorsey"
+      ],
+      "length": "1h 46m",
+      "minutes": 106,
+      "score": "63%",
+      "overview": "Two brilliant research scientists have invented a device capable of recording and playing back sensory experiences only to have devastating results when one of them records their own death.",
+      "tagline": "The door to the mind is open.",
+      "url": "https://www.themoviedb.org/movie/15050-brainstorm?language=en-US"
     },
     "Brave2012": {
       "media": "movie",
@@ -357,6 +518,7 @@
         "Steve Purcell"
       ],
       "length": "1h 33m",
+      "minutes": 93,
       "score": "70%",
       "overview": "Brave is set in the mystical Scottish Highlands, where Mérida is the princess of a kingdom ruled by King Fergus and Queen Elinor. An unruly daughter and an accomplished archer, Mérida one day defies a sacred custom of the land and inadvertently brings turmoil to the kingdom. In an attempt to set things right, Mérida seeks out an eccentric old Wise Woman and is granted an ill-fated wish. Also figuring into Mérida’s quest — and serving as comic relief — are the kingdom’s three lords: the enormous Lord MacGuffin, the surly Lord Macintosh, and the disagreeable Lord Dingwall.",
       "tagline": "Change your fate.",
@@ -388,10 +550,74 @@
         "Bill Bailey"
       ],
       "length": "1h 31m",
+      "minutes": 91,
       "score": "61%",
       "overview": "Two 19th-century opportunists become serial killers so that they can maintain their profitable business supplying cadavers to an anatomist.",
       "tagline": "No Job Too Small. No Body Too Big. No Questions Asked.",
       "url": "https://www.themoviedb.org/movie/50204-burke-hare?language=en-US"
+    },
+    "Cars2006": {
+      "media": "movie",
+      "name": "Cars",
+      "year": "2006",
+      "img": "Cars2006.jpg",
+      "theme": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "author": [
+        "John Lasseter"
+      ],
+      "cast": [
+        "Owen Wilson",
+        "Paul Newman",
+        "Bonnie Hunt",
+        "Larry the Cable Guy",
+        "Cheech Marin",
+        "Tony Shalhoub",
+        "Guido Quaroni",
+        "Jenifer Lewis",
+        "Paul Dooley"
+      ],
+      "length": "1h 57m",
+      "minutes": 117,
+      "score": "70%",
+      "overview": "Lightning McQueen, a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. On route across the country to the big Piston Cup Championship in California to compete against two seasoned pros, McQueen gets to know the town's offbeat characters.",
+      "tagline": "Ahhh... it's got that new movie smell.",
+      "url": "https://www.themoviedb.org/movie/920-cars?language=en-US"
+    },
+    "CasinoRoyale2006": {
+      "media": "movie",
+      "name": "Casino Royale",
+      "year": "2006",
+      "img": "CasinoRoyale2006.jpg",
+      "theme": [
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "author": [
+        "Martin Campbell"
+      ],
+      "cast": [
+        "Daniel Craig",
+        "Eva Green",
+        "Mads Mikkelsen",
+        "Judi Dench",
+        "Jeffrey Wright",
+        "Giancarlo Giannini",
+        "Caterina Murino",
+        "Simon Abkarian",
+        "Isaach de Bankolé"
+      ],
+      "length": "2h 24m",
+      "minutes": 144,
+      "score": "76%",
+      "overview": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
+      "tagline": "Everyone has a past. Every legend has a beginning.",
+      "url": "https://www.themoviedb.org/movie/36557-casino-royale?language=en-US"
     },
     "Charade1963": {
       "media": "movie",
@@ -418,6 +644,7 @@
         "Paul Bonifas"
       ],
       "length": "1h 53m",
+      "minutes": 113,
       "score": "77%",
       "overview": "After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband's World War II cronies, Tex, Scobie and Gideon, who are after a quarter of a million dollars the quartet stole while behind enemy lines.",
       "tagline": "Is anyone really who they seem to be?",
@@ -448,6 +675,7 @@
         "Christopher Lee"
       ],
       "length": "1h 55m",
+      "minutes": 115,
       "score": "70%",
       "overview": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
       "tagline": "Prepare for a taste of adventure.",
@@ -476,6 +704,7 @@
         "David Spielberg"
       ],
       "length": "1h 50m",
+      "minutes": 110,
       "score": "69%",
       "overview": "Nerdy high schooler Arnie Cunningham falls for Christine, a rusty 1958 Plymouth Fury, and becomes obsessed with restoring the classic automobile to her former glory. As the car changes, so does Arnie, whose newfound confidence turns to arrogance behind the wheel of his exotic beauty. Arnie's girlfriend Leigh and best friend Dennis reach out to him, only to be met by a Fury like no other.",
       "tagline": "How do you kill something that can't possibly be alive?",
@@ -506,10 +735,41 @@
         "Zhiming Huang"
       ],
       "length": "1h 43m",
+      "minutes": 103,
       "score": "80%",
       "overview": "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
       "tagline": "What a difference a day makes.",
       "url": "https://www.themoviedb.org/movie/11104?language=en-US"
+    },
+    "CloseEncountersoftheThirdKind1977": {
+      "media": "movie",
+      "name": "Close Encounters of the Third Kind",
+      "year": "1977",
+      "img": "CloseEncountersoftheThirdKind1977.jpg",
+      "theme": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "author": [
+        "Steven Spielberg"
+      ],
+      "cast": [
+        "Richard Dreyfuss",
+        "François Truffaut",
+        "Teri Garr",
+        "Melinda Dillon",
+        "Bob Balaban",
+        "J. Patrick McNamara",
+        "Warren J. Kemmerling",
+        "Roberts Blossom",
+        "Phil Dodds"
+      ],
+      "length": "2h 17m",
+      "minutes": 137,
+      "score": "73%",
+      "overview": "After an encounter with UFOs, an electricity linesman feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+      "tagline": "We are not alone.",
+      "url": "https://www.themoviedb.org/movie/840-close-encounters-of-the-third-kind?language=en-US"
     },
     "ConantheBarbarian1982": {
       "media": "movie",
@@ -536,6 +796,7 @@
         "Valérie Quennessen"
       ],
       "length": "2h 9m",
+      "minutes": 129,
       "score": "68%",
       "overview": "A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.",
       "tagline": "Thief. Warrior. Gladiator. King.",
@@ -564,6 +825,7 @@
         "Tatsuo Yamada"
       ],
       "length": "2h 10m",
+      "minutes": 130,
       "score": "78%",
       "overview": "Daigo, a cellist, is laid off from his orchestra and moves with his wife back to his small hometown where the living is cheaper. Thinking he’s applying for a job at a travel agency he finds he’s being interviewed for work with departures of a more permanent nature – as an undertaker’s assistant.",
       "tagline": "The gift of last memories.",
@@ -595,10 +857,81 @@
         "Dana Gaier"
       ],
       "length": "1h 38m",
+      "minutes": 98,
       "score": "69%",
       "overview": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal.",
       "tagline": "When the world needed a hero, they called a villain.",
       "url": "https://www.themoviedb.org/movie/93456-despicable-me-2?language=en-US"
+    },
+    "DespicableMe32017": {
+      "media": "movie",
+      "name": "Despicable Me 3",
+      "year": "2017",
+      "img": "DespicableMe32017.jpg",
+      "theme": [
+        "Action",
+        "Animation",
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "author": [
+        "Pierre Coffin",
+        "Kyle Balda",
+        ""
+      ],
+      "cast": [
+        "Steve Carell",
+        "Kristen Wiig",
+        "Trey Parker",
+        "Miranda Cosgrove",
+        "Dana Gaier",
+        "Nhev Scharrel",
+        "Pierre Coffin",
+        "Steve Coogan",
+        "Julie Andrews"
+      ],
+      "length": "1h 30m",
+      "minutes": 90,
+      "score": "65%",
+      "overview": "Gru and his wife Lucy must stop former '80s child star Balthazar Bratt from achieving world domination.",
+      "tagline": "Oh brother.",
+      "url": "https://www.themoviedb.org/movie/324852-despicable-me-3?language=en-US"
+    },
+    "Dumbo1941": {
+      "media": "movie",
+      "name": "Dumbo",
+      "year": "1941",
+      "img": "Dumbo1941.jpg",
+      "theme": [
+        "Animation",
+        "Family"
+      ],
+      "author": [
+        "Samuel Armstrong",
+        "Wilfred Jackson",
+        "Norman Ferguson",
+        "Bill Roberts",
+        "Jack Kinney",
+        "Ben Sharpsteen"
+      ],
+      "cast": [
+        "Edward Brophy",
+        "Margaret Wright",
+        "Verna Felton",
+        "Sarah Selby",
+        "Noreen Gammill",
+        "Dorothy Scott",
+        "Herman Bing",
+        "Cliff Edwards",
+        "Jim Carmichael"
+      ],
+      "length": "1h 4m",
+      "minutes": 64,
+      "score": "70%",
+      "overview": "Dumbo is a baby elephant born with over-sized ears and a supreme lack of confidence. But thanks to his even more diminutive buddy Timothy the Mouse,  the pint-sized pachyderm learns to surmount all obstacles.",
+      "tagline": "The One...The Only...The FABULOUS...",
+      "url": "https://www.themoviedb.org/movie/11360-dumbo?language=en-US"
     },
     "DungeonsDragonsHonorAmongThieves2023": {
       "media": "movie",
@@ -626,6 +959,7 @@
         "Kyle Hixon"
       ],
       "length": "2h 14m",
+      "minutes": 134,
       "score": "73%",
       "overview": "A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
       "tagline": "No experience necessary.",
@@ -654,6 +988,7 @@
         "Michael Archer"
       ],
       "length": "1h 33m",
+      "minutes": 93,
       "score": "64%",
       "overview": "A young Englishman marries a glamorous American. When he brings her home to meet the parents, she arrives like a blast from the future - blowing their entrenched British stuffiness out the window.",
       "tagline": "Let's Misbehave!",
@@ -685,6 +1020,7 @@
         "Faran Tahir"
       ],
       "length": "1h 49m",
+      "minutes": 109,
       "score": "65%",
       "overview": "In the year 2159, two classes of people exist: the very wealthy who live on a pristine man-made space station called Elysium, and the rest, who live on an overpopulated, ruined Earth. Secretary Rhodes, a hard line government ofﬁcial, will stop at nothing to enforce anti-immigration laws and preserve the luxurious lifestyle of the citizens of Elysium. That doesn’t stop the people of Earth from trying to get in, by any means they can. When unlucky Max is backed into a corner, he agrees to take on a daunting mission that, if successful, will not only save his life, but could bring equality to these polarized worlds.",
       "tagline": "He can save us all.",
@@ -715,6 +1051,7 @@
         "John Billingsley"
       ],
       "length": "1h 37m",
+      "minutes": 97,
       "score": "67%",
       "overview": "Desperate for income, Emily takes a shady gig buying goods with stolen credit cards supplied by a charismatic middleman named Youcef. Seduced by the quick cash and illicit thrills, they hatch a plan to take their business to the next level.",
       "tagline": "High risks come with even higher rewards.",
@@ -744,6 +1081,7 @@
         "Slavitza Jovan"
       ],
       "length": "1h 47m",
+      "minutes": 107,
       "score": "75%",
       "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
       "tagline": "They're here to save the world.",
@@ -773,6 +1111,7 @@
         "Harris Yulin"
       ],
       "length": "1h 48m",
+      "minutes": 108,
       "score": "66%",
       "overview": "The discovery of a massive river of ectoplasm and a resurgence of spectral activity allows the staff of Ghostbusters to revive the business.",
       "tagline": "Guess who's coming to save the world again?",
@@ -804,6 +1143,7 @@
         "Rick Overton"
       ],
       "length": "1h 41m",
+      "minutes": 101,
       "score": "76%",
       "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer, and his mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
       "tagline": "He’s having the worst day of his life… Over and over again.",
@@ -834,6 +1174,7 @@
         "Olivier Achard"
       ],
       "length": "1h 43m",
+      "minutes": 103,
       "score": "57%",
       "overview": "In the distant future, Earth is occupied by ancient gods and genetically altered humans. When a god is sentenced to death he seeks a new human host and a woman to bear his child.",
       "tagline": null,
@@ -864,10 +1205,42 @@
         "Rafi Gavron"
       ],
       "length": "1h 46m",
+      "minutes": 106,
       "score": "63%",
       "overview": "The adventures of a father and his young daughter, in their search for a long lost book that will help reunite a missing, close relative.",
       "tagline": "Every story ever written is just waiting to become real.",
       "url": "https://www.themoviedb.org/movie/2309-inkheart?language=en-US"
+    },
+    "Interstellar2014": {
+      "media": "movie",
+      "name": "Interstellar",
+      "year": "2014",
+      "img": "Interstellar2014.jpg",
+      "theme": [
+        "Adventure",
+        "Drama",
+        "Science Fiction"
+      ],
+      "author": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Michael Caine",
+        "Jessica Chastain",
+        "Casey Affleck",
+        "Wes Bentley",
+        "Topher Grace",
+        "Mackenzie Foy",
+        "Ellen Burstyn"
+      ],
+      "length": "2h 49m",
+      "minutes": 169,
+      "score": "85%",
+      "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+      "tagline": "Mankind was born on Earth. It was never meant to die here.",
+      "url": "https://www.themoviedb.org/movie/157336-interstellar?language=en-US"
     },
     "IpMan22010": {
       "media": "movie",
@@ -894,6 +1267,7 @@
         "Louis Fan Siu-Wong"
       ],
       "length": "1h 48m",
+      "minutes": 108,
       "score": "75%",
       "overview": "Having defeated the best fighters of the Imperial Japanese army in occupied Shanghai, Ip Man and his family settle in post-war Hong Kong. Struggling to make a living, Master Ip opens a kung fu school to bring his celebrated art of Wing Chun to the troubled youth of Hong Kong. His growing reputation soon brings challenges from powerful enemies, including pre-eminent Hung Gar master, Hung Quan.",
       "tagline": "Behind every great martial artist lies a teacher.",
@@ -926,6 +1300,7 @@
         "Bill Camp"
       ],
       "length": "2h 3m",
+      "minutes": 123,
       "score": "64%",
       "overview": "The most dangerous former operative of the CIA is drawn out of hiding to uncover hidden truths about his past.",
       "tagline": "You know his name",
@@ -956,10 +1331,75 @@
         "Thomas Haden Church"
       ],
       "length": "2h 12m",
+      "minutes": 132,
       "score": "63%",
       "overview": "John Carter is a war-weary, former military captain who's inexplicably transported to the mysterious and exotic planet of Barsoom (Mars) and reluctantly becomes embroiled in an epic conflict. It's a world on the brink of collapse, and Carter rediscovers his humanity when he realizes the survival of Barsoom and its people rests in his hands.",
       "tagline": "Lost in our world, found in another.",
       "url": "https://www.themoviedb.org/movie/49529-john-carter?language=en-US"
+    },
+    "KuboandtheTwoStrings2016": {
+      "media": "movie",
+      "name": "Kubo and the Two Strings",
+      "year": "2016",
+      "img": "KuboandtheTwoStrings2016.jpg",
+      "theme": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "author": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Art Parkinson",
+        "Charlize Theron",
+        "Brenda Vaccaro",
+        "Cary-Hiroyuki Tagawa",
+        "Meyrick Murphy",
+        "George Takei",
+        "Rooney Mara",
+        "Ralph Fiennes",
+        "Matthew McConaughey"
+      ],
+      "length": "1h 42m",
+      "minutes": 102,
+      "score": "76%",
+      "overview": "Kubo mesmerizes the people in his village with his magical gift for spinning wild tales with origami. When he accidentally summons an evil spirit seeking vengeance, Kubo is forced to go on a quest to solve the mystery of his fallen samurai father and his mystical weaponry, as well as discover his own magical powers.",
+      "tagline": "Be bold. Be brave. Be epic.",
+      "url": "https://www.themoviedb.org/movie/313297-kubo-and-the-two-strings?language=en-US"
+    },
+    "LaLaLand2016": {
+      "media": "movie",
+      "name": "La La Land",
+      "year": "2016",
+      "img": "LaLaLand2016.jpg",
+      "theme": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Music"
+      ],
+      "author": [
+        "Damien Chazelle",
+        ""
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend",
+        "Rosemarie DeWitt",
+        "J.K. Simmons",
+        "Amiée Conn",
+        "Terry Walters",
+        "Thom Shelton",
+        "Cinda Adams"
+      ],
+      "length": "2h 9m",
+      "minutes": 129,
+      "score": "79%",
+      "overview": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+      "tagline": "Here's to the fools who dream.",
+      "url": "https://www.themoviedb.org/movie/313369-la-la-land?language=en-US"
     },
     "LastNightinSoho2021": {
       "media": "movie",
@@ -985,6 +1425,7 @@
         "Diana Rigg"
       ],
       "length": "1h 56m",
+      "minutes": 116,
       "score": "73%",
       "overview": "A young girl, passionate about fashion design, is mysteriously able to enter the 1960s where she encounters her idol, a dazzling wannabe singer. But 1960s London is not what it seems, and time seems to be falling apart with shady consequences.",
       "tagline": "A murder in the past. A mystery in the future.",
@@ -1015,6 +1456,7 @@
         "Catherine Lambert"
       ],
       "length": "1h 42m",
+      "minutes": 102,
       "score": "74%",
       "overview": "Two lost souls visiting Tokyo -- the young, neglected wife of a photographer and a washed-up movie star shooting a TV commercial -- find an odd solace and pensive freedom to be real in each other's company, away from their lives in America.",
       "tagline": "Everyone wants to be found.",
@@ -1043,10 +1485,41 @@
         "David Krumholtz"
       ],
       "length": "1h 34m",
+      "minutes": 94,
       "score": "60%",
       "overview": "Tom Popper is a successful businessman who’s clueless when it comes to the really important things in life...until he inherits six “adorable” penguins, each with its own unique personality. Soon Tom’s rambunctious roommates turn his swank New York apartment into a snowy winter wonderland — and the rest of his world upside-down.",
       "tagline": null,
       "url": "https://www.themoviedb.org/movie/58224-mr-popper-s-penguins?language=en-US"
+    },
+    "NA2000": {
+      "media": "movie",
+      "name": "N/A",
+      "year": "2000",
+      "img": "NA2000.jpg",
+      "theme": [
+        "Mystery",
+        "Thriller"
+      ],
+      "author": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Guy Pearce",
+        "Carrie-Anne Moss",
+        "Joe Pantoliano",
+        "Mark Boone Junior",
+        "Russ Fega",
+        "Jorja Fox",
+        "Stephen Tobolowsky",
+        "Harriet Sansom Harris",
+        "Thomas Lennon"
+      ],
+      "length": "1h 53m",
+      "minutes": 113,
+      "score": "82%",
+      "overview": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+      "tagline": "Some memories are best forgotten.",
+      "url": "https://www.themoviedb.org/movie/77-memento?language=en-US"
     },
     "NA2008": {
       "media": "movie",
@@ -1072,40 +1545,11 @@
         "Karl-Robert Lindgren"
       ],
       "length": "1h 55m",
+      "minutes": 115,
       "score": "75%",
       "overview": "When Oskar, a sensitive, bullied 12-year-old boy, meets his new neighbor, the mysterious and moody Eli, they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl.",
       "tagline": "Eli is 12 years old. She's been 12 for over 200 years, and she just moved in next door.",
       "url": "https://www.themoviedb.org/movie/13310-lat-den-ratte-komma-in?language=en-US"
-    },
-    "NA2009": {
-      "media": "movie",
-      "name": "N/A",
-      "year": "2009",
-      "img": "NA2009.jpg",
-      "theme": [
-        "Science Fiction",
-        "TV Movie",
-        "Drama",
-        "Thriller"
-      ],
-      "author": [
-        "Peter Berg"
-      ],
-      "cast": [
-        "Nikolaj Coster-Waldau",
-        "Kerry Bishé",
-        "Joy Bryant",
-        "Jose Pablo Cantillo",
-        "Ritchie Coster",
-        "James D'Arcy",
-        "Gene Farber",
-        "Sienna Guillory"
-      ],
-      "length": "1h 27m",
-      "score": "51%",
-      "overview": "Twelve extremely talented men and women have been chosen to be part of the Phaeton mission, a 10-year trek to explore a distant planetary system. In order to endure the stress of being confined to their high-tech vessel, the crew passes the time using advanced virtual reality modules that allow them to take on various identities. But as the ship approaches a critical phase of their journey, a deadly flaw is discovered in the virtual system, forcing them to question if someone onboard might be a killer.",
-      "tagline": "Reality is only the beginning.",
-      "url": "https://www.themoviedb.org/movie/37178-virtuality?language=en-US"
     },
     "NA2010": {
       "media": "movie",
@@ -1131,6 +1575,7 @@
         "Andrea Hermosa"
       ],
       "length": "1h 58m",
+      "minutes": 118,
       "score": "67%",
       "overview": "Julia, a woman suffering from a degenerative sight disease, finds her blind sister Sara hung in a basement. Despite all signs pointing to suicide, Julia decides to investigate what she intuitively feels is a murder case.",
       "tagline": "You can't hide in the dark.",
@@ -1160,6 +1605,7 @@
         "Chikao Ohtsuka"
       ],
       "length": "1h 55m",
+      "minutes": 115,
       "score": "66%",
       "overview": "Space Pirate Captain Harlock and his fearless crew face off against the space invaders who seek to conquer the planet Earth.",
       "tagline": null,
@@ -1191,6 +1637,7 @@
         "Isabelle Lowe"
       ],
       "length": "2h 4m",
+      "minutes": 124,
       "score": "67%",
       "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft. Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.",
       "tagline": "Earth is a memory worth fighting for.",
@@ -1220,6 +1667,7 @@
         "Kenneth Branagh"
       ],
       "length": "3h 1m",
+      "minutes": 181,
       "score": "81%",
       "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
       "tagline": "The world forever changes.",
@@ -1250,10 +1698,69 @@
         "Robert Kazinsky"
       ],
       "length": "2h 11m",
+      "minutes": 131,
       "score": "69%",
       "overview": "Using massive piloted robots to combat the alien threat, earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as earth's final hope against the mounting apocalypse.",
       "tagline": "To fight monsters, we created monsters.",
       "url": "https://www.themoviedb.org/movie/68726-pacific-rim?language=en-US"
+    },
+    "Philomena2013": {
+      "media": "movie",
+      "name": "Philomena",
+      "year": "2013",
+      "img": "Philomena2013.jpg",
+      "theme": [
+        "Drama"
+      ],
+      "author": [
+        "Stephen Frears"
+      ],
+      "cast": [
+        "Judi Dench",
+        "Steve Coogan",
+        "Sophie Kennedy Clark",
+        "Mare Winningham",
+        "Barbara Jefford",
+        "Ruth McCabe",
+        "Peter Hermann",
+        "Sean Mahon",
+        "Anna Maxwell Martin"
+      ],
+      "length": "1h 38m",
+      "minutes": 98,
+      "score": "74%",
+      "overview": "A woman searches for her adult son, who was taken away from her decades ago when she was forced to live in a convent.",
+      "tagline": "These two unlikely companions are on a journey to find her long lost son.",
+      "url": "https://www.themoviedb.org/movie/205220-philomena?language=en-US"
+    },
+    "Prometheus2012": {
+      "media": "movie",
+      "name": "Prometheus",
+      "year": "2012",
+      "img": "Prometheus2012.jpg",
+      "theme": [
+        "Science Fiction",
+        "Adventure",
+        "Mystery"
+      ],
+      "author": [
+        "Ridley Scott"
+      ],
+      "cast": [
+        "Noomi Rapace",
+        "Michael Fassbender",
+        "Charlize Theron",
+        "Idris Elba",
+        "Guy Pearce",
+        "Sean Harris",
+        "Emun Elliott"
+      ],
+      "length": "2h 4m",
+      "minutes": 124,
+      "score": "66%",
+      "overview": "A team of explorers discover a clue to the origins of mankind on Earth, leading them on a journey to the darkest corners of the universe. There, they must fight a terrifying battle to save the future of the human race.",
+      "tagline": "The search for our beginning could lead to our end.",
+      "url": "https://www.themoviedb.org/movie/70981-prometheus?language=en-US"
     },
     "RaidersoftheLostArk1981": {
       "media": "movie",
@@ -1278,6 +1785,7 @@
         "Alfred Molina"
       ],
       "length": "1h 55m",
+      "minutes": 115,
       "score": "79%",
       "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
       "tagline": "The return of the great adventure.",
@@ -1310,6 +1818,7 @@
         "Mandy Moore"
       ],
       "length": "1h 52m",
+      "minutes": 112,
       "score": "72%",
       "overview": "Video game bad guy Ralph and fellow misfit Vanellope von Schweetz must risk it all by traveling to the World Wide Web in search of a replacement part to save Vanellope's video game, Sugar Rush. In way over their heads, Ralph and Vanellope rely on the citizens of the internet — the netizens — to help navigate their way, including an entrepreneur named Yesss, who is the head algorithm and the heart and soul of trend-making site BuzzzTube.",
       "tagline": "Who broke the internet?",
@@ -1340,6 +1849,7 @@
         "Sophie Levy"
       ],
       "length": "2h 7m",
+      "minutes": 127,
       "score": "71%",
       "overview": "Charlie Kenton is a washed-up fighter who retired from the ring when robots took over the sport. After his robot is trashed, he reluctantly teams up with his estranged son to rebuild and train an unlikely contender.",
       "tagline": "Courage is stronger than steel.",
@@ -1370,6 +1880,7 @@
         "Janet Ågren"
       ],
       "length": "1h 29m",
+      "minutes": 89,
       "score": "54%",
       "overview": "The tyrant Gedren seeks the total power in a world of barbarism. She raids the city Hablac and kills the keeper of a talisman that gives her great power. Red Sonja, sister of the keeper, sets out with her magic sword to overthrow Gedren.",
       "tagline": "A woman and a warrior that became a legend.",
@@ -1401,6 +1912,7 @@
         "Liza Lapira"
       ],
       "length": "1h 51m",
+      "minutes": 111,
       "score": "63%",
       "overview": "In the future, medical technology has advanced to the point where people can buy artificial organs to extend their lives. But if they default on payments, an organization known as the Union sends agents to repossess the organs. Remy is one of the best agents in the business, but when he becomes the recipient of an artificial heart, he finds himself in the same dire straits as his many victims.",
       "tagline": "For a price, any organ in your body can be replaced. But it can also be repossessed.",
@@ -1431,6 +1943,7 @@
         "Frank Oz"
       ],
       "length": "2h 12m",
+      "minutes": 132,
       "score": "79%",
       "overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
       "tagline": "Return to a galaxy far far away.",
@@ -1461,6 +1974,7 @@
         "Masako"
       ],
       "length": "1h 35m",
+      "minutes": 95,
       "score": "57%",
       "overview": "While investigating the horrifying death of her boyfriend, Mai Takano learns about a videotape haunted by the spirit of a disturbing girl named Sadako, which kills anyone who watches it exactly one week later. When her boyfriend’s son, Yoichi, starts to develop the same psychic abilities as Sadako, Takano must find a way to keep the boy and herself from becoming the next victims.",
       "tagline": null,
@@ -1490,6 +2004,7 @@
         "Felton Perry"
       ],
       "length": "1h 42m",
+      "minutes": 102,
       "score": "73%",
       "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
       "tagline": "Part man, part machine, all cop.",
@@ -1520,6 +2035,7 @@
         "Marianne Jean-Baptiste"
       ],
       "length": "1h 58m",
+      "minutes": 118,
       "score": "59%",
       "overview": "In RoboCop, the year is 2028 and multinational conglomerate OmniCorp is at the center of robot technology.  Overseas, their drones have been used by the military for years, but have been forbidden for law enforcement in America.  Now OmniCorp wants to bring their controversial technology to the home front, and they see a golden opportunity to do it.  When Alex Murphy – a loving husband, father and good cop doing his best to stem the tide of crime and corruption in Detroit – is critically injured, OmniCorp sees their chance to build a part-man, part-robot police officer.  OmniCorp envisions a RoboCop in every city and even more billions for their shareholders, but they never counted on one thing: there is still a man inside the machine.",
       "tagline": "Crime has a new enemy.",
@@ -1551,6 +2067,7 @@
         "Galyn Görg"
       ],
       "length": "1h 57m",
+      "minutes": 117,
       "score": "60%",
       "overview": "After a successful deployment of the RoboCop Law Enforcement unit, OCP sees its goal of urban pacification come closer and closer, but as this develops, a new narcotic known as \"Nuke\" invades the streets led by God-delirious leader Cane. As this menace grows, it may prove to be too much for Murphy to handle. OCP tries to replicate the success of the first unit, but ends up with failed prototypes with suicidal issues... until Dr. Faxx, a scientist straying away from OCP's path, uses Cane as the new subject for the RoboCop 2 project, a living God.",
       "tagline": "He's back to protect the innocent.",
@@ -1581,10 +2098,107 @@
         "Remy Ryan Hernandez"
       ],
       "length": "1h 44m",
+      "minutes": 104,
       "score": "49%",
       "overview": "The mega corporation Omni Consumer Products is still bent on creating their pet project, Delta City, to replace the rotting city of Detroit. Unfortunately, the inhabitants of the area have no intention of abandoning their homes simply for desires of the company. To this end, OCP have decided to force them to leave by employing a ruthless mercenary army to attack and harass them. An underground resistance begins and in this fight, RoboCop must decide where his loyalties lie.",
       "tagline": "He's back. Back on line. Back on duty.",
       "url": "https://www.themoviedb.org/movie/5550-robocop-3?language=en-US"
+    },
+    "Roxanne1987": {
+      "media": "movie",
+      "name": "Roxanne",
+      "year": "1987",
+      "img": "Roxanne1987.jpg",
+      "theme": [
+        "Comedy",
+        "Romance"
+      ],
+      "author": [
+        "Fred Schepisi"
+      ],
+      "cast": [
+        "Steve Martin",
+        "Daryl Hannah",
+        "Rick Rossovich",
+        "John Kapelos",
+        "Fred Willard",
+        "Max Alexander",
+        "Michael J. Pollard",
+        "Steve Mittleman"
+      ],
+      "length": "1h 47m",
+      "minutes": 107,
+      "score": "64%",
+      "overview": "In this modern take on Edmond Rostand's classic play \"Cyrano de Bergerac,\" C. D. Bales is the witty, intelligent, and brave fire chief of a small Pacific Northwest town who, due to the size of his enormous nose, declines to pursue the girl of his dreams, lovely Roxanne Kowalski. Instead, when his shy underling Chris McConnell becomes smitten with Roxanne, C.D. feeds the handsome young man the words of love to win her heart.",
+      "tagline": "Roxanne dreamed of a handsome, intelligent, romantic man. C.D. Bales is two out of three—but looks aren't everything.",
+      "url": "https://www.themoviedb.org/movie/11584-roxanne?language=en-US"
+    },
+    "Sicario2015": {
+      "media": "movie",
+      "name": "Sicario",
+      "year": "2015",
+      "img": "Sicario2015.jpg",
+      "theme": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "author": [
+        "Denis Villeneuve"
+      ],
+      "cast": [
+        "Emily Blunt",
+        "Benicio del Toro",
+        "Josh Brolin",
+        "Victor Garber",
+        "Jon Bernthal",
+        "Daniel Kaluuya",
+        "Jeffrey Donovan",
+        "Raoul Max Trujillo",
+        "Julio Cesar Cedillo"
+      ],
+      "length": "2h 2m",
+      "minutes": 122,
+      "score": "74%",
+      "overview": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
+      "tagline": "The border is just another line to cross.",
+      "url": "https://www.themoviedb.org/movie/273481-sicario?language=en-US"
+    },
+    "SnowWhiteandtheSevenDwarfs1938": {
+      "media": "movie",
+      "name": "Snow White and the Seven Dwarfs",
+      "year": "1938",
+      "img": "SnowWhiteandtheSevenDwarfs1938.jpg",
+      "theme": [
+        "Fantasy",
+        "Animation",
+        "Family"
+      ],
+      "author": [
+        "Perce Pearce",
+        "David Hand",
+        "Ben Sharpsteen",
+        "Wilfred Jackson",
+        "Larry Morey",
+        "William Cottrell"
+      ],
+      "cast": [
+        "Adriana Caselotti",
+        "Lucille La Verne",
+        "Harry Stockwell",
+        "Roy Atwell",
+        "Pinto Colvig",
+        "Otis Harlan",
+        "Scotty Mattraw",
+        "Billy Gilbert",
+        "Eddie Collins"
+      ],
+      "length": "1h 23m",
+      "minutes": 83,
+      "score": "71%",
+      "overview": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+      "tagline": "The Happiest, Dopiest, Grumpiest, Sneeziest movie of the year.",
+      "url": "https://www.themoviedb.org/movie/408-snow-white-and-the-seven-dwarfs?language=en-US"
     },
     "SourceCode2011": {
       "media": "movie",
@@ -1611,6 +2225,7 @@
         "Craig Thomas"
       ],
       "length": "1h 33m",
+      "minutes": 93,
       "score": "73%",
       "overview": "When decorated soldier Captain Colter Stevens wakes up in the body of an unknown man, he discovers he's part of a mission to find the bomber of a Chicago commuter train.",
       "tagline": "Make every second count.",
@@ -1641,6 +2256,7 @@
         "Alice Eve"
       ],
       "length": "2h 12m",
+      "minutes": 132,
       "score": "73%",
       "overview": "When the crew of the Enterprise is called back home, they find an unstoppable force of terror from within their own organization has detonated the fleet and everything it stands for, leaving our world in a state of crisis.  With a personal score to settle, Captain Kirk leads a manhunt to a war-zone world to capture a one man weapon of mass destruction. As our heroes are propelled into an epic chess game of life and death, love will be challenged, friendships will be torn apart, and sacrifices must be made for the only family Kirk has left: his crew.",
       "tagline": "Beyond the darkness, lies greatness.",
@@ -1671,6 +2287,7 @@
         "Persis Khambatta"
       ],
       "length": "2h 11m",
+      "minutes": 131,
       "score": "65%",
       "overview": "When an unidentified alien destroys three powerful Klingon cruisers, Captain James T. Kirk returns to the newly transformed U.S.S. Enterprise to take command.",
       "tagline": "The human adventure is just beginning.",
@@ -1701,10 +2318,42 @@
         "David Prowse"
       ],
       "length": "2h 1m",
+      "minutes": 121,
       "score": "82%",
       "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
       "tagline": "A long time ago in a galaxy far, far away...",
       "url": "https://www.themoviedb.org/movie/11-star-wars?language=en-US"
+    },
+    "StarWarsTheForceAwakens2015": {
+      "media": "movie",
+      "name": "Star Wars: The Force Awakens",
+      "year": "2015",
+      "img": "StarWarsTheForceAwakens2015.jpg",
+      "theme": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "author": [
+        "J.J. Abrams"
+      ],
+      "cast": [
+        "Harrison Ford",
+        "Mark Hamill",
+        "Carrie Fisher",
+        "Adam Driver",
+        "Daisy Ridley",
+        "John Boyega",
+        "Oscar Isaac",
+        "Lupita Nyong'o",
+        "Andy Serkis"
+      ],
+      "length": "2h 16m",
+      "minutes": 136,
+      "score": "73%",
+      "overview": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.",
+      "tagline": "Every generation has a story.",
+      "url": "https://www.themoviedb.org/movie/140607-star-wars-the-force-awakens?language=en-US"
     },
     "Subway1985": {
       "media": "movie",
@@ -1730,6 +2379,7 @@
         "Jean-Claude Lecas"
       ],
       "length": "1h 42m",
+      "minutes": 102,
       "score": "65%",
       "overview": "Fred, a raffish safe blower, takes refuge in the Paris Metro after being chased by the henchmen of a shady businessman from whom he has just stolen some documents. While hiding out in the back rooms and conduits of the Metro, Fred encounters a subterranean society of eccentric characters and petty criminals.",
       "tagline": "A seductive fable",
@@ -1759,6 +2409,7 @@
         "Jane Alexander"
       ],
       "length": "1h 55m",
+      "minutes": 115,
       "score": "61%",
       "overview": "All grown up in post-apocalyptic 2018, John Connor must lead the resistance of humans against the increasingly dominating militaristic robots. But when Marcus Wright appears, his existence confuses the mission as Connor tries to determine whether Wright has come from the future or the past -- and whether he's friend or foe.",
       "tagline": "The end begins.",
@@ -1789,6 +2440,7 @@
         "Florence Kastriner"
       ],
       "length": "1h 46m",
+      "minutes": 106,
       "score": "68%",
       "overview": "A man glimpses the future Fate has planned for him – and chooses to fight for his own destiny. Battling the powerful Adjustment Bureau across, under and through the streets of New York, he risks his destined greatness to be with the only woman he's ever loved.",
       "tagline": "They stole his future. Now he's taking it back.",
@@ -1819,6 +2471,7 @@
         "Enn Reitel"
       ],
       "length": "1h 47m",
+      "minutes": 107,
       "score": "69%",
       "overview": "Intrepid young reporter, Tintin, and his loyal dog, Snowy, are thrust into a world of high adventure when they discover a ship carrying an explosive secret. As Tintin is drawn into a centuries-old mystery, Ivan Ivanovitch Sakharine suspects him of stealing a priceless treasure. Tintin and Snowy, with the help of salty, cantankerous Captain Haddock and bumbling detectives, Thompson and Thomson, travel half the world, one step ahead of their enemies, as Tintin endeavors to find the Unicorn, a sunken ship that may hold a vast fortune, but also an ancient curse.",
       "tagline": "Discover how far adventure will take you.",
@@ -1849,6 +2502,7 @@
         "Barry Keoghan"
       ],
       "length": "2h 57m",
+      "minutes": 177,
       "score": "77%",
       "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
       "tagline": "Unmask the truth.",
@@ -1878,6 +2532,7 @@
         "Kyla Deaver"
       ],
       "length": "1h 52m",
+      "minutes": 112,
       "score": "75%",
       "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
       "tagline": "Based on the true case files of the Warrens.",
@@ -1908,10 +2563,42 @@
         "Frank Oz"
       ],
       "length": "2h 4m",
+      "minutes": 124,
       "score": "84%",
       "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
       "tagline": "The Star Wars saga continues.",
       "url": "https://www.themoviedb.org/movie/1891-the-empire-strikes-back?language=en-US"
+    },
+    "TheFirstSlamDunk2022": {
+      "media": "movie",
+      "name": "The First Slam Dunk",
+      "year": "2022",
+      "img": "TheFirstSlamDunk2022.jpg",
+      "theme": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "author": [
+        "Takehiko Inoue"
+      ],
+      "cast": [
+        "Shugo Nakamura",
+        "Jun Kasama",
+        "Kenta Miyake",
+        "Shinichiro Kamio",
+        "Subaru Kimura",
+        "Katsuhisa Houki",
+        "Asami Seto",
+        "Ryota Iwasaki",
+        "Chado Horii"
+      ],
+      "length": "2h 5m",
+      "minutes": 125,
+      "score": "78%",
+      "overview": "Shohoku's “speedster” and point guard, Ryota Miyagi, always plays with brains and lightning speed, running circles around his opponents while feigning composure. In his second year of high school, Ryota plays with the Shohoku High School basketball team along with Sakuragi, Rukawa, Akagi, and Mitsui as they take the stage at the Inter-High School National Championship. And now, they are on the brink of challenging the reigning champions, Sannoh Kogyo High School.",
+      "tagline": "17 years and... 40 minutes.",
+      "url": "https://www.themoviedb.org/movie/783675-the-first-slam-dunk?language=en-US"
     },
     "TheFlowersofWar2011": {
       "media": "movie",
@@ -1938,10 +2625,42 @@
         "Cao Kefan"
       ],
       "length": "2h 26m",
+      "minutes": 146,
       "score": "74%",
       "overview": "A Westerner finds refuge with a group of women in a church during Japan's rape of Nanking in 1937. Posing as a priest, he attempts to lead the women to safety.",
       "tagline": "Fighting for freedom.",
       "url": "https://www.themoviedb.org/movie/76758?language=en-US"
+    },
+    "TheGirlontheTrain2016": {
+      "media": "movie",
+      "name": "The Girl on the Train",
+      "year": "2016",
+      "img": "TheGirlontheTrain2016.jpg",
+      "theme": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "author": [
+        "Tate Taylor"
+      ],
+      "cast": [
+        "Emily Blunt",
+        "Rebecca Ferguson",
+        "Haley Bennett",
+        "Luke Evans",
+        "Justin Theroux",
+        "Lisa Kudrow",
+        "Laura Prepon",
+        "Edgar Ramírez"
+      ],
+      "length": "1h 52m",
+      "minutes": 112,
+      "score": "64%",
+      "overview": "Rachel Watson, devastated by her recent divorce, spends her daily commute fantasizing about the seemingly perfect couple who live in a house that her train passes every day, until one morning she sees something shocking happen there and becomes entangled in the mystery that unfolds.",
+      "tagline": "What you see can hurt you.",
+      "url": "https://www.themoviedb.org/movie/346685-the-girl-on-the-train?language=en-US"
     },
     "TheGodfather1972": {
       "media": "movie",
@@ -1965,6 +2684,7 @@
         "Sterling Hayden"
       ],
       "length": "2h 55m",
+      "minutes": 175,
       "score": "87%",
       "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
       "tagline": "An offer you can't refuse.",
@@ -1993,10 +2713,42 @@
         "G. D. Spradlin"
       ],
       "length": "3h 22m",
+      "minutes": 202,
       "score": "86%",
       "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
       "tagline": "The rise and fall of the Corleone empire.",
       "url": "https://www.themoviedb.org/movie/240-the-godfather-part-ii?language=en-US"
+    },
+    "TheGoodDinosaur2015": {
+      "media": "movie",
+      "name": "The Good Dinosaur",
+      "year": "2015",
+      "img": "TheGoodDinosaur2015.jpg",
+      "theme": [
+        "Adventure",
+        "Animation",
+        "Family"
+      ],
+      "author": [
+        "Peter Sohn"
+      ],
+      "cast": [
+        "Frances McDormand",
+        "Raymond Ochoa",
+        "Jeffrey Wright",
+        "Steve Zahn",
+        "Sam Elliott",
+        "Anna Paquin",
+        "John Ratzenberger",
+        "A.J. Buckley",
+        "Marcus Scribner"
+      ],
+      "length": "1h 33m",
+      "minutes": 93,
+      "score": "67%",
+      "overview": "An epic journey into the world of dinosaurs where an Apatosaurus named Arlo makes an unlikely human friend.",
+      "tagline": "A single kindness can change everything.",
+      "url": "https://www.themoviedb.org/movie/105864-the-good-dinosaur?language=en-US"
     },
     "TheHungerGames2012": {
       "media": "movie",
@@ -2023,6 +2775,7 @@
         "Wes Bentley"
       ],
       "length": "2h 22m",
+      "minutes": 142,
       "score": "72%",
       "overview": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games.  Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which “Tributes” must fight with one another until one survivor remains.  Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy.  If she’s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
       "tagline": "The world will be watching.",
@@ -2052,6 +2805,7 @@
         "Joel Swetow"
       ],
       "length": "1h 26m",
+      "minutes": 86,
       "score": "65%",
       "overview": "A 12-year-old boy searches for the one thing that will enable him to win the affection of the girl of his dreams. To find it he must discover the story of the Lorax, the grumpy yet charming creature who fights to protect his world.",
       "tagline": "Meet the original force of nature.",
@@ -2081,6 +2835,7 @@
         "Tommy Duggan"
       ],
       "length": "1h 51m",
+      "minutes": 111,
       "score": "74%",
       "overview": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil.",
       "tagline": "You Have Been Warned",
@@ -2110,6 +2865,7 @@
         "Patrick Godfrey"
       ],
       "length": "2h 14m",
+      "minutes": 134,
       "score": "74%",
       "overview": "A rule-bound head butler's world of manners and decorum in the household he maintains is tested by the arrival of a housekeeper who falls in love with him in post-WWI Britain. The possibility of romance and his master's cultivation of ties with the Nazi cause challenge his carefully maintained veneer of servitude.",
       "tagline": "Diamond in the Rough.",
@@ -2138,6 +2894,7 @@
         "Jeffrey DeMunn"
       ],
       "length": "2h 22m",
+      "minutes": 142,
       "score": "87%",
       "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
       "tagline": "Fear can hold you prisoner. Hope can set you free.",
@@ -2166,10 +2923,42 @@
         "Tony Burton"
       ],
       "length": "2h 24m",
+      "minutes": 144,
       "score": "82%",
       "overview": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
       "tagline": "A masterpiece of modern horror.",
       "url": "https://www.themoviedb.org/movie/694-the-shining?language=en-US"
+    },
+    "TheUntouchables1987": {
+      "media": "movie",
+      "name": "The Untouchables",
+      "year": "1987",
+      "img": "TheUntouchables1987.jpg",
+      "theme": [
+        "Crime",
+        "History",
+        "Thriller"
+      ],
+      "author": [
+        "Brian De Palma"
+      ],
+      "cast": [
+        "Kevin Costner",
+        "Sean Connery",
+        "Robert De Niro",
+        "Charles Martin Smith",
+        "Andy García",
+        "Richard Bradford",
+        "Jack Kehoe",
+        "Brad Sullivan",
+        "Billy Drago"
+      ],
+      "length": "1h 59m",
+      "minutes": 119,
+      "score": "78%",
+      "overview": "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname “The Untouchables”.",
+      "tagline": "What are you prepared to do?",
+      "url": "https://www.themoviedb.org/movie/117-the-untouchables?language=en-US"
     },
     "TheWitch2016": {
       "media": "movie",
@@ -2196,6 +2985,7 @@
         "Sarah Stephens"
       ],
       "length": "1h 32m",
+      "minutes": 92,
       "score": "70%",
       "overview": "In 1630, a farmer relocates his family to a remote plot of land on the edge of a forest where strange, unsettling things happen. With suspicion and paranoia mounting, each family member's faith, loyalty and love are tested in shocking ways.",
       "tagline": "Evil takes many forms.",
@@ -2226,10 +3016,70 @@
         "Bob Balaban"
       ],
       "length": "1h 33m",
+      "minutes": 93,
       "score": "65%",
       "overview": "A dishonest insurance salesman's life quickly disintegrates during a Wisconsin winter when he teams up with a psychopath to steal a rare violin at the home of a reclusive farmer.",
       "tagline": "Greetings from Kenosha, WI! Where Ordinary Folks Can Make a Killing",
       "url": "https://www.themoviedb.org/movie/51996-thin-ice?language=en-US"
+    },
+    "ThreeBillboardsOutsideEbbingMissouri2017": {
+      "media": "movie",
+      "name": "Three Billboards Outside Ebbing, Missouri",
+      "year": "2017",
+      "img": "ThreeBillboardsOutsideEbbingMissouri2017.jpg",
+      "theme": [
+        "Crime",
+        "Drama"
+      ],
+      "author": [
+        "Martin McDonagh"
+      ],
+      "cast": [
+        "Frances McDormand",
+        "Woody Harrelson",
+        "Sam Rockwell",
+        "Lucas Hedges",
+        "Abbie Cornish",
+        "Caleb Landry Jones",
+        "Peter Dinklage",
+        "John Hawkes",
+        "Samara Weaving"
+      ],
+      "length": "1h 55m",
+      "minutes": 115,
+      "score": "81%",
+      "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri?language=en-US"
+    },
+    "ToyStory32010": {
+      "media": "movie",
+      "name": "Toy Story 3",
+      "year": "2010",
+      "img": "ToyStory32010.jpg",
+      "theme": [
+        "Animation",
+        "Family",
+        "Comedy"
+      ],
+      "author": [
+        "Lee Unkrich"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Joan Cusack",
+        "Don Rickles",
+        "John Ratzenberger",
+        "Estelle Harris",
+        "Blake Clark",
+        "Jeff Pidgeon"
+      ],
+      "length": "1h 43m",
+      "minutes": 103,
+      "score": "78%",
+      "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+      "tagline": "No toy gets left behind.",
+      "url": "https://www.themoviedb.org/movie/10193-toy-story-3?language=en-US"
     },
     "U5712000": {
       "media": "movie",
@@ -2256,6 +3106,7 @@
         "Tom Guiry"
       ],
       "length": "1h 56m",
+      "minutes": 116,
       "score": "65%",
       "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
       "tagline": "Heroes are ordinary men who do extraordinary things in extraordinary times.",
@@ -2286,6 +3137,7 @@
         "Reiner Schwarz"
       ],
       "length": "1h 28m",
+      "minutes": 88,
       "score": "73%",
       "overview": "As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon \"Videodrome,\" a TV show dedicated to gratuitous torture and punishment, Max sees a potential hit and broadcasts the show on his channel. However, after his girlfriend auditions for the show and never returns, Max investigates the truth behind Videodrome and discovers that the graphic violence may not be as fake as he thought.",
       "tagline": "First it controls your mind. Then it destroys your body.",
@@ -2316,6 +3168,7 @@
         "Bob Bergen"
       ],
       "length": "1h 38m",
+      "minutes": 98,
       "score": "81%",
       "overview": "What if mankind had to leave Earth and somebody forgot to turn the last robot off? After hundreds of years doing what he was built for, WALL•E discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
       "tagline": "After 700 years of doing what he was built for, he'll discover what he was meant for.",
@@ -2346,6 +3199,7 @@
         "Matt Frewer"
       ],
       "length": "2h 43m",
+      "minutes": 163,
       "score": "73%",
       "overview": "In a gritty and alternate 1985, the glory days of costumed vigilantes have been brought to a close by a government crackdown. But after one of the masked veterans is brutally murdered, an investigation into the killer is initiated. The reunited heroes set out to prevent their own destruction, but in doing so they uncover a sinister plot that puts all of humanity in grave danger.",
       "tagline": "Justice is coming to all of us. No matter what we do.",
@@ -2375,6 +3229,7 @@
         "Kevin Pollak"
       ],
       "length": "2h 6m",
+      "minutes": 126,
       "score": "70%",
       "overview": "The evil Queen Bavmorda hunts the newborn princess Elora Danan, a child prophesied to bring about her downfall. When the royal infant is found by Willow, a timid farmer and aspiring sorcerer, he's entrusted with delivering her from evil.",
       "tagline": "A world where heroes come in all sizes and adventure is the greatest magic of all.",
@@ -2405,6 +3260,7 @@
         "Zoë Kravitz"
       ],
       "length": "2h 12m",
+      "minutes": 132,
       "score": "73%",
       "overview": "Before Charles Xavier and Erik Lensherr took the names Professor X and Magneto, they were two young men discovering their powers for the first time. Before they were arch-enemies, they were closest of friends, working together with other mutants (some familiar, some new), to stop the greatest threat the world has ever known.",
       "tagline": "Witness the moment that will change our world.",
@@ -2435,10 +3291,41 @@
         "Ryan Reynolds"
       ],
       "length": "1h 47m",
+      "minutes": 107,
       "score": "63%",
       "overview": "After seeking to live a normal life, Logan sets out to avenge the death of his girlfriend by undergoing the mutant Weapon X program and becoming Wolverine.",
       "tagline": "Witness the origin.",
       "url": "https://www.themoviedb.org/movie/2080-x-men-origins-wolverine?language=en-US"
+    },
+    "YesMan2008": {
+      "media": "movie",
+      "name": "Yes Man",
+      "year": "2008",
+      "img": "YesMan2008.jpg",
+      "theme": [
+        "Comedy",
+        "Romance"
+      ],
+      "author": [
+        "Peyton Reed"
+      ],
+      "cast": [
+        "Jim Carrey",
+        "Zooey Deschanel",
+        "Bradley Cooper",
+        "John Michael Higgins",
+        "Rhys Darby",
+        "Danny Masterson",
+        "Fionnula Flanagan",
+        "Terence Stamp",
+        "Sasha Alexander"
+      ],
+      "length": "1h 44m",
+      "minutes": 104,
+      "score": "67%",
+      "overview": "Carl Allen, a guy whose life is going nowhere, signs up for a self-help program based on one simple covenant: say yes to everything…and anything.",
+      "tagline": "One word can change everything.",
+      "url": "https://www.themoviedb.org/movie/10201-yes-man?language=en-US"
     },
     "YoungAdult2011": {
       "media": "movie",
@@ -2464,6 +3351,7 @@
         "Kate Nowlin"
       ],
       "length": "1h 34m",
+      "minutes": 94,
       "score": "58%",
       "overview": "A divorced writer from the Midwest returns to her hometown to reconnect with an old flame, who's now married with a family.",
       "tagline": "Everyone gets old. Not everyone grows up.",

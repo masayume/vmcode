@@ -10,6 +10,7 @@ var $grid = $('.grid').isotope({
     symbol: '.symbol',
     number: '.number parseInt',
     year: '.year parseInt',
+    minutes: '.minutes parseInt',
     score: '.score parseInt',
     length: '.length parseInt',
     category: '[data-category]',

@@ -208,6 +208,10 @@ body {
   visibility: hidden;
 }
 
+.element-item .minutes {
+  visibility: hidden;
+}
+
 .element-item .author {
   position: absolute;
   left: 4px;
