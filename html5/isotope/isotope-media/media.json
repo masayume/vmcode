@@ -4,6 +4,8 @@
       "media": "movie",
       "name": "2001: A Space Odyssey",
       "year": "1968",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "2001ASpaceOdyssey1968.jpg",
       "theme": [
         "Science Fiction",
@@ -54,6 +56,8 @@
       "media": "movie",
       "name": "300",
       "year": "2007",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "3002007.jpg",
       "theme": [
         "Action",
@@ -109,6 +113,8 @@
       "media": "movie",
       "name": "A Knight's Tale",
       "year": "2001",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "AKnightsTale2001.jpg",
       "theme": [
         "Adventure",
@@ -158,6 +164,8 @@
       "media": "movie",
       "name": "Alien",
       "year": "1979",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Alien1979.jpg",
       "theme": [
         "Horror",
@@ -206,6 +214,8 @@
       "media": "movie",
       "name": "Alien: Covenant",
       "year": "2017",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "AlienCovenant2017.jpg",
       "theme": [
         "Horror",
@@ -256,6 +266,8 @@
       "media": "movie",
       "name": "Aliens",
       "year": "1986",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Aliens1986.jpg",
       "theme": [
         "Action",
@@ -307,6 +319,8 @@
       "media": "movie",
       "name": "A Nightmare on Elm Street 3: Dream Warriors",
       "year": "1987",
+      "type": "bluray",
+      "storage": "USA-HORROR",
       "img": "ANightmareonElmStreet3DreamWarriors1987.jpg",
       "theme": [
         "Horror",
@@ -358,63 +372,12 @@
       "tagline": "If you think you'll get out alive, you must be dreaming.",
       "url": "https://www.themoviedb.org/movie/10072-a-nightmare-on-elm-street-3-dream-warriors?language=en-US"
     },
-    "ANightmareonElmStreetPart2FreddysRevenge1985": {
-      "media": "movie",
-      "name": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
-      "year": "1985",
-      "img": "ANightmareonElmStreetPart2FreddysRevenge1985.jpg",
-      "theme": [
-        "Horror"
-      ],
-      "keywords": [
-        "fire",
-        "dreams",
-        "diary",
-        "nightmare",
-        "haunted house",
-        "transformation",
-        "sadism",
-        "supernatural",
-        "psychopath",
-        "high school",
-        "sequel",
-        "possession",
-        "premonition",
-        "spontaneous combustion",
-        "slasher",
-        "bdsm",
-        "school bus",
-        "disfigurement",
-        "sleepwalking",
-        "pool party",
-        "supernatural horror",
-        "whump",
-        "suburban gothic"
-      ],
-      "author": [
-        "Jack Sholder"
-      ],
-      "cast": [
-        "Robert Englund",
-        "Mark Patton",
-        "Kim Myers",
-        "Robert Rusler",
-        "Clu Gulager",
-        "Hope Lange",
-        "Melinda O. Fee",
-        "Tom McFadden"
-      ],
-      "length": "1h 27m",
-      "minutes": 87,
-      "score": "58%",
-      "overview": "Jesse Walsh moves with his family into the home of the lone survivor from a series of attacks by dream-stalking monster, Freddy Krueger. There, he is bedeviled by nightmares and inexplicably violent impulses.",
-      "tagline": "The man of your dreams is back!",
-      "url": "https://www.themoviedb.org/movie/10014-a-nightmare-on-elm-street-part-2-freddy-s-revenge?language=en-US"
-    },
     "Avatar2009": {
       "media": "movie",
       "name": "Avatar",
       "year": "2009",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Avatar2009.jpg",
       "theme": [
         "Action",
@@ -476,6 +439,8 @@
       "media": "movie",
       "name": "Back to the Future",
       "year": "1985",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "BacktotheFuture1985.jpg",
       "theme": [
         "Adventure",
@@ -530,6 +495,8 @@
       "media": "movie",
       "name": "Batman",
       "year": "1989",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "Batman1989.jpg",
       "theme": [
         "Fantasy",
@@ -577,6 +544,8 @@
       "media": "movie",
       "name": "Batman Returns",
       "year": "1992",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "BatmanReturns1992.jpg",
       "theme": [
         "Action",
@@ -628,6 +597,8 @@
       "media": "movie",
       "name": "Blade II",
       "year": "2002",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "BladeII2002.jpg",
       "theme": [
         "Fantasy",
@@ -678,6 +649,8 @@
       "media": "movie",
       "name": "Blade Runner",
       "year": "1982",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "BladeRunner1982.jpg",
       "theme": [
         "Science Fiction",
@@ -728,6 +701,8 @@
       "media": "movie",
       "name": "Blade Runner 2049",
       "year": "2017",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "BladeRunner20492017.jpg",
       "theme": [
         "Science Fiction",
@@ -774,6 +749,8 @@
       "media": "movie",
       "name": "Brainstorm",
       "year": "1983",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Brainstorm1983.jpg",
       "theme": [
         "Science Fiction",
@@ -807,6 +784,8 @@
       "media": "movie",
       "name": "Brave",
       "year": "2012",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "Brave2012.jpg",
       "theme": [
         "Animation",
@@ -862,6 +841,8 @@
       "media": "movie",
       "name": "Burke & Hare",
       "year": "2010",
+      "type": "bluray",
+      "storage": "UK-HORROR",
       "img": "BurkeHare2010.jpg",
       "theme": [
         "Comedy",
@@ -903,6 +884,8 @@
       "media": "movie",
       "name": "Cars",
       "year": "2006",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "Cars2006.jpg",
       "theme": [
         "Animation",
@@ -956,6 +939,8 @@
       "media": "movie",
       "name": "Casino Royale",
       "year": "2006",
+      "type": "bluray",
+      "storage": "UK-ACTION",
       "img": "CasinoRoyale2006.jpg",
       "theme": [
         "Adventure",
@@ -1004,6 +989,8 @@
       "media": "movie",
       "name": "Charade",
       "year": "1963",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "Charade1963.jpg",
       "theme": [
         "Comedy",
@@ -1055,6 +1042,8 @@
       "media": "movie",
       "name": "Charlie and the Chocolate Factory",
       "year": "2005",
+      "type": "bluray",
+      "storage": "USA-COMEDY",
       "img": "CharlieandtheChocolateFactory2005.jpg",
       "theme": [
         "Adventure",
@@ -1098,6 +1087,8 @@
       "media": "movie",
       "name": "Christine",
       "year": "1983",
+      "type": "bluray",
+      "storage": "USA-HORROR",
       "img": "Christine1983.jpg",
       "theme": [
         "Horror"
@@ -1136,6 +1127,8 @@
       "media": "movie",
       "name": "Chungking Express",
       "year": "1994",
+      "type": "bluray",
+      "storage": "CHINA-DRAMA",
       "img": "ChungkingExpress1994.jpg",
       "theme": [
         "Drama",
@@ -1179,6 +1172,8 @@
       "media": "movie",
       "name": "Close Encounters of the Third Kind",
       "year": "1977",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "CloseEncountersoftheThirdKind1977.jpg",
       "theme": [
         "Science Fiction",
@@ -1244,6 +1239,8 @@
       "media": "movie",
       "name": "Conan the Barbarian",
       "year": "1982",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "ConantheBarbarian1982.jpg",
       "theme": [
         "Adventure",
@@ -1297,6 +1294,8 @@
       "media": "movie",
       "name": "Departures",
       "year": "2008",
+      "type": "bluray",
+      "storage": "JAPAN-DRAMA",
       "img": "Departures2008.jpg",
       "theme": [
         "Drama"
@@ -1337,6 +1336,8 @@
       "media": "movie",
       "name": "Despicable Me 2",
       "year": "2013",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "DespicableMe22013.jpg",
       "theme": [
         "Animation",
@@ -1387,6 +1388,8 @@
       "media": "movie",
       "name": "Despicable Me 3",
       "year": "2017",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "DespicableMe32017.jpg",
       "theme": [
         "Action",
@@ -1430,6 +1433,8 @@
       "media": "movie",
       "name": "Dumbo",
       "year": "1941",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "Dumbo1941.jpg",
       "theme": [
         "Animation",
@@ -1453,12 +1458,12 @@
         "cartoon elephant"
       ],
       "author": [
-        "Bill Roberts",
         "Jack Kinney",
-        "Ben Sharpsteen",
-        "Norman Ferguson",
         "Wilfred Jackson",
-        "Samuel Armstrong"
+        "Norman Ferguson",
+        "Bill Roberts",
+        "Samuel Armstrong",
+        "Ben Sharpsteen"
       ],
       "cast": [
         "Edward Brophy",
@@ -1482,6 +1487,8 @@
       "media": "movie",
       "name": "Dungeons & Dragons: Honor Among Thieves",
       "year": "2023",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "DungeonsDragonsHonorAmongThieves2023.jpg",
       "theme": [
         "Adventure",
@@ -1555,6 +1562,8 @@
       "media": "movie",
       "name": "Elysium",
       "year": "2013",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Elysium2013.jpg",
       "theme": [
         "Science Fiction",
@@ -1598,6 +1607,8 @@
       "media": "movie",
       "name": "Emily the Criminal",
       "year": "2022",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "EmilytheCriminal2022.jpg",
       "theme": [
         "Crime",
@@ -1639,6 +1650,8 @@
       "media": "movie",
       "name": "Ghostbusters",
       "year": "1984",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "Ghostbusters1984.jpg",
       "theme": [
         "Comedy",
@@ -1694,6 +1707,8 @@
       "media": "movie",
       "name": "Ghostbusters II",
       "year": "1989",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "GhostbustersII1989.jpg",
       "theme": [
         "Comedy",
@@ -1749,6 +1764,8 @@
       "media": "movie",
       "name": "Groundhog Day",
       "year": "1993",
+      "type": "bluray",
+      "storage": "USA-COMEDY",
       "img": "GroundhogDay1993.jpg",
       "theme": [
         "Romance",
@@ -1797,6 +1814,8 @@
       "media": "movie",
       "name": "Immortal",
       "year": "2004",
+      "type": "bluray",
+      "storage": "FRANCE-SCIFI",
       "img": "Immortal2004.jpg",
       "theme": [
         "Drama",
@@ -1834,6 +1853,8 @@
       "media": "movie",
       "name": "Inkheart",
       "year": "2008",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "Inkheart2008.jpg",
       "theme": [
         "Adventure",
@@ -1872,6 +1893,8 @@
       "media": "movie",
       "name": "Interstellar",
       "year": "2014",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Interstellar2014.jpg",
       "theme": [
         "Adventure",
@@ -1935,6 +1958,8 @@
       "media": "movie",
       "name": "Ip Man 2",
       "year": "2010",
+      "type": "bluray",
+      "storage": "CHINA-ACTION",
       "img": "IpMan22010.jpg",
       "theme": [
         "Action",
@@ -1976,6 +2001,8 @@
       "media": "movie",
       "name": "Jason Bourne",
       "year": "2016",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "JasonBourne2016.jpg",
       "theme": [
         "Action",
@@ -2025,6 +2052,8 @@
       "media": "movie",
       "name": "John Carter",
       "year": "2012",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "JohnCarter2012.jpg",
       "theme": [
         "Action",
@@ -2069,51 +2098,12 @@
       "tagline": "Lost in our world, found in another.",
       "url": "https://www.themoviedb.org/movie/49529-john-carter?language=en-US"
     },
-    "JuliasEyes2010": {
-      "media": "movie",
-      "name": "Julia's Eyes",
-      "year": "2010",
-      "img": "JuliasEyes2010.jpg",
-      "theme": [
-        "Horror",
-        "Thriller"
-      ],
-      "keywords": [
-        "suicide",
-        "twin sister",
-        "knife",
-        "blindfold",
-        "murder",
-        "blindness",
-        "degeneration",
-        "mystery killer",
-        "hitchcockian"
-      ],
-      "author": [
-        "Guillem Morales"
-      ],
-      "cast": [
-        "Belén Rueda",
-        "Lluís Homar",
-        "Pablo Derqui",
-        "Francesc Orella",
-        "Joan Dalmau",
-        "Julia Gutiérrez Caba",
-        "Boris Ruiz",
-        "Dani Codina",
-        "Andrea Hermosa"
-      ],
-      "length": "1h 58m",
-      "minutes": 118,
-      "score": "67%",
-      "overview": "Julia, a woman suffering from a degenerative sight disease, finds her blind sister Sara hung in a basement. Despite all signs pointing to suicide, Julia decides to investigate what she intuitively feels is a murder case.",
-      "tagline": "You can't hide in the dark.",
-      "url": "https://www.themoviedb.org/movie/52274-los-ojos-de-julia?language=en-US"
-    },
     "KuboandtheTwoStrings2016": {
       "media": "movie",
       "name": "Kubo and the Two Strings",
       "year": "2016",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "KuboandtheTwoStrings2016.jpg",
       "theme": [
         "Animation",
@@ -2156,6 +2146,8 @@
       "media": "movie",
       "name": "La La Land",
       "year": "2016",
+      "type": "bluray",
+      "storage": "USA-MUSICAL",
       "img": "LaLaLand2016.jpg",
       "theme": [
         "Comedy",
@@ -2214,6 +2206,8 @@
       "media": "movie",
       "name": "Last Night in Soho",
       "year": "2021",
+      "type": "bluray",
+      "storage": "UK-DRAMA",
       "img": "LastNightinSoho2021.jpg",
       "theme": [
         "Horror",
@@ -2255,53 +2249,12 @@
       "tagline": "A murder in the past. A mystery in the future.",
       "url": "https://www.themoviedb.org/movie/576845-last-night-in-soho?language=en-US"
     },
-    "LettheRightOneIn2008": {
-      "media": "movie",
-      "name": "Let the Right One In",
-      "year": "2008",
-      "img": "LettheRightOneIn2008.jpg",
-      "theme": [
-        "Horror",
-        "Drama"
-      ],
-      "keywords": [
-        "based on novel or book",
-        "sweden",
-        "vampire",
-        "castration",
-        "bullying",
-        "child vampire",
-        "murder",
-        "bully",
-        "androgyny",
-        "new neighbor",
-        "young love"
-      ],
-      "author": [
-        "Tomas Alfredson"
-      ],
-      "cast": [
-        "Kåre Hedebrant",
-        "Lina Leandersson",
-        "Per Ragnar",
-        "Henrik Dahl",
-        "Karin Bergquist",
-        "Peter Carlberg",
-        "Ika Nord",
-        "Mikael Rahm",
-        "Karl-Robert Lindgren"
-      ],
-      "length": "1h 55m",
-      "minutes": 115,
-      "score": "75%",
-      "overview": "When Oskar, a sensitive, bullied 12-year-old boy, meets his new neighbor, the mysterious and moody Eli, they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl.",
-      "tagline": "Eli is 12 years old. She's been 12 for over 200 years, and she just moved in next door.",
-      "url": "https://www.themoviedb.org/movie/13310-lat-den-ratte-komma-in?language=en-US"
-    },
     "LostinTranslation2003": {
       "media": "movie",
       "name": "Lost in Translation",
       "year": "2003",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "LostinTranslation2003.jpg",
       "theme": [
         "Drama",
@@ -2351,67 +2304,12 @@
       "tagline": "Everyone wants to be found.",
       "url": "https://www.themoviedb.org/movie/153-lost-in-translation?language=en-US"
     },
-    "Memento2000": {
-      "media": "movie",
-      "name": "Memento",
-      "year": "2000",
-      "img": "Memento2000.jpg",
-      "theme": [
-        "Mystery",
-        "Thriller"
-      ],
-      "keywords": [
-        "insulin",
-        "tattoo",
-        "waitress",
-        "amnesia",
-        "drug dealer",
-        "motel",
-        "manipulation",
-        "revenge",
-        "murder",
-        "flashback",
-        "confusion",
-        "memory",
-        "memory loss",
-        "psychological thriller",
-        "whodunit",
-        "los angeles, california",
-        "polaroid",
-        "based on short story",
-        "nonlinear timeline",
-        "insurance agent",
-        "individuality",
-        "phone call",
-        "neo-noir",
-        "reverse chronology",
-        "remember"
-      ],
-      "author": [
-        "Christopher Nolan"
-      ],
-      "cast": [
-        "Guy Pearce",
-        "Carrie-Anne Moss",
-        "Joe Pantoliano",
-        "Mark Boone Junior",
-        "Russ Fega",
-        "Jorja Fox",
-        "Stephen Tobolowsky",
-        "Harriet Sansom Harris",
-        "Thomas Lennon"
-      ],
-      "length": "1h 53m",
-      "minutes": 113,
-      "score": "82%",
-      "overview": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
-      "tagline": "Some memories are best forgotten.",
-      "url": "https://www.themoviedb.org/movie/77-memento?language=en-US"
-    },
     "MrPoppersPenguins2011": {
       "media": "movie",
       "name": "Mr. Popper's Penguins",
       "year": "2011",
+      "type": "bluray",
+      "storage": "USA-COMEDY",
       "img": "MrPoppersPenguins2011.jpg",
       "theme": [
         "Comedy",
@@ -2455,6 +2353,8 @@
       "media": "movie",
       "name": "Oblivion",
       "year": "2013",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Oblivion2013.jpg",
       "theme": [
         "Action",
@@ -2498,6 +2398,8 @@
       "media": "movie",
       "name": "Oppenheimer",
       "year": "2023",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "Oppenheimer2023.jpg",
       "theme": [
         "Drama",
@@ -2555,6 +2457,8 @@
       "media": "movie",
       "name": "Pacific Rim",
       "year": "2013",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "PacificRim2013.jpg",
       "theme": [
         "Action",
@@ -2601,6 +2505,8 @@
       "media": "movie",
       "name": "Philomena",
       "year": "2013",
+      "type": "bluray",
+      "storage": "UK-DRAMA",
       "img": "Philomena2013.jpg",
       "theme": [
         "Drama"
@@ -2656,6 +2562,8 @@
       "media": "movie",
       "name": "Prometheus",
       "year": "2012",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "Prometheus2012.jpg",
       "theme": [
         "Science Fiction",
@@ -2702,6 +2610,8 @@
       "media": "movie",
       "name": "Raiders of the Lost Ark",
       "year": "1981",
+      "type": "bluray",
+      "storage": "USA-ADVENTURE",
       "img": "RaidersoftheLostArk1981.jpg",
       "theme": [
         "Adventure",
@@ -2757,6 +2667,8 @@
       "media": "movie",
       "name": "Ralph Breaks the Internet",
       "year": "2018",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "RalphBreakstheInternet2018.jpg",
       "theme": [
         "Family",
@@ -2800,6 +2712,8 @@
       "media": "movie",
       "name": "Real Steel",
       "year": "2011",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "RealSteel2011.jpg",
       "theme": [
         "Action",
@@ -2842,6 +2756,8 @@
       "media": "movie",
       "name": "Red Sonja",
       "year": "1985",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "RedSonja1985.jpg",
       "theme": [
         "Adventure",
@@ -2885,6 +2801,8 @@
       "media": "movie",
       "name": "Repo Men",
       "year": "2010",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "RepoMen2010.jpg",
       "theme": [
         "Action",
@@ -2936,6 +2854,8 @@
       "media": "movie",
       "name": "Return of the Jedi",
       "year": "1983",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "ReturnoftheJedi1983.jpg",
       "theme": [
         "Adventure",
@@ -2978,6 +2898,8 @@
       "media": "movie",
       "name": "Ring 2",
       "year": "1999",
+      "type": "bluray",
+      "storage": "JAPAN-HORROR",
       "img": "Ring21999.jpg",
       "theme": [
         "Horror",
@@ -3021,6 +2943,8 @@
       "media": "movie",
       "name": "RoboCop",
       "year": "1987",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "RoboCop1987.jpg",
       "theme": [
         "Action",
@@ -3065,6 +2989,8 @@
       "media": "movie",
       "name": "RoboCop",
       "year": "2014",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "RoboCop2014.jpg",
       "theme": [
         "Science Fiction",
@@ -3104,6 +3030,8 @@
       "media": "movie",
       "name": "RoboCop 2",
       "year": "1990",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "RoboCop21990.jpg",
       "theme": [
         "Action",
@@ -3145,6 +3073,8 @@
       "media": "movie",
       "name": "RoboCop 3",
       "year": "1993",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "RoboCop31993.jpg",
       "theme": [
         "Action",
@@ -3184,6 +3114,8 @@
       "media": "movie",
       "name": "Roxanne",
       "year": "1987",
+      "type": "bluray",
+      "storage": "USA-COMEDY",
       "img": "Roxanne1987.jpg",
       "theme": [
         "Comedy",
@@ -3228,6 +3160,8 @@
       "media": "movie",
       "name": "Sicario",
       "year": "2015",
+      "type": "bluray",
+      "storage": "USA-THRILLER",
       "img": "Sicario2015.jpg",
       "theme": [
         "Action",
@@ -3292,6 +3226,8 @@
       "media": "movie",
       "name": "Snow White and the Seven Dwarfs",
       "year": "1938",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "SnowWhiteandtheSevenDwarfs1938.jpg",
       "theme": [
         "Fantasy",
@@ -3322,12 +3258,12 @@
         "dwarfs"
       ],
       "author": [
-        "David Hand",
-        "William Cottrell",
         "Larry Morey",
-        "Wilfred Jackson",
+        "William Cottrell",
+        "David Hand",
+        "Perce Pearce",
         "Ben Sharpsteen",
-        "Perce Pearce"
+        "Wilfred Jackson"
       ],
       "cast": [
         "Adriana Caselotti",
@@ -3351,6 +3287,8 @@
       "media": "movie",
       "name": "Source Code",
       "year": "2011",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "SourceCode2011.jpg",
       "theme": [
         "Thriller",
@@ -3393,47 +3331,12 @@
       "tagline": "Make every second count.",
       "url": "https://www.themoviedb.org/movie/45612-source-code?language=en-US"
     },
-    "SpacePirateCaptainHarlock2013": {
-      "media": "movie",
-      "name": "Space Pirate Captain Harlock",
-      "year": "2013",
-      "img": "SpacePirateCaptainHarlock2013.jpg",
-      "theme": [
-        "Animation",
-        "Science Fiction"
-      ],
-      "keywords": [
-        "space invasion",
-        "space",
-        "pirate",
-        "adult animation",
-        "anime"
-      ],
-      "author": [
-        "Shinji Aramaki"
-      ],
-      "cast": [
-        "Shun Oguri",
-        "Haruma Miura",
-        "Yu Aoi",
-        "Arata Furuta",
-        "Ayano Fukuda",
-        "Toshiyuki Morikawa",
-        "Maaya Sakamoto",
-        "Kiyoshi Kobayashi",
-        "Chikao Ohtsuka"
-      ],
-      "length": "1h 55m",
-      "minutes": 115,
-      "score": "66%",
-      "overview": "Space Pirate Captain Harlock and his fearless crew face off against the space invaders who seek to conquer the planet Earth.",
-      "tagline": null,
-      "url": "https://www.themoviedb.org/movie/192577?language=en-US"
-    },
     "StarTrekIntoDarkness2013": {
       "media": "movie",
       "name": "Star Trek Into Darkness",
       "year": "2013",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "StarTrekIntoDarkness2013.jpg",
       "theme": [
         "Action",
@@ -3477,6 +3380,8 @@
       "media": "movie",
       "name": "Star Trek: The Motion Picture",
       "year": "1979",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "StarTrekTheMotionPicture1979.jpg",
       "theme": [
         "Science Fiction",
@@ -3520,6 +3425,8 @@
       "media": "movie",
       "name": "Star Wars",
       "year": "1977",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "StarWars1977.jpg",
       "theme": [
         "Adventure",
@@ -3570,6 +3477,8 @@
       "media": "movie",
       "name": "Star Wars: The Force Awakens",
       "year": "2015",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "StarWarsTheForceAwakens2015.jpg",
       "theme": [
         "Adventure",
@@ -3606,6 +3515,8 @@
       "media": "movie",
       "name": "Subway",
       "year": "1985",
+      "type": "bluray",
+      "storage": "FRANCE-DRAMA",
       "img": "Subway1985.jpg",
       "theme": [
         "Action",
@@ -3646,6 +3557,8 @@
       "media": "movie",
       "name": "Terminator Salvation",
       "year": "2009",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "TerminatorSalvation2009.jpg",
       "theme": [
         "Action",
@@ -3691,6 +3604,8 @@
       "media": "movie",
       "name": "The Adjustment Bureau",
       "year": "2011",
+      "type": "bluray",
+      "storage": "USA-SCIFI",
       "img": "TheAdjustmentBureau2011.jpg",
       "theme": [
         "Science Fiction",
@@ -3744,6 +3659,8 @@
       "media": "movie",
       "name": "The Adventures of Tintin",
       "year": "2011",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "TheAdventuresofTintin2011.jpg",
       "theme": [
         "Adventure",
@@ -3843,6 +3760,8 @@
       "media": "movie",
       "name": "The Conjuring",
       "year": "2013",
+      "type": "bluray",
+      "storage": "USA-HORROR",
       "img": "TheConjuring2013.jpg",
       "theme": [
         "Horror",
@@ -3891,6 +3810,8 @@
       "media": "movie",
       "name": "The Empire Strikes Back",
       "year": "1980",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "TheEmpireStrikesBack1980.jpg",
       "theme": [
         "Adventure",
@@ -3935,6 +3856,8 @@
       "media": "movie",
       "name": "The First Slam Dunk",
       "year": "2022",
+      "type": "bluray",
+      "storage": "JAPAN-ANIMATION",
       "img": "TheFirstSlamDunk2022.jpg",
       "theme": [
         "Animation",
@@ -3983,6 +3906,8 @@
       "media": "movie",
       "name": "The Flowers of War",
       "year": "2011",
+      "type": "bluray",
+      "storage": "CHINA-WAR",
       "img": "TheFlowersofWar2011.jpg",
       "theme": [
         "Drama",
@@ -4082,6 +4007,8 @@
       "media": "movie",
       "name": "The Godfather",
       "year": "1972",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "TheGodfather1972.jpg",
       "theme": [
         "Drama",
@@ -4138,6 +4065,8 @@
       "media": "movie",
       "name": "The Godfather Part II",
       "year": "1974",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "TheGodfatherPartII1974.jpg",
       "theme": [
         "Drama",
@@ -4193,6 +4122,8 @@
       "media": "movie",
       "name": "The Good Dinosaur",
       "year": "2015",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "TheGoodDinosaur2015.jpg",
       "theme": [
         "Adventure",
@@ -4237,6 +4168,8 @@
       "media": "movie",
       "name": "The Hunger Games",
       "year": "2012",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "TheHungerGames2012.jpg",
       "theme": [
         "Science Fiction",
@@ -4282,6 +4215,8 @@
       "media": "movie",
       "name": "The Lorax",
       "year": "2012",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "TheLorax2012.jpg",
       "theme": [
         "Animation",
@@ -4338,6 +4273,8 @@
       "media": "movie",
       "name": "The Omen",
       "year": "1976",
+      "type": "bluray",
+      "storage": "USA-HORROR",
       "img": "TheOmen1976.jpg",
       "theme": [
         "Horror",
@@ -4389,6 +4326,8 @@
       "media": "movie",
       "name": "The Remains of the Day",
       "year": "1993",
+      "type": "bluray",
+      "storage": "UK-DRAMA",
       "img": "TheRemainsoftheDay1993.jpg",
       "theme": [
         "Drama",
@@ -4434,6 +4373,8 @@
       "media": "movie",
       "name": "The Shawshank Redemption",
       "year": "1994",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "TheShawshankRedemption1994.jpg",
       "theme": [
         "Drama",
@@ -4482,6 +4423,8 @@
       "media": "movie",
       "name": "The Shining",
       "year": "1980",
+      "type": "bluray",
+      "storage": "USA-HORROR",
       "img": "TheShining1980.jpg",
       "theme": [
         "Horror",
@@ -4567,6 +4510,8 @@
       "media": "movie",
       "name": "The Untouchables",
       "year": "1987",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "TheUntouchables1987.jpg",
       "theme": [
         "Crime",
@@ -4611,6 +4556,8 @@
       "media": "movie",
       "name": "The Witch",
       "year": "2016",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "TheWitch2016.jpg",
       "theme": [
         "Horror",
@@ -4664,6 +4611,8 @@
       "media": "movie",
       "name": "Thin Ice",
       "year": "2012",
+      "type": "bluray",
+      "storage": "USA-COMEDY",
       "img": "ThinIce2012.jpg",
       "theme": [
         "Comedy",
@@ -4750,6 +4699,8 @@
       "media": "movie",
       "name": "Toy Story 3",
       "year": "2010",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "ToyStory32010.jpg",
       "theme": [
         "Animation",
@@ -4793,6 +4744,8 @@
       "media": "movie",
       "name": "U-571",
       "year": "2000",
+      "type": "bluray",
+      "storage": "UK-WAR",
       "img": "U5712000.jpg",
       "theme": [
         "War",
@@ -4831,6 +4784,8 @@
       "media": "movie",
       "name": "Videodrome",
       "year": "1983",
+      "type": "bluray",
+      "storage": "USA-HORROR",
       "img": "Videodrome1983.jpg",
       "theme": [
         "Horror",
@@ -4880,6 +4835,8 @@
       "media": "movie",
       "name": "WALL·E",
       "year": "2008",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
       "img": "WALLE2008.jpg",
       "theme": [
         "Animation",
@@ -4921,6 +4878,8 @@
       "media": "movie",
       "name": "Watchmen",
       "year": "2009",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "Watchmen2009.jpg",
       "theme": [
         "Mystery",
@@ -4969,6 +4928,8 @@
       "media": "movie",
       "name": "Willow",
       "year": "1988",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
       "img": "Willow1988.jpg",
       "theme": [
         "Fantasy",
@@ -5015,6 +4976,8 @@
       "media": "movie",
       "name": "X-Men: First Class",
       "year": "2011",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "XMenFirstClass2011.jpg",
       "theme": [
         "Action",
@@ -5059,6 +5022,8 @@
       "media": "movie",
       "name": "X-Men Origins: Wolverine",
       "year": "2009",
+      "type": "bluray",
+      "storage": "USA-ACTION",
       "img": "XMenOriginsWolverine2009.jpg",
       "theme": [
         "Adventure",
@@ -5102,6 +5067,8 @@
       "media": "movie",
       "name": "Yes Man",
       "year": "2008",
+      "type": "bluray",
+      "storage": "USA-COMEDY",
       "img": "YesMan2008.jpg",
       "theme": [
         "Comedy",
@@ -5147,6 +5114,8 @@
       "media": "movie",
       "name": "Young Adult",
       "year": "2011",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
       "img": "YoungAdult2011.jpg",
       "theme": [
         "Comedy",

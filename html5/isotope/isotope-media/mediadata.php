@@ -29,6 +29,8 @@ function gamepage($jfile) {
 
     $genre  = implode(' ', $item['theme']);
 
+    $keywords  = implode(', ', $item['keywords']);
+
     $urlWF = "";
     if ( isset($item['url_WF']) ) {
       $urlWF = "<a href=" . $item['url_WF'] . " target='_blank'>WF Page</a>";
@@ -36,7 +38,7 @@ function gamepage($jfile) {
 
     $template =<<<TEM
       <div class="element-item $class $genre overcard" data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
-        <p class="name" title="{$item['tagline']}"><a href='{$item['url']}'>{$item['name']}</a></p>
+        <p class="name" title="Tagline: {$item['tagline']} \n\nKeywords: {$keywords}"><a href='{$item['url']}'>{$item['name']}</a></p>
         <p class="year">{$item['year']}</p>
         <p class="author" title="cast: $cast">{$author}</p>
         <p class="length">{$item['length']}</p>
