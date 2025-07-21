@@ -160,6 +160,62 @@
       "tagline": "He Will Rock You",
       "url": "https://www.themoviedb.org/movie/9476-a-knight-s-tale?language=en-US"
     },
+    "Aladdin1992": {
+      "media": "movie",
+      "name": "Aladdin",
+      "year": "1992",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "Aladdin1992.jpg",
+      "theme": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Fantasy",
+        "Romance"
+      ],
+      "keywords": [
+        "magic",
+        "villain",
+        "parrot",
+        "musical",
+        "tiger",
+        "sultan",
+        "flying carpet",
+        "wish",
+        "cartoon",
+        "princess",
+        "love",
+        "monkey",
+        "arab",
+        "aftercreditsstinger",
+        "genie",
+        "arabian nights",
+        "animal sidekick",
+        "magic lamp"
+      ],
+      "author": [
+        "Ron Clements",
+        "John Musker"
+      ],
+      "cast": [
+        "Scott Weinger",
+        "Robin Williams",
+        "Linda Larkin",
+        "Jonathan Freeman",
+        "Gilbert Gottfried",
+        "Douglas Seale",
+        "Frank Welker",
+        "Brad Kane",
+        "Lea Salonga"
+      ],
+      "length": "1h 32m",
+      "minutes": 92,
+      "score": "77%",
+      "overview": "In the boorish city of Agrabah, kind-hearted street urchin Aladdin and Princess Jasmine fall in love, although she can only marry a prince. He and power-hungry Grand Vizier Jafar vie for a magic lamp that can fulfill their wishes.",
+      "tagline": "Imagine if you had three wishes, three hopes, three dreams and they all could come true.",
+      "url": "https://www.themoviedb.org/movie/812-aladdin?language=en-US"
+    },
     "Alien1979": {
       "media": "movie",
       "name": "Alien",
@@ -434,6 +490,50 @@
       "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
       "tagline": "Enter the world of Pandora.",
       "url": "https://www.themoviedb.org/movie/19995-avatar?language=en-US"
+    },
+    "AWholeLifeAhead2008": {
+      "media": "movie",
+      "name": "A Whole Life Ahead",
+      "year": "2008",
+      "type": "dvd",
+      "storage": "ITALIA-COMEDY",
+      "img": "AWholeLifeAhead2008.jpg",
+      "theme": [
+        "Comedy",
+        "Drama"
+      ],
+      "keywords": [
+        "call center",
+        "unemployment",
+        "labor organizer",
+        "social issues",
+        "dramedy",
+        "graduate student",
+        "workplace comedy",
+        "worker's rights",
+        "romantic misunderstanding",
+        "bullying in the workplace"
+      ],
+      "author": [
+        "Paolo Virzì"
+      ],
+      "cast": [
+        "Isabella Ragonese",
+        "Massimo Ghini",
+        "Valerio Mastandrea",
+        "Micaela Ramazzotti",
+        "Elio Germano",
+        "Sabrina Ferilli",
+        "Laura Morante",
+        "Giulia Salerno",
+        "Edoardo Gabbriellini"
+      ],
+      "length": "1h 57m",
+      "minutes": 117,
+      "score": "66%",
+      "overview": "25-year-old philosophy major Marta faces the ugly truth for many young Italians — a complete lack of career opportunities. While babysitting for single mother Sonia, she starts to work as a telemarketer, experiencing first-hand the fanatical and exploitative rat-race culture pushed on employees while quickly rising through the ranks of the company. Around her revolve people like delusional supervisor Daniela, her womanizing boss Claudio, fragile coworker Lucio \"2\", and well-meaning but inconsistent union rep Giorgio.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/51917-tutta-la-vita-davanti?language=it-IT&language=en-US"
     },
     "BacktotheFuture1985": {
       "media": "movie",
@@ -1646,6 +1746,89 @@
       "tagline": "High risks come with even higher rewards.",
       "url": "https://www.themoviedb.org/movie/862965-emily-the-criminal?language=en-US"
     },
+    "FindingNemo2003": {
+      "media": "movie",
+      "name": "Finding Nemo",
+      "year": "2003",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "FindingNemo2003.jpg",
+      "theme": [
+        "Animation",
+        "Family"
+      ],
+      "keywords": [
+        "parent child relationship",
+        "fish",
+        "sydney, australia",
+        "harbor",
+        "anthropomorphism",
+        "underwater",
+        "shark",
+        "pelican",
+        "fish tank",
+        "great barrier reef",
+        "sea turtle",
+        "missing child",
+        "aftercreditsstinger",
+        "duringcreditsstinger",
+        "short-term memory loss",
+        "clownfish",
+        "father son reunion",
+        "protective father"
+      ],
+      "author": [
+        "Andrew Stanton"
+      ],
+      "cast": [
+        "Albert Brooks",
+        "Ellen DeGeneres",
+        "Alexander Gould",
+        "Willem Dafoe",
+        "Geoffrey Rush",
+        "Brad Garrett",
+        "Austin Pendleton",
+        "Stephen Root"
+      ],
+      "length": "1h 40m",
+      "minutes": 100,
+      "score": "78%",
+      "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls, and more along the way.",
+      "tagline": "There are 3.7 trillion fish in the ocean. They're looking for one.",
+      "url": "https://www.themoviedb.org/movie/12-finding-nemo?language=en-US"
+    },
+    "GarmWarsTheLastDruid2014": {
+      "media": "movie",
+      "name": "Garm Wars: The Last Druid",
+      "year": "2014",
+      "type": "bluray",
+      "storage": "JAPAN-SCIFI",
+      "img": "GarmWarsTheLastDruid2014.jpg",
+      "theme": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "keywords": [],
+      "author": [
+        "Mamoru Oshii"
+      ],
+      "cast": [
+        "Lance Henriksen",
+        "Kevin Durand",
+        "Mélanie St-Pierre",
+        "Summer H. Howell",
+        "Andrew Gillies",
+        "Dawn Ford",
+        "Jordan Van Dyck"
+      ],
+      "length": "1h 32m",
+      "minutes": 92,
+      "score": "47%",
+      "overview": "In a world where clone soldiers from three military tribes are locked in a perpetual battle of air, land and technology, one clone is separated from the battle and finds herself on the run with a group of unlikely companions.",
+      "tagline": "Fight. Die. Download.",
+      "url": "https://www.themoviedb.org/movie/302026-garm-wars-the-last-druid?language=en-US"
+    },
     "Ghostbusters1984": {
       "media": "movie",
       "name": "Ghostbusters",
@@ -1760,6 +1943,61 @@
       "tagline": "Guess who's coming to save the world again?",
       "url": "https://www.themoviedb.org/movie/2978-ghostbusters-ii?language=en-US"
     },
+    "GoldenDoor2006": {
+      "media": "movie",
+      "name": "Golden Door",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "ITALIA-DRAMA",
+      "img": "GoldenDoor2006.jpg",
+      "theme": [
+        "History",
+        "Drama",
+        "Romance"
+      ],
+      "keywords": [
+        "italy",
+        "sicily, italy",
+        "tradition",
+        "parent child relationship",
+        "home",
+        "attachment to nature",
+        "emigration",
+        "atlantic ocean",
+        "restart",
+        "family history",
+        "utopia",
+        "ship",
+        "peasant",
+        "progress",
+        "ocean crossing",
+        "intelligence test",
+        "superstition",
+        "mute",
+        "family",
+        "emigrant"
+      ],
+      "author": [
+        "Emanuele Crialese"
+      ],
+      "cast": [
+        "Charlotte Gainsbourg",
+        "Vincenzo Amato",
+        "Aurora Quattrocchi",
+        "Francesco Casisa",
+        "Filippo Pucillo",
+        "Vincent Schiavelli",
+        "Federica De Cola",
+        "Isabella Ragonese",
+        "Massimo Laguardia"
+      ],
+      "length": "1h 58m",
+      "minutes": 118,
+      "score": "65%",
+      "overview": "The story is set at the beginning of the 20th century in Sicily. Salvatore, a very poor farmer, and a widower, decides to emigrate to the US with all his family, including his old mother. Before they embark, they meet Lucy. She is supposed to be a British lady and wants to come back to the States. Lucy, or Luce as Salvatore calls her, for unknown reasons wants to marry someone before to arrive to Ellis Island in New York. Salvatore accepts the proposal. Once they arrive in Ellis Island they spend the quarantine period trying to pass the examinations to be admitted to the States. Tests are not so simple for poor farmers coming from Sicily. Their destiny is in the hands of the custom officers.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/1993-nuovomondo?language=it-IT&language=en-US"
+    },
     "GroundhogDay1993": {
       "media": "movie",
       "name": "Groundhog Day",
@@ -1809,6 +2047,58 @@
       "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer, and his mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
       "tagline": "He’s having the worst day of his life… Over and over again.",
       "url": "https://www.themoviedb.org/movie/137-groundhog-day?language=en-US"
+    },
+    "Hercules1997": {
+      "media": "movie",
+      "name": "Hercules",
+      "year": "1997",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "Hercules1997.jpg",
+      "theme": [
+        "Animation",
+        "Family",
+        "Fantasy",
+        "Adventure",
+        "Comedy",
+        "Romance"
+      ],
+      "keywords": [
+        "hades",
+        "villain",
+        "musical",
+        "peasant",
+        "cartoon",
+        "pegasus",
+        "zeus",
+        "coming of age",
+        "ancient greece",
+        "aftercreditsstinger",
+        "olympus",
+        "hercules",
+        "worth"
+      ],
+      "author": [
+        "Ron Clements",
+        "John Musker"
+      ],
+      "cast": [
+        "Tate Donovan",
+        "Josh Keaton",
+        "Roger Bart",
+        "Danny DeVito",
+        "James Woods",
+        "Susan Egan",
+        "Bobcat Goldthwait",
+        "Matt Frewer",
+        "Rip Torn"
+      ],
+      "length": "1h 33m",
+      "minutes": 93,
+      "score": "75%",
+      "overview": "Bestowed with superhuman strength, a young mortal named Hercules sets out to prove himself a hero in the eyes of his father, the great god Zeus. Along with his friends Pegasus, a flying horse, and Phil, a personal trainer, Hercules is tricked by the hilarious, hotheaded villain Hades, who's plotting to take over Mount Olympus!",
+      "tagline": "The man. The myth. The movie.",
+      "url": "https://www.themoviedb.org/movie/11970-hercules?language=en-US"
     },
     "Immortal2004": {
       "media": "movie",
@@ -2304,6 +2594,63 @@
       "tagline": "Everyone wants to be found.",
       "url": "https://www.themoviedb.org/movie/153-lost-in-translation?language=en-US"
     },
+    "MonstersInc2001": {
+      "media": "movie",
+      "name": "Monsters, Inc.",
+      "year": "2001",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "MonstersInc2001.jpg",
+      "theme": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "keywords": [
+        "monster",
+        "cheating",
+        "kidnapping",
+        "door",
+        "infant",
+        "villain",
+        "panic",
+        "energy supply",
+        "portal",
+        "friends",
+        "rivalry",
+        "hijinks",
+        "best friend",
+        "chameleon",
+        "family",
+        "parallel world",
+        "conveyor belt",
+        "duringcreditsstinger",
+        "villain arrested",
+        "invisibility",
+        "energy company",
+        "conspirators"
+      ],
+      "author": [
+        "Pete Docter"
+      ],
+      "cast": [
+        "John Goodman",
+        "Billy Crystal",
+        "Mary Gibbs",
+        "Steve Buscemi",
+        "James Coburn",
+        "Jennifer Tilly",
+        "Bob Peterson",
+        "John Ratzenberger",
+        "Frank Oz"
+      ],
+      "length": "1h 32m",
+      "minutes": 92,
+      "score": "78%",
+      "overview": "Lovable Sulley and his wisecracking sidekick Mike Wazowski are the top scare team at Monsters, Inc., the scream-processing factory in Monstropolis. When a little girl named Boo wanders into their world, it's the monsters who are scared silly, and it's up to Sulley and Mike to keep her out of sight and get her back home.",
+      "tagline": "It's nothing personal. It's just their job.",
+      "url": "https://www.themoviedb.org/movie/585-monsters-inc?language=en-US"
+    },
     "MrPoppersPenguins2011": {
       "media": "movie",
       "name": "Mr. Popper's Penguins",
@@ -2348,6 +2695,65 @@
       "overview": "Tom Popper is a successful businessman who’s clueless when it comes to the really important things in life...until he inherits six “adorable” penguins, each with its own unique personality. Soon Tom’s rambunctious roommates turn his swank New York apartment into a snowy winter wonderland — and the rest of his world upside-down.",
       "tagline": null,
       "url": "https://www.themoviedb.org/movie/58224-mr-popper-s-penguins?language=en-US"
+    },
+    "Mulan1998": {
+      "media": "movie",
+      "name": "Mulan",
+      "year": "1998",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "Mulan1998.jpg",
+      "theme": [
+        "Animation",
+        "Family",
+        "Adventure"
+      ],
+      "keywords": [
+        "china",
+        "homeland",
+        "villain",
+        "musical",
+        "sexism",
+        "training",
+        "daughter",
+        "cricket",
+        "princess",
+        "female protagonist",
+        "dragon",
+        "east asian lead",
+        "war hero",
+        "based on song, poem or rhyme",
+        "luck",
+        "great wall of china",
+        "gender disguise",
+        "based on fairy tale",
+        "female warrior",
+        "hand drawn animation",
+        "father daughter relationship",
+        "action comedy",
+        "woman disguised as man"
+      ],
+      "author": [
+        "Barry Cook",
+        "Tony Bancroft"
+      ],
+      "cast": [
+        "Ming-Na Wen",
+        "Eddie Murphy",
+        "BD Wong",
+        "Miguel Ferrer",
+        "Harvey Fierstein",
+        "Freda Foh Shen",
+        "June Foray",
+        "James Hong",
+        "Miriam Margolyes"
+      ],
+      "length": "1h 28m",
+      "minutes": 88,
+      "score": "79%",
+      "overview": "To save her father from certain death in the army, a young woman secretly enlists in his place and becomes one of China's greatest heroines in the process.",
+      "tagline": "Courage. Family. Honor.",
+      "url": "https://www.themoviedb.org/movie/10674-mulan?language=en-US"
     },
     "Oblivion2013": {
       "media": "movie",
@@ -2453,6 +2859,53 @@
       "tagline": "The world forever changes.",
       "url": "https://www.themoviedb.org/movie/872585-oppenheimer?language=en-US"
     },
+    "Ovosodo1997": {
+      "media": "movie",
+      "name": "Ovosodo",
+      "year": "1997",
+      "type": "dvd",
+      "storage": "ITALIA-COMEDY",
+      "img": "Ovosodo1997.jpg",
+      "theme": [
+        "Comedy",
+        "Drama"
+      ],
+      "keywords": [
+        "puberty",
+        "rich woman poor man",
+        "coming of age",
+        "working class",
+        "oil refinery",
+        "tuscany, italy",
+        "blue collar worker",
+        "proletarian",
+        "manipulative friend",
+        "late coming of age",
+        "italian suburbs",
+        "bittersweet",
+        "father in prison"
+      ],
+      "author": [
+        "Paolo Virzì"
+      ],
+      "cast": [
+        "Edoardo Gabbriellini",
+        "Claudia Pandolfi",
+        "Nicoletta Braschi",
+        "Regina Orioli",
+        "Malcolm Lunghi",
+        "Alessio Fantozzi",
+        "Marco Cocci",
+        "Pietro Fornaciari",
+        "Monica Brachini"
+      ],
+      "length": "1h 40m",
+      "minutes": 100,
+      "score": "72%",
+      "overview": "From childhood to fatherhood, Piero learns things the hard way while growing up in a working-class neighborhood of Livorno.",
+      "tagline": "Life... what a sweet, cruel, silly thing.",
+      "url": "https://www.themoviedb.org/movie/48254-ovosodo?language=it-IT&language=en-US"
+    },
     "PacificRim2013": {
       "media": "movie",
       "name": "Pacific Rim",
@@ -2500,6 +2953,31 @@
       "overview": "Using massive piloted robots to combat the alien threat, earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as earth's final hope against the mounting apocalypse.",
       "tagline": "To fight monsters, we created monsters.",
       "url": "https://www.themoviedb.org/movie/68726-pacific-rim?language=en-US"
+    },
+    "PaveeLackeenTheTravellerGirl2005": {
+      "media": "movie",
+      "name": "Pavee Lackeen: The Traveller Girl",
+      "year": "2005",
+      "type": "dvd",
+      "storage": "IRELAND-DRAMA",
+      "img": "PaveeLackeenTheTravellerGirl2005.jpg",
+      "theme": [
+        "Drama"
+      ],
+      "keywords": [],
+      "author": [
+        "Perry Ogden"
+      ],
+      "cast": [
+        "Winnie Maughan",
+        "Michael Collins"
+      ],
+      "length": "1h 27m",
+      "minutes": 87,
+      "score": "61%",
+      "overview": "An intimate portrait of a resilient and spirited young girl and her proud and dignified family, who are part of Ireland's \"traveller\" community.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/31450-pavee-lackeen-the-traveller-girl?language=en-US"
     },
     "Philomena2013": {
       "media": "movie",
@@ -3156,6 +3634,61 @@
       "tagline": "Roxanne dreamed of a handsome, intelligent, romantic man. C.D. Bales is two out of three—but looks aren't everything.",
       "url": "https://www.themoviedb.org/movie/11584-roxanne?language=en-US"
     },
+    "SchindlersList1993": {
+      "media": "movie",
+      "name": "Schindler's List",
+      "year": "1993",
+      "type": "dvd",
+      "storage": "USA-DRAMA",
+      "img": "SchindlersList1993.jpg",
+      "theme": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "keywords": [
+        "factory",
+        "concentration camp",
+        "hero",
+        "holocaust (shoah)",
+        "ss (nazi schutzstaffel)",
+        "world war ii",
+        "ghetto",
+        "jew persecution",
+        "kraków, poland",
+        "auschwitz-birkenau concentration camp",
+        "industrialist",
+        "nazi",
+        "defense industry",
+        "biography",
+        "based on true story",
+        "historical fiction",
+        "black and white",
+        "train",
+        "poland",
+        "evil",
+        "weapons manufacturer",
+        "nazi train"
+      ],
+      "author": [
+        "Steven Spielberg"
+      ],
+      "cast": [
+        "Liam Neeson",
+        "Ben Kingsley",
+        "Ralph Fiennes",
+        "Embeth Davidtz",
+        "Malgorzata Gebel",
+        "Shmuel Levy",
+        "Mark Ivanir"
+      ],
+      "length": "3h 15m",
+      "minutes": 195,
+      "score": "86%",
+      "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+      "tagline": "Whoever saves one life, saves the world entire.",
+      "url": "https://www.themoviedb.org/movie/424-schindler-s-list?language=en-US"
+    },
     "Sicario2015": {
       "media": "movie",
       "name": "Sicario",
@@ -3221,6 +3754,59 @@
       "overview": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
       "tagline": "The border is just another line to cross.",
       "url": "https://www.themoviedb.org/movie/273481-sicario?language=en-US"
+    },
+    "SleepingBeauty1959": {
+      "media": "movie",
+      "name": "Sleeping Beauty",
+      "year": "1959",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "SleepingBeauty1959.jpg",
+      "theme": [
+        "Fantasy",
+        "Animation",
+        "Romance",
+        "Family"
+      ],
+      "keywords": [
+        "witch",
+        "sleep",
+        "magic",
+        "fairy",
+        "prince",
+        "castle",
+        "fairy tale",
+        "villain",
+        "kingdom",
+        "kiss",
+        "cartoon",
+        "princess",
+        "knight",
+        "dragon",
+        "dungeon",
+        "female villain",
+        "based on fairy tale",
+        "sleeping beauty"
+      ],
+      "author": [
+        "Clyde Geronimi"
+      ],
+      "cast": [
+        "Mary Costa",
+        "Bill Shirley",
+        "Eleanor Audley",
+        "Verna Felton",
+        "Barbara Luddy",
+        "Taylor Holmes",
+        "Bill Thompson",
+        "Marvin Miller"
+      ],
+      "length": "1h 15m",
+      "minutes": 75,
+      "score": "69%",
+      "overview": "Cursed to die by the evil fairy Maleficent when she was a baby, Princess Aurora is sent into hiding under protection from three good fairies. As she grows up far away, Maleficent becomes increasingly determined to seal the princess's fate.",
+      "tagline": "Awaken to a World of Wonders!",
+      "url": "https://www.themoviedb.org/movie/10882-sleeping-beauty?language=en-US"
     },
     "SnowWhiteandtheSevenDwarfs1938": {
       "media": "movie",
@@ -3701,6 +4287,55 @@
       "overview": "Intrepid young reporter, Tintin, and his loyal dog, Snowy, are thrust into a world of high adventure when they discover a ship carrying an explosive secret. As Tintin is drawn into a centuries-old mystery, Ivan Ivanovitch Sakharine suspects him of stealing a priceless treasure. Tintin and Snowy, with the help of salty, cantankerous Captain Haddock and bumbling detectives, Thompson and Thomson, travel half the world, one step ahead of their enemies, as Tintin endeavors to find the Unicorn, a sunken ship that may hold a vast fortune, but also an ancient curse.",
       "tagline": "Discover how far adventure will take you.",
       "url": "https://www.themoviedb.org/movie/17578-the-adventures-of-tintin?language=en-US"
+    },
+    "TheAristocats1970": {
+      "media": "movie",
+      "name": "The Aristocats",
+      "year": "1970",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "TheAristocats1970.jpg",
+      "theme": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "keywords": [
+        "paris, france",
+        "butler",
+        "return",
+        "villain",
+        "suspension",
+        "cartoon",
+        "inheritance",
+        "cartoon cat",
+        "kitten",
+        "1910s",
+        "greedy",
+        "cartoon animal",
+        "cartoon goose"
+      ],
+      "author": [
+        "Wolfgang Reitherman"
+      ],
+      "cast": [
+        "Phil Harris",
+        "Eva Gabor",
+        "Sterling Holloway",
+        "Scatman Crothers",
+        "Paul Winchell",
+        "Lord Tim Hudson",
+        "Vito Scotti",
+        "Thurl Ravenscroft",
+        "Dean Clark"
+      ],
+      "length": "1h 18m",
+      "minutes": 78,
+      "score": "73%",
+      "overview": "When Madame Adelaide Bonfamille leaves her fortune to Duchess and her children—Bonfamille’s beloved family of cats—the butler plots to steal the money and kidnaps the legatees, leaving them out on a country road. All seems lost until the wily Thomas O’Malley Cat and his jazz-playing alley cats come to the aristocats’ rescue.",
+      "tagline": "A tune-filled animated extravaganza.",
+      "url": "https://www.themoviedb.org/movie/10112-the-aristocats?language=en-US"
     },
     "TheBatman2022": {
       "media": "movie",
@@ -4211,6 +4846,63 @@
       "tagline": "The world will be watching.",
       "url": "https://www.themoviedb.org/movie/70160-the-hunger-games?language=en-US"
     },
+    "TheLionKing1994": {
+      "media": "movie",
+      "name": "The Lion King",
+      "year": "1994",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "TheLionKing1994.jpg",
+      "theme": [
+        "Family",
+        "Animation",
+        "Drama"
+      ],
+      "keywords": [
+        "africa",
+        "loss of loved one",
+        "lion",
+        "father murder",
+        "manipulation",
+        "villain",
+        "musical",
+        "uncle",
+        "cartoon",
+        "murder",
+        "warthog",
+        "coming of age",
+        "shaman",
+        "redemption",
+        "king",
+        "scar",
+        "family",
+        "hyena",
+        "meerkat",
+        "nature",
+        "mandrill"
+      ],
+      "author": [
+        "Rob Minkoff",
+        "Roger Allers"
+      ],
+      "cast": [
+        "Matthew Broderick",
+        "Moira Kelly",
+        "Nathan Lane",
+        "Ernie Sabella",
+        "James Earl Jones",
+        "Jeremy Irons",
+        "Robert Guillaume",
+        "Rowan Atkinson",
+        "Jonathan Taylor Thomas"
+      ],
+      "length": "1h 29m",
+      "minutes": 89,
+      "score": "83%",
+      "overview": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
+      "tagline": "The greatest adventure of all is finding our place in the Circle of Life.",
+      "url": "https://www.themoviedb.org/movie/8587-the-lion-king?language=en-US"
+    },
     "TheLorax2012": {
       "media": "movie",
       "name": "The Lorax",
@@ -4268,6 +4960,56 @@
       "overview": "A 12-year-old boy searches for the one thing that will enable him to win the affection of the girl of his dreams. To find it he must discover the story of the Lorax, the grumpy yet charming creature who fights to protect his world.",
       "tagline": "Meet the original force of nature.",
       "url": "https://www.themoviedb.org/movie/73723-the-lorax?language=en-US"
+    },
+    "TheNightmareBeforeChristmas1993": {
+      "media": "movie",
+      "name": "The Nightmare Before Christmas",
+      "year": "1993",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "TheNightmareBeforeChristmas1993.jpg",
+      "theme": [
+        "Fantasy",
+        "Animation",
+        "Family"
+      ],
+      "keywords": [
+        "holiday",
+        "fire",
+        "santa claus",
+        "magic",
+        "villain",
+        "halloween",
+        "skeleton",
+        "musical",
+        "christmas tree",
+        "woods",
+        "stop motion",
+        "pumpkin",
+        "saving christmas",
+        "christmas horror",
+        "christmas"
+      ],
+      "author": [
+        "Henry Selick"
+      ],
+      "cast": [
+        "Danny Elfman",
+        "Chris Sarandon",
+        "Catherine O'Hara",
+        "William Hickey",
+        "Glenn Shadix",
+        "Paul Reubens",
+        "Ken Page",
+        "Edward Ivory",
+        "Susan McBride"
+      ],
+      "length": "1h 16m",
+      "minutes": 76,
+      "score": "78%",
+      "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
+      "tagline": "What's this? What's this?",
+      "url": "https://www.themoviedb.org/movie/9479-the-nightmare-before-christmas?language=en-US"
     },
     "TheOmen1976": {
       "media": "movie",
@@ -4368,6 +5110,55 @@
       "overview": "A rule-bound head butler's world of manners and decorum in the household he maintains is tested by the arrival of a housekeeper who falls in love with him in post-WWI Britain. The possibility of romance and his master's cultivation of ties with the Nazi cause challenge his carefully maintained veneer of servitude.",
       "tagline": "Diamond in the Rough.",
       "url": "https://www.themoviedb.org/movie/1245-the-remains-of-the-day?language=en-US"
+    },
+    "TheRoadtoElDorado2000": {
+      "media": "movie",
+      "name": "The Road to El Dorado",
+      "year": "2000",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "TheRoadtoElDorado2000.jpg",
+      "theme": [
+        "Family",
+        "Adventure",
+        "Animation",
+        "Comedy",
+        "Fantasy"
+      ],
+      "keywords": [
+        "gold",
+        "horse",
+        "musical",
+        "cartoon",
+        "sword fight",
+        "con artist",
+        "adventurer",
+        "16th century",
+        "conquistador",
+        "el dorado",
+        "age of discovery"
+      ],
+      "author": [
+        "Bibo Bergeron",
+        "Don Paul"
+      ],
+      "cast": [
+        "Kenneth Branagh",
+        "Kevin Kline",
+        "Rosie Perez",
+        "Armand Assante",
+        "Edward James Olmos",
+        "Jim Cummings",
+        "Frank Welker",
+        "Tobin Bell",
+        "Elton John"
+      ],
+      "length": "1h 29m",
+      "minutes": 89,
+      "score": "73%",
+      "overview": "Stowing away after a failed con, a pair of swindlers end up on El Dorado, the fabled \"city of gold\", where they quickly get in over their heads when they are mistaken as gods by the inhabitants.",
+      "tagline": "They came for the gold. They stayed for the adventure.",
+      "url": "https://www.themoviedb.org/movie/10501-the-road-to-el-dorado?language=en-US"
     },
     "TheShawshankRedemption1994": {
       "media": "movie",
@@ -4694,6 +5485,150 @@
       "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
       "tagline": null,
       "url": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri?language=en-US"
+    },
+    "TinkerBellandtheLostTreasure2009": {
+      "media": "movie",
+      "name": "Tinker Bell and the Lost Treasure",
+      "year": "2009",
+      "type": "bluray",
+      "storage": "USA-ANIMATION",
+      "img": "TinkerBellandtheLostTreasure2009.jpg",
+      "theme": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Fantasy"
+      ],
+      "keywords": [
+        "friendship",
+        "based on children's book",
+        "anger issues"
+      ],
+      "author": [
+        "Klay Hall"
+      ],
+      "cast": [
+        "Mae Whitman",
+        "Jesse McCartney",
+        "Jane Horrocks",
+        "Lucy Liu",
+        "Raven-Symoné",
+        "Kristin Chenoweth",
+        "Angela Bartys",
+        "Anjelica Huston",
+        "Rob Paulsen"
+      ],
+      "length": "1h 21m",
+      "minutes": 81,
+      "score": "68%",
+      "overview": "A blue harvest moon will rise, allowing the fairies to use a precious moonstone to restore the Pixie Dust Tree, the source of all their magic. But when Tinker Bell accidentally puts all of Pixie Hollow in jeopardy, she must venture out across the sea on a secret quest to set things right.",
+      "tagline": "Adventure beyond Pixie Hollow",
+      "url": "https://www.themoviedb.org/movie/25475-tinker-bell-and-the-lost-treasure?language=en-US"
+    },
+    "ToyStory1995": {
+      "media": "movie",
+      "name": "Toy Story",
+      "year": "1995",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "ToyStory1995.jpg",
+      "theme": [
+        "Animation",
+        "Adventure",
+        "Family",
+        "Comedy"
+      ],
+      "keywords": [
+        "jealousy",
+        "villain",
+        "friendship",
+        "bullying",
+        "elementary school",
+        "friends",
+        "rivalry",
+        "rescue",
+        "computer animation",
+        "mission",
+        "anthropomorphism",
+        "buddy",
+        "walkie talkie",
+        "toy car",
+        "boy next door",
+        "new toy",
+        "neighborhood",
+        "toy comes to life",
+        "resourcefulness",
+        "toy",
+        "pixar"
+      ],
+      "author": [
+        "John Lasseter"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Don Rickles",
+        "Jim Varney",
+        "John Ratzenberger",
+        "Annie Potts",
+        "John Morris",
+        "Erik von Detten"
+      ],
+      "length": "1h 21m",
+      "minutes": 81,
+      "score": "80%",
+      "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+      "tagline": "The adventure takes off when toys come to life!",
+      "url": "https://www.themoviedb.org/movie/862-toy-story?language=en-US"
+    },
+    "ToyStory21999": {
+      "media": "movie",
+      "name": "Toy Story 2",
+      "year": "1999",
+      "type": "dvd",
+      "storage": "USA-ANIMATION",
+      "img": "ToyStory21999.jpg",
+      "theme": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "keywords": [
+        "museum",
+        "prosecution",
+        "villain",
+        "identity crisis",
+        "airplane",
+        "flea market",
+        "collector",
+        "friendship",
+        "sequel",
+        "buddy",
+        "rescue team",
+        "prospector",
+        "garage sale",
+        "duringcreditsstinger",
+        "toy comes to life",
+        "personification",
+        "inanimate objects come to life"
+      ],
+      "author": [
+        "John Lasseter"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Joan Cusack",
+        "Kelsey Grammer",
+        "Don Rickles",
+        "Jim Varney",
+        "John Ratzenberger",
+        "Annie Potts"
+      ],
+      "length": "1h 32m",
+      "minutes": 92,
+      "score": "76%",
+      "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+      "tagline": "The toys are back!",
+      "url": "https://www.themoviedb.org/movie/863-toy-story-2?language=en-US"
     },
     "ToyStory32010": {
       "media": "movie",
