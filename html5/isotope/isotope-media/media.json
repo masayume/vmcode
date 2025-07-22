@@ -52,6 +52,62 @@
       "tagline": "An epic drama of adventure and exploration.",
       "url": "https://www.themoviedb.org/movie/62-2001-a-space-odyssey?language=en-US"
     },
+    "20462004": {
+      "media": "movie",
+      "name": "2046",
+      "year": "2004",
+      "type": "dvd",
+      "storage": "TAIWAN-DRAMA",
+      "img": "20462004.jpg",
+      "theme": [
+        "Drama",
+        "Science Fiction",
+        "Romance"
+      ],
+      "keywords": [
+        "lovesickness",
+        "sexuality",
+        "regret",
+        "android",
+        "soulmates",
+        "based on novel or book",
+        "jealousy",
+        "symbolism",
+        "love of one's life",
+        "nostalgia",
+        "womanizer",
+        "murder",
+        "author",
+        "hong kong",
+        "train",
+        "break-up",
+        "illegal prostitution",
+        "extramarital affair",
+        "sensuality",
+        "2040s",
+        "christmas eve"
+      ],
+      "author": [
+        "Wong Kar-wai"
+      ],
+      "cast": [
+        "Tony Leung",
+        "Gong Li",
+        "Faye Wong",
+        "Takuya Kimura",
+        "Zhang Ziyi",
+        "Carina Lau",
+        "Chang Chen",
+        "Dong Jie",
+        "Maggie Cheung"
+      ],
+      "length": "2h 8m",
+      "minutes": 128,
+      "score": "72%",
+      "overview": "Women enter and exit a science fiction author's life over the course of a few years after the author loses the woman he considers his one true love.",
+      "tagline": "Are you still in the mood for love?",
+      "url": "https://www.themoviedb.org/movie/844-2046?language=en-US"
+    },
     "3002007": {
       "media": "movie",
       "name": "300",
@@ -428,6 +484,94 @@
       "tagline": "If you think you'll get out alive, you must be dreaming.",
       "url": "https://www.themoviedb.org/movie/10072-a-nightmare-on-elm-street-3-dream-warriors?language=en-US"
     },
+    "ArtSchoolConfidential2006": {
+      "media": "movie",
+      "name": "Art School Confidential",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "USA-COMEDY",
+      "img": "ArtSchoolConfidential2006.jpg",
+      "theme": [
+        "Comedy",
+        "Drama"
+      ],
+      "keywords": [
+        "dormitory",
+        "art school",
+        "based on comic",
+        "serial killer",
+        "teenage crush"
+      ],
+      "author": [
+        "Terry Zwigoff"
+      ],
+      "cast": [
+        "Max Minghella",
+        "Sophia Myles",
+        "John Malkovich",
+        "Jim Broadbent",
+        "Matt Keeslar",
+        "Ethan Suplee",
+        "Joel David Moore",
+        "Nick Swardson",
+        "Anjelica Huston"
+      ],
+      "length": "1h 42m",
+      "minutes": 102,
+      "score": "61%",
+      "overview": "Starting from childhood attempts at illustration, the protagonist pursues his true obsession to art school. But as he learns how the art world really works, he finds that he must adapt his vision to the reality that confronts him.",
+      "tagline": "Who said anything about talent?",
+      "url": "https://www.themoviedb.org/movie/9786-art-school-confidential?language=en-US"
+    },
+    "Avalon2001": {
+      "media": "movie",
+      "name": "Avalon",
+      "year": "2001",
+      "type": "dvd",
+      "storage": "JAPAN-SCIFI",
+      "img": "Avalon2001.jpg",
+      "theme": [
+        "Action",
+        "Science Fiction"
+      ],
+      "keywords": [
+        "video game",
+        "obsession",
+        "simulation",
+        "future",
+        "dystopia",
+        "addiction",
+        "gang",
+        "cyberpunk",
+        "battle",
+        "game",
+        "getaway",
+        "rumor",
+        "illegal",
+        "level",
+        "virtual"
+      ],
+      "author": [
+        "Mamoru Oshii"
+      ],
+      "cast": [
+        "Małgorzata Foremniak",
+        "Władysław Kowalski",
+        "Jerzy Gudejko",
+        "Dariusz Biskupski",
+        "Bartłomiej Świderski",
+        "Katarzyna Bargiełowska",
+        "Alicja Sapryk",
+        "Zuzanna Kasz",
+        "Adam Szyszkowski"
+      ],
+      "length": "1h 47m",
+      "minutes": 107,
+      "score": "65%",
+      "overview": "In a future world, young people are increasingly becoming addicted to an illegal (and potentially deadly) battle simulation game called Avalon. When Ash, a star player, hears of rumors that a more advanced level of the game exists somewhere, she gives up her loner ways and joins a gang of explorers. Even if she finds the gateway to the next level, will she ever be able to come back to reality?",
+      "tagline": "Dare to enter a world of future videogames.",
+      "url": "https://www.themoviedb.org/movie/10881-avalon?language=en-US"
+    },
     "Avatar2009": {
       "media": "movie",
       "name": "Avatar",
@@ -692,6 +836,56 @@
       "overview": "Batman must face The Penguin, a sewer-dwelling gangleader intent on being accepted into Gotham society.  Meanwhile, another Gotham resident finds herself transformed into Catwoman and is out for revenge...",
       "tagline": null,
       "url": "https://www.themoviedb.org/movie/364-batman-returns?language=en-US"
+    },
+    "BigFish2003": {
+      "media": "movie",
+      "name": "Big Fish",
+      "year": "2003",
+      "type": "dvd",
+      "storage": "USA-ADVENTURE",
+      "img": "BigFish2003.jpg",
+      "theme": [
+        "Adventure",
+        "Fantasy",
+        "Drama"
+      ],
+      "keywords": [
+        "circus",
+        "witch",
+        "parent child relationship",
+        "fish",
+        "fishing",
+        "love of one's life",
+        "leech",
+        "story teller",
+        "apoplectic stroke",
+        "fair",
+        "mermaid",
+        "cancer",
+        "relationship",
+        "gentle giant",
+        "magic realism"
+      ],
+      "author": [
+        "Tim Burton"
+      ],
+      "cast": [
+        "Ewan McGregor",
+        "Albert Finney",
+        "Billy Crudup",
+        "Jessica Lange",
+        "Helena Bonham Carter",
+        "Alison Lohman",
+        "Robert Guillaume",
+        "Marion Cotillard",
+        "Matthew McGrory"
+      ],
+      "length": "2h 5m",
+      "minutes": 125,
+      "score": "78%",
+      "overview": "Throughout his life Edward Bloom has always been a man of big appetites, enormous passions and tall tales. In his later years, he remains a huge mystery to his son, William. Now, to get to know the real man, Will begins piecing together a true picture of his father from flashbacks of his amazing adventures.",
+      "tagline": "An adventure as big as life itself.",
+      "url": "https://www.themoviedb.org/movie/587-big-fish?language=en-US"
     },
     "BladeII2002": {
       "media": "movie",
@@ -1183,6 +1377,115 @@
       "tagline": "Prepare for a taste of adventure.",
       "url": "https://www.themoviedb.org/movie/118-charlie-and-the-chocolate-factory?language=en-US"
     },
+    "Chicago2002": {
+      "media": "movie",
+      "name": "Chicago",
+      "year": "2002",
+      "type": "dvd",
+      "storage": "USA-MUSICAL",
+      "img": "Chicago2002.jpg",
+      "theme": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "keywords": [
+        "chicago, illinois",
+        "gallows",
+        "musical",
+        "jail",
+        "based on play or musical",
+        "lawyer",
+        "execution",
+        "noose",
+        "hanging",
+        "prison matron",
+        "jazz age",
+        "1920s",
+        "death by hanging",
+        "public execution",
+        "execution by hanging",
+        "hanged woman"
+      ],
+      "author": [
+        "Rob Marshall"
+      ],
+      "cast": [
+        "Renée Zellweger",
+        "Catherine Zeta-Jones",
+        "Richard Gere",
+        "Queen Latifah",
+        "Ekaterina Chtchelkanova",
+        "John C. Reilly",
+        "Christine Baranski",
+        "Lucy Liu",
+        "Taye Diggs"
+      ],
+      "length": "1h 53m",
+      "minutes": 113,
+      "score": "71%",
+      "overview": "Murderesses Velma Kelly and Roxie Hart find themselves on death row together and fight for the fame that will keep them from the gallows in 1920s Chicago.",
+      "tagline": "If you can't be famous, be infamous.",
+      "url": "https://www.themoviedb.org/movie/1574-chicago?language=en-US"
+    },
+    "ChildrenofMen2006": {
+      "media": "movie",
+      "name": "Children of Men",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "USA-SCIFI",
+      "img": "ChildrenofMen2006.jpg",
+      "theme": [
+        "Drama",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "keywords": [
+        "police state",
+        "england",
+        "hippie",
+        "rebel",
+        "based on novel or book",
+        "refugee camp",
+        "miracle",
+        "future",
+        "dystopia",
+        "chaos",
+        "childlessness",
+        "government",
+        "faith",
+        "survival",
+        "birth",
+        "alcoholic",
+        "bombing",
+        "dying",
+        "terrorist group",
+        "fertility",
+        "soldiers",
+        "violence"
+      ],
+      "author": [
+        "Alfonso Cuarón"
+      ],
+      "cast": [
+        "Clive Owen",
+        "Clare-Hope Ashitey",
+        "Chiwetel Ejiofor",
+        "Julianne Moore",
+        "Michael Caine",
+        "Pam Ferris",
+        "Charlie Hunnam",
+        "Danny Huston",
+        "Peter Mullan"
+      ],
+      "length": "1h 49m",
+      "minutes": 109,
+      "score": "76%",
+      "overview": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind.",
+      "tagline": "The year 2027: the last days of the human race. No child has been born for 18 years. He must protect our only hope.",
+      "url": "https://www.themoviedb.org/movie/9693-children-of-men?language=en-US"
+    },
     "Christine1983": {
       "media": "movie",
       "name": "Christine",
@@ -1390,6 +1693,68 @@
       "tagline": "Thief. Warrior. Gladiator. King.",
       "url": "https://www.themoviedb.org/movie/9387-conan-the-barbarian?language=en-US"
     },
+    "CurseoftheGoldenFlower2006": {
+      "media": "movie",
+      "name": "Curse of the Golden Flower",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "CHINA-DRAMA",
+      "img": "CurseoftheGoldenFlower2006.jpg",
+      "theme": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ],
+      "keywords": [
+        "poison",
+        "china",
+        "martial arts",
+        "swordplay",
+        "fight",
+        "toxication",
+        "secret society",
+        "forbidden love",
+        "palace",
+        "plan",
+        "royal family",
+        "battle for power",
+        "tang dynasty",
+        "pomp",
+        "heir to the throne",
+        "marriage crisis",
+        "secret love",
+        "sword fight",
+        "betrayal",
+        "based on play or musical",
+        "empire",
+        "period drama",
+        "historical",
+        "wuxia",
+        "power struggle",
+        "poisoning",
+        "7th century"
+      ],
+      "author": [
+        "Zhang Yimou"
+      ],
+      "cast": [
+        "Chow Yun-Fat",
+        "Gong Li",
+        "Jay Chou",
+        "Liu Ye",
+        "Qin Junjie",
+        "Li Man",
+        "Ni Dahong",
+        "Chen Jin",
+        "Siran Ge"
+      ],
+      "length": "1h 54m",
+      "minutes": 114,
+      "score": "69%",
+      "overview": "During China's Tang dynasty the emperor has taken the princess of a neighboring province as his wife. She has borne him two sons and raised his eldest. Now his control over his dominion is complete, including the royal family itself.",
+      "tagline": "Unspeakable secrets are hidden within the Forbidden City.",
+      "url": "https://www.themoviedb.org/movie/1494?language=en-US"
+    },
     "Departures2008": {
       "media": "movie",
       "name": "Departures",
@@ -1529,6 +1894,53 @@
       "tagline": "Oh brother.",
       "url": "https://www.themoviedb.org/movie/324852-despicable-me-3?language=en-US"
     },
+    "Dolls2002": {
+      "media": "movie",
+      "name": "Dolls",
+      "year": "2002",
+      "type": "dvd",
+      "storage": "JAPAN-DRAMA",
+      "img": "Dolls2002.jpg",
+      "theme": [
+        "Drama",
+        "Romance"
+      ],
+      "keywords": [
+        "japan",
+        "regret",
+        "broken engagement",
+        "suicide attempt",
+        "allegory",
+        "new love",
+        "yakuza",
+        "pop star",
+        "bunraku",
+        "murder",
+        "multiple storylines",
+        "eternal love",
+        "long lost love"
+      ],
+      "author": [
+        "Takeshi Kitano"
+      ],
+      "cast": [
+        "Miho Kanno",
+        "Hidetoshi Nishijima",
+        "Tatsuya Mihashi",
+        "Chieko Matsubara",
+        "Kyoko Fukada",
+        "Tsutomu Takeshige",
+        "Kayoko Kishimoto",
+        "Nao Omori",
+        "Kanji Tsuda"
+      ],
+      "length": "1h 54m",
+      "minutes": 114,
+      "score": "76%",
+      "overview": "Dolls takes puppeteering as its overriding motif, which relates thematically to the action provided by the live characters. Chief among those tales is the story of Matsumoto and Sawako, a young couple whose relationship is about to be broken apart by the former's parents, who have insisted their son take part in an arranged marriage to his boss' daughter.",
+      "tagline": "Three stories of never-ending love.",
+      "url": "https://www.themoviedb.org/movie/870?language=en-US"
+    },
     "Dumbo1941": {
       "media": "movie",
       "name": "Dumbo",
@@ -1628,6 +2040,63 @@
       "tagline": "No experience necessary.",
       "url": "https://www.themoviedb.org/movie/493529-dungeons-dragons-honor-among-thieves?language=en-US"
     },
+    "Dunkirk2017": {
+      "media": "movie",
+      "name": "Dunkirk",
+      "year": "2017",
+      "type": "bluray",
+      "storage": "USA-WAR",
+      "img": "Dunkirk2017.jpg",
+      "theme": [
+        "War",
+        "Action",
+        "Drama"
+      ],
+      "keywords": [
+        "france",
+        "beach",
+        "europe",
+        "world war ii",
+        "evacuation",
+        "pilot",
+        "british army",
+        "allies",
+        "army",
+        "royal navy",
+        "based on true story",
+        "survival",
+        "rescue mission",
+        "military officer",
+        "historical fiction",
+        "soldier",
+        "private",
+        "military",
+        "dunkirk",
+        "1940s",
+        "royal air force",
+        "raf"
+      ],
+      "author": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Fionn Whitehead",
+        "Tom Hardy",
+        "Mark Rylance",
+        "Kenneth Branagh",
+        "Cillian Murphy",
+        "Barry Keoghan",
+        "Harry Styles",
+        "Aneurin Barnard",
+        "Damien Bonnard"
+      ],
+      "length": "1h 47m",
+      "minutes": 107,
+      "score": "75%",
+      "overview": "The story of the miraculous evacuation of Allied soldiers from Belgium, Britain, Canada and France, who were cut off and surrounded by the German army from the beaches and harbour of Dunkirk between May 26th and June 4th 1940 during World War II.",
+      "tagline": "When 400,000 men couldn't get home, home came for them.",
+      "url": "https://www.themoviedb.org/movie/374720-dunkirk?language=en-US"
+    },
     "EasyVirtue2008": {
       "media": "movie",
       "name": "Easy Virtue",
@@ -1657,6 +2126,95 @@
       "overview": "A young Englishman marries a glamorous American. When he brings her home to meet the parents, she arrives like a blast from the future - blowing their entrenched British stuffiness out the window.",
       "tagline": "Let's Misbehave!",
       "url": "https://www.themoviedb.org/movie/16899-easy-virtue?language=en-US"
+    },
+    "Elizabeth1998": {
+      "media": "movie",
+      "name": "Elizabeth",
+      "year": "1998",
+      "type": "dvd",
+      "storage": "UK-DRAMA",
+      "img": "Elizabeth1998.jpg",
+      "theme": [
+        "Drama",
+        "History"
+      ],
+      "keywords": [
+        "queen",
+        "duke",
+        "historical figure",
+        "queen elizabeth i",
+        "tudor",
+        "treason",
+        "catholic",
+        "protestant",
+        "palace intrigue",
+        "16th century",
+        "british monarchy"
+      ],
+      "author": [
+        "Shekhar Kapur"
+      ],
+      "cast": [
+        "Cate Blanchett",
+        "Joseph Fiennes",
+        "Geoffrey Rush",
+        "Christopher Eccleston",
+        "John Gielgud",
+        "Richard Attenborough",
+        "Fanny Ardant",
+        "Éric Cantona",
+        "Vincent Cassel"
+      ],
+      "length": "2h 4m",
+      "minutes": 124,
+      "score": "72%",
+      "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+      "tagline": "Declared illegitimate aged 3. Tried for treason aged 21. Crowned Queen aged 25.",
+      "url": "https://www.themoviedb.org/movie/4518-elizabeth?language=en-US"
+    },
+    "Elizabethtown2005": {
+      "media": "movie",
+      "name": "Elizabethtown",
+      "year": "2005",
+      "type": "dvd",
+      "storage": "USA-DRAMA",
+      "img": "Elizabethtown2005.jpg",
+      "theme": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "keywords": [
+        "hotel room",
+        "suicide attempt",
+        "new love",
+        "funeral",
+        "airplane",
+        "lovers",
+        "falling in love",
+        "hometown",
+        "return to hometown"
+      ],
+      "author": [
+        "Cameron Crowe"
+      ],
+      "cast": [
+        "Orlando Bloom",
+        "Kirsten Dunst",
+        "Susan Sarandon",
+        "Alec Baldwin",
+        "Bruce McGill",
+        "Judy Greer",
+        "Jessica Biel",
+        "Paul Schneider",
+        "Loudon Wainwright III"
+      ],
+      "length": "2h 3m",
+      "minutes": 123,
+      "score": "62%",
+      "overview": "Drew Baylor is fired after causing his shoe company to lose hundreds of millions of dollars. To make matters worse, he's also dumped by his girlfriend. On the verge of ending it all, Drew gets a new lease on life when he returns to his family's small Kentucky hometown after his father dies. Along the way, he meets a flight attendant with whom he falls in love.",
+      "tagline": "It's a heck of a place to find yourself",
+      "url": "https://www.themoviedb.org/movie/9621-elizabethtown?language=en-US"
     },
     "Elysium2013": {
       "media": "movie",
@@ -1746,6 +2304,257 @@
       "tagline": "High risks come with even higher rewards.",
       "url": "https://www.themoviedb.org/movie/862965-emily-the-criminal?language=en-US"
     },
+    "Evangelion10YouAreNotAlone2007": {
+      "media": "movie",
+      "name": "Evangelion: 1.0 You Are (Not) Alone",
+      "year": "2007",
+      "type": "bluray",
+      "storage": "JAPAN-SCIFI",
+      "img": "Evangelion10YouAreNotAlone2007.jpg",
+      "theme": [
+        "Animation",
+        "Science Fiction",
+        "Action",
+        "Drama"
+      ],
+      "keywords": [
+        "parent child relationship",
+        "post-apocalyptic future",
+        "dystopia",
+        "remake",
+        "mecha",
+        "giant robot",
+        "alien invasion",
+        "military",
+        "anime",
+        "father son conflict",
+        "based on tv series",
+        "suspense"
+      ],
+      "author": [
+        "Hideaki Anno",
+        "Masayuki",
+        "Kazuya Tsurumaki"
+      ],
+      "cast": [
+        "Megumi Ogata",
+        "Megumi Hayashibara",
+        "Kotono Mitsuishi",
+        "Yuriko Yamaguchi",
+        "Akira Ishida",
+        "Fumihiko Tachiki",
+        "Motomu Kiyokawa",
+        "Miki Nagasawa",
+        "Takehito Koyasu"
+      ],
+      "length": "1h 38m",
+      "minutes": 98,
+      "score": "76%",
+      "overview": "After the Second Impact, Tokyo-3 is being attacked by giant monsters called Angels that seek to eradicate humankind. The child Shinji’s objective is to fight the Angels by piloting one of the mysterious Evangelion mecha units. A remake of the first six episodes of GAINAX’s famous 1996 anime series. The film was retitled “Evangelion: 1.01” for its DVD release and “Evangelion: 1.11” for a release with additional scenes.",
+      "tagline": "Witness the rebuild of a legend.",
+      "url": "https://www.themoviedb.org/movie/15137?language=en-US"
+    },
+    "Evangelion20YouCanNotAdvance2009": {
+      "media": "movie",
+      "name": "Evangelion: 2.0 You Can (Not) Advance",
+      "year": "2009",
+      "type": "bluray",
+      "storage": "JAPAN-SCIFI",
+      "img": "Evangelion20YouCanNotAdvance2009.jpg",
+      "theme": [
+        "Animation",
+        "Science Fiction",
+        "Action",
+        "Drama"
+      ],
+      "keywords": [
+        "post-apocalyptic future",
+        "alien",
+        "mecha",
+        "tragedy",
+        "giant robot",
+        "piloted robot",
+        "anthropomorphism",
+        "apocalypse",
+        "alien invasion",
+        "military",
+        "angst",
+        "anime",
+        "father son conflict",
+        "based on tv series"
+      ],
+      "author": [
+        "Hideaki Anno",
+        "Masayuki",
+        "Kazuya Tsurumaki"
+      ],
+      "cast": [
+        "Megumi Ogata",
+        "Megumi Hayashibara",
+        "Yuko Miyamura",
+        "Maaya Sakamoto",
+        "Kotono Mitsuishi",
+        "Yuriko Yamaguchi",
+        "Koichi Yamadera",
+        "Fumihiko Tachiki",
+        "Motomu Kiyokawa"
+      ],
+      "length": "1h 52m",
+      "minutes": 112,
+      "score": "78%",
+      "overview": "Under constant attack by monstrous creatures called Angels that seek to eradicate humankind, U.N. Special Agency NERV introduces two new EVA pilots to help defend the city of Tokyo-3: the mysterious Makinami Mari Illustrous and the intense Asuka Langley Shikinami. Meanwhile, Gendo Ikari and SEELE proceed with a secret project that involves both Rei and Shinji.",
+      "tagline": "In the War Between Heaven and Earth, Salvation is Machine.",
+      "url": "https://www.themoviedb.org/movie/22843?language=en-US"
+    },
+    "Evangelion30YouCanNotRedo2012": {
+      "media": "movie",
+      "name": "Evangelion: 3.0 You Can (Not) Redo",
+      "year": "2012",
+      "type": "bluray",
+      "storage": "JAPAN-SCIFI",
+      "img": "Evangelion30YouCanNotRedo2012.jpg",
+      "theme": [
+        "Animation",
+        "Science Fiction",
+        "Action",
+        "Drama"
+      ],
+      "keywords": [
+        "depression",
+        "post-apocalyptic future",
+        "alien",
+        "mecha",
+        "giant robot",
+        "lgbt",
+        "military",
+        "anime",
+        "father son conflict",
+        "time skip",
+        "gay theme",
+        "based on tv series",
+        "boys' love (bl)",
+        "gay subtext"
+      ],
+      "author": [
+        "Hideaki Anno",
+        "Mahiro Maeda",
+        "Masayuki",
+        "Kazuya Tsurumaki"
+      ],
+      "cast": [
+        "Megumi Ogata",
+        "Yuko Miyamura",
+        "Akira Ishida",
+        "Megumi Hayashibara",
+        "Maaya Sakamoto",
+        "Kotono Mitsuishi",
+        "Yuriko Yamaguchi",
+        "Fumihiko Tachiki",
+        "Motomu Kiyokawa"
+      ],
+      "length": "1h 36m",
+      "minutes": 96,
+      "score": "72%",
+      "overview": "Fourteen years after Third Impact, Shinji Ikari awakens to a world he does not remember. He hasn't aged. Much of Earth is laid in ruins, NERV has been dismantled, and people who he once protected have turned against him. Befriending the enigmatic Kaworu Nagisa, Shinji continues the fight against the angels and realizes the fighting is far from over, even when it could be against his former allies. The characters' struggles continue amidst the battles against the angels and each other, spiraling down to what could inevitably be the end of the world.",
+      "tagline": "What was destroyed can (not) be rebuilt.",
+      "url": "https://www.themoviedb.org/movie/75629-q?language=en-US"
+    },
+    "FallenAngels1995": {
+      "media": "movie",
+      "name": "Fallen Angels",
+      "year": "1995",
+      "type": "dvd",
+      "storage": "TAIWAN-DRAMA",
+      "img": "FallenAngels1995.jpg",
+      "theme": [
+        "Action",
+        "Romance",
+        "Crime"
+      ],
+      "keywords": [
+        "gambling",
+        "assassin",
+        "hitman",
+        "cigarette",
+        "surreal",
+        "beer",
+        "love",
+        "hong kong",
+        "drifter",
+        "bullet wound",
+        "killer",
+        "masturbation",
+        "infatuation",
+        "ice cream truck"
+      ],
+      "author": [
+        "Wong Kar-wai"
+      ],
+      "cast": [
+        "Leon Lai",
+        "Charlie Yeung",
+        "Takeshi Kaneshiro",
+        "Karen Mok",
+        "Michele Reis",
+        "Chan Man-Lei",
+        "Toru Saito",
+        "Benz Kong To-Hoi",
+        "Chan Fai-Hung"
+      ],
+      "length": "1h 38m",
+      "minutes": 98,
+      "score": "77%",
+      "overview": "An assassin goes through obstacles as he attempts to escape his violent lifestyle despite the opposition of his partner, who is secretly attracted to him.",
+      "tagline": "The night's full of weirdos.",
+      "url": "https://www.themoviedb.org/movie/11220?language=en-US"
+    },
+    "FightClub1999": {
+      "media": "movie",
+      "name": "Fight Club",
+      "year": "1999",
+      "type": "dvd",
+      "storage": "USA-ACTION",
+      "img": "FightClub1999.jpg",
+      "theme": [
+        "Drama",
+        "Thriller"
+      ],
+      "keywords": [
+        "based on novel or book",
+        "support group",
+        "dual identity",
+        "nihilism",
+        "fight",
+        "rage and hate",
+        "insomnia",
+        "dystopia",
+        "alter ego",
+        "breaking the fourth wall",
+        "split personality",
+        "quitting a job",
+        "dissociative identity disorder",
+        "self destructiveness"
+      ],
+      "author": [
+        "David Fincher"
+      ],
+      "cast": [
+        "Edward Norton",
+        "Brad Pitt",
+        "Helena Bonham Carter",
+        "Meat Loaf",
+        "Jared Leto",
+        "Zach Grenier",
+        "Eion Bailey",
+        "Richmond Arquette"
+      ],
+      "length": "2h 19m",
+      "minutes": 139,
+      "score": "84%",
+      "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+      "tagline": "Mischief. Mayhem. Soap.",
+      "url": "https://www.themoviedb.org/movie/550-fight-club?language=en-US"
+    },
     "FindingNemo2003": {
       "media": "movie",
       "name": "Finding Nemo",
@@ -1796,6 +2605,50 @@
       "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls, and more along the way.",
       "tagline": "There are 3.7 trillion fish in the ocean. They're looking for one.",
       "url": "https://www.themoviedb.org/movie/12-finding-nemo?language=en-US"
+    },
+    "FlagsofOurFathers2006": {
+      "media": "movie",
+      "name": "Flags of Our Fathers",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "USA-WAR",
+      "img": "FlagsofOurFathers2006.jpg",
+      "theme": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "keywords": [
+        "japan",
+        "world war ii",
+        "dying and death",
+        "pacific",
+        "pacific war",
+        "iwo jima",
+        "aftercreditsstinger",
+        "duringcreditsstinger",
+        "1940s"
+      ],
+      "author": [
+        "Clint Eastwood"
+      ],
+      "cast": [
+        "Ryan Phillippe",
+        "Jesse Bradford",
+        "Adam Beach",
+        "John Benjamin Hickey",
+        "John Slattery",
+        "Barry Pepper",
+        "Jamie Bell",
+        "Paul Walker",
+        "Robert Patrick"
+      ],
+      "length": "2h 15m",
+      "minutes": 135,
+      "score": "69%",
+      "overview": "There were five Marines and one Navy Corpsman photographed raising the U.S. flag on Mt. Suribachi by Joe Rosenthal on February 23, 1945. This is the story of three of the six surviving servicemen - John 'Doc' Bradley, Pvt. Rene Gagnon and Pvt. Ira Hayes - who fought in the battle to take Iwo Jima from the Japanese.",
+      "tagline": "A single shot can end the war.",
+      "url": "https://www.themoviedb.org/movie/3683-flags-of-our-fathers?language=en-US"
     },
     "GarmWarsTheLastDruid2014": {
       "media": "movie",
@@ -2048,6 +2901,39 @@
       "tagline": "He’s having the worst day of his life… Over and over again.",
       "url": "https://www.themoviedb.org/movie/137-groundhog-day?language=en-US"
     },
+    "HappyTimes2000": {
+      "media": "movie",
+      "name": "Happy Times",
+      "year": "2000",
+      "type": "dvd",
+      "storage": "CHINA-DRAMA",
+      "img": "HappyTimes2000.jpg",
+      "theme": [
+        "Drama",
+        "Comedy"
+      ],
+      "keywords": [],
+      "author": [
+        "Zhang Yimou"
+      ],
+      "cast": [
+        "Zhao Benshan",
+        "Dong Jie",
+        "Dong Li-Fan",
+        "Fu Biao",
+        "Li Xuejian",
+        "Qibin Leng",
+        "Gong Jinghua",
+        "Niu Ben",
+        "Zhang Hongjie"
+      ],
+      "length": "1h 42m",
+      "minutes": 102,
+      "score": "71%",
+      "overview": "Zhao is an old laid-off worker who's dreaming of getting married. After trying unsuccessful proposals, he finally pairs off with a gargantuan divorcée with two children. She, however, demands a lavish wedding and that Zhao finds a job and another place to stay for her blind step-daughter. Pretending he's the General Manager of a non-existent posh hotel \"Happy Times\", Zhao has to find ways and means of keeping both mother and stepdaughter happy.",
+      "tagline": "An hilarious look at life and the pursuit of happiness!",
+      "url": "https://www.themoviedb.org/movie/45861?language=en-US"
+    },
     "Hercules1997": {
       "media": "movie",
       "name": "Hercules",
@@ -2099,6 +2985,162 @@
       "overview": "Bestowed with superhuman strength, a young mortal named Hercules sets out to prove himself a hero in the eyes of his father, the great god Zeus. Along with his friends Pegasus, a flying horse, and Phil, a personal trainer, Hercules is tricked by the hilarious, hotheaded villain Hades, who's plotting to take over Mount Olympus!",
       "tagline": "The man. The myth. The movie.",
       "url": "https://www.themoviedb.org/movie/11970-hercules?language=en-US"
+    },
+    "Hero2002": {
+      "media": "movie",
+      "name": "Hero",
+      "year": "2002",
+      "type": "dvd",
+      "storage": "CHINA-ACTION",
+      "img": "Hero2002.jpg",
+      "theme": [
+        "Drama",
+        "Adventure",
+        "Action",
+        "History"
+      ],
+      "keywords": [
+        "countryside",
+        "loss of loved one",
+        "martial arts",
+        "kung fu",
+        "right and justice",
+        "patriot",
+        "wuxia",
+        "warring states period",
+        "3rd century bc"
+      ],
+      "author": [
+        "Zhang Yimou"
+      ],
+      "cast": [
+        "Jet Li",
+        "Tony Leung",
+        "Maggie Cheung",
+        "Donnie Yen",
+        "Zhang Ziyi",
+        "Chen Daoming",
+        "Liu Zhongyuan",
+        "Zheng Tianyong",
+        "Qin Yan"
+      ],
+      "length": "1h 39m",
+      "minutes": 99,
+      "score": "75%",
+      "overview": "During China's Warring States period, a district prefect arrives at the palace of Qin Shi Huang, claiming to have killed the three assassins who had made an attempt on the king's life three years ago.",
+      "tagline": "One man's strength will unite an empire.",
+      "url": "https://www.themoviedb.org/movie/79?language=en-US"
+    },
+    "HighFidelity2000": {
+      "media": "movie",
+      "name": "High Fidelity",
+      "year": "2000",
+      "type": "dvd",
+      "storage": "UK-COMEDY",
+      "img": "HighFidelity2000.jpg",
+      "theme": [
+        "Drama",
+        "Comedy",
+        "Romance",
+        "Music"
+      ],
+      "keywords": [
+        "chicago, illinois",
+        "music record",
+        "rock 'n' roll",
+        "disc jockey",
+        "pop",
+        "ex-girlfriend",
+        "music journalist",
+        "relationship problems",
+        "record label",
+        "flashback",
+        "fear of commitment",
+        "breaking the fourth wall",
+        "falling in love",
+        "break-up",
+        "record",
+        "record album",
+        "music scene",
+        "breaking up with boyfriend",
+        "music culture",
+        "record store",
+        "top five",
+        "dating history"
+      ],
+      "author": [
+        "Stephen Frears"
+      ],
+      "cast": [
+        "John Cusack",
+        "Iben Hjejle",
+        "Todd Louiso",
+        "Jack Black",
+        "Lisa Bonet",
+        "Catherine Zeta-Jones",
+        "Joan Cusack",
+        "Tim Robbins",
+        "Chris Rehmann"
+      ],
+      "length": "1h 53m",
+      "minutes": 113,
+      "score": "71%",
+      "overview": "After his long-time girlfriend dumps him, a thirty-year-old record store owner seeks to understand why he is unlucky in love while recounting his \"top five breakups of all time\".",
+      "tagline": "A comedy about fear of commitment, hating your job, falling in love and other pop favorites.",
+      "url": "https://www.themoviedb.org/movie/243-high-fidelity?language=en-US"
+    },
+    "HumanNature2001": {
+      "media": "movie",
+      "name": "Human Nature",
+      "year": "2001",
+      "type": "dvd",
+      "storage": "FRANCE-COMEDY",
+      "img": "HumanNature2001.jpg",
+      "theme": [
+        "Drama",
+        "Comedy"
+      ],
+      "keywords": [
+        "individual",
+        "human evolution",
+        "philosophy",
+        "sexuality",
+        "mentally disabled",
+        "experiment",
+        "professor",
+        "mouse",
+        "civilization",
+        "sapient",
+        "ethologist",
+        "kaspar-hauser-syndrom",
+        "zoo",
+        "arts and culture",
+        "small person",
+        "forest",
+        "author",
+        "hair",
+        "disabled"
+      ],
+      "author": [
+        "Michel Gondry"
+      ],
+      "cast": [
+        "Tim Robbins",
+        "Patricia Arquette",
+        "Rhys Ifans",
+        "Miranda Otto",
+        "Mary Kay Place",
+        "Robert Forster",
+        "Peter Dinklage",
+        "Rosie Perez",
+        "Hilary Duff"
+      ],
+      "length": "1h 36m",
+      "minutes": 96,
+      "score": "60%",
+      "overview": "Obsessive scientist Nathan and his lover, the naturalist Lila, discover Puff: a man born and raised in the wild. As Nathan trains the wild man in the civilized ways of the world, Lila fights to preserve the man’s natural state. In the power struggle that ensues, an unusual love triangle emerges.",
+      "tagline": "In the Interest of Civilization… Conform.",
+      "url": "https://www.themoviedb.org/movie/441-human-nature?language=en-US"
     },
     "Immortal2004": {
       "media": "movie",
@@ -2244,6 +3286,57 @@
       "tagline": "Mankind was born on Earth. It was never meant to die here.",
       "url": "https://www.themoviedb.org/movie/157336-interstellar?language=en-US"
     },
+    "IntheMoodforLove2000": {
+      "media": "movie",
+      "name": "In the Mood for Love",
+      "year": "2000",
+      "type": "dvd",
+      "storage": "TAIWAN-DRAMA",
+      "img": "IntheMoodforLove2000.jpg",
+      "theme": [
+        "Drama",
+        "Romance"
+      ],
+      "keywords": [
+        "adultery",
+        "lovesickness",
+        "martial arts",
+        "newspaper",
+        "husband wife relationship",
+        "married couple",
+        "shanghai, china",
+        "deceived husband",
+        "forbidden love",
+        "singapore",
+        "marriage crisis",
+        "secret love",
+        "neighbor",
+        "author",
+        "hong kong",
+        "extramarital affair",
+        "1960s"
+      ],
+      "author": [
+        "Wong Kar-wai"
+      ],
+      "cast": [
+        "Maggie Cheung",
+        "Tony Leung",
+        "Rebecca Pan",
+        "Kelly Lai Chen",
+        "Siu Ping-Lam",
+        "Mama Hung",
+        "Joe Cheung",
+        "Koo Kam-Wah",
+        "Chan Man-Lei"
+      ],
+      "length": "1h 38m",
+      "minutes": 98,
+      "score": "81%",
+      "overview": "In 1962 Hong Kong, neighbors Su Li-zhen (Mrs. Chan) and Chow Mo-wan (Mr. Chow) discover their spouses are having an affair. As they spend time together, they develop feelings for each other, but their relationship remains chaste and unspoken, reflecting societal constraints and their own moral compass.",
+      "tagline": "Feel the heat, keep the feeling burning, let the sensation explode.",
+      "url": "https://www.themoviedb.org/movie/843?language=en-US"
+    },
     "IpMan22010": {
       "media": "movie",
       "name": "Ip Man 2",
@@ -2286,6 +3379,46 @@
       "overview": "Having defeated the best fighters of the Imperial Japanese army in occupied Shanghai, Ip Man and his family settle in post-war Hong Kong. Struggling to make a living, Master Ip opens a kung fu school to bring his celebrated art of Wing Chun to the troubled youth of Hong Kong. His growing reputation soon brings challenges from powerful enemies, including pre-eminent Hung Gar master, Hung Quan.",
       "tagline": "Behind every great martial artist lies a teacher.",
       "url": "https://www.themoviedb.org/movie/37472-2?language=en-US"
+    },
+    "IrmalaDouce1963": {
+      "media": "movie",
+      "name": "Irma la Douce",
+      "year": "1963",
+      "type": "dvd",
+      "storage": "USA-COMEDY",
+      "img": "IrmalaDouce1963.jpg",
+      "theme": [
+        "Romance",
+        "Comedy"
+      ],
+      "keywords": [
+        "paris, france",
+        "prostitute",
+        "pimp",
+        "love of one's life",
+        "red-light district",
+        "police"
+      ],
+      "author": [
+        "Billy Wilder"
+      ],
+      "cast": [
+        "Shirley MacLaine",
+        "Jack Lemmon",
+        "Lou Jacobi",
+        "Bruce Yarnell",
+        "Herschel Bernardi",
+        "Hope Holiday",
+        "Joan Shawlee",
+        "Grace Lee Whitney",
+        "Paul Dubov"
+      ],
+      "length": "2h 27m",
+      "minutes": 147,
+      "score": "74%",
+      "overview": "When a naive policeman falls in love with a prostitute, he doesn’t want her seeing other men and creates an alter ego who’s to be her only customer.",
+      "tagline": "A story of passion, bloodshed, desire and death... everything, in fact, that makes life worth living.",
+      "url": "https://www.themoviedb.org/movie/2690-irma-la-douce?language=en-US"
     },
     "JasonBourne2016": {
       "media": "movie",
@@ -2539,6 +3672,140 @@
       "tagline": "A murder in the past. A mystery in the future.",
       "url": "https://www.themoviedb.org/movie/576845-last-night-in-soho?language=en-US"
     },
+    "Leatherheads2008": {
+      "media": "movie",
+      "name": "Leatherheads",
+      "year": "2008",
+      "type": "dvd",
+      "storage": "USA-COMEDY",
+      "img": "Leatherheads2008.jpg",
+      "theme": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "keywords": [
+        "american football",
+        "stadium",
+        "hero",
+        "success",
+        "sponsorship",
+        "police",
+        "coach",
+        "woman reporter",
+        "game",
+        "the big game"
+      ],
+      "author": [
+        "George Clooney"
+      ],
+      "cast": [
+        "George Clooney",
+        "Renée Zellweger",
+        "John Krasinski",
+        "Stephen Root",
+        "Jonathan Pryce",
+        "Jack Thompson",
+        "Max Casella",
+        "Matt Bushell"
+      ],
+      "length": "1h 54m",
+      "minutes": 114,
+      "score": "58%",
+      "overview": "A light hearted comedy about the beginnings of Professional American Football. When a decorated war hero and college all star is tempted into playing professional football. Everyone see the chance to make some big money, but when a reporter digs up some dirt on the war hero... everyone could lose out.",
+      "tagline": "If Love Is a Game, Who'll Make the First Pass?",
+      "url": "https://www.themoviedb.org/movie/4942-leatherheads?language=en-US"
+    },
+    "LesMisrables1998": {
+      "media": "movie",
+      "name": "Les Misérables",
+      "year": "1998",
+      "type": "dvd",
+      "storage": "USA-DRAMA",
+      "img": "LesMisrables1998.jpg",
+      "theme": [
+        "Crime",
+        "Drama",
+        "History",
+        "Romance"
+      ],
+      "keywords": [
+        "paris, france",
+        "falsely accused",
+        "based on novel or book",
+        "prisoner",
+        "blackmail",
+        "french revolution",
+        "motherly love",
+        "19th century",
+        "altruism"
+      ],
+      "author": [
+        "Bille August"
+      ],
+      "cast": [
+        "Liam Neeson",
+        "Geoffrey Rush",
+        "Uma Thurman",
+        "Claire Danes",
+        "Hans Matheson",
+        "Peter Vaughan",
+        "Reine Brynolfsson",
+        "Tim Barlow",
+        "Jon Kenny"
+      ],
+      "length": "2h 14m",
+      "minutes": 134,
+      "score": "72%",
+      "overview": "In 19th century France, Jean Valjean, a man imprisoned for stealing bread, must flee a relentless policeman named Javert. The pursuit consumes both men's lives, and soon Valjean finds himself in the midst of the student revolutions in France.",
+      "tagline": "The legend comes to life.",
+      "url": "https://www.themoviedb.org/movie/4415-les-miserables?language=en-US"
+    },
+    "LettersfromIwoJima2006": {
+      "media": "movie",
+      "name": "Letters from Iwo Jima",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "USA-WAR",
+      "img": "LettersfromIwoJima2006.jpg",
+      "theme": [
+        "Action",
+        "Drama",
+        "War"
+      ],
+      "keywords": [
+        "world war ii",
+        "cave",
+        "dying and death",
+        "pacific war",
+        "iwo jima",
+        "pacific theater",
+        "anti war",
+        "japanese army",
+        "imperial japan",
+        "1940s"
+      ],
+      "author": [
+        "Clint Eastwood"
+      ],
+      "cast": [
+        "Ken Watanabe",
+        "Kazunari Ninomiya",
+        "Tsuyoshi Ihara",
+        "Ryo Kase",
+        "Shido Nakamura",
+        "Hiroshi Watanabe",
+        "Takumi Bando",
+        "Yuki Matsuzaki",
+        "Takashi Yamaguchi"
+      ],
+      "length": "2h 21m",
+      "minutes": 141,
+      "score": "75%",
+      "overview": "The story of the battle of Iwo Jima between the United States and Imperial Japan during World War II, as told from the perspective of the Japanese who fought it.",
+      "tagline": "The battle of Iwo Jima seen through the eyes of the Japanese soldiers.",
+      "url": "https://www.themoviedb.org/movie/1251-letters-from-iwo-jima?language=en-US"
+    },
     "LostinTranslation2003": {
       "media": "movie",
       "name": "Lost in Translation",
@@ -2593,6 +3860,232 @@
       "overview": "Two lost souls visiting Tokyo -- the young, neglected wife of a photographer and a washed-up movie star shooting a TV commercial -- find an odd solace and pensive freedom to be real in each other's company, away from their lives in America.",
       "tagline": "Everyone wants to be found.",
       "url": "https://www.themoviedb.org/movie/153-lost-in-translation?language=en-US"
+    },
+    "Luomoperfetto2005": {
+      "media": "movie",
+      "name": "L'uomo perfetto",
+      "year": "2005",
+      "type": "dvd",
+      "storage": "ITALIA-COMEDY",
+      "img": "Luomoperfetto2005.jpg",
+      "theme": [
+        "Comedy",
+        "Romance"
+      ],
+      "keywords": [],
+      "author": [
+        "Luca Lucini"
+      ],
+      "cast": [
+        "Francesca Inaudi",
+        "Riccardo Scamarcio",
+        "Gabriella Pession",
+        "Paolo Pierobon",
+        "Maria Chiara Augenti",
+        "Giampiero Judica",
+        "Giuseppe Battiston",
+        "Donatella Bartoli"
+      ],
+      "length": "1h 32m",
+      "minutes": 92,
+      "score": "60%",
+      "overview": "Lucia is a young and talented advertiser but is out of luck when it comes to love. Madly in love with her best friend's boyfriend, she struggles with her feelings when they are set to get married.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/58082-l-uomo-perfetto?language=en-US"
+    },
+    "LustCaution2007": {
+      "media": "movie",
+      "name": "Lust, Caution",
+      "year": "2007",
+      "type": "dvd",
+      "storage": "TAIWAN-DRAMA",
+      "img": "LustCaution2007.jpg",
+      "theme": [
+        "Action",
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "keywords": [
+        "sexual obsession",
+        "china",
+        "resistance",
+        "in love with enemy",
+        "cheating",
+        "traitor",
+        "shanghai, china",
+        "insurgence",
+        "war on freedom",
+        "lover",
+        "occupying power",
+        "espionage",
+        "insurrection",
+        "secret love",
+        "love",
+        "hong kong",
+        "older man younger woman relationship",
+        "extramarital affair",
+        "mahjong",
+        "resistance fighter",
+        "erotic thriller",
+        "1940s"
+      ],
+      "author": [
+        "Ang Lee"
+      ],
+      "cast": [
+        "Tony Leung",
+        "Tang Wei",
+        "Joan Chen",
+        "Leehom Wang",
+        "Tou Tsung-Hua",
+        "Jacqueline Zhu Zhi-Ying",
+        "Ven Kao",
+        "Lawrence Ko Yu-Luen",
+        "Johnson Yuen Tak-Cheung"
+      ],
+      "length": "2h 38m",
+      "minutes": 158,
+      "score": "72%",
+      "overview": "During World War II, a secret agent must seduce and assassinate an official who works for the Japanese puppet government in Shanghai.",
+      "tagline": "To kill the enemy, she would have to capture his heart... and break her own.",
+      "url": "https://www.themoviedb.org/movie/4588?language=en-US"
+    },
+    "MariaFullofGrace2004": {
+      "media": "movie",
+      "name": "Maria Full of Grace",
+      "year": "2004",
+      "type": "dvd",
+      "storage": "COLOMBIA-DRAMA",
+      "img": "MariaFullofGrace2004.jpg",
+      "theme": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "keywords": [
+        "individual",
+        "new york city",
+        "adolescence",
+        "drug trafficking",
+        "cocaine",
+        "drug crime",
+        "illegal immigration",
+        "maquiladora",
+        "drug mule",
+        "pregnancy",
+        "airplane",
+        "bravery",
+        "teacher",
+        "self esteem",
+        "teenage protagonist"
+      ],
+      "author": [
+        "Joshua Marston"
+      ],
+      "cast": [
+        "Guilied Lopez",
+        "Yenny Paola Vega",
+        "Jhon Álex Toro",
+        "Virgina Ariza",
+        "Rodrigo Sánchez Borhorquez",
+        "Charles Albert Patiño",
+        "Wilson Guerrero",
+        "Johanna Andrea Mora"
+      ],
+      "length": "1h 41m",
+      "minutes": 101,
+      "score": "72%",
+      "overview": "A pregnant Colombian teenager becomes a drug mule to make some desperately needed money for her family.",
+      "tagline": "Based on 10,000 true stories.",
+      "url": "https://www.themoviedb.org/movie/436-maria-llena-eres-de-gracia?language=en-US"
+    },
+    "MillionDollarBaby2004": {
+      "media": "movie",
+      "name": "Million Dollar Baby",
+      "year": "2004",
+      "type": "dvd",
+      "storage": "USA-DRAMA",
+      "img": "MillionDollarBaby2004.jpg",
+      "theme": [
+        "Drama"
+      ],
+      "keywords": [
+        "transporter",
+        "suicide attempt",
+        "fight",
+        "strong woman",
+        "boxer",
+        "dying and death",
+        "stroke of fate",
+        "training",
+        "advancement",
+        "sports",
+        "tragedy",
+        "female protagonist",
+        "brutality",
+        "boxing trainer",
+        "unlikely friendship",
+        "female boxing",
+        "knockout",
+        "euthanasia",
+        "determination",
+        "boxing"
+      ],
+      "author": [
+        "Clint Eastwood"
+      ],
+      "cast": [
+        "Clint Eastwood",
+        "Hilary Swank",
+        "Morgan Freeman",
+        "Jay Baruchel",
+        "Mike Colter",
+        "Lucia Rijker",
+        "Brían F. O'Byrne",
+        "Anthony Mackie",
+        "Margo Martindale"
+      ],
+      "length": "2h 12m",
+      "minutes": 132,
+      "score": "80%",
+      "overview": "Despondent over a painful estrangement from his daughter, trainer Frankie Dunn isn't prepared for boxer Maggie Fitzgerald to enter his life. But Maggie's determined to go pro and to convince Dunn and his cohort to help her.",
+      "tagline": "Beyond his silence, there is a past. Beyond her dreams, there is a feeling. Beyond hope, there is a memory. Beyond their journey, there is a love.",
+      "url": "https://www.themoviedb.org/movie/70-million-dollar-baby?language=en-US"
+    },
+    "MirrorMask2005": {
+      "media": "movie",
+      "name": "MirrorMask",
+      "year": "2005",
+      "type": "dvd",
+      "storage": "UK-FANTASY",
+      "img": "MirrorMask2005.jpg",
+      "theme": [
+        "Fantasy"
+      ],
+      "keywords": [
+        "dreams"
+      ],
+      "author": [
+        "Dave McKean"
+      ],
+      "cast": [
+        "Stephanie Leonidas",
+        "Jason Barry",
+        "Rob Brydon",
+        "Gina McKee",
+        "Dora Bryan",
+        "Stephen Fry",
+        "Robert Llewellyn",
+        "Lenny Henry",
+        "Nik Robson"
+      ],
+      "length": "1h 41m",
+      "minutes": 101,
+      "score": "64%",
+      "overview": "In a fantasy world of opposing kingdoms, a 15-year old girl must find the fabled MirrorMask in order to save the kingdom and get home.",
+      "tagline": "The Other Side of Reason. The Other Side of Fate. The Other Side of Truth.",
+      "url": "https://www.themoviedb.org/movie/14517-mirrormask?language=en-US"
     },
     "MonstersInc2001": {
       "media": "movie",
@@ -2650,6 +4143,64 @@
       "overview": "Lovable Sulley and his wisecracking sidekick Mike Wazowski are the top scare team at Monsters, Inc., the scream-processing factory in Monstropolis. When a little girl named Boo wanders into their world, it's the monsters who are scared silly, and it's up to Sulley and Mike to keep her out of sight and get her back home.",
       "tagline": "It's nothing personal. It's just their job.",
       "url": "https://www.themoviedb.org/movie/585-monsters-inc?language=en-US"
+    },
+    "MoulinRouge2001": {
+      "media": "movie",
+      "name": "Moulin Rouge!",
+      "year": "2001",
+      "type": "dvd",
+      "storage": "USA-MUSICAL",
+      "img": "MoulinRouge2001.jpg",
+      "theme": [
+        "Drama",
+        "Romance",
+        "Music"
+      ],
+      "keywords": [
+        "paris, france",
+        "nightclub",
+        "fairy",
+        "courtesan",
+        "duke",
+        "musical",
+        "poet",
+        "terminal illness",
+        "love",
+        "writer",
+        "prostitution",
+        "death",
+        "illness",
+        "rouge",
+        "tuberculosis",
+        "bohemian",
+        "dance hall",
+        "19th century",
+        "1900s",
+        "belle epoque",
+        "dying in arms",
+        "jukebox musical",
+        "moulin rouge"
+      ],
+      "author": [
+        "Baz Luhrmann"
+      ],
+      "cast": [
+        "Ewan McGregor",
+        "Nicole Kidman",
+        "John Leguizamo",
+        "Jim Broadbent",
+        "Richard Roxburgh",
+        "Garry McDonald",
+        "Jacek Koman",
+        "Matthew Whittet",
+        "Kerry Walker"
+      ],
+      "length": "2h 8m",
+      "minutes": 128,
+      "score": "76%",
+      "overview": "A celebration of love and creative inspiration takes place in the infamous, gaudy and glamorous Parisian nightclub, at the cusp of the 20th century. A young poet, who is plunged into the heady world of Moulin Rouge, begins a passionate affair with the club's most notorious and beautiful star.",
+      "tagline": "No laws. No limits. One rule. Never fall in love.",
+      "url": "https://www.themoviedb.org/movie/824-moulin-rouge?language=en-US"
     },
     "MrPoppersPenguins2011": {
       "media": "movie",
@@ -3036,6 +4587,54 @@
       "tagline": "These two unlikely companions are on a journey to find her long lost son.",
       "url": "https://www.themoviedb.org/movie/205220-philomena?language=en-US"
     },
+    "PridePrejudice2005": {
+      "media": "movie",
+      "name": "Pride & Prejudice",
+      "year": "2005",
+      "type": "dvd",
+      "storage": "UK-DRAMA",
+      "img": "PridePrejudice2005.jpg",
+      "theme": [
+        "Drama",
+        "Romance"
+      ],
+      "keywords": [
+        "england",
+        "based on novel or book",
+        "bachelor",
+        "family relationships",
+        "prejudice",
+        "suitor",
+        "period drama",
+        "pride",
+        "18th century",
+        "opposites attract",
+        "gentleman",
+        "georgian or regency era",
+        "1790s",
+        "sisters"
+      ],
+      "author": [
+        "Joe Wright"
+      ],
+      "cast": [
+        "Keira Knightley",
+        "Matthew Macfadyen",
+        "Brenda Blethyn",
+        "Rosamund Pike",
+        "Carey Mulligan",
+        "Jena Malone",
+        "Talulah Riley",
+        "Donald Sutherland",
+        "Simon Woods"
+      ],
+      "length": "2h 7m",
+      "minutes": 127,
+      "score": "81%",
+      "overview": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
+      "tagline": "Sometimes the last person on earth you want to be with is the one person you can't be without.",
+      "url": "https://www.themoviedb.org/movie/4348-pride-prejudice?language=en-US"
+    },
     "Prometheus2012": {
       "media": "movie",
       "name": "Prometheus",
@@ -3140,6 +4739,48 @@
       "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
       "tagline": "The return of the great adventure.",
       "url": "https://www.themoviedb.org/movie/85-raiders-of-the-lost-ark?language=en-US"
+    },
+    "RaisetheRedLantern1991": {
+      "media": "movie",
+      "name": "Raise the Red Lantern",
+      "year": "1991",
+      "type": "dvd",
+      "storage": "CHINA-DRAMA",
+      "img": "RaisetheRedLantern1991.jpg",
+      "theme": [
+        "Drama"
+      ],
+      "keywords": [
+        "competition",
+        "romantic rivalry",
+        "marriage",
+        "polygamy",
+        "concubine",
+        "wealth",
+        "intrigue",
+        "oppression",
+        "1920s"
+      ],
+      "author": [
+        "Zhang Yimou"
+      ],
+      "cast": [
+        "Gong Li",
+        "Ma Jingwu",
+        "He Saifei",
+        "Cao Cuifen",
+        "Kong Lin",
+        "Jin Shuyuan",
+        "Chu Xiao",
+        "Ding Weimin",
+        "Cao Zengyin"
+      ],
+      "length": "2h 5m",
+      "minutes": 125,
+      "score": "79%",
+      "overview": "In 1920s China, 19-year-old Songlian becomes a concubine of a powerful lord and is forced to compete with his three wives for the privileges gained.",
+      "tagline": "China, 1920. One Master, Four Wives.",
+      "url": "https://www.themoviedb.org/movie/10404?language=en-US"
     },
     "RalphBreakstheInternet2018": {
       "media": "movie",
@@ -3371,6 +5012,39 @@
       "overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
       "tagline": "Return to a galaxy far far away.",
       "url": "https://www.themoviedb.org/movie/1892-return-of-the-jedi?language=en-US"
+    },
+    "RidingAloneforThousandsofMiles2005": {
+      "media": "movie",
+      "name": "Riding Alone for Thousands of Miles",
+      "year": "2005",
+      "type": "dvd",
+      "storage": "CHINA-DRAMA",
+      "img": "RidingAloneforThousandsofMiles2005.jpg",
+      "theme": [
+        "Drama"
+      ],
+      "keywords": [
+        "estranged father",
+        "father son relationship"
+      ],
+      "author": [
+        "Zhang Yimou"
+      ],
+      "cast": [
+        "Ken Takakura",
+        "Shinobu Terajima",
+        "Kiichi Nakai",
+        "Ken Nakamoto",
+        "Li Jia-Min",
+        "Jiang Wen",
+        "Lin Qiu"
+      ],
+      "length": "1h 49m",
+      "minutes": 109,
+      "score": "72%",
+      "overview": "Takada, a Japanese fisherman has been estranged from his son for many years, but when the son is diagnosed with terminal cancer his daughter-in-law, Rie, summons him to the hospital. Through a series of obstacles and relationships, he is brought unexpectedly closer to both an understanding of himself and of his son.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/14226?language=en-US"
     },
     "Ring21999": {
       "media": "movie",
@@ -3634,6 +5308,40 @@
       "tagline": "Roxanne dreamed of a handsome, intelligent, romantic man. C.D. Bales is two out of three—but looks aren't everything.",
       "url": "https://www.themoviedb.org/movie/11584-roxanne?language=en-US"
     },
+    "SangueLamortenonesiste2005": {
+      "media": "movie",
+      "name": "Sangue - La morte non esiste",
+      "year": "2005",
+      "type": "bluray",
+      "storage": "ITALIA-DRAMA",
+      "img": "SangueLamortenonesiste2005.jpg",
+      "theme": [
+        "Drama"
+      ],
+      "keywords": [
+        "sibling relationship"
+      ],
+      "author": [
+        "Libero De Rienzo"
+      ],
+      "cast": [
+        "Elio Germano",
+        "Emanuela Barilozzi",
+        "Luca Lionello",
+        "Eligue Azucena",
+        "Jo Ann Quimson Assuncion",
+        "Teonilo Ramos Abriso",
+        "Maurizio Cannavacciuolo",
+        "Fiore De Rienzo",
+        "Libero De Rienzo"
+      ],
+      "length": "1h 55m",
+      "minutes": 115,
+      "score": "60%",
+      "overview": "Iuri and Stella are two brothers with a strange relationship.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/164124-sangue-la-morte-non-esiste?language=en-US"
+    },
     "SchindlersList1993": {
       "media": "movie",
       "name": "Schindler's List",
@@ -3688,6 +5396,52 @@
       "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
       "tagline": "Whoever saves one life, saves the world entire.",
       "url": "https://www.themoviedb.org/movie/424-schindler-s-list?language=en-US"
+    },
+    "ShanghaiTriad1995": {
+      "media": "movie",
+      "name": "Shanghai Triad",
+      "year": "1995",
+      "type": "dvd",
+      "storage": "CHINA-DRAMA",
+      "img": "ShanghaiTriad1995.jpg",
+      "theme": [
+        "Drama",
+        "Crime"
+      ],
+      "keywords": [
+        "shanghai, china",
+        "chinese mafia",
+        "coming of age",
+        "mistress",
+        "criminal underworld",
+        "drug lord",
+        "triad",
+        "modern china",
+        "nightclub singer",
+        "1930s",
+        "cabaret singer",
+        "chinese triad"
+      ],
+      "author": [
+        "Zhang Yimou"
+      ],
+      "cast": [
+        "Gong Li",
+        "Li Baotian",
+        "Sun Chun",
+        "Li Xuejian",
+        "Liu Jiang",
+        "Fu Biao",
+        "Chen Shu",
+        "Wang Xiaoxiao",
+        "Jiang Baoying"
+      ],
+      "length": "1h 48m",
+      "minutes": 108,
+      "score": "68%",
+      "overview": "Shanghai, China, 1930. When young Shuisheng arrives from the countryside, his uncle Liushu puts him at the service of Bijou, the mistress of Laoda, supreme boss of the Tang Triad, constantly threatened by his enemies, both those he knows and those lurking in the shadows.",
+      "tagline": "In 1930, Shanghai violence was not the problem. It was the solution.",
+      "url": "https://www.themoviedb.org/movie/37557?language=en-US"
     },
     "Sicario2015": {
       "media": "movie",
@@ -3917,6 +5671,60 @@
       "tagline": "Make every second count.",
       "url": "https://www.themoviedb.org/movie/45612-source-code?language=en-US"
     },
+    "SpringSummerFallWinterandSpring2003": {
+      "media": "movie",
+      "name": "Spring, Summer, Fall, Winter... and Spring",
+      "year": "2003",
+      "type": "dvd",
+      "storage": "KOREA-DRAMA",
+      "img": "SpringSummerFallWinterandSpring2003.jpg",
+      "theme": [
+        "Drama"
+      ],
+      "keywords": [
+        "buddhism",
+        "life and death",
+        "philosophy",
+        "countryside",
+        "becoming an adult",
+        "buddhist monk",
+        "temple",
+        "mountain lake",
+        "meditation",
+        "isolation",
+        "attachment to nature",
+        "religious education",
+        "cycle",
+        "penalty",
+        "mortification",
+        "restart",
+        "taskmaster",
+        "dying and death",
+        "season",
+        "kids",
+        "contemplative cinema"
+      ],
+      "author": [
+        "Kim Ki-duk"
+      ],
+      "cast": [
+        "Oh Young-soo",
+        "Kim Ki-duk",
+        "Kim Young-min",
+        "Seo Jae-kyeong",
+        "Kim Jong-ho",
+        "Ha Yeo-jin",
+        "Kim Jung-young",
+        "Ji Dae-han",
+        "Choe Min"
+      ],
+      "length": "1h 43m",
+      "minutes": 103,
+      "score": "78%",
+      "overview": "An isolated lake, where an old monk lives in a small floating temple. The monk has a young boy living with him, learning to become a monk. We watch as seasons and years pass by.",
+      "tagline": "What you like, others will also like.",
+      "url": "https://www.themoviedb.org/movie/113?language=it-IT&language=en-US"
+    },
     "StarTrekIntoDarkness2013": {
       "media": "movie",
       "name": "Star Trek Into Darkness",
@@ -4138,6 +5946,61 @@
       "overview": "Fred, a raffish safe blower, takes refuge in the Paris Metro after being chased by the henchmen of a shady businessman from whom he has just stolen some documents. While hiding out in the back rooms and conduits of the Metro, Fred encounters a subterranean society of eccentric characters and petty criminals.",
       "tagline": "A seductive fable",
       "url": "https://www.themoviedb.org/movie/10656-subway?language=en-US"
+    },
+    "Terminator3RiseoftheMachines2003": {
+      "media": "movie",
+      "name": "Terminator 3: Rise of the Machines",
+      "year": "2003",
+      "type": "dvd",
+      "storage": "USA-SCIFI",
+      "img": "Terminator3RiseoftheMachines2003.jpg",
+      "theme": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "keywords": [
+        "saving the world",
+        "artificial intelligence (a.i.)",
+        "man vs machine",
+        "cyborg",
+        "killer robot",
+        "leather jacket",
+        "nanotechnology",
+        "rocket launcher",
+        "veterinarian",
+        "fire engine",
+        "villain",
+        "time travel",
+        "dystopia",
+        "psychiatrist",
+        "urban setting",
+        "female villain",
+        "firefighter",
+        "action hero",
+        "2030s",
+        "good versus evil"
+      ],
+      "author": [
+        "Jonathan Mostow"
+      ],
+      "cast": [
+        "Arnold Schwarzenegger",
+        "Nick Stahl",
+        "Claire Danes",
+        "Kristanna Loken",
+        "Earl Boen",
+        "David Andrews",
+        "Carolyn Hennesy",
+        "Jay Acovone",
+        "Mark Famiglietti"
+      ],
+      "length": "1h 49m",
+      "minutes": 109,
+      "score": "62%",
+      "overview": "It's been 10 years since John Connor saved Earth from Judgment Day, and he's now living under the radar, steering clear of using anything Skynet can trace. That is, until he encounters T-X, a robotic assassin ordered to finish what T-1000 started. Good thing Connor's former nemesis, the Terminator, is back to aid the now-adult Connor … just like he promised.",
+      "tagline": "The Machines Will Rise.",
+      "url": "https://www.themoviedb.org/movie/296-terminator-3-rise-of-the-machines?language=en-US"
     },
     "TerminatorSalvation2009": {
       "media": "movie",
@@ -4391,6 +6254,49 @@
       "tagline": "Unmask the truth.",
       "url": "https://www.themoviedb.org/movie/414906-the-batman?language=en-US"
     },
+    "TheBoatThatRocked2009": {
+      "media": "movie",
+      "name": "The Boat That Rocked",
+      "year": "2009",
+      "type": "dvd",
+      "storage": "UK-MUSICAL",
+      "img": "TheBoatThatRocked2009.jpg",
+      "theme": [
+        "Drama",
+        "Comedy"
+      ],
+      "keywords": [
+        "rock 'n' roll",
+        "great britain",
+        "radio station",
+        "ship",
+        "north sea",
+        "swinging 60s",
+        "dj",
+        "1960s",
+        "teenage protagonist"
+      ],
+      "author": [
+        "Richard Curtis"
+      ],
+      "cast": [
+        "Tom Sturridge",
+        "Philip Seymour Hoffman",
+        "Rhys Ifans",
+        "Bill Nighy",
+        "Emma Thompson",
+        "Nick Frost",
+        "Kenneth Branagh",
+        "January Jones",
+        "Gemma Arterton"
+      ],
+      "length": "2h 15m",
+      "minutes": 135,
+      "score": "72%",
+      "overview": "An ensemble comedy, where the romance is between the young people of the 60s, and pop music. It's about a band of DJs that captivate Britain, playing the music that defines a generation and standing up to a government that  wanted control of popular culture via the British Broadcasting Corporation. Loosely based on the events in Britain in the 60's when the Labour government of Harold Wilson, wanted to bring the pirate radio stations under control, enough to see the passage of the Marine Broadcasting Offences Act on 15 August 1967. Also known as \"Pirate Radio\".",
+      "tagline": "On air. Off shore. Out of control.",
+      "url": "https://www.themoviedb.org/movie/18947-the-boat-that-rocked?language=en-US"
+    },
     "TheConjuring2013": {
       "media": "movie",
       "name": "The Conjuring",
@@ -4440,6 +6346,55 @@
       "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
       "tagline": "Based on the true case files of the Warrens.",
       "url": "https://www.themoviedb.org/movie/138843-the-conjuring?language=en-US"
+    },
+    "TheDevilWearsPrada2006": {
+      "media": "movie",
+      "name": "The Devil Wears Prada",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "USA-COMEDY",
+      "img": "TheDevilWearsPrada2006.jpg",
+      "theme": [
+        "Drama",
+        "Comedy"
+      ],
+      "keywords": [
+        "paris, france",
+        "new york city",
+        "journalist",
+        "based on novel or book",
+        "journalism",
+        "fashion journal",
+        "assistant",
+        "job entrant",
+        "job interview",
+        "editor-in-chief",
+        "fashion",
+        "fashion magazine",
+        "bullied",
+        "city life",
+        "fashion industry"
+      ],
+      "author": [
+        "David Frankel"
+      ],
+      "cast": [
+        "Meryl Streep",
+        "Anne Hathaway",
+        "Emily Blunt",
+        "Stanley Tucci",
+        "Simon Baker",
+        "Adrian Grenier",
+        "Tracie Thoms",
+        "Rich Sommer",
+        "Daniel Sunjata"
+      ],
+      "length": "1h 49m",
+      "minutes": 109,
+      "score": "74%",
+      "overview": "Andy moves to New York to work in the fashion industry. Her boss is extremely demanding, cruel and won't let her succeed if she doesn't fit into the high class elegant look of their magazine.",
+      "tagline": "Meet Andy Sachs. A million girls would kill to have her job. She's not one of them.",
+      "url": "https://www.themoviedb.org/movie/350-the-devil-wears-prada?language=en-US"
     },
     "TheEmpireStrikesBack1980": {
       "media": "movie",
@@ -4580,6 +6535,62 @@
       "overview": "A Westerner finds refuge with a group of women in a church during Japan's rape of Nanking in 1937. Posing as a priest, he attempts to lead the women to safety.",
       "tagline": "Fighting for freedom.",
       "url": "https://www.themoviedb.org/movie/76758?language=en-US"
+    },
+    "TheFourFeathers2002": {
+      "media": "movie",
+      "name": "The Four Feathers",
+      "year": "2002",
+      "type": "dvd",
+      "storage": "UK-WAR",
+      "img": "TheFourFeathers2002.jpg",
+      "theme": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "keywords": [
+        "islam",
+        "loyalty",
+        "bravery",
+        "british empire",
+        "sudan",
+        "army",
+        "revenge",
+        "honor",
+        "murder",
+        "escape",
+        "soldier",
+        "battle",
+        "church",
+        "britain",
+        "slave",
+        "colonialism",
+        "military",
+        "white feather",
+        "imperialism"
+      ],
+      "author": [
+        "Shekhar Kapur"
+      ],
+      "cast": [
+        "Heath Ledger",
+        "Wes Bentley",
+        "Kate Hudson",
+        "Djimon Hounsou",
+        "Alex Jennings",
+        "Michael Sheen",
+        "Lucy Gordon",
+        "James Cosmo",
+        "Angela Douglas"
+      ],
+      "length": "2h 12m",
+      "minutes": 132,
+      "score": "66%",
+      "overview": "A young British officer resigns his post when he learns of his regiment's plan to ship out to the Sudan for the conflict with the Mahdi. His friends and fiancée send him four white feathers as symbols of what they view as his cowardice. To redeem his honor, he disguises himself as an Arab and secretly saves their lives.",
+      "tagline": "Freedom. Country. Honor. Passion. To save his best friend, one man must risk everything he loves.",
+      "url": "https://www.themoviedb.org/movie/9093-the-four-feathers?language=en-US"
     },
     "TheGirlontheTrain2016": {
       "media": "movie",
@@ -4846,6 +6857,73 @@
       "tagline": "The world will be watching.",
       "url": "https://www.themoviedb.org/movie/70160-the-hunger-games?language=en-US"
     },
+    "TheLastEmperor1987": {
+      "media": "movie",
+      "name": "The Last Emperor",
+      "year": "1987",
+      "type": "dvd",
+      "storage": "CHINA-DRAMA",
+      "img": "TheLastEmperor1987.jpg",
+      "theme": [
+        "Drama",
+        "History"
+      ],
+      "keywords": [
+        "buddhism",
+        "suicide",
+        "china",
+        "suicide attempt",
+        "war crimes",
+        "becoming an adult",
+        "isolation",
+        "war on drugs",
+        "opium",
+        "experiment",
+        "drug addiction",
+        "world war ii",
+        "revolution",
+        "emperor",
+        "arranged marriage",
+        "manchuria",
+        "dynasty",
+        "reeducation camp",
+        "biography",
+        "coup d'etat",
+        "autobiography",
+        "based on true story",
+        "teacher",
+        "beijing, china",
+        "dowager",
+        "decadence",
+        "communism",
+        "1920s",
+        "1940s",
+        "1950s",
+        "1910s",
+        "1930s",
+        "japanese occupation of china"
+      ],
+      "author": [
+        "Bernardo Bertolucci"
+      ],
+      "cast": [
+        "John Lone",
+        "Joan Chen",
+        "Peter O'Toole",
+        "Ruocheng Ying",
+        "Victor Wong",
+        "Dennis Dun",
+        "Ryuichi Sakamoto",
+        "Maggie Han",
+        "Ric Young"
+      ],
+      "length": "2h 43m",
+      "minutes": 163,
+      "score": "76%",
+      "overview": "A dramatic history of Pu Yi, the last of the Emperors of China, from his lofty birth and brief reign in the Forbidden City, the object of worship by half a billion people; through his abdication, his decline and dissolute lifestyle; his exploitation by the invading Japanese, and finally to his obscure existence as just another peasant worker in the People's Republic.",
+      "tagline": "1500 slaves. 353,260,000 royal subjects. Warlords. Concubines. And 2 wives. He was the loneliest boy in the world.",
+      "url": "https://www.themoviedb.org/movie/746-the-last-emperor?language=en-US"
+    },
     "TheLionKing1994": {
       "media": "movie",
       "name": "The Lion King",
@@ -4961,6 +7039,216 @@
       "tagline": "Meet the original force of nature.",
       "url": "https://www.themoviedb.org/movie/73723-the-lorax?language=en-US"
     },
+    "TheLordoftheRingsTheFellowshipoftheRing2001": {
+      "media": "movie",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": "2001",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
+      "img": "TheLordoftheRingsTheFellowshipoftheRing2001.jpg",
+      "theme": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "keywords": [
+        "elves",
+        "dwarf",
+        "orcs",
+        "based on novel or book",
+        "mountain",
+        "obsession",
+        "mine",
+        "maze",
+        "magic",
+        "fireworks",
+        "castle",
+        "bravery",
+        "birthday party",
+        "battle",
+        "demon",
+        "blizzard",
+        "uncle nephew relationship",
+        "fantasy world",
+        "journey",
+        "ring",
+        "invisibility",
+        "live action and animation",
+        "hero's journey",
+        "wraith",
+        "sword and sorcery",
+        "trekking",
+        "good versus evil",
+        "creatures",
+        "epic quest",
+        "hobbits",
+        "trolls"
+      ],
+      "author": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Ian Holm",
+        "Liv Tyler",
+        "Christopher Lee",
+        "Sean Bean",
+        "Billy Boyd"
+      ],
+      "length": "2h 59m",
+      "minutes": 179,
+      "score": "84%",
+      "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+      "tagline": "One ring to rule them all.",
+      "url": "https://www.themoviedb.org/movie/120-the-lord-of-the-rings-the-fellowship-of-the-ring?language=en-US"
+    },
+    "TheLordoftheRingsTheReturnoftheKing2003": {
+      "media": "movie",
+      "name": "The Lord of the Rings: The Return of the King",
+      "year": "2003",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
+      "img": "TheLordoftheRingsTheReturnoftheKing2003.jpg",
+      "theme": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "keywords": [
+        "elves",
+        "dwarf",
+        "orcs",
+        "based on novel or book",
+        "obsession",
+        "magic",
+        "castle",
+        "volcano",
+        "giant spider",
+        "bravery",
+        "kingdom",
+        "army",
+        "sequel",
+        "honor",
+        "king",
+        "brutality",
+        "madness",
+        "split personality",
+        "fantasy world",
+        "wizard",
+        "epic battle",
+        "journey",
+        "ring",
+        "quest",
+        "live action and animation",
+        "hero's journey",
+        "high fantasy",
+        "wraith",
+        "sword and sorcery",
+        "power madness",
+        "great war",
+        "trekking",
+        "good versus evil",
+        "sword making",
+        "war",
+        "creatures",
+        "epic quest",
+        "winged creatures",
+        "hobbits",
+        "armies",
+        "spirits"
+      ],
+      "author": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Andy Serkis",
+        "Dominic Monaghan",
+        "Billy Boyd",
+        "John Noble",
+        "David Wenham"
+      ],
+      "length": "3h 21m",
+      "minutes": 201,
+      "score": "85%",
+      "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
+      "tagline": "There can be no triumph without loss. No victory without suffering. No freedom without sacrifice.",
+      "url": "https://www.themoviedb.org/movie/122-the-lord-of-the-rings-the-return-of-the-king?language=en-US"
+    },
+    "TheLordoftheRingsTheTwoTowers2002": {
+      "media": "movie",
+      "name": "The Lord of the Rings: The Two Towers",
+      "year": "2002",
+      "type": "bluray",
+      "storage": "USA-FANTASY",
+      "img": "TheLordoftheRingsTheTwoTowers2002.jpg",
+      "theme": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "keywords": [
+        "elves",
+        "dwarf",
+        "orcs",
+        "based on novel or book",
+        "obsession",
+        "magic",
+        "castle",
+        "bravery",
+        "reincarnation",
+        "army",
+        "sequel",
+        "mission",
+        "battle",
+        "brutality",
+        "guide",
+        "split personality",
+        "marsh",
+        "fantasy world",
+        "wizard",
+        "journey",
+        "ring",
+        "live action and animation",
+        "hero's journey",
+        "high fantasy",
+        "wraith",
+        "sword and sorcery",
+        "trekking",
+        "evil spell",
+        "good versus evil",
+        "creatures",
+        "trees",
+        "winged creatures",
+        "hobbits"
+      ],
+      "author": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Andy Serkis",
+        "John Rhys-Davies",
+        "Orlando Bloom",
+        "Bernard Hill",
+        "Miranda Otto"
+      ],
+      "length": "2h 59m",
+      "minutes": 179,
+      "score": "84%",
+      "overview": "Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths. Their destinies lie at two towers--Orthanc Tower in Isengard, where the corrupt wizard Saruman awaits, and Sauron's fortress at Barad-dur, deep within the dark lands of Mordor. Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+      "tagline": "The fellowship is broken. The power of darkness grows...",
+      "url": "https://www.themoviedb.org/movie/121-the-lord-of-the-rings-the-two-towers?language=en-US"
+    },
     "TheNightmareBeforeChristmas1993": {
       "media": "movie",
       "name": "The Nightmare Before Christmas",
@@ -5063,6 +7351,49 @@
       "overview": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil.",
       "tagline": "You Have Been Warned",
       "url": "https://www.themoviedb.org/movie/794-the-omen?language=en-US"
+    },
+    "TheRaid2012": {
+      "media": "movie",
+      "name": "The Raid",
+      "year": "2012",
+      "type": "dvd",
+      "storage": "INDONESIA-ACTION",
+      "img": "TheRaid2012.jpg",
+      "theme": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "keywords": [
+        "martial arts",
+        "crime boss",
+        "tenement",
+        "high rise",
+        "monitor",
+        "tower block",
+        "jakarta indonesia",
+        "swat"
+      ],
+      "author": [
+        "Gareth Evans"
+      ],
+      "cast": [
+        "Iko Uwais",
+        "Joe Taslim",
+        "Donny Alamsyah",
+        "Yayan Ruhian",
+        "Pierre Gruno",
+        "Ray Sahetapy",
+        "Tegar Satrya",
+        "Iang Darmawan",
+        "Eka 'Piranha' Rahmadia"
+      ],
+      "length": "1h 41m",
+      "minutes": 101,
+      "score": "74%",
+      "overview": "Deep in the heart of Jakarta's slums lies an impenetrable safe house for the world's most dangerous killers and gangsters. Until now, the run-down apartment block has been considered untouchable to even the bravest of police. Cloaked under the cover of pre-dawn darkness and silence, an elite swat team is tasked with raiding the safe house in order to take down the notorious drug lord that runs it.  But when a chance encounter with a spotter blows their cover and news of their assault reaches the drug lord, the building's lights are cut and all the exits blocked. Stranded on the sixth floor with no way out, the unit must fight their way through the city's worst to survive their mission. Starring Indonesian martial arts sensation Iko Uwais.",
+      "tagline": "1 Ruthless Crime Lord, 20 Elite Cops, 30 Floors of Hell.",
+      "url": "https://www.themoviedb.org/movie/94329-serbuan-maut?language=en-US"
     },
     "TheRemainsoftheDay1993": {
       "media": "movie",
@@ -5525,6 +7856,51 @@
       "tagline": "Adventure beyond Pixie Hollow",
       "url": "https://www.themoviedb.org/movie/25475-tinker-bell-and-the-lost-treasure?language=en-US"
     },
+    "TolkienTheTrueStoryoftheRings2024": {
+      "media": "movie",
+      "name": "Tolkien: The True Story of the Rings",
+      "year": "2024",
+      "type": "dvd",
+      "storage": "GERMANY-DOCUMENTARY",
+      "img": "TolkienTheTrueStoryoftheRings2024.jpg",
+      "theme": [
+        "Documentary",
+        "History"
+      ],
+      "keywords": [
+        "biography",
+        "writer",
+        "fantasy world",
+        "portrait of an artist",
+        "literature creation",
+        "european history",
+        "british literature",
+        "history and legacy",
+        "literature history",
+        "mythical fantasy"
+      ],
+      "author": [
+        "Matthias Schmidt",
+        "Jean-Christoph Caron"
+      ],
+      "cast": [
+        "Elisabeth Günther",
+        "Stuart Lee",
+        "Adrián Maldonado",
+        "Johannes Dillinger",
+        "John Garth",
+        "Dimitra Fimi",
+        "Marcel R. Bülles",
+        "Thomas Honegger",
+        "Martin S. Monsch"
+      ],
+      "length": "1h 31m",
+      "minutes": 91,
+      "score": "70%",
+      "overview": "An analysis of the sources of inspiration that fed the imagination of the British writer, poet and philologist J. R. R. Tolkien (1892-1973), great master of epic fantasy.",
+      "tagline": null,
+      "url": "https://www.themoviedb.org/movie/1398063-tolkien-die-wahre-geschichte-der-ringe?language=en-US"
+    },
     "ToyStory1995": {
       "media": "movie",
       "name": "Toy Story",
@@ -5675,6 +8051,49 @@
       "tagline": "No toy gets left behind.",
       "url": "https://www.themoviedb.org/movie/10193-toy-story-3?language=en-US"
     },
+    "TwoBrothers2004": {
+      "media": "movie",
+      "name": "Two Brothers",
+      "year": "2004",
+      "type": "dvd",
+      "storage": "FRANCE-DRAMA",
+      "img": "TwoBrothers2004.jpg",
+      "theme": [
+        "Adventure",
+        "Drama",
+        "Family"
+      ],
+      "keywords": [
+        "sibling relationship",
+        "loss of loved one",
+        "cambodia",
+        "chase",
+        "tiger",
+        "governor",
+        "royalty",
+        "traveling circus",
+        "archaeologist"
+      ],
+      "author": [
+        "Jean-Jacques Annaud"
+      ],
+      "cast": [
+        "Guy Pearce",
+        "Jean-Claude Dreyfus",
+        "Oanh Nguyen",
+        "Philippine Leroy-Beaulieu",
+        "Moussa Maaskri",
+        "Vincent Scarito",
+        "Maï Anh Le",
+        "Jaran Petcharoen"
+      ],
+      "length": "1h 49m",
+      "minutes": 109,
+      "score": "71%",
+      "overview": "Two tigers are separated as cubs and taken into captivity, only to be reunited years later as enemies by an explorer (Pearce) who inadvertently forces them to fight each other.",
+      "tagline": "Two infant tiger cubs, separated from their parents and each other.",
+      "url": "https://www.themoviedb.org/movie/1997-deux-freres?language=en-US"
+    },
     "U5712000": {
       "media": "movie",
       "name": "U-571",
@@ -5809,6 +8228,51 @@
       "tagline": "After 700 years of doing what he was built for, he'll discover what he was meant for.",
       "url": "https://www.themoviedb.org/movie/10681-wall-e?language=en-US"
     },
+    "Wasabi2001": {
+      "media": "movie",
+      "name": "Wasabi",
+      "year": "2001",
+      "type": "dvd",
+      "storage": "FRANCE-COMEDY",
+      "img": "Wasabi2001.jpg",
+      "theme": [
+        "Drama",
+        "Action",
+        "Comedy"
+      ],
+      "keywords": [
+        "handcuffs",
+        "police brutality",
+        "yakuza",
+        "hitman",
+        "love letter",
+        "police operation",
+        "golf club",
+        "brutal cop",
+        "transphobia",
+        "abuse of power"
+      ],
+      "author": [
+        "Gérard Krawczyk"
+      ],
+      "cast": [
+        "Jean Reno",
+        "Ryoko Hirosue",
+        "Michel Muller",
+        "Carole Bouquet",
+        "Yoshi Oida",
+        "Christian Sinniger",
+        "Alexandre Brik",
+        "Jean-Marc Montalto",
+        "Véronique Balme"
+      ],
+      "length": "1h 34m",
+      "minutes": 94,
+      "score": "66%",
+      "overview": "Hubert is a French policeman with very sharp methods. After being forced to take 2 months off by his boss, who doesn't share his view on working methods, he goes back to Japan, where he used to work 19 years ago, to settle the probate of his girlfriend who left him shortly after marriage without a trace.",
+      "tagline": "For those who take their action raw.",
+      "url": "https://www.themoviedb.org/movie/2110-wasabi?language=en-US"
+    },
     "Watchmen2009": {
       "media": "movie",
       "name": "Watchmen",
@@ -5907,6 +8371,87 @@
       "tagline": "A world where heroes come in all sizes and adventure is the greatest magic of all.",
       "url": "https://www.themoviedb.org/movie/847-willow?language=en-US"
     },
+    "WingsofDesire1987": {
+      "media": "movie",
+      "name": "Wings of Desire",
+      "year": "1987",
+      "type": "bluray",
+      "storage": "USA-DRAMA",
+      "img": "WingsofDesire1987.jpg",
+      "theme": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "keywords": [
+        "berlin, germany",
+        "angel",
+        "circus",
+        "berlin wall",
+        "library",
+        "dreams",
+        "immortality",
+        "observer",
+        "black and white",
+        "perception",
+        "mortality"
+      ],
+      "author": [
+        "Wim Wenders"
+      ],
+      "cast": [
+        "Bruno Ganz",
+        "Solveig Dommartin",
+        "Otto Sander",
+        "Curt Bois",
+        "Peter Falk",
+        "Hans Martin Stier",
+        "Elmar Wilms",
+        "Sigurd Rachman",
+        "Beatrice Manowski"
+      ],
+      "length": "2h 8m",
+      "minutes": 128,
+      "score": "78%",
+      "overview": "Two angels, Damiel and Cassiel, glide through the streets of Berlin, observing the bustling population, providing invisible rays of hope to the distressed but never interacting with them. When Damiel falls in love with lonely trapeze artist Marion, the angel longs to experience life in the physical world, and finds -- with some words of wisdom from actor Peter Falk -- that it might be possible for him to take human form.",
+      "tagline": "There are angels on the streets of Berlin.",
+      "url": "https://www.themoviedb.org/movie/144-der-himmel-uber-berlin?language=en-US"
+    },
+    "WomanTimesSeven1967": {
+      "media": "movie",
+      "name": "Woman Times Seven",
+      "year": "1967",
+      "type": "dvd",
+      "storage": "USA-COMEDY",
+      "img": "WomanTimesSeven1967.jpg",
+      "theme": [
+        "Comedy",
+        "Drama"
+      ],
+      "keywords": [
+        "anthology"
+      ],
+      "author": [
+        "Vittorio De Sica"
+      ],
+      "cast": [
+        "Shirley MacLaine",
+        "Peter Sellers",
+        "Rossano Brazzi",
+        "Lex Barker",
+        "Alan Arkin",
+        "Adrienne Corri",
+        "Robert Morley",
+        "Michael Caine",
+        "Anita Ekberg"
+      ],
+      "length": "1h 40m",
+      "minutes": 100,
+      "score": "63%",
+      "overview": "Seven mini-stories of adultery: a widow misbehaves at her husband's funeral, a wife turns to streetwalking for revenge, a prudish girl surprises, a neglected wife vies for her husband's attention, a fight over a dress, a death pact, and a detective revealed as a jealous husband's spy.",
+      "tagline": "As Naughty As A Black Lace Nightgown!",
+      "url": "https://www.themoviedb.org/movie/61041-woman-times-seven?language=en-US"
+    },
     "XMenFirstClass2011": {
       "media": "movie",
       "name": "X-Men: First Class",
@@ -5997,6 +8542,47 @@
       "overview": "After seeking to live a normal life, Logan sets out to avenge the death of his girlfriend by undergoing the mutant Weapon X program and becoming Wolverine.",
       "tagline": "Witness the origin.",
       "url": "https://www.themoviedb.org/movie/2080-x-men-origins-wolverine?language=en-US"
+    },
+    "XMenTheLastStand2006": {
+      "media": "movie",
+      "name": "X-Men: The Last Stand",
+      "year": "2006",
+      "type": "dvd",
+      "storage": "USA-ACTION",
+      "img": "XMenTheLastStand2006.jpg",
+      "theme": [
+        "Adventure",
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "keywords": [
+        "mutant",
+        "superhero",
+        "based on comic",
+        "superhuman",
+        "beast",
+        "cyclops",
+        "aftercreditsstinger"
+      ],
+      "author": [
+        "Brett Ratner"
+      ],
+      "cast": [
+        "Hugh Jackman",
+        "Patrick Stewart",
+        "Ian McKellen",
+        "Famke Janssen",
+        "Kelsey Grammer",
+        "Elliot Page",
+        "Anna Paquin"
+      ],
+      "length": "1h 44m",
+      "minutes": 104,
+      "score": "64%",
+      "overview": "When a cure is found to treat mutations, lines are drawn amongst the X-Men—led by Professor Charles Xavier—and the Brotherhood, a band of powerful mutants organised under Xavier's former ally, Magneto.",
+      "tagline": "Take a stand.",
+      "url": "https://www.themoviedb.org/movie/36668-x-men-the-last-stand?language=en-US"
     },
     "YesMan2008": {
       "media": "movie",
