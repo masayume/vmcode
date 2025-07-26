@@ -1145,18 +1145,33 @@
       "number": "73",
       "data_cat": "player",
       "class": ["player"],
-      "mechanics": [ "Area Majority / Influence", "Card Play Conflict Resolution", "Deck Construction", "Hand Management", "Multi-Use Cards", "Open Drafting", "Race " ],
+      "mechanics": [ "Area Majority / Influence", "Card Play Conflict Resolution", "Deck Construction", "Hand Management", "Multi-Use Cards", "Open Drafting", "Race" ],
       "theme": ["Resources"],
       "img": "073.png",
-      "designer": " Michael Yang",
+      "designer": "Michael Yang",
       "weight": "2.18", 
       "year": 2025,
       "players": [2],
       "length": 30,
       "score": "8.0",
       "url": "https://boardgamegeek.com/boardgame/406652/compile-main-1"
+    },
+    "ElDorado": {
+      "name": "The Quest for El Dorado",
+      "number": "74",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Deck, Bag, and Pool Building", "Delayed Purchase", "Grid Movement", "Hand Management", "Hexagon Grid", "Modular Board", "Multi-Use Cards", "Open Drafting", "Race", "Variable Set-up" ],
+      "theme": ["Resources"],
+      "img": "074.png",
+      "designer": "Reiner Knizia",
+      "weight": "1.94", 
+      "year": 2017,
+      "players": [2, 3, 4],
+      "length": 45,
+      "score": "7.7",
+      "url": "https://boardgamegeek.com/boardgame/217372/the-quest-for-el-dorado"
     }
-
     
   },
   "template":
