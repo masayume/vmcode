@@ -265,7 +265,8 @@
       <h4>TEXT/EDITORS</h4>
       <ul>
         <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
-            <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
+            <a href="https://products.aspose.app/words/editor/rtf"><b>Aspose</b></a> </li>
+        <li><a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
         <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
             <a href="https://brevity.sh/"><b>Brevity</b></a> </li>
       </ul>
