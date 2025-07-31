@@ -63,10 +63,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   <br />
       <h4>PAGES</h4>
           <ul>
-            <li> <a href="/html5/isotope/isotope-projects/"><b>ISO Projects ★★</b></a></li> 
-<!--            <li> <a href="/html5/isotope/isotope-unitytuts/"><b>Unity ISO Page</b></a></li> 
-            <li> <a href="https://unity.stelabouras.com/"><b>Curated Tutorials ★</b></a></li>            -->
-            <li> <a href="https://github.com/masayume/DigitalGarden/tree/main/engineering-code/godot"><b>Godot DG</b></a></li> 
+            <li> <a href="/html5/isotope/isotope-projects/"><b>ISO Projects ★★</b></a>
+                 &nbsp; &nbsp;
+                 <a href="https://github.com/masayume/DigitalGarden/tree/main/engineering-code/godot"><b>Godot DG</b></a>
+                 &nbsp; &nbsp;
+                 <a href="/HTML5/holden/index.php?art1=14&art2=14&tag1=-PLAY-&tag2=-PLAY-"><b>COVERS</b></a></li> 
           </ul>  
       <h4>MAGAZINES</h4>
           <ul>
