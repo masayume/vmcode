@@ -101,6 +101,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         <li> <a href="https://lotovik.itch.io/project-character-controller"><b>character controller</b></a> </li> 
         <li> <a href="https://godotengine.org/asset-library/asset"><b>asset library</b></a> </li> 
       </ul>  
+
+    <h4>RESOURCES</h4> <!-- also in INSPIRE, TOOLS -->
+    <ul>
+      <li> <a href="https://www.spriters-resource.com/"><b>spriters resource ★</b></a> </a></li>
+      <li> <a href="https://www.textures-resource.com/"><b>textures resource ★</b></a> </a></li>
+      <li> <a href="https://www.masayume.it/blog/content/material-maker"><b>Material Maker ★</b></a> </a></li>
+      <li> <a href="https://www.models-resource.com/"><b>models resource ★</b></a> </a></li>
+      <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
+    </ul>
       
   </div>
 

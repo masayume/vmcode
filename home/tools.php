@@ -168,10 +168,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <li> <a href="/inspire.php"><b>INSPIRE</b></a> or <a href="/unity.htm"><b>UNITY</b></a></li>
     </ul>
 
-    <h4>RESOURCES</h4> <!-- also in INSPIRE, UNITY -->
+    <h4>RESOURCES</h4> <!-- also in INSPIRE, GODOT -->
     <ul>
       <li> <a href="https://www.spriters-resource.com/"><b>spriters resource ★</b></a> </a></li>
       <li> <a href="https://www.textures-resource.com/"><b>textures resource ★</b></a> </a></li>
+      <li> <a href="https://www.masayume.it/blog/content/material-maker"><b>Material Maker ★</b></a> </a></li>
       <li> <a href="https://www.models-resource.com/"><b>models resource ★</b></a> </a></li>
       <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
     </ul>
