@@ -322,6 +322,16 @@
   <div class="_exa">
 
     <details>
+        <summary><h3><b>COMFYUI⬇️</h3></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+            <li> <a href="http://localhost:8188" title="start python environment: cd ~/ComfyUI; python main.py --cpu"><b>comfyUI interface ★★</b></a></li> 
+          </ul>
+        </p>
+    </details>
+
+
+    <details>
         <summary><h3><b>MODELS⬇️</h3></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
