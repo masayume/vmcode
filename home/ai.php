@@ -567,16 +567,16 @@
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/AIP/', 'inspire/@AI/AIP/', 'inspire/@AI/AIP/', 'inspire/@AI/Douggy Pledger/FILM/', 'inspire/@AI/Douggy Pledger/Monster Mash/', 
-      'inspire/@AI/Douggy Pledger/other/', 'inspire/@AI/Douggy Pledger/shining/', 
-      'inspire/@AI/Douggy Pledger/star wars/', 'inspire/@AI/Douggy Pledger/Stronzo Toys/',
+      $ai_dirs    = array('inspire/@AI/AIP/', 'inspire/@AI/AIP/', 'inspire/@AI/AIP/', 'inspire/@AI/Douggy_Pledger/FILM/', 'inspire/@AI/Douggy_Pledger/Monster_Mash/', 
+      'inspire/@AI/Douggy_Pledger/other/', 'inspire/@AI/Douggy_Pledger/shining/', 'inspire/@AI/Douggy_Pledger/star_wars/', 'inspire/@AI/Douggy_Pledger/Stronzo_Toys/',
       'inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
+      echo "      <!-- empty_directory " . $imagefile  . " -->";
 
     ?>
   </div>
