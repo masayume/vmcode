@@ -567,7 +567,7 @@
   <div class="_exa">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/AIP/', 'inspire/@AI/AIP/', 'inspire/@AI/AIP/', 'inspire/@AI/Douggy_Pledger/FILM/', 'inspire/@AI/Douggy_Pledger/Monster_Mash/', 
+      $ai_dirs    = array('inspire/@AI/Douggy_Pledger/FILM/', 'inspire/@AI/Douggy_Pledger/Monster_Mash/', 
       'inspire/@AI/Douggy_Pledger/other/', 'inspire/@AI/Douggy_Pledger/shining/', 'inspire/@AI/Douggy_Pledger/star_wars/', 'inspire/@AI/Douggy_Pledger/Stronzo_Toys/',
       'inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
