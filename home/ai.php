@@ -151,8 +151,10 @@
   <div class="_exa">
     <h4>GRAPH AI TOOLS</h4>
     <ul>
-      <li>  <a href="https://spell.spline.design/explore"><b>spline 3D★</b></a> </li>
-      <li>  <a href="https://ideogram.ai/"><b>ideogram★</b></a> 
+      <li>  <a href="https://spell.spline.design/explore"><b>Spline★</b></a>
+            <a href="https://www.lovart.ai/case/bjde0nh"><b>Lovart★</b></a>
+            <a href="https://aiarena.alibaba-inc.com/corpora/arena/label"><b>Arena★</b></a> </li>
+      <li>  <a href="https://ideogram.ai/t/explore"><b>ideogram★</b></a> 
             <a href="https://creator.nightcafe.studio/"><b>nightcafe★</b></a></li> 
       <li>  <a href="https://dreamstudio.ai/generate"><b>DreamStudio</b></a> 
             <a href="https://zoo.replicate.dev"><b>Zoo.Rep★</b></a> 
