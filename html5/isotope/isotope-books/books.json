@@ -3510,8 +3510,39 @@
       "length": 89,
       "dir": "digitale",
       "url": "https://www.masayume.it/blog/content/wlad-marhulets-100-game-design-tips"
+    },
+     "ArtofComputerGameDesign": {
+      "name": "The Art of Computer Game Design",
+      "number": "226",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0226.jpg",
+      "author": "Chris Crawford",
+      "store": "???", 
+      "weight": "", 
+      "year": 1984,
+      "players": [1],
+      "length": 113,
+      "dir": "digitale",
+      "url": "https://www.masayume.it/blog9/web/content/chris-crawford-art-computer-game-design"
+    },
+     "OnGameDesign": {
+      "name": "On Game Design",
+      "number": "227",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0227.jpg",
+      "author": "Chris Crawford",
+      "store": "???", 
+      "weight": "", 
+      "year": 2003,
+      "players": [1],
+      "length": 476,
+      "dir": "digitale",
+      "url": "https://en.wikipedia.org/wiki/Chris_Crawford_on_Game_Design"
     } 
-
 
 
 
