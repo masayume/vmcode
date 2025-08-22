@@ -328,6 +328,11 @@
         <p>
           <ul>
             <li> <a href="http://localhost:8188" title="start python environment: cd ~/ComfyUI; python main.py --cpu"><b>comfyUI interface ★★</b></a></li> 
+            <li> <a href="https://stable-diffusion-art.com/comfyui-colab/" title="notes"><b>How to run ComfyUI on Google Colab</b></a></li> 
+            <li> <a href="https://gemini.google.com/app/fa560870fcd4040b" title="notes"><b>Gemini ComfyUI chat</b></a></li> 
+            <li> <a href="https://stable-diffusion-art.com/comfyui/" title="notes"><b>Beginner’s Guide to ComfyUI</b></a></li> 
+            <li> <a href="https://stable-diffusion-art.com/how-to-install-comfyui/" title="notes"><b>How to install ComfyUI</b></a></li> 
+            <li> <a href="https://civitai.com/images/90027223" title="notes"><b>Pixel Art Style (illustrious by Skormino)</b></a></li>
           </ul>
         </p>
     </details>
