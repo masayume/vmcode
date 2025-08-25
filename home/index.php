@@ -198,13 +198,14 @@
 
         <h4>WEB TOOLS</h4> <!-- ALSO IN linux.php --> 
         <ul>
-          <li><a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> 
+          <li><a href="https://www.inoreader.com/all_articles"><b>inoreader ★</b></a> 
+              <a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> </li>
+          <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a>
               <a href="https://www.timer-tab.com/"><b>TimerTab ★</b></a> </li>
           <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
           <li><a href="https://edit.photo/?ref=masayume.it"><b>Edit.Photo ★</b></a>
               <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a>
               <a href="https://www.masayume.it/blog/content/pixlr"><b>??</b></a></li>
-          <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a>
           <li><a href="https://lingojam.com/FontChanger"><b>FontChangr</b></a> 
               <a href="https://luciole-vision.com/fr/math.html"><b>LucioleMath</b></a> </li>
           <li><a href="https://imgflip.com/"><b>ImgFlipMeme</b></a>
