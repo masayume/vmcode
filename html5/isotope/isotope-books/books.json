@@ -3542,8 +3542,23 @@
       "length": 476,
       "dir": "digitale",
       "url": "https://en.wikipedia.org/wiki/Chris_Crawford_on_Game_Design"
+    }, 
+     "PhilosophyOfArtContIntro": {
+      "name": "Philosophy of Art: A Contemporary Introduction",
+      "number": "228",
+      "data_cat": "player",
+      "class": ["books", "saggio", "aesthetics"],
+      "theme": ["arcade", "meta"],
+      "img": "0228.jpg",
+      "author": "Noël Carroll",
+      "store": "???", 
+      "weight": "", 
+      "year": 1999,
+      "players": [1],
+      "length": 288,
+      "dir": "digitale",
+      "url": "https://archive.org/details/philosophyofartc0000carr"
     } 
-
 
 
   },
