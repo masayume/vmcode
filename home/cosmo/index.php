@@ -151,6 +151,7 @@
       <ul>
         <li> <a href="https://www.masayume.it/blog/content/tarocchi-storia" target="_blank"><b>Storia</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=188&art2=188" target="_blank"><b>Lost Arcana</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=189&art2=189" target="_blank"><b>Other Renders</b></a> </li>
       </ul>
 
     <h4>FONTS</h4>
