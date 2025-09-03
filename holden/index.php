@@ -238,13 +238,13 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/1bit/bitartbot'       // 180
                   , '/inspire/TAROT/marseille-01'             
                   , '/inspire/TAROT/marseille-jodorowsky'                 
-                  , '/inspire/@JAPAN/kanji-shodo-01'          // 183
+                  , '/inspire/@JAPAN/kanji-shodo-01'          
                   , '/inspire/@ART'             
-                  , '/inspire/@CARTOONS/FANTASY'             
+                  , '/inspire/@CARTOONS/FANTASY'              // 185
                   , '/inspire/@COVERS/MoviePosters'
                   , '/inspire/@COVERS/ClassicScifiCovers'
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@CARDS/LOST_ARCANA'   
+                  , '/inspire/@CARDS/LOST_ARCANA/other_renders'   
 // 190                  
                   , '/inspire/@pixelart/ref-TEXT'             // 190 
                   , '/inspire/@pixelart/ref-TEXT'             
