@@ -159,9 +159,9 @@
         <li> <a href="https://battleoftarot.com/" target="_blank"><b>Battle of Tarot</b></a> </li>
       </ul>
 
-    <h4>-</h4>
+    <h4>CARD FX</h4>
       <ul>
-        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+        <li> <a href="https://www.4rknova.com/blog/2025/08/30/foil-sticker" target="_blank"><b>Foil Sticker ★</b></a> </li>
       </ul>
 
     <h4>-</h4>
