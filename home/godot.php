@@ -109,7 +109,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <li> <a href="https://www.textures-resource.com/"><b>textures resource ★</b></a> </a></li>
       <li> <a href="https://www.masayume.it/blog/content/material-maker"><b>Material Maker ★</b></a> </a></li>
       <li> <a href="https://www.models-resource.com/"><b>models resource ★</b></a> </a></li>
+    </ul>
+
+    <h4>SOUND RES.</h4>
+    <ul>
       <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
+      <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
     </ul>
       
   </div>

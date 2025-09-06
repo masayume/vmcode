@@ -401,6 +401,11 @@
         <summary><h3><b>SOUND ⬇️</h3></strong></summary> 
         <p>
 
+          <h4>TtS</h4>
+          <ul>
+            <li>  <a href="https://elevenlabs.io/sound-effects">elevenlabs★</a> </li>
+          </ul>
+
         
           <h4>TtS</h4>
           <ul>
