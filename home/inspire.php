@@ -361,6 +361,7 @@
 
         <h4>artbooks</h4>
         <ul>
+          <li> <a href="fb-artbooks.htm"><b>fb artbooks ★</b></a> </li>
           <li> <a href="https://setteidreams.net/"><b>Settei ★</b></a> </li>
           <li> <a href="/HTML5/holden/index.php?art=book-Know-How-KH"><b>knowhow.Hultgren</b></a> </li>
           <li> <a href="fb-artbooks.htm"><b>ALL artbooks ★★</b></a> </li>
