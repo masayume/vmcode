@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>COSMOgony</title>
+<title>GAMES page</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
@@ -124,6 +124,17 @@
     <h4>MTG TOOLS</h4>
       <ul>
         <li><a href="http://www.deckcheck.co" target="_blank"><b>deckcheck</b></a>
+
+        <li><a href="https://mtg.cardsrealm.com/en-us/decks/" target="_blank"><b>cardsrealm decks</b></a>
+        <li><a href="https://www.reddit.com/r/MagicArena/" target="_blank"><b>MTGArena reddit</b></a>
+        <li><a href="https://managathering.com/manarocks.html" target="_blank"><b>manarocks</b></a>
+        <li><a href="https://www.wargamer.com/magic-the-gathering/planeswalkers" target="_blank"><b>planeswalkers</b></a>
+          <!--
+        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
+        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
+        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
+        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
+          -->
       </ul>
 
   </div>
