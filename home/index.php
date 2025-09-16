@@ -353,12 +353,13 @@
   <div class="_exa">
     <h4>RADIO/MUSIC</h4>
     <ul>
+      <li> <a href="https://genius.com/"><b>genius ★</b></a> </li>
       <li> <a href="https://www.spreaker.com/podcast"><b>Spreaker ★</b></a> </li>
       <li> <a href="https://theonestopradio.com/" target="_blank"><b>OneStopRadio</b></a> 
       <li> <a href="https://www.raiplaysound.it/dirette" target="_blank"><b>RaiplaySound</b></a> 
            <a href="https://www.raiplaysound.it/programmi/leparoledelleconomia">lPdE</a> </li>    
-      <li> <a href="https://www.radio24.ilsole24ore.com/">Radio24</a> </li>    
-      <li> <a href="https://www.capital.it/on-air/">Capital</a> </li>    
+      <li> <a href="https://www.radio24.ilsole24ore.com/">Radio24</a>     
+           <a href="https://www.capital.it/on-air/">Capital</a> </li>    
       <li> <a href="https://www.radiopopolare.it/">Radio Popolare</a> </li>    
       <li> <a href="https://www.radio80.it/ascolta/">Anni 80</a> </li>    
       <li> <a href="https://www.bbc.co.uk/sounds/play/live:bbc_radio_fourfm">BBC Radio 4</a> </li>    
