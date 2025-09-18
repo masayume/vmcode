@@ -124,17 +124,17 @@
     <h4>MTG TOOLS</h4>
       <ul>
         <li><a href="http://www.deckcheck.co" target="_blank"><b>deckcheck</b></a>
-
         <li><a href="https://mtg.cardsrealm.com/en-us/decks/" target="_blank"><b>cardsrealm decks</b></a>
-        <li><a href="https://www.reddit.com/r/MagicArena/" target="_blank"><b>MTGArena reddit</b></a>
         <li><a href="https://managathering.com/manarocks.html" target="_blank"><b>manarocks</b></a>
         <li><a href="https://www.wargamer.com/magic-the-gathering/planeswalkers" target="_blank"><b>planeswalkers</b></a>
-          <!--
-        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
-        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
-        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
-        <li><a href="LINK" target="_blank"><b>TITLE</b></a>
-          -->
+        <li><a href="https://archidekt.com/sandbox" target="_blank"><b>archidekt</b></a>
+        <li><a href="https://aetherhub.com/Deck/Builder/" target="_blank"><b>aetherhub</b></a>
+        <li><a href="https://www.reddit.com/r/mtg/" target="_blank"><b>reddit MTG</b></a>
+        <li><a href="https://www.reddit.com/r/MagicArena/" target="_blank"><b>reddit Arena</b></a>
+        <li><a href="https://mtgazone.com/decks/" target="_blank"><b>MTGA zone</b></a>
+        <li><a href="https://mtga.untapped.gg/" target="_blank"><b>MTGA untapped</b></a>
+        <li><a href="https://mtgaassistant.net/Meta/Standard-BO1/Deck/mono-red-1358633" target="_blank"><b>MTGA Assistant</b></a>
+
       </ul>
 
   </div>
