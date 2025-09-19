@@ -3558,7 +3558,23 @@
       "length": 288,
       "dir": "digitale",
       "url": "https://archive.org/details/philosophyofartc0000carr"
-    } 
+    },
+    "ZachLike": {
+      "name": "Zach-Like",
+      "number": "229",
+      "data_cat": "player",
+      "class": ["books", "saggio", "tools", "gamedesign"],
+      "theme": ["arcade", "meta"],
+      "img": "0229.jpg",
+      "author": "Zach Barth",
+      "store": "???", 
+      "weight": "", 
+      "year": 2019,
+      "players": [1],
+      "length": 202,
+      "dir": "digitale",
+      "url": "https://zachtronics.itch.io/zach-like"
+    }
 
 
   },
