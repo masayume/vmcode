@@ -113,6 +113,7 @@
     <h4>PRACTICE</h4>
     <ul>
       <li> <a href="https://tatsumoto-ren.github.io/blog/resources.html#anki-decks"><b>Anki ★</b> </a> </li>
+      <li> <a href="https://puzzlega.me/crossword/"><b>crossword</b> </a> </li>
     </ul>
 
     <h4>READING EASY</h4>
