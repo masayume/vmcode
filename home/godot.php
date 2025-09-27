@@ -204,12 +204,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <li> <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask ★</b></a></li> 
       <li> <a href="/unity.php">on unity page</a></li> 
     </ul>
-
-    <h4>Graph & Sprites</h4>
-    <ul>
-      <li> <a href="/unity.php">on unity page</a></li> 
-    </ul>
-
+ 
+    <h4>GRAPHS</h4> <!-- also on INSPIRE -->
+      <ul>
+        <li>  <a href="https://abav.lugaralgum.com/sketch-a-day/"><b>Py5 sketch-a-day</b></a>
+              <a href="https://www.masayume.it/blog/content/villares-py5-sketch-a-day">my</a> </li>
+      </ul>
   </div>
 
 

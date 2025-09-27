@@ -377,6 +377,11 @@
 
 
     <div class="_exa">
+      <h4>GRAPHS</h4> <!-- also on GODOT -->
+        <ul>
+          <li>  <a href="https://abav.lugaralgum.com/sketch-a-day/"><b>Py5 sketch-a-day</b></a>
+                <a href="https://www.masayume.it/blog/content/villares-py5-sketch-a-day">my</a> </li>
+        </ul>
 
       <h4>PHOTOS</h4>
         <ul>
