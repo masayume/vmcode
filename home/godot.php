@@ -217,17 +217,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
   <div class="_exa">
 
-      <h4>LOCALE</h4>
-        <ul> 
-          <li><a href="/HTML5/ottostennis/"><b>otto's tennis</b></a> </li>
-        </ul>
-  
-      <h4>DEFOLD</h4>
-        <ul> 
-          <li><a href="https://www.masayume.it/blog9/web/content/defold-game-engine"><b>masayume</b></a> 
-              <a href="https://github.com/masayume/DigitalGarden/tree/main/engineering-code/defold"><b>github</b></a> </li>
-          <li><a href="http://britzl.github.io/publicexamples/"><b>examples demo</b></a> </li>
-        </ul>
+    <h4>PYTHON</h4> 
+       <ul>
+         <li> <a href="https://realpython.com/"><b>Real Python</b></a></li> 
+
+         <li> <a href="https://realpython.com/tutorials/web-scraping/"><b>web scraping</b></a></li> 
+         <li> <a href="https://realpython.com/tutorials/gamedev/"><b>game dev</b></a></li> 
+         <li> <a href="https://realpython.com/tutorials/data-structures/"><b>data structures</b></a></li> 
+         <li> <a href="https://realpython.com/tutorials/best-practices/"><b>best practices</b></a></li> 
+         <li> <a href="https://realpython.com/tutorials/ai/"><b>python & AI</b></a></li> 
+         <li> <a href="https://realpython.com/tutorials/flask/"><b>flask</b></a></li> 
+         <li> <a href="https://realpython.com/tutorials/tools/"><b>dev tools</b></a></li> 
+         <li> <a href="https://realpython.com/tutorials/web-dev/"><b>deb dev</b></a></li> 
+         <li> <a href="https://realpython.com/get-started-with-fastapi/"><b>FastAPI</b></a></li> 
+       </ul>
+
+
+    <h4>SHADERS</h4> 
+       <ul>
+         <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
+         <li> <a href="https://inspirnathan.com/topics/shaders"><b>Shaders 101</b></a></li> 
+         <li> <a href="https://github.com/gtibo/VFX-sketchbook-Godot-4.x?tab=readme-ov-file"><b>VFX sketchbook</b></a></li> 
+         <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
+         <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
+         <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://tor.thebookofshaders.com/">editor</a> </li>
+       </ul>
+
 
     <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
     <details>
@@ -268,32 +283,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         </ul>
       </p>
     </details>
-
-    <h4>3D GRAPH</h4>  <!-- also in TOOLS -->
-    <ul>
-      <li> <a href="https://www.models-resource.com/"><b>models resource ★</b></a> </a></li>
-      <li> <a href="">blender LMX</a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
-      <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
-      <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
-      <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
-      <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a></li>
-      <li> <a href="">magicavoxel WIN</a></li>
-      <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
-      <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu 2D->3D ★</a>
-      <li> <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
-    </ul>
-
-    <h4>SHADERS</h4> 
-          <ul>
-            <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
-            <li> <a href="https://inspirnathan.com/topics/shaders"><b>Shaders 101</b></a></li> 
-            <li> <a href="https://github.com/gtibo/VFX-sketchbook-Godot-4.x?tab=readme-ov-file"><b>VFX sketchbook</b></a></li> 
-            <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
-            <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
-            <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://editor.thebookofshaders.com/">editor</a> </li>
-
-          </ul>
-
         
   </div>
   
@@ -341,6 +330,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
 
   <div class="_exa">
+
+    <h4>LOCALE</h4>
+      <ul> 
+        <li><a href="/HTML5/ottostennis/"><b>otto's tennis</b></a> </li>
+      </ul>
+
+    <h4>DEFOLD</h4>
+      <ul> 
+        <li><a href="https://www.masayume.it/blog9/web/content/defold-game-engine"><b>masayume</b></a> 
+            <a href="https://github.com/masayume/DigitalGarden/tree/main/engineering-code/defold"><b>github</b></a> </li>
+        <li><a href="http://britzl.github.io/publicexamples/"><b>examples demo</b></a> </li>
+      </ul>
+
     <h4>DEV</h4>
     <ul>
       <li> <a href="/demon/lightgallery.js/demo/NMS.htm">masayume@PS4</a> (music)
@@ -408,7 +410,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
   </div>
 
+  <div class="_exa">
 
+    <h4>3D GRAPH</h4>  <!-- also in TOOLS -->
+    <ul>
+      <li> <a href="https://www.models-resource.com/"><b>models resource ★</b></a> </a></li>
+      <li> <a href="">blender LMX</a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
+      <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
+      <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
+      <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
+      <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a></li>
+      <li> <a href="">magicavoxel WIN</a></li>
+      <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
+      <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu 2D->3D ★</a>
+      <li> <a href="https://www.masayume.it/blog/content/blockbench">blockbench ★</a> </li>  
+    </ul>
+
+  </div>
 
 </div> <!-- container -->
 
