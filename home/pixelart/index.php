@@ -85,8 +85,8 @@
         </details></li>  
         <li><a href="https://www.masayume.it/blog/content/pixel-art-tutorials-resourcesp"><b>my tuts ★</b></a> 
             <a href="https://lospec.com/pixel-editor/app">lospec★</a> </li>
-        <li><a href="https://www11.lunapic.com/editor/?action=line-effect">lunapic</a>
-            <a href="https://github.com/makeworld-the-better-one/didder">didder</a></li>
+        <li><a href="https://thekingofgrabs.com/?utm_source=masayume.it"><b>GrabsKing★</b></a>
+            <a href="https://www11.lunapic.com/editor/?action=line-effect">lunapic</a> </li>
         <li><a href="https://charlesstover.com/spritesheet2gif">spritesheet2gif</a>
         <li><a href="https://mugenarchive.com/forums/downloads.php?do=cat&id=261-sprite-packs&__cf_chl_jschl_tk__=d08760070c9f7c6e2676da94317ecdd11f6ca7a0-1604924843-0-Aa4lAc5iwBGhMVaElV3PdE3ybykr-fKu5HkTAktXk7YIL71M1TRs04f4N8fZQLa7tPJ8DRYxyHLPTEDuVrrBwKsUuE5fgnIQkk8eLNaxJdhriCaYFx8eUdCa1TeJ19k8IVAVhWDuYDEJPpYfofTQqaUpBsHkYSiDYJxeliX6n9mtJWtxy4UfmZl6xoeuW_VZzxxtpW1sD8rbuE7uSXL2LWTfZMojNFSWkFm7w8XvfCHvoyQ6ucxzuTOgoU7LXNTPplkoutbNersc9HE-rH39bZaPdVjt5SVcCkXkYCJlvVMyMwmfLbXjb9aEIlX53sutwjpNuWVVd1xg-yIBDJ_osN8">mugen sprites</a><li>
             <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>   
@@ -143,7 +143,8 @@
     <li>  <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a>  </li>
     <li>  <a href="https://seleb.github.io/ordered-dither-maker/"><b>ordered dither ★</b></a>  </li>
     <li>  <a href="/home/masayume/DATA/L/pix dither machine/"><b>dither machine</b></a>  </li>
-    <li>  <a href="/pixelart/dithering/">pattern maker</a> </li>
+    <li>  <a href="/pixelart/dithering/">pattern maker</a> 
+          <a href="https://github.com/makeworld-the-better-one/didder">didder</a> </li>
 
   </ul>
 
