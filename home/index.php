@@ -370,6 +370,23 @@
 
     </ul>
 
+    <h4>long music</h4>
+    <details>
+      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+            <li> <a href="https://www.youtube.com/watch?v=uHwPi-6wfFA&list=RDuHwPi-6wfFA&start_radio=1" title="// Synthwave, Relaxwave, Dreamwave, Chillwave, Retrowave,Chillsynth,Cyberpunk" target="_blank"><b>1 9 9 1　ＲＥＬＡＸ</b></a> </li>
+            <li> <a href="https://www.youtube.com/watch?v=Qxr38uZ4tjw&list=RDQxr38uZ4tjw&start_radio=1" title="// DarkSynthWave, HeavyBass, Basswave, Retrowave, Cyberpunk" target="_blank"><b>1 9 9 2 ＥＶＩＬ</b></a> </li>
+            <li> <a href="https://www.youtube.com/watch?v=tyXeh8-U780&list=RDtyXeh8-U780&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>1994 Hacked successfully</b></a> </li>
+            <li> <a href="https://www.youtube.com/watch?v=lnpQPm4GcGI&list=RDlnpQPm4GcGI&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Dreamwave" target="_blank"><b>𝟭𝟵𝟵𝟲 𝗘𝗦𝗖𝗔𝗣𝗘 𝗙𝗥𝗢𝗠 𝗗𝗔𝗧𝗔 𝗖𝗜𝗧𝗬</b></a> </li>
+            <li> <a href="https://www.youtube.com/watch?v=qbLlCLuWJNs&list=RDqbLlCLuWJNs&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>2063 When it arrives</b></a> </li>
+            <li> <a href="https://www.youtube.com/watch?v=DG5N4ARcHEI" title="// Dark Synth, Synthwave, Vaporwave, Chillwave, Retrowave Playlist" target="_blank"><b>𝟮𝟬𝟳𝟳 𝗕𝗨𝗥𝗡 𝗧𝗛𝗘 𝗣𝗔𝗦𝗧</b></a> </li>
+
+          </ul>
+        </p>
+
+    </details>
+
 
 <!--    
     <h4>DRAWING</h4>
