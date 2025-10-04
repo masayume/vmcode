@@ -386,6 +386,7 @@
 
     <h4>PROMPTS</h4>
     <ul>
+      <li> <a href="/HTML5/holden/index.php?art1=191&art2=191"><b>holden+prompts</b></a> </li>      
     
       <li> <a href="https://drawzer.com/?utm_source=masayume.it">Drawzer</a> </li>      
       <li> <a href="https://docs.anthropic.com/claude/prompt-library">Antr.PromptLib</a> </li>      
