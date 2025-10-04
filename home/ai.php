@@ -121,6 +121,7 @@
 
     <h4>GALLERIES</h4>
       <ul>
+        <li> <a href="https://marble.worldlabs.ai/"><b>marble (places)</b></a> </li>
         <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a>
              <a href="https://www.krea.ai/" target="_blank"><b>krea.ai</b></a> </li>
         <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a>
