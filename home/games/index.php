@@ -123,7 +123,8 @@
 
     <h4>MTG TOOLS</h4>
       <ul>
-        <li><a href="http://www.deckcheck.co" target="_blank"><b>deckcheck</b></a>
+        <li><a href="https://gatherer.wizards.com/FDN/en-us/602/demonic-pact" target="_blank"><b>gatherer</b></a>
+        <li><a href="https://www.deckcheck.co" target="_blank"><b>deckcheck</b></a>
         <li><a href="https://mtg.cardsrealm.com/en-us/decks/" target="_blank"><b>cardsrealm decks</b></a>
         <li><a href="https://managathering.com/manarocks.html" target="_blank"><b>manarocks</b></a>
         <li><a href="https://www.wargamer.com/magic-the-gathering/planeswalkers" target="_blank"><b>planeswalkers</b></a>
