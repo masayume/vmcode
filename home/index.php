@@ -368,35 +368,47 @@
       <li> <a href="https://ambientsleepingpill.com/history/">ambient music</a> 
            <a href="https://www.masayume.it/blog9/web/content/ambient-music-sounds">my</a> </li>    
 
+      <li><details>
+          <summary><strong><b>Moebius FM ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+            <p>
+              <ul>
+                <li> <a href="https://moebiusfm.bandcamp.com/" title="GENRE" target="_blank"><b>bandcamp</b></a> </li>
+                <!--
+                <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
+                <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
+                <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
+                <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
+                <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
+                -->
+                <li> <a href="https://www.youtube.com/watch?v=N-NiHOX8m7k&list=RDN-NiHOX8m7k&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>1983 Take a break</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=I7ZAaYIotN8&list=RDI7ZAaYIotN8&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>1989-1986 Collection Set off again</b></a> </li> 
+
+                <li> <a href="https://www.youtube.com/watch?v=6WrPTKljH3Q" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Trapwave Playlist" target="_blank"><b>𝟭𝟵𝟴𝟳 𝗘𝗥𝗔𝗦𝗘 𝗧𝗛𝗘 𝗖𝗛𝗔𝗜𝗡𝗦</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=nmivjFUV0TQ&list=RDnmivjFUV0TQ&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟴𝟳 𝗕𝗟𝗘𝗘𝗗 𝗧𝗛𝗘 𝗖𝗜𝗥𝗖𝗨𝗜𝗧</b></a> </li>
+
+                <li> <a href="https://www.youtube.com/watch?v=N1CAH64M2ew&list=RDN1CAH64M2ew&start_radio=1" title="// Synthwave, Vaporwave, Chillwave, Retrowave Playlist" target="_blank"><b>𝟭𝟵𝟴𝟴 𝗕𝗥𝗘𝗔𝗞 𝗧𝗛𝗘 𝗜𝗟𝗟𝗨𝗦𝗜𝗢𝗡</b></a> </li>
+
+                <li> <a href="https://www.youtube.com/watch?v=lXTdKAf9fXY" title="// Synthwave, Retrowave, Vaporwave, Chillsynth" target="_blank"><b>1 9 9 1　ＦＥＥＬＩＮＧ</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=uHwPi-6wfFA&list=RDuHwPi-6wfFA&start_radio=1" title="// Synthwave, Relaxwave, Dreamwave, Chillwave, Retrowave,Chillsynth,Cyberpunk" target="_blank"><b>1 9 9 1　ＲＥＬＡＸ</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=Qxr38uZ4tjw&list=RDQxr38uZ4tjw&start_radio=1" title="// DarkSynthWave, HeavyBass, Basswave, Retrowave, Cyberpunk" target="_blank"><b>1 9 9 2 ＥＶＩＬ</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=tyXeh8-U780&list=RDtyXeh8-U780&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>1994 Hacked successfully</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=-WEWVsC8CyA" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟰 𝗗𝗘𝗖𝗢𝗗𝗘 𝗧𝗛𝗘 𝗠𝗔𝗧𝗥𝗜𝗫</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=jsI2aQBlldY&list=RDjsI2aQBlldY&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>1994 STATIC DREAMS</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=UvyMbeg7N3s" title="Synthwave, Dreamwave, Retrowave, Vaporwave, Chillsynth" target="_blank"><b>1995 ECHO CITY</b></a> </li>                
+                <li> <a href="https://www.youtube.com/watch?v=lnpQPm4GcGI&list=RDlnpQPm4GcGI&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Dreamwave" target="_blank"><b>𝟭𝟵𝟵𝟲 𝗘𝗦𝗖𝗔𝗣𝗘 𝗙𝗥𝗢𝗠 𝗗𝗔𝗧𝗔 𝗖𝗜𝗧𝗬</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=0aGLOo-qF0c" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟲 𝗣𝗨𝗥𝗚𝗘 𝗧𝗛𝗘 𝗩𝗜𝗥𝗨𝗦</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=qbLlCLuWJNs&list=RDqbLlCLuWJNs&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>2063 When it arrives</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=KfUNGOm0Pto&list=RDKfUNGOm0Pto&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>2064 Start maintenance</b></a> </li>                
+                <li> <a href="https://www.youtube.com/watch?v=DG5N4ARcHEI" title="// Dark Synth, Synthwave, Vaporwave, Chillwave, Retrowave Playlist" target="_blank"><b>𝟮𝟬𝟳𝟳 𝗕𝗨𝗥𝗡 𝗧𝗛𝗘 𝗣𝗔𝗦𝗧</b></a> </li>
+
+              </ul>
+            </p>
+
+        </details></li>
+
+
     </ul>
 
-    <h4>long music</h4>
-    <details>
-      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
-        <p>
-          <ul>
-            <!--
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
-            -->
-            <li> <a href="https://www.youtube.com/watch?v=lXTdKAf9fXY" title="// Synthwave, Retrowave, Vaporwave, Chillsynth" target="_blank"><b>1 9 9 1　ＦＥＥＬＩＮＧ</b></a> </li>
-            <li> <a href="https://www.youtube.com/watch?v=uHwPi-6wfFA&list=RDuHwPi-6wfFA&start_radio=1" title="// Synthwave, Relaxwave, Dreamwave, Chillwave, Retrowave,Chillsynth,Cyberpunk" target="_blank"><b>1 9 9 1　ＲＥＬＡＸ</b></a> </li>
-            <li> <a href="https://www.youtube.com/watch?v=Qxr38uZ4tjw&list=RDQxr38uZ4tjw&start_radio=1" title="// DarkSynthWave, HeavyBass, Basswave, Retrowave, Cyberpunk" target="_blank"><b>1 9 9 2 ＥＶＩＬ</b></a> </li>
-            <li> <a href="https://www.youtube.com/watch?v=tyXeh8-U780&list=RDtyXeh8-U780&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>1994 Hacked successfully</b></a> </li>
-            <li> <a href="https://www.youtube.com/watch?v=lnpQPm4GcGI&list=RDlnpQPm4GcGI&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Dreamwave" target="_blank"><b>𝟭𝟵𝟵𝟲 𝗘𝗦𝗖𝗔𝗣𝗘 𝗙𝗥𝗢𝗠 𝗗𝗔𝗧𝗔 𝗖𝗜𝗧𝗬</b></a> </li>
-            <li> <a href="https://www.youtube.com/watch?v=qbLlCLuWJNs&list=RDqbLlCLuWJNs&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>2063 When it arrives</b></a> </li>
-            <li> <a href="https://www.youtube.com/watch?v=DG5N4ARcHEI" title="// Dark Synth, Synthwave, Vaporwave, Chillwave, Retrowave Playlist" target="_blank"><b>𝟮𝟬𝟳𝟳 𝗕𝗨𝗥𝗡 𝗧𝗛𝗘 𝗣𝗔𝗦𝗧</b></a> </li>
-
-          </ul>
-        </p>
-
-    </details>
 
 
 <!--    
