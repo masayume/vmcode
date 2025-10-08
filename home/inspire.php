@@ -386,6 +386,7 @@
 
       <h4>PHOTOS</h4>
         <ul>
+          <li> <a href="https://www.cosmos.so/search/elements/cyberpunk"><b>cosmos</b></a> </li>
           <li> <a href="https://www.exutopia.com/autobus-park-7-kyiv-ukraine/">decay1</a>,<a href="https://flashbak.com/26-abandoned-discos-407582/">decay2</a> </li>
           <li> <a href="https://twitter.com/Urbanexplorerrs/media">ab.places</a>, <a href="https://www.archdaily.com/963115/brutalism-in-european-schools-and-universities-photographed-by-stefano-perego?ad_medium=gallery">brutal1</a> </li>          
           <li> <a href="https://www.reddit.com/r/EarthPorn/"><b>earthporn R</b></a></li>          
