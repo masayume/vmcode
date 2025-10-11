@@ -1176,6 +1176,22 @@
   },
   "template":
   {
+    "RumbleNation": {
+      "name": "Rumble Nation",
+      "number": "75",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Area Majority / Influence", "Area-Impulse", "Dice Rolling", "Once-Per-Game Abilities", "Re-rolling and Locking" ],
+      "theme": ["Resources"],
+      "img": "075.png",
+      "designer": "Yogi Shinichi (与儀新一)",
+      "weight": "1.84", 
+      "year": 2017,
+      "players": [2, 3, 4],
+      "length": 40,
+      "score": "7.4",
+      "url": "https://boardgamegeek.com/boardgame/266722/rumble-nation"
+    },
     "puertorico": {
       "name": "Puerto Rico",
       "number": "62",
