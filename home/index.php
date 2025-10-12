@@ -264,6 +264,12 @@
 
       </ul>
 
+    <h4>IMAGE SEARCH</h4>
+      <ul>
+        <li>  <a href="https://famouspaintings.com/art/paintings/sitting"><b>famous paintings</b></a> 
+
+      </ul>
+
       <h4>TEXT/EDITORS</h4>
       <ul>
         <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
