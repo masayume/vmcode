@@ -91,7 +91,8 @@
            <a href="/HTML5/holden/index.php?art1=192&art2=192"><b>Songs ♬</b ></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Books</b></a>     
            <a href="/HTML5/holden/index.php?art1=171&art2=171"><b>M</b></a>  
-           <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a>  </li>
+           <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a> 
+           <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>ART</b></a>  </li>
     </ul>
 
 
@@ -385,6 +386,7 @@
                 <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
                 <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
                 <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
+                <li> <a href="URL" title="GENRE" target="_blank"><b>TITLE</b></a> </li>
                 -->
                 <li> <a href="https://www.youtube.com/watch?v=AnV6OVqtQ8Y&list=RDAnV6OVqtQ8Y&start_radio=1" title="// Downtempo, Synthwave, Vaporwave, Chillwave, Retrowave, Futurewave Playlist" target="_blank"><b>𝟭𝟵𝟴𝟮 𝗖𝗛𝗔𝗦𝗘 𝗧𝗛𝗘 𝗦𝗜𝗚𝗡𝗔𝗟</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=N-NiHOX8m7k&list=RDN-NiHOX8m7k&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>1983 Take a break</b></a> </li>
@@ -392,21 +394,26 @@
 
                 <li> <a href="https://www.youtube.com/watch?v=6WrPTKljH3Q" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Trapwave Playlist" target="_blank"><b>𝟭𝟵𝟴𝟳 𝗘𝗥𝗔𝗦𝗘 𝗧𝗛𝗘 𝗖𝗛𝗔𝗜𝗡𝗦</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=nmivjFUV0TQ&list=RDnmivjFUV0TQ&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟴𝟳 𝗕𝗟𝗘𝗘𝗗 𝗧𝗛𝗘 𝗖𝗜𝗥𝗖𝗨𝗜𝗧</b></a> </li>
-
                 <li> <a href="https://www.youtube.com/watch?v=N1CAH64M2ew&list=RDN1CAH64M2ew&start_radio=1" title="// Synthwave, Vaporwave, Chillwave, Retrowave Playlist" target="_blank"><b>𝟭𝟵𝟴𝟴 𝗕𝗥𝗘𝗔𝗞 𝗧𝗛𝗘 𝗜𝗟𝗟𝗨𝗦𝗜𝗢𝗡</b></a> </li>
-
                 <li> <a href="https://www.youtube.com/watch?v=lXTdKAf9fXY" title="// Synthwave, Retrowave, Vaporwave, Chillsynth" target="_blank"><b>1 9 9 1　ＦＥＥＬＩＮＧ</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=uHwPi-6wfFA&list=RDuHwPi-6wfFA&start_radio=1" title="// Synthwave, Relaxwave, Dreamwave, Chillwave, Retrowave,Chillsynth,Cyberpunk" target="_blank"><b>1 9 9 1　ＲＥＬＡＸ</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=Qxr38uZ4tjw&list=RDQxr38uZ4tjw&start_radio=1" title="// DarkSynthWave, HeavyBass, Basswave, Retrowave, Cyberpunk" target="_blank"><b>1 9 9 2 ＥＶＩＬ</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=87QyUeUrsJg" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Phonkwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟮 𝗥𝗘𝗪𝗥𝗜𝗧𝗘 𝗧𝗛𝗘 𝗠𝗘𝗠𝗢𝗥𝗬</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=sG6iaBk8vGg&list=RDsG6iaBk8vGg&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Dreamwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟮 𝗢𝗩𝗘𝗥𝗥𝗜𝗗𝗘 𝗧𝗛𝗘 𝗣𝗔𝗜𝗡</b></a> </li>                
+                <li> <a href="https://www.youtube.com/watch?v=JnIX5yH45uM&list=RDJnIX5yH45uM&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟯 𝗗𝗢𝗡'𝗧 𝗛𝗘𝗦𝗜𝗧𝗔𝗧𝗘</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=P6c7m_wr6r4&list=RDP6c7m_wr6r4&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟰 𝗘𝗡𝗖𝗥𝗬𝗣𝗧𝗘𝗗 𝗦𝗢𝗨𝗟</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=tyXeh8-U780&list=RDtyXeh8-U780&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>1994 Hacked successfully</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=-WEWVsC8CyA" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟰 𝗗𝗘𝗖𝗢𝗗𝗘 𝗧𝗛𝗘 𝗠𝗔𝗧𝗥𝗜𝗫</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=jsI2aQBlldY&list=RDjsI2aQBlldY&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>1994 STATIC DREAMS</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=UvyMbeg7N3s" title="Synthwave, Dreamwave, Retrowave, Vaporwave, Chillsynth" target="_blank"><b>1995 ECHO CITY</b></a> </li>                
                 <li> <a href="https://www.youtube.com/watch?v=lnpQPm4GcGI&list=RDlnpQPm4GcGI&start_radio=1" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Dreamwave" target="_blank"><b>𝟭𝟵𝟵𝟲 𝗘𝗦𝗖𝗔𝗣𝗘 𝗙𝗥𝗢𝗠 𝗗𝗔𝗧𝗔 𝗖𝗜𝗧𝗬</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=fDFVK-gjVDw" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Phonkwave" target="_blank"><b>𝟭𝟵𝟵𝟲 𝗧𝗥𝗔𝗡𝗦𝗖𝗘𝗡𝗗 𝗧𝗛𝗘 𝗠𝗔𝗧𝗥𝗜𝗫</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=6dpComCXg3k" title="/ Synthwave, Vaporwave, Chillwave, Retrowave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟳 𝗔𝗡𝗔𝗟𝗬𝗭𝗘 𝗧𝗛𝗘 𝗦𝗬𝗡𝗧𝗔𝗫</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=0aGLOo-qF0c" title="// Synthwave, Vaporwave, Cyberpunk, Chillwave, Retrowave, Funkwave Playlist" target="_blank"><b>𝟭𝟵𝟵𝟲 𝗣𝗨𝗥𝗚𝗘 𝗧𝗛𝗘 𝗩𝗜𝗥𝗨𝗦</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=qbLlCLuWJNs&list=RDqbLlCLuWJNs&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>2063 When it arrives</b></a> </li>
                 <li> <a href="https://www.youtube.com/watch?v=KfUNGOm0Pto&list=RDKfUNGOm0Pto&start_radio=1" title="// Synthwave, Retrowave, Outrun, Cyberpunk, Chillwave" target="_blank"><b>2064 Start maintenance</b></a> </li>                
                 <li> <a href="https://www.youtube.com/watch?v=DG5N4ARcHEI" title="// Dark Synth, Synthwave, Vaporwave, Chillwave, Retrowave Playlist" target="_blank"><b>𝟮𝟬𝟳𝟳 𝗕𝗨𝗥𝗡 𝗧𝗛𝗘 𝗣𝗔𝗦𝗧</b></a> </li>
+                <li> <a href="https://www.youtube.com/watch?v=uHy0YjpbSCk&list=RDuHy0YjpbSCk&start_radio=1" title="// Downtempo, Synthwave, Chillwave, Vaporwave, Futurewave, Retrowave Playlist" target="_blank"><b>𝟮𝟬𝟵𝟵 𝗧𝗢𝗨𝗖𝗛 𝗧𝗛𝗘 𝗩𝗢𝗟𝗧𝗔𝗚𝗘</b></a> </li>
 
               </ul>
             </p>
