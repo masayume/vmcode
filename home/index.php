@@ -92,7 +92,8 @@
       <li> <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Books</b></a>     
            <a href="/HTML5/holden/index.php?art1=171&art2=171"><b>M</b></a>  
            <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a> 
-           <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>ART</b></a>  </li>
+           <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>Art</b></a>  
+           <a href="/HTML5/holden/index.php?art1=186&art2=186"><b>Posters</b></a>  </li>
     </ul>
 
 
