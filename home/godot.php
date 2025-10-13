@@ -241,6 +241,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
          <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
          <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
          <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://tor.thebookofshaders.com/">editor</a> </li>
+
+         <li> <a href="https://www.shadertoy.com/"><b>shadertoy</b></a></li> 
+         <li> <a href="https://twigl.app/"><b>Twigl</b></a> 
+              <a href="https://codesandbox.io/p/sandbox/hydra-shader-9ru5hj"><b>hydra</b></a> </li> 
+
        </ul>
 
 
