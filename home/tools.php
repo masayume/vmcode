@@ -46,9 +46,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   
   <h4>WEB TOOLS</h4> 
       <ul>
-        <li><a href="https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle?hl=en" title="extension installed in chromium"><b>singlefile★</b></a></li>
-        <li><a href="https://stackblitz.com/"><b>stackblitz★</b></a></li>
-        <li><a href="https://onlinehtmleditor.dev/"><b>htmleditor★</b></a></li>
+        <li><a href="https://toolbrew.co/"><b>toolbrew ★</b></a></li>
+        <li><a href="https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle?hl=en" title="extension installed in chromium"><b>singlefile ★</b></a></li>
+        <li><a href="https://stackblitz.com/"><b>stackblitz ★</b></a></li>
+        <li><a href="https://onlinehtmleditor.dev/"><b>htmleditor ★</b></a></li>
         <li><a href="http://www.colorzilla.com/gradient-editor/"><b>gradient</b></a> - <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a></li>
         <li><a href="https://openmoji.org/library/#group=smileys-emotion">openmoji</a>
 	          <a href="http://jupyter.org/"><b>jupyter</b></a></li>

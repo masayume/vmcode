@@ -201,6 +201,7 @@
 
         <h4>WEB TOOLS</h4> <!-- ALSO IN linux.php --> 
         <ul>
+          <li><a href="https://toolbrew.co/"><b>Toolbrew ★</b></a> </li>
           <li><a href="https://www.inoreader.com/all_articles"><b>inoreader ★</b></a> 
               <a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> </li>
           <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a>
