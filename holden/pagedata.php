@@ -70,6 +70,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>spotify:</b> <a href='https://open.spotify.com/album/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^spr-/', $twitterRaw2) ){     // calculate SPOTIFY SONG RADIO link - https://open.spotify.com/playlist/4nEgdO6tkE2v5LO3mpUEe9
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>spotify:</b> <a href='https://open.spotify.com/playlist/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    }     
     elseif (preg_match('/^pf-/', $twitterRaw2) ){     // calculate PIXELFED link - https://pixelfed.social/i/web/profile/512153585210633987
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>pixelfed:</b> <a href='https://pixelfed.social/i/web/profile/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
@@ -264,6 +268,7 @@ function findtags($tw) {
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                // clears site prefix
   $tw = preg_replace('/^sp\-(\w+)\-/', '', $tw);                    // clears spotify prefix
+  $tw = preg_replace('/^spr\-(\w+)\-/', '', $tw);                    // clears spotify song radio prefix
   $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $matches = explode('-', $tw);
