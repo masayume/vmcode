@@ -196,6 +196,12 @@
   </div>
 
   <div class="_exa">
+
+    <h4>HOLDEN</h4>
+      <ul>
+           <li> <a href="/HTML5/holden/index.php?art1=193&art2=193"><b>LINUX gallery</b></a></li>  
+      </ul>
+
     <h4>GRAPHICS</h4>
       <ul>
         <li><a href="https://www.pinta-project.com/" title="kdrive"><b>Pinta★</b></a>
@@ -225,49 +231,12 @@
  
   
   <div class="_exa">
-    <h4>Boardgames</h4>
+    <h4>RESOURCES</h4>
       <ul>
-        <li><a href="/HTML5/a4-page/index.htm">card print template</a></li>    
-        <li><a href="/html5/isotope/isotope-boardgame/">ISOboardgame</a></li>  
+        <li><a href="https://livellosegreto.it/@b0rk@jvns.ca">Julia Evans</a></li>    
       </ul>
 
-    <h4>CGI-BIN</h4>
-      <ul>
-        <li><a href="/demon/webcomix/index.htm"><b>webcomix</b></a> <a href="/cgi-bin/dailystrips.pl">dailystrips</a> </li>
-        <li><a href="/demon/pixelize/index.htm"><b>pixelize</b></a> </li>
-      </ul>
 
-    <h4>GAMES</h4>
-      <ul>
-        <li><a href="http://www.progettoemma.net/mess/random.php" target="_blank">EPIC game juxtapose</a>
-      </ul>
-
-    <h4>Text 2 Speech</h4>
-      <ul>
-        <li><a href="https://watson-speech.mybluemix.net/text-to-speech-custom-voice.html">watson text2speech</a></li>
-      </ul>
-
-    <h4>js graph</h4>
-      <ul>
-        <li> <a href="/three.js/examples/">Three.js examples</a></li>
-        <li> <a href="https://www.babylonjs.com/">babylonjs</a> - <a href="http://www.babylonjs-playground.com/#BCU1XR#0">examples</a></li>
-        <li> <a href="https://pixijs.io/examples">pixi.js</a> examples</li>
-        <li> <a href="/c64/crayon.js%20-%20example.htm">Crayon.js</a>
-            <a href="/HTML5/packery/">packery</a> </li>
-        <li> <a href="/demon/DART/mazes.htm">mazes (DART)</a></li>
-        <li> <a href="/netart/netart.htm">netart</a>
-            <a href="/netart/neurogram.htm?gallery=b0e7ffcb9fe9c1c2c743623d67008515">neurogram</a></li>
-        <li> <a href="/freewall/">freewall JS</a></li>
-        <!-- <li> <a href="/paper.js/examples/Paperjs.org/DivisionRaster.html">Division Raster (paperjs)</a></li> -->
-        <li> <a href="/workflow/Jit/Examples/AreaChart/example1.html">AreaChart</a>
-            <a href="/workflow/Jit/Examples/BarChart/example1.html">BarChart</a></li>
-        <li> <a href="/workflow/Jit/Examples/ForceDirected/example1.html">ForceDirected</a></li>
-        <li> <a href="/workflow/Jit/Examples/Hypertree/example1.html">Hypertree</a></li>
-        <li> <a href="/workflow/Jit/Examples/Icicle/example1.html">Icicle</a>
-            <a href="/workflow/Jit/Examples/Other/example1.html">Other</a></li>
-        <li> <a href="/workflow/Jit/Examples/PieChart/example1.html">PieChart</a>
-            <a href="/workflow/Jit/Examples/Treemap/example1.html">Treemap</a></li>
-      </ul>
 
   </div>
 
