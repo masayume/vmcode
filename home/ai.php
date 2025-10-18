@@ -47,7 +47,8 @@
       <summary><strong><b>TOOLS Megalist ⬇️</b></strong></summary> 
         <p>
           <ul>
-
+            <li> <a href="https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image"><b>nanobanana google aistudio</b></a></li> 
+            <li> <a href="https://nanobanana.ai/generator"><b>nanobanana.ai</b></a></li> 
             <li> <a href="https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev"><b>Generate stunning images</b></a></li> 
             <li> <a href="https://huggingface.co/spaces/not-lain/background-removal"><b>remove an image’s background</b></a></li> 
             <li> <a href="https://huggingface.co/spaces/finegrain/finegrain-image-enhancer"><b>Enhance an image</b></a></li> 
