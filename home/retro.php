@@ -142,6 +142,14 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 
 		<hr class="clearfix" />
 
+		<header><h3 class="widgettitle">Amiga</h3></header>
+
+		<ul>
+		  <li><a href="https://didier.malenfant.net/">Didier Malenfant</a></li>
+		</ul>
+
+		<hr class="clearfix" />
+
 		<header><h3 class="widgettitle">C64</h3></header>
 
 		<ul>
