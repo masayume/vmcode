@@ -138,6 +138,11 @@
 
       </ul>
 
+    <h4>MTG CARDS</h4>
+      <ul>
+        <li><a href="https://scryfall.com/search?as=grid&order=name&page={page_num}&q=type%3Abasic+unique%3Aprints+unique%3Aart&unique=cards" target="_blank"><b>scryfall lands</b></a>
+      </ul>
+
   </div>
 
 
