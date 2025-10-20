@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@COVERS/retrocovers/');
+      $ai_dirs    = array('inspire/@COVERS/BookCovers/Godot/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
@@ -67,7 +67,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
                  &nbsp; &nbsp;
                  <a href="https://github.com/masayume/DigitalGarden/tree/main/engineering-code/godot"><b>Godot DG</b></a>
                  &nbsp; &nbsp;
-                 <a href="/HTML5/holden/index.php?art1=14&art2=14&tag1=-PLAY-&tag2=-PLAY-"><b>COVERS</b></a></li> 
+                 <a href="/HTML5/holden/index.php?art1=14&art2=14&tag1=-PLAY-&tag2=-PLAY-"><b>COVERS</b></a></li>
+            <li> <a href="/HTML5/holden/index.php?art1=194&art2=194"><b>Godot Book Covers</b></a>  </li>
+
           </ul>  
       <h4>MAGAZINES</h4>
           <ul>
