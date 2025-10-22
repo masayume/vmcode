@@ -206,7 +206,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   </div>
 
   <div class="_exa">
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/pac-man-reference/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      echo       "<!-- image:" . $image . "-->";
+      # $imagefile  = substr($image, 14);
+      $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+
+    ?>
+
+    <!--
     <img src="/inspire/@COVERS/retrocovers/none-MSX-PLAY-NAMCO-5128550-msx_pac_man.jpg" width="400px"/>  
+    -->
   </div>
 
   <br clear="all">
