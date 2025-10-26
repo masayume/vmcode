@@ -119,14 +119,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <h4>GENERAL TOOLS</h4>
       <ul>
         <li> <a href="https://www.virustotal.com/?utm_source=masayume.it"><b>virustotal ★★</b></a>
+        <li> <a href="https://www.random.org/strings/?num=150&len=20&digits=on&unique=on&format=html&rnd=new"><b>Random ★</b></a>
       </ul>
  
 
     <h4>IMAGE TOOLS</h4>
       <ul>
-        <li> <a href="https://lenso.ai/"><b>Lenso SEARCH ★</b></a> 
+        <li> <a href="https://aistudio.google.com/prompts/1Rl77gCfcqGJl1vX5xIdniRqwyUqcNz-P" title="Google AI Studio"><b>AIStudio★</b></a> <a href="https://aistudio.google.com/prompts/1GdbtqUgEIcmZP_-II4SQJsEgQpR3drpv" title="Google AI Studio"><b>#2</b></a>  </li>
+        <li> <a href="https://lenso.ai/" title="AI reverse image search"><b>Lenso SEARCH ★</b></a> 
         <li> <a href="https://imgupscaler.com/?utm_source=masayume.it"><b>image upscaler ★</b></a>
         <li> <a href="https://cleanup.pictures/?utm_source=masayume.it"><b>image cleanup ★</b></a>
+        <li><a href="http://vectormagic.com/home" title="vector image conversion">vectormagic</a>
+        <li><a href="http://www.autotracer.org/" title="vector image conversion">autotracer.org</a>
         <li> <a href="https://www.masayume.it/blog9/web/content/exiftool-gestione-dati-fotografie"><b>EXIF tools ★</b></a>
       </ul>
 
@@ -144,22 +148,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
                  <a href="/pixelart/shaders/crt-shader-showcase-for-retroarch/">retroarCRT★</a></li> 
 
           </ul>
-
-
-    <h4>GENERATIVE</h4>
-          <ul>
-            <li> <a href="https://github.com/topics/generative-art?o=desc&s=stars">repos ★★★</a></li> 
-            <li> <a href="https://github.com/marian42/wavefunctioncollapse">wave fn collapse ★</a> </li>
-            <li> <a href="https://www.masayume.it/blog9/web/content/markov-jr">markov junior ★</a> </li>
-            <li> <a href="https://thisxdoesnotexist.com/">this does not exist ★</a> </li>
-            <li> <a href="/html5/slant/">Golid slant ★</a> <a href="https://www.masayume.it/blog/content/kjetil-midtgarden-golid">my</a></li>
-            <li> <a href="/html5/gengrid/dist/">generative grid ★</a> </li>
-            <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
-            <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
-            <li> <a href="https://polyhedra.tessera.li/"><b>polyhedra★</b></a>
-                 <a href="https://www.masayume.it/blog/content/polyhedra-viewer"><b>my</b></a></li> 
-          </ul>
-
 
   </div>
 
@@ -452,6 +440,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   <div class="_exa">
     <h4>MUSIC</h4>
   <ul>
+    <li><a href="https://suno.com/"><b>SUNO★</b></a>
+        <a href="https://elevenlabs.io/music"><b>ElevenLabs★</b></a> </li>
+    <li><a href="https://www.beatoven.ai/"><b>Beatoven★</b></a>
+        <a href="https://www.udio.com/"><b>UDIO★</b></a> </li>
     <li><a href="https://huggingface.co/spaces/enzostvs/ai-jukebox"><b>AIjukebox★</b></a>
         <a href="https://www.aiva.ai/"><b>AIVAAI★</b></a></li>
     <li><a href="https://eternalbox.dev/jukebox_index.html"><b>eternalbox</b></a>
@@ -499,6 +491,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         </ul>
 
   </div>
+
+  <div class="_exa">
+
+    <h4>GENERATIVE</h4>
+          <ul>
+            <li> <a href="https://github.com/topics/generative-art?o=desc&s=stars">repos ★★★</a></li> 
+            <li> <a href="https://github.com/marian42/wavefunctioncollapse">wave fn collapse ★</a> </li>
+            <li> <a href="https://www.masayume.it/blog9/web/content/markov-jr">markov junior ★</a> </li>
+            <li> <a href="https://thisxdoesnotexist.com/">this does not exist ★</a> </li>
+            <li> <a href="/html5/slant/">Golid slant ★</a> <a href="https://www.masayume.it/blog/content/kjetil-midtgarden-golid">my</a></li>
+            <li> <a href="/html5/gengrid/dist/">generative grid ★</a> </li>
+            <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
+            <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
+            <li> <a href="https://polyhedra.tessera.li/"><b>polyhedra★</b></a>
+                 <a href="https://www.masayume.it/blog/content/polyhedra-viewer"><b>my</b></a></li> 
+          </ul>
+
+  </div>
+
 
   <div class="_exa">
 
@@ -719,8 +730,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 	<ul>
 	<li><a href="/vivus/index.html">example</a>
 	<li><a href="/vivus/index2.htm">my example</a>
-	<li><a href="http://www.autotracer.org/">autotracer.org</a>
-	<li><a href="http://vectormagic.com/home">vectormagic</a>
 	</ul>
   </div>
 
