@@ -102,6 +102,17 @@
 
   <div class="_exa">
 
+    <h4>Sources</h4>
+    <details>
+      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+            <li> <a href="https://gwern.net/turing-complete" target="_blank"><b>Gwern ★</b></a>
+          </ul>
+        </p>
+    </details>
+               
+
     <h4>image sources</h4>
     <details>
       <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
@@ -299,9 +310,10 @@
       </ul>
 
 
-    <h4>AI</h4>
+    <h4>BUY</h4>
       <ul>
-        <li> <a href="https://www.facebook.com/marketplace"><b>fb marketplace</b></a> 
+        <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
+             <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
       </ul>
 
 
