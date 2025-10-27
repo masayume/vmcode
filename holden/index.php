@@ -253,7 +253,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@COVERS/BookCovers/Godot'       
                   , '/inspire/PROJECTS/pac-man-reference'             
                   , '/inspire/@MISC-STYLE/POV'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@gnokkenland/'             
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
 
