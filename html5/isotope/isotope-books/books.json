@@ -3574,6 +3574,22 @@
       "length": 202,
       "dir": "digitale",
       "url": "https://zachtronics.itch.io/zach-like"
+    },
+    "FantasyGrammar": {
+      "name": "Grammar of Fantasy",
+      "number": "230",
+      "data_cat": "player",
+      "class": ["books", "saggio", "creativity"],
+      "theme": ["arcade", "meta"],
+      "img": "0230.jpg",
+      "author": "Gianni Rodari",
+      "store": "???", 
+      "weight": "", 
+      "year": 2025,
+      "players": [1],
+      "length": 316,
+      "dir": "digitale",
+      "url": "https://www.google.it/books/edition/The_Grammar_of_Fantasy/m3caEQAAQBAJ?hl=en&gbpv=1&printsec=frontcover"
     }
 
 
