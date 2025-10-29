@@ -249,12 +249,12 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@MATH/sketches'                 // 190 
                   , '/inspire/@AI/4PROMPT'                  
                   , '/inspire/@COVERS/AlbumArt/songs'
-                  , '/inspire/LINUX'             
+                  , '/inspire/LINUX'
                   , '/inspire/@COVERS/BookCovers/Godot'       
-                  , '/inspire/PROJECTS/pac-man-reference'             
+                  , '/inspire/PROJECTS/pac-man-reference'
                   , '/inspire/@MISC-STYLE/POV'             
                   , '/inspire/@gnokkenland/'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/PROJECTS/VETUS_MYSTERIA'
                   , '/inspire/@pixelart/ref-TEXT'             
 
                   , '/inspire/@pixelart/ref-TEXT'             // 200

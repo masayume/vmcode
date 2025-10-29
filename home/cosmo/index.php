@@ -152,6 +152,9 @@
         <li> <a href="https://www.masayume.it/blog/content/tarocchi-storia" target="_blank"><b>Storia</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=188&art2=188" target="_blank"><b>Lost Arcana</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=189&art2=189" target="_blank"><b>Other Renders</b></a> </li>
+        <li> <a href="https://sacred-texts.com/tarot/index.htm" target="_blank"><b>Sacred Texts ★</b></a> </li>
+        <li> <a href="file:///home/masayume/Downloads/_LINKS/@VETUS_MYSTERIA/Solomon/" target="_blank"><b>Solomon Books ★</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=198&art2=198" target="_blank"><b>Vetus Mysteria</b></a> </li>
       </ul>
 
     <h4>FONTS</h4>
