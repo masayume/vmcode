@@ -393,17 +393,19 @@
         </ul>
       <h4>STOCK</h4>
         <ul>
-          <li><a href="http://freepik.com"><b>freepic</b></a> 
+          <li><a href="https://www.pexels.com/"><b>Pexels★</b></a> 
+              <a href="http://freepik.com"><b>freepic</b></a> </li>
           <li><a href="http://unsplash.com"><b>unsplash</b></a> 
-              <a href="https://www.pexels.com/"><b>pexels</b></a> </li>
-          <li> <a href="https://pdimagearchive"><b>Public Dom. ImgArch</b></a></li>          
+              <a href="https://www.eastman.org/collections-online"><b>eastman</b></a> </li>
+          <li> <a href="https://pdimagearchive"><b>PubDom.ImgArch</b></a></li>          
           <li><a href="https://booth.pm/en"><b>booth.pm</b></a>
               <a href="https://dribbble.com/"><b>dribbble</b></a></li>
-          <li><a href="https://artvee.com/topics/"><b>artvee★</b></a>, <a href="https://www.eastman.org/collections-online"><b>eastman</b></a></li>
+          <li><a href="https://artvee.com/topics/"><b>artvee★</b></a> 
+              <a href="http://startupstockphotos.com/">startupstock</a> </li>
           <li><a href="https://stocksnap.io/view-photos/sort/trending/desc">stocksnap</a>
               <a href="http://pixabay.com"><b>pixabay</b></a> </li>
           <li><a href="https://stockfresh.com/royalty-free-stock-photos/kyoto">stockfresh</a>
-              <a href="http://startupstockphotos.com/">startupstock</a> </li>
+               </li>
           <li><a href="https://www.oldbookillustrations.com/subjects/"><b>oldbook ill.</b></a>
               <a href="https://www.flickr.com/photos/britishlibrary">britishlib</a></li>
           <li><a href="https://www.sakugabooru.com/tag?name=&type=&order=count" target="_blank"><b>sakugabooru</b></a> 
