@@ -236,8 +236,12 @@
         <li><a href="https://livellosegreto.it/@b0rk@jvns.ca">Julia Evans</a></li>    
       </ul>
 
+    <h4>WRITING</h4>
+      <ul>
+        <li><a href="file:///home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/" title="/home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/"><b>Obsidian</b></a></li>    
+      </ul>
 
-
+      
   </div>
 
 
