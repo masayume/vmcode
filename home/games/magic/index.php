@@ -98,7 +98,7 @@
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@CARDS/cosmogony/');
+      $ai_dirs    = array('inspire/@CARDS/MTG_Arena_CARDS/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -166,7 +166,7 @@
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/');
+      $ai_dirs    = array('inspire/@CARDS/MTG_Shandalar/CardArtManalink/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -181,7 +181,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/');
+      $ai_dirs    = array('inspire/@CARDS/MTG_Shandalar/CardArtManalink/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -197,7 +197,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@TEXTURES/@dynamic-textures/');
+      $ai_dirs    = array('inspire/@CARDS/MTG_Shandalar/CardArtManalink/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -214,7 +214,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/other_renders/');
+      $ai_dirs    = array('inspire/@CARDS/MTG_Shandalar/CardArtManalink/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -232,7 +232,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@pixelart/frames/');
+      $ai_dirs    = array('inspire/@CARDS/MTG_Shandalar/CardArtManalink/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
