@@ -126,6 +126,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <h4>MY PROJECTS</h4>
       <ul> 
         <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a> </li>  
+        <li> <a href="/godot/solomon.php"><b>Solomon</b></a> </li>  
       </ul>
   
       <h4>MAIN LINKS</h4>
