@@ -1,9 +1,9 @@
 <html>
 <head>
-<title>GAMES page</title>
+<title>MAGIC the GATHERING page</title>
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
     <meta charset="UTF-8">
 <style>
   body { 
@@ -11,12 +11,13 @@
 	background-color: #0033cc;
 */
 
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0b8dd+0,ce65c5+22,f24864+51,ff4f51+59,bf353e+100 */
-    background: linear-gradient(to bottom,  #e0b8dd 0%,#ce65c5 22%,#f24864 51%,#ff4f51 59%,#bf353e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+    background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     background: #2485e5; /* Old browsers */
-    background: -moz-linear-gradient(top,  #e0b8dd 0%,#ce65c5 22%,#f24864 51%,#ff4f51 59%,#bf353e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #e0b8dd 0%,#ce65c5 22%,#f24864 51%,#ff4f51 59%,#bf353e 100%); /* Chrome10-25,Safari5.1-6 */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2485e5', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  #3b679e 0%,#2b88d9 22%,#207cca 51%,#7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 22%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
   }
   a, a:visited {  color: #ffffff; }
   h3, h4 {  color: #0022bb; }
@@ -58,9 +59,9 @@
              <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
       </ul>
 
-    <h4>GAME PAGES</h4>
+    <h4>TOOLS</h4>
       <ul>
-        <li> <a href="/games/magic/" target="_blank"><b>Magic the Gathering</b></a> </li>
+        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
       </ul>
 
     <h4>WEB TOOLS</h4>
@@ -119,14 +120,43 @@
   </div>
  
   
+  <div class="_exa">
+
+    <h4>Magic the Gathering TOOLS</h4>
+      <ul>
+        <li><a href="https://gatherer.wizards.com/FDN/en-us/602/demonic-pact" target="_blank"><b>gatherer</b></a>
+        <li><a href="https://www.deckcheck.co" target="_blank"><b>deckcheck</b></a>
+        <li><a href="https://mtg.cardsrealm.com/en-us/decks/" target="_blank"><b>cardsrealm decks</b></a>
+        <li><a href="https://managathering.com/manarocks.html" target="_blank"><b>manarocks</b></a>
+        <li><a href="https://www.wargamer.com/magic-the-gathering/planeswalkers" target="_blank"><b>planeswalkers</b></a>
+        <li><a href="https://archidekt.com/sandbox" target="_blank"><b>archidekt</b></a>
+        <li><a href="https://aetherhub.com/Deck/Builder/" target="_blank"><b>aetherhub</b></a>
+        <li><a href="https://www.reddit.com/r/mtg/" target="_blank"><b>reddit MTG</b></a>
+        <li><a href="https://www.reddit.com/r/MagicArena/" target="_blank"><b>reddit Arena</b></a>
+        <li><a href="https://mtgazone.com/decks/" target="_blank"><b>MTGA zone</b></a>
+        <li><a href="https://mtga.untapped.gg/" target="_blank"><b>MTGA untapped</b></a>
+        <li><a href="https://mtgaassistant.net/Meta/Standard-BO1/Deck/mono-red-1358633" target="_blank"><b>MTGA Assistant</b></a>
+
+      </ul>
+
+    <h4>MTG CARDS</h4>
+      <ul>
+        <li><a href="https://scryfall.com/search?as=grid&order=name&page={page_num}&q=type%3Abasic+unique%3Aprints+unique%3Aart&unique=cards" target="_blank"><b>scryfall lands</b></a>
+      </ul>
+
+  </div>
 
 
   <div class="_exa">
 
-    <h4>Boardgames</h4>
+    <h4>MTG Proxies</h4>
       <ul>
-        <li><a href="/html5/isotope/isotope-boardgame/"><b>ISOboardgame</b></a></li>  
-        <li><a href="/HTML5/a4-page/index.htm">card print template</a></li>    
+        <li><a href="https://archidekt.com/folders/1244002"><b>1. Archidekt</b></a></li>  
+        <li><a href="https://mpcfill.com/editor"><b>2. MPCFill</b></a></li>  
+        <li><a href="https://proxyprint.taxiera.net/" title="size: 198.20mm x 274.40mm"><b>3. proxyprint</b></a></li>  
+        <li><a href=""></a>&nbsp;</li>
+        <li><a href="https://docs.google.com/document/d/1rVTHHWlpvOnb-o8hoZHcROqHjDtos71qqHIhfShXCO4/edit?tab=t.0"><b>google doc</b></a></li>  
+        <li><a href="https://www.youtube.com/watch?v=cjayDpUrgUk"><b>Crycry video</b></a></li>  
       </ul>
 
   </div>
