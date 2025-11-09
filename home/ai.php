@@ -221,7 +221,9 @@
   <h4>TEXT AI TOOLS</h4>
     <ul> 
       <li>  <a href="https://notebooklm.google.com/"><b>notebookLM★</b></a>  
-            <a href="https://www.kimi.com/chat"><b>KimiAI★</b></a>  </li>
+            <a href="https://www.kimi.com/chat" title="kimi AI K2"><b>KimiAI★</b></a>  </li>
+      <li>  <a href="https://www.perplexity.ai/"><b>Perplexity★</b></a> 
+            <a href="https://beta.character.ai/" title="text detection tool"><b>Pangram★</b></a> </li>
       <li>  <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard?ref=masayume.it"><b>ChatLeaderboard★</b></a> 
             <a href="https://toolbaz.com/?ref=masayume.it"><b>toolbaz</b></a> </li>
       <li>  <a href="https://labs.kagi.com/fastgpt?utm_source=masayume.it"><b>fastGPT★</b></a> 
