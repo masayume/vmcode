@@ -248,7 +248,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>3D GRAPH</h4>  <!-- also in UNITY -->
       <ul>
-        <li> <a href="">blender LMX</a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
+        <li> <a href="/HTML5/holden/index.php?art1=199&art2=199" title="2render gallery"><b>BLENDER</b></a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
         <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
         <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
         <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
