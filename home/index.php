@@ -285,6 +285,17 @@
 
       </ul>
 
+      <h4>BOOKS</h4>
+      <ul>
+        <li> <a href="https://book.sv/"><b>Book.sv</b></a> </li>
+      </ul>
+
+      <h4>CRITIC</h4>
+      <ul>
+        <li> <a href="https://glitchwave.com/"><b>Glitchwave</b></a>
+            <a href="https://opencritic.com/"><b>OpenCr.</b></a> </li>
+      </ul>
+
       <h4>TEXT/EDITORS</h4>
       <ul>
         <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
@@ -295,22 +306,17 @@
             <a href="https://brevity.sh/"><b>Brevity</b></a> </li>
       </ul>
 
-      <h4>LISTS</h4>
-      <ul>
-        <li> <a href="https://glitchwave.com/"><b>Glitchwav</b></a>
-            <a href="https://opencritic.com/"><b>OpenCr.</b></a> </li>
-      </ul>
-
-
     <h4>AI</h4>
       <ul>
         <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
              <a href="https://perplexity.ai/"><b>Perplexity</b></a> </li>
         <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
-             <a href="https://claude.ai/"><b>Claude</b></a> 
+             <a href="https://www.kimi.com/"><b>Kimi</b></a> 
+             <a href="https://claude.ai/"><b>Claude</b></a> </li>
+<!--
              <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
+-->             
       </ul>
-
 
     <h4>BUY</h4>
       <ul>
