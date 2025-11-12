@@ -159,6 +159,11 @@
         <li><a href="https://www.youtube.com/watch?v=cjayDpUrgUk"><b>Crycry video</b></a></li>  
       </ul>
 
+    <h4>BUY/SELL</h4>
+      <ul>
+        <li><a href="https://www.cardtrader.com/cards/vivi-ornitier-final-fantasy"><b>cardtrader</b></a></li>  
+      </ul>
+
   </div>
 
 
