@@ -94,6 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     <h4>TUTORIALS</h4>
       <ul> 
+        <li> <a href="https://www.kimi.com"><b>Kimi AI ★</b></a> </li> 
         <li> <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/"><b>step by step</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
       </ul>  
