@@ -240,6 +240,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     <h4>SHADERS</h4> 
        <ul>
+         <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
          <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
          <li> <a href="https://inspirnathan.com/topics/shaders"><b>Shaders 101</b></a></li> 
          <li> <a href="https://github.com/gtibo/VFX-sketchbook-Godot-4.x?tab=readme-ov-file"><b>VFX sketchbook</b></a></li> 
@@ -247,10 +248,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
          <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
          <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://tor.thebookofshaders.com/">editor</a> </li>
 
-         <li> <a href="https://www.shadertoy.com/"><b>shadertoy</b></a></li> 
+         <li> <a href="https://www.shadertoy.com/"><b>shadertoy ★</b></a></li> 
+         <li> <a href="https://www.sleditor.com/#id=1woyjcot9"><b>sleditor ★</b></a></li> 
          <li> <a href="https://twigl.app/"><b>Twigl</b></a> 
               <a href="https://codesandbox.io/p/sandbox/hydra-shader-9ru5hj"><b>hydra</b></a> </li> 
 
+         <li> <details>
+                <summary><strong><b>SHADER AUTHORS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+                <p>
+                  <ul>
+                    <li> <a href="https://livellosegreto.it/@diatribes@mastodon.social"><b>diatribes★</b></a></li> 
+                  </ul>
+                </p>
+              </details>
+          </li>  
        </ul>
 
 

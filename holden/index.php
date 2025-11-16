@@ -259,7 +259,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
 
                   , '/inspire/@SCIENCE/PHILOSOPHY'             // 200
                   , '/inspire/@gnokkenland/M/Milena_xing_dir'
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@REF-SHADERS/'
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             

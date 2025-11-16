@@ -108,6 +108,21 @@ function pagenewtemp($dir, $tag) {
       // print "<pre>"; print_r($exploded) ;
       $twitterRaw3 = "<b>tumblr:</b> <a href='https://www.tumblr.com/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
+
+    elseif (preg_match('/^st-/', $twitterRaw2) )  // calculate SHADERTOY link (shadertoy.com/view/wXSfzK)
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ;
+      $twitterRaw3 = "<b>shadertoy:</b> <a href='https://shadertoy.com/view/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+    }
+    elseif (preg_match('/^sl-/', $twitterRaw2) )  // calculate SLEDITOR link (sleditor.com/#id=o9u3b6oo9)
+    {    
+      $exploded = explode('-', $twitterRaw2);
+      // print "<pre>"; print_r($exploded) ;
+      $twitterRaw3 = "<b>sleditor:</b> <a href='https://sleditor.com/#id=" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+    }
+
+
     elseif (preg_match('/^site-/', $twitterRaw2) )  // calculate SITE link (must decode | (in file name) as / (URL) and = (in file name) as - (URL) )
     {    
       $exploded = explode('-', $twitterRaw2);
@@ -257,6 +272,8 @@ function findtags($tw) {
   $tw = preg_replace('/^bs\-(\w+)\-/', '', $tw);                    // clears bluesky prefix
   $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
   $tw = preg_replace('/^fb\-(\w+)\-/', '', $tw);                    // clears facebook prefix
+  $tw = preg_replace('/^fbg\-(\w+)\-/', '', $tw);                    // clears facebook group prefix
+  $tw = preg_replace('/^fbp\-(\w+)\-/', '', $tw);                    // clears facebook profile prefix
   $tw = preg_replace('/^fl\-(\w+)\-/', '', $tw);                    // clears flickr prefix
   $tw = preg_replace('/^in\-(\w+)\-/', '', $tw);                    // clears instagram prefix
   $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
@@ -268,8 +285,10 @@ function findtags($tw) {
   $tw = preg_replace('/^sb\-(\w+)\-/', '', $tw);                    // clears safebooru prefix
   $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                // clears site prefix
   $tw = preg_replace('/^sp\-(\w+)\-/', '', $tw);                    // clears spotify prefix
-  $tw = preg_replace('/^spr\-(\w+)\-/', '', $tw);                    // clears spotify song radio prefix
+  $tw = preg_replace('/^spr\-(\w+)\-/', '', $tw);                   // clears spotify song radio prefix
   $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
+  $tw = preg_replace('/^st\-(\w+)\-/', '', $tw);                    // clears shadertoy prefix
+  $tw = preg_replace('/^sl\-(\w+)\-/', '', $tw);                    // clears sleditor prefix
   $tw = preg_replace('/^tw\-(\w+)\-/', '', $tw);                    // clears twitter prefix
   $matches = explode('-', $tw);
   $title = "";
