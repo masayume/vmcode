@@ -159,6 +159,13 @@
         <li><a href="https://www.youtube.com/watch?v=cjayDpUrgUk"><b>Crycry video</b></a></li>  
       </ul>
 
+
+    <h4>MTG Design</h4>
+      <ul>
+        <li><a href="https://masayune.it/blog/content/making-magic"><b>Making Magic</b></a></li>  
+
+      </ul>
+
     <h4>BUY/SELL</h4>
       <ul>
         <li><a href="https://www.cardtrader.com/cards/vivi-ornitier-final-fantasy"><b>cardtrader</b></a></li>  
