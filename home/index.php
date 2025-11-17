@@ -96,6 +96,8 @@
            <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a> 
            <a href="/HTML5/holden/index.php?art1=201&art2=201" title="Mxxx" target="_blank"><b>M<sup>X</sup></b></a> 
            <a href="/HTML5/holden/index.php?art1=186&art2=186"><b>Posters</b></a>  </li>
+      <li> <a href="/HTML5/holden/index.php?art1=203&art2=203"><b>LEGO</b></a>     
+           <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>Logo</b></a> </li>    
     </ul>
 
   </div>
@@ -393,8 +395,10 @@
 
     <h4>RADIO/MUSIC</h4>
     <ul>
-      <li> <a href="https://genius.com/"><b>genius ★</b></a> </li>
-      <li> <a href="https://www.spreaker.com/podcast"><b>Spreaker ★</b></a> </li>
+      <li> <a href="https://genius.com/"><b>genius★</b></a> 
+           <a href="https://everynoise.com/"><b>evNoise★</b></a> </li>
+      <li> <a href="https://https://app.radiooooo.com/"><b>Radioo★</b></a> 
+           <a href="https://www.spreaker.com/podcast"><b>Spreaker★</b></a> </li>
       <li> <a href="https://theonestopradio.com/" target="_blank"><b>OneStopRadio</b></a> 
       <li> <a href="https://www.raiplaysound.it/dirette" target="_blank"><b>RaiplaySound</b></a> 
            <a href="https://www.raiplaysound.it/programmi/leparoledelleconomia">lPdE</a> </li>    
