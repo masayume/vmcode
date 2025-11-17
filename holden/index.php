@@ -260,6 +260,17 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@SCIENCE/PHILOSOPHY'             // 200
                   , '/inspire/@gnokkenland/M/Milena_xing_dir'
                   , '/inspire/@REF-SHADERS/'
+                  , '/inspire/@REF-LEGO/'
+                  , '/inspire/@REF-LOGO/'
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'  
+
+                  , '/inspire/@pixelart/ref-TEXT'             // 210
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
@@ -268,7 +279,8 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'  
 
-                  , '/inspire/@pixelart/ref-TEXT'             // 210
+
+                  , '/inspire/@pixelart/ref-TEXT'             // 220
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             

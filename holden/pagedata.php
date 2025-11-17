@@ -102,6 +102,14 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>facebook:</b> <a href='https://www.facebook.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^fbg-/', $twitterRaw2) ){     // calculate facebook GROUP link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>facebook:</b> <a href='https://www.facebook.com/groups/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
+    elseif (preg_match('/^fbp-/', $twitterRaw2) ){     // calculate facebook PROFILE link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>facebook:</b> <a href='https://www.facebook.com/profile?id=" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
     elseif (preg_match('/^tu-/', $twitterRaw2) )  // calculate TUMBLR link
     {    
       $exploded = explode('-', $twitterRaw2);
