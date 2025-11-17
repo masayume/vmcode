@@ -97,7 +97,9 @@
            <a href="/HTML5/holden/index.php?art1=201&art2=201" title="Mxxx" target="_blank"><b>M<sup>X</sup></b></a> 
            <a href="/HTML5/holden/index.php?art1=186&art2=186"><b>Posters</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=203&art2=203"><b>LEGO</b></a>     
-           <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>Logo</b></a> </li>    
+           <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>Logo</b></a> 
+           <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Emoji</b></a> </li>     
+      <li> <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>MATH sketch</b></a>    </li> 
     </ul>
 
   </div>
