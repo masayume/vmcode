@@ -99,7 +99,8 @@
       <li> <a href="/HTML5/holden/index.php?art1=203&art2=203"><b>LEGO</b></a>     
            <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>Logo</b></a> 
            <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Emoji</b></a> </li>     
-      <li> <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>MATH sketch</b></a>    </li> 
+      <li> <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Sktch1Day</b></a>  
+           <a href="/HTML5/holden/index.php?art1=206&art2=206"><b>Philosophers</b></a>    </li> 
     </ul>
 
   </div>
