@@ -171,7 +171,7 @@
             <a href="https://www.youtube.com/watch?v=KKQDtBLla08"><b>?</b></a> 
             <a href="https://pixlr.com/editor/"><b>Pixlr ★</b></a>  </li>
       <li>  <a href="https://copilot.microsoft.com/"><b>Copilot★</b></a> 
-            <a href="https://visualelectric.com/inspo"><b>Visualelectric★</b></a> </li>
+            <a href="https://visualelectric.com/"><b>Visualelectric★</b></a> </li>
       <li>  <a href="https://discord.com/channels/1017943945214435438/1021974677171736646"><b>Nijijourny★</b></a> 
             <a href="https://huggingface.co/Korakoe/OpenNiji?text=cyber+geisha"><b>OpenNiji</b></a></li>    
       <li>  <a href="https://playgroundai.com/"><b>playgrndai★</b></a> 
@@ -393,17 +393,15 @@
 
     <h4>PROMPTS</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=191&art2=191"><b>holden+prompts</b></a> </li>      
-    
-      <li> <a href="https://drawzer.com/?utm_source=masayume.it">Drawzer</a> </li>      
+      <li> <a href="/HTML5/holden/index.php?art1=191&art2=191"><b>holden+prompts</b></a> </li>          
       <li> <a href="https://docs.anthropic.com/claude/prompt-library">Antr.PromptLib</a> </li>      
-      <li> <a href="https://drawzer.com/?utm_source=masayume.it">Drawzer</a> </li>      
       <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> </li>      
       <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
       <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
       <li> <a href="https://twitter.com/nickfloats/status/1627157305040027648">consistent chars</a> </li>
       <li> <a href="https://www.youtube.com/watch?v=lHcPtbZ0Mnc">prompt2prompt</a> </li>
       <li> <a href="https://huggingface.co/spaces/daspartho/prompt-extend">prompt extend</a> </li>
+      <li> <a href="https://reverseprompt.com/image-to-prompt/">reverse prompt</a> </li>
     </ul>
 
     <details>
