@@ -262,10 +262,10 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@REF-SHADERS/'
                   , '/inspire/@REF-LEGO/'
                   , '/inspire/@REF-LOGO/'
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@CARTOONS/EMOJI/'               
+                  , '/inspire/@SCIENCE/PHILOSOPHY/'              
+                  , '/inspire/@AI/STYLE'             
+                  , '/inspire/@AI/PROMPTS'             
                   , '/inspire/@pixelart/ref-TEXT'  
 
                   , '/inspire/@pixelart/ref-TEXT'             // 210
@@ -279,8 +279,18 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'  
 
-
                   , '/inspire/@pixelart/ref-TEXT'             // 220
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'  
+
+                  , '/inspire/@pixelart/ref-TEXT'             // 230
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             
                   , '/inspire/@pixelart/ref-TEXT'             

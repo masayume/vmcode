@@ -153,6 +153,7 @@
   <div class="_exa">
     <h4>GRAPH AI TOOLS</h4>
     <ul>
+      <li>  <a href="https://aistudio.google.com/app/prompts/new_chat" title="Google AI Studio"><b>Google AI Studio★</b></a> </li>
       <li>  <a href="https://spell.spline.design/explore"><b>Spline★</b></a>
             <a href="https://www.lovart.ai/case/bjde0nh"><b>Lovart★</b></a>
             <a href="https://aiarena.alibaba-inc.com/corpora/arena/label"><b>Arena★</b></a> </li>
@@ -313,7 +314,10 @@
         <li><a href="https://www.reddit.com/r/StableDiffusion/">r/StableDiffusion ★</a> 
             <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Workflow%20Included%22"><b>WF INC ★</b></a>
             <a href="https://www.reddit.com/r/StableDiffusion/?f=flair_name%3A%22Resource%20%7C%20Update%22"><b>RES UP ★</b></a></li>
-        <li> <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>holden @AI+wf</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>holden @AI+wf</b></a> - 
+             <a href="/HTML5/holden/index.php?art1=207&art2=207"><b>AI styles</b></a> - 
+             <a href="/HTML5/holden/index.php?art1=208&art2=208"><b>AI prompts</b></a> 
+        </li>
 <!--
         <li><a href="/"><b>&nbsp;</b></a></li>
         <li><a href="/"><b>&nbsp;</b></a></li>
