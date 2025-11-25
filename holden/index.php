@@ -266,7 +266,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@SCIENCE/PHILOSOPHY/'              
                   , '/inspire/@AI/STYLE'             
                   , '/inspire/@AI/PROMPTS'             
-                  , '/inspire/@pixelart/ref-TEXT'  
+                  , '/inspire/@ARCHETYPES/'  
 
                   , '/inspire/@pixelart/ref-TEXT'             // 210
                   , '/inspire/@pixelart/ref-TEXT'             

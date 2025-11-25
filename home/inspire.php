@@ -99,7 +99,7 @@
       <ul>
         <li> <a href="https://www.wikipedia.org/wiki/List_of_lists_of_lists" target="_blank"><b>list³</b></a> 
           <a href="http://www.eadeverell.com/100-story-ideas/"><b>100 Story Ideas</b></a> </li>
-        <li> <a href="https://talktotransformer.com/" target="_blank"><b>GPT-2 online &nbsp; ★</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=209&art2=209"><b>ARCHETYPES★</b></a> </li>
         <li> <a href="https://books.google.com/talktobooks/" target="_blank"><b>talk2books</b></a> </li>
         <li> <a href="https://www.avclub.com/c/wiki-wormhole" target="_blank"><b>Wiki Wormhole</b></a> </li>
         <li> <a href="https://www.brainyquote.com/topics/progress"><b>brainyq "word"</b></a> </li>
