@@ -315,7 +315,8 @@
       <ul>
         <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
              <a href="https://perplexity.ai/"><b>Perplexity</b></a> </li>
-        <li> <a href="https://notebooklm.google.com/"><b>NotebookLM</b></a> </li>
+        <li> <a href="https://notebooklm.google.com/"><b>NotebookLM</b></a> 
+             <a href="https://pickvocab.com/app/dictionary" title="pickvocab dictionary"><b>Words</b></a> </li>
         <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
              <a href="https://www.kimi.com/"><b>Kimi</b></a> 
              <a href="https://claude.ai/"><b>Claude</b></a> </li>
