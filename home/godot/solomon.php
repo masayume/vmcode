@@ -119,6 +119,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   
       <h4>MAIN LINKS</h4>
       <ul>
+        <li> <a href="/solomon/solomon-ref.php"><b>MOODBOARD★</b></a> </li>
         <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
         <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
         <li> <a href="https://dev.to/github/top-five-godot-games-and-source-code-from-game-off-2022-3690"><b>game off 2022</b></a> </li>
