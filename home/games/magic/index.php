@@ -100,7 +100,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARDS/MTG_Arena_CARDS/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
@@ -180,7 +180,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARDS/MTG_forge/'); // MTG_forge
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"350\">";
@@ -195,7 +195,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARDS/MTG_Shandalar/CardArtManalink/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
@@ -211,7 +211,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARDS/MTG_forge/'); // MTG_forge
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
@@ -228,7 +228,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARDS/MTG_Shandalar/CardArtManalink/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
@@ -246,7 +246,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARDS/MTG_forge/'); // MTG_forge
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";

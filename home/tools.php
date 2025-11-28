@@ -82,7 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <?php
       $ai_dirs    = array('inspire/@CARTOONS/@gif animations/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -518,7 +518,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     <?php
       $ai_dirs    = array('inspire/@software pins/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"260\">";

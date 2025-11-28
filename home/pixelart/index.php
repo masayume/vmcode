@@ -482,7 +482,7 @@
         $ai_dirs    = array('inspire/@pixelart/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -504,7 +504,7 @@
         $ai_dirs    = array('inspire/@pixelart/backgrounds/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -518,7 +518,7 @@
         $ai_dirs    = array('inspire/@pixelart/backgrounds/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -619,7 +619,7 @@
         $ai_dirs    = array('inspire/@pixelart/ref-MAP/', 'inspire/@pixelart/ref-MONSTER/', 'inspire/@pixelart/ref-ITEM/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -633,7 +633,7 @@
         $ai_dirs    = array('inspire/@pixelart/ref-MAP/', 'inspire/@pixelart/ref-MONSTER/', 'inspire/@pixelart/ref-ITEM/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -728,7 +728,7 @@
         $ai_dirs    = array('inspire/@pixelart/workflow/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";

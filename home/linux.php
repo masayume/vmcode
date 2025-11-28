@@ -179,7 +179,7 @@
     <?php
       $ai_dirs    = array('inspire/LINUX/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"440\">";
@@ -250,7 +250,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARTOONS/QotD/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
@@ -316,7 +316,7 @@
     <?php
       $ai_dirs    = array('inspire/masayume/pub/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -327,7 +327,7 @@
     <?php
       $ai_dirs    = array('inspire/masayume/pub/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -366,7 +366,7 @@
     <?php
       $ai_dirs    = array('inspire/masayume/pub/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -377,7 +377,7 @@
     <?php
       $ai_dirs    = array('inspire/masayume/pub/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";

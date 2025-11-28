@@ -300,7 +300,7 @@
     <?php
       $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/faces/', 'inspire/@AI/lands/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
@@ -401,7 +401,7 @@
       <li> <a href="https://twitter.com/nickfloats/status/1627157305040027648">consistent chars</a> </li>
       <li> <a href="https://www.youtube.com/watch?v=lHcPtbZ0Mnc">prompt2prompt</a> </li>
       <li> <a href="https://huggingface.co/spaces/daspartho/prompt-extend">prompt extend</a> </li>
-      <li> <a href="https://reverseprompt.com/image-to-prompt/">reverse prompt</a> </li>
+      <li> <a href="https://reverseprompt.com/image-to-prompt/"><b>REVERSEprompt★</b></a> </li>
     </ul>
 
     <details>
@@ -499,7 +499,7 @@
       <?php
       $ai_dirs    = array('inspire/@AI/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
@@ -513,7 +513,7 @@
       $ai_dirs    = array('inspire/@AI/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
@@ -601,7 +601,7 @@
       'inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,webp}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
@@ -639,7 +639,7 @@
     <?php
       $ai_dirs    = array('inspire/@AI/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";

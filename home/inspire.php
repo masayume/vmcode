@@ -139,7 +139,7 @@
     <?php
       $ai_dirs    = array('inspire/@CARTOONS/@gif animations/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -565,7 +565,7 @@
         $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
                             'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -643,7 +643,7 @@
         $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
                             'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
@@ -676,7 +676,7 @@
       <?php
         $ai_dirs    = array('inspire/@backs/', 'inspire/@backs/101_dalmatians/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
