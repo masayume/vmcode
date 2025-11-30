@@ -241,6 +241,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <h4>SHADERS</h4> 
        <ul>
          <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
+         <li> <a href="https://danielchasehooper.com/posts/code-animated-rick/"><b>Learn Shaders★</b></a></li> 
          <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
          <li> <a href="https://inspirnathan.com/topics/shaders"><b>Shaders 101</b></a></li> 
          <li> <a href="https://github.com/gtibo/VFX-sketchbook-Godot-4.x?tab=readme-ov-file"><b>VFX sketchbook</b></a></li> 
