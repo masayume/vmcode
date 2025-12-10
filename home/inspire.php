@@ -556,6 +556,43 @@
         <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> (online) </li>
         <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.) </li>
       </ul>
+
+
+    <h4>RPG</h4>
+    <ul>
+      <details>
+        <summary><strong><b>WATABOU ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+            <li><a href="https://watabou.github.io/" target="_blank">PROCGEN ARCANA</a></li>
+            <li><a href="https://watabou.github.io/realm.html" target="_blank">REALM</a></li>
+            <li><a href="https://watabou.github.io/city.html" target="_blank">CITY</a></li>
+            <li><a href="https://watabou.github.io/village.html" target="_blank">VILLAGE</a></li>
+            <li><a href="https://watabou.github.io/dungeon.html" target="_blank">DUNGEON</a></li>
+            <li><a href="https://watabou.github.io/dwelling.html" target="_blank">DWELLING</a></li>          
+            <li><a href="https://watabou.itch.io/perilous-shores" target="_blank">perilous shores</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/city-viewer" target="_blank">city viewer</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/village-generator" target="_blank">village gen.</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/dwellings" target="_blank">dwellings gen.</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/cave-generator" target="_blank">cave gen.</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/procgen-mansion" target="_blank">mansion gen.</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/one-page-dungeon" target="_blank">1 page dungeon</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/sigil-generator" target="_blank">sigils</a> (onl.)</li>
+          </ul>
+        </p>
+      </details>
+      <li><a href="https://www.notion.so/Sudowrite-for-D-D-2ade4deecd104966a6b80f45d0ca3e4f" target="_blank"><b>sudowrite D&D</b></a> <a href="https://www.masayume.it/blog/content/ai-assisted-writing-un-nuovo-metodo-per-scrivere" target="_blank">my</a></li>
+      <li><a href="file:///home/masayume/DATA/E/books/RPG/WRITE-Mythic_game_master_emulator.pdf">Mythic GME book</a></li>
+      <li><a href="file:///home/masayume/DATA/E/books/RPG/Basic-Fantasy-RPG-Rules-r107.pdf">Basic Fantasy book</a></li>
+      <li><a href="file:///home/masayume/DATA/E/books/RPG/tome-of-adventure-design.pdf">Tome of Adventure</a></li>
+      <li><a href="https://perchance.org/ironsworn-player-character">Ironsworn Character</a></li>
+      <li><a href="https://perchance.org/ironsworn-settlement">Ironsworn settlement</a></li>
+      <li><a href="https://perchance.org/ironsworn-delve-denizens-matrix">Ironsworn denizens</a></li>      
+      <li><a href="https://www.redblobgames.com/maps/mapgen4/" target="_blank"><b>MapGen4</b></a> (onl.) <a href="https://www.masayume.it/blog/content/amit-patel-red-blob-games-mapgen-4" target="_blank">my</a></li>
+      <li><a href="http://orteil.dashnet.org/randomgen/?gen=loot.txt">Orteil's loot</a></li>
+
+    </ul>
   </div>
 
   
@@ -612,28 +649,7 @@
         <li><a href="https://www.masayume.it/blog/content/onelook-reverse-thesaurus" target="_blank">reverse thesaurus</a></li>
       </ul>
 
-    <h4>RPG</h4>
-    <ul>
-      <li><a href="https://www.masayume.it" target="_blank">my video</a></li>
-      <li><a href="https://www.notion.so/Sudowrite-for-D-D-2ade4deecd104966a6b80f45d0ca3e4f" target="_blank"><b>sudowrite D&D</b></a> <a href="https://www.masayume.it/blog/content/ai-assisted-writing-un-nuovo-metodo-per-scrivere" target="_blank">my</a></li>
-      <li><a href="file:///home/masayume/DATA/E/books/RPG/WRITE-Mythic_game_master_emulator.pdf">Mythic GME book</a></li>
-      <li><a href="file:///home/masayume/DATA/E/books/RPG/Basic-Fantasy-RPG-Rules-r107.pdf">Basic Fantasy book</a></li>
-      <li><a href="file:///home/masayume/DATA/E/books/RPG/tome-of-adventure-design.pdf">Tome of Adventure</a></li>
-      <li><a href="https://perchance.org/ironsworn-player-character">Ironsworn Character</a></li>
-      <li><a href="https://perchance.org/ironsworn-settlement">Ironsworn settlement</a></li>
-      <li><a href="https://perchance.org/ironsworn-delve-denizens-matrix">Ironsworn denizens</a></li>      
-      <li><a href="https://www.redblobgames.com/maps/mapgen4/" target="_blank"><b>MapGen4</b></a> (onl.) <a href="https://www.masayume.it/blog/content/amit-patel-red-blob-games-mapgen-4" target="_blank">my</a></li>
-      <li><a href="https://watabou.itch.io/perilous-shores" target="_blank">perilous shores</a> (onl.)</li>
-      <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.)</li>
-      <li><a href="https://watabou.itch.io/city-viewer" target="_blank">city viewer</a> (onl.)</li>
-      <li><a href="https://watabou.itch.io/village-generator" target="_blank">village generator</a> (onl.)</li>
-      <li><a href="https://watabou.itch.io/cave-generator" target="_blank">cave generator</a> (onl.)</li>
-      <li><a href="https://watabou.itch.io/procgen-mansion" target="_blank">mansion generator</a> (onl.)</li>
-      <li><a href="https://watabou.itch.io/one-page-dungeon" target="_blank">1 page dungeon</a> (onl.)</li>
-      <li><a href="https://watabou.itch.io/sigil-generator" target="_blank">sigils</a> (onl.)</li>
-      <li><a href="http://orteil.dashnet.org/randomgen/?gen=loot.txt">Orteil's loot</a></li>
 
-    </ul>
 
   </div>
 

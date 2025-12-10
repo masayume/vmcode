@@ -235,8 +235,9 @@
       <li>  <a href="https://klavier.ai/"><b>klavierPDF★</b></a> 
             <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
       <li>  <a href="https://beta.character.ai/"><b>character ★</b></a> 
-            <a href="https://www.perplexity.ai/"><b>perplexity ★</b></a> 
-      <li>  <a href="https://listenmonster.com/?utm_source=masayume.it"><b>LM subtitles</b></a> 
+            <a href="https://www.perplexity.ai/"><b>perplexity ★</b></a> </li>
+      <li>  <a href="https://www.tryshortcut.ai/shortcut"><b>EXCEL★</b></a> 
+            <a href="https://listenmonster.com/?utm_source=masayume.it"><b>LM subtitles</b></a> </li>
       <li>  <a href="https://www.brevity.sh/"><b>brevity★</b></a>
             <a href="https://halfwaywords.com/"><b>halfwaywords</b></a> </li>      
 
