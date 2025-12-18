@@ -554,7 +554,6 @@
         <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> (online) </li>
         <li><a href="http://instagrammar.surge.sh" target="_blank">Instagrammar</a> (online) </li>
         <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> (online) </li>
-        <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.) </li>
       </ul>
 
 
@@ -574,6 +573,7 @@
             <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/city-viewer" target="_blank">city viewer</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/village-generator" target="_blank">village gen.</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/urban-places" target="_blank">Urban Places gen.</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/dwellings" target="_blank">dwellings gen.</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/cave-generator" target="_blank">cave gen.</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/procgen-mansion" target="_blank">mansion gen.</a> (onl.)</li>

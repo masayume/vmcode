@@ -109,12 +109,6 @@
     <p>
       <a href="/cosmo/cosmogony02"> cosmogony </a>
     </p>
-<!--
-    <br />
-      <h4>PROJECTS done</h4>
-          <ul>
-          </ul>
--->
 
   </div>
  
@@ -194,7 +188,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/');
+      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/other_renders/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -227,7 +221,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/other_renders/');
+      $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
