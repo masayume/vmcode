@@ -3662,6 +3662,23 @@
       "ISBN-10": "0961392142",
       "ISBN-13": "978-1930824133",
       "via": "https://danielchasehooper.com/"
+    },
+    "TotemComix": {
+      "name": "Totem Comics",
+      "number": "235",
+      "data_cat": "player",
+      "class": ["player", "comics"],
+      "theme": ["comics", "meta"],
+      "img": "0235.webp",
+      "author": "Various",
+      "store": "COMIX", 
+      "weight": "", 
+      "year": 1980,
+      "players": [1],
+      "length": 999,
+      "dir": "digitale",
+      "url": "https://en.wikipedia.org/wiki/Understanding_Comics",
+      "goodreads": "https://www.goodreads.com/book/show/102920.Understanding_Comics"
     }
 
 
