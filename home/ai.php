@@ -388,6 +388,7 @@
 
     <h4>STYLES</h4>
     <ul>
+      <li><a href="/HTML5/holden/index.php?art1=207&art2=207"><b>AI styles</b></a> </li>
       <li> <a href="https://www.instagram.com/midlibrary.io/ ">midlib.io</a> </li>
       <li> <a href="https://ckovalev.com/midjourney-ai/styles">midj styles</a> </li>
     </ul>
