@@ -82,6 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <h4>REPOSITORY</h4>
       <ul> 
         <li> <a href="https://github.com/masayume/godot-pac-man"><b>GITHUB: godot-pac-man</b></a> </li> 
+        <li> <a href="https://github.com/nezvers/Godot-GameTemplate"><b>Godot game template</b></a> </li> 
       </ul>  
 
     <h4>TUTORIALS</h4>
