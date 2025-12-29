@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--
+NAMER gemini prompt:
+A pure javascript webapp that presents a filename string inside an upper text field "filename" concatenating the values of a list of other text fields below. The separator is the character '-''
+
+The filename structure is composed by
+
+"prefix", editable: something like "fb-"
+"site": may be empty
+"author": may be empty
+"year": may be empty
+"tags". Editable, comma separated: i.e. SOURCE, REF
+"hash": specify hash value generated length via menu from 8, 16, 24 alphanumeric characters.
+"decription": editable text
+
+the resulting filename is like 'fb-behindtheart-jackson_pollock-1912-ART-12341234-undiscovered_galaxy'
+
+All the text fields can be specified and edited also via querystring, so that a specific URL can restore the filename structure
+In a space is present in a text field replace it with '_'
+when the button is pressed the "filename" value must be copied to clipboard (linux KDE desktop) 
+
+The must be a button to generate another filename.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMER - KDE Compatible</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 650px; margin: 2rem auto; padding: 0 1rem; background: #f0f2f5; color: #333; }
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .field-group { margin-bottom: 1.2rem; }
+        label { display: block; font-weight: 600; margin-bottom: 0.4rem; font-size: 0.85rem; text-transform: uppercase; color: #666; }
+        input, select { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; font-size: 1rem; transition: border 0.2s; }
+        input:focus { border-color: #3b82f6; outline: none; }
+        #filename { background: #f8fafc; font-family: monospace; font-weight: bold; color: #1e293b; border: 2px solid #3b82f6; cursor: default; }
+        .controls { display: flex; gap: 12px; margin-top: 2rem; }
+        button { flex: 1; padding: 12px; cursor: pointer; border: none; border-radius: 6px; background: #3b82f6; color: white; font-weight: bold; font-size: 1rem; }
+        button:hover { background: #2563eb; }
+        .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1e293b; color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2 style="margin-top:0">NAMER</h2>
+    
+    <div class="field-group">
+        <label>Generated Filename (Auto-updates)</label>
+        <input type="text" id="filename" readonly placeholder="Resulting name...">
+    </div>
+
+    <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
+
+    <div class="field-group">
+        <label>Prefix</label>
+        <input type="text" id="prefix" placeholder="e.g. fb-">
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+        <div class="field-group">
+            <label>Site</label>
+            <input type="text" id="site">
+        </div>
+        <div class="field-group">
+            <label>Author</label>
+            <input type="text" id="author">
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+        <div class="field-group">
+            <label>Year</label>
+            <input type="text" id="year">
+        </div>
+        <div class="field-group">
+            <label>Hash Length</label>
+            <select id="hashLength">
+                <option value="8">8 chars</option>
+                <option value="16">16 chars</option>
+                <option value="24">24 chars</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="field-group">
+        <label>Tags (comma separated)</label>
+        <input type="text" id="tags" placeholder="SOURCE, REF">
+    </div>
+
+    <div class="field-group">
+        <label>Description</label>
+        <input type="text" id="description">
+    </div>
+
+    <div class="controls">
+        <button id="mainBtn">Generate & Copy to Clipboard</button>
+    </div>
+</div>
+
+<div id="toast" class="toast">Copied to clipboard!</div>
+
+<script>
+    const fields = ['prefix', 'site', 'author', 'year', 'tags', 'hashLength', 'description'];
+    let currentHash = '';
+
+    window.onload = () => {
+        const params = new URLSearchParams(window.location.search);
+        
+        fields.forEach(field => {
+            const val = params.get(field);
+            if (val !== null) document.getElementById(field).value = val;
+        });
+
+        generateNewHash();
+        
+        fields.forEach(field => {
+            document.getElementById(field).addEventListener('input', () => {
+                updateFilename();
+                updateURL();
+            });
+        });
+
+        document.getElementById('mainBtn').addEventListener('click', () => {
+            generateNewHash();
+            copyToClipboard();
+        });
+    };
+
+    function generateHash(length) {
+        const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+        let result = '';
+        for (let i = 0; i < length; i++) {
+            result += chars.charAt(Math.floor(Math.random() * chars.length));
+        }
+        return result;
+    }
+
+    function generateNewHash() {
+        const len = document.getElementById('hashLength').value;
+        currentHash = generateHash(parseInt(len));
+        updateFilename();
+    }
+
+    function formatString(str) {
+        // Replace spaces with underscores
+        return str.trim().replace(/\s+/g, '_');
+    }
+
+    function updateFilename() {
+        const values = {
+            prefix: formatString(document.getElementById('prefix').value),
+            site: formatString(document.getElementById('site').value),
+            author: formatString(document.getElementById('author').value),
+            year: formatString(document.getElementById('year').value),
+            tags: formatString(document.getElementById('tags').value).replace(/,/g, '-'),
+            hash: currentHash,
+            description: formatString(document.getElementById('description').value)
+        };
+
+        const result = Object.values(values)
+            .filter(val => val !== '')
+            .join('-');
+
+        document.getElementById('filename').value = result;
+    }
+
+    function updateURL() {
+        const params = new URLSearchParams();
+        fields.forEach(field => {
+            const val = document.getElementById(field).value;
+            if (val) params.set(field, val);
+        });
+        history.replaceState(null, '', '?' + params.toString());
+    }
+
+    async function copyToClipboard() {
+        const text = document.getElementById("filename").value;
+        try {
+            await navigator.clipboard.writeText(text);
+            showToast();
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+        }
+    }
+
+    function showToast() {
+        const toast = document.getElementById('toast');
+        toast.style.opacity = '1';
+        setTimeout(() => { toast.style.opacity = '0'; }, 2000);
+    }
+</script>
+
+</body>
+</html> 
