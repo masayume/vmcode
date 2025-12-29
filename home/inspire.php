@@ -336,7 +336,8 @@
 
       <h4>style artists</h4>
         <ul>
-          <li><a href="/HTML5/holden/index.php?art=MALIKA">Malika Favre</a></li>    
+          <li><a href="/HTML5/holden/index.php?art=MALIKA"><b>Malika Favre</b></a>
+              <a href="/HTML5/holden/index.php?art1=210&art2=210">holden</a></li>    
           <li><a href="/HTML5/holden/index.php?folder=@masayasu_uchida">Masayasu Uchida</a></li>
           <li><a href="/HTML5/holden/index.php?folder=@STYLE%20style/Norman%20Rockwell">Norman Rockwell</a></li>
           <li><a href="https://twitter.com/lookcaitlin/media"><b>archive lookcaitlin</b></a></li>    
