@@ -74,6 +74,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>spotify:</b> <a href='https://open.spotify.com/playlist/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     }     
+    elseif (preg_match('/^ba-/', $twitterRaw2) ){     // calculate BANDCAMP ALBUM link - https://stphanepicq.bandcamp.com/album/dune=spice=opera=2024=remaster=lp
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>bandcamp:</b> <a href='https://" . $exploded[1] . ".bandcamp.com/album/" . strtr($exploded[2], "=", "-") . "' target='_blank' title='" . $file. "'>" . strtr($exploded[2], "=", "-") . "</a>";
+    } 
     elseif (preg_match('/^pf-/', $twitterRaw2) ){     // calculate PIXELFED link - https://pixelfed.social/i/web/profile/512153585210633987
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>pixelfed:</b> <a href='https://pixelfed.social/i/web/profile/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
@@ -277,6 +281,7 @@ function findtags($tw) {
 
   // print "TW parameter: " . $tw;
   $tw = preg_replace('/^ar\-(\w+)\-/', '', $tw);                    // clears artstation prefix
+  $tw = preg_replace('/^ba\-(\w+)\-/', '', $tw);                    // clears bandcamp prefix
   $tw = preg_replace('/^bs\-(\w+)\-/', '', $tw);                    // clears bluesky prefix
   $tw = preg_replace('/^da\-(\w+)\-/', '', $tw);                    // clears deviantart prefix
   $tw = preg_replace('/^fb\-(\w+)\-/', '', $tw);                    // clears facebook prefix
