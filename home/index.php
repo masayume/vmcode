@@ -58,7 +58,8 @@
              <a href="linux.php" target="_blank"><b>LINUX</b></a> 
              <a href="cosmo/" target="_blank"><b>COSMO</b></a> </li>
         <li> <a href="games/" target="_blank"><b>GAMES</b></a> 
-             <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
+             <a href="music/" target="_blank"><b>MUSIC</b></a> </li>
+        <li> <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
         </ul>
     <h4>Solomon's World</h4>
 	<ul>
