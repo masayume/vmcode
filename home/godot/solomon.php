@@ -75,6 +75,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>PROJECT</h4>
       <ul> 
+        <li> <a href="https://www.retrogames.cc/arcade-games/solomons-key-us.html"><b>Solomon's Key</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/"><b>DOLPHIN: project directory</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/godot_solomon.infogen.txt"><b>DOLPHIN: Infogen file</b></a> </li> 
         <li> <a href="https://chatgpt.com/c/68f251c3-5d6c-832a-924e-04a27a23e3a8"><b>chatGPT tutorial (firefox)</b></a> </li> 
