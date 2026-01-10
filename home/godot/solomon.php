@@ -43,7 +43,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       echo       "<!-- image:" . $image . "-->";
       # $imagefile  = substr($image, 14);
       $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
     ?>
 
@@ -102,6 +102,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>RESOURCES</h4> <!-- also in INSPIRE, TOOLS -->
     <ul>
+      <li> <a href="https://www.retrogames.cc/snes-games/magical-pop-n-japan.html"><b>Magical Pop'n ★</b></a> </a></li>
       <li> <a href="https://www.spriters-resource.com/"><b>spriters resource ★</b></a> </a></li>
       <li> <a href="https://www.textures-resource.com/"><b>textures resource ★</b></a> </a></li>
       <li> <a href="https://www.masayume.it/blog/content/material-maker"><b>Material Maker ★</b></a> </a></li>
