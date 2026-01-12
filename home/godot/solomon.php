@@ -236,7 +236,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/block-refs/');
+      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/CREATURES/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
