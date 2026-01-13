@@ -237,6 +237,17 @@
         <li><a href="https://www.masayume.it/blog9/web/content/yazi-tui-file-tool"><b>Yazi ★</b></a></li>    
       </ul>
 
+    <h4>BACKUP</h4>
+      <ul>
+        <li><a href="https://www.masayume.it/blog9/web/content/backup-morrolinux-restic-backrest"><b>RESTIC ★</b></a></li>    
+      </ul>
+
+    <h4>BACKUP</h4>
+      <ul>
+        <li><a href="https://cobalt.tools/"><b>Cobalt</b></a></li>    
+      </ul>
+
+
     <h4>RESOURCES</h4>
       <ul>
         <li><a href="https://livellosegreto.it/@b0rk@jvns.ca"><b>Julia Evans ★</b></a></li>    
