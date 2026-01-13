@@ -200,6 +200,7 @@
     <h4>HOLDEN</h4>
       <ul>
            <li> <a href="/HTML5/holden/index.php?art1=193&art2=193"><b>LINUX gallery</b></a></li>  
+           <li> <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>LINUX TOOLS</b></a></li>  
       </ul>
 
     <h4>GRAPHICS</h4>
@@ -231,9 +232,14 @@
  
   
   <div class="_exa">
+    <h4>FILE MANAGER</h4>
+      <ul>
+        <li><a href="https://www.masayume.it/blog9/web/content/yazi-tui-file-tool"><b>Yazi ★</b></a></li>    
+      </ul>
+
     <h4>RESOURCES</h4>
       <ul>
-        <li><a href="https://livellosegreto.it/@b0rk@jvns.ca">Julia Evans</a></li>    
+        <li><a href="https://livellosegreto.it/@b0rk@jvns.ca"><b>Julia Evans ★</b></a></li>    
       </ul>
 
     <h4>WRITING</h4>
@@ -248,7 +254,7 @@
   <div class="_exa">
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/@CARTOONS/QotD/');
+      $ai_dirs    = array('inspire/LINUX/LINUXTOOLS/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
