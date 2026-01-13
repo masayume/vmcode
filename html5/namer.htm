@@ -43,7 +43,7 @@ The must be a button to generate another filename.
 <body>
 
 <div class="card">
-    <h2 style="margin-top:0">FILENAMER v0.2</h2>
+    <h2 style="margin-top:0">FILENAMER v0.3</h2>
     
     <div class="field-group">
         <label>Generated Filename (Auto-updates)</label>
@@ -106,9 +106,17 @@ The must be a button to generate another filename.
         <input type="text" id="description">
     </div>
 
-    <div class="controls">
-        <button id="mainBtn">Generate & Copy to Clipboard</button>
+    <div class="field-group">
+        <div class="controls">
+            <button id="mainBtn">Generate & Copy to Clipboard</button>
+        </div>
+        <div class="actions">
+            <a id="google-cover-link" href="#" target="_blank" style="display:none; margin-left: 10px;">
+                🖼️ Find Cover
+            </a>
+        </div>
     </div>
+
 </div>
 
 <div id="toast" class="toast">Copied to clipboard!</div>
@@ -170,7 +178,7 @@ The must be a button to generate another filename.
             tags: formatString(document.getElementById('tags').value).replace(/,/g, '-'),
             hash: currentHash,
             predescription: formatString(document.getElementById('predescription').value),
-            description: formatString(document.getElementById('description').value).replace(/ /g, '_').toLowerCase(),
+            description: formatString(document.getElementById('description').value).replace(/[ -.]/g, '_').toLowerCase(),
         };
 
         const filtered = Object.values(values).filter(val => val !== '');
@@ -193,17 +201,6 @@ The must be a button to generate another filename.
         });
         history.replaceState(null, '', '?' + params.toString());
     }
-
-    async function copyToClipboardOLD() {
-        const text = document.getElementById("filename").value;
-        try {
-            await navigator.clipboard.writeText(text);
-            showToast();
-        } catch (err) {
-            console.error('Failed to copy: ', err);
-        }
-    }
-
 
     async function copyToClipboard() {
         const text = document.getElementById("filename").value;
@@ -245,19 +242,60 @@ The must be a button to generate another filename.
             console.error('Fallback copy failed:', err);
             alert('Copy failed. Please manually copy the text.');
         }
-    }
+    } // copyToClipboard
 
-
-
-
-
-
+    function updateCoverLink() {
+        const pre = document.getElementById("predescription").value || "";
+        const desc = document.getElementById("description").value || "";
+        
+        // Combine and clean: "pc_engine_ HANY ON THE ROAD cover"
+        const fullSearch = `${pre} ${desc} cover`.trim();
+        
+        // Encode for URL (converts spaces to %20, etc.)
+        const encoded = encodeURIComponent(fullSearch);
+        const url = `https://www.google.com/search?tbm=isch&q=${encoded}`;
+        
+        // Target the link element
+        const link = document.getElementById("google-cover-link");
+        if (link) {
+            link.href = url;
+            link.style.display = "inline"; // Show it once there is a value
+        }
+    } // updateCoverLink()
 
     function showToast() {
         const toast = document.getElementById('toast');
         toast.style.opacity = '1';
         setTimeout(() => { toast.style.opacity = '0'; }, 2000);
     }
+
+
+    document.getElementById("description").addEventListener("input", updateCoverLink);
+    document.getElementById("predescription").addEventListener("input", updateCoverLink);
+
+    // 1. Grab your elements
+    const mainBtn = document.getElementById('mainBtn');
+    const myLink = document.getElementById('google-cover-link'); // Your 'a' tag
+
+    // 2. The Keyboard Listener
+    window.addEventListener('keydown', (event) => {
+        // Check if the pressed key is "Space" (code "Space" or key " ")
+        // We also check !event.repeat to prevent "machine-gunning" if the key is held down
+        if (event.code === 'Space' && !event.repeat) {
+            
+            // Prevent default page scrolling behavior when pressing space
+            event.preventDefault();
+
+            // Trigger the button's logic
+            mainBtn.click();
+
+            // Open the link in a new window/tab
+            // Ensure the 'a' tag has target="_blank"
+            myLink.target = "_blank";
+            myLink.click();
+        }
+    });
+
 </script>
 
 </body>
