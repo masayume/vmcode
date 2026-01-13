@@ -25,9 +25,9 @@ The must be a button to generate another filename.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAMER - KDE Compatible</title>
+    <title>FILENAMER - KDE Compatible</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 650px; margin: 2rem auto; padding: 0 1rem; background: #f0f2f5; color: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 850px; margin: 2rem auto; padding: 0 1rem; background: #f0f2f5; color: #333; }
         .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .field-group { margin-bottom: 1.2rem; }
         label { display: block; font-weight: 600; margin-bottom: 0.4rem; font-size: 0.85rem; text-transform: uppercase; color: #666; }
@@ -43,7 +43,7 @@ The must be a button to generate another filename.
 <body>
 
 <div class="card">
-    <h2 style="margin-top:0">NAMER</h2>
+    <h2 style="margin-top:0">FILENAMER v0.2</h2>
     
     <div class="field-group">
         <label>Generated Filename (Auto-updates)</label>
@@ -52,19 +52,25 @@ The must be a button to generate another filename.
 
     <hr style="border: 0; border-top: 1px solid #eee; margin: 1.5rem 0;">
 
-    <div class="field-group">
-        <label>Prefix</label>
-        <input type="text" id="prefix" placeholder="e.g. fb-">
-    </div>
-
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+        <div class="field-group">
+            <label>Prefix</label>
+            <input type="text" id="prefix" placeholder="e.g. fb-">
+        </div>
         <div class="field-group">
             <label>Site</label>
             <input type="text" id="site">
         </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
         <div class="field-group">
             <label>Author</label>
             <input type="text" id="author">
+        </div>
+        <div class="field-group">
+            <label>Other</label>
+            <input type="text" id="other">
         </div>
     </div>
 
@@ -76,16 +82,23 @@ The must be a button to generate another filename.
         <div class="field-group">
             <label>Hash Length</label>
             <select id="hashLength">
-                <option value="8">8 chars</option>
+<!--                <option value="8">8 chars</option> -->
                 <option value="16">16 chars</option>
                 <option value="24">24 chars</option>
+                <option value="32">32 chars</option>
             </select>
         </div>
     </div>
 
-    <div class="field-group">
-        <label>Tags (comma separated)</label>
-        <input type="text" id="tags" placeholder="SOURCE, REF">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+        <div class="field-group">
+            <label>Tags (comma separated)</label>
+            <input type="text" id="tags" placeholder="SOURCE, REF">
+        </div>
+        <div class="field-group">
+            <label>Pre-Description</label>
+            <input type="text" id="predescription">
+        </div>
     </div>
 
     <div class="field-group">
@@ -101,7 +114,7 @@ The must be a button to generate another filename.
 <div id="toast" class="toast">Copied to clipboard!</div>
 
 <script>
-    const fields = ['prefix', 'site', 'author', 'year', 'tags', 'hashLength', 'description'];
+    const fields = ['prefix', 'site', 'author', 'other', 'year', 'tags', 'hashLength', 'predescription', 'description'];
     let currentHash = '';
 
     window.onload = () => {
@@ -152,15 +165,22 @@ The must be a button to generate another filename.
             prefix: formatString(document.getElementById('prefix').value),
             site: formatString(document.getElementById('site').value),
             author: formatString(document.getElementById('author').value),
+            other: formatString(document.getElementById('other').value),
             year: formatString(document.getElementById('year').value),
             tags: formatString(document.getElementById('tags').value).replace(/,/g, '-'),
             hash: currentHash,
-            description: formatString(document.getElementById('description').value)
+            predescription: formatString(document.getElementById('predescription').value),
+            description: formatString(document.getElementById('description').value).replace(/ /g, '_').toLowerCase(),
         };
 
-        const result = Object.values(values)
-            .filter(val => val !== '')
-            .join('-');
+        const filtered = Object.values(values).filter(val => val !== '');
+
+        // Separate the last item from the rest
+        const last = filtered.pop(); 
+        const result = filtered.length > 0 
+            ? filtered.join('-') + last 
+            : (last || '');
+
 
         document.getElementById('filename').value = result;
     }
@@ -174,7 +194,7 @@ The must be a button to generate another filename.
         history.replaceState(null, '', '?' + params.toString());
     }
 
-    async function copyToClipboard() {
+    async function copyToClipboardOLD() {
         const text = document.getElementById("filename").value;
         try {
             await navigator.clipboard.writeText(text);
@@ -183,6 +203,55 @@ The must be a button to generate another filename.
             console.error('Failed to copy: ', err);
         }
     }
+
+
+    async function copyToClipboard() {
+        const text = document.getElementById("filename").value;
+
+        // 1. Try Modern Clipboard API (Requires HTTPS)
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast();
+                return; // Success!
+            } catch (err) {
+                console.error('Clipboard API failed:', err);
+            }
+        }
+
+        // 2. Fallback Method (Works on HTTP / Older Browsers)
+        try {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            
+            // Hide the textarea off-screen
+            textArea.style.position = "fixed";
+            textArea.style.left = "-9999px";
+            textArea.style.top = "0";
+            document.body.appendChild(textArea);
+            
+            textArea.focus();
+            textArea.select();
+            
+            const successful = document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            if (successful) {
+                showToast();
+            } else {
+                throw new Error('execCommand returned false');
+            }
+        } catch (err) {
+            console.error('Fallback copy failed:', err);
+            alert('Copy failed. Please manually copy the text.');
+        }
+    }
+
+
+
+
+
+
 
     function showToast() {
         const toast = document.getElementById('toast');
