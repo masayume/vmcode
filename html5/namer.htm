@@ -43,7 +43,7 @@ The must be a button to generate another filename.
 <body>
 
 <div class="card">
-    <h2 style="margin-top:0">FILENAMER v0.3</h2>
+    <h2 style="margin-top:0">FILENAMER v0.4</h2>
     
     <div class="field-group">
         <label>Generated Filename (Auto-updates)</label>
@@ -171,7 +171,7 @@ The must be a button to generate another filename.
     function updateFilename() {
         const values = {
             prefix: formatString(document.getElementById('prefix').value),
-            site: formatString(document.getElementById('site').value),
+            site: formatString(document.getElementById('site').value).replace(/\//g,'|').replace(/-/g, '='),
             author: formatString(document.getElementById('author').value),
             other: formatString(document.getElementById('other').value),
             year: formatString(document.getElementById('year').value),
