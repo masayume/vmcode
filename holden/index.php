@@ -68,7 +68,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/Elvgren'
                   , '/inspire/@CARTOONS/birault'
                   , '/inspire/@WORKFLOWS'
-                  , '/inspire/VOID'                   // VOID
+                  , '/inspire/VOID'      // VOID
                   , '/inspire/@CARTOONS/faboarts'     
 // 30
                   , '/inspire/@CARTOONS/fran'
@@ -127,7 +127,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARTOONS/sho'         // 80
 // 80
                   , '/inspire/@CARTOONS/shunya yamashita'
-                  , '/inspire/@CARTOONS/SIO'                  
+                  , '/inspire/@CARTOONS/SIO'     
                   , '/inspire/@CARTOONS/soffritti'
                   , '/inspire/@CARTOONS/stanley'
                   , '/inspire/@CARTOONS/strip'
@@ -156,7 +156,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/ref-TILES'    // 106
                   , '/inspire/@pixelart/workflow'
                   , '/inspire/@pixelart/RETRO'
-                  , '/inspire/@pixelart/'             // 109
+                  , '/inspire/@pixelart/'// 109
 // 110
                   , '/inspire/@characters/Asuka'
                   , '/inspire/@CARTOONS/bayonetta'    // 111
@@ -172,20 +172,20 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@characters/'         
                   , '/inspire/@pixelart/backgrounds/landsref' // 121  
                   , '/inspire/@pixelart/backgrounds/others'   // 122  
-                  , '/inspire/@REF-poses'                     // 123  
-                  , '/inspire/@ALT_POSES'                     // 124  
-                  , '/inspire/@backs'                         // 125
+                  , '/inspire/@REF-poses'        // 123  
+                  , '/inspire/@ALT_POSES'        // 124  
+                  , '/inspire/@backs'            // 125
                   , '/inspire/@pixelart/ref-TEXT/titles'      // 126  
                   , '/inspire/@pixelart/RETRO/snap'           // 127
                   , '/inspire/@CARTOONS/ALAN DAVIS'           // 128
-                  , '/inspire/VOID'                           // 129
+                  , '/inspire/VOID'              // 129
 // 130
                   , '/inspire/@drawthink/'         
                   , '/inspire/@drawthink/@drawwrite'          // 131  
-                  , '/inspire/@TEXTURES'                      // 132  
+                  , '/inspire/@TEXTURES'         // 132  
                   , '/inspire/@drawthink/texturing'           // 133  
-                  , '/inspire/@AI'                            // 134
-                  , '/inspire/@AI/ai-pixelart/'               // 135  
+                  , '/inspire/@AI'               // 134
+                  , '/inspire/@AI/ai-pixelart/'  // 135  
                   , '/inspire/@pixelart/src-MIXED'            // 136
                   , '/inspire/@CARTOONS/Magritte'
                   , '/inspire/@CARTOONS/myDixit'
@@ -233,13 +233,13 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@gnokkenland/M/galleries/t-Jenny'
                   , '/inspire/@gnokkenland/M/galleries/t-Patricia'
                   , '/inspire/@gnokkenland/M/galleries/t-Saladams'
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'
 // 180
                   , '/inspire/@pixelart/1bit/bitartbot'       // 180
-                  , '/inspire/TAROT/marseille-01'             
-                  , '/inspire/TAROT/marseille-jodorowsky'                 
+                  , '/inspire/TAROT/marseille-01'
+                  , '/inspire/TAROT/marseille-jodorowsky'    
                   , '/inspire/@JAPAN/kanji-shodo-01'          
-                  , '/inspire/@ART'             
+                  , '/inspire/@ART'
                   , '/inspire/@CARTOONS/FANTASY'              // 185
                   , '/inspire/@COVERS/MoviePosters'
                   , '/inspire/@COVERS/ClassicScifiCovers'
@@ -247,58 +247,58 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARDS/LOST_ARCANA/other_renders'   
 // 190                  
                   , '/inspire/@MATH/sketches'                 // 190 
-                  , '/inspire/@AI/4PROMPT'                  
+                  , '/inspire/@AI/4PROMPT'     
                   , '/inspire/@COVERS/AlbumArt/songs'
                   , '/inspire/LINUX'
                   , '/inspire/@COVERS/BookCovers/Godot'       
                   , '/inspire/PROJECTS/pac-man-reference'
-                  , '/inspire/@MISC-STYLE/POV'             
-                  , '/inspire/@gnokkenland/'             
+                  , '/inspire/@MISC-STYLE/POV'
+                  , '/inspire/@gnokkenland/'
                   , '/inspire/PROJECTS/VETUS_MYSTERIA'
                   , '/inspire/BLENDER'
 
-                  , '/inspire/@SCIENCE/PHILOSOPHY'             // 200
+                  , '/inspire/@SCIENCE/PHILOSOPHY'            // 200
                   , '/inspire/@gnokkenland/M/Milena_xing_dir'
                   , '/inspire/@REF-SHADERS/'
                   , '/inspire/@REF-LEGO/'
                   , '/inspire/@REF-LOGO/'
-                  , '/inspire/@CARTOONS/EMOJI/'               
-                  , '/inspire/@SCIENCE/PHILOSOPHY/'              
-                  , '/inspire/@AI/STYLE'             
-                  , '/inspire/@AI/PROMPTS'             
+                  , '/inspire/@CARTOONS/EMOJI/'  
+                  , '/inspire/@SCIENCE/PHILOSOPHY/' 
+                  , '/inspire/@AI/STYLE'
+                  , '/inspire/@AI/PROMPTS'
                   , '/inspire/@ARCHETYPES/'  
 
                   , '/inspire/@CARTOONS/MALIKA/'              // 210
-                  , '/inspire/STRUDEL'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/STRUDEL'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'  
 
                   , '/inspire/@pixelart/ref-TEXT'             // 220
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'  
 
                   , '/inspire/@pixelart/ref-TEXT'             // 230
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
-                  , '/inspire/@pixelart/ref-TEXT'             
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'  
 
                 );

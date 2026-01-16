@@ -86,6 +86,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>instagram:</b> <a href='https://www.instagram.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
+    elseif (preg_match('/^im-/', $twitterRaw2) ){     // calculate IMDB link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>imdb:</b> <a href='https://www.imdb.com/title/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
     elseif (preg_match('/^ar-/', $twitterRaw2) ){     // calculate ARTSTATION link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>artstation:</b> <a href='https://www.artstation.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
@@ -289,6 +293,7 @@ function findtags($tw) {
   $tw = preg_replace('/^fbp\-(\w+)\-/', '', $tw);                    // clears facebook profile prefix
   $tw = preg_replace('/^fl\-(\w+)\-/', '', $tw);                    // clears flickr prefix
   $tw = preg_replace('/^in\-(\w+)\-/', '', $tw);                    // clears instagram prefix
+  $tw = preg_replace('/^im\-(\w+)\-/', '', $tw);                    // clears imdb prefix
   $tw = preg_replace('/^it\-(\w+)\-/', '', $tw);                    // clears itch prefix
   $tw = preg_replace('/^ma\-\@(\w+)\@(\w+)\.?(\w+)\-/', '', $tw);   // clears mastodon prefix - ma-@LordArse@toot.community-
   $tw = preg_replace('/^none-/', '', $tw);                          // clears none (dummy) prefix
