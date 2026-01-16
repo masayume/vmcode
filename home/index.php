@@ -293,9 +293,10 @@
 
       </ul>
 
-      <h4>BOOKS</h4>
+      <h4>BOOKS/TEXT</h4>
       <ul>
-        <li> <a href="https://book.sv/"><b>Book.sv</b></a> </li>
+        <li> <a href="https://book.sv/"><b>Book.sv</b></a>
+             <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
       </ul>
 
       <h4>CRITIC</h4>
