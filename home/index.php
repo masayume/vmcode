@@ -78,6 +78,7 @@
   
   <h4>holden</h4>
     <ul>
+      <li> <a href="/HTML5/holden/index.php?art1=212&art2=212"><b>DAILY</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>Misc</b></a> 
            <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
            <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a> 
