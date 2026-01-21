@@ -96,6 +96,8 @@
       <li> <a href="/HTML5/holden/index.php?art1=214&art2=214" title="Dynamic Textures"><b>dynText</b></a>  
            <a href="/HTML5/holden/index.php?art1=185&art2=185" title="Fantasy Art Gallery"><b>Fantasy</b></a>     
            <a href="/HTML5/holden/index.php?art1=213&art2=213" title="Oblique Strategies"><b>Oblique</b></a>    </li> 
+      <li> <a href="/HTML5/holden/index.php?art1=215&art2=215" title="Symbols"><b>Symbols</b></a>  
+      </li>
 
     </ul>
 
