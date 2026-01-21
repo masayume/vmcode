@@ -25,21 +25,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
   ._exa{ display:inline-block; margin:5px 6px; padding:5px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="/matomo/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
 
 </head>
 <body>
@@ -164,13 +149,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         <li> <a href="https://github.com/tlobig/godot-procedural-generation/tree/godot4update"><b>Godot procgen</b></a> </li>
         <li> <a href="https://www.redblobgames.com"><b>Amit Patel</b></a> </li>
       </ul>
- 
+
+      <h4>JSON</h4>
+      <ul>
+        <li> <a href="https://j-brooke.github.io/FracturedJson/"><b>FracturedJson</b></a> </li>
+      </ul>
+
+<!-- 
       <h4>STYLE</h4>
       <ul>
         <li> <a href="https://www.masayume.it/blog/content/petscii-unaltra-pixel-art"><b>Playscii★</b></a>
              <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=144&art2=144"><b>TOM GAULD</b></a> </li>
       </ul>
+-->
 
     </div>
 
@@ -209,6 +201,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <h4>Music & Sound</h4>
     <ul>
       <li> <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask ★</b></a></li> 
+      <li> <a href="https://castpixel.itch.io/animevox">animevox ★</a></li> 
       <li> <a href="/unity.php">on unity page</a></li> 
     </ul>
  
