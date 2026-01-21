@@ -59,26 +59,15 @@
              <a href="cosmo/" target="_blank"><b>COSMO</b></a> </li>
         <li> <a href="games/" target="_blank"><b>GAMES</b></a> 
              <a href="music/" target="_blank"><b>MUSIC</b></a> </li>
-        <li> <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
+<!--        <li> <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li> -->
         </ul>
-    <h4>Solomon's World</h4>
-	<ul>
-	<li><a href="/solomons/solomons.php">tools</a>
-	    <a href="/solomons/sprite.htm">sprites</a>
-	    <a href="/solomons/assets.php">assets</a></li>
-	</ul>
-    <h4>Video,Music,Sound</h4>
-	<ul>
-    <li><a href="/HTML5/holden/index.php?vfolder=VIDEO"><b>VIDEO ★★</b></a>
-        <a href="/demon/OSS/oss.php"><b>OSS ★★</b></a></li>
-		<li><a href="/jsSID">jsSID</a> <a href='https://github.com/jhohertz/jsSID'>gh</a> - 
-		    <a href="/3dpiano">piano3D</a> <a href='https://github.com/reality3d/3d-piano-player'>gh</a></li>
-		<li><a href="/demon/soundboard/">soundboard</a></li>
-  </ul>
-  
+
+
   <h4>holden</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=212&art2=212"><b>DAILY</b></a> </li>
+      <li> <a href="/HTML5/holden/index.php?art1=212&art2=212"><b>DAILY!</b></a> 
+           <a href="/HTML5/holden/index.php?vfolder=VIDEO"><b>VIDEO★</b></a> 
+           <a href="/demon/OSS/oss.php"><b>OSS★</b></a></li> </li>
       <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>Misc</b></a> 
            <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
            <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a> 
@@ -104,6 +93,10 @@
            <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Emoji</b></a> </li>     
       <li> <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Sktch1Day</b></a>  
            <a href="/HTML5/holden/index.php?art1=206&art2=206"><b>Philosophers</b></a>    </li> 
+      <li> <a href="/HTML5/holden/index.php?art1=214&art2=214" title="Dynamic Textures"><b>dynText</b></a>  
+           <a href="/HTML5/holden/index.php?art1=185&art2=185" title="Fantasy Art Gallery"><b>Fantasy</b></a>     
+           <a href="/HTML5/holden/index.php?art1=213&art2=213" title="Oblique Strategies"><b>Oblique</b></a>    </li> 
+
     </ul>
 
   </div>

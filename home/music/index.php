@@ -46,7 +46,7 @@
 <div class="container-fluid">
 
   <div class="_exa">
-    <h4>INSPIRE PAGE</h4>
+    <h4>MUSIC PAGE</h4>
       <ul>
         <li> <a href="/index.php" target="_blank"><b>INDEX</b></a> 
              <a href="/godot" target="_blank"><b>GODOT</b></a> 
@@ -55,6 +55,13 @@
              <a href="/tools.php" target="_blank"><b>TOOLS</b></a> </li>
         <li> <a href="/nihongo.php" target="_blank"><b>NIHONGO page</b></a> </li>
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
+      </ul>
+
+    <h4>Video,Music,Sound</h4>
+      <ul>
+        <li><a href="/jsSID">jsSID</a> <a href='https://github.com/jhohertz/jsSID'>gh</a> - 
+            <a href="/3dpiano">piano3D</a> <a href='https://github.com/reality3d/3d-piano-player'>gh</a></li>
+        <li><a href="/demon/soundboard/">soundboard</a></li>
       </ul>
  
   </div>
