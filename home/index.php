@@ -25,21 +25,6 @@
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
   ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="/matomo/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
 
 </head>
 <body>
@@ -340,7 +325,7 @@
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('inspire/masayume/pub/');
+      $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
       $image      = $images[array_rand($images)];
@@ -388,6 +373,18 @@
   </div>
 
   <div class="_exa">
+
+    <details>
+          <summary><strong><b>NAMER ⬇️⬇️⬇️</b></strong></summary> 
+            <p>
+              <ul>
+                <li> <a href="/html5/namer.htm?prefix=in&site=whykentowhy&author=kento_iida&tags=JAP%2CSTYLE%2C&hashLength=16" title="instagram Kento Iida" target="_blank"><b>instagram</b></a> </li>
+                <li> <a href="http://192.168.122.35/html5/namer.htm?prefix=site&site=https%3A%2F%2Fcreator.nightcafe.studio&tags=AI%2CTOOL%2C&hashLength=16" title="nightcafe" target="_blank"><b>nightcafe</b></a> </li>
+                <li> <a href="/html5/namer.htm?prefix=site&site=https%3A%2F%2Fopenprocessing.org%2Fsketch%2F2853439&tags=GEN%2CGEOM%2CSOURCE%2C&hashLength=16" title="openprocessing" target="_blank"><b>openprocessing</b></a> </li>
+                <li> <a href="/html5/namer.htm?prefix=ma&site=%40dailysms%40retro-gaiden.com&tags=SEGA%2CSMS&hashLength=16&predescription=sms_&description=Gp+Rider" title="master system daily" target="_blank"><b>SMS daily</b></a> </li>
+              </ul>
+            </p>  
+    </details>
 
     <details>
           <summary><strong><b>PROJECTS ⬇️⬇️⬇️</b></strong></summary> 

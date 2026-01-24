@@ -225,7 +225,8 @@
             <a href="https://www.kimi.com/chat" title="kimi AI K2"><b>KimiAI★</b></a>  </li>
       <li>  <a href="https://www.perplexity.ai/"><b>Perplexity★</b></a> 
             <a href="https://beta.character.ai/" title="text detection tool"><b>Pangram★</b></a> </li>
-      <li>  <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard?ref=masayume.it"><b>ChatLeaderboard★</b></a> 
+      <li>  <a href="https://gptzero.me/"><b>GPTzero★</b></a> 
+<!--        <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard?ref=masayume.it"><b>ChatLeaderboard★</b></a>  -->
             <a href="https://toolbaz.com/?ref=masayume.it"><b>toolbaz</b></a> </li>
       <li>  <a href="https://labs.kagi.com/fastgpt?utm_source=masayume.it"><b>fastGPT★</b></a> 
             <a href="https://chat.openai.com/chat"><b>chatGPT★</b></a> edge</li>
@@ -233,9 +234,9 @@
             <a href="https://wikipediagpt.streamlit.app/"><b>WikichatGPT ★</b></a> </li>      
       <li>  <a href="https://complimentme.replit.app/"><b>compliment me support★</b></a> </li>
       <li>  <a href="https://klavier.ai/"><b>klavierPDF★</b></a> 
-            <a href="https://askyourpdf.com/"><b>AskUr PDF ★</b></a> </li>      
+            <a href="https://askyourpdf.com/"><b>AskUrPDF★</b></a> </li>      
       <li>  <a href="https://beta.character.ai/"><b>character ★</b></a> 
-            <a href="https://www.perplexity.ai/"><b>perplexity ★</b></a> </li>
+            <!-- <a href="https://www.perplexity.ai/"><b>perplexity ★</b></a> --></li>
       <li>  <a href="https://www.tryshortcut.ai/shortcut"><b>EXCEL★</b></a> 
             <a href="https://listenmonster.com/?utm_source=masayume.it"><b>LM subtitles</b></a> </li>
       <li>  <a href="https://www.brevity.sh/"><b>brevity★</b></a>
@@ -453,7 +454,7 @@
     </ul>
 
 
-  </div>
+  </div>ha
 
 
   <div class="_exa">

@@ -66,6 +66,18 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>twitter:</b> <a href='https://twitter.com/" . $exploded[1] . "/media' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     }
+    elseif (preg_match('/^ar-/', $twitterRaw2) ){     // calculate ARTSTATION link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>artstation:</b> <a href='https://www.artstation.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
+    elseif (preg_match('/^bs-/', $twitterRaw2) ){     // calculate BLUESKY link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>bluesky:</b> <a href='https://bsky.app/profile/" . $exploded[1] . ".bsky.social" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    } 
+    elseif (preg_match('/^ca-/', $twitterRaw2) ){     // calculate CARA link
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>instagram:</b> <a href='https://cara.app/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    }         
     elseif (preg_match('/^sp-/', $twitterRaw2) ){     // calculate SPOTIFY ALBUM link - https://open.spotify.com/album/4nEgdO6tkE2v5LO3mpUEe9
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>spotify:</b> <a href='https://open.spotify.com/album/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
@@ -90,18 +102,6 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>imdb:</b> <a href='https://www.imdb.com/title/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     } 
-    elseif (preg_match('/^ar-/', $twitterRaw2) ){     // calculate ARTSTATION link
-      $exploded = explode('-', $twitterRaw2);
-      $twitterRaw3 = "<b>artstation:</b> <a href='https://www.artstation.com/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
-    } 
-    elseif (preg_match('/^bs-/', $twitterRaw2) ){     // calculate BLUESKY link
-      $exploded = explode('-', $twitterRaw2);
-      $twitterRaw3 = "<b>bluesky:</b> <a href='https://bsky.app/profile/" . $exploded[1] . ".bsky.social" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
-    } 
-    elseif (preg_match('/^ca-/', $twitterRaw2) ){     // calculate CARA link
-      $exploded = explode('-', $twitterRaw2);
-      $twitterRaw3 = "<b>instagram:</b> <a href='https://cara.app/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
-    }     
     elseif (preg_match('/^it-/', $twitterRaw2) ){     // calculate ITCH.IO link
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>instagram:</b> <a href='https://" . $exploded[1] . ".itch.io" . "' target='_blank' title='" . $file. "'>" . $exploded[1] . ".itch.io</a>";

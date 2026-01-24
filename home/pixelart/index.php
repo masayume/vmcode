@@ -89,7 +89,6 @@
             <a href="https://www11.lunapic.com/editor/?action=line-effect">lunapic</a> </li>
         <li><a href="https://charlesstover.com/spritesheet2gif">spritesheet2gif</a>
         <li><a href="https://mugenarchive.com/forums/downloads.php?do=cat&id=261-sprite-packs&__cf_chl_jschl_tk__=d08760070c9f7c6e2676da94317ecdd11f6ca7a0-1604924843-0-Aa4lAc5iwBGhMVaElV3PdE3ybykr-fKu5HkTAktXk7YIL71M1TRs04f4N8fZQLa7tPJ8DRYxyHLPTEDuVrrBwKsUuE5fgnIQkk8eLNaxJdhriCaYFx8eUdCa1TeJ19k8IVAVhWDuYDEJPpYfofTQqaUpBsHkYSiDYJxeliX6n9mtJWtxy4UfmZl6xoeuW_VZzxxtpW1sD8rbuE7uSXL2LWTfZMojNFSWkFm7w8XvfCHvoyQ6ucxzuTOgoU7LXNTPplkoutbNersc9HE-rH39bZaPdVjt5SVcCkXkYCJlvVMyMwmfLbXjb9aEIlX53sutwjpNuWVVd1xg-yIBDJ_osN8">mugen sprites</a><li>
-            <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>   
             <a href="https://app.monopro.org/pixel/"><b>monopro★</b></a></li> 
         <li><a href="https://ezgif.com/video-to-gif">video2gif</a></li>    
         <li><a href="https://www.airtightinteractive.com/demos/js/imageglitcher/">scanline IG ★</a></li>    
@@ -244,39 +243,49 @@
         <!--  <li><a href="URL">TITLE</a> -->
   </ul>
 
-  <h4>1BIT</h4> 
-  <ul> 
-    <li> <a href="/1bit-pattern-gen"><b>1bitartbot ■</b></a> 
-         <a href="https://livellosegreto.it/@bitartbot@freeradical.zone"><b>online</b></a> </li>
-  </ul>
-
-  <h4>FONTS</h4> <!-- also in TOOLS -->
-  <ul> 
-    <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
-    <li> <a href="/HTML5/holden/index.php?art1=179&art2=179"><b>ref-TEXT local fonts ■</b></a> </li>
-    <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
-    <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
-    <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> 
-         <a href="https://fontawesome.com/icons?d=gallery"><b>fontawsm</b></a></li>
-    <li> <a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
-    <li> <a href="https://fontstruct.com/fontstructor/edit"><b>Fontstruct ■</b></a>
-         <a href="https://www.masayume.it/blog9/web/content/splintered-pixel-fonts-fontstruct"><b>my</b></a></li>
-  </ul>
-
-  <h4>Pixel REFS</h4>
-  <ul>
-    <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>twitter AdvQ ★</b></a></li>
-    <li><a href="https://www.deviantart.com/isohei/art/Chibi-character-14-poses-724368819"><b>deviantart</b></a>, 
-      <a href="https://www.deviantart.com/z-studios/art/Thunderbird-819283871"><b>#1</b></a>, 
-    </li>
-    <li><a href="https://gelbooru.com/index.php?page=post&s=view&id=3463389"><b>gelbooru</b></a>
-        <a href="https://www.pinterest.co.uk/pin/358880664065806936/"><b>pinterest</b></a></li>
-  </ul>
-
-
+      <h4>FONTS</h4> <!-- also in TOOLS -->
+      <ul> 
+        <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
+        <li> <a href="/HTML5/holden/index.php?art1=179&art2=179"><b>ref-TEXT local fonts ■</b></a> </li>
+        <li> <a href="https://fontstruct.com/gallery/tag/9/Pixel"><b>online pixel fonts ■</b></a> </li>
+        <li> <a href="https://fontstruct.com/gallery/tag/1723/Arcade"><b>online arcade fonts ■</b></a> </li>
+        <li> <a href="https://nerdfonts.com/#cheat-sheet"><b>nerdfonts</b></a> 
+             <a href="https://fontawesome.com/icons?d=gallery"><b>fontawsm</b></a></li>
+        <li> <a href="http://mathew-kurian.github.io/CharacterMap/"><b>Font Char Map</b></a></li>
+        <li> <a href="https://fontstruct.com/fontstructor/edit"><b>Fontstruct ■</b></a>
+             <a href="https://www.masayume.it/blog9/web/content/splintered-pixel-fonts-fontstruct"><b>my</b></a></li>
+      </ul>
     
   </div>
 
+
+  <div class="_exa">
+    <h4>ASEPRITE</h4>
+      <ul>
+        <li> <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>    </li>
+        <li> <a href="/HTML5/holden/index.php?art1=216&art2=216"><b>tutorials ★</b></a></li> 
+        <li> <a href="/mersenne/mersenne.php?seed=100&page=5&results=1&atype=uchidapixel"><b>Uchida★</b></a></li> 
+      </ul>
+
+      <h4>1BIT</h4> 
+      <ul> 
+        <li> <a href="/1bit-pattern-gen"><b>1bitartbot ■</b></a> 
+             <a href="https://livellosegreto.it/@bitartbot@freeradical.zone"><b>online</b></a> </li>
+      </ul>
+
+      <h4>REFS</h4>
+      <ul>
+        <li><a href="https://twitter.com/search?q=%E3%83%89%E3%83%83%E3%83%88%E7%B5%B5%20min_faves%3A1500&src=typed_query"><b>twitter AdvQ ★</b></a></li>
+        <li><a href="https://www.deviantart.com/isohei/art/Chibi-character-14-poses-724368819"><b>deviantart</b></a>, 
+          <a href="https://www.deviantart.com/z-studios/art/Thunderbird-819283871"><b>#1</b></a>, 
+        </li>
+        <li><a href="https://gelbooru.com/index.php?page=post&s=view&id=3463389"><b>gelbooru</b></a>
+            <a href="https://www.pinterest.co.uk/pin/358880664065806936/"><b>pinterest</b></a></li>
+      </ul>
+
+
+
+  </div>
 
 
 <div class="_exa"> <!-- also in TOOLS,UNITY,INSPIRE -->
@@ -410,12 +419,63 @@
 
   </div>
   
+<div class="_exa">
 
-  <div class="_exa">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@pixelart/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
+      ?>
+
+  <h4>REACH</h4>
+  <ul>
+    <li><a href="https://twitter.com/JiskeyJasket/status/1512779088955678720"><b>twitter reach ★</b></a></li>
+    <li><a href="https://twitter.com/gif_not_jif/status/1520333504315334658"><b>sell on itch.io ★</b></a></li>
+  </ul>
+
+</div>
+
+<div class="_exa">
+
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@pixelart/backgrounds/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
+      ?>
+
+      <br clear="all" />
+
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@pixelart/backgrounds/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
+      ?>
+
+
+</div>
+
+<div class="_exa">
       <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
       <details>
-        <summary><strong><b>LMM MODELS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <summary><strong><b>LLM MODELS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
             <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
@@ -474,62 +534,7 @@
         <li><a href="/inspire.php" title="ALSO IN INSPIRE"><b>[...]</b></a></li>
       </ul>
 
-</div>
 
-<div class="_exa">
-
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@pixelart/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-      ?>
-
-  <h4>REACH</h4>
-  <ul>
-    <li><a href="https://twitter.com/JiskeyJasket/status/1512779088955678720"><b>twitter reach ★</b></a></li>
-    <li><a href="https://twitter.com/gif_not_jif/status/1520333504315334658"><b>sell on itch.io ★</b></a></li>
-  </ul>
-
-</div>
-
-<div class="_exa">
-
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@pixelart/backgrounds/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-      ?>
-
-      <br clear="all" />
-
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@pixelart/backgrounds/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-      ?>
-
-
-</div>
-
-<div class="_exa">
   <h4>cartoon artists</h4>
   <ul>
     <li><a href="/HTML5/holden/index.php">Holden</a>,<a href="/HTML5/holden/index.php?art=1">Altan</a></li>    

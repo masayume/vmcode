@@ -25,7 +25,7 @@ The must be a button to generate another filename.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FILENAMER - KDE Compatible</title>
+    <title>FILENAMER - v0.5</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 850px; margin: 2rem auto; padding: 0 1rem; background: #f0f2f5; color: #333; }
         .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
@@ -43,7 +43,7 @@ The must be a button to generate another filename.
 <body>
 
 <div class="card">
-    <h2 style="margin-top:0">FILENAMER v0.4</h2>
+    <h2 style="margin-top:0">FILENAMER v0.5 by masayume</h2>
     
     <div class="field-group">
         <label>Generated Filename (Auto-updates)</label>
@@ -171,7 +171,7 @@ The must be a button to generate another filename.
     function updateFilename() {
         const values = {
             prefix: formatString(document.getElementById('prefix').value),
-            site: formatString(document.getElementById('site').value).replace(/\//g,'|').replace(/-/g, '='),
+            site: formatString(document.getElementById('site').value).replace(/(^\w+:|^)\/\//, '').replace(/\//g,'|').replace(/-/g, '='),
             author: formatString(document.getElementById('author').value),
             other: formatString(document.getElementById('other').value),
             year: formatString(document.getElementById('year').value),
