@@ -71,7 +71,8 @@
 
     <h4>STRUDEL</h4>
       <ul>
-        <li> <a href="/HTML5/holden/index.php?art1=211&art2=211" target="_blank"><b>holden★</b></a> 
+        <li> <a href="/HTML5/holden/index.php?art1=211&art2=211" target="_blank"><b>MAIN holden★</b></a> 
+        <li> <a href="/HTML5/holden/index.php?art1=15&art2=15&tag1=STRUDEL&tag2=STRUDEL" target="_blank"><b>Albums★</b></a> 
       </ul>
  
     <h4>EXAMPLES</h4>
