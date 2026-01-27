@@ -178,7 +178,7 @@ The must be a button to generate another filename.
             tags: formatString(document.getElementById('tags').value).replace(/,/g, '-'),
             hash: currentHash,
             predescription: formatString(document.getElementById('predescription').value),
-            description: formatString(document.getElementById('description').value).replace(/[ -.]/g, '_').toLowerCase(),
+            description: formatString(document.getElementById('description').value).replace(/[ :’]/g, '').replace(/[ -.]/g, '_').toLowerCase(),
         };
 
         const filtered = Object.values(values).filter(val => val !== '');
