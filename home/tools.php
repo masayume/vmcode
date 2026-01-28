@@ -174,7 +174,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
           <a href="https://paletton.com/#uid=b4Y2C1G0kJbrPmuA1-tDyOslPU9eQ"><b>paletton ★</b></a> </li>
       <li><a href="https://thisisfranciswu.com/enterprise-ui-palette-generator/#"><b>palettegen★</b></a> 
           <a href="https://hue.tools/mix?format=hex&mode=lch&colors=8a538eff%3Bfedc2aff&gamma=1.25"><b>HueTools★</b></a> </li>
-      <li><a href="http://dev.thi.ng/gradients/"><b>Color palette webapp</b></a></li> 
+      <li><a href="https://dev.thi.ng/gradients/"><b>CP webapp</b></a>
+          <a href="https://www.volumecolor.io/editor"><b>Volumecol</b></a></li> 
       <li><a href="https://davidjohnstone.net/lch-lab-colour-gradient-picker"><b>grad.pick★</b></a> 
           <a href="https://leonardocolor.io/scales.html#"><b>leonardo★</b></a> </li>
       <li><a href="https://rilden.github.io/tiledpalettequant/"><b>tiledpq★</b></a> 
@@ -246,20 +247,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
           </ul>
         </p>
       </details>
-
-    <h4>3D GRAPH</h4>  <!-- also in UNITY -->
-      <ul>
-        <li> <a href="/HTML5/holden/index.php?art1=199&art2=199" title="2render gallery"><b>BLENDER</b></a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
-        <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
-        <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
-        <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
-        <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a>
-             <a href=""><b>magicavoxel</b></a></li>
-        <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
-        <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu2D>3D★</a>
-             <a href="https://www.masayume.it/blog/content/blockbench">blckbnch★</a> </li>  
-      </ul>
-
       
   </div>
 
@@ -441,18 +428,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   <div class="_exa">
 
     <h4>GENERATIVE</h4>
-          <ul>
-            <li> <a href="https://github.com/topics/generative-art?o=desc&s=stars">repos ★★★</a></li> 
-            <li> <a href="https://github.com/marian42/wavefunctioncollapse">wave fn collapse ★</a> </li>
-            <li> <a href="https://www.masayume.it/blog9/web/content/markov-jr">markov junior ★</a> </li>
-            <li> <a href="https://thisxdoesnotexist.com/">this does not exist ★</a> </li>
-            <li> <a href="/html5/slant/">Golid slant ★</a> <a href="https://www.masayume.it/blog/content/kjetil-midtgarden-golid">my</a></li>
-            <li> <a href="/html5/gengrid/dist/">generative grid ★</a> </li>
-            <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
-            <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
-            <li> <a href="https://polyhedra.tessera.li/"><b>polyhedra★</b></a>
-                 <a href="https://www.masayume.it/blog/content/polyhedra-viewer"><b>my</b></a></li> 
-          </ul>
+      <ul>
+        <li> <a href="https://github.com/topics/generative-art?o=desc&s=stars">repos ★★★</a></li> 
+        <li> <a href="https://github.com/marian42/wavefunctioncollapse">wave fn collapse ★</a> </li>
+        <li> <a href="https://www.masayume.it/blog9/web/content/markov-jr">markov junior ★</a> </li>
+        <li> <a href="https://thisxdoesnotexist.com/">this does not exist ★</a> </li>
+        <li> <a href="/html5/slant/">Golid slant ★</a> <a href="https://www.masayume.it/blog/content/kjetil-midtgarden-golid">my</a></li>
+        <li> <a href="/html5/gengrid/dist/">generative grid ★</a> </li>
+        <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
+        <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
+        <li> <a href="https://polyhedra.tessera.li/"><b>polyhedra★</b></a>
+             <a href="https://www.masayume.it/blog/content/polyhedra-viewer"><b>my</b></a></li> 
+      </ul>
+
+
+    <h4>3D GRAPH</h4>  <!-- also in UNITY -->
+      <ul>
+        <li> <a href="/HTML5/holden/index.php?art1=199&art2=199" title="2render gallery"><b>BLENDER</b></a> - <a href="blender.keyboard.reference.htm">keyboard</a></li>
+        <li> <a href="https://www.masayume.it/blog/content/3d-con-pochi-click-mixamo"><b>mixamo ★</b>  </a> <a href="https://www.youtube.com/watch?v=-FhvQDqmgmU">course ★ </a></li>
+        <li> <a href="https://www.youtube.com/watch?v=PVmDgrr75nE"><b>MIXAMO proc-anim</b> ★</a></li>
+        <li> <a href="https://threejs.org/examples/#webgl_animation_skinning_additive_blending"><b>3js virtual model</b> ★★</a></li>
+        <li> <a href="https://www.masayume.it/blog/content/plask"><b>Plask ★</b></a>
+             <a href=""><b>magicavoxel</b></a></li>
+        <li> <a href="https://metahuman.unrealengine.com/"><b>metahuman ★</b> </a></li>
+        <li> <a href="https://www.masayume.it/blog/content/dalla-fotografia-al-3d-pifuhd">pifu2D>3D★</a>
+             <a href="https://www.masayume.it/blog/content/blockbench">blckbnch★</a> </li>  
+      </ul>
+
 
   </div>
 
