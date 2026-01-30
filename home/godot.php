@@ -105,7 +105,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
       <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
     </ul>
+
+    <h4>GAME IDEAS</h4>
+    <ul>
+      <li> <a href="/HTML5/holden/index.php?art1=134&art2=134&tag1=AIGAME&tag2=AIGAME" title="Ideas for Games about AI"><b>GAMES on AI★</b></a> </a></li>
+      <li> <a href="/HTML5/holden/index.php?art1=14&art2=14&tag1=4GODOT&tag2=4GODOT" title="Godot Remakes to do"><b>4GODOT★</b></a> </a></li>
+    </ul>
       
+
+
   </div>
 
 
