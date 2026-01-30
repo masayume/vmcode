@@ -139,14 +139,8 @@
   <div class="_exa">
     <h4>MUSIC</h4>
   <ul>
-    <li><a href="https://suno.com/"><b>SUNO★</b></a>
-        <a href="https://elevenlabs.io/music"><b>ElevenLabs★</b></a> </li>
-    <li><a href="https://www.beatoven.ai/"><b>Beatoven★</b></a>
-        <a href="https://www.udio.com/"><b>UDIO★</b></a> </li>
-    <li><a href="https://huggingface.co/spaces/enzostvs/ai-jukebox"><b>AIjukebox★</b></a>
-        <a href="https://www.aiva.ai/"><b>AIVAAI★</b></a></li>
-    <li><a href="https://eternalbox.dev/jukebox_index.html"><b>eternalbox</b></a>
-        <a href="https://www.masayume.it/blog/content/aiva-ai-assisted-music-composing"><b>my</b></a></li>
+    <li><a href="https://github.com/odoare/TeAr" title="text arpeggiator"><b>TeAr</b></a>
+        <a href="https://www.masayume.it/blog9/web/content/tear-text-arpeggiator"><b>my</b></a></li>
     <li><a href="https://chiptune.app/">Chipjs★</a>
         <a href="https://www.masayume.it/blog9/web/content/famistudio/">famistudio★</a></li>
     <li><a href="https://telesplit.com/"><b>telesplit ★</b></a> <a href="https://www.masayume.it/blog9/web/content/telesplit"><b>my</b></a></li>
@@ -181,12 +175,14 @@
         <a href="https://www.cpdl.org/wiki/index.php/Main_Page">cpdl</a></li>
     <li><a href="https://ccmixter.org">ccmixter</a>
         <a href="https://www.youtube.com/c/audiolibrary-channel/videos">youtube</a></li>
+    <li><a href="https://www.pond5.com/royalty-free-music/item/66815019-battle-fight-orchestral-cinematic-horns-games-indie-dev">POND5</a>        
     <li><a href="https://www.freemusicpublicdomain.com/">freemusic PD</a></li>
     <li><a href="https://www.freesoundtrackmusic.com/">freeSTmusic</a></li>
     <li><a href="https://www.vitling.xyz/toys/autotracker/"><b>rawWASM★</b></a>
         <a href="https://www.masayume.it/blog9/web/content/amiga-mod-music-online-bassoon-tracker"><b>my</b></a></li>
     <li><a href="https://www.vitling.xyz/toys/autotracker/"><b>Autotrackr★</b></a>
         <a href="https://publicdomain4u.com/music/">PD4u</a></li>
+    <li><a href="https://eternalbox.dev/jukebox_index.html">eternalbox</a>
         </ul>
 
   </div>
@@ -195,6 +191,17 @@
 
 
   <div class="_exa">
+
+    <h4>AI MUSIC</h4>
+    <ul>
+      <li><a href="https://suno.com/"><b>SUNO★</b></a></li>
+      <li><a href="https://elevenlabs.io/music"><b>ElevenLabs★</b></a> </li>
+      <li><a href="https://www.beatoven.ai/"><b>Beatoven★</b></a></li>
+      <li><a href="https://www.udio.com/"><b>UDIO★</b></a> </li>
+      <li><a href="https://huggingface.co/spaces/enzostvs/ai-jukebox"><b>AIjukebox★</b></a>
+      <li><a href="https://www.aiva.ai/"><b>AIVAAI★</b></a>
+          <a href="https://www.masayume.it/blog/content/aiva-ai-assisted-music-composing"><b>my</b></a></li></li>
+    </ul>
 
     <h4>WORDS</h4>
       <ul>
