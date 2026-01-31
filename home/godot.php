@@ -56,13 +56,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
             <li> <a href="/HTML5/holden/index.php?art1=194&art2=194"><b>Godot Book Covers</b></a>  </li>
 
           </ul>  
-      <h4>MAGAZINES</h4>
-          <ul>
-            <li> <a href="/retro.htm"><b>Retro★</b></a> -
-                 <a href="https://www.masayume.it/blog/content/retro-riviste"><b>Riviste★</b></a> -
-                 <a href="https://www.masayume.it/blog/content/retro-covers-mega-thread"><b>Covers★</b></a> -
-                 <a href="/HTML5/holden/index.php?folder=@COVERS/commodore&id=1"><b>C64 Covers</b></a></li> 
-          </ul>  
   </div>
 
   <div class="_exa">
@@ -100,20 +93,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <li> <a href="https://www.models-resource.com/"><b>models resource ★</b></a> </a></li>
     </ul>
 
-    <h4>SOUND RES.</h4>
-    <ul>
-      <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
-      <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
-    </ul>
-
-    <h4>GAME IDEAS</h4>
-    <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=134&art2=134&tag1=AIGAME&tag2=AIGAME" title="Ideas for Games about AI"><b>GAMES on AI★</b></a> </a></li>
-      <li> <a href="/HTML5/holden/index.php?art1=14&art2=14&tag1=4GODOT&tag2=4GODOT" title="Godot Remakes to do"><b>4GODOT★</b></a> </a></li>
-    </ul>
-      
-
-
   </div>
 
 
@@ -124,41 +103,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         <li> <a href="/godot/solomon.php"><b>Solomon</b></a> </li>  
         <li> <a href="/godot/pengo.php"><b>Pengo</b></a> </li>  
       </ul>
-  
-      <h4>MAIN LINKS</h4>
+
+    <h4>GAME IDEAS</h4>
+    <ul>
+      <li> <a href="/HTML5/holden/index.php?art1=134&art2=134&tag1=AIGAME&tag2=AIGAME" title="Ideas for Games about AI"><b>GAMES on AI★</b></a> </a></li>
+      <li> <a href="/HTML5/holden/index.php?art1=14&art2=14&tag1=4GODOT&tag2=4GODOT" title="Godot Remakes to do"><b>4GODOT★</b></a> </a></li>
+    </ul>
+
+ 
+    <h4>GRAPHS</h4> <!-- also on INSPIRE -->
       <ul>
-        <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
-        <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
-        <li> <a href="https://dev.to/github/top-five-godot-games-and-source-code-from-game-off-2022-3690"><b>game off 2022</b></a> </li>
-      </ul>
+        <li>  <a href="https://abav.lugaralgum.com/sketch-a-day/"><b>Py5 sketch-a-day</b></a>
+              <a href="https://www.masayume.it/blog/content/villares-py5-sketch-a-day">my</a> </li>
+        <li>  <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Py5 sketches holden</b></a> </li>
+      </ul>      
 
+      <h4>MAGAZINES</h4>
+          <ul>
+            <li> <a href="/retro.htm"><b>Retro★</b></a> </li>
+            <li> <a href="https://www.masayume.it/blog/content/retro-riviste"><b>Riviste★</b></a> </li>
+            <li> <a href="https://www.masayume.it/blog/content/retro-covers-mega-thread"><b>Covers★</b></a> </li>
+            <li> <a href="/HTML5/holden/index.php?folder=@COVERS/commodore&id=1"><b>C64 Covers</b></a></li> </li>
+          </ul>  
 
-      <h4>LINKS</h4>
-      <ul>
-        <li> <a href="https://www.reddit.com/r/godot/"><b>Reddit Godot</b></a> </li>
-        <li> <a href="https://dev.to/t/godot"><b>dev.to godot</b></a> </li>
-        <li> <a href="https://www.reddit.com/r/madeWithGodot/"><b>R madeWithGodot</b></a> </li>
-        <li> <a href="https://www.reddit.com/t/gdscript/"><b>GDscript</b></a> 
-             <a href="https://dev.to/t/gdscript"><b>@dev.to</b></a> </li>
-        <li> <a href="https://www.reddit.com/r/gamedev/"><b>Reddit gamedev</b></a> </li>
-        <li> <a href="https://livellosegreto.it/tags/godotengine"><b>#godotengine</b></a> </li>
-      </ul>
-
-      
-      <h4>CODE</h4>
-      <ul>
-        <li> <a href="https://godbolt.org/z/sbYh6vW8M"><b>Compiler Explorer</b></a> </li>
-        <li> <a href="https://deepwiki.com/" title="Which repo would you like to understand?"><b>DeepWiki Repo</b></a> </li>
-      </ul>
-
-      
-      <h4>ALGORITHMS</h4>
-      <ul>
-        <li> <a href="https://github.com/tlobig/godot-procedural-generation/tree/godot4update"><b>Godot procgen</b></a> </li>
-        <li> <a href="https://www.redblobgames.com"><b>Amit Patel</b></a> </li>
-      </ul>
-
-      <h4>JSON</h4>
+    <h4>JSON</h4>
       <ul>
         <li> <a href="https://j-brooke.github.io/FracturedJson/"><b>FracturedJson</b></a> </li>
       </ul>
@@ -176,8 +144,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
 
   <div class="_exa">
-    <h4>PROCESS</h4>
+    <h4>PROCESS ★</h4>
       <ul>
+        <li> <a href="https://www.masayume.it/blog/content/game-feel-improvement" target="_blank"><b>Game Feel ★★★</b></a> </li>
         <li> <a href="/html5/game-dev-process/the-making-of-shovel-knight-specter-of-torment-part-1.htm" target="_blank"><b>Shovel Knight 2 ★★★</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/content/raster-scroll-la-guida-definitiva-alla-grafica-del-megadrive" target="_blank"><b>megadrive VGP ★★</b></a> </li>
         <li> <a href="https://forums.tigsource.com/" target="_blank"><b>tigsource ★</b></a> </li>        
@@ -205,44 +174,50 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
             <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
             <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
           </ul>
-    
-    <h4>Music & Sound</h4>
-    <ul>
-      <li> <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask ★</b></a></li> 
-      <li> <a href="https://castpixel.itch.io/animevox">animevox ★</a></li> 
-      <li> <a href="/unity.php">on unity page</a></li> 
-    </ul>
- 
-    <h4>GRAPHS</h4> <!-- also on INSPIRE -->
-      <ul>
-        <li>  <a href="https://abav.lugaralgum.com/sketch-a-day/"><b>Py5 sketch-a-day</b></a>
-              <a href="https://www.masayume.it/blog/content/villares-py5-sketch-a-day">my</a> </li>
-        <li>  <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Py5 sketches holden</b></a> </li>
-      </ul>
+
   </div>
 
 
 
   <div class="_exa">
 
-    <h4>PYTHON</h4> 
-       <ul>
-         <li> <a href="https://realpython.com/"><b>Real Python</b></a></li> 
+    <details>
+      <summary><strong><h3><b>GODOT links ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
+        <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
+        <li> <a href="https://dev.to/github/top-five-godot-games-and-source-code-from-game-off-2022-3690"><b>game off 2022</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/godot/"><b>Reddit Godot</b></a> </li>
+        <li> <a href="https://dev.to/t/godot"><b>dev.to godot</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/madeWithGodot/"><b>R madeWithGodot</b></a> </li>
+        <li> <a href="https://www.reddit.com/t/gdscript/"><b>GDscript</b></a> 
+             <a href="https://dev.to/t/gdscript"><b>@dev.to</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/gamedev/"><b>Reddit gamedev</b></a> </li>
+        <li> <a href="https://livellosegreto.it/tags/godotengine"><b>#godotengine</b></a> </li>
+      </ul>
 
-         <li> <a href="https://realpython.com/tutorials/web-scraping/"><b>web scraping</b></a></li> 
-         <li> <a href="https://realpython.com/tutorials/gamedev/"><b>game dev</b></a></li> 
-         <li> <a href="https://realpython.com/tutorials/data-structures/"><b>data structures</b></a></li> 
-         <li> <a href="https://realpython.com/tutorials/best-practices/"><b>best practices</b></a></li> 
-         <li> <a href="https://realpython.com/tutorials/ai/"><b>python & AI</b></a></li> 
-         <li> <a href="https://realpython.com/tutorials/flask/"><b>flask</b></a></li> 
-         <li> <a href="https://realpython.com/tutorials/tools/"><b>dev tools</b></a></li> 
-         <li> <a href="https://realpython.com/tutorials/web-dev/"><b>deb dev</b></a></li> 
-         <li> <a href="https://realpython.com/get-started-with-fastapi/"><b>FastAPI</b></a></li> 
-       </ul>
+    </details>
 
+    <details>
+      <summary><strong><h3><b>PYTHON ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://realpython.com/"><b>Real Python</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/web-scraping/"><b>web scraping</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/gamedev/"><b>game dev</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/data-structures/"><b>data structures</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/best-practices/"><b>best practices</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/ai/"><b>python & AI</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/flask/"><b>flask</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/tools/"><b>dev tools</b></a></li> 
+          <li> <a href="https://realpython.com/tutorials/web-dev/"><b>deb dev</b></a></li> 
+          <li> <a href="https://realpython.com/get-started-with-fastapi/"><b>FastAPI</b></a></li> 
+      </ul>
 
-    <h4>SHADERS</h4> 
-       <ul>
+    </details>
+
+    <details>
+      <summary><strong><h3><b>SHADERS ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
          <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
          <li> <a href="https://danielchasehooper.com/posts/code-animated-rick/"><b>Learn Shaders★</b></a></li> 
          <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
@@ -266,8 +241,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
                 </p>
               </details>
           </li>  
-       </ul>
+      </ul>
+    </details>
 
+    <details>
+      <summary><strong><h3><b>CODE ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://godbolt.org/z/sbYh6vW8M"><b>Compiler Explorer</b></a> </li>
+        <li> <a href="https://deepwiki.com/" title="Which repo would you like to understand?"><b>DeepWiki Repo</b></a> </li>
+        <li> <a href="https://github.com/tlobig/godot-procedural-generation/tree/godot4update"><b>Godot procgen</b></a> </li>
+        <li> <a href="https://www.redblobgames.com"><b>Amit Patel</b></a> </li>
+      </ul>
+
+    </details>
+
+    <h4>MUSIC & SOUND</h4>
+    <ul>
+      <li> <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask ★</b></a></li> 
+      <li> <a href="https://castpixel.itch.io/animevox">animevox ★</a></li> 
+      <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
+      <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
+      <!-- <li> <a href="/unity.php">on unity page</a></li> -->
+    </ul>
 
     <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
     <details>
@@ -309,6 +304,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       </p>
     </details>
         
+
+
+
+
+
+
+
+
+
+
   </div>
   
 
@@ -333,6 +338,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
                  <a href="https://bitbucket.org/radicalbit/solomon/commits/"><b>Solomon's World</b></a></li> 
           </ul>
 
+
+  </div>
+
+
+  <div class="_exa">
+
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@pixelart/RETRO/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+
+    ?>
+
+  </div>
+
+
+  <div class="_exa">
+
+    <!-- php_image_show -->
+    <?php
+      $ai_dirs    = array('inspire/@CARTOONS/Kento_Iida/');
+      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+      // echo "directory: $directory";
+      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+      $image      = $images[array_rand($images)];
+      $imagefile  = $image;
+      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+
+    ?>
 
   </div>
 
@@ -416,24 +455,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
   </div>
 
-
-
-
-  <div class="_exa">
-
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@pixelart/RETRO/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
-
-    ?>
-
-  </div>
 
   <div class="_exa">
 
