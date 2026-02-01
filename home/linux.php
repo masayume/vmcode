@@ -240,11 +240,12 @@
     <h4>BACKUP</h4>
       <ul>
         <li><a href="https://www.masayume.it/blog9/web/content/backup-morrolinux-restic-backrest"><b>RESTIC ★</b></a></li>    
+        <li><a href="https://cobalt.tools/"><b>Cobalt</b></a></li>    
       </ul>
 
-    <h4>BACKUP</h4>
+    <h4>VIDEO</h4>
       <ul>
-        <li><a href="https://cobalt.tools/"><b>Cobalt</b></a></li>    
+        <li><a href="https://www.masayume.it/blog9/web/content/kdenlive-non-linear-video-editor"><b>Kdenlive★</b></a></li>    
       </ul>
 
 
