@@ -407,7 +407,8 @@
       <li> <a href="https://www.radio24.ilsole24ore.com/">Radio24</a>     
            <a href="https://www.capital.it/on-air/">Capital</a> </li>    
       <li> <a href="https://www.radiopopolare.it/">Radio Popolare</a> </li>    
-      <li> <a href="https://www.radio80.it/ascolta/">Anni 80</a> </li>    
+      <li> <a href="https://www.radio80.it/ascolta/">Anni80</a> 
+           <a href="https://somafm.com/u80s/"><b>SomaFM 80s</b></a> </li>    
       <li> <a href="https://www.bbc.co.uk/sounds/play/live:bbc_radio_fourfm">BBC Radio 4</a> </li>    
       <li> <a href="https://tunein.com/radio/Osumi-FM-Network-772-s98123/">tuninradio Osumi FM</a> </li>          
 
