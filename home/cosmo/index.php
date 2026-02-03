@@ -2,8 +2,8 @@
 <head>
 <title>COSMOgony</title>
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
     <meta charset="UTF-8">
 <style>
   body { 
@@ -95,16 +95,19 @@
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@CARDS/cosmogony/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@CARDS/cosmogony/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">cosmogony</div>
+    </div>
 
     <p>
       <a href="/cosmo/cosmogony02"> cosmogony </a>
@@ -171,47 +174,58 @@
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"350\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"350\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">lost arcana</div>
+    </div>
 
   </div>
 
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/other_renders/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
-    ?>
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@CARDS/LOST_ARCANA/other_renders/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
+
+      ?>
+      <div class="overlay-text">other renders</div>
+    </div>
 
     <br clear="all"><br>
 
   </div>
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@TEXTURES/@dynamic-textures/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
-    ?>
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@TEXTURES/@dynamic-textures/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
+
+      ?>
+      <div class="overlay-text">textures</div>
+    </div>
 
     <br clear="all"><br>
 
@@ -219,16 +233,22 @@
 
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
-    ?>
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@gnokkenland/M/marina/tarots/',
+                            'inspire/@CARDS/TAROT-reference/');
+        
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
+
+      ?>
+      <div class="overlay-text">tarots,reference</div>
+    </div>
 
     <br clear="all"><br>
 
@@ -237,16 +257,20 @@
 
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@pixelart/frames/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
 
-    ?>
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@pixelart/frames/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"340\">";
+
+      ?>
+      <div class="overlay-text">frames</div>
+    </div>
 
     <br clear="all"><br>
 
