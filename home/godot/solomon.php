@@ -213,20 +213,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   </div>
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/block-refs/',
-                          '/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/block-decoration-refs/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      echo       "<!-- image:" . $image . "-->";
-      # $imagefile  = substr($image, 14);
-      $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
-    ?>
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/block-refs/',
+                            '/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/block-decoration-refs/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+
+      ?>
+      <div class="overlay-text">Blocks</div>
+    </div>
 
     <!--
     <img src="/inspire/@COVERS/retrocovers/none-MSX-PLAY-NAMCO-5128550-msx_pac_man.jpg" width="400px"/>  
@@ -237,76 +241,89 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/CREATURES/',
-                          '/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/FEATURES/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      echo       "<!-- image:" . $image . "-->";
-      # $imagefile  = substr($image, 14);
-      $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/CREATURES/',
+                            '/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/FEATURES/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-    ?>
-
-  </div>
-
-  <div class="_exa">
-
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/STORY/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      echo       "<!-- image:" . $image . "-->";
-      # $imagefile  = substr($image, 14);
-      $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-    ?>
+      ?>
+      <div class="overlay-text">Creatures,Features</div>
+    </div>
 
   </div>
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/art/',
-                          '/var/www/html/inspire/@pixelart/backgrounds/',
-                          '/var/www/html/inspire/@pixelart/ref-ITEM/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      echo       "<!-- image:" . $image . "-->";
-      # $imagefile  = substr($image, 14);
-      $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/STORY/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">Story</div>
+    </div>
 
   </div>
 
   <div class="_exa">
 
+    <div class="image-container">
     <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/splash-refs/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      echo       "<!-- image:" . $image . "-->";
-      # $imagefile  = substr($image, 14);
-      $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      <?php
+        $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/art/',
+                            '/var/www/html/inspire/@pixelart/backgrounds/',
+                            '/var/www/html/inspire/@pixelart/ref-ITEM/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">Art,Backs,items</div>
+    </div>
+
+  </div>
+
+  <div class="_exa">
+
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/splash-refs/',
+                             '/var/www/html/inspire/@CARTOONS/grickle/' );
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
+      ?>
+      <div class="overlay-text">Splash/Chars</div>
+    </div>
 
   </div>
 

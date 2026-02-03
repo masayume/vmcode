@@ -17,3 +17,16 @@ h4 {
     font-weight: 700;
 }
 
+.image-container {
+  position: relative;   /* reference frame */
+  display: inline-block;
+}
+
+.overlay-text {
+  position: absolute;   /* positioned inside parent */
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 6px 10px;
+}
