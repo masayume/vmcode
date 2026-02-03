@@ -3,7 +3,7 @@
 <title>MUSIC page - masayume</title>
     <!-- Bootstrap core CSS -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+    <link href="../css/home.css" rel="stylesheet">
     <meta charset="UTF-8">
 <style>
   body { 
@@ -25,21 +25,6 @@
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
   ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
 </style>
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="/matomo/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
 
 </head>
 <body>
@@ -72,7 +57,8 @@
     <h4>STRUDEL</h4>
       <ul>
         <li> <a href="/HTML5/holden/index.php?art1=211&art2=211" target="_blank"><b>MAIN holden★</b></a> 
-        <li> <a href="/HTML5/holden/index.php?art1=15&art2=15&tag1=STRUDEL&tag2=STRUDEL" target="_blank"><b>Albums★</b></a> 
+        <li> <a href="/HTML5/holden/index.php?art1=192&art2=192&tag1=STRUDEL&tag2=STRUDEL" target="_blank"><b>Songs ★</b></a> 
+        <li> <a href="/HTML5/holden/index.php?art1=15&art2=15&tag1=STRUDEL&tag2=STRUDEL" target="_blank"><b>Albums ★</b></a> 
       </ul>
  
     <h4>EXAMPLES</h4>
@@ -85,55 +71,60 @@
       </details>
 
   </div>
-  
-<div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@COVERS/AlbumArt/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
-
-    ?>
-</ul>
-
-  <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
-  <details>
-    <summary><strong><b>HOLDEN ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
-      <p>
-        <ul>
-          <li> <a href="/HTML5/holden/index.php?art1=59&art2=59" target="_blank"><b>mersenne reference ★</b></a> 
-               <a href="/HTML5/holden/index.php?art1=12&art2=12" target="_blank"><b>MISC STYLE ★</b></a></li> 
-          <li> <a href="/HTML5/holden/index.php?art1=99&art2=99" target="_blank"><b>Chun Li Style ★</b></a>
-               <a href="/HTML5/holden/index.php?art1=113&art2=113" target="_blank"><b>Lamu ★</b></a>
-               <a href="/HTML5/holden/index.php?art1=67&art2=67" target="_blank"><b>Nendoroid ★</b></a></li>
-          <li> <a href="/HTML5/holden/index.php?art1=130&art2=130" target="_blank"><b>Think before Drawing ★</b></a></li>
-          <li> <a href="/HTML5/holden/index.php?art1=132&art2=132" target="_blank"><b>TEXTURES ★</b></a>
-               <a href="/HTML5/holden/index.php?art1=133&art2=133" target="_blank"><b>Texturing ★</b></a> </li>
-          <li> <a href="/HTML5/holden/index.php?art1=28&art2=28" target="_blank"><b>@WORKFLOWS ★</b></a> 
-               <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank"><b>oldWF</b></a> </li>
-        </ul>
-      </p>
-  </details>
-
-</div>
-  
+    
   <div class="_exa">
+
+    <div class="image-container">
       <!-- php_image_show -->
       <?php
         $ai_dirs    = array('inspire/STRUDEL/', 'inspire/@Music/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp,mp4}', GLOB_BRACE);
+        if ($images) {
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+        }
+      ?>
+      <div class="overlay-text">Strudel</div>
+    </div>
+
+  </div>
+
+
+<div class="_exa">
+
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@COVERS/AlbumArt/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp,mp4}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
       ?>
+      <div class="overlay-text">Albums</div>
+    </div>
 
-  </div>
+    <br clear="all">
+
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@COVERS/AlbumArt/songs/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp,mp4}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+      ?>
+      <div class="overlay-text">Songs</div>
+    </div>
+
+</div>
+
+
 
   
   <div class="_exa">

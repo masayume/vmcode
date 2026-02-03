@@ -86,6 +86,10 @@ function pagenewtemp($dir, $tag) {
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>spotify:</b> <a href='https://open.spotify.com/playlist/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
     }     
+    elseif (preg_match('/^spt-/', $twitterRaw2) ){     // calculate SPOTIFY TRACK link - https://open.spotify.com/track/4nEgdO6tkE2v5LO3mpUEe9
+      $exploded = explode('-', $twitterRaw2);
+      $twitterRaw3 = "<b>spotify:</b> <a href='https://open.spotify.com/track/" . $exploded[1] . "' target='_blank' title='" . $file. "'>" . $exploded[1] . "</a>";
+    }     
     elseif (preg_match('/^ba-/', $twitterRaw2) ){     // calculate BANDCAMP ALBUM link - https://stphanepicq.bandcamp.com/album/dune=spice=opera=2024=remaster=lp
       $exploded = explode('-', $twitterRaw2);
       $twitterRaw3 = "<b>bandcamp:</b> <a href='https://" . $exploded[1] . ".bandcamp.com/album/" . strtr($exploded[2], "=", "-") . "' target='_blank' title='" . $file. "'>" . strtr($exploded[2], "=", "-") . "</a>";
@@ -304,6 +308,7 @@ function findtags($tw) {
   $tw = preg_replace('/^site\-([^-]+)\-/', '', $tw);                // clears site prefix
   $tw = preg_replace('/^sp\-(\w+)\-/', '', $tw);                    // clears spotify prefix
   $tw = preg_replace('/^spr\-(\w+)\-/', '', $tw);                   // clears spotify song radio prefix
+  $tw = preg_replace('/^spt\-(\w+)\-/', '', $tw);                   // clears spotify track prefix
   $tw = preg_replace('/^tu\-(\w+)\-/', '', $tw);                    // clears tumblr prefix
   $tw = preg_replace('/^st\-(\w+)\-/', '', $tw);                    // clears shadertoy prefix
   $tw = preg_replace('/^sl\-(\w+)\-/', '', $tw);                    // clears sleditor prefix
