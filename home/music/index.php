@@ -42,6 +42,17 @@
         <li> <a href='/training'>training</a> <a href="https://www.masayume.it/training">(remote)</a></li>
       </ul>
 
+    <h4>VIDEOGAME MUSIC</h4> <!-- also in GODOT -->
+      <ul>
+        <li> <a href="https://www.zophar.net/music"><b>ZOPHAR</b> 🔥</a>  </li>
+        <li> <a href="https://vgmrips.net/packs/"><b>VGMRIPS</b> 🔥</a></li>
+        <li> <a href="https://downloads.khinsider.com/game-soundtracks"><b>KHINSIDER</b> 🔥</a></li>      
+        <li> <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask ★</b></a></li> 
+        <li> <a href="https://castpixel.itch.io/animevox">animevox ★</a></li> 
+        <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
+        <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
+      </ul>
+
     <h4>Video,Music,Sound</h4>
       <ul>
         <li><a href="/jsSID">jsSID</a> <a href='https://github.com/jhohertz/jsSID'>gh</a> - 

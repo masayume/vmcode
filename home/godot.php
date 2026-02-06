@@ -255,8 +255,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     </details>
 
-    <h4>MUSIC & SOUND</h4>
+    <h4>MUSIC & SOUND</h4> <!-- also in MUSIC -->
     <ul>
+      <li> <a href="https://www.zophar.net/music"><b>ZOPHAR</b> 🔥</a>  </li>
+      <li> <a href="https://vgmrips.net/packs/"><b>VGMRIPS</b> 🔥</a></li>
+      <li> <a href="https://downloads.khinsider.com/game-soundtracks"><b>KHINSIDER</b> 🔥</a></li>      
       <li> <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask ★</b></a></li> 
       <li> <a href="https://castpixel.itch.io/animevox">animevox ★</a></li> 
       <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
