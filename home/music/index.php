@@ -81,6 +81,13 @@
           </p>
       </details>
 
+    <h4>TOOLS</h4>
+      <ul>
+        <li> <a href="http://www.fourmilab.ch/webtools/midicsv/" target="_blank"><b>midicsv</b></a> 
+        <li> <a href="/demon/midi/midi_class/readme.htm" target="_blank"><b>midi php</b></a> 
+        <li> <a href="http://sound.stackexchange.com/questions/27177/fl-studio-how-can-i-change-the-instruments-of-an-imported-midi-file" target="_blank"><b>midi instruments ★</b></a> 
+      </ul>
+
   </div>
     
   <div class="_exa">
