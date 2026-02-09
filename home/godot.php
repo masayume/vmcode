@@ -32,17 +32,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@COVERS/BookCovers/Godot/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@COVERS/BookCovers/Godot/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">Godot</div>
+    </div>
 
 
   <br />
@@ -149,7 +152,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         <li> <a href="https://www.masayume.it/blog/content/game-feel-improvement" target="_blank"><b>Game Feel ★★★</b></a> </li>
         <li> <a href="/html5/game-dev-process/the-making-of-shovel-knight-specter-of-torment-part-1.htm" target="_blank"><b>Shovel Knight 2 ★★★</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/content/raster-scroll-la-guida-definitiva-alla-grafica-del-megadrive" target="_blank"><b>megadrive VGP ★★</b></a> </li>
-        <li> <a href="https://forums.tigsource.com/" target="_blank"><b>tigsource ★</b></a> </li>        
+        <li> <a href="https://forums.tigsource.com/" target="_blank"><b>TIGSOURCE ★★★</b></a> </li>        
       </ul>
 
 
@@ -306,33 +309,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         </ul>
       </p>
     </details>
-        
-
-
-
-
-
-
-
-
-
 
   </div>
   
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@COVERS/retrocovers/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@COVERS/retrocovers/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">retrocovers</div>
+    </div>
 
     <h4>ONGOING</h4>
           <ul>
@@ -347,51 +343,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@pixelart/RETRO/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@pixelart/RETRO/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
-    ?>
-
-  </div>
-
-
-  <div class="_exa">
-
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@CARTOONS/Kento_Iida/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
-
-    ?>
+      ?>
+      <div class="overlay-text">RETROpx</div>
+    </div>
 
   </div>
 
 
   <div class="_exa">
 
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@pixelart/RETRO/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@CARTOONS/Kento_Iida/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">Kento Iida</div>
+    </div>
+
+  </div>
+
+
+  <div class="_exa">
+
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@pixelart/RETRO/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+
+      ?>
+      <div class="overlay-text">RETRO</div>
+    </div>
 
   </div>
 

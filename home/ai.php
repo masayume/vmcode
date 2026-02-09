@@ -298,16 +298,20 @@
 
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/faces/', 'inspire/@AI/lands/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
-    ?>
+    <div class="image-container">
+        <!-- php_image_show -->
+        <?php
+          $ai_dirs    = array('inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/', 'inspire/@AI/faces/', 'inspire/@AI/lands/');
+          $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+          $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+
+        ?>
+      <div class="overlay-text">@AI faces, lands</div>
+    </div>
 
     <br />
 
@@ -498,30 +502,42 @@
   </div>
 
   <div class="_exa">
-      <!-- php_image_show -->
-      <?php
-      $ai_dirs    = array('inspire/@AI/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
-    ?>
+    <div class="image-container">
+      <!-- php_image_show -->
+        <?php
+          $ai_dirs    = array('inspire/@AI/STYLE/');
+          $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+          $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+
+        ?>
+      <div class="overlay-text">STYLE</div>
+    </div>
+
   </div>
 
   <div class="_exa">
-      <!-- php_image_show -->
-      <?php
-      $ai_dirs    = array('inspire/@AI/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
 
-    ?>
+    <div class="image-container">
+        <!-- php_image_show -->
+        <?php
+            $ai_dirs    = array('inspire/@AI/',
+                                'inspire/@AI/ai-pixelart/',
+                                'inspire/@AI/4PROMPT/');
+            $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+            // echo "directory: $directory";
+            $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+            $image      = $images[array_rand($images)];
+            $imagefile  = $image;
+            echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
+
+        ?>
+      <div class="overlay-text">@AI,pixelart,4PROMPT</div>
+    </div>
+
   </div>
 
 
@@ -597,20 +613,25 @@
 
 
   <div class="_exa">
+
+    <div class="image-container">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array('inspire/@AI/Douggy_Pledger/FILM/', 'inspire/@AI/Douggy_Pledger/Monster_Mash/', 
-      'inspire/@AI/Douggy_Pledger/other/', 'inspire/@AI/Douggy_Pledger/shining/', 'inspire/@AI/Douggy_Pledger/star_wars/', 'inspire/@AI/Douggy_Pledger/Stronzo_Toys/',
-      'inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
-      echo "      <!-- empty_directory " . $imagefile  . " -->";
+          $ai_dirs    = array('inspire/@AI/Douggy_Pledger/FILM/', 'inspire/@AI/Douggy_Pledger/Monster_Mash/', 
+          'inspire/@AI/Douggy_Pledger/other/', 'inspire/@AI/Douggy_Pledger/shining/', 'inspire/@AI/Douggy_Pledger/star_wars/', 'inspire/@AI/Douggy_Pledger/Stronzo_Toys/',
+          'inspire/@AI/fromMISC/', 'inspire/@AI/MIDJ/PACMAN/', 'inspire/@AI/MIDJ/Mountains_Of_Madness/', 'inspire/@AI/MIDJ/others/');
+          $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+          // echo "directory: $directory";
+          $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"420\">";
+          echo "      <!-- empty_directory " . $imagefile  . " -->";
 
-    ?>
+      ?>
+      <div class="overlay-text">Douggy_Pledger</div>
+    </div>
+
   </div>
 
 
@@ -638,16 +659,20 @@
   </div>
 
   <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@AI/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
-    ?>
+    <div class="image-container">
+        <!-- php_image_show -->
+        <?php
+          $ai_dirs    = array('inspire/@AI/');
+          $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+          $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+
+        ?>
+      <div class="overlay-text">@AI</div>
+    </div>
 
   </div>
 
