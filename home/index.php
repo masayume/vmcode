@@ -377,8 +377,9 @@
           <summary><strong><b>NAMER ⬇️⬇️⬇️</b></strong></summary> 
             <p>
               <ul>
+                <li> <a href="/html5/namer.htm?prefix=site&site=https%3A%2F%2Flink&tags=TAG&hashLength=16&predescription=_&description=desc" title="generic site" target="_blank"><b>generic site</b></a> </li>
                 <li> <a href="/html5/namer.htm?prefix=in&site=whykentowhy&author=kento_iida&tags=JAP%2CSTYLE%2C&hashLength=16" title="instagram Kento Iida" target="_blank"><b>instagram</b></a> </li>
-                <li> <a href="http://192.168.122.35/html5/namer.htm?prefix=site&site=https%3A%2F%2Fcreator.nightcafe.studio&tags=AI%2CTOOL%2C&hashLength=16" title="nightcafe" target="_blank"><b>nightcafe</b></a> </li>
+                <li> <a href="/html5/namer.htm?prefix=site&site=https%3A%2F%2Fcreator.nightcafe.studio&tags=AI%2CTOOL%2C&hashLength=16" title="nightcafe" target="_blank"><b>nightcafe</b></a> </li>
                 <li> <a href="/html5/namer.htm?prefix=site&site=https%3A%2F%2Fopenprocessing.org%2Fsketch%2F2853439&tags=GEN%2CGEOM%2CSOURCE%2C&hashLength=16" title="openprocessing" target="_blank"><b>openprocessing</b></a> </li>
                 <li> <a href="/html5/namer.htm?prefix=ma&site=%40dailymsx%40livellosegreto.it&tags=MSX%2CJAP&hashLength=16&predescription=msx_&description=Gp+Rider" title="MSX system daily" target="_blank"><b>MSX daily</b></a> </li>
                 <li> <a href="/html5/namer.htm?prefix=ma&site=%40dailysms%40retro-gaiden.com&tags=SEGA%2CSMS&hashLength=16&predescription=sms_&description=Gp+Rider" title="master system daily" target="_blank"><b>SMS daily</b></a> </li>
