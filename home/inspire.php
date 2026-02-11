@@ -123,7 +123,7 @@
         <li><a href="https://www.masayume.it/img/masapdf/004.pdf">Rodari-GrammaticaFant.</a></li>
         <li><a href="https://www.masayume.it/blog/content/dire-quasi-la-stessa-cosa">U.Eco</a> <a href="https://www.masayume.it/blog/content/julian-shapiro">Shapiro</a></li>
         <li><a href="https://www.masayume.it/blog/content/come-si-costruisce-una-storia-il-corso-di-scrittura-di-fabio-bonifacci"><b>Corso Bonifacci ★</b></a></li>
-        <li><a href="https://bigthink.com/personal-growth/how-to-write-better?rebelltitem=13#rebelltitem13">S.Pinker 13rules</a> <a href="https://www.bakadesuyo.com/2014/11/how-to-be-a-better-writer/">6rules</a</li>
+        <li><a href="https://bigthink.com/personal-growth/how-to-write-better?rebelltitem=13#rebelltitem13">S.Pinker 13rules</a> <a href="https://www.bakadesuyo.com/2014/11/how-to-be-a-better-writer/">6rules</a></li>
         <li><a href="https://unaparolaalgiorno.it/esplora"><b>etimologia UPaG</b></a> </li>
         <li><a href="/HTML5/holden/index.php?vfolder=VIDEO/GAIMAN THE ART OF STORYTELLING">Gaiman Masterclass</a></li>
         <li><a href="https://colab.research.google.com/drive/1SEOirnDmoqjDAFushDBVr3AAguh3UxZm#scrollTo=-fxL77nvAMAX">Gaiman GPT-2</a></li>  
@@ -135,17 +135,20 @@
   </div>
 
 <div class="_exa">
-    <!-- php_image_show -->
-    <?php
-      $ai_dirs    = array('inspire/@CARTOONS/@gif animations/');
-      $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-      $image      = $images[array_rand($images)];
-      $imagefile  = $image;
-      echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/@CARTOONS/@gif animations/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-    ?>
+      ?>
+      <div class="overlay-text">git anims</div>
+    </div>
 
   <h4>DRAWING</h4>
   <ul>
@@ -598,17 +601,21 @@
 
   
   <div class="_exa">
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
-                            'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-      ?>
+    <div class="image-container">
+        <!-- php_image_show -->
+        <?php
+          $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
+                              'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
+          $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
+        ?>
+      <div class="overlay-text">inspire..</div>
+    </div>
 
   </div>
 
@@ -655,17 +662,21 @@
   </div>
 
   <div class="_exa">
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
-                            'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-      ?>
+    <div class="image-container">
+        <!-- php_image_show -->
+        <?php
+          $ai_dirs    = array('inspire/@JAPAN/', 'inspire/@CARTOONS/', 'inspire/@backs/', 
+                              'inspire/@gnokkenland/', 'inspire/@drawthink/', 'inspire/@pixelart/', 'inspire/@TEXTURES/');
+          $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
+        ?>
+      <div class="overlay-text">inspire..</div>
+    </div>
 
   </div>
 
@@ -689,16 +700,20 @@
   </div>
 
   <div class="_exa">
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@backs/', 'inspire/@backs/101_dalmatians/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
-      ?>
+    <div class="image-container">
+        <!-- php_image_show -->
+        <?php
+          $ai_dirs    = array('inspire/@backs/', 'inspire/@backs/101_dalmatians/');
+          $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+          $image      = $images[array_rand($images)];
+          $imagefile  = $image;
+          echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
+
+        ?>
+      <div class="overlay-text">backs/101_dalmatians</div>
+    </div>
 
   </div>  
 
