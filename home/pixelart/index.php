@@ -166,11 +166,8 @@
     <li> <a href="https://github.com/masayume/DigitalGarden/tree/main/2dgraphics/resources#artbreeder-"><b>artbreeder index ★</b> </a> </li>    
   </ul>
 
-  <h4>TOOLS🔥🔥🔥</h4>
+  <h4>TOOLS🔥</h4>
   <ul>
-    <li><a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=PROMPT&tag2=PROMPT" title="1. mabius reference source + conversion PROMPT"><b>holdenPX</b></a>-<a href="https://gemini.google.com/app/d5012e97e7ecce06" title="2. pixelart converter"><b>Gemini</b></a>-<a href="https://seleb.github.io/ordered-dither-maker/" title="3. Ditherer"><b>Dither</b></a> </li>
-
-
     <li><a href="/html5/pixelizer01.htm"><b>Pixelizer01★</b></a> 
         <a href="/html5/pixelit/"><b>Pixelit★</b></a> </li>
     <li><a href="https://www.stef.be/dpaint/"><b>Dpaint★</b></a> 
@@ -263,10 +260,20 @@
 
 
   <div class="_exa">
+
+    <h4>CONVERT🔥🔥</h4>
+      <ul>
+        <li><a href="/html5/isotope/isotope-WF-PX/" title="0. Isotope Pixelart Workflows"><b>0. ISO PX WF</b></a> </li>
+        <li><a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=PROMPT&tag2=PROMPT" title="masayumep workflow: 1. holden for mabius reference source + conversion PROMPT"><b>1. Pixelart source</b></a>
+        <li><a href="https://gemini.google.com/app/d5012e97e7ecce06" title="2. pixelart converter"><b>2. Gemini</b></a>
+        <li><a href="https://seleb.github.io/ordered-dither-maker/" title="3. Ditherer"><b>3. DitherMaker</b></a> </li>
+        <li><a href="/html5/pixelizer01.htm" title="3. Ditherer"><b>3b. 1bit pixelizer</b></a> </li>
+      </ul>
+
     <h4>ASEPRITE</h4>
       <ul>
-        <li> <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a>    </li>
-        <li> <a href="/HTML5/holden/index.php?art1=216&art2=216"><b>tutorials ★</b></a></li> 
+        <li> <a href="https://www.masayume.it/blog/content/sprite-editing-con-aseprite"><b>aseprite★</b></a> 
+             <a href="/HTML5/holden/index.php?art1=216&art2=216"><b>TUTs★</b></a></li> 
         <li> <a href="/mersenne/mersenne.php?seed=100&page=5&results=1&atype=uchidapixel"><b>Uchida★</b></a></li> 
       </ul>
 
