@@ -166,8 +166,11 @@
     <li> <a href="https://github.com/masayume/DigitalGarden/tree/main/2dgraphics/resources#artbreeder-"><b>artbreeder index ★</b> </a> </li>    
   </ul>
 
-  <h4>TOOLS</h4>
+  <h4>TOOLS🔥🔥🔥</h4>
   <ul>
+    <li><a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=PROMPT&tag2=PROMPT" title="1. mabius reference source + conversion PROMPT"><b>holdenPX</b></a>-<a href="https://gemini.google.com/app/d5012e97e7ecce06" title="2. pixelart converter"><b>Gemini</b></a>-<a href="https://seleb.github.io/ordered-dither-maker/" title="3. Ditherer"><b>Dither</b></a> </li>
+
+
     <li><a href="/html5/pixelizer01.htm"><b>Pixelizer01★</b></a> 
         <a href="/html5/pixelit/"><b>Pixelit★</b></a> </li>
     <li><a href="https://www.stef.be/dpaint/"><b>Dpaint★</b></a> 
