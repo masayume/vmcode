@@ -587,6 +587,22 @@
       "length": 9,
       "url": "/html5/pixelizer01.htm",
       "notes": ""
+    },
+    "0035": {
+      "name": "NanoBanana converter",
+      "number": "35",
+      "data_cat": "player",
+      "class": ["player", "palette", "2D", "pixelart", "tools"],
+      "theme": ["technique"],
+      "img": "wfpx035.jpg",
+      "author": "gemini",
+      "rating": 3, 
+      "weight": 2, 
+      "year": 2026,
+      "players": [1],
+      "length": 9,
+      "url": "https://gemini.google.com/app/d5012e97e7ecce06",
+      "notes": ""
     }
 
 
