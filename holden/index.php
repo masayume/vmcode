@@ -415,7 +415,7 @@ if ( !isset($_GET['art']) && !isset($_GET['art1']) && !isset($_GET['folder']) &&
 </div>
 
   <!-- RIGHT SIDE TAGS next 55 -->
-    <div id="references" style="width: 90px; position:absolute; right: 0px;">
+    <div id="references" style="width: 90px; position:absolute; right: 0px; text-align: right;">
         <h5 style="position:relative; right: -0px; ">TAGS <a title='<?php print $artists[$_GET['art1']]; ?>'><?php print $_GET['art1']; ?></a></h5>
         
         <ul style='list-style-type: none; margin-left: -38px;'>
