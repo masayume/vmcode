@@ -243,6 +243,14 @@
         <!--  <li><a href="URL">TITLE</a> -->
   </ul>
 
+       <h4>MEME/TXT</h4>
+       <ul>
+         <li> <a href="/deathgenerator/"><b>death generator ★</b></a> <a href="https://www.masayume.it/blog9/web/contentpixelart-meme-death-generator-foone">my</a></li> 
+         <li> <a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
+         <li> <a href="https://yellowafterlife.itch.io/pixelfont"><b>PXConverter★</b></a> <a href="https://www.masayume.it/blog9/webcontent/pixel-font-converter">my</a></li>     
+       </ul>
+
+
       <h4>FONTS</h4> <!-- also in TOOLS -->
       <ul> 
         <li> <a href="http://localhost:8989/HTML5/AFV/arcade.php/y-r/x-BABICH%20RULEZ/dbl-4"><b>arcade font writer</b></a> <a href="http://arcade.photonstorm.com">onl.</a></li>
@@ -316,7 +324,7 @@
   </details>
 
       
-      <h4>GRAPH 4PIXATOOL</h4>
+      <h4>Graph4PIXATOOL</h4>
       <ul>
         <li> <a href="https://artbreeder.com/"><b>artbreeder</b> ★</a> <a href="https://www.artbreeder.com/gturk1#genes"><b>#1</b></a> <a href="https://www.artbreeder.com/i?k=9ef6c53e3f452bb1d28ec62f32b9"><b>#2</b></a> <a href="https://www.artbreeder.com/i?k=807d792b6f2d3e5d6573a33d176c"><b>#3</b></a></li>
         <li> <a href="https://colab.research.google.com/drive/1ySrqJOzPXQG1oNgllfN5ARJcXGYf35xm#scrollTo=yzYVMxTPTdmw"><b>ArcaneGAN ★</b></a></li>
@@ -373,7 +381,7 @@
         </p>
       </details>
 
-    <h4>2PIXEL SOURCES ■</h4>  <!-- ALSO PART in inspire STYLE SOURCES -->
+    <h4>2PIXEL SOURCES</h4>  <!-- ALSO PART in inspire STYLE SOURCES -->
       <ul>         
         <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC ★</b></a> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-80s-&tag2=-80s-"><b>TAGS</b></a>
             <!-- <a href="/HTML5/holden/index.php?folder=@STYLE%20style/MISC"><b>STYLE-MISC ★</b></a> -->
@@ -411,15 +419,6 @@
             <a href="https://twitter.com/LINK/media"><b>.</b></a></li>
         </ul>
 
-
-        <h4>FONTS/MEME/TXT</h4>
-        <ul>
-          <li> <a href="/deathgenerator/"><b>death generator ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixelart-meme-death-generator-foone">my</a></li> 
-          <li> <a href="http://arcade.photonstorm.com/"><b>arcade text ★</b></a> <a href="https://www.masayume.it/blog/content/arcade-font-writer">my</a></li>     
-          <li> <a href="https://yellowafterlife.itch.io/pixelfont"><b>pixel font converter ★</b></a> <a href="https://www.masayume.it/blog9/web/content/pixel-font-converter">my</a></li>     
-
-        </ul>
-
         <h4>PHOTOBASH</h4>
         <ul>
           <li> <a href="https://twitter.com/Sidehiwinder/media"><b>Sidehiwinder ★</b></a> </li> 
@@ -431,6 +430,7 @@
   
 <div class="_exa">
 
+    <div class="image-container">
       <!-- php_image_show -->
       <?php
         $ai_dirs    = array('inspire/@pixelart/');
@@ -442,6 +442,8 @@
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
       ?>
+      <div class="overlay-text">@pixelart</div>
+    </div>
 
   <h4>REACH</h4>
   <ul>
@@ -453,6 +455,7 @@
 
 <div class="_exa">
 
+    <div class="image-container">
       <!-- php_image_show -->
       <?php
         $ai_dirs    = array('inspire/@pixelart/backgrounds/');
@@ -464,9 +467,12 @@
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
       ?>
+      <div class="overlay-text">backgrounds</div>
+    </div>
 
       <br clear="all" />
 
+    <div class="image-container">
       <!-- php_image_show -->
       <?php
         $ai_dirs    = array('inspire/@pixelart/backgrounds/');
@@ -478,6 +484,8 @@
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
       ?>
+      <div class="overlay-text">backgrounds</div>
+    </div>
 
 
 </div>
@@ -630,31 +638,37 @@
 
 <div class="_exa">
 
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@pixelart/ref-MAP/', 'inspire/@pixelart/ref-MONSTER/', 'inspire/@pixelart/ref-ITEM/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+    <div class="image-container">
+          <!-- php_image_show -->
+          <?php
+            $ai_dirs    = array('inspire/@pixelart/ref-MAP/', 'inspire/@pixelart/ref-MONSTER/', 'inspire/@pixelart/ref-ITEM/');
+            $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+            // echo "directory: $directory";
+            $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+            $image      = $images[array_rand($images)];
+            $imagefile  = $image;
+            echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-      ?>
+          ?>
+      <div class="overlay-text">ref-MAP,ref-MONSTER,ref-ITEM</div>
+    </div>
 
       <br clear="all" />
 
-      <!-- php_image_show -->
-      <?php
-        $ai_dirs    = array('inspire/@pixelart/ref-MAP/', 'inspire/@pixelart/ref-MONSTER/', 'inspire/@pixelart/ref-ITEM/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+    <div class="image-container">
+          <!-- php_image_show -->
+          <?php
+            $ai_dirs    = array('inspire/@pixelart/ref-MAP/', 'inspire/@pixelart/ref-MONSTER/', 'inspire/@pixelart/ref-ITEM/');
+            $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+            // echo "directory: $directory";
+            $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+            $image      = $images[array_rand($images)];
+            $imagefile  = $image;
+            echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-      ?>
+          ?>
+      <div class="overlay-text">ref-MAP,ref-MONSTER,ref-ITEM</div>
+    </div>
 
 </div>
 
@@ -740,16 +754,19 @@
 
     <div class="_exa">
 
-      <?php
-        $ai_dirs    = array('inspire/@pixelart/workflow/');
-        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
-        // echo "directory: $directory";
-      $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
-        $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+    <div class="image-container">
+          <?php
+            $ai_dirs    = array('inspire/@pixelart/workflow/');
+            $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+            // echo "directory: $directory";
+          $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+            $image      = $images[array_rand($images)];
+            $imagefile  = $image;
+            echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
-      ?>
+          ?>
+      <div class="overlay-text">workflow</div>
+    </div>
 
 
 
