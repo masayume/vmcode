@@ -147,6 +147,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
 
   <div class="_exa">
+
     <h4>PROCESS ★</h4>
       <ul>
         <li> <a href="https://www.masayume.it/blog/content/game-feel-improvement" target="_blank"><b>Game Feel ★★★</b></a> </li>
@@ -185,7 +186,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   <div class="_exa">
 
     <details>
-      <summary><strong><h3><b>GODOT links ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>GODOT links ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <ul>
         <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
         <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
@@ -202,7 +203,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h3><b>PYTHON ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>PYTHON ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <ul>
         <li> <a href="https://realpython.com/"><b>Real Python</b></a></li> 
           <li> <a href="https://realpython.com/tutorials/web-scraping/"><b>web scraping</b></a></li> 
@@ -219,7 +220,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h3><b>SHADERS ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>SHADERS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <ul>
          <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
          <li> <a href="https://danielchasehooper.com/posts/code-animated-rick/"><b>Learn Shaders★</b></a></li> 
@@ -248,8 +249,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h3><b>CODE ⬇️</b></h3></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>CODING ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <ul>
+        <li> <a href="https://open.spotify.com/playlist/679wCT6dVMDBxrYa5NcrXL" target="_blank"><b>Coding Music ★</b></a> </li>
         <li> <a href="https://godbolt.org/z/sbYh6vW8M"><b>Compiler Explorer</b></a> </li>
         <li> <a href="https://deepwiki.com/" title="Which repo would you like to understand?"><b>DeepWiki Repo</b></a> </li>
         <li> <a href="https://github.com/tlobig/godot-procedural-generation/tree/godot4update"><b>Godot procgen</b></a> </li>
