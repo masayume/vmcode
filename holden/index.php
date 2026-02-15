@@ -255,7 +255,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@MISC-STYLE/POV'
                   , '/inspire/@gnokkenland/'
                   , '/inspire/PROJECTS/VETUS_MYSTERIA'
-                  , '/inspire/BLENDER'
+                  , '/inspire/TOOLS/BLENDER'
 
                   , '/inspire/@SCIENCE/PHILOSOPHY'            // 200
                   , '/inspire/@gnokkenland/M/Milena_xing_dir'
