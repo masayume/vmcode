@@ -19,7 +19,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
   a, a:visited {  color: #ffffff; }
-  h3, h4 {  color: #00aaff; }
+  h3, h4 {  color: #66aaff; }
   .container{ text-align:left; border:1px solid #666; }
   ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
@@ -46,6 +46,7 @@
 <div class="container-fluid">
 
   <div class="_exa">
+
     <h4>NIHONGO PAGE</h4>
       <ul>
         <li> <a href="tools.php" target="_blank"><b>TOOLS page</b></a> </li>
@@ -59,7 +60,6 @@
       <ul>
         <li> <a href="https://spoon-tamago.com/" target="_blank"><b>Spoon & Tamago</b></a> </li>
         <li> <a href="https://www.tofugu.com/learn-japanese/" target="_blank"><b>Tofugu Guide</b></a> </li>
-        <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>kotoba ★</b></a> </li>
         <li> <a href="https://www.masayume.it/blog/taxonomy/term/42" target="_blank"><b>MY.nihongo</b></a> 
              <a href="https://www.masayume.it/blog/taxonomy/term/42" target="_blank"><b>MY.Asia</b></a> </li>
         <li> <a href="https://jisho.org/" target="_blank"><b>jisho.org</b></a> </li>
@@ -176,18 +176,29 @@
   <!--
     GIAPPONESE
   -->
+
+    <h4>KOTOBA</h4>
+      <details>
+        <summary><b>kotoba list ⬇️⬇️★★</b></summary>
+          <p>
+            <ul>
+              <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>KOTOBA ★</b></a> </li>
+              <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba-symbols.infogen.md" target="_blank"><b>SYMBOLS ★</b></a> </li>
+            </ul>            
+          </p>
+      </details>
+
+
   <h4>NIHONGO</h4>
   <ul>
-    <li> <a href="/html5/isotope/isotope-nihon/">ISO 100 motives</a> </li>
-    <li> <a href="/nihongo/"><b>ISO grammar ★</b></a> 
+    <li> <a href="/html5/isotope/isotope-nihon/" title="ISO">100 motives</a> 
+         <a href="/html5/isotope/isotope-nihongo-uta/" title="ISO">Uta</a> </li>
+    <li> <a href="/nihongo/" title="ISO"><b>Grammar ★</b></a> 
          <a href="https://www.masayume.it/nihongo/isotope-nihongo/"><b>my</b></a> </li>
-    <li> <a href="/html5/isotope/isotope-nihongo-uta/">ISO uta</a> </li>
     <li> <a href="https://japanesetest4you.com/">japanesetest4you ★</a> </li>
     <li> <a href="https://www.youtube.com/channel/UCsQCbl3a9FtYvA55BxdzYiQ/videos">miku real japanese ★</a> </li>
     <li> <a href="https://www.jishonari.com/b?utm_source=masayume.it&v=1&a=CAMQARgA&s=IAA&d=IgQIAUgA">JISHONARI ★</a> </li>
     <li> <a href="/nihongo/general.md">nihongo.md</a> - <a href='http://www.jgram.org/pages/viewList.php?lv=4'>N5</a> - <a href='http://www.jgram.org/pages/viewList.php?lv=3'>N4</a> </li>
-    <li> <a href="https://jisho.org/search/***%E6%B0%97%20%23common">jisho (ending)</a> </li>
-    <li> <a href="http://tangorin.com/">tangorin</a> </li>
     <li> <a href="https://onomatopedia.jp/?utm_source=masayume.it">onomatopedia</a> </li>
   </ul>
 
@@ -223,6 +234,8 @@
     <h4>VOCABULARY</h4>
     <ul>
       <li> <a href="https://jisho.org/"><b>jisho.org ★</b></a> </li>
+      <li> <a href="https://jisho.org/search/***%E6%B0%97%20%23common">word endings</a> </li>
+      <li> <a href="http://tangorin.com/">tangorin</a> </li>
     </ul>
 
     <h4>KANJI</h4>
@@ -230,7 +243,6 @@
       <li> <a href="https://en.wikipedia.org/wiki/Kangxi_radicals"><b>Kangxi Radicals ★</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=183&art2=183"><b>holden kanji</b></a>
            <a href="https://jisho.org/search/公%23kanji">radical</a></li>
-      <li> <a href="https://github.com/masayume/nihongo/blob/master/kotoba.infogen.md" target="_blank"><b>kotoba ★</b></a> </li>
       <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php"><b>RND.KANJI.CARDS</b></a> 
            <a href="https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php">my</a> </li>
       <li> <a href="https://kanji.club/?s=09"><b>kanji club</b></a> 
@@ -245,6 +257,7 @@
 
   <div class="_exa">
 
+    <div class="image-container">
       <!-- php_image_show -->
       <?php
       $ai_dirs    = array('inspire/@backs/shinkai/', 'inspire/@JAPAN/');
@@ -256,6 +269,8 @@
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
       ?>
+      <div class="overlay-text">backs-Shinkai,@Japan</div>
+    </div>
 
   <br />
     <h4>benkyoshirooo !</h4>
@@ -305,10 +320,19 @@
 
 
   <div class="_exa">
+
+    <div class="image-container">
       <!-- php_image_show -->
       <?php
-      $ai_dirs    = array(  'inspire/@JAPAN/@J-hiroshi_yoshida/', 'inspire/@JAPAN/@J-ikenaga_yasunari/', 'inspire/@JAPAN/@J-kawase_hasui/'
-                          , 'inspire/@JAPAN/@J-kento_iida/', 'inspire/@JAPAN/@J-masayasu_uchida/', 'inspire/@JAPAN/@J-yukio_kitta/');
+      $ai_dirs    = array(  'inspire/@JAPAN/@J-hiroshi_nagai/' 
+                          , 'inspire/@JAPAN/@J-hiroshi_yoshida/' 
+                          , 'inspire/@JAPAN/@J-ikenaga_yasunari/'
+                          , 'inspire/@JAPAN/@J-kawase_hasui/'
+                          , 'inspire/@CARTOONS/Kento_Iida/'
+                          , 'inspire/@JAPAN/@J-masayasu_uchida/'
+                          , 'inspire/@JAPAN/@J-takeji_asano/'
+                          , 'inspire/@JAPAN/@J-tsuchiya_kouitsu/'
+                          , 'inspire/@JAPAN/@J-yukio_kitta/');
 
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
@@ -318,10 +342,15 @@
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
+      <div class="overlay-text">@J-artists</div>
+    </div>
 
   </div>
 
   <div class="_exa">
+
+    <div class="image-container">
+
       <!-- php_image_show -->
       <?php
       $ai_dirs    = array('inspire/@JAPAN/kanji/' );
@@ -332,6 +361,8 @@
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" style=\"width: 300px; background-color:#ccc; \" title=\"$imagefile\">";
       ?>
+      <div class="overlay-text">@JAPAN-kanji</div>
+    </div>
 
   </div>
 
@@ -353,6 +384,9 @@
   </div>
   
   <div class="_exa">
+
+    <div class="image-container">
+
       <!-- php_image_show -->
       <?php
       $ai_dirs    = array('inspire/@JAPAN/kiyohiko_azuma/' );
@@ -363,6 +397,8 @@
       $imagefile  = $image;
       echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" style=\"width: 420px; background-color:#ccc; \" title=\"$imagefile\">";
       ?>
+      <div class="overlay-text">Azuma Kiyohiko</div>
+    </div>
 
   </div>
 
@@ -370,7 +406,7 @@
 <!--
   https://api.open-meteo.com/v1/jma?latitude=52.52&longitude=13.41&hourly=temperature_2m
 -->
-    <h4>JAPAN DATA</h4>
+    <h4>JAPAN DATE & TIME</h4>
     <ul>
 <?php
 
@@ -402,15 +438,15 @@
   print "<a href=''><b>$japanTimeHour2Print &nbsp;&nbsp;&nbsp;</b></a><hr>";
 
   $data = getTimeAndTemp("Tokyo", $lat['Tokyo'], $long['Tokyo'], $japanTimeHour);
-  print "<a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Tokyo'] . "&longitude=" . $long['Tokyo'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  print "<a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Tokyo'] . "&longitude=" . $long['Tokyo'] ."&hourly=temperature_2m'> <h4>東京 " . $data[0] . " " . $data[2] . " " . $data[3] . "</h4></a>";
   $data = getTimeAndTemp("Osaka", $lat['Osaka'], $long['Osaka'], $japanTimeHour);
-  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Osaka'] . "&longitude=" . $long['Osaka'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Osaka'] . "&longitude=" . $long['Osaka'] ."&hourly=temperature_2m'> <h4> 大坂 " . $data[0] . " " . $data[2] . " " . $data[3] . " </h4></a>";
   $data = getTimeAndTemp("Kyoto", $lat['Kyoto'], $long['Kyoto'], $japanTimeHour);
-  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Kyoto'] . "&longitude=" . $long['Kyoto'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Kyoto'] . "&longitude=" . $long['Kyoto'] ."&hourly=temperature_2m'> <h4> 京都 " . $data[0] . " " . $data[2] . " " . $data[3] . "</h4> </a>";
   $data = getTimeAndTemp("Sapporo", $lat['Sapporo'], $long['Sapporo'], $japanTimeHour);
-  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Sapporo'] . "&longitude=" . $long['Sapporo'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Sapporo'] . "&longitude=" . $long['Sapporo'] ."&hourly=temperature_2m'> <h4> 札幌 " . $data[0] . " " . $data[2] . " " . $data[3] . "</h4> </a>";
   $data = getTimeAndTemp("Okinawa", $lat['Okinawa'], $long['Okinawa'], $japanTimeHour);
-  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Okinawa'] . "&longitude=" . $long['Okinawa'] ."&hourly=temperature_2m'>" . $data[0] . " " . $data[2] . " " . $data[3] . "</a>";
+  print "<br><a href='https://api.open-meteo.com/v1/jma?latitude=" . $lat['Okinawa'] . "&longitude=" . $long['Okinawa'] ."&hourly=temperature_2m'> <h4> 沖縄 " . $data[0] . " " . $data[2] . " " . $data[3] . "</h4> </a>";
 
 ?></ul>
 
