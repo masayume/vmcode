@@ -272,8 +272,10 @@
     <h4>CONVERT🔥🔥</h4>
       <ul>
         <li><a href="/html5/isotope/isotope-WF-PX/" title="0. Isotope Pixelart Workflows"><b>0. ISO PX WF</b></a> </li>
-        <li><a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=PROMPT&tag2=PROMPT" title="masayumep workflow: 1. holden for mabius reference source + conversion PROMPT"><b>1. Pixelart source</b></a>
+        <li><a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=PROMPT&tag2=PROMPT" title="masayumep workflow: 1. holden for mabius reference source + conversion PROMPT"><b>1. mabiusPX source</b></a>
+        <li><a href="/HTML5/holden/index.php?art1=135&art2=135&tag1=PROMPT&tag2=PROMPT" title="ai-pixelart DIR workflow: 1. holden for mabius reference source + conversion PROMPT"><b>1b. ai-pix source</b></a>
         <li><a href="https://gemini.google.com/app/d5012e97e7ecce06" title="2. pixelart converter"><b>2. Gemini</b></a>
+            <a href="https://aistudio.google.com/" title="pixelart converter"><b> / AiStudio</b></a> </li>
         <li><a href="https://seleb.github.io/ordered-dither-maker/" title="3. Ditherer"><b>3. DitherMaker</b></a> </li>
         <li><a href="/html5/pixelizer01.htm" title="3. Ditherer"><b>3b. 1bit pixelizer</b></a> </li>
       </ul>
@@ -289,6 +291,9 @@
       <ul> 
         <li> <a href="/1bit-pattern-gen"><b>1bitartbot ■</b></a> 
              <a href="https://livellosegreto.it/@bitartbot@freeradical.zone"><b>online</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>holden ■</b></a> 
+             <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>bitartbot</b></a> </li>
+
       </ul>
 
       <h4>REFS</h4>
@@ -324,7 +329,7 @@
   </details>
 
       
-      <h4>Graph4PIXATOOL</h4>
+      <h4>4Pixatool</h4>
       <ul>
         <li> <a href="https://artbreeder.com/"><b>artbreeder</b> ★</a> <a href="https://www.artbreeder.com/gturk1#genes"><b>#1</b></a> <a href="https://www.artbreeder.com/i?k=9ef6c53e3f452bb1d28ec62f32b9"><b>#2</b></a> <a href="https://www.artbreeder.com/i?k=807d792b6f2d3e5d6573a33d176c"><b>#3</b></a></li>
         <li> <a href="https://colab.research.google.com/drive/1ySrqJOzPXQG1oNgllfN5ARJcXGYf35xm#scrollTo=yzYVMxTPTdmw"><b>ArcaneGAN ★</b></a></li>
@@ -381,7 +386,7 @@
         </p>
       </details>
 
-    <h4>2PIXEL SOURCES</h4>  <!-- ALSO PART in inspire STYLE SOURCES -->
+    <h4>2pixelSOURCES</h4>  <!-- ALSO PART in inspire STYLE SOURCES -->
       <ul>         
         <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC ★</b></a> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-80s-&tag2=-80s-"><b>TAGS</b></a>
             <!-- <a href="/HTML5/holden/index.php?folder=@STYLE%20style/MISC"><b>STYLE-MISC ★</b></a> -->
@@ -768,6 +773,21 @@
       <div class="overlay-text">workflow</div>
     </div>
 
+    <br class="all" />
+
+    <div class="image-container">
+          <?php
+            $ai_dirs    = array('inspire/@pixelart/workflow/');
+            $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+            // echo "directory: $directory";
+          $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+            $image      = $images[array_rand($images)];
+            $imagefile  = $image;
+            echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+
+          ?>
+      <div class="overlay-text">workflow</div>
+    </div>
 
 
 
