@@ -386,6 +386,7 @@
                 <li> <a href="/html5/namer.htm?prefix=site&site=https%3A%2F%2Fopenprocessing.org%2Fsketch%2F2853439&tags=GEN%2CGEOM%2CSOURCE%2C&hashLength=16" title="openprocessing" target="_blank"><b>openprocessing</b></a> </li>
                 <li> <a href="/html5/namer.htm?prefix=ma&site=%40dailymsx%40livellosegreto.it&tags=MSX%2CJAP&hashLength=16&predescription=msx_&description=Gp+Rider" title="MSX system daily" target="_blank"><b>MSX daily</b></a> </li>
                 <li> <a href="/html5/namer.htm?prefix=ma&site=%40dailysms%40retro-gaiden.com&tags=SEGA%2CSMS&hashLength=16&predescription=sms_&description=Gp+Rider" title="master system daily" target="_blank"><b>SMS daily</b></a> </li>
+                <li> <a href="/html5/namer.htm?prefix=site&site=https%3A%2F%2Fwww.geogebra.org%2Fm%2Fbuh775qa&author=%40gwengler%40mathstodon&tags=GEOM%2C&hashLength=16" title="master system daily" target="_blank"><b>geogebra</b></a> </li>
               </ul>
             </p>  
     </details>
