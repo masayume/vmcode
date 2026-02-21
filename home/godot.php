@@ -35,16 +35,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/@COVERS/BookCovers/Godot/');
+        $ai_dirs    = array('inspire/@COVERS/BookCovers/Godot/', 'inspire/@COVERS/BookCovers/Wireframe-magazine/', );
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
-        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp,pdf}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
         $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
       ?>
-      <div class="overlay-text">Godot</div>
+      <div class="overlay-text">Godot,Wireframe</div>
     </div>
 
 
@@ -60,11 +60,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
           </ul>  
   </div>
-
-  <div class="_exa">
-
-  </div>
-
 
   <div class="_exa">
 
@@ -123,9 +118,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
       <h4>MAGAZINES</h4>
           <ul>
-            <li> <a href="/retro.htm"><b>Retro★</b></a> </li>
-            <li> <a href="https://www.masayume.it/blog/content/retro-riviste"><b>Riviste★</b></a> </li>
-            <li> <a href="https://www.masayume.it/blog/content/retro-covers-mega-thread"><b>Covers★</b></a> </li>
+            <li> <a href="https://archive.org/search?query=creator%3A%22Wireframe+Magazine%22"><b>Wireframe ★★★</b></a> </li>
+            <li> <a href="/retro.htm"><b>Retro ★</b></a> </li>
+            <li> <a href="https://www.masayume.it/blog/content/retro-riviste"><b>Riviste ★</b></a> </li>
+            <li> <a href="https://www.masayume.it/blog/content/retro-covers-mega-thread"><b>Covers ★</b></a> </li>
             <li> <a href="/HTML5/holden/index.php?folder=@COVERS/commodore&id=1"><b>C64 Covers</b></a></li> </li>
           </ul>  
 
@@ -259,6 +255,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       </ul>
 
     </details>
+
+    <details>
+      <summary><strong><h4><b>TUNING ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://www.masayume.it/blog9/web/content/optimize-tuning" target="_blank"><b>Optimization ★</b></a> </li>
+      </ul>
+
+    </details>
+
 
     <h4>MUSIC & SOUND</h4> <!-- also in MUSIC -->
     <ul>
