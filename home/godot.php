@@ -75,7 +75,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
       </ul>  
       
-    <h4>ASSETS</h4>
+    <h4>GODOT ASSETS</h4>
       <ul>        
         <li> <a href="https://godotengine.org/asset-library/asset"><b>Godot Asset Lib ★</b></a> </li> 
         <li> <a href="https://thegodotbarn.com/"><b>the Godot Barn ★</b></a> </li> 
@@ -338,14 +338,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </div>
 
     <h4>ONGOING</h4>
-          <ul>
-            <li> <a href="https://bitbucket.org/radicalbit/slalom2020/commits/"><b>Slalom 2020</b></a> -
-                 <a href="https://bitbucket.org/radicalbit/keplerion/commits/"><b>Keplerion</b></a> -
-                 <a href="https://bitbucket.org/radicalbit/solomon/commits/"><b>Solomon's World</b></a></li> 
-          </ul>
-
+      <ul>
+        <li> <a href="https://bitbucket.org/radicalbit/slalom2020/commits/"><b>Slalom 2020</b></a> -
+             <a href="https://bitbucket.org/radicalbit/keplerion/commits/"><b>Keplerion</b></a> -
+             <a href="https://bitbucket.org/radicalbit/solomon/commits/"><b>Solomon's World</b></a></li> 
+      </ul>
 
   </div>
+
+
+  <div class="_exa">
+
+    <h4>DESIGN</h4>
+      <ul>
+        <li> <a href="/godot/systemic_game_design.infogen.txt"><b>SYSTEMS</b></a> </li> 
+      </ul>
+
+  </div>
+
 
 
   <div class="_exa">
