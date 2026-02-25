@@ -4,12 +4,12 @@
 ====
 
 Systems Generate Their Own Behavior
-A system is a set of interconnected elements that produces its own pattern of behavior over time. The behavior emerges from the structure — the feedback loops, delays, and connections — not from external events. Stop looking for who’s to blame; instead, ask “What’s the system?” The system itself causes its own behavior.
+A system is a set of interconnected elements that produces its own pattern of behavior over time. The BEHAVIOR EMERGES FROM THE STRUCTURE — the FEEDBACK LOOPS, DELAYS, and CONNECTIONS — not from external events. Stop looking for who’s to blame; instead, ask “What’s the system?” The system itself causes its own behavior.
 
 ====
 
 Stocks and Flows Drive Dynamics
-Every system has stocks (accumulations like water in a bathtub, money in an account, or carbon in the atmosphere) and flows (the rates at which stocks change). Understanding which stocks are critical and what controls their flows reveals why systems behave as they do — and why they often resist our attempts to change them.
+Every system has STOCKS (accumulations like water in a bathtub, money in an account, or carbon in the atmosphere) and FLOWS (the rates at which stocks change). Understanding which stocks are critical and what controls their flows reveals why systems behave as they do — and why they often resist our attempts to change them.
 
 ====
 
@@ -19,6 +19,6 @@ Balancing feedback loops push toward equilibrium (a thermostat maintaining tempe
 ====
 
 Find the Leverage Points
-Not all interventions are equal. The highest leverage often lies not in pushing harder but in changing the system’s goals, rules, or underlying paradigms. A small shift in the right place — like changing what gets measured, or who has information — can produce large changes in behavior.
+Not all interventions are equal. The HIGHEST LEVERAGE often lies not in pushing harder but in CHANGING THE SYSTEM’S GOALS, RULES, or UNDERLYING PARADIGMS. A small shift in the right place — like changing what gets measured, or who has information — can produce large changes in behavior.
 
 ====

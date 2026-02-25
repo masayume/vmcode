@@ -351,7 +351,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     <h4>DESIGN</h4>
       <ul>
-        <li> <a href="/godot/systemic_game_design.infogen.txt"><b>SYSTEMS</b></a> </li> 
+        <li> <a href="/godot/systemic_game_design.infogen.txt" title="systemic game design principles"><b>SYSTEMS</b></a> </li> 
       </ul>
 
   </div>
