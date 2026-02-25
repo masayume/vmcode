@@ -1,0 +1,24 @@
+
+★ “A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.” - John Gall
+
+====
+
+Systems Generate Their Own Behavior
+A system is a set of interconnected elements that produces its own pattern of behavior over time. The behavior emerges from the structure — the feedback loops, delays, and connections — not from external events. Stop looking for who’s to blame; instead, ask “What’s the system?” The system itself causes its own behavior.
+
+====
+
+Stocks and Flows Drive Dynamics
+Every system has stocks (accumulations like water in a bathtub, money in an account, or carbon in the atmosphere) and flows (the rates at which stocks change). Understanding which stocks are critical and what controls their flows reveals why systems behave as they do — and why they often resist our attempts to change them.
+
+====
+
+Feedback Loops Create Stability or Growth
+Balancing feedback loops push toward equilibrium (a thermostat maintaining temperature). Reinforcing feedback loops amplify change (compound interest, viral spread, erosion of trust). Most real-world systems contain both types interacting in complex ways. Finding and understanding these loops is key to understanding any system.
+
+====
+
+Find the Leverage Points
+Not all interventions are equal. The highest leverage often lies not in pushing harder but in changing the system’s goals, rules, or underlying paradigms. A small shift in the right place — like changing what gets measured, or who has information — can produce large changes in behavior.
+
+====
