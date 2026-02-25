@@ -1187,6 +1187,23 @@
       "length": 40,
       "score": "7.4",
       "url": "https://boardgamegeek.com/boardgame/266722/rumble-nation"
+    },
+    "SlaytheSpire": {
+      "name": "Slay the Spire",
+      "number": "76",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Cooperative Game", "Deck, Bag, and Pool Building", "Dice Rolling", "Hand Management", "Simultaneous Action Selection", "Solo / Solitaire Game"
+ ],
+      "theme": ["Resources"],
+      "img": "076.png",
+      "designer": "Gary Dworetsky, Anthony Giovannetti, Casey Yano",
+      "weight": "2.91", 
+      "year": 2024,
+      "players": [1, 2, 3, 4],
+      "length": 120,
+      "score": "8.7",
+      "url": "https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game"
     }
     
   },
