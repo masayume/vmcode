@@ -325,7 +325,8 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/');
+        $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/', 'inspire/@STYLE style/', 
+                            'inspire/@STYLE style/9000/', 'inspire/@MISC-STYLE/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
@@ -333,7 +334,7 @@
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
       ?>
-      <div class="overlay-text">my,Kento_Iida</div>
+      <div class="overlay-text">my,Kento_Iida,Style,9000</div>
     </div>
 
     <br />
@@ -798,6 +799,27 @@
     </div>
 
   </div>
+
+
+  <div class="_exa">
+
+    <div class="image-container">
+      <!-- php_image_show -->
+      <?php
+        $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/', 'inspire/@STYLE style/', 
+                            'inspire/@STYLE style/9000/', 'inspire/@MISC-STYLE/');
+        $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
+        $image      = $images[array_rand($images)];
+        $imagefile  = $image;
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+
+      ?>
+      <div class="overlay-text">my,Kento_Iida,Style,9000</div>
+    </div>
+
+  </div>
+
 
 </div> <!-- container -->
 
