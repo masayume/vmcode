@@ -86,6 +86,12 @@
 
     </ul>
 
+    <h4>BUY</h4>
+      <ul>
+        <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
+             <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
+      </ul>
+
   </div>
 
 
@@ -292,7 +298,7 @@
         <li><a href="https://docs.google.com"><b>GoogleDocs</b></a> 
             <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
         <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
-            <a href="https://brevity.sh/"><b>Brevity</b></a> </li>
+            <a href="https://codepen.io/wavebeem/pen/JoRPQOj"><b>CRT FX ★</b></a> </li>
       </ul>
 
     <h4>AI</h4>
@@ -309,11 +315,6 @@
 -->             
       </ul>
 
-    <h4>BUY</h4>
-      <ul>
-        <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
-             <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
-      </ul>
 
 
 </div>
@@ -355,23 +356,6 @@
                  
           </ul>
 
-      <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
-          <ul>
-          <li><a href="/html5/mersenne4" title='~/html5/mersenne4'>mersenne4 (new)</a>        
-              <a href="/keplerion/mersenne-01.php">m-01</a> 
-              <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-demon</a> 
-              <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>m-uchida</b></a> 
-          <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabius all</b></a>          
-              <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
-              <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
-          <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
-              <a href="/keplerion/layerizer.php">layerizer</a> 
-              <a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a>, <a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> </li>
-          <li><a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">rd</a> 
-              <a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> 
-              <a href="http://instagrammar.surge.sh" target="_blank">Instagrmr</a> 
-              <a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> </li>
-          </ul>
           
   </div>
 
@@ -743,6 +727,25 @@
 
 
   <div class="_exa">
+      <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
+          <ul>
+          <li><a href="/html5/mersenne4" title='~/html5/mersenne4'>mersenne4 (new)</a>        
+          <li><a href="/keplerion/mersenne-01.php">m-01</a> 
+              <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-demon</a> 
+          <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>m-uchida</b></a> 
+          <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabiusAll</b></a>          
+              <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
+              <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
+          <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
+              <a href="/keplerion/layerizer.php">layerizer</a> 
+          <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a> </li>
+          <li><a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> 
+              <a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">rd</a> </li>
+          <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> 
+              <a href="http://instagrammar.surge.sh" target="_blank">Instagrmr</a> </li>
+          <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> </li>
+          </ul>
+
     <h4>VIVUS</h4>
       <ul>
         <li><a href="/vivus/index.html">example</a> </li>
