@@ -397,6 +397,7 @@
           <ul>
               <li> <a href="/HTML5/holden/index.php?art1=191&art2=191"><b>holden+prompts</b></a> </li>          
               <li> <a href="https://docs.anthropic.com/claude/prompt-library">Antr.PromptLib</a> </li>      
+              <li> <a href="https://claude.com/import-memory">export-session-information</a> </li>      
               <li> <a href="https://markmanson.net/breakthrough/187-ai-prompt?"><b>hard prompts</b></a> </li>          
               <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> </li>      
               <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
