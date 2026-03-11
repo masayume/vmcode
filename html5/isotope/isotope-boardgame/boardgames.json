@@ -1204,7 +1204,25 @@
       "length": 120,
       "score": "8.7",
       "url": "https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game"
+    },
+    "Thorgal": {
+      "name": "Thorgal",
+      "number": "77",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Cooperative Game", "Deck Construction", "Dice Rolling", "Hand Management", "Multiple Maps", "Pattern Building", "Scenario / Mission / Campaign Game", "Solo / Solitaire Game", "Trading", "Variable Player Powers" ],
+      "theme": ["Resources"],
+      "img": "077.png",
+      "designer": "Joanna Kijanka, Jan Maurycy Święcicki, Rafał Szyma",
+      "weight": "3.9", 
+      "year": 2024,
+      "players": [1, 2, 3, 4],
+      "length": 120,
+      "score": "7.5",
+      "url": "https://boardgamegeek.com/boardgame/358216/thorgal-the-board-game"
     }
+
+
     
   },
   "template":
