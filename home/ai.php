@@ -338,7 +338,7 @@
   <div class="_exa">
 
     <details>
-        <summary><h3><b>COMFYUI⬇️</h3></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <summary><h4><b>COMFYUI⬇️</h4></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
             <li> <a href="http://localhost:8188" title="start python environment: cd ~/ComfyUI; python main.py --cpu"><b>comfyUI interface ★★</b></a></li> 
@@ -353,7 +353,7 @@
 
 
     <details>
-        <summary><h3><b>MODELS⬇️</h3></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <summary><h4><b>MODELS⬇️</h4></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
             <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
@@ -391,28 +391,26 @@
         </p>
     </details>
 
-    <h4>STYLES</h4>
-    <ul>
-      <li><a href="/HTML5/holden/index.php?art1=207&art2=207"><b>AI styles</b></a> </li>
-      <li> <a href="https://www.instagram.com/midlibrary.io/ ">midlib.io</a> </li>
-      <li> <a href="https://ckovalev.com/midjourney-ai/styles">midj styles</a> </li>
-    </ul>
-
-    <h4>PROMPTS</h4>
-    <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=191&art2=191"><b>holden+prompts</b></a> </li>          
-      <li> <a href="https://docs.anthropic.com/claude/prompt-library">Antr.PromptLib</a> </li>      
-      <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> </li>      
-      <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
-      <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
-      <li> <a href="https://twitter.com/nickfloats/status/1627157305040027648">consistent chars</a> </li>
-      <li> <a href="https://www.youtube.com/watch?v=lHcPtbZ0Mnc">prompt2prompt</a> </li>
-      <li> <a href="https://huggingface.co/spaces/daspartho/prompt-extend">prompt extend</a> </li>
-      <li> <a href="https://reverseprompt.com/image-to-prompt/"><b>REVERSEprompt★</b></a> </li>
-    </ul>
+    <details>
+        <summary><h4><b>PROMPTS ⬇️</h4></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <p>
+          <ul>
+              <li> <a href="/HTML5/holden/index.php?art1=191&art2=191"><b>holden+prompts</b></a> </li>          
+              <li> <a href="https://docs.anthropic.com/claude/prompt-library">Antr.PromptLib</a> </li>      
+              <li> <a href="https://markmanson.net/breakthrough/187-ai-prompt?"><b>hard prompts</b></a> </li>          
+              <li> <a href="https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion">MagicPrompt</a> </li>      
+              <li> <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what?utm_source=masayume.it">prompt guide</a> </li>
+              <li> <a href="https://prompts.aituts.com/">prompts.aituts</a> </li>
+              <li> <a href="https://twitter.com/nickfloats/status/1627157305040027648">consistent chars</a> </li>
+              <li> <a href="https://www.youtube.com/watch?v=lHcPtbZ0Mnc">prompt2prompt</a> </li>
+              <li> <a href="https://huggingface.co/spaces/daspartho/prompt-extend">prompt extend</a> </li>
+              <li> <a href="https://reverseprompt.com/image-to-prompt/"><b>REVERSEprompt★</b></a> </li>
+          </ul>
+        </p>
+    </details>
 
     <details>
-        <summary><h3><b>SOUND ⬇️</h3></strong></summary> 
+        <summary><h4><b>SOUND ⬇️</h4></strong></summary> 
         <p>
 
           <h4>TtS</h4>
@@ -458,7 +456,15 @@
     </ul>
 
 
-  </div>ha
+    <h4>STYLES</h4>
+    <ul>
+      <li><a href="/HTML5/holden/index.php?art1=207&art2=207"><b>AI styles</b></a> </li>
+      <li> <a href="https://www.instagram.com/midlibrary.io/ ">midlib.io</a> </li>
+      <li> <a href="https://ckovalev.com/midjourney-ai/styles">midj styles</a> </li>
+    </ul>
+
+
+  </div>
 
 
   <div class="_exa">
