@@ -169,11 +169,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <h4>GENERATIVE</h4>
           <ul>
             <li> <a href="https://github.com/topics/generative-art?o=desc&s=stars">repos ★★★</a></li> 
-            <li> <a href="https://github.com/marian42/wavefunctioncollapse">wave fn collapse ★</a> </li>
             <li> <a href="https://www.masayume.it/blog9/web/content/markov-jr">markov junior ★</a> </li>
             <li> <a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/sequences/text_generation.ipynb">TF2 textgen ★★★</a> </li>
             <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
           </ul>
+
+    <h4>WAVE FUNCTION</h4>
+          <ul>
+            <li> <a href="https://github.com/marian42/wavefunctioncollapse"><b>wave fn collapse ★</b></a> </li>
+            <li> <a href="https://felixturner.github.io/hex-map-wfc/article/"><b>Hex Map WFC ★</b></a> </li>
+            <li> <a href="https://www.masayume.it/blog9/web/content/wave-function-collapse"><b>my WFC ★</b></a> </li>
+            <li> <a href="https://www.masayume.it/blog9/web/content/the-coding-train-wave-function-collapse"><b>my WFC 2 ★</b></a> </li>
+          </ul>
+
 
   </div>
 
