@@ -241,7 +241,8 @@
     <h4>KANJI</h4>
     <ul>
       <li> <a href="https://en.wikipedia.org/wiki/Kangxi_radicals"><b>Kangxi Radicals ★</b></a> </li>
-      <li> <a href="/HTML5/holden/index.php?art1=183&art2=183"><b>holden kanji</b></a>
+      <li> <a href="/HTML5/holden/index.php?art1=219&art2=219"><b>holden kanji</b></a>
+      <li> <a href="/HTML5/holden/index.php?art1=183&art2=183"><b>holden shodo</b></a>
            <a href="https://jisho.org/search/公%23kanji">radical</a></li>
       <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php"><b>RND.KANJI.CARDS</b></a> 
            <a href="https://www.masayume.it/nihongo/random-kanji-flashcards/kanjipage.php">my</a> </li>
