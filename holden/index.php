@@ -246,7 +246,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@CARDS/LOST_ARCANA'   
                   , '/inspire/@CARDS/LOST_ARCANA/other_renders'   
 // 190                  
-                  , '/inspire/@MATH/sketches'                 // 190 
+                  , '/inspire/@SCIENCE/MATH/sketches'                 // 190 
                   , '/inspire/@AI/4PROMPT'     
                   , '/inspire/@COVERS/AlbumArt/songs'
                   , '/inspire/LINUX'
@@ -277,9 +277,9 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/TUTS_n_TOOLS/aseprite/'
                   , '/inspire/TOOLS/'
                   , '/inspire/@STORY/'
-                  , '/inspire/@pixelart/ref-TEXT'  
+                  , '/inspire/DAILY/NIHONGO/KANJI/'  
 
-                  , '/inspire/@pixelart/ref-TEXT'             // 220
+                  , '/inspire/DAILY/NIHONGO/KOTOBA/'          // 220
                   , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'
