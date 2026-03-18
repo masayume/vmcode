@@ -75,7 +75,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>PROJECT</h4>
       <ul> 
-
         <li> <a href="https://www.retrogames.cc/arcade-games/solomons-key-us.html" title="Solomon's Key"><b>Original Arcade</b></a>  
              <a href="https://freebie.games/games/solomons-key/play/" title="Solomon's Key"><b>SMS</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/"><b>DOLPHIN: project dir</b></a> </li> 
@@ -115,13 +114,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <li> <a href="https://www.models-resource.com/"><b>models resource ★</b></a> </a></li>
     </ul>
 
-    <h4>SOUND RES.</h4>
-    <ul>
-      <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
-      <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
-    </ul>
-      
   </div>
+
+  <div class="_exa">
+  
+      <details>
+      <summary><strong><h4><b>VIDEO ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=93"><b>level 1-1</b></a> </li>
+        <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=130"><b>level 1-2</b></a> </li>
+        <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=180"><b>level 1-3</b></a> </li>
+      </ul>
+
+  </div>
+
 
 
   <div class="_exa">
@@ -165,6 +171,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
              <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=144&art2=144"><b>TOM GAULD</b></a> </li>
       </ul>
+
+      <h4>SOUND RES.</h4>
+      <ul>
+        <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
+        <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
+      </ul>
+
 
     </div>
 
@@ -212,6 +225,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
               <a href="https://www.masayume.it/blog/content/villares-py5-sketch-a-day">my</a> </li>
         <li>  <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Py5 sketches holden</b></a> </li>
       </ul>
+
+
+
 
 
   </div>
