@@ -341,6 +341,8 @@
         <summary><h4><b>COMFYUI⬇️</h4></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
+            <li> <a href="https://blog.comfy.org/p/from-workflow-to-app-introducing?" title="notes"><b>App Mode, App Builder, and ComfyHub</b></a></li> 
+            <li> <a href="https://comfy.org/workflows" title="notes"><b>ComfyUI workflows</b></a></li> 
             <li> <a href="http://localhost:8188" title="start python environment: cd ~/ComfyUI; python main.py --cpu"><b>comfyUI interface ★★</b></a></li> 
             <li> <a href="https://stable-diffusion-art.com/comfyui-colab/" title="notes"><b>How to run ComfyUI on Google Colab</b></a></li> 
             <li> <a href="https://gemini.google.com/app/fa560870fcd4040b" title="notes"><b>Gemini ComfyUI chat</b></a></li> 
