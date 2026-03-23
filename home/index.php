@@ -57,11 +57,12 @@
            <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
            <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a> 
            <a href="/HTML5/holden/index.php?art1=125&art2=125"><b>@backs</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=11&art2=11"><b>masayume</b></a>  
+      <li> <a href="/HTML5/holden/index.php?art1=11&art2=11"><b>正夢</b></a>  
            <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>retro</b></a>  
            <a href="/HTML5/holden/index.php?art1=13&art2=13"><b>gifs</b></a>  
-           <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>Art</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=28&art2=28"><b>WFs</b></a>  
+           <a href="/HTML5/holden/index.php?art1=197&art2=197"><b>G</b ></a>
+           <a href="/HTML5/holden/index.php?art1=197&art2=197&tag1=-20s&tag2=-20s"><b>G<sup>20</sup></b ></a>
+      <li> <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>Art</b></a>
            <a href="/HTML5/holden/index.php?art1=133&art2=133"><b>texturing</b></a>  
            <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b ></a>  
@@ -72,7 +73,7 @@
            <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a> 
            <a href="/HTML5/holden/index.php?art1=201&art2=201" title="Mxxx" target="_blank"><b>M<sup>X</sup></b></a> 
            <a href="/HTML5/holden/index.php?art1=186&art2=186"><b>Posters</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=197&art2=197"><b>G</b ></a>
+      <li> <a href="/HTML5/holden/index.php?art1=28&art2=28"><b>WFs</b></a>  
            <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>Logo</b></a> 
            <a href="/HTML5/holden/index.php?art1=202&art2=202" title="@REF-SHADERS"><b>Shaders</b></a> 
            <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Emoji</b></a> </li>     
