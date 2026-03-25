@@ -280,15 +280,15 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/DAILY/NIHONGO/KANJI/'  
 
                   , '/inspire/DAILY/NIHONGO/KOTOBA/'          // 220
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'  
+                  , '/inspire/@pixelart/chars'                // 221  
+                  , '/inspire/@pixelart/FX'                   // 222  
+                  , '/inspire/@pixelart/GUI'                  // 223  
+                  , '/inspire/@pixelart/patterns'             // 224  
+                  , '/inspire/@pixelart/ref-ITEM'             // 225  
+                  , '/inspire/@pixelart/ref-MAP'              // 226  
+                  , '/inspire/@pixelart/ref-TREASURE'         // 227  
+                  , '/inspire/@pixelart/spritesheets'         // 228  
+                  , '/inspire/@pixelart/ref-TEXT'             // <- edit me !
 
                   , '/inspire/@pixelart/ref-TEXT'             // 230
                   , '/inspire/@pixelart/ref-TEXT'

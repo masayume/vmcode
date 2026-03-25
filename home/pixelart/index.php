@@ -60,23 +60,35 @@
           <p>
             <ul>
               <li> <a href="/HTML5/holden/index.php?folder=@pixelart"><b>@pixelart ★</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>@mockups ★</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=103&art2=103"><b>monster-refs</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=104&art2=104"><b>portraits</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=106&art2=106"><b>ref-TILES</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=105&art2=105"><b>TECH</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=107&art2=107"><b>workflow</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=108&art2=108"><b>RETRO</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=179&art2=179"><b>ref-TEXT (fonts) ■</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>1bit</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>bitartbot</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=121&art2=121"><b>lands REF</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=101&art2=101"><b>backgrounds</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=221&art2=221"><b>chars</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=100&art2=100"><b>cute</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=97&art2=97"><b>frames</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=222&art2=222"><b>FX</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=223&art2=223"><b>GUI</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=122&art2=122"><b>lands other</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=127&art2=127"><b>snap</b></a> </li>
-              <li> <a href="/HTML5/holden/index.php?art1=126&art2=126"><b>titles</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=121&art2=121"><b>lands REF</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=136&art2=136"><b>mixed</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>@mockups ★</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=224&art2=224"><b>patterns</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=104&art2=104"><b>portraits</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=225&art2=225"><b>ref-ITEM</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=226&art2=226"><b>ref-MAP</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=103&art2=103"><b>ref-MONSTER</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=106&art2=106"><b>ref-TILES</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=227&art2=227"><b>ref-TREASURE</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=179&art2=179"><b>ref-TEXT (fonts) ■</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=108&art2=108"><b>RETRO</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=127&art2=127"><b>snap</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=228&art2=228"><b>spritesheets</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=98&art2=98"><b>STYLE</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=105&art2=105"><b>TECH</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=106&art2=106"><b>TILES</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=126&art2=126"><b>titles</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=19&art2=19"><b>VIDEO</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=107&art2=107"><b>workflow</b></a> </li>
 
   <!--          <li> <a href="/HTML5/holden/index.php?art1=102&art2=102"><b>WHAT</b></a> </li> -->
 
