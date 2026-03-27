@@ -119,11 +119,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
   <div class="_exa">
   
       <details>
-      <summary><strong><h4><b>VIDEO ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <summary><strong><h4><b>VIDEO ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <ul>
+          <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=93"><b>level 1-1</b></a> </li>
+          <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=130"><b>level 1-2</b></a> </li>
+          <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=180"><b>level 1-3</b></a> </li>
+        </ul>
+      </details>
+ 
+      <h4>STYLE</h4>
       <ul>
-        <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=93"><b>level 1-1</b></a> </li>
-        <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=130"><b>level 1-2</b></a> </li>
-        <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=180"><b>level 1-3</b></a> </li>
+        <li> <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
+        <li> <a href="https://www.masayume.it/blog/content/petscii-unaltra-pixel-art"><b>Playscii★</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=144&art2=144"><b>TOM GAULD</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=70&art2=70"><b>Oglaf</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=92&art2=92"><b>TORIYAMA</b></a> </li>
       </ul>
 
   </div>
@@ -164,13 +174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         <li> <a href="https://github.com/tlobig/godot-procedural-generation/tree/godot4update"><b>Godot procgen</b></a> </li>
         <li> <a href="https://www.redblobgames.com"><b>Amit Patel</b></a> </li>
       </ul>
- 
-      <h4>STYLE</h4>
-      <ul>
-        <li> <a href="https://www.masayume.it/blog/content/petscii-unaltra-pixel-art"><b>Playscii★</b></a>
-             <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=144&art2=144"><b>TOM GAULD</b></a> </li>
-      </ul>
+
 
       <h4>SOUND RES.</h4>
       <ul>
