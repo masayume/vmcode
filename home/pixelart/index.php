@@ -299,12 +299,20 @@
         <li> <a href="/mersenne/mersenne.php?seed=100&page=5&results=1&atype=uchidapixel"><b>Uchida★</b></a></li> 
       </ul>
 
+      <h4>1BITARTBOT■</h4> 
+      <ul> 
+        <li> <a href="/1bit-pattern-gen"><b>locale</b></a> 
+             <a href="https://livellosegreto.it/@bitartbot@freeradical.zone"><b>online</b></a> 
+             <a href="/1bit-pattern-gen/README.md"><b>doc</b></a> </li>
+        <li> <a href="https://www.masayume.it/1bit-pattern-gen/"><b>masayume</b></a> 
+             <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>gallery</b></a> </li>
+        <li> <a href="https://github.com/masayume/1bit-pattern-gen"><b>github</b></a> 
+
+      </ul>
+
       <h4>1BIT</h4> 
       <ul> 
-        <li> <a href="/1bit-pattern-gen"><b>1bitartbot ■</b></a> 
-             <a href="https://livellosegreto.it/@bitartbot@freeradical.zone"><b>online</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=112&art2=112"><b>holden ■</b></a> 
-             <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>bitartbot</b></a> </li>
 
       </ul>
 
