@@ -813,7 +813,7 @@
         $ai_dirs    = array('inspire/@CARTOONS/gemma correll/', 'inspire/@CARTOONS/TOM GAULD/', 'inspire/@CARTOONS/altan/', 
                             'inspire/@CARTOONS/JACOVITTI/', 'inspire/@CARTOONS/mordillo/', 'inspire/@CARTOONS/Jim Benton/',
                             'inspire/@CARTOONS/grickle/', 'inspire/@CARTOONS/maicol_e_mirco/', 'inspire/@CARTOONS/Quino/',
-                            'inspire/@CARTOONS/SIO/', 'inspire/@CARTOONS/TRUMP/' );
+                            'inspire/@CARTOONS/SIO/', 'inspire/@CARTOONS/TRUMP/', 'inspire/@CARTOONS/maicol_e_mirco/'  );
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
