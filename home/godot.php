@@ -190,7 +190,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   <div class="_exa">
 
     <details>
-      <summary><strong><h4><b>GODOT links ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>GODOT DOCS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://docs.godotengine.org/en/stable/classes/index.html"><b>godot DOCS ★</b></a> </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary><strong><h4><b>LINKS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <ul>
         <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
         <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
