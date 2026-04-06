@@ -280,6 +280,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
 
+    <details>
+      <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://livellosegreto.it/tags/godot"><b>livellosegreto★</b></a> </li>
+      </ul>
+
+    </details>
+
+
     <h4>MUSIC & SOUND</h4> <!-- also in MUSIC -->
     <ul>
       <li> <a href="https://www.zophar.net/music"><b>ZOPHAR</b> 🔥</a>  </li>
