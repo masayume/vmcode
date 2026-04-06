@@ -280,17 +280,17 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/DAILY/NIHONGO/KANJI/'  
 
                   , '/inspire/DAILY/NIHONGO/KOTOBA/'          // 220
-                  , '/inspire/@pixelart/chars'                // 221  
-                  , '/inspire/@pixelart/FX'                   // 222  
-                  , '/inspire/@pixelart/GUI'                  // 223  
-                  , '/inspire/@pixelart/patterns'             // 224  
-                  , '/inspire/@pixelart/ref-ITEM'             // 225  
-                  , '/inspire/@pixelart/ref-MAP'              // 226  
-                  , '/inspire/@pixelart/ref-TREASURE'         // 227  
-                  , '/inspire/@pixelart/spritesheets'         // 228  
-                  , '/inspire/@CARTOONS/maicol_e_mirco/'      // 229
+                  , '/inspire/@pixelart/chars'                  
+                  , '/inspire/@pixelart/FX'                     
+                  , '/inspire/@pixelart/GUI'                    
+                  , '/inspire/@pixelart/patterns'               
+                  , '/inspire/@pixelart/ref-ITEM'               
+                  , '/inspire/@pixelart/ref-MAP'                
+                  , '/inspire/@pixelart/ref-TREASURE'           
+                  , '/inspire/@pixelart/spritesheets'           
+                  , '/inspire/@CARTOONS/maicol_e_mirco/'      
 
-                  , '/inspire/@pixelart/ref-TEXT'             // 230
+                  , '/inspire/@CARTOONS/HUMOR/'               // 230
                   , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'
