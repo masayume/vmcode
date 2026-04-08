@@ -48,9 +48,9 @@
         <li> <a href="/games/magic/" target="_blank"><b>Magic the Gathering</b></a> </li>
       </ul>
 
-    <h4>WEB TOOLS</h4>
+    <h4>HELP</h4>
       <ul>
-        <li> <a href="LINK_URL" target="_blank"><b>TITLE</b></a> </li>
+          <a href="https://vgmaps.de/maps/view.php?m=34681" title="Solomon All Levels Map"><b>Videogame MAPS ★</b></a> </li>
       </ul>
 
 

@@ -82,7 +82,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         <li> <a href="https://chatgpt.com/c/68f251c3-5d6c-832a-924e-04a27a23e3a8"><b>chatGPT tutorial (firefox)</b></a> </li> 
         <li> <a href="/solomons/sprite.htm">sprites</a>
              <a href="/solomons/assets.php">assets</a> </li>
-        <li> <a href="/html5/sol-level-editor/app/dist/index.html" title="Solomon Level Editor">LEVEL EDITOR</a> </li>
+        <li> <a href="/html5/sol-level-editor/app/dist/index.html" title="Solomon Level Editor">LevelEditor</a> 
+             <a href="https://vgmaps.de/maps/view.php?m=34681" title="Solomon All Levels Map"><b>MAP</b></a> </li>
 
       </ul>  
 
