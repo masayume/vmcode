@@ -284,6 +284,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <ul>
         <li> <a href="https://livellosegreto.it/tags/godot"><b>livellosegreto★</b></a> </li>
+        <li> <a href="https://livellosegreto.it/@godotengine@mastodon.gamedev.place"><b>godotengine</b></a> </li>
       </ul>
 
     </details>
