@@ -293,8 +293,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     <h4>MUSIC & SOUND</h4> <!-- also in MUSIC -->
     <ul>
-      <li> <a href="https://www.bfxr.net/"><b>Bfxr</b></a>  </li>
-      <li> <a href="https://tenacity.readthedocs.io/en/latest/"><b>Tenacity</b></a>  </li>
+      <li> <a href="https://www.bfxr.net/"><b>Bfxr</b></a> 
+           <a href="https://tenacity.readthedocs.io/en/latest/"><b>Tenacity</b></a>  
+           <a href="https://wavacity.com/"><b>Wavacity</b></a>  </li>
       <li> <a href="https://www.zophar.net/music"><b>ZOPHAR</b> 🔥</a>  </li>
       <li> <a href="https://vgmrips.net/packs/"><b>VGMRIPS</b> 🔥</a></li>
       <li> <a href="https://downloads.khinsider.com/game-soundtracks"><b>KHINSIDER</b> 🔥</a></li>      
