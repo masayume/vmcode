@@ -130,6 +130,7 @@
         <li><a href="https://managathering.com/manarocks.html" target="_blank"><b>manarocks</b></a>
         <li><a href="https://www.wargamer.com/magic-the-gathering/planeswalkers" target="_blank"><b>planeswalkers</b></a>
         <li><a href="https://archidekt.com/sandbox" target="_blank"><b>archidekt</b></a>
+        <li><a href="https://edhrec.com/cards/progenitus" target="_blank"><b>EDHREC</b></a>
         <li><a href="https://aetherhub.com/Deck/Builder/" target="_blank"><b>aetherhub</b></a>
         <li><a href="https://www.reddit.com/r/mtg/" target="_blank"><b>reddit MTG</b></a>
         <li><a href="https://www.reddit.com/r/MagicArena/" target="_blank"><b>reddit Arena</b></a>
