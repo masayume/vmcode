@@ -263,6 +263,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <details>
       <summary><strong><h4><b>CODING ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
       <ul>
+        <li> <a href="https://radio.livellosegreto.it/"><b>LS Radio</b></a> 
         <li> <a href="https://open.spotify.com/playlist/679wCT6dVMDBxrYa5NcrXL" target="_blank"><b>Coding Music ★</b></a> </li>
         <li> <a href="https://godbolt.org/z/sbYh6vW8M"><b>Compiler Explorer</b></a> </li>
         <li> <a href="https://deepwiki.com/" title="Which repo would you like to understand?"><b>DeepWiki Repo</b></a> </li>
