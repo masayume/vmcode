@@ -75,8 +75,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>PROJECT</h4>
       <ul> 
-        <li> <a href="https://www.retrogames.cc/arcade-games/solomons-key-us.html" title="Solomon's Key"><b>Original Arcade</b></a>  
-             <a href="https://freebie.games/games/solomons-key/play/" title="Solomon's Key"><b>SMS</b></a> </li> 
+        <li> <a href="https://www.retrogames.cc/arcade-games/solomons-key-us.html" title="Solomon's Key"><b>PLAY Arcade</b></a>  
+             <a href="https://freebie.games/games/solomons-key/play/" title="Solomon's Key"><b>- SMS</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/"><b>DOLPHIN: project dir</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/godot_solomon.infogen.txt"><b>DOLPHIN: Infogen file</b></a> </li> 
         <li> <a href="https://chatgpt.com/c/68f251c3-5d6c-832a-924e-04a27a23e3a8"><b>chatGPT tutorial (firefox)</b></a> </li> 
@@ -87,16 +87,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
       </ul>  
 
+    <h4>INFO</h4>
+      <ul> 
+        <li> <a href="https://strategywiki.org/wiki/Solomon%27s_Key/Walkthrough" title="Solomon's Key"><b>Arcade Levels</b></a>  
+        <li> <a href="https://strategywiki.org/wiki/Solomon%27s_Key/Items" title="Solomon's Key"><b>Items</b></a>  
+        <li> <a href="https://strategywiki.org/wiki/Solomon%27s_Key/Enemies" title="Solomon's Key"><b>Monsters</b></a>  
+        <li> <a href="https://vgmaps.de/maps/view.php?m=34681" title="Solomon All Levels Map"><b>MAP</b></a> </li>
+
+      </ul>  
+
     <h4>REPOSITORY</h4>
       <ul> 
         <li> <a href="https://github.com/masayume/godot-solomon"><b>GITHUB: godot-solomon</b></a> </li> 
         <li> <a href="https://github.com/nezvers/Godot-GameTemplate"><b>Godot game template</b></a> </li> 
-      </ul>  
-
-    <h4>TUTORIALS</h4>
-      <ul> 
-        <li> <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/"><b>step by step</b></a> </li> 
-        <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
       </ul>  
       
     <h4>ASSETS</h4>
@@ -127,15 +130,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
           <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=180"><b>level 1-3</b></a> </li>
         </ul>
       </details>
+
+      <h4>TUTORIALS</h4>
+        <ul> 
+          <li> <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/"><b>step by step</b></a> </li> 
+          <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
+        </ul>  
  
       <h4>STYLE</h4>
-      <ul>
-        <li> <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
-        <li> <a href="https://www.masayume.it/blog/content/petscii-unaltra-pixel-art"><b>Playscii★</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=144&art2=144"><b>TOM GAULD</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=70&art2=70"><b>Oglaf</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=92&art2=92"><b>TORIYAMA</b></a> </li>
-      </ul>
+        <ul>
+          <li> <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
+          <li> <a href="https://www.masayume.it/blog/content/petscii-unaltra-pixel-art"><b>Playscii★</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=144&art2=144"><b>TOM GAULD</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=70&art2=70"><b>Oglaf</b></a> </li>
+          <li> <a href="/HTML5/holden/index.php?art1=92&art2=92"><b>TORIYAMA</b></a> </li>
+        </ul>
 
   </div>
 
