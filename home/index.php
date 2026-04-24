@@ -85,6 +85,7 @@
       <li> <a href="/HTML5/holden/index.php?art1=215&art2=215" title="Symbols"><b>Symbols</b></a>  
            <a href="/HTML5/holden/index.php?art1=218&art2=218" title="Symbols"><b>Story</b></a>  
            <a href="/HTML5/holden/index.php?art1=230&art2=230" title="Humor"><b>HUMOR</b></a>  </li>
+      <li> <a href="/HTML5/holden/index.php?art1=217&art2=217" title="holden TOOLS gallery"><b>TOOLS</b></a> </li>
 
     </ul>
 
