@@ -99,6 +99,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>REPOSITORY</h4>
       <ul> 
+        <li> <a href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet"><b>MD cheatsheet</b></a> </li> 
         <li> <a href="https://github.com/masayume/godot-solomon"><b>GITHUB: godot-solomon</b></a> </li> 
         <li> <a href="https://github.com/nezvers/Godot-GameTemplate"><b>Godot game template</b></a> </li> 
       </ul>  
