@@ -25,6 +25,10 @@
   ._img{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; }
   ._text{ display:inline-block; margin:5px 20px; padding:5px; border:1px solid #CCC; top: 0px; }
   ._exa{ display:inline-block; margin:2px 1px; padding:2px; border:1px solid #CCC; top: 0px; vertical-align: text-top;}
+
+  .gold-filter {
+    filter: invert(84%) sepia(26%) saturate(1000%) hue-rotate(3deg) brightness(105%) contrast(106%);
+}
 </style>
 <!-- Matomo -->
 <script type="text/javascript">
@@ -122,7 +126,7 @@
   
   <div class="_exa">
 
-    <h4>Magic the Gathering TOOLS</h4>
+    <h4>MtG TOOLS</h4>
       <ul>
         <li><a href="https://gatherer.wizards.com/FDN/en-us/602/demonic-pact" target="_blank"><b>gatherer</b></a>
         <li><a href="https://www.deckcheck.co" target="_blank"><b>deckcheck</b></a>
@@ -190,6 +194,76 @@
 
   </div>
 
+  <div class="_exa">
+
+    <!--
+      Magic the Gathering Expansion Symbols: https://keyrune.andrewgioia.com/icons.html
+      repo: https://github.com/andrewgioia/keyrune/
+
+      file: https://github.com/andrewgioia/keyrune/archive/master.zip
+    -->
+    <h4>EXPANSIONS</h4>
+    
+      <li> <a href="https://keyrune.andrewgioia.com/icons.html" target="_blank"><b>Exp ICONS ★</b></a>
+      <details>
+        <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+
+<!--
+              <li> <a href="https://scryfall.com/sets/acr/" target="_blank">
+                <img src="keyrune/svg/acr.svg" class="gold-filter" /> 
+                &nbsp;<b>EXP_NAME (ACR)</b></a>
+-->
+
+              <li> <a href="https://scryfall.com/sets/sos/" target="_blank">
+                <img src="keyrune/svg/sos.svg" class="gold-filter" /> 
+                &nbsp;<b>Secrets of Strixhaven (SOS)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/tmt/" target="_blank">
+                <img src="keyrune/svg/tmt.svg" class="gold-filter" /> 
+                &nbsp;<b>Teenage Mutant Ninja Turtles (TMT)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/ecl/" target="_blank">
+                <img src="keyrune/svg/ecl.svg" class="gold-filter" /> 
+                &nbsp;<b>Lorwyn Eclipsed (ECL)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/tla/" target="_blank">
+                <img src="keyrune/svg/tla.svg" class="gold-filter" /> 
+                &nbsp;<b>Avatar: The Last Airbender (TLA)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/eoe/" target="_blank">
+                <img src="keyrune/svg/eoe.svg" class="gold-filter" /> 
+                &nbsp;<b>Edge of Eternities (EOE)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/fin/" target="_blank">
+                <img src="keyrune/svg/fin.svg" class="gold-filter" /> 
+                &nbsp;<b>Final Fantasy (FIN)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/tdm/" target="_blank">
+                <img src="keyrune/svg/tdm.svg" class="gold-filter" /> 
+                &nbsp;<b>Tarkir: Dragonstorm (TDM)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/dft/" target="_blank">
+                <img src="keyrune/svg/dft.svg" class="gold-filter" /> 
+                &nbsp;<b>Aetherdrift (DFT)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/dsk/" target="_blank">
+                <img src="keyrune/svg/dsk.svg" class="gold-filter" /> 
+                &nbsp;<b>Duskmourn: House of Horror (DSK)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/blb/" target="_blank">
+                <img src="keyrune/svg/blb.svg" class="gold-filter" /> 
+                &nbsp;<b>Bloomburrow (BLB)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/stx/" target="_blank">
+                <img src="keyrune/svg/stx.svg" class="gold-filter" /> 
+                &nbsp;<b>Strixhaven: School of Mages (STX)</b></a>
+            </ul>
+          </p>
+      </details>
+
+  </div>
 
   <div class="_exa">
     <!-- php_image_show -->
