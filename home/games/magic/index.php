@@ -259,6 +259,23 @@
               <li> <a href="https://scryfall.com/sets/stx/" target="_blank">
                 <img src="keyrune/svg/stx.svg" class="gold-filter" /> 
                 &nbsp;<b>Strixhaven: School of Mages (STX)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/woe/" target="_blank">
+                <img src="keyrune/svg/woe.svg" class="gold-filter" /> 
+                &nbsp;<b>Wilds of Eldraine (WOE)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/lci/" target="_blank">
+                <img src="keyrune/svg/lci.svg" class="gold-filter" /> 
+                &nbsp;<b>Lost Caverns of Ixalan (LCI)</b></a>
+
+              <li> <a href="https://scryfall.com/sets/mkm/" target="_blank">
+                <img src="keyrune/svg/mkm.svg" class="gold-filter" /> 
+                &nbsp;<b>Murders at Karlov Manor (MKM)</b></a>
+
+
+
+
+
             </ul>
           </p>
       </details>
