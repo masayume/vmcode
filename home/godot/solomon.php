@@ -303,6 +303,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <!-- php_image_show -->
       <?php
         $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/STORY/',
+                            '/var/www/html/inspire/@CARTOONS/grickle/',
                             '/var/www/html/inspire/@STORY/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
@@ -314,7 +315,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
 
       ?>
-      <div class="overlay-text">Story</div>
+      <div class="overlay-text">Story,Grickle</div>
     </div>
 
   </div>
