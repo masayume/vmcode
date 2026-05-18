@@ -62,6 +62,7 @@
            <a href="/HTML5/holden/index.php?art1=13&art2=13"><b>gifs</b></a>  
            <a href="/HTML5/holden/index.php?art1=197&art2=197"><b>G</b ></a>
            <a href="/HTML5/holden/index.php?art1=197&art2=197&tag1=-20s&tag2=-20s"><b>G<sup>20</sup></b ></a>
+           <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>1<sup>bit</sup></b ></a>
       <li> <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>Art</b></a>
            <a href="/HTML5/holden/index.php?art1=133&art2=133"><b>texturing</b></a>  
            <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  </li>
@@ -232,7 +233,7 @@
               <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a>
               <a href="http://webtoolkitonline.com">webtools</a></li>
           <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
-	        <li><a href="/HTML5/graphviz/">graphviz </a> - <a href="/HTML5/cytoscape/">cytoscape</a></li>
+	        <li><a href="/HTML5/graphviz/">graphviz </a> <a href="/HTML5/cytoscape/">cytoscape</a></li>
 	        <li><a href="/HTML5/dagre/">dagre</a>
               <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a>
               <a href="http://jupyter.org/">jupyter</a></li>
@@ -331,7 +332,7 @@
       <!-- php_image_show -->
       <?php
         $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/', 'inspire/@STYLE style/', 
-                            'inspire/@STYLE style/9000/', 'inspire/@MISC-STYLE/');
+                            'inspire/@STYLE style/9000/', 'inspire/@MISC-STYLE/', 'inspire/@CARTOONS/BUTCHERBILLY/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
@@ -339,7 +340,7 @@
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
       ?>
-      <div class="overlay-text">my,Kento_Iida,Style,9000</div>
+      <div class="overlay-text">my,Kento_Iida,Style,9000,Butch</div>
     </div>
 
     <br />
@@ -486,6 +487,10 @@
         <li> <a href="netflix.htm">netflix codes</a> </li>
       </ul>
     
+
+    <h4>ICONS</h4>
+      <ul>
+        <li> <a href="https://griddyicons.com/"><b>griddyicons</b></a> </li>
 
   </div>
 

@@ -573,6 +573,7 @@
             <li><a href="https://watabou.github.io/village.html" target="_blank">VILLAGE</a></li>
             <li><a href="https://watabou.github.io/dungeon.html" target="_blank">DUNGEON</a></li>
             <li><a href="https://watabou.github.io/dwelling.html" target="_blank">DWELLING</a></li>          
+            <li><a href="https://watabou.itch.io/taverns" target="_blank">TAVERNS</a></li>          
             <li><a href="https://watabou.itch.io/perilous-shores" target="_blank">perilous shores</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/medieval-fantasy-city-generator" target="_blank">fantasy-city-gen</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/city-viewer" target="_blank">city viewer</a> (onl.)</li>
