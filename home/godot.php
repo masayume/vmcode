@@ -78,6 +78,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       
     <h4>GODOT ASSETS</h4>
       <ul>        
+        <li> <a href="https://store.godotengine.org/"><b>Asset Store ★</b></a> </li> 
         <li> <a href="https://godotengine.org/asset-library/asset"><b>Godot Asset Lib ★</b></a> </li> 
         <li> <a href="https://thegodotbarn.com/"><b>the Godot Barn ★</b></a> </li> 
         <li> <a href="https://lotovik.itch.io/project-character-controller"><b>character controller</b></a> </li> 
