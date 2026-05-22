@@ -155,8 +155,8 @@
     <li> <a href="/HTML5/holden/index.php?art=2"><b>EXPRESSIONS★</b></a>
          <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>ART★</b></a></li>
 
-    <li>  <a href="/HTML5/holden/index.php?folder=@drawthink"><b>THINK'n'DRAW★</b></a> 
-          <a href="/HTML5/holden/index.php?folder=@drawthink/@drawwrite"><b>THINK'n'WRITE</b></a> 
+    <li>  <a href="/HTML5/holden/index.php?art1=130&art2=130" target="_blank"><b>THINK'n'DRAW★</b></a> 
+          <a href="/HTML5/holden/index.php?art1=131&art2=131" target="_blank"><b>THINK'n'WRITE</b></a> 
           <a href="https://twitter.com/start_yuji/media"><b>Yuji</b></a> </li>
     <li> <a href="/html5/isotope/isotope-refboard/">DRAW ISOREFboard (WIP!)</a> </li>
     <li> <a href="/HTML5/holden/index.php?art1=moebius&art2=@NIEMANN">DRAW 2X:gir+niemann</a></li>
