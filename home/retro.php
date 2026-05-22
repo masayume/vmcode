@@ -47,6 +47,14 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 			<article class="post-111 page type-page status-publish hentry" id="post-111">
 
 			<header>
+				<h1>MiSTer FPGA</h1>
+			</header>
+
+			<p>	
+				<a href='/retro/mister/'>MiSTer FPGA Page</a>
+			</p>
+
+			<header>
 				<h1>Arcade</h1>
 			</header>
 

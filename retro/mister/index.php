@@ -1,9 +1,9 @@
 <html>
 <head>
-<title>INDEX</title>
+<title>MiSTer FPGA Page</title>
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/home.css" rel="stylesheet">
     <meta charset="UTF-8">
 <style>
   body { 
@@ -43,9 +43,7 @@
              <a href="linux.php" target="_blank"><b>LINUX</b></a> 
              <a href="cosmo/" target="_blank"><b>COSMO</b></a> </li>
         <li> <a href="games/" target="_blank"><b>GAMES</b></a> 
-             <a href="music/" target="_blank"><b>MUSIC</b></a> 
-             <a href="retro/mister/" target="_blank"><b>MiSTer</b></a> 
-             <a href="cineca/" target="_blank"><b>C</b></a> </li>
+             <a href="music/" target="_blank"><b>MUSIC</b></a> </li>
 <!--        <li> <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li> -->
         </ul>
 
