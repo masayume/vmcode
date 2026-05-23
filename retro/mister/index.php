@@ -48,53 +48,17 @@
         </ul>
 
 
-  <h4>holden</h4>
+  <h4>MiSTer FPGA</h4>
     <ul>
-      <li> <a href="/HTML5/holden/index.php?art1=212&art2=212"><b>DAILY!</b></a> 
-           <a href="/HTML5/holden/index.php?vfolder=VIDEO"><b>VIDEO★</b></a> 
-           <a href="/demon/OSS/oss.php"><b>OSS★</b></a></li> </li>
-      <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>Misc</b></a> 
-           <a href="/HTML5/holden/index.php?art1=59&art2=59"><b>Mabius</b></a>  
-           <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a> 
-           <a href="/HTML5/holden/index.php?art1=125&art2=125"><b>@backs</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=11&art2=11"><b>正夢</b></a>  
-           <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>retro</b></a>  
-           <a href="/HTML5/holden/index.php?art1=13&art2=13"><b>gifs</b></a>  
-           <a href="/HTML5/holden/index.php?art1=197&art2=197"><b>G</b ></a>
-           <a href="/HTML5/holden/index.php?art1=197&art2=197&tag1=-20s&tag2=-20s"><b>G<sup>20</sup></b ></a>
-           <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>1<sup>bit</sup></b ></a>
-      <li> <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>Art</b></a>
-           <a href="/HTML5/holden/index.php?art1=133&art2=133"><b>texturing</b></a>  
-           <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b ></a>  
-           <a href="/HTML5/holden/index.php?art1=192&art2=192"><b>Songs♬</b ></a>  
-           <a href="/HTML5/holden/index.php?art1=203&art2=203"><b>LEGO</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Books</b></a>     
-           <a href="/HTML5/holden/index.php?art1=171&art2=171"><b>M</b></a>  
-           <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a> 
-           <a href="/HTML5/holden/index.php?art1=201&art2=201" title="Mxxx" target="_blank"><b>M<sup>X</sup></b></a> 
-           <a href="/HTML5/holden/index.php?art1=186&art2=186"><b>Posters</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=28&art2=28"><b>WFs</b></a>  
-           <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>Logo</b></a> 
-           <a href="/HTML5/holden/index.php?art1=202&art2=202" title="@REF-SHADERS"><b>Shaders</b></a> 
-           <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Emoji</b></a> </li>     
-      <li> <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Sktch1Day</b></a>  
-           <a href="/HTML5/holden/index.php?art1=206&art2=206"><b>Philosophers</b></a>    </li> 
-      <li> <a href="/HTML5/holden/index.php?art1=214&art2=214" title="Dynamic Textures"><b>dynText</b></a>  
-           <a href="/HTML5/holden/index.php?art1=185&art2=185" title="Fantasy Art Gallery"><b>Fantasy</b></a>     
-           <a href="/HTML5/holden/index.php?art1=213&art2=213" title="Oblique Strategies"><b>Oblique</b></a>    </li> 
-      <li> <a href="/HTML5/holden/index.php?art1=215&art2=215" title="Symbols"><b>Symbols</b></a>  
-           <a href="/HTML5/holden/index.php?art1=218&art2=218" title="Symbols"><b>Story</b></a>  
-           <a href="/HTML5/holden/index.php?art1=230&art2=230" title="Humor"><b>HUMOR</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=217&art2=217" title="holden TOOLS gallery"><b>TOOLS</b></a>
-           <a href="/HTML5/holden/index.php?art1=231&art2=231" title="holden PSYCHOLOGY"><b>PSYCH</b></a> </li>
+      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/"><b>Documentation</b></a> 
+      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/hotkey/"><b>Hotkeys</b></a> 
+      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/input/"><b>Controllers</b></a>  
 
     </ul>
 
-    <h4>BUY</h4>
+    <h4>Hardware</h4>
       <ul>
-        <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
-             <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
+        <li> <a href="https://retrofixer.it/en/mister-fpga/"><b>Retrofixer</b></a> 
       </ul>
 
   </div>
@@ -178,26 +142,6 @@
         </p>
     </details>
 
-
-  
-    <h4>graph sources</h4>
-      <ul>
-        <li> <a href="https://twitter.com/thatsgoodweb/" target="_blank">𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥</a>
-             <a href="https://twitter.com/xe0_xeo/media" target="_blank"><b>Xeo³</b></a> </li>
-        <li> <a href="https://mobile.twitter.com/scott_kerr/media" target="_blank">ScottKerr■</a>
-             <a href="https://mobile.twitter.com/qdqdminbpbp/media" target="_blank">MiN★</a> </li>
-        <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
-             <a href="https://twitter.com/ericjang11/media" target="_blank">ericJang</a> </li>
-        <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
-        <li> <a href="https://twitter.com/qntm" target="_blank">QNTM</a> 
-             <a href="https://twitter.com/icijorg" target="_blank">ICIJ</a>
-             <a href="https://wiki.nikitavoloboev.xyz/media" target="_blank">Niki</a> </li>
-        <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
-        <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> 
-             <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
-
-      </ul>
-
     <h4>REMEMBER!</h4>
       <ul>
         <li> <a href="https://zenhabits.net/transcendent"><b>zenH</b></a>
@@ -213,31 +157,6 @@
         <h4>WEB TOOLS</h4> <!-- ALSO IN linux.php --> 
         <ul>
           <li><a href="https://toolbrew.co/"><b>Toolbrew★</b></a> </li>
-          <li><a href="https://www.inoreader.com/all_articles"><b>inoreader ★</b></a> 
-              <a href="https://tweek.so/?ref=masayume.it"><b>TWEEK ★</b></a> </li>
-          <li><a href="https://uniqcode.com/typewriter/"><b>OverType</b></a>
-              <a href="https://www.timer-tab.com/"><b>TimerTab ★</b></a> </li>
-          <li><a href="/html5/focustxt/"><b>FOCUSTXT TASKS ★</b></a> </li>
-          <li><a href="https://edit.photo/?ref=masayume.it"><b>Edit.Photo ★</b></a>
-              <a href="https://pixlr.com/editor"><b>Pixlr ★</b></a>
-              <a href="https://www.masayume.it/blog/content/pixlr"><b>??</b></a></li>
-          <li><a href="https://lingojam.com/FontChanger"><b>FontChangr</b></a> 
-              <a href="https://luciole-vision.com/fr/math.html"><b>LucioleMath</b></a> </li>
-          <li><a href="https://imgflip.com/"><b>ImgFlipMeme</b></a>
-              <a href="https://emojipedia.org/"><b>emojipedia</b></a>
-          <li><a href="https://instaclip.app/"><b>Instagram</b></a>/ 
-              <a href="https://inflact.com/downloader/instagram/photo/"><b>Downloader</b></a> </li>
-          <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
-              <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
-          <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
-              <a href="http://ourownthing.co.uk/gradpad.html#">gradpad</a>
-              <a href="http://webtoolkitonline.com">webtools</a></li>
-          <li><a href="https://nerdfonts.com/#cheat-sheet">nerdfonts</a> <a href="https://fontawesome.com/icons?d=gallery">fontawesome</a></li>
-	        <li><a href="/HTML5/graphviz/">graphviz </a> <a href="/HTML5/cytoscape/">cytoscape</a></li>
-	        <li><a href="/HTML5/dagre/">dagre</a>
-              <a href="https://github.com/dagrejs/dagre-d3/wiki">wiki</a>
-              <a href="http://jupyter.org/">jupyter</a></li>
-          <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
 
       <h4>ISOTOPE</h4>
@@ -245,15 +164,6 @@
           <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
               <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
               <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
-          <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
-               <a href="/html5/isotope/isotope-media/"><b>MEDIA</b></a> </li>
-          <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> 
-               <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> 
-               <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-          <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> 
-               <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li></li>
-          <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
-          <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
         </ul>
 
   </div>
@@ -262,67 +172,20 @@
   
   <div class="_exa">
 
-    <h4>SEARCH</h4>
-      <ul>
-        <li>  <a href="https://internet.io/search"><b>internet.io</b></a> 
-              <a href="https://www.matthewsiu.com/pathfinder?utm_source=masayume.it"><b>pathfinder</b></a> </li>
-        <li>  <a href="https://duckduckgo.com"><b>Duck<sup>2</sup>go</b></a>
-              <a href="https://clippy.kenobit.it/"><b>Clippy</b></a> 
-              <a href="https://12ft.io/"><b>12FT</b></a> </li>
-        <li>  <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
-              <a href="https://www.perplexity.ai/"><b>Perplexity</b></a>
-              <a href="https://en.app/"><b>Books</b></a> </li>
-        <li>  <a href="https://ukdataexplorer.com/european-translator/?word=thanks"><b>EUWords★</b></a> 
-              <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
-        <li>  <a href="https://www.masayume.it/blog9/web/content/verification-tools"><b>Verification Tools★</b></a> </li>
+  <h4>MiSTer FPGA</h4>
+    <ul>
+      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/"><b>Documentation</b></a> 
+      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/hotkey/"><b>Hotkeys</b></a> 
+      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/input/"><b>Controllers</b></a>  
 
+    </ul>
+
+    <h4>Hardware</h4>
+      <ul>
+        <li> <a href="https://retrofixer.it/en/mister-fpga/"><b>Retrofixer</b></a> 
       </ul>
 
-    <h4>IMAGE SEARCH</h4>
-      <ul>
-        <li>  <a href="https://famouspaintings.com/art/paintings/sitting"><b>famous paintings</b></a> 
-
-      </ul>
-
-      <h4>BOOKS/TEXT</h4>
-      <ul>
-        <li> <a href="https://book.sv/"><b>Book.sv</b></a>
-             <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
-      </ul>
-
-      <h4>CRITIC</h4>
-      <ul>
-        <li> <a href="https://glitchwave.com/"><b>Glitchwave</b></a>
-            <a href="https://opencritic.com/"><b>OpenCr.</b></a> </li>
-      </ul>
-
-      <h4>TEXT/EDITORS</h4>
-      <ul>
-        <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
-            <a href="https://products.aspose.app/words/editor/rtf"><b>Aspose</b></a> </li>
-        <li><a href="https://docs.google.com"><b>GoogleDocs</b></a> 
-            <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
-        <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
-            <a href="https://codepen.io/wavebeem/pen/JoRPQOj"><b>CRT FX ★</b></a> </li>
-      </ul>
-
-    <h4>AI</h4>
-      <ul>
-        <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
-             <a href="https://perplexity.ai/"><b>Perplexity</b></a> </li>
-        <li> <a href="https://notebooklm.google.com/"><b>NotebookLM</b></a> 
-             <a href="https://pickvocab.com/app/dictionary" title="pickvocab dictionary"><b>Words</b></a> </li>
-        <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
-             <a href="https://www.kimi.com/"><b>Kimi</b></a> 
-             <a href="https://claude.ai/"><b>Claude</b></a> </li>
-<!--
-             <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
--->             
-      </ul>
-
-
-
-</div>
+  </div>
 
 
 
@@ -331,36 +194,18 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/', 'inspire/@STYLE style/', 
-                            'inspire/@STYLE style/9000/', 'inspire/@MISC-STYLE/', 'inspire/@CARTOONS/BUTCHERBILLY/');
+        $ai_dirs    = array('/var/www/html/inspire/retro/gallery/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
-
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
       ?>
       <div class="overlay-text">my,Kento_Iida,Style,9000,Butch</div>
     </div>
-
-    <br />
-      <h4>PROJECTS done</h4>
-          <ul>
-            <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php">Kanji Cards</a>
-                 - <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a>
-                 - <a href="/demon/overlayer/overlayer.infogen.txt">info</a>
-                 - <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li>  
-
-            <li> <a href="/HTML5/taktix/">Oblique Taktix</a> 
-                 <a href="/inspire/@CARTOONS/SIO/bin/sio.php"><b>siomixbot</b></a> </a>
-                 <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> 
-                 <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a></li>
-            <li> <a href="/oglaf.php">Oglaf RND comic</a> 
-                 <a href="/rory.php">rory story cubes</a> 
-                 <a href="/HTML5/holden/index.php?art1=182&art2=182"><b>tarot jodorovski</b></a> </li>
-                 
-          </ul>
-
           
   </div>
 
@@ -476,15 +321,7 @@
 
     <h4>VIDEO</h4>
       <ul>
-        <li> <a href="http://localhost:8096"><b>Jellyfin★</b></a> </li>
-        <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
-        <li> <a href="https://flickmetrix.com/">flickmetrix</a> - <a href="https://www.justwatch.com/">justwatch</a> </li>
-        <li> <a href="https://opencritic.com/" target="_blank"><b>opencrit</b></a> 
-            <a href="https://www.rottentomatoes.com/" target="_blank"><b>rottentoms</b></a> </li>
-        <li> <a href="https://www.primevideo.com/">prime video</a> </li>
-        <li> <a href="http://raiplay.it/">RaiPlay ★</a> 
-            <a href="https://netflix.com">Netflix ★</a> </li>
-        <li> <a href="netflix.htm">netflix codes</a> </li>
+        <li> <a href="https://www.youtube.com/@kenobisboch/videos"><b>kenobisboch★</b></a> </li>
       </ul>
     
 
@@ -627,13 +464,15 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/');
+        $ai_dirs    = array('/var/www/html/inspire/retro/MiSTerFPGA/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
-
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
       ?>
       <div class="overlay-text">masayume</div>
     </div>
@@ -643,12 +482,15 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/');
+        $ai_dirs    = array('/var/www/html/inspire/retro/MiSTerFPGA/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
       <div class="overlay-text">masayume</div>
@@ -659,52 +501,7 @@
 
   <div class="_exa">
     <h4>SERVICES</h4>
-    <ul>
-    <li><a href="/phpmyadmin"><b>phpmyadmin</b> - mysql</a> </li>
-    <li><a href="/phppgadmin">phppgadmin - postgres</a> </li>
-    <li><a href="/matomo">matomo</a>  </li>
-    <li><a href="http://cpanel.2freehosting.com/website/auto-installer">2fh</a> (2freehosting) </li>
-    </ul>
 
-    <ul>
-      <li><a href="/cgi-bin/phpinfo.php">phpinfo</a> </li>
-      <!-- <li><a href="/projects/genre-table.htm">periodic table of videogame innovations</a> </li> -->
-      <!-- <li><a href="/rt">request tracker</a> </li> -->
-      <li><a href="/jtype/ztype/index.html">j-type</a> <pre><small> j-type </small></pre> <a href="https://github.com/masayume/k-type">GIT REPO</a>  <a href="http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github">howto</a> </li>
-    </ul>
-
-    <h4>DEV</h4>
-      <ul>
-        <li> <a href="/demon/lightgallery.js/demo/NMS.htm">masayume@PS4</a> (music)
-      </ul>
-
-<!--      
-    <h4>PHASER</h4>
-      <ul>
-        <li><a href="/phaser/v2/docs/">PHASER</a> - <a href="https://phaser.io/examples">PHASER examples</a>
-        <li><a href="/PHASER.my/myexamples">my examples</a> - <a href="/PHASER.my/myexamples/02-invader/index.html">invaders</a> - <a href="http://pgl.ilinov.eu/">game list</a> -  <a href="http://createdineden.com/blog/2014/may/01/multi-platform-games-with-phaserjs/">introduction</a>
-        <li><a href="http://www.html5gamedevs.com/forum/14-phaser/">forum</a> - <a href="http://examples.phaser.io/_site/view_full.html?d=loader&f=load+events.js&t=load%20events">ex. loader</a> - <a href="http://gamedev.stackexchange.com/questions/76048/phaser-preload-future-states-in-create">stack exchange</a>
-        <li>tips
-        <a href="/phaser-coding-tips/issue-001/tanks.html">tanks1</a>,
-        <a href="/phaser-coding-tips/issue-002/tanks.html">tanks2</a>,
-        <a href="/phaser-coding-tips/issue-003/jumpup.html">jumpup</a>,
-        <a href="/phaser-coding-tips/issue-004/clouds.html">clouds</a>,
-        <a href="/phaser-coding-tips/issue-005/car.html">car</a>,
-        <a href="/phaser-coding-tips/issue-005/pacman.html">pacman</a>,
-      </ul>
--->
-
-    <!-- ABANDONWARE -->
-    <h4>cardrogue</h4>
-      <ul>
-        <li><a href="/cardrogue/prototype-01">cardrogue pt01</a> <a href="/cardrogue/prototype-02">cardrogue pt02</a> </li>
-        <li><a href="/cgi-bin/maze2.pl?cards=1">maze prototype 0.1</a> </li>
-      </ul>
-    <h4>No Man's Sky</h4>
-
-    <ul>
-      <li> <a href="/demon/lightgallery.js/demo/NMS.htm">masayume@PS4</a>           </li>
-    </ul>
 
   </div>
 
@@ -713,12 +510,15 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/');
+        $ai_dirs    = array('/var/www/html/inspire/retro/MiSTerFPGA/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
       <div class="overlay-text">masayume</div>
@@ -729,12 +529,15 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/');
+        $ai_dirs    = array('/var/www/html/inspire/retro/MiSTerFPGA/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
       <div class="overlay-text">masayume</div>
@@ -745,44 +548,6 @@
 
   <div class="_exa">
       <h4>RANDOM GENs</h4> <!-- also in TOOLS, INSPIRE -->
-          <ul>
-          <li><a href="/html5/mersenne4" title='~/html5/mersenne4'>mersenne4 (new)</a>        
-          <li><a href="/keplerion/mersenne-01.php">m-01</a> 
-              <a href="/keplerion/mersenne-02.php?seed=100&page=20&results=3&dir=./img/demons/">m-demon</a> 
-          <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=uchida"><b>m-uchida</b></a> 
-          <li><a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius"><b>mabiusAll</b></a>          
-              <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=A"><b>subT:A</b></a>          
-              <a href="/mersenne/mersenne.php?seed=100&page=1&results=1&atype=mabius&subtype=B"><b>subT:B</b></a>  </li>        
-          <li><a href="/keplerion/bouletmaton.php">bouletmaton</a> 
-              <a href="/keplerion/layerizer.php">layerizer</a> 
-          <li><a href="/html5/RiTaJS/examples/">RiTaJS</a>, <a href="http://www.rednoise.org/rita/tutorial/index.php">tut</a> </li>
-          <li><a href="html5/gamedefinitions/">game defs</a>, <a href="http://www.rednoise.org/rita/reference/index.php">ref</a> 
-              <a href="/html5/tracery/">tracery</a> - <a href="/html5/tracery/readme.md">rd</a> </li>
-          <li><a href="http://orteil.dashnet.org/randomgen/?gen=cKeB4v4J" target="_blank">Randomgen</a> 
-              <a href="http://instagrammar.surge.sh" target="_blank">Instagrmr</a> </li>
-          <li><a href="https://ml5js.org/docs/lstm-example.html" target="_blank">LSTM by ml5.js</a> </li>
-          </ul>
-
-    <h4>VIVUS</h4>
-      <ul>
-        <li><a href="/vivus/index.html">example</a> </li>
-        <li><a href="/vivus/index2.htm">my example</a> </li>
-        <li><a href="http://www.autotracer.org/">autotracer.org</a> </li>
-        <li><a href="http://vectormagic.com/home">vectormagic</a> </li>
-      </ul>
-
-    <h4>1001 fables (1k1f) </h4>
-      <ul>
-        <li><a href="/cgi-bin/1k1f/1k1f-editor.pl">1k1f.CHAR.editor.LOCAL</a> </li>
-        <li><a href="http://www.masayume.it/cgi-bin/1k1f-editor.pl">1k1f.CHAR.editor.ONLINE</a> </li>
-        <li><a href="/1k1f/dnd-div.htm">1k1f scene editor</a> </li>
-        <li><a href="https://docs.google.com/spreadsheet/ccc?key=0Av5S34ISFEfrdHZGVVFFQ1RRQktuQmxPQ0lMYVRRbGc#gid=0">google 1001 spreadsheet</a> </li>
-      </ul>
-
-    <h4>Five Elements</h4>
-      <ul>
-        <li><a href="/cgi-bin/5elems/hikiko.pl">hikiko.pl</a> </li>
-      </ul>
 
   </div>
 
@@ -791,12 +556,15 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/');
+        $ai_dirs    = array('/var/www/html/inspire/retro/MiSTerFPGA/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
       <div class="overlay-text">masayume</div>
@@ -807,12 +575,15 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/');
+        $ai_dirs    = array('/var/www/html/inspire/retro/MiSTerFPGA/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"300\">";
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
       <div class="overlay-text">masayume</div>
@@ -826,15 +597,15 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/@CARTOONS/gemma correll/', 'inspire/@CARTOONS/TOM GAULD/', 'inspire/@CARTOONS/altan/', 
-                            'inspire/@CARTOONS/JACOVITTI/', 'inspire/@CARTOONS/mordillo/', 'inspire/@CARTOONS/Jim Benton/',
-                            'inspire/@CARTOONS/grickle/', 'inspire/@CARTOONS/maicol_e_mirco/', 'inspire/@CARTOONS/Quino/',
-                            'inspire/@CARTOONS/SIO/', 'inspire/@CARTOONS/TRUMP/', 'inspire/@CARTOONS/maicol_e_mirco/'  );
+        $ai_dirs    = array('/var/www/html/inspire/retro/MiSTerFPGA/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
+        // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];
-        $imagefile  = $image;
-        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
+        echo       "<!-- image:" . $image . "-->";
+        # $imagefile  = substr($image, 14);
+        $imagefile  = preg_replace('/\/var\/www\/html/', "", $image);
+        echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"400\">";
 
       ?>
       <div class="overlay-text">HUMOR</div>
