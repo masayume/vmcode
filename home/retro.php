@@ -7,7 +7,7 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" href="/docroot/css/style.css" type="text/css" media="screen" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Amiga 2000 &#8211; Retro Corner</title>
+		<title>Retro Corner</title>
 		<link rel='dns-prefetch' href='//s.w.org' />
 		<link rel='stylesheet' id='wp-block-library-css'  href='/docroot/css/style.min.css' type='text/css' media='all' />
 		<script type='text/javascript' src='/docroot/js/flipcursor.js'></script>
@@ -78,7 +78,9 @@ original URL: https://retro.ramonddevrede.nl/amiga-2000/
 			<p>	
 				<a href='https://www.masayume.it/blog/content/retro-riviste'>retro riviste ★★★</a> &nbsp;
 				<a href='https://www.retromags.com/forums/forum/88-new-releases'>retromags ★★</a> &nbsp; 				
-				<a href='https://retro.pizza/@outofprintarchive@/'>outofprintarchive ★</a> &nbsp; 				
+				<a href='https://retro.pizza/@outofprintarchive@/'>outofprintarchive ★</a> &nbsp; 		
+				<a href='https://www.outofprintarchive.com/magazine_catalogue_UK.html'>out of print archive</a> &nbsp; 				
+				<a href='https://www.outofprintarchive.com/catalogue/ngamer.html'>ngamer</a> &nbsp; 				
 			</p>
 
 			<header>
