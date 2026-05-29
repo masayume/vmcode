@@ -193,6 +193,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <li><a href="https://meodai.github.io/poline/"><b>Poline</b></a>
           <a href="https://codepen.io/meodai/pen/GRyjQoZ">color scaler</a></li>
       <li><a href="https://sites.google.com/view/rejected-palettes/palette-list">rejected palettes</a></li>
+      <li><a href="https://www.masayume.it/blog9/web/content/storied-colors">Storied Colors</a></li>
     </ul>
 
     <details>
