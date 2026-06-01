@@ -81,15 +81,12 @@
 
     <h4>WEB TOOLS</h4>
       <ul>
-        <li> <a href="https://archive.ph/" target="_blank"><b>screenshot</b></a>  </li>
-        <li> <a href="https://www.masayume.it/blog9/web/index.php/content/yt-dlp" target="_blank"><b>yt-dlp</b></a>  </li>
+        <li> <a href="https://archive.ph/" target="_blank"><b>screenshot</b></a> 
+             <a href="https://www.masayume.it/blog9/web/index.php/content/yt-dlp" target="_blank"><b>yt-dlp</b></a>  </li>
         <li> <a href="https://saved.io/" target="_blank"><b>saved.io</b></a>  </li>
         <li> <a href="https://www.urlvoid.com/" target="_blank"><b>reputation: urlvoid</b></a>  </li>
         <li> <a href="https://www.masayume.it/blog9/web/content/last-cheat-sheet" target="_blank"><b>last cheatsheet</b></a>  </li>
-      </ul>
-
         <li> <a href="https://www.masayume.it/blog9/web/index.php/taxonomy/term/45?page=9" target="_blank"><b>tools page continua</b></a>  </li>
-        <li> <a href="https://saved.io/" target="_blank"><b>saved.io</b></a>  </li>
 
       </ul>
 
@@ -254,11 +251,6 @@
         <li><a href="https://livellosegreto.it/@b0rk@jvns.ca"><b>Julia Evans ★</b></a></li>    
       </ul>
 
-    <h4>WRITING</h4>
-      <ul>
-        <li><a href="file:///home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/" title="/home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/"><b>Obsidian</b></a></li>    
-      </ul>
-
       
   </div>
 
@@ -402,6 +394,17 @@
 
     ?>
   </div>
+
+
+  <div class="_exa">
+
+    <h4>BOOK WRITING</h4>
+      <ul>
+        <li><a href="file:///home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/" title="/home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/"><b>Obsidian</b></a></li>    
+      </ul>
+
+  </div>
+
 
 </div> <!-- container -->
 
