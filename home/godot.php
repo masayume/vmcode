@@ -176,15 +176,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
             <li> <a href="https://twitter.com/ma5ayume/lists/generative">twitter list</a> </li>
           </ul>
 
-    <h4>WAVE FUNCTION</h4>
-          <ul>
-            <li> <a href="https://github.com/marian42/wavefunctioncollapse"><b>wave fn collapse ★</b></a> </li>
-            <li> <a href="https://felixturner.github.io/hex-map-wfc/article/"><b>Hex Map WFC ★</b></a> </li>
-            <li> <a href="https://www.masayume.it/blog9/web/content/wave-function-collapse"><b>my WFC ★</b></a> </li>
-            <li> <a href="https://www.masayume.it/blog9/web/content/the-coding-train-wave-function-collapse"><b>my WFC 2 ★</b></a> </li>
-          </ul>
-
-
   </div>
 
 
@@ -273,6 +264,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       </ul>
 
     </details>
+
+    <details>
+      <summary><strong><h4><b>ALGORITHMS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://myzopotamia.dev/navier-stokes-fluid-simulation-explained-with-godot"><b>Navier-Stokes fluid simulation</b></a> 
+      </ul>
+
+    </details>
+
+    <details>
+      <summary><strong><h4><b>WAVE FUNCTION ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <ul>
+        <li> <a href="https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/"><b> WFC explained ★★</b></a> </li>
+        <li> <a href="https://github.com/marian42/wavefunctioncollapse"><b>wave fn collapse ★</b></a> </li>
+        <li> <a href="https://felixturner.github.io/hex-map-wfc/article/"><b>Hex Map WFC ★</b></a> </li>
+        <li> <a href="https://www.masayume.it/blog9/web/content/wave-function-collapse"><b>my WFC ★</b></a> </li>
+        <li> <a href="https://www.masayume.it/blog9/web/content/the-coding-train-wave-function-collapse"><b>my WFC 2 ★</b></a> </li>
+
+        <li> <a href="https://godotengine.org/asset-library/asset/1951"><b>WFC Godot Asset Lib ★</b></a> </li>
+        <li> <a href="https://github.com/pe1uca/godot_wfc_editor"><b>Godot WFC Editor ★</b></a> </li>
+
+        <li> <a href="https://github.com/AlexeyBond/godot-constraint-solving"><b>WFC constraint solve</b></a> </li>
+        <li> <a href="https://godotengine.org/asset-library/asset/2473"><b> WFC 2D/3D gen</b></a> </li>
+        <li> <a href="https://www.youtube.com/watch?v=BBbKbzyHb3Q"><b> WFC video ★</b></a> </li>
+
+        <li> <a href="https://bolddunkley.itch.io/wave-function-collapse"><b>WFC example</b></a> </li>
+
+      </ul>
+    </details>
+
 
     <details>
       <summary><strong><h4><b>TUNING ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
