@@ -1236,6 +1236,22 @@
       "length": 90,
       "score": "8.1",
       "url": "https://boardgamegeek.com/boardgame/231733/obsession"
+    },
+    "Bananagrams": {
+      "name": "Bananagrams",
+      "number": "79",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Race", "Real-Time", "Spelling", "Tile Placement" ],
+      "theme": ["Family"],
+      "img": "079.jpg",
+      "designer": "Rena Nathanson, Abe Nathanson",
+      "weight": "1.29", 
+      "year": 2006,
+      "players": [1, 2, 3, 4, 5, 6, 7, 8],
+      "length": 20,
+      "score": "6.4",
+      "url": "https://boardgamegeek.com/boardgame/27225/bananagrams"
     }
 
     
