@@ -401,7 +401,17 @@
     <h4>BOOK WRITING</h4>
       <ul>
         <li><a href="file:///home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/" title="/home/masayume/DATA/E/PROJECTS/BOOKS2WRITE/OBSIDIAN/"><b>Obsidian</b></a></li>    
+
+        <li><a href="https://github.com/microsoft/markitdown">Markitdown</a> </li>
+        <li><a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" title="Markdown Basic writing and formatting syntax">Markdown Syntax</a> </li>
+
+        <li><a href="https://pandoc.org/demos.html#">Pandoc</a> </li>
+<!--
+        <li><a href="URL">LINK</a> </li>
+        <li><a href="URL">LINK</a> </li>
+-->
       </ul>
+
 
   </div>
 
