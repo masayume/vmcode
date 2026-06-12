@@ -1193,8 +1193,7 @@
       "number": "76",
       "data_cat": "player",
       "class": ["player"],
-      "mechanics": [ "Cooperative Game", "Deck, Bag, and Pool Building", "Dice Rolling", "Hand Management", "Simultaneous Action Selection", "Solo / Solitaire Game"
- ],
+      "mechanics": [ "Cooperative Game", "Deck, Bag, and Pool Building", "Dice Rolling", "Hand Management", "Simultaneous Action Selection", "Solo / Solitaire Game" ],
       "theme": ["Resources"],
       "img": "076.png",
       "designer": "Gary Dworetsky, Anthony Giovannetti, Casey Yano",
@@ -1252,6 +1251,39 @@
       "length": 20,
       "score": "6.4",
       "url": "https://boardgamegeek.com/boardgame/27225/bananagrams"
+    },
+
+   "StarshipCapts": {
+      "name": "Starship Captains",
+      "number": "80",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "End Game Bonuses", "Open Drafting", "Solo / Solitaire Game", "Turn Order: Progressive", "Variable Set-up", "Worker Placement", "Different Worker Types " ],
+      "theme": ["Family"],
+      "img": "080.webp",
+      "designer": "Peter B. Hoffgaard",
+      "weight": "2.36", 
+      "year": 2022,
+      "players": [1, 2, 3, 4],
+      "length": 100,
+      "score": "6.4",
+      "url": "https://boardgamegeek.com/boardgame/363369/starship-captains"
+    },
+   "CompileMain2": {
+      "name": "Compile Main 2",
+      "number": "81",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Area Majority / Influence", "Card Play Conflict Resolution", "Deck Construction", "Hand Management", "Multi-Use Cards", "Open Drafting", "Race" ],
+      "theme": ["Resources"],
+      "img": "081.jpg",
+      "designer": "Michael Yang",
+      "weight": "2.17", 
+      "year": 2025,
+      "players": [1, 2, 3, 4, 5, 6, 7, 8],
+      "length": 30,
+      "score": "8.2",
+      "url": "https://boardgamegeek.com/boardgame/440606/compile-main-2"
     }
 
     
