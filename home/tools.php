@@ -171,6 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
   <h4>PALETTE</h4> <!-- also in PIXELART -->
     <ul>
+      <li><a href="https://www.wada-sanzo-colors.com/inspiration/color-picker"><b>Wada Sanzo Picker ★</b></a> 
       <li><a href="https://colorify.rocks"><b>colorify ★</b></a> 
           <a href="https://paletton.com/#uid=b4Y2C1G0kJbrPmuA1-tDyOslPU9eQ"><b>paletton ★</b></a> </li>
       <li><a href="https://thisisfranciswu.com/enterprise-ui-palette-generator/#"><b>palettegen★</b></a> 
