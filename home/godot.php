@@ -183,14 +183,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   <div class="_exa">
 
     <details>
-      <summary><strong><h4><b>GODOT DOCS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>GODOT DOCS ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://docs.godotengine.org/en/stable/classes/index.html"><b>godot DOCS ★</b></a> </li>
       </ul>
     </details>
 
     <details>
-      <summary><strong><h4><b>LINKS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>RELEASES ⬇️</b></h4></strong></summary> 
+      <ul>
+        <li> <a href="https://godotengine.org/releases/4.7/"><b>godot 4.7</b></a> </li>
+        <li> <a href="https://godotengine.org/releases/4.6/"><b>godot 4.6</b></a> </li>
+        <li> <a href="https://godotengine.org/releases/4.5/"><b>godot 4.5</b></a> </li>
+        <li> <a href="https://godotengine.org/releases/4.5/"><b>godot 4.4</b></a> </li>
+        <li> <a href="https://godotengine.org/releases/4.5/"><b>godot 4.3</b></a> </li>
+      </ul>
+    </details>
+
+
+    <details>
+      <summary><strong><h4><b>LINKS ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
         <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
@@ -207,7 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h4><b>PYTHON ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>PYTHON ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://realpython.com/"><b>Real Python</b></a></li> 
           <li> <a href="https://realpython.com/tutorials/web-scraping/"><b>web scraping</b></a></li> 
@@ -224,7 +236,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h4><b>SHADERS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>SHADERS ⬇️</b></h4></strong></summary> 
       <ul>
          <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
          <li> <a href="https://danielchasehooper.com/posts/code-animated-rick/"><b>Learn Shaders★</b></a></li> 
@@ -241,7 +253,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
               <a href="https://codesandbox.io/p/sandbox/hydra-shader-9ru5hj"><b>hydra</b></a> </li> 
 
          <li> <details>
-                <summary><strong><b>SHADER AUTHORS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+                <summary><strong><b>SHADER AUTHORS ⬇️</b></strong></summary> 
                 <p>
                   <ul>
                     <li> <a href="https://livellosegreto.it/@diatribes@mastodon.social"><b>diatribes★</b></a></li> 
@@ -253,7 +265,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h4><b>CODING ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>CODING ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://radio.livellosegreto.it/"><b>LS Radio</b></a> 
         <li> <a href="https://open.spotify.com/playlist/679wCT6dVMDBxrYa5NcrXL" target="_blank"><b>Coding Music ★</b></a> </li>
@@ -266,7 +278,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h4><b>ALGORITHMS ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>ALGORITHMS ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://myzopotamia.dev/navier-stokes-fluid-simulation-explained-with-godot"><b>Navier-Stokes fluid simulation</b></a> 
       </ul>
@@ -274,7 +286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h4><b>WAVE FUNCTION ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>WAVE FUNCTION ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/"><b> WFC explained ★★</b></a> </li>
         <li> <a href="https://github.com/marian42/wavefunctioncollapse"><b>wave fn collapse ★</b></a> </li>
@@ -296,7 +308,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
 
     <details>
-      <summary><strong><h4><b>TUNING ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>TUNING ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://www.masayume.it/blog9/web/content/optimize-tuning" target="_blank"><b>Optimization ★</b></a> </li>
       </ul>
@@ -305,7 +317,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
 
     <details>
-      <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://livellosegreto.it/tags/godot"><b>livellosegreto★</b></a> </li>
         <li> <a href="https://livellosegreto.it/@godotengine@mastodon.gamedev.place"><b>godotengine</b></a> </li>
@@ -332,7 +344,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
     <details>
-      <summary><strong><b>DIFFUSION MODELS ⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><b>DIFFUSION MODELS ⬇️</b></strong></summary> 
       <p>
         <ul>
           <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
