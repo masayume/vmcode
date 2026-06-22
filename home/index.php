@@ -109,6 +109,7 @@
       <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
+            <li> <a href="https://livellosegreto.it/@hn250@social.lansky.name" target="_blank"><b>HackerNews250★</b></a>
             <li> <a href="https://gwern.net/turing-complete" target="_blank"><b>Gwern ★</b></a>
           </ul>
         </p>
