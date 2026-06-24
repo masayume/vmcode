@@ -121,6 +121,7 @@
       <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
+            <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social?" target="_blank"><b>deepthot ★</b></a>
             <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin ★</b></a>
                  <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bluesky</b></a>
                  <a href="https://www.masayume.it/blog9/web/content/lookcaitlin" target="_blank"><b> my</b></a></li>
