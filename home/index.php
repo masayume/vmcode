@@ -121,7 +121,8 @@
       <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
-            <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social?" target="_blank"><b>deepthot ★</b></a>
+            <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social" target="_blank"><b>𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥★</b></a>
+                 <a href="https://bsky.app/profile/dungeonlust.com" target="_blank"><b>𝕯𝖚𝖓𝖌𝖊𝖔𝖓𝖑𝖚𝖘𝖙★</b></a> </li>
             <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin ★</b></a>
                  <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bluesky</b></a>
                  <a href="https://www.masayume.it/blog9/web/content/lookcaitlin" target="_blank"><b> my</b></a></li>
@@ -186,8 +187,6 @@
   
     <h4>graph sources</h4>
       <ul>
-        <li> <a href="https://twitter.com/thatsgoodweb/" target="_blank">𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥</a>
-             <a href="https://twitter.com/xe0_xeo/media" target="_blank"><b>Xeo³</b></a> </li>
         <li> <a href="https://mobile.twitter.com/scott_kerr/media" target="_blank">ScottKerr■</a>
              <a href="https://mobile.twitter.com/qdqdminbpbp/media" target="_blank">MiN★</a> </li>
         <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
