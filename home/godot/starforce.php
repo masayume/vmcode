@@ -11,12 +11,12 @@
 	background-color: #0033cc;
 */
 
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
-background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-background: #f3c5bd; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #f3c5bd 0%,#b4ddb4 34%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* Permalink - use to edit and share this gradient: 
+  https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 
+*/
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+background: linear-gradient(to bottom,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
   a, a:visited {  color: #ffffff; }
@@ -35,7 +35,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/');
+      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/starforce-reference/@REFERENCES/');
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
@@ -75,9 +75,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>PROJECT</h4>
       <ul> 
-        <li> <a href="/godot/solomon/arcade.htm" title="Solomon's Key local emulation via emulatorjs"><b>Arcade✨</b></a>
-             <a href="https://www.retrogames.cc/arcade-games/solomons-key-us.html" title="Solomon's Key"><b>Remote</b></a>  
-             <a href="https://freebie.games/games/solomons-key/play/" title="Solomon's Key"><b>SMS</b></a> </li> 
+        <li> <a href="/godot/starforce/arcade.htm" title="Star Force local emulation via emulatorjs"><b>Arcade✨</b></a>
+             <a href="https://gam.onl/arcade/star-force.html#star-force" title="Star Force"><b>Remote</b></a>  
+             <a href="https://freebie.games/games/solomons-key/play/" title="Star Force"><b>SMS</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/"><b>DOLPHIN: project dir</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/godot_solomon.infogen.txt"><b>DOLPHIN: Infogen file</b></a> </li> 
         <li> <a href="https://chatgpt.com/c/68f251c3-5d6c-832a-924e-04a27a23e3a8"><b>chatGPT tutorial (firefox)</b></a> </li> 
