@@ -36,7 +36,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <!-- php_image_show -->
       <?php
         $ai_dirs    = array('inspire/@COVERS/BookCovers/Godot/', 'inspire/@COVERS/BookCovers/Wireframe-magazine/', 
-                            'inspire/PROJECTS/algorithm-reference/', 'inspire/@COVERS/BookCovers/Edge-magazine/');
+                            'inspire/PROJECTS/algorithm-reference/', 'inspire/@2pin/2pin_CBG/', 
+                            'inspire/@COVERS/BookCovers/Edge-magazine/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp,pdf}', GLOB_BRACE);
@@ -45,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
       ?>
-      <div class="overlay-text">Godot,Wireframe,Edge,algorithms</div>
+      <div class="overlay-text">Godot,Wireframe,Edge,algorithms,CBG</div>
     </div>
 
 
@@ -99,9 +100,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   <div class="_exa">
     <h4>MY PROJECTS</h4>
       <ul> 
-        <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a> </li>  
         <li> <a href="/godot/solomon.php"><b>Solomon</b></a> </li>  
+        <li> <a href="/godot/starforce.php"><b>Star Force</b></a> </li>  
         <li> <a href="/godot/pengo.php"><b>Pengo</b></a> </li>  
+        <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a> </li>  
       </ul>
 
     <h4>GAME IDEAS</h4>
