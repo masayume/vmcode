@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>GODOT SOLOMON</title>
+<title>GODOT STAR FORCE</title>
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/home.css" rel="stylesheet">
@@ -77,10 +77,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <ul> 
         <li> <a href="/godot/starforce/arcade.htm" title="Star Force local emulation via emulatorjs"><b>Arcade✨</b></a>
              <a href="https://gam.onl/arcade/star-force.html#star-force" title="Star Force"><b>Remote</b></a>  
-             <a href="https://freebie.games/games/solomons-key/play/" title="Star Force"><b>SMS</b></a> </li> 
-        <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/"><b>DOLPHIN: project dir</b></a> </li> 
-        <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/godot_solomon.infogen.txt"><b>DOLPHIN: Infogen file</b></a> </li> 
-        <li> <a href="https://chatgpt.com/c/68f251c3-5d6c-832a-924e-04a27a23e3a8"><b>chatGPT tutorial (firefox)</b></a> </li> 
+             <a href="https://www.retrogames.cz/play_113-NES.php" title="Star Force"><b>NES</b></a> </li> 
+
+        <li> <a href="https://www.google.com/search?q=play+Master+System+Astro+Warrior+online" title="Astro Warrior"><b>Astro Warrior</b></a>
+        <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-starforce/"><b>DOLPHIN: project dir</b></a> </li> 
+        <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-starforce/godot_starforce.infogen.txt"><b>DOLPHIN: Infogen file</b></a> </li> 
+        <li> <a href="https://gemini.google.com/app/6e6507195909a742"><b>Gemini tutorial (firefox)</b></a> </li> 
+        <li> <a href="https://shmups.wiki/library/Star_Force">shmups.wiki</a>
         <li> <a href="/solomons/sprite.htm">sprites</a>
              <a href="/solomons/assets.php">assets</a> </li>
         <li> <a href="/html5/sol-level-editor/app/dist/index.html" title="Solomon Level Editor">LevelEditor</a> 
@@ -90,17 +93,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>INFO</h4>
       <ul> 
-        <li> <a href="https://strategywiki.org/wiki/Solomon%27s_Key/Walkthrough" title="Solomon's Key"><b>Arcade Levels</b></a>  
-        <li> <a href="https://strategywiki.org/wiki/Solomon%27s_Key/Items" title="Solomon's Key"><b>Items</b></a>  
-        <li> <a href="https://strategywiki.org/wiki/Solomon%27s_Key/Enemies" title="Solomon's Key"><b>Monsters</b></a>  
-        <li> <a href="https://vgmaps.de/maps/view.php?m=34681" title="Solomon All Levels Map"><b>MAP</b></a> </li>
+        <li> <a href="https://www.arcade-museum.com/Videogame/star-force" title="Star Force Arcade Museum"><b>Arcade Museum</b></a>  
+        <li> <a href="https://adb.arcadeitalia.net/dettaglio_mame.php?game_name=starforc&back_games=starforca;&search_id=0" title="Star Force Arcade Museum"><b>MAME</b></a>  
+        <li> <a href="https://note.com/dameoyag/n/nbd310ffe240e?hl=en" title="Star Force Arcade Museum"><b>Note</b></a>  
+        <li> <a href="https://strategywiki.org/wiki/Star_Force/Walkthrough" title="Star Force"><b>Arcade Levels</b></a>  
+        <li> <a href="https://strategywiki.org/wiki/Star_Force/Items" title="Star Force"><b>Items</b></a>  
+        <li> <a href="https://strategywiki.org/wiki/Star_Force/Enemies" title="Star Force"><b>Monsters</b></a> 
+             <a href="https://star-soldier.fandom.com/wiki/Category:Star_Force_Enemies" title="Star Force"><b>alter</b></a>  </li>
+        <li> <a href="https://www.youtube.com/watch?v=31kdtY-wtOE" title="Star Force Longplay Video"><b>Longplay</b></a> </li>
+        <li> <a href="https://www.smspower.org/Music/StarForce-SG" title="Star Force Longplay Video"><b>Music</b></a> </li>
+
+        <li> <a href="https://en.wikipedia.org/wiki/Star_Force" title="Star Force Longplay Video"><b>wikipedia</b></a> </li>
+        <li> <a href="https://fictionalcrossover.fandom.com/wiki/Star_Force" title="Star Force Longplay Video"><b>fictionalXover</b></a> </li>
+        <li> <a href="https://note.com/dameoyag/n/nbd310ffe240e?hl=en" title="Star Force Longplay Video"><b>Reminiscence</b></a> </li>
+
 
       </ul>  
 
     <h4>REPOSITORY</h4>
       <ul> 
         <li> <a href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet"><b>MD cheatsheet</b></a> </li> 
-        <li> <a href="https://github.com/masayume/godot-solomon"><b>GITHUB: godot-solomon</b></a> </li> 
+        <li> <a href="https://github.com/masayume/godot-starforce"><b>GITHUB: godot-solomon</b></a> </li> 
         <li> <a href="https://github.com/nezvers/Godot-GameTemplate"><b>Godot game template</b></a> </li> 
       </ul>  
       
@@ -127,9 +140,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
       <details>
         <summary><strong><h4><b>VIDEO ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <ul>
-          <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=93"><b>level 1-1</b></a> </li>
-          <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=130"><b>level 1-2</b></a> </li>
-          <li> <a href="https://youtu.be/jUINhkzl1bY?si=Eq3i8lOiCnwSxo5z&t=180"><b>level 1-3</b></a> </li>
+          <li> <a href="https://www.youtube.com/watch?v=31kdtY-wtOE"><b>longplay</b></a> </li>
         </ul>
       </details>
 
@@ -231,8 +242,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
     
     <h4>Music & Sound</h4>
     <ul>
+      <li> <a href="https://www.smspower.org/Music/StarForce-SG"><b>Star Force SMS Music</b></a></li> 
       <li> <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask ★</b></a></li> 
-      <li> <a href="/unity.php">on unity page</a></li> 
     </ul>
  
     <h4>GRAPHS</h4> <!-- also on INSPIRE -->
