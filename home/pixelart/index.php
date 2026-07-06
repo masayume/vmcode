@@ -149,7 +149,8 @@
 
   <h4>DITHERING★</h4>
   <ul>
-    <li>  <a href="https://ditherit.com/"><b>DITHERIT ★</b></a> 
+    <li>  <a href="https://www.tooooools.app/effects/dithering"><b>tooooools★</b></a> 
+    <li>  <a href="https://ditherit.com/"><b>DITHERIT★</b></a> 
           <a href="https://www.masayume.it/blog9/web/content/ditherpunk"><b>MY★</b></a> </li>
     <li>  <a href="https://doodad.dev/dither-me-this/"><b>ditherMeThis★</b></a>  </li>
     <li>  <a href="https://seleb.github.io/ordered-dither-maker/"><b>ordered dither ★</b></a>  </li>
