@@ -89,7 +89,8 @@
            <a href="/HTML5/holden/index.php?art1=218&art2=218" title="Symbols"><b>Story</b></a>  
            <a href="/HTML5/holden/index.php?art1=230&art2=230" title="Humor"><b>HUMOR</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=217&art2=217" title="holden TOOLS gallery"><b>TOOLS</b></a>
-           <a href="/HTML5/holden/index.php?art1=231&art2=231" title="holden PSYCHOLOGY"><b>PSYCH</b></a> </li>
+           <a href="/HTML5/holden/index.php?art1=231&art2=231" title="holden PSYCHOLOGY"><b>PSYCH</b></a> 
+           <a href="/HTML5/holden/index.php?art1=233&art2=233" title="holden Style"><b>Style</b></a> </li>
 
     </ul>
 
@@ -334,8 +335,8 @@
     <div class="image-container">
       <!-- php_image_show -->
       <?php
-        $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/', 'inspire/@STYLE style/', 
-                            'inspire/@STYLE style/9000/', 'inspire/@MISC-STYLE/', 'inspire/@CARTOONS/BUTCHERBILLY/');
+        $ai_dirs    = array('inspire/masayume/pub/', 'inspire/@CARTOONS/Kento_Iida/', 'inspire/@STYLEstyle/', 
+                            'inspire/@STYLEstyle/9000/', 'inspire/@MISC-STYLE/', 'inspire/@CARTOONS/BUTCHERBILLY/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
         $image      = $images[array_rand($images)];

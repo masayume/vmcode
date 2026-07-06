@@ -410,7 +410,7 @@
     <h4>2pixelSOURCES</h4>  <!-- ALSO PART in inspire STYLE SOURCES -->
       <ul>         
         <li> <a href="/HTML5/holden/index.php?art1=12&art2=12"><b>MISC ★</b></a> <a href="/HTML5/holden/index.php?art1=12&art2=12&tag1=-80s-&tag2=-80s-"><b>TAGS</b></a>
-            <!-- <a href="/HTML5/holden/index.php?folder=@STYLE%20style/MISC"><b>STYLE-MISC ★</b></a> -->
+            <!-- <a href="/HTML5/holden/index.php?folder=@STYLEstyle/MISC"><b>STYLE-MISC ★</b></a> -->
              <a href="https://gifs.alphacoders.com/gifs/random">RND gifs</a> </li>
         <li> <a href="/HTML5/holden/index.php?folder=@CUTE"><b>CUTE, </b></a> 
              <a href="/HTML5/holden/index.php?folder=@backs"><b>BACK, </b></a> 
@@ -628,7 +628,7 @@
   <ul>
     <li><a href="/HTML5/holden/index.php?art=MALIKA">Malika Favre</a></li>    
     <li><a href="/HTML5/holden/index.php?folder=@masayasu_uchida">Masayasu Uchida</a></li>
-    <li><a href="/HTML5/holden/index.php?folder=@STYLE%20style/Norman%20Rockwell">Norman Rockwell</a></li>
+    <li><a href="/HTML5/holden/index.php?folder=@STYLEstyle/Norman%20Rockwell">Norman Rockwell</a></li>
   </ul>
 
   <h4>covers</h4>
@@ -763,8 +763,8 @@
     
       <h4>STYLE</h4>
       <ul>
-        <li> <a href="/HTML5/holden/index.php?folder=@STYLE%20style/misc"><b>misc</b></a> 
-             <a href="/HTML5/holden/index.php?folder=@STYLE%20style/texturing"><b>inking</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?folder=@STYLEstyle/misc"><b>misc</b></a> 
+             <a href="/HTML5/holden/index.php?folder=@STYLEstyle/texturing"><b>inking</b></a> </li>
         <li> <a href="http://screenshotgun.textfiles.com/?s=09"><b>screenshotgun</b></a> </li>
         </li>
     </ul>

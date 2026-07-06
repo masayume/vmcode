@@ -75,7 +75,7 @@
         </li>
         <li> cards:<a href="http://localhost:8989/cgi-bin/magic-cards2.pl?smartread2=1&seed=999999" target="_blank"><b>magic</b></a> 
           <a href="https://db.ygoprodeck.com/card/?search=Phantom%20Magician" target="_blank"><b>yugioh</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?folder=@STYLE%20style/MISC"><b>MISC STYLE</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?folder=@STYLEstyle/MISC"><b>MISC STYLE</b></a> </li>
         <li> <a href="https://earth.google.com" target="_blank"><b>G.Earth</b></a>  <a href="https://www.masayume.it/blog/content/instant-archetypes" target="_blank"><b>Tarots</b></a></li>
         <li>  <a href="https://www.pinterest.co.uk/search/pins/?q=drain&rs=typed&term_meta[]=drain%7Ctyped" target="_blank"><b>pinterest</b></a> 
               <a href="https://www.pinterest.co.uk/masayume/neko/" target="_blank"><b>board</b></a> </li>
@@ -171,10 +171,10 @@
   <h4>STYLE</h4>
   <ul>
     <li><a href="/HTML5/holden//index.php?art1=12&art2=12"><b>@MISC-STYLE ★</b></a> 
-        <a href="/HTML5/holden/index.php?folder=@STYLE%20style/misc"><b>misc</b></a>  </li>
+        <a href="/HTML5/holden/index.php?folder=@STYLEstyle/misc"><b>misc</b></a>  </li>
     <li><a href="https://i.4pcdn.org/tg/1373096974410.pdf"><b>Mythic GME ★</b></a> </li>
     <li><a href="/digipon"><b>digipon styles</b></a> </li>
-    <li><a href="/HTML5/holden/index.php?folder=@STYLE%20style/texturing"><b>inking</b></a> 
+    <li><a href="/HTML5/holden/index.php?folder=@STYLEstyle/texturing"><b>inking</b></a> 
       <a href="http://screenshotgun.textfiles.com/?s=09"><b>screenshotgun</b></a>
     </li>
 </ul>
@@ -342,7 +342,7 @@
           <li><a href="/HTML5/holden/index.php?art=MALIKA"><b>Malika Favre</b></a>
               <a href="/HTML5/holden/index.php?art1=210&art2=210">holden</a></li>    
           <li><a href="/HTML5/holden/index.php?folder=@masayasu_uchida">Masayasu Uchida</a></li>
-          <li><a href="/HTML5/holden/index.php?folder=@STYLE%20style/Norman%20Rockwell">Norman Rockwell</a></li>
+          <li><a href="/HTML5/holden/index.php?folder=@STYLEstyle/Norman%20Rockwell">Norman Rockwell</a></li>
           <li><a href="https://twitter.com/lookcaitlin/media"><b>archive lookcaitlin</b></a></li>    
         </ul>
   
