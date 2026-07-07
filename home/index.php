@@ -66,8 +66,9 @@
            <a href="/HTML5/holden/index.php?art1=197&art2=197&tag1=-20s&tag2=-20s"><b>G<sup>20</sup></b ></a>
            <a href="/HTML5/holden/index.php?art1=180&art2=180"><b>1<sup>bit</sup></b ></a>
       <li> <a href="/HTML5/holden/index.php?art1=184&art2=184"><b>Art</b></a>
-           <a href="/HTML5/holden/index.php?art1=133&art2=133"><b>texturing</b></a>  
-           <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a>  </li>
+           <a href="/HTML5/holden/index.php?art1=133&art2=133" title="texturing"><b>textring</b></a>  
+           <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a> 
+           <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>@AI</b></a>  </li>
       <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b ></a>  
            <a href="/HTML5/holden/index.php?art1=192&art2=192"><b>Songs♬</b ></a>  
            <a href="/HTML5/holden/index.php?art1=203&art2=203"><b>LEGO</b></a>  </li>
@@ -112,6 +113,7 @@
           <ul>
             <li> <a href="https://livellosegreto.it/@hn250@social.lansky.name" target="_blank"><b>HackerNews250★</b></a>
             <li> <a href="https://gwern.net/turing-complete" target="_blank"><b>Gwern ★</b></a>
+            <li> <a href="https://loadingpleasewait.substack.com/" target="_blank" title="Valentina Tanni"><b>Loading★</b></a>
           </ul>
         </p>
     </details>
