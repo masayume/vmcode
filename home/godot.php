@@ -69,13 +69,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <ul> 
         <li> <a href="https://godotengine.org/download/linux/"><b>linux version</b></a> </li> 
       </ul>  
-
-    <h4>TUTORIALS</h4>
-      <ul> 
-        <li> <a href="https://www.kimi.com"><b>Kimi AI ★</b></a> </li> 
-        <li> <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/"><b>step by step</b></a> </li> 
-        <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
-      </ul>  
       
     <h4>GODOT ASSETS</h4>
       <ul>        
@@ -84,6 +77,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         <li> <a href="https://thegodotbarn.com/"><b>the Godot Barn ★</b></a> </li> 
         <li> <a href="https://lotovik.itch.io/project-character-controller"><b>character controller</b></a> </li> 
         <li> <a href="https://godotengine.org/asset-library/asset"><b>asset library</b></a> </li> 
+
+        <li> <a href="https://godotengine.org/asset-library/asset/4827"><b>tweenFX</b></a>  
+             <a href="https://80.lv/articles/your-go-to-tween-animation-library-for-godot"><b>what?</b></a> </li> 
+
       </ul>  
 
     <h4>RESOURCES</h4> <!-- also in INSPIRE, TOOLS -->
@@ -100,10 +97,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
   <div class="_exa">
     <h4>MY PROJECTS</h4>
       <ul> 
-        <li> <a href="/godot/solomon.php"><b>Solomon</b></a> </li>  
-        <li> <a href="/godot/starforce.php"><b>Star Force</b></a> </li>  
-        <li> <a href="/godot/pengo.php"><b>Pengo</b></a> </li>  
-        <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a> </li>  
+          <details>
+            <summary><strong><h4><b>Solomon ⬇️</b></h4></strong></summary> 
+            <ul>
+              <li> <a href="/godot/solomon.php"><b>Solomon's Key★</b></a> </li>
+              <li> <a href="/godot/HERO.php"><b>H.E.R.O.</b></a> </li>
+              <li> <a href="/godot/HERO.php"><b>Bomb Jack</b></a> </li>
+              <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a> </li>  
+              <li> <a href="/godot/pengo.php"><b>Pengo</b></a> </li>  
+            </ul>
+          </details>
+
+          <details>
+            <summary><strong><h4><b>Star Force ⬇️</b></h4></strong></summary> 
+            <ul>
+              <li> <a href="/godot/starforce.php"><b>Star Force★</b></a> </li>
+            </ul>
+          </details>
+
+
       </ul>
 
     <h4>GAME IDEAS</h4>
@@ -184,11 +196,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
   <div class="_exa">
 
+
     <details>
       <summary><strong><h4><b>GODOT DOCS ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://docs.godotengine.org/en/stable/classes/index.html"><b>godot DOCS ★</b></a> </li>
       </ul>
+    </details>
+
+    <details>
+      <summary><strong><h4><b>TUTORIALS ⬇️</b></h4></strong></summary> 
+      <ul>
+
+        <li> <a href="https://www.kimi.com"><b>Kimi AI ★</b></a> </li> 
+        <li> <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/"><b>step by step</b></a> </li> 
+        <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
+
+        <li> <a href="https://www.youtube.com/watch?v=aagPe4dvM2M"><b>animate UI easily★</b></a> </li> 
+        <li> <a href="https://www.youtube.com/playlist?list=PLNNbuBNHHbNGtZjygmnJ2fBvp6JmDNkAm"><b>Beat'em Up game</b></a> </li> 
+        <li> <a href="https://www.youtube.com/playlist?list=PLNNbuBNHHbNEEQJE5od1dyNE_pqIANIww"><b>Arcade Soccer</b></a> </li> 
+        <li> <a href="https://www.youtube.com/watch?v=Elp-YTQeTTg"><b>1st P. Dungeon Crawler</b></a> </li> 
+
+      </ul>  
     </details>
 
     <details>
@@ -202,22 +231,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       </ul>
     </details>
 
-
     <details>
-      <summary><strong><h4><b>LINKS ⬇️</b></h4></strong></summary> 
+      <summary><strong><h4><b>SHADERS ⬇️</b></h4></strong></summary> 
       <ul>
-        <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
-        <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
-        <li> <a href="https://dev.to/github/top-five-godot-games-and-source-code-from-game-off-2022-3690"><b>game off 2022</b></a> </li>
-        <li> <a href="https://www.reddit.com/r/godot/"><b>Reddit Godot</b></a> </li>
-        <li> <a href="https://dev.to/t/godot"><b>dev.to godot</b></a> </li>
-        <li> <a href="https://www.reddit.com/r/madeWithGodot/"><b>R madeWithGodot</b></a> </li>
-        <li> <a href="https://www.reddit.com/t/gdscript/"><b>GDscript</b></a> 
-             <a href="https://dev.to/t/gdscript"><b>@dev.to</b></a> </li>
-        <li> <a href="https://www.reddit.com/r/gamedev/"><b>Reddit gamedev</b></a> </li>
-        <li> <a href="https://livellosegreto.it/tags/godotengine"><b>#godotengine</b></a> </li>
-      </ul>
+         <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
+         <li> <a href="https://danielchasehooper.com/posts/code-animated-rick/"><b>Learn Shaders★</b></a></li> 
+         <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
+         <li> <a href="https://inspirnathan.com/topics/shaders"><b>Shaders 101</b></a></li> 
+         <li> <a href="https://github.com/gtibo/VFX-sketchbook-Godot-4.x?tab=readme-ov-file"><b>VFX sketchbook</b></a></li> 
+         <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
+         <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
+         <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://tor.thebookofshaders.com/">editor</a> </li>
 
+         <li> <a href="https://www.shadertoy.com/"><b>shadertoy ★</b></a></li> 
+         <li> <a href="https://www.sleditor.com/#id=1woyjcot9"><b>sleditor ★</b></a></li> 
+         <li> <a href="https://twigl.app/"><b>Twigl</b></a> 
+              <a href="https://codesandbox.io/p/sandbox/hydra-shader-9ru5hj"><b>hydra</b></a> </li> 
+
+
+https://80.lv/articles/how-to-make-neat-blur-shader-in-godot
+Blur Shader
+
+https://80.lv/articles/learn-how-to-create-stylized-fire-shader-in-godot
+Stylized Fire Shader
+
+         <li> <details>
+                <summary><strong><b>SHADER AUTHORS ⬇️</b></strong></summary> 
+                <p>
+                  <ul>
+                    <li> <a href="https://livellosegreto.it/@diatribes@mastodon.social"><b>diatribes★</b></a></li> 
+                  </ul>
+                </p>
+              </details>
+          </li>  
+      </ul>
     </details>
 
     <details>
@@ -238,32 +285,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
-      <summary><strong><h4><b>SHADERS ⬇️</b></h4></strong></summary> 
+      <summary><strong><h4><b>LINKS ⬇️</b></h4></strong></summary> 
       <ul>
-         <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
-         <li> <a href="https://danielchasehooper.com/posts/code-animated-rick/"><b>Learn Shaders★</b></a></li> 
-         <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
-         <li> <a href="https://inspirnathan.com/topics/shaders"><b>Shaders 101</b></a></li> 
-         <li> <a href="https://github.com/gtibo/VFX-sketchbook-Godot-4.x?tab=readme-ov-file"><b>VFX sketchbook</b></a></li> 
-         <li> <a href="https://www.masayume.it/blog9/web/content/shader-introduction"><b>Shaders Intro</b></a></li> 
-         <li> <a href="https://thebookofshaders.com/">book of shaders</a></li> 
-         <li> <a href="https://github.com/patriciogonzalezvivo/thebookofshaders">github</a> - <a href="http://tor.thebookofshaders.com/">editor</a> </li>
-
-         <li> <a href="https://www.shadertoy.com/"><b>shadertoy ★</b></a></li> 
-         <li> <a href="https://www.sleditor.com/#id=1woyjcot9"><b>sleditor ★</b></a></li> 
-         <li> <a href="https://twigl.app/"><b>Twigl</b></a> 
-              <a href="https://codesandbox.io/p/sandbox/hydra-shader-9ru5hj"><b>hydra</b></a> </li> 
-
-         <li> <details>
-                <summary><strong><b>SHADER AUTHORS ⬇️</b></strong></summary> 
-                <p>
-                  <ul>
-                    <li> <a href="https://livellosegreto.it/@diatribes@mastodon.social"><b>diatribes★</b></a></li> 
-                  </ul>
-                </p>
-              </details>
-          </li>  
+        <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
+        <li> <a href="https://awesomerank.github.io/lists/Calinou/awesome-godot.html"><b>open godot projects ★</b></a> </li>
+        <li> <a href="https://dev.to/github/top-five-godot-games-and-source-code-from-game-off-2022-3690"><b>game off 2022</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/godot/"><b>Reddit Godot</b></a> </li>
+        <li> <a href="https://dev.to/t/godot"><b>dev.to godot</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/madeWithGodot/"><b>R madeWithGodot</b></a> </li>
+        <li> <a href="https://www.reddit.com/t/gdscript/"><b>GDscript</b></a> 
+             <a href="https://dev.to/t/gdscript"><b>@dev.to</b></a> </li>
+        <li> <a href="https://www.reddit.com/r/gamedev/"><b>Reddit gamedev</b></a> </li>
+        <li> <a href="https://livellosegreto.it/tags/godotengine"><b>#godotengine</b></a> </li>
       </ul>
+
+    </details>
+
+    <details>
+      <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> 
+      <ul>
+        <li> <a href="https://livellosegreto.it/tags/godot"><b>livellosegreto★</b></a> </li>
+        <li> <a href="https://livellosegreto.it/@godotengine@mastodon.gamedev.place"><b>godotengine</b></a> </li>
+      </ul>
+
+    </details>
+    
+    <details>
+      <summary><strong><h4><b>TUNING ⬇️</b></h4></strong></summary> 
+      <ul>
+        <li> <a href="https://www.masayume.it/blog9/web/content/optimize-tuning" target="_blank"><b>Optimization ★</b></a> </li>
+      </ul>
+
     </details>
 
     <details>
@@ -309,23 +361,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
 
-    <details>
-      <summary><strong><h4><b>TUNING ⬇️</b></h4></strong></summary> 
-      <ul>
-        <li> <a href="https://www.masayume.it/blog9/web/content/optimize-tuning" target="_blank"><b>Optimization ★</b></a> </li>
-      </ul>
-
-    </details>
 
 
-    <details>
-      <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> 
-      <ul>
-        <li> <a href="https://livellosegreto.it/tags/godot"><b>livellosegreto★</b></a> </li>
-        <li> <a href="https://livellosegreto.it/@godotengine@mastodon.gamedev.place"><b>godotengine</b></a> </li>
-      </ul>
 
-    </details>
 
 
     <h4>MUSIC & SOUND</h4> <!-- also in MUSIC -->
