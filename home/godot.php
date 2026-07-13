@@ -102,15 +102,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
             <ul>
               <li> <a href="/godot/solomon.php"><b>Solomon's Key★</b></a> </li>
               <li> <a href="/godot/HERO.php"><b>H.E.R.O.</b></a> </li>
-              <li> <a href="/godot/HERO.php"><b>Bomb Jack</b></a> </li>
+              <li> <a href="/godot/bombjack.php"><b>Bomb Jack</b></a> </li>
               <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a> </li>  
               <li> <a href="/godot/pengo.php"><b>Pengo</b></a> </li>  
+              <li> <a href="/godot/missionimpossible.php"><b>Mission Impossible</b></a> </li>  
             </ul>
           </details>
 
           <details>
             <summary><strong><h4><b>Star Force ⬇️</b></h4></strong></summary> 
             <ul>
+              <li> <a href="/godot/demonattack.php"><b>Demon Attack★</b></a> </li>
               <li> <a href="/godot/starforce.php"><b>Star Force★</b></a> </li>
             </ul>
           </details>

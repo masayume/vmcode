@@ -391,10 +391,33 @@
           <summary><strong><b>PROJECTS ⬇️⬇️⬇️</b></strong></summary> 
             <p>
               <ul>
+                <li> <a href="/godot/solomon.php" title="Godot Solomon Key" target="_blank"><b>Solomon's Key</b></a> </li>
+                <li> <a href="/godot/starforce.php" title="Godot Star Force" target="_blank"><b>Star Force</b></a> </li>
+                <li> <a href="/HTML5/holden/index.php?art1=180&art2=210" title="Malika Favre + Bitartbot" target="_blank"><b>MalikaBitBot</b></a> </li>
                 <li> <a href="/HTML5/holden/index.php?art1=200&art2=200" title="philosophers battle link Magic" target="_blank"><b>philosofight</b></a> </li>
               </ul>
             </p>  
     </details>
+
+    <details>
+          <summary><strong><b>PROJECTS done⬇️</b></strong></summary> 
+            <p>
+              <ul>
+                <li> <a href="/nihongo/random-kanji-flashcards/kanjipage.php">Kanji Cards</a></li>
+                <li> <a href="/cgi-bin/overlayer.php?theme=fantasy">overlayer</a></li>
+                <li> <a href="/demon/overlayer/overlayer.infogen.txt">info</a></li>
+                <li> <a href="https://dev.to/devdefinitive/33-github-projects-i-have-bookmarked-and-you-should-298o" target="_blank">33 OS projects</a> </li>  </li>  
+                <li> <a href="/HTML5/taktix/">Oblique Taktix</a> </li>
+                <li> <a href="/inspire/@CARTOONS/SIO/bin/sio.php"><b>siomixbot</b></a> </a></li>
+                <li> <a href="/mersenne/mersenne.php?seed=100&page=8&results=1&atype=uchidapixel"><b>uchidapixel</b></a> </li>
+                <li> <a href="/html5/isotope/muuri-demo/muuri-demo.htm">muuri TOOLS</a></li>
+                <li> <a href="/oglaf.php">Oglaf RND comic</a> </li>
+                <li> <a href="/rory.php">rory story cubes</a> </li>
+                <li> <a href="/HTML5/holden/index.php?art1=182&art2=182"><b>tarot jodorovski</b></a> </li>
+              </ul>
+            </p>  
+    </details>
+
 
     <details>
           <summary><strong><b>RADIO/MUSIC ⬇️</b></strong></summary> 
