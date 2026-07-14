@@ -37,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <?php
         $ai_dirs    = array('inspire/@COVERS/BookCovers/Godot/', 'inspire/@COVERS/BookCovers/Wireframe-magazine/', 
                             'inspire/PROJECTS/algorithm-reference/', 'inspire/@2pin/2pin_CBG/', 
-                            'inspire/@COVERS/BookCovers/Edge-magazine/');
+                            'inspire/@COVERS/BookCovers/Edge-magazine/', 'inspire/PROJECTS/gdscript-cheatsheets/');
         $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
         // echo "directory: $directory";
         $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp,pdf}', GLOB_BRACE);
@@ -46,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
         echo "      <img src=\"" . $imagefile . "\" title=\"$imagefile\" width=\"360\">";
 
       ?>
-      <div class="overlay-text">Godot,Wireframe,Edge,algorithms,CBG</div>
+      <div class="overlay-text">Godot,Wireframe,Edge,algorithms,CBG,GDscript</div>
     </div>
 
 
@@ -203,6 +203,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
       <summary><strong><h4><b>GODOT DOCS ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://docs.godotengine.org/en/stable/classes/index.html"><b>godot DOCS ★</b></a> </li>
+        <li> <a href="https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html"><b>GDscript reference★</b></a> </li>
       </ul>
     </details>
 
@@ -303,6 +304,19 @@ Stylized Fire Shader
 
     </details>
 
+
+    <details>
+      <summary><strong><h4><b>FORUM ⬇️</b></h4></strong></summary> 
+      <ul>
+        <li> <a href="https://forum.godotengine.org/latest"><b>Latest</b></a> </li>
+        <li> <a href="https://forum.godotengine.org/c/showcase/14"><b>Showcase</b></a> </li>
+        <li> <a href="https://forum.godotengine.org/c/resources/19"><b>Resources</b></a> </li>
+        <li> <a href="https://forum.godotengine.org/c/general/4"><b>General</b></a> </li>
+      </ul>
+
+    </details>
+
+
     <details>
       <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> 
       <ul>
@@ -384,45 +398,6 @@ Stylized Fire Shader
       <!-- <li> <a href="/unity.php">on unity page</a></li> -->
     </ul>
 
-    <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
-    <details>
-      <summary><strong><b>DIFFUSION MODELS ⬇️</b></strong></summary> 
-      <p>
-        <ul>
-          <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
-          <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
-          <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li> 
-          <li> <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifu diffusion ★★</b></a></li>
-          <li> <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGANv2 ★</b></a></li>
-          <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stablediffusion 🤗★</b></a>
-               <a href="https://stablediffusionweb.com/"><b>site</b></a></li>
-          <li> <a href="https://twitter.com/hashtag/stablediffusion"><b>#stablediffusion★</b></a></li>  
-          <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a>
-               <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a></li>  
-          <li><a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a></li>
-          <li> <a href="https://weirdwonderfulai.art/"><b>Weird Wonderful AI</b></a> </li>
-          <li> <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Stable Diffusion ★</b></a> </li>
-          <li> <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diffusion ★</b></a> </li>    
-          <li><a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
-          <li><a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a></li>
-          <li><a href="https://www.reddit.com/r/deepdream/"><b>Red.Deepdream</b></a></li>
-          <li><a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
-              <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
-              <a href="https://twitter.com/snecc_art/media">snecc</a></li>
-          <li><a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
-              <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
-          <li><a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
-          <li><a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
-              <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
-          <li><a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
-              <a href="https://twitter.com/inigma_a/media">AInigma</a>
-              <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
-          <li><a href="https://twitter.com/noir_random/media">noirndom</a>
-              <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
-          <li><a href="https://twitter.com/magnasoma/media">magnasoma</a></li>
-        </ul>
-      </p>
-    </details>
 
   </div>
   
@@ -461,7 +436,52 @@ Stylized Fire Shader
         <li> <a href="/godot/systemic_game_design.infogen.txt" title="systemic game design principles"><b>SYSTEMS</b></a> </li> 
       </ul>
 
+    <!-- https://dev.to/whitep4nth3r/how-to-build-an-html-only-accordion-no-javascript-required-4jc4 -->
+    <details>
+      <summary><strong><b>DIFF.MODELS ⬇️</b></strong></summary> 
+      <p>
+        <ul>
+          <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
+          <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
+          <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li> 
+          <li> <a href="https://huggingface.co/hakurei/waifu-diffusion"><b>waifu diffusion ★★</b></a></li>
+          <li> <a href="https://huggingface.co/spaces/akhaliq/AnimeGANv2"><b>AnimeGANv2 ★</b></a></li>
+          <li> <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion"><b>stablediffusion 🤗★</b></a>
+               <a href="https://stablediffusionweb.com/"><b>site</b></a></li>
+          <li> <a href="https://twitter.com/hashtag/stablediffusion"><b>#stablediffusion★</b></a></li>  
+          <li> <a href="https://twitter.com/hashtag/NovelAIDiffusion?src=hashtag_click&f=live"><b>#NovelAIDiff★</b></a>
+               <a href="https://twitter.com/hashtag/NovelAI?src=hashtag_click&f=live"><b>#NovelAI★</b></a></li>  
+          <li><a href="https://discord.com/channels/662267976984297473/989268365870776411"><b>midjourney</b></a></a></li>
+          <li> <a href="https://weirdwonderfulai.art/"><b>Weird Wonderful AI</b></a> </li>
+          <li> <a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb"><b>Stable Diffusion ★</b></a> </li>
+          <li> <a href="https://www.masayume.it/blog/content/disco-diffusion-google-colab"><b>Disco Diffusion ★</b></a> </li>    
+          <li><a href="https://twitter.com/search?q=discodiffusion%20min_faves%3A20&src=typed_query&f=top"><b>discodiffusion ADVQ ■★</b></a></li>
+          <li><a href="https://twitter.com/nin_artificial/media"><b>nin_artificial</b></a></li>
+          <li><a href="https://www.reddit.com/r/deepdream/"><b>Red.Deepdream</b></a></li>
+          <li><a href="https://twitter.com/GlennIsZen/media"><b>GlennIsZen</b></a>
+              <a href="https://twitter.com/nvnot_/media"><b>NVnot</b></a>
+              <a href="https://twitter.com/snecc_art/media">snecc</a></li>
+          <li><a href="https://twitter.com/ganbrood/media"><b>ganbrood</b></a>
+              <a href="https://twitter.com/Somnai_dreams/media"><b>Somnaidrms</b></a></li>
+          <li><a href="https://twitter.com/romanguillermo_/media"><b>romanguillermo</b></a></li>
+          <li><a href="https://twitter.com/EErratica/media"><b>EncyclErratica</b></a>
+              <a href="https://twitter.com/NekroXIII/media"><b>NecroXIII</b></a></li>
+          <li><a href="https://twitter.com/JvdeNft/media">JvdeNft</a>
+              <a href="https://twitter.com/inigma_a/media">AInigma</a>
+              <a href="https://twitter.com/thibaudz/media">Thibaudz</a></li>
+          <li><a href="https://twitter.com/noir_random/media">noirndom</a>
+              <a href="https://twitter.com/EmporiumLoris/media">LorisEmporium</a></li>
+          <li><a href="https://twitter.com/magnasoma/media">magnasoma</a></li>
+        </ul>
+      </p>
+    </details>
+
+
+
+
+
   </div>
+
 
 
 
