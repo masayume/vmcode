@@ -126,7 +126,7 @@ function pagenewtemp($dir, $tag) {
     {    
       $exploded = explode('-', $twitterRaw2);
       // print "<pre>"; print_r($exploded) ;
-      $twitterRaw3 = "<b>tumblr:</b> <a href='https://www.tumblr.com/" . $exploded[1] . "' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
+      $twitterRaw3 = "<b>tumblr:</b> <a href='https://" . $exploded[1] . ".tumblr.com/' target='_blank' title='" . $file . "'> " . $exploded[1] . "</a>";
     }
 
     elseif (preg_match('/^st-/', $twitterRaw2) )  // calculate SHADERTOY link (shadertoy.com/view/wXSfzK)
