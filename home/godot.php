@@ -117,6 +117,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
             </ul>
           </details>
 
+          <details>
+            <summary><strong><h4><b>Ghosts'n Goblins⬇️</b></h4></strong></summary> 
+            <ul>
+              <li> <a href="/godot/gng.php"><b>page★</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-ghosts_n_goblins-1984.htm"><b>arcade★</b></a> </li>
+            </ul>
+          </details>
 
       </ul>
 
@@ -419,12 +426,14 @@ Stylized Fire Shader
       <div class="overlay-text">retrocovers</div>
     </div>
 
+<!--
     <h4>ONGOING</h4>
       <ul>
         <li> <a href="https://bitbucket.org/radicalbit/slalom2020/commits/"><b>Slalom 2020</b></a> -
              <a href="https://bitbucket.org/radicalbit/keplerion/commits/"><b>Keplerion</b></a> -
              <a href="https://bitbucket.org/radicalbit/solomon/commits/"><b>Solomon's World</b></a></li> 
       </ul>
+-->
 
   </div>
 

@@ -75,7 +75,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>PROJECT</h4>
       <ul> 
-        <li> <a href="/HTML5/emulatorjs/starforce-1994.html" title="PLAY Star Force local emulation via emulatorjs"><b>Arcade✨</b></a>
+        <li> <a href="/HTML5/emulatorjs/zzz-starforce-1984.htm" title="PLAY Star Force local emulation via emulatorjs"><b>Arcade✨</b></a>
              <a href="https://playeretro.com/play/starforc3" title="Star Force"><b>Remote</b></a>  
              <a href="https://www.retrogames.cz/play_113-NES.php" title="Star Force"><b>NES</b></a> </li> 
 

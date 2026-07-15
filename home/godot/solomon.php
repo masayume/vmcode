@@ -75,7 +75,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <h4>PROJECT</h4>
       <ul> 
-        <li> <a href="/godot/solomon/arcade.htm" title="Solomon's Key local emulation via emulatorjs"><b>Arcade✨</b></a>
+        <li> <a href="/HTML5/emulatorjs/zzz-solomons_key-1986.htm" title="Solomon's Key local emulation via emulatorjs"><b>Arcade✨</b></a>
+             <a href="/godot/solomon/arcade.htm" title="Solomon's Key local emulation via emulatorjs"><b>Arcade✨</b></a>
              <a href="https://www.retrogames.cc/arcade-games/solomons-key-us.html" title="Solomon's Key"><b>Remote</b></a>  
              <a href="https://freebie.games/games/solomons-key/play/" title="Solomon's Key"><b>SMS</b></a> </li> 
         <li> <a href="file:///home/masayume/DATA/E/PROJECTS/GODOT/MY_PROJECTS/godot-solomon/"><b>DOLPHIN: project dir</b></a> </li> 
