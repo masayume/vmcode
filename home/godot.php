@@ -100,20 +100,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
           <details>
             <summary><strong><h4><b>Solomon ⬇️</b></h4></strong></summary> 
             <ul>
-              <li> <a href="/godot/solomon.php"><b>Solomon's Key★</b></a> </li>
-              <li> <a href="/godot/HERO.php"><b>H.E.R.O.</b></a> </li>
-              <li> <a href="/godot/bombjack.php"><b>Bomb Jack</b></a> </li>
-              <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a> </li>  
-              <li> <a href="/godot/pengo.php"><b>Pengo</b></a> </li>  
-              <li> <a href="/godot/missionimpossible.php"><b>Mission Impossible</b></a> </li>  
+              <li> <a href="/godot/solomon.php"><b>Solomon's Key★</b></a>
+                   <a href="/HTML5/emulatorjs/zzz-solomons_key-1986.htm"><b>🎮</b></a> </li>
+              <li> <a href="/godot/HERO.php"><b>H.E.R.O.</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-hero-1982.htm"><b>🎮</b></a> </li>
+              <li> <a href="/godot/bombjack.php"><b>Bomb Jack</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-bombjack-1984.htm"><b>🎮</b></a> </li>
+              <li> <a href="/godot/pacman.php"><b>Pac-Man</b></a>
+                   <a href="/HTML5/emulatorjs/zzz-pacman-1980.htm"><b>🎮</b></a> </li>                
+              <li> <a href="/godot/pengo.php"><b>Pengo</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-pengo-1981.htm"><b>🎮</b></a> </li>
+              <li> <a href="/godot/missionimpossible.php"><b>Mission Impossible</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-mission_impossible-1984.htm"><b>🎮</b></a> </li>
             </ul>
           </details>
 
           <details>
             <summary><strong><h4><b>Star Force ⬇️</b></h4></strong></summary> 
             <ul>
-              <li> <a href="/godot/demonattack.php"><b>Demon Attack★</b></a> </li>
-              <li> <a href="/godot/starforce.php"><b>Star Force★</b></a> </li>
+              <li> <a href="/godot/demonattack.php"><b>Demon Attack★</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-demonattack-1982.htm"><b>🎮</b></a> </li>
+              <li> <a href="/godot/starforce.php"><b>Star Force★</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-starforce-1984.htm"><b>🎮</b></a> </li>
             </ul>
           </details>
 
