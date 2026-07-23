@@ -56,10 +56,6 @@
 
     </ul>
 
-    <h4>Hardware</h4>
-      <ul>
-        <li> <a href="https://retrofixer.it/en/mister-fpga/"><b>Retrofixer</b></a> 
-      </ul>
 
   </div>
 
@@ -165,13 +161,19 @@
   
   <div class="_exa">
 
-  <h4>MiSTer FPGA</h4>
-    <ul>
-      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/"><b>Documentation</b></a> 
-      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/hotkey/"><b>Hotkeys</b></a> 
-      <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/input/"><b>Controllers</b></a>  
+    <h4>MiSTer FPGA</h4>
+      <ul>
+        <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/"><b>Documentation</b></a> 
+        <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/hotkey/"><b>Hotkeys</b></a> 
+        <li> <a href="https://mister-devel.github.io/MkDocs_MiSTer/basics/input/"><b>Controllers</b></a>  
 
-    </ul>
+      </ul>
+
+
+    <h4>Software</h4>
+      <ul>
+        <li> <a href="https://mistercompanion.org/"><b>MrCompanion★</b></a> 
+      </ul>
 
     <h4>Hardware</h4>
       <ul>
