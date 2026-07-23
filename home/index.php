@@ -294,6 +294,8 @@
       <ul>
         <li> <a href="https://book.sv/"><b>Book.sv</b></a>
              <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
+        <li> <a href="https://tikz.dev/editor/" title="TikZ Latex Grah editor"><b>TikZ</b></a>
+             <a href="https://www.gingersoftware.com/grammarcheck"><b>grammarcheck</b></a> </li>
       </ul>
 
       <h4>CRITIC</h4>
