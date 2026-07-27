@@ -93,6 +93,7 @@
            <a href="/HTML5/holden/index.php?art1=231&art2=231" title="holden PSYCHOLOGY"><b>Psy</b></a> 
            <a href="/HTML5/holden/index.php?art1=233&art2=233" title="holden Style"><b>Style</b></a>
            <a href="/HTML5/holden/index.php?art1=234&art2=234" title="Projects to MAKE !!!"><b>MAKE!</b></a> </li>
+      <li> <a href="/HTML5/holden/index.php?art1=232&art2=232" title="Palette"><b>Palette</b></a> </li>
 
     </ul>
 

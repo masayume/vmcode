@@ -112,6 +112,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
                    <a href="/HTML5/emulatorjs/zzz-pengo-1981.htm"><b>🎮</b></a> </li>
               <li> <a href="/godot/missionimpossible.php"><b>Mission Impossible</b></a> 
                    <a href="/HTML5/emulatorjs/zzz-mission_impossible-1984.htm"><b>🎮</b></a> </li>
+              <li> <a href="/godot/mrdo.php"><b>Mr.Do!</b></a> 
+                   <a href="/HTML5/emulatorjs/zzz-mr_do-1982.htm"><b>🎮</b></a> </li>
             </ul>
           </details>
 
@@ -331,6 +333,13 @@ Stylized Fire Shader
 
     </details>
 
+    <details>
+      <summary><strong><h4><b>GUI ⬇️</b></h4></strong></summary> 
+      <ul>
+        <li> <a href="https://namethatui.com/"><b>Nomenclature★</b></a> </li>
+      </ul>
+    </details>
+
 
     <details>
       <summary><strong><h4><b>SOCIAL ⬇️</b></h4></strong></summary> 
@@ -391,28 +400,25 @@ Stylized Fire Shader
       </ul>
     </details>
 
+    <details>
+      <summary><strong><h4><b>MUSIC & SOUND ⬇️</b></h4></strong></summary> 
+      <ul>
 
+        <li> <a href="https://www.bfxr.net/"><b>Bfxr</b></a> 
+             <a href="https://tenacity.readthedocs.io/en/latest/"><b>Tenacity</b></a>  
+             <a href="https://wavacity.com/"><b>Wavacity</b></a>  </li>
+        <li> <a href="https://www.zophar.net/music"><b>101BOARDS</b>🔥</a>  </li>
+        <li> <a href="https://www.zophar.net/music"><b>ZOPHAR</b>🔥</a> 
+             <a href="https://vgmrips.net/packs/"><b>VGMRIPS</b>🔥</a></li>
+        <li> <a href="https://downloads.khinsider.com/game-soundtracks"><b>KHINSIDER</b>🔥</a> 
+             <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask</b></a></li> 
+        <li> <a href="https://castpixel.itch.io/animevox">animevox ★</a></li> 
+        <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
+        <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
+        <!-- <li> <a href="/unity.php">on unity page</a></li> -->
 
-
-
-
-
-    <h4>MUSIC & SOUND</h4> <!-- also in MUSIC -->
-    <ul>
-      <li> <a href="https://www.bfxr.net/"><b>Bfxr</b></a> 
-           <a href="https://tenacity.readthedocs.io/en/latest/"><b>Tenacity</b></a>  
-           <a href="https://wavacity.com/"><b>Wavacity</b></a>  </li>
-      <li> <a href="https://www.zophar.net/music"><b>101BOARDS</b>🔥</a>  </li>
-      <li> <a href="https://www.zophar.net/music"><b>ZOPHAR</b>🔥</a> 
-           <a href="https://vgmrips.net/packs/"><b>VGMRIPS</b>🔥</a></li>
-      <li> <a href="https://downloads.khinsider.com/game-soundtracks"><b>KHINSIDER</b>🔥</a> 
-           <a href="https://www.masayume.it/blog/content/deflemask"><b>deflemask</b></a></li> 
-      <li> <a href="https://castpixel.itch.io/animevox">animevox ★</a></li> 
-      <li> <a href="https://www.sounds-resource.com/"><b>sounds resource ★</b></a> </a></li>
-      <li> <a href="https://elevenlabs.io/sound-effects"><b>elevenlabs ★★</b></a> </li>
-      <!-- <li> <a href="/unity.php">on unity page</a></li> -->
-    </ul>
-
+      </ul>
+    </details>
 
   </div>
   
