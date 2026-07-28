@@ -423,6 +423,18 @@
             </p>  
     </details>
 
+    <details>
+      <summary><strong><b>DOWNLOADERS ⬇️</b></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://fdown.net/download.php" title="facebook downloader"><b>FDown</b></a> 
+            <li> <a href="URL"><b>Text</b></a> 
+            <li> <a href="URL"><b>Text</b></a> 
+            <li> <a href="URL"><b>Text</b></a> 
+          </ul>
+        </p>  
+    </details>
+
 
     <details>
           <summary><strong><b>RADIO/MUSIC ⬇️</b></strong></summary> 
