@@ -583,7 +583,8 @@
             <li><a href="https://watabou.itch.io/cave-generator" target="_blank">cave gen.</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/procgen-mansion" target="_blank">mansion gen.</a> (onl.)</li>
             <li><a href="https://watabou.itch.io/one-page-dungeon" target="_blank">1 page dungeon</a> (onl.)</li>
-            <li><a href="https://watabou.itch.io/sigil-generator" target="_blank">sigils</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/sigil-generator" target="_blank">Sigils</a> (onl.)</li>
+            <li><a href="https://watabou.itch.io/rune-generator" target="_blank">Runes</a> (onl.)</li>
           </ul>
         </p>
       </details>
