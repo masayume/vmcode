@@ -173,6 +173,7 @@
     <h4>Software</h4>
       <ul>
         <li> <a href="https://mistercompanion.org/"><b>MrCompanion★</b></a> 
+        <li> <a href="https://readonlymemo.com/the-mister-console-mode-is-finally-here-and-its-every-bit-the-ui-i-hoped-it-would-be/"><b>Mr Console★</b></a> 
       </ul>
 
     <h4>Hardware</h4>
