@@ -270,15 +270,17 @@
   
   <div class="_exa">
 
-    <h4>SEARCH</h4>
+    <h4>SEARCH</h4>   
       <ul>
+        <li>  <a href="https://www.perplexity.ai/"><b>Perplexity★</b></a> 
+              <a href="https://kagi.com/"><b>KAGI★</b></a> </li>
         <li>  <a href="https://internet.io/search"><b>internet.io</b></a> 
               <a href="https://www.matthewsiu.com/pathfinder?utm_source=masayume.it"><b>pathfinder</b></a> </li>
         <li>  <a href="https://duckduckgo.com"><b>Duck<sup>2</sup>go</b></a>
               <a href="https://clippy.kenobit.it/"><b>Clippy</b></a> 
               <a href="https://12ft.io/"><b>12FT</b></a> </li>
         <li>  <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
-              <a href="https://www.perplexity.ai/"><b>Perplexity</b></a>
+              
               <a href="https://en.app/"><b>Books</b></a> </li>
         <li>  <a href="https://ukdataexplorer.com/european-translator/?word=thanks"><b>EUWords★</b></a> 
               <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
@@ -292,19 +294,17 @@
 
       </ul>
 
-      <h4>BOOKS/TEXT</h4>
+      <h4>WRITE</h4>
       <ul>
-        <li> <a href="https://book.sv/"><b>Book.sv</b></a>
+        <li> <a href="https://notebook.google.com/"><b>NotebookLM★</b></a>
+             <a href="https://wondertools.substack.com/p/notebooklm-the-complete-guide"><b>Guide</b></a> </li>
+        <li> <a href="https://kraa.io/"><b>Kraa★</b></a>
              <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
+        <li> <a href="https://browsernotes.xyz/"><b>Browser Notes★</b></a> </li>
         <li> <a href="https://tikz.dev/editor/" title="TikZ Latex Grah editor"><b>TikZ</b></a>
              <a href="https://www.gingersoftware.com/grammarcheck"><b>grammarcheck</b></a> </li>
       </ul>
 
-      <h4>CRITIC</h4>
-      <ul>
-        <li> <a href="https://glitchwave.com/"><b>Glitchwave</b></a>
-            <a href="https://opencritic.com/"><b>OpenCr.</b></a> </li>
-      </ul>
 
       <h4>TEXT/EDITORS</h4>
       <ul>
@@ -353,6 +353,7 @@
       <div class="overlay-text">my,Kento_Iida,Style,9000,Butch</div>
     </div>
 
+<!--
     <br />
       <h4>PROJECTS done</h4>
           <ul>
@@ -370,7 +371,7 @@
                  <a href="/HTML5/holden/index.php?art1=182&art2=182"><b>tarot jodorovski</b></a> </li>
                  
           </ul>
-
+-->
           
   </div>
 
@@ -534,10 +535,23 @@
         <li> <a href="netflix.htm">netflix codes</a> </li>
       </ul>
     
-
     <h4>ICONS</h4>
       <ul>
         <li> <a href="https://griddyicons.com/"><b>griddyicons</b></a> </li>
+      </ul>
+
+    <h4>BOOKS</h4>
+      <ul>
+        <li> <a href="https://book.sv/"><b>Book.sv</b></a> </li>
+      </ul>
+
+
+    <h4>CRITIC</h4>
+      <ul>
+        <li> <a href="https://glitchwave.com/"><b>Glitchwave</b></a>
+            <a href="https://opencritic.com/"><b>OpenCr.</b></a> </li>
+      </ul>
+
 
   </div>
 
