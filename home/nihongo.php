@@ -240,6 +240,17 @@
 
     <h4>KANJI</h4>
     <ul>
+      <li>
+        <details>
+          <summary><b>Unforgettable Kanji ⬇️</b></summary> <!-- "Unforgettable Kanji" BOOK -->
+            <p>
+              <ul>
+                <li> <a href="https://www3.nhk.or.jp/news/easy/" ><b>NHK news easy ★</b> </a> </li>
+                <li> <a href="file:///DATA/E/PROJECTS/BOOKS2WRITE/unforgettable-kanji/" onclick="copyPath(); return false;" title="/DATA/E/PROJECTS/BOOKS2WRITE/unforgettable-kanji/"><b>Work DIR</b></a> </li>
+              </ul>            
+            </p>
+        </details>
+      </li>
       <li> <a href="https://en.wikipedia.org/wiki/Kangxi_radicals"><b>Kangxi Radicals ★</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=219&art2=219"><b>holden kanji</b></a>
       <li> <a href="/HTML5/holden/index.php?art1=183&art2=183"><b>holden shodo</b></a>
