@@ -97,12 +97,6 @@
 
     </ul>
 
-    <h4>BUY</h4>
-      <ul>
-        <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
-             <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
-      </ul>
-
   </div>
 
 
@@ -116,6 +110,7 @@
             <li> <a href="https://livellosegreto.it/@hn250@social.lansky.name" target="_blank"><b>HackerNews250★</b></a>
             <li> <a href="https://gwern.net/turing-complete" target="_blank"><b>Gwern ★</b></a>
             <li> <a href="https://loadingpleasewait.substack.com/" target="_blank" title="Valentina Tanni"><b>Loading★</b></a>
+            <li> <a href="https://www.theguardian.com/profile/marinahyde" target="_blank">Marina Hyde</a> </li>
           </ul>
         </p>
     </details>
@@ -172,23 +167,6 @@
             </ul>
           </p>
     </details>
-
-
-    <h4> ~ 2READ ~ </h4>
-    <details>
-      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
-        <p>
-          <ul>
-            <li> <a href="https://www.theguardian.com/profile/marinahyde" target="_blank">Marina Hyde</a> </li>
-            <!--
-            <li> <a href="LINK" target="_blank">hackernoon</a> </li>
-            -->
-
-          </ul>
-        </p>
-    </details>
-
-
   
     <h4>graph sources</h4>
       <ul>
@@ -248,22 +226,6 @@
           <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
 
-      <h4>ISOTOPE</h4>
-        <ul>
-          <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
-              <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
-              <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
-          <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
-               <a href="/html5/isotope/isotope-media/"><b>MEDIA</b></a> </li>
-          <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> 
-               <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> 
-               <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-          <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> 
-               <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li></li>
-          <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
-          <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
-        </ul>
-
   </div>
 
 
@@ -294,43 +256,100 @@
 
       </ul>
 
-      <h4>WRITE</h4>
-      <ul>
-        <li> <a href="https://notebook.google.com/"><b>NotebookLM★</b></a>
-             <a href="https://wondertools.substack.com/p/notebooklm-the-complete-guide"><b>Guide</b></a> </li>
-        <li> <a href="https://kraa.io/"><b>Kraa★</b></a>
-             <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
-        <li> <a href="https://browsernotes.xyz/"><b>Browser Notes★</b></a> </li>
-        <li> <a href="https://tikz.dev/editor/" title="TikZ Latex Grah editor"><b>TikZ</b></a>
-             <a href="https://www.gingersoftware.com/grammarcheck"><b>grammarcheck</b></a> </li>
-      </ul>
+      <details>
+        <summary><strong><h4>WRITE ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li> <a href="https://notebook.google.com/"><b>NotebookLM★</b></a>
+                   <a href="https://wondertools.substack.com/p/notebooklm-the-complete-guide"><b>Guide</b></a> </li>
+              <li> <a href="https://kraa.io/"><b>Kraa★</b></a>
+                   <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
+              <li> <a href="https://browsernotes.xyz/"><b>Browser Notes★</b></a> </li>
+              <li> <a href="https://tikz.dev/editor/" title="TikZ Latex Grah editor"><b>TikZ</b></a>
+                   <a href="https://www.gingersoftware.com/grammarcheck"><b>grammarcheck</b></a> </li>
+            </ul>
+          </p>
+      </details>
 
+      <details>
+        <summary><strong><h4>WORDS ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li> <a href="https://sfmqrb.github.io/rishe/" title="farsi etimology" target="_blank">rishe</a> </li>
+              <!--
+              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+              -->
+            </ul>
+          </p>
+      </details>
 
-      <h4>TEXT/EDITORS</h4>
-      <ul>
-        <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
-            <a href="https://products.aspose.app/words/editor/rtf"><b>Aspose</b></a> </li>
-        <li><a href="https://docs.google.com"><b>GoogleDocs</b></a> 
-            <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
-        <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
-            <a href="https://codepen.io/wavebeem/pen/JoRPQOj"><b>CRT FX ★</b></a> </li>
-      </ul>
+      <details>
+        <summary><strong><h4>TEXT/EDITORS ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
+                  <a href="https://products.aspose.app/words/editor/rtf"><b>Aspose</b></a> </li>
+              <li><a href="https://docs.google.com"><b>GoogleDocs</b></a> 
+                  <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
+              <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
+                  <a href="https://codepen.io/wavebeem/pen/JoRPQOj"><b>CRT FX ★</b></a> </li>
+            </ul>
+          </p>
+      </details>
 
-    <h4>AI</h4>
-      <ul>
-        <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
-             <a href="https://perplexity.ai/"><b>Perplexity</b></a> </li>
-        <li> <a href="https://notebooklm.google.com/"><b>NotebookLM</b></a> 
-             <a href="https://pickvocab.com/app/dictionary" title="pickvocab dictionary"><b>Words</b></a> </li>
-        <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
-             <a href="https://www.kimi.com/"><b>Kimi</b></a> 
-             <a href="https://claude.ai/"><b>Claude</b></a> </li>
-<!--
-             <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
--->             
-      </ul>
+      <details>
+        <summary><strong><h4>AI ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li> <a href="https://openai.com/chatgpt"><b>chatGPT</b></a> 
+                   <a href="https://perplexity.ai/"><b>Perplexity</b></a> </li>
+              <li> <a href="https://notebooklm.google.com/"><b>NotebookLM</b></a> 
+                   <a href="https://pickvocab.com/app/dictionary" title="pickvocab dictionary"><b>Words</b></a> </li>
+              <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
+                   <a href="https://www.kimi.com/"><b>Kimi</b></a> 
+                   <a href="https://claude.ai/"><b>Claude</b></a> </li>
+      <!--
+                   <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
+      -->
+            </ul>
+          </p>
+      </details>
 
+      <details>
+        <summary><strong><h4>ISOTOPE ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
+                  <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
+                  <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
+              <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
+                   <a href="/html5/isotope/isotope-media/"><b>MEDIA</b></a> </li>
+              <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> 
+                   <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> 
+                   <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
+              <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> 
+                   <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li></li>
+              <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
+              <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
+            </ul>
+          </p>
+      </details>
 
+      <details>
+        <summary><strong><h4>BUY ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+
+            <ul>
+              <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
+                   <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
+            </ul>
+
+          </p>
+      </details>
 
 </div>
 
@@ -564,33 +583,42 @@
         <li> <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
       </ul>
-    
-      <h4>Artists</h4>
+
+
+      <h4>ARTISTS</h4>
         <ul>
           <li> <a href="inspire.php" target="_blank"><b>INSPIRE page</b></a> </li>
-
-          <li><a href="/HTML5/holden/index.php">Holden</a>,<a href="/HTML5/holden/index.php?art=1">Altan</a></li>    
-          <li><a href="/HTML5/holden/index.php?art=2">expressions</a></li>
-          <li><a href="/HTML5/holden/index.php?art=3"><b>Niemann</b></a>
-              <a href="/HTML5/holden/index.php?art=bambinaFilosofica">Vinci</a></li>
+          <li><a href="/HTML5/holden/index.php?art=3"><b>Niemann</b></a> </li>
           <li><a href="/HTML5/holden/index.php?art=Alan%20Davis">Davis</a>,<a href="/HTML5/holden/index.php?art=arthurdepins">De Pins</a></li>    
-          <li><a href="/HTML5/holden/index.php?art=azumanga">Azuma</a>,<a href="/HTML5/holden/index.php?art=azumabacks">Backs</a></li>    
           <li><a href="/HTML5/holden/index.php?art=BALDAZZINI">BALDAZZINI</a></li>    
           <li><a href="/HTML5/holden/index.php?art=BUTCHERBILLY">BUTCH★</a>
-              <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a></li>
-          <li><a href="/HTML5/holden/index.php?art=bayonetta">Bayonetta</a></li>    
-          <li><a href="/HTML5/holden/index.php?art=ciia%20chhuying">Ciia</a>,<a href="/HTML5/holden/index.php?art=Craig%20Drake">Drake</a></li>    
-          <li><a href="/HTML5/holden/index.php?art=DCWJ">DCWJ</a>,<a href="/HTML5/holden/index.php?art=k-on">K-On</a></li>    
           <li><a href="/HTML5/holden/index.php?art=JAIME">Jaime</a>,<a href="/HTML5/holden/index.php?art=Karla%20Diaz">K.Diaz</a></li>    
-          <li><a href="/HTML5/holden/index.php?art=gamercat">GCat</a>,<a href="/HTML5/holden/index.php?art=fran">Fran</a></li>    
           <li><a href="/HTML5/holden/index.php?art=MAGNUS">MAGNUS</a></li>    
           <li><a href="/HTML5/holden/index.php?art=moebius">moebius</a>,<a href="/HTML5/holden/index.php?art=NAGEL">NAGEL</a></li>
-          <li><a href="/HTML5/holden/index.php?art=oglaf">oglaf</a>,<a href="/HTML5/holden/index.php?art=TOM%20GAULD">Gauld</a></li>
-          <li><a href="/HTML5/holden/index.php?art=presing">presing</a>
-              <a href="/HTML5/holden/index.php?art=shunya%20yamashita"><b>Shunya</b></a></li>          
-          <li><a href="/HTML5/holden/index.php?art=Zeronis">Zeronis</a>
-              <a href="/HTML5/holden/index.php?art=クッパ姫">クッパ姫</a></li>
         </ul>
+
+      <details>
+        <summary><strong><h4>Other Arts ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li><a href="/HTML5/holden/index.php">Holden</a>,<a href="/HTML5/holden/index.php?art=1">Altan</a></li>    
+              <li><a href="/HTML5/holden/index.php?art=2">expressions</a></li>
+                  <a href="/HTML5/holden/index.php?art=bambinaFilosofica">Vinci</a></li>
+              <li><a href="/HTML5/holden/index.php?art=azumanga">Azuma</a>,<a href="/HTML5/holden/index.php?art=azumabacks">Backs</a></li>    
+                  <a href="/HTML5/holden/index.php?art1=170&art2=170"><b>BB</b></a></li>
+              <li><a href="/HTML5/holden/index.php?art=bayonetta">Bayonetta</a></li>    
+              <li><a href="/HTML5/holden/index.php?art=ciia%20chhuying">Ciia</a>,<a href="/HTML5/holden/index.php?art=Craig%20Drake">Drake</a></li>    
+              <li><a href="/HTML5/holden/index.php?art=DCWJ">DCWJ</a>,<a href="/HTML5/holden/index.php?art=k-on">K-On</a></li>    
+              <li><a href="/HTML5/holden/index.php?art=gamercat">GCat</a>,<a href="/HTML5/holden/index.php?art=fran">Fran</a></li>    
+              <li><a href="/HTML5/holden/index.php?art=oglaf">oglaf</a>,<a href="/HTML5/holden/index.php?art=TOM%20GAULD">Gauld</a></li>
+              <li><a href="/HTML5/holden/index.php?art=presing">presing</a>
+                  <a href="/HTML5/holden/index.php?art=shunya%20yamashita"><b>Shunya</b></a></li>          
+              <li><a href="/HTML5/holden/index.php?art=Zeronis">Zeronis</a>
+                  <a href="/HTML5/holden/index.php?art=クッパ姫">クッパ姫</a></li>
+            </ul>
+          </p>
+      </details>
+
   
     </div>
 
