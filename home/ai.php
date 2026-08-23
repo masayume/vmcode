@@ -359,6 +359,12 @@
         <summary><h4><b>MODELS⬇️</h4></strong></summary>  <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
+            <li> <a href="https://www.kimi.ai/"><b>Kimi AI ★★</b></a></li> 
+            <li> <a href="https://chat.qwen.ai/"><b>Qwen AI ★★</b></a></li> 
+            <li> <a href="https://claude.ai/"><b>Claude AI ★★</b></a></li> 
+            <li> <a href="https://gemini.google.com/"><b>Gemini ★★</b></a></li> 
+            <li> <a href="https://chat.deepseek.com/"><b>deepseek AI ★★</b></a></li> 
+            <li> <a href="https://z.ai/blog/glm-5.3"><b>GLM AI ★★</b></a></li> 
             <li> <a href="https://huggingface.co/spaces?sort=likes"><b>huggingface spaces ★★</b></a></li> 
             <li> <a href="https://lexica.art/"><b>lexica.art ★★</b></a></li> 
             <li> <a href="https://libraire.ai/"><b>libraire.ai ★★</b></a></li> 
