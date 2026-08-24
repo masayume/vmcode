@@ -1156,21 +1156,21 @@
       "score": "8.0",
       "url": "https://boardgamegeek.com/boardgame/406652/compile-main-1"
     },
-    "ElDorado": {
-      "name": "The Quest for El Dorado",
+   "CompileMain2": {
+      "name": "Compile Main 2",
       "number": "74",
       "data_cat": "player",
       "class": ["player"],
-      "mechanics": [ "Deck, Bag, and Pool Building", "Delayed Purchase", "Grid Movement", "Hand Management", "Hexagon Grid", "Modular Board", "Multi-Use Cards", "Open Drafting", "Race", "Variable Set-up" ],
+      "mechanics": [ "Area Majority / Influence", "Card Play Conflict Resolution", "Deck Construction", "Hand Management", "Multi-Use Cards", "Open Drafting", "Race" ],
       "theme": ["Resources"],
       "img": "074.png",
-      "designer": "Reiner Knizia",
-      "weight": "1.94", 
-      "year": 2017,
-      "players": [2, 3, 4],
-      "length": 45,
-      "score": "7.7",
-      "url": "https://boardgamegeek.com/boardgame/217372/the-quest-for-el-dorado"
+      "designer": "Michael Yang",
+      "weight": "2.17", 
+      "year": 2025,
+      "players": [1, 2, 3, 4, 5, 6, 7, 8],
+      "length": 30,
+      "score": "8.2",
+      "url": "https://boardgamegeek.com/boardgame/440606/compile-main-2"
     },
     "RumbleNation": {
       "name": "Rumble Nation",
@@ -1252,7 +1252,6 @@
       "score": "6.4",
       "url": "https://boardgamegeek.com/boardgame/27225/bananagrams"
     },
-
    "StarshipCapts": {
       "name": "Starship Captains",
       "number": "80",
@@ -1269,21 +1268,53 @@
       "score": "6.4",
       "url": "https://boardgamegeek.com/boardgame/363369/starship-captains"
     },
-   "CompileMain2": {
-      "name": "Compile Main 2",
+    "ElDorado": {
+      "name": "The Quest for El Dorado",
       "number": "81",
       "data_cat": "player",
       "class": ["player"],
-      "mechanics": [ "Area Majority / Influence", "Card Play Conflict Resolution", "Deck Construction", "Hand Management", "Multi-Use Cards", "Open Drafting", "Race" ],
+      "mechanics": [ "Deck, Bag, and Pool Building", "Delayed Purchase", "Grid Movement", "Hand Management", "Hexagon Grid", "Modular Board", "Multi-Use Cards", "Open Drafting", "Race", "Variable Set-up" ],
       "theme": ["Resources"],
-      "img": "081.jpg",
-      "designer": "Michael Yang",
-      "weight": "2.17", 
+      "img": "081.png",
+      "designer": "Reiner Knizia",
+      "weight": "1.94", 
+      "year": 2017,
+      "players": [2, 3, 4],
+      "length": 45,
+      "score": "7.7",
+      "url": "https://boardgamegeek.com/boardgame/217372/the-quest-for-el-dorado"
+    },
+   "RoboRally": {
+      "name": "RoboRally",
+      "number": "82",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Action Queue", "Bias", "Grid Movement", "Lose a Turn", "Modular Board", "Programmed Movement", "Race", "Scenario / Mission / Campaign Game", "Simultaneous Action Selection" ],
+      "theme": ["Resources"],
+      "img": "082.png",
+      "designer": "Richard Garfield, Paul Sottosanti",
+      "weight": "2.43", 
+      "year": 1994,
+      "players": [2, 3, 4, 5, 6, 7, 8],
+      "length": 90,
+      "score": "7.0",
+      "url": "https://boardgamegeek.com/boardgame/18/roborally"
+    },
+   "Sibille": {
+      "name": "Sibille",
+      "number": "83",
+      "data_cat": "player",
+      "class": ["player"],
+      "mechanics": [ "Action Retrieval", "Betting and Bluffing", "Deduction", "Die Icon Resolution", "Hand Management", "Predictive Bid", "Sudden Death Ending", "Track Movement" ],
+      "theme": ["Resources"],
+      "img": "083.png",
+      "designer": "Luca Grippo, Paolo Raciti",
+      "weight": "2.89", 
       "year": 2025,
-      "players": [1, 2, 3, 4, 5, 6, 7, 8],
-      "length": 30,
+      "players": [2, 3, 4],
+      "length": 70,
       "score": "8.2",
-      "url": "https://boardgamegeek.com/boardgame/440606/compile-main-2"
+      "url": "https://boardgamegeek.com/boardgame/407804/sibille"
     }
 
     
