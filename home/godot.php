@@ -83,6 +83,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
       </ul>  
 
+    <h4>SPRITE TOOLS</h4>
+    <ul>
+      <li> <a href="https://spritesheetgenerator.online/"><b>SPR Generator ★</b></a> </a></li>
+      <li> <a href="https://imageonline.io/sprite-sheet-animator/"><b>SPR Animator ★</b></a> </a></li>
+      </ul>  
+
     <h4>RESOURCES</h4> <!-- also in INSPIRE, TOOLS -->
     <ul>
       <li> <a href="https://www.spriters-resource.com/"><b>spriters resource ★</b></a> </a></li>
@@ -268,12 +274,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
          <li> <a href="https://twigl.app/"><b>Twigl</b></a> 
               <a href="https://codesandbox.io/p/sandbox/hydra-shader-9ru5hj"><b>hydra</b></a> </li> 
 
-
-https://80.lv/articles/how-to-make-neat-blur-shader-in-godot
-Blur Shader
-
-https://80.lv/articles/learn-how-to-create-stylized-fire-shader-in-godot
-Stylized Fire Shader
+         <li> <a href="https://80.lv/articles/how-to-make-neat-blur-shader-in-godot"><b>Blur Shader</b></a> </li>
+         <li> <a href="https://80.lv/articles/learn-how-to-create-stylized-fire-shader-in-godot"><b>Stylized Fire Shader</b></a> </li>
 
          <li> <details>
                 <summary><strong><b>SHADER AUTHORS ⬇️</b></strong></summary> 
@@ -337,6 +339,7 @@ Stylized Fire Shader
       <summary><strong><h4><b>GUI ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://namethatui.com/"><b>Nomenclature★</b></a> </li>
+        <li> <a href="https://qaqelol.itch.io/gui"><b>Controls Interactive★</b></a> </li>
       </ul>
     </details>
 
