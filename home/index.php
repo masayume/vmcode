@@ -102,9 +102,8 @@
 
   <div class="_exa">
 
-    <h4>Sources</h4>
     <details>
-      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>Sources ⬇️</b></h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
         <p>
           <ul>
             <li> <a href="https://livellosegreto.it/@hn250@social.lansky.name" target="_blank"><b>HackerNews250★</b></a>
@@ -116,28 +115,42 @@
     </details>
                
 
-    <h4>image sources</h4>
+    <h4></h4>
+          <ul>
+            <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social" target="_blank"><b>𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥★</b></a>
+            <li> <a href="https://bsky.app/profile/dungeonlust.com" target="_blank"><b>𝕯𝖚𝖓𝖌𝖊𝖔𝖓𝖑𝖚𝖘𝖙★</b></a> 
+                 <a href="https://dungeonlust.tumblr.com/" target="_blank"><b>T</b></a> </li>
+            <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin★</b></a> 
+                 <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bs</b></a> </li>
+          </ul>
     <details>
-      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+      <summary><strong><h4><b>IMAGES ⬇️</b></h4></strong></summary> 
         <p>
           <ul>
             <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social" target="_blank"><b>𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥★</b></a>
                  <a href="https://bsky.app/profile/dungeonlust.com" target="_blank"><b>𝕯𝖚𝖓𝖌𝖊𝖔𝖓𝖑𝖚𝖘𝖙★</b></a> </li>
+            <li> <a href="https://dungeonlust.tumblr.com/" target="_blank"><b>dungeonlust</b></a> </li>
             <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin ★</b></a>
                  <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bluesky</b></a>
                  <a href="https://www.masayume.it/blog9/web/content/lookcaitlin" target="_blank"><b> my</b></a></li>
+            <li> <a href="https://70sscifiart.tumblr.com/" target="_blank"><b>70sscifiart</b></a> </li>
+            <li> <a href="https://phantastische-illustrationen.tumblr.com/" target="_blank">phantastische</a> </li>
+            <li> <a href="https://dreamsrecurring.tumblr.com/" target="_blank">dreamsrecurring</a> </li>
+            <li> <a href="https://www.tumblr.com/digitalfossils" target="_blank">digitalfossils</a> </li>
+            <li> <a href="https://thefugitivesaint.tumblr.com/" target="_blank">thefugitivesaint</a> </li>
+            <li> <a href="https://gameraboy2.tumblr.com/" target="_blank">gameraboy2</a>
             <li> <a href="/HTML5/holden/index.php?art1=130&art2=130" target="_blank"><b>Think before Drawing ★</b></a></li>
             <li> <a href="/HTML5/holden/index.php?art1=132&art2=132" target="_blank"><b>TEXTURES ★</b></a>
                  <a href="/HTML5/holden/index.php?art1=133&art2=133" target="_blank"><b>Texturing ★</b></a> </li>
             <li> <a href="/HTML5/holden/index.php?art1=28&art2=28" target="_blank"><b>@WORKFLOWS ★</b></a> 
                  <a href="/HTML5/inspire/workflows/workflows.infogen.htm" target="_blank"><b>oldWF</b></a> </li>
+
           </ul>
         </p>
     </details>
 
-    <h4> ~ h-Covers ~ </h4>
     <details>
-      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> 
+      <summary><strong><h4><b>h-Covers ~⬇️</b></h4></strong></summary> 
           <p>
             <ul>
               <li>  <a href="/HTML5/holden/index.php?art1=14&art2=14"><b>Retro Covers</b></a>  </li>
@@ -149,9 +162,8 @@
           </p>
     </details>
 
-    <h4> ~ holden♀️ ~ </h4>
     <details>
-      <summary><strong><b>★★★ ⬇️⬇️⬇️</b></strong></summary> 
+      <summary><strong><h4><b>holden♀️⬇️</b></h4></strong></summary> 
           <p>
             <ul>
               <li>  <a href="/HTML5/holden/index.php?art1=185&art2=185"><b>Fantasy + sources</b></a>  </li>
@@ -168,21 +180,30 @@
           </p>
     </details>
   
-    <h4>graph sources</h4>
-      <ul>
-        <li> <a href="https://mobile.twitter.com/scott_kerr/media" target="_blank">ScottKerr■</a>
-             <a href="https://mobile.twitter.com/qdqdminbpbp/media" target="_blank">MiN★</a> </li>
-        <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
-             <a href="https://twitter.com/ericjang11/media" target="_blank">ericJang</a> </li>
-        <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
-        <li> <a href="https://twitter.com/qntm" target="_blank">QNTM</a> 
-             <a href="https://twitter.com/icijorg" target="_blank">ICIJ</a>
-             <a href="https://wiki.nikitavoloboev.xyz/media" target="_blank">Niki</a> </li>
-        <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
-        <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> 
-             <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
+    <details>
+      <summary><strong><h4><b>other ⬇️</b></h4></strong></summary> 
+          <p>
 
-      </ul>
+            <ul>
+
+<!--
+              <li> <a href="URL" target="_blank">NAME</a>
+              <li> <a href="https://mobile.twitter.com/scott_kerr/media" target="_blank">ScottKerr■</a>
+                   <a href="https://mobile.twitter.com/qdqdminbpbp/media" target="_blank">MiN★</a> </li>
+              <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
+                   <a href="https://twitter.com/ericjang11/media" target="_blank">ericJang</a> </li>
+-->
+              <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
+              <li> <a href="https://twitter.com/qntm" target="_blank">QNTM</a> 
+                   <a href="https://twitter.com/icijorg" target="_blank">ICIJ</a>
+                   <a href="https://wiki.nikitavoloboev.xyz/media" target="_blank">Niki</a> </li>
+              <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
+              <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> 
+                   <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
+
+            </ul>
+          </p>
+    </details>
 
     <h4>REMEMBER!</h4>
       <ul>
