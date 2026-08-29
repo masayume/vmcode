@@ -140,7 +140,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
           <li> <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/"><b>step by step</b></a> </li> 
           <li> <a href="file:///home/masayume/DATA/E/books/GODOT/"><b>books</b></a> </li> 
         </ul>  
- 
+
       <h4>STYLE</h4>
         <ul>
           <li> <a href="https://www.masayume.it/blog9/web/taxonomy/term/52"><b>my Style★</b></a> </li>
@@ -149,6 +149,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
           <li> <a href="/HTML5/holden/index.php?art1=70&art2=70"><b>Oglaf</b></a> </li>
           <li> <a href="/HTML5/holden/index.php?art1=92&art2=92"><b>TORIYAMA</b></a> </li>
         </ul>
+
+      <h4>Nada</h4>
+        <ul>
+          <li> <a href="https://otsoga.itch.io/eleonore"><b>Otsoga Eleanor</b></a> </li>
+        </ul>
+
 
   </div>
 
