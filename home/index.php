@@ -333,6 +333,8 @@
               <li> <a href="https://gemini.google.com/"><b>Gemini</b></a>
                    <a href="https://www.kimi.com/"><b>Kimi</b></a> 
                    <a href="https://claude.ai/"><b>Claude</b></a> </li>
+              <li> <a href="https://duck.ai/"><b>duck.ai</b></a>
+                   <a href="https://proton.me/lumo"><b>lumo</b></a> 
       <!--
                    <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
       -->
