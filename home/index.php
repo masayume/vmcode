@@ -565,6 +565,7 @@
 
     <h4>VIDEO</h4>
       <ul>
+        <li> <a href="/HTML5/holden/index.php?art1=235&art2=235"><b>Series★</b></a> </li>
         <li> <a href="http://localhost:8096"><b>Jellyfin★</b></a> </li>
         <li> <a href="https://en.jff.jpf.go.jp/"><b>Japan JFF★</b></a> </li>
         <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
