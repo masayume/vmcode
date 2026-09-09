@@ -122,6 +122,7 @@
                  <a href="https://dungeonlust.tumblr.com/" target="_blank"><b>T</b></a> </li>
             <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin★</b></a> 
                  <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bs</b></a> </li>
+            <li> <a href="https://www.facebook.com/Cardinalofchaos/" target="_blank"><b>Cardinalofchaos</b></a> 
           </ul>
     <details>
       <summary><strong><h4><b>IMAGES ⬇️</b></h4></strong></summary> 
@@ -273,7 +274,7 @@
 
     <h4>IMAGE SEARCH</h4>
       <ul>
-        <li>  <a href="https://famouspaintings.com/art/paintings/sitting"><b>famous paintings</b></a> 
+        <li> <a href="https://famouspaintings.com/art/paintings/sitting"><b>famous paintings</b></a> 
 
       </ul>
 
@@ -298,11 +299,11 @@
             <ul>
               <li> <a href="https://sfmqrb.github.io/rishe/" title="farsi etimology" target="_blank">rishe</a> </li>
               <!--
-              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
-              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
-              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
-              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
-              <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+                <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+                <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+                <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+                <li> <a href="LINK" target="_blank">hackernoon</a> </li>
+                <li> <a href="LINK" target="_blank">hackernoon</a> </li>
               -->
             </ul>
           </p>
@@ -347,8 +348,8 @@
           <p>
             <ul>
               <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
-                  <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
-                  <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
+                   <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
+                   <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
               <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
                    <a href="/html5/isotope/isotope-media/"><b>MEDIA</b></a> </li>
               <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> 
@@ -600,6 +601,16 @@
 
 
     <div class="_exa">
+
+      <h4>GRAPH</h4>
+      <ul>
+        <li> <a href="/html5/texture-shader-viewer/"><b>TextureShader</b></a>  </li>
+<!--
+        <li> <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
+        <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
+-->
+      </ul>
+
 
       <h4>ART</h4>
       <ul>

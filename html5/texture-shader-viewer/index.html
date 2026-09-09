@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Texture · Shader Viewer</title>
+<style>
+  :root{
+    --bg: #0a0a0b;
+    --panel: rgba(18,18,20,0.74);
+    --panel-border: rgba(255,255,255,0.09);
+    --text: #ECEAE4;
+    --text-muted: #8A8A8F;
+    --accent: #4FE3C1;
+    --accent-dim: rgba(79,227,193,0.14);
+    --error: #FF6B57;
+    --mono: 'SFMono-Regular', 'JetBrains Mono', Consolas, Menlo, 'Courier New', monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg);
+    overflow: hidden;
+    font-family: var(--sans);
+    color: var(--text);
+  }
+
+  canvas#gl {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+  }
+
+  /* ---------- empty state ---------- */
+  #empty-state {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pointer-events: none;
+    z-index: 5;
+  }
+  #empty-state.hidden { display: none; }
+  #empty-state .inner {
+    max-width: 380px;
+    padding: 0 24px;
+  }
+  #empty-state h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 10px;
+    color: var(--text);
+  }
+  #empty-state p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    margin: 0;
+  }
+
+  /* ---------- control dock ---------- */
+  #dock-wrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  #readout {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--text-muted);
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 6px 14px;
+    border-radius: 100px;
+    max-width: 90vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    pointer-events: auto;
+  }
+  #readout .sep { color: var(--panel-border); margin: 0 8px; }
+  #readout .val { color: var(--text); }
+
+  #dock {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    padding: 6px;
+    border-radius: 100px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    pointer-events: auto;
+  }
+
+  .dock-btn {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 9px 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    white-space: nowrap;
+  }
+  .dock-btn:hover { background: rgba(255,255,255,0.07); }
+  .dock-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .dock-btn.primary {
+    background: var(--accent-dim);
+    color: var(--accent);
+  }
+  .dock-btn.primary:hover { background: rgba(79,227,193,0.24); }
+  .dock-btn.primary:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    background: transparent;
+    color: var(--text-muted);
+  }
+
+  .dock-divider {
+    width: 1px;
+    height: 20px;
+    background: var(--panel-border);
+    margin: 0 2px;
+  }
+
+  input[type="file"] { display: none; }
+
+  /* ---------- error toast ---------- */
+  #error-toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-8px);
+    max-width: min(560px, 88vw);
+    background: rgba(30,14,13,0.92);
+    border: 1px solid rgba(255,107,87,0.35);
+    color: #FFD9D2;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 12px 16px;
+    border-radius: 10px;
+    z-index: 20;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    white-space: pre-wrap;
+  }
+  #error-toast.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  #error-toast .title {
+    color: var(--error);
+    font-weight: 700;
+    font-family: var(--sans);
+    font-size: 12px;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  @media (max-width: 560px) {
+    .dock-btn { padding: 9px 12px; font-size: 12.5px; }
+    #readout { font-size: 10.5px; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="gl"></canvas>
+
+<div id="empty-state">
+  <div class="inner">
+    <h1>Pick two folders to begin</h1>
+    <p>One with texture images, one with shader files. A random pairing renders full-screen — click the canvas or press space to reshuffle.</p>
+  </div>
+</div>
+
+<div id="error-toast"><span class="title">Shader failed to compile</span><span id="error-body"></span></div>
+
+<div id="dock-wrap">
+  <div id="readout">
+    <span class="label">image</span> <span class="val" id="readout-image">—</span>
+    <span class="sep">/</span>
+    <span class="label">shader</span> <span class="val" id="readout-shader">—</span>
+  </div>
+  <div id="dock">
+    <button class="dock-btn" id="btn-textures">Textures folder</button>
+    <button class="dock-btn" id="btn-shaders">Shaders folder</button>
+    <div class="dock-divider"></div>
+    <button class="dock-btn" id="btn-new-image" disabled>New image</button>
+    <button class="dock-btn" id="btn-new-shader" disabled>New shader</button>
+    <button class="dock-btn primary" id="btn-shuffle" disabled>Shuffle ⌁</button>
+  </div>
+</div>
+
+<input type="file" id="input-textures" webkitdirectory directory multiple />
+<input type="file" id="input-shaders" webkitdirectory directory multiple />
+
+<script>
+(function () {
+  "use strict";
+
+  // ---------------------------------------------------------------------
+  // Config
+  // ---------------------------------------------------------------------
+  const IMAGE_EXTS = ["png", "jpg", "jpeg", "webp", "gif", "bmp"];
+  const SHADER_EXTS = ["glsl", "frag", "fs", "fsh"];
+
+  const IDENTITY_SHADER = `
+vec4 mainImage(vec2 uv, sampler2D tex, vec2 resolution, float time) {
+  return texture2D(tex, uv);
+}`.trim();
+
+  const VERTEX_SRC = `
+attribute vec2 a_position;
+varying vec2 v_uv;
+void main() {
+  v_uv = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`.trim();
+
+  function buildFragmentSrc(userSrc) {
+    return `
+precision highp float;
+uniform sampler2D u_texture;
+uniform vec2 u_resolution;
+uniform vec2 u_imageResolution;
+uniform float u_time;
+varying vec2 v_uv;
+
+${userSrc}
+
+void main() {
+  vec2 texToScreen = vec2(u_resolution.x / u_imageResolution.x, u_resolution.y / u_imageResolution.y);
+  float coverScale = min(texToScreen.x, texToScreen.y);
+  vec2 ratio = vec2(coverScale / texToScreen.x, coverScale / texToScreen.y);
+  vec2 uv = v_uv * ratio + (1.0 - ratio) * 0.5;
+  gl_FragColor = mainImage(uv, u_texture, u_resolution, u_time);
+}`.trim();
+  }
+
+  // ---------------------------------------------------------------------
+  // State
+  // ---------------------------------------------------------------------
+  const state = {
+    textureFiles: [],
+    shaderFiles: [],       // { name, source }
+    currentImageFile: null,
+    currentShaderEntry: null,
+    imageEl: null,
+    startTime: performance.now(),
+  };
+
+  // ---------------------------------------------------------------------
+  // DOM refs
+  // ---------------------------------------------------------------------
+  const canvas = document.getElementById("gl");
+  const emptyState = document.getElementById("empty-state");
+  const readoutImage = document.getElementById("readout-image");
+  const readoutShader = document.getElementById("readout-shader");
+  const errorToast = document.getElementById("error-toast");
+  const errorBody = document.getElementById("error-body");
+
+  const btnTextures = document.getElementById("btn-textures");
+  const btnShaders = document.getElementById("btn-shaders");
+  const btnNewImage = document.getElementById("btn-new-image");
+  const btnNewShader = document.getElementById("btn-new-shader");
+  const btnShuffle = document.getElementById("btn-shuffle");
+  const inputTextures = document.getElementById("input-textures");
+  const inputShaders = document.getElementById("input-shaders");
+
+  // ---------------------------------------------------------------------
+  // WebGL setup
+  // ---------------------------------------------------------------------
+  const gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+  if (!gl) {
+    document.body.innerHTML = "<p style='color:#fff;padding:40px;font-family:sans-serif'>WebGL is not available in this browser.</p>";
+    return;
+  }
+
+  let program = null;
+  let texture = null;
+  let imageResolution = [1, 1];
+  const positionBuffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+
+  function compileShader(type, source) {
+    const shader = gl.createShader(type);
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+      const log = gl.getShaderInfoLog(shader);
+      gl.deleteShader(shader);
+      throw new Error(log);
+    }
+    return shader;
+  }
+
+  function buildProgram(userFragSrc) {
+    const fragSrc = buildFragmentSrc(userFragSrc);
+    const vs = compileShader(gl.VERTEX_SHADER, VERTEX_SRC);
+    const fs = compileShader(gl.FRAGMENT_SHADER, fragSrc);
+    const prog = gl.createProgram();
+    gl.attachShader(prog, vs);
+    gl.attachShader(prog, fs);
+    gl.linkProgram(prog);
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) {
+      const log = gl.getProgramInfoLog(prog);
+      throw new Error(log);
+    }
+    return prog;
+  }
+
+  function setProgram(userFragSrc, { silent } = {}) {
+    try {
+      const prog = buildProgram(userFragSrc);
+      if (program) gl.deleteProgram(program);
+      program = prog;
+      hideError();
+      return true;
+    } catch (err) {
+      showError(String(err.message || err));
+      if (!program) {
+        // guarantee we always have something renderable
+        program = buildProgram(IDENTITY_SHADER);
+      }
+      return false;
+    }
+  }
+
+  function showError(msg) {
+    errorBody.textContent = msg;
+    errorToast.classList.add("visible");
+    clearTimeout(showError._t);
+    showError._t = setTimeout(() => errorToast.classList.remove("visible"), 6000);
+  }
+  function hideError() {
+    errorToast.classList.remove("visible");
+  }
+
+  function loadTexture(image) {
+    const tex = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, tex);
+    gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+    const isPOT = (v) => (v & (v - 1)) === 0;
+    if (isPOT(image.width) && isPOT(image.height)) {
+      gl.generateMipmap(gl.TEXTURE_2D);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR);
+    } else {
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    }
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    if (texture) gl.deleteTexture(texture);
+    texture = tex;
+    imageResolution = [image.width, image.height];
+  }
+
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const w = Math.floor(window.innerWidth * dpr);
+    const h = Math.floor(window.innerHeight * dpr);
+    if (canvas.width !== w || canvas.height !== h) {
+      canvas.width = w;
+      canvas.height = h;
+      gl.viewport(0, 0, w, h);
+    }
+  }
+  window.addEventListener("resize", resize);
+  resize();
+
+  function render() {
+    requestAnimationFrame(render);
+    if (!program || !texture) return;
+    resize();
+
+    gl.useProgram(program);
+
+    const posLoc = gl.getAttribLocation(program, "a_position");
+    gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+    gl.enableVertexAttribArray(posLoc);
+    gl.vertexAttribPointer(posLoc, 2, gl.FLOAT, false, 0, 0);
+
+    gl.activeTexture(gl.TEXTURE0);
+    gl.bindTexture(gl.TEXTURE_2D, texture);
+    gl.uniform1i(gl.getUniformLocation(program, "u_texture"), 0);
+    gl.uniform2f(gl.getUniformLocation(program, "u_resolution"), canvas.width, canvas.height);
+    gl.uniform2f(gl.getUniformLocation(program, "u_imageResolution"), imageResolution[0], imageResolution[1]);
+    gl.uniform1f(gl.getUniformLocation(program, "u_time"), (performance.now() - state.startTime) / 1000);
+
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+  }
+  requestAnimationFrame(render);
+
+  // ---------------------------------------------------------------------
+  // File loading
+  // ---------------------------------------------------------------------
+  function extOf(name) {
+    const m = /\.([a-z0-9]+)$/i.exec(name);
+    return m ? m[1].toLowerCase() : "";
+  }
+
+  function filterFiles(fileList, exts) {
+    return Array.from(fileList).filter((f) => exts.includes(extOf(f.name)));
+  }
+
+  function pickRandom(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  async function applyRandomImage() {
+    if (!state.textureFiles.length) return;
+    const file = pickRandom(state.textureFiles);
+    state.currentImageFile = file;
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    await new Promise((resolve, reject) => {
+      img.onload = resolve;
+      img.onerror = reject;
+      img.src = url;
+    });
+    loadTexture(img);
+    URL.revokeObjectURL(url);
+    readoutImage.textContent = file.name;
+  }
+
+  async function applyRandomShader() {
+    if (!state.shaderFiles.length) {
+      setProgram(IDENTITY_SHADER);
+      readoutShader.textContent = "(identity)";
+      return;
+    }
+    const entry = pickRandom(state.shaderFiles);
+    state.currentShaderEntry = entry;
+    const ok = setProgram(entry.source);
+    readoutShader.textContent = entry.name + (ok ? "" : " (error — showing last valid)");
+  }
+
+  async function shuffleAll() {
+    await Promise.all([applyRandomImage(), applyRandomShader()]);
+    maybeHideEmptyState();
+  }
+
+  function maybeHideEmptyState() {
+    if (state.textureFiles.length) emptyState.classList.add("hidden");
+  }
+
+  function updateButtonStates() {
+    const hasTextures = state.textureFiles.length > 0;
+    const hasShaders = state.shaderFiles.length > 0;
+    btnNewImage.disabled = !hasTextures;
+    btnNewShader.disabled = !hasShaders;
+    btnShuffle.disabled = !hasTextures;
+  }
+
+  // ---------------------------------------------------------------------
+  // Wiring
+  // ---------------------------------------------------------------------
+  btnTextures.addEventListener("click", () => inputTextures.click());
+  btnShaders.addEventListener("click", () => inputShaders.click());
+
+  inputTextures.addEventListener("change", async (e) => {
+    state.textureFiles = filterFiles(e.target.files, IMAGE_EXTS);
+    updateButtonStates();
+    if (state.textureFiles.length) {
+      await applyRandomImage();
+      maybeHideEmptyState();
+    } else {
+      showError("No image files found in that folder (looked for: " + IMAGE_EXTS.join(", ") + ")");
+    }
+  });
+
+  inputShaders.addEventListener("change", async (e) => {
+    const files = filterFiles(e.target.files, SHADER_EXTS);
+    if (!files.length) {
+      showError("No shader files found in that folder (looked for: " + SHADER_EXTS.join(", ") + ")");
+      return;
+    }
+    const entries = await Promise.all(
+      files.map(async (f) => ({ name: f.name, source: await f.text() }))
+    );
+    state.shaderFiles = entries;
+    updateButtonStates();
+    await applyRandomShader();
+  });
+
+  btnNewImage.addEventListener("click", applyRandomImage);
+  btnNewShader.addEventListener("click", applyRandomShader);
+  btnShuffle.addEventListener("click", shuffleAll);
+
+  canvas.addEventListener("click", () => {
+    if (state.textureFiles.length) shuffleAll();
+  });
+
+  window.addEventListener("keydown", (e) => {
+    if (e.code === "Space" && state.textureFiles.length) {
+      e.preventDefault();
+      shuffleAll();
+    }
+  });
+
+  // Start with the identity shader loaded so the program is never null
+  program = buildProgram(IDENTITY_SHADER);
+  readoutShader.textContent = "(identity)";
+})();
+</script>
+</body>
+</html>
