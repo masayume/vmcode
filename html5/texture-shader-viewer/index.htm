@@ -247,6 +247,7 @@
       <option value="3">3x</option>
       <option value="4">4x</option>
     </select>
+    <select class="dock-select" id="select-shader"></select>
     <button class="dock-btn primary" id="btn-shuffle" disabled>Shuffle ⌁</button>
   </div>
 </div>
@@ -268,6 +269,34 @@
 vec4 mainImage(vec2 uv, sampler2D tex, vec2 resolution, float time) {
   return texture2D(tex, uv);
 }`.trim();
+
+const BUILT_IN_SHADERS = [
+  {
+    name: "none",
+    source: IDENTITY_SHADER,
+  },
+  {
+    name: "grayscale",
+    source: `
+vec4 mainImage(vec2 uv, sampler2D tex, vec2 resolution, float time) {
+  vec4 color = texture2D(tex, uv);
+  float luma = dot(color.rgb, vec3(0.299, 0.587, 0.114));
+  return vec4(vec3(luma), color.a);
+}`.trim(),
+  },
+  {
+    name: "chromatic-aberration",
+    source: `
+vec4 mainImage(vec2 uv, sampler2D tex, vec2 resolution, float time) {
+  vec2 dir = uv - 0.5;
+  float amount = 0.006;
+  float r = texture2D(tex, uv + dir * amount).r;
+  float g = texture2D(tex, uv).g;
+  float b = texture2D(tex, uv - dir * amount).b;
+  return vec4(r, g, b, 1.0);
+}`.trim(),
+  },
+];
 
   const VERTEX_SRC = `
 attribute vec2 a_position;
@@ -330,6 +359,7 @@ void main() {
   const btnShuffle = document.getElementById("btn-shuffle");
   const inputTextures = document.getElementById("input-textures");
   const inputShaders = document.getElementById("input-shaders");
+  const selectShader = document.getElementById("select-shader");
 
   // ---------------------------------------------------------------------
   // WebGL setup
@@ -496,10 +526,32 @@ void main() {
       readoutShader.textContent = "(identity)";
       return;
     }
+/*
     const entry = pickRandom(state.shaderFiles);
     state.currentShaderEntry = entry;
     const ok = setProgram(entry.source);
     readoutShader.textContent = entry.name + (ok ? "" : " (error — showing last valid)");
+*/
+    applyShaderByIndex(Math.floor(Math.random() * state.shaderFiles.length));
+  }
+
+  function applyShaderByIndex(i) {
+    const entry = state.shaderFiles[i];
+    if (!entry) return;
+    state.currentShaderEntry = entry;
+    const ok = setProgram(entry.source);
+    readoutShader.textContent = entry.name + (ok ? "" : " (error — showing last valid)");
+    selectShader.value = i;
+  }
+
+  function populateShaderSelect() {
+    selectShader.innerHTML = "";
+    state.shaderFiles.forEach((entry, i) => {
+      const opt = document.createElement("option");
+      opt.value = i;
+      opt.textContent = entry.name;
+      selectShader.appendChild(opt);
+    });
   }
 
   async function shuffleAll() {
@@ -545,9 +597,17 @@ void main() {
     const entries = await Promise.all(
       files.map(async (f) => ({ name: f.name, source: await f.text() }))
     );
-    state.shaderFiles = entries;
+//  state.shaderFiles = entries;
+
+    // append shader options from uploaded directory to dock-select instead of replacing them
+    state.shaderFiles = state.shaderFiles.concat(entries);
+    populateShaderSelect();    
     updateButtonStates();
     await applyRandomShader();
+  });
+
+  selectShader.addEventListener("change", (e) => {
+    applyShaderByIndex(Number(e.target.value));
   });
 
   btnNewImage.addEventListener("click", applyRandomImage);
@@ -571,7 +631,17 @@ void main() {
 
   // Start with the identity shader loaded so the program is never null
   program = buildProgram(IDENTITY_SHADER);
-  readoutShader.textContent = "(identity)";
+//  readoutShader.textContent = "(identity)";
+
+  state.shaderFiles = BUILT_IN_SHADERS.slice(); // copies your two built-in shaders into the same array the app already uses for shuffling 
+                                                // (the .slice() just avoids accidentally mutating the original constant later, good habit).
+
+  populateShaderSelect(); // add shader oiptions to the dock-select 
+
+  applyRandomShader();    // immediately picks one of them and compiles it, instead of leaving the identity shader active.
+
+  updateButtonStates();   // re-checks button disabled states now that state.shaderFiles isn't empty (should un-grey your "New shader" button)
+
 })();
 </script>
 </body>
