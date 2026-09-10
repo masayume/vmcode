@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Texture · Shader Viewer</title>
+<title>masayume Texture Shader Viewer v0.1</title>
 <style>
   :root{
     --bg: #0a0a0b;
@@ -146,6 +146,23 @@
     color: var(--text-muted);
   }
 
+  .dock-select {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 9px 10px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .dock-select:hover { background: rgba(255,255,255,0.07); }
+  .dock-select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .dock-select option { background: #16161A; color: var(--text); }
+
   .dock-divider {
     width: 1px;
     height: 20px;
@@ -214,12 +231,22 @@
     <span class="sep">/</span>
     <span class="label">shader</span> <span class="val" id="readout-shader">—</span>
   </div>
+
+  <!--
+    MENU
+  -->
   <div id="dock">
     <button class="dock-btn" id="btn-textures">Textures folder</button>
     <button class="dock-btn" id="btn-shaders">Shaders folder</button>
     <div class="dock-divider"></div>
     <button class="dock-btn" id="btn-new-image" disabled>New image</button>
     <button class="dock-btn" id="btn-new-shader" disabled>New shader</button>
+    <select class="dock-select" id="select-scale">
+      <option value="1">1x</option>
+      <option value="2" selected>2x</option>
+      <option value="3">3x</option>
+      <option value="4">4x</option>
+    </select>
     <button class="dock-btn primary" id="btn-shuffle" disabled>Shuffle ⌁</button>
   </div>
 </div>
@@ -257,6 +284,7 @@ uniform sampler2D u_texture;
 uniform vec2 u_resolution;
 uniform vec2 u_imageResolution;
 uniform float u_time;
+uniform float u_scale;
 varying vec2 v_uv;
 
 ${userSrc}
@@ -265,7 +293,8 @@ void main() {
   vec2 texToScreen = vec2(u_resolution.x / u_imageResolution.x, u_resolution.y / u_imageResolution.y);
   float coverScale = min(texToScreen.x, texToScreen.y);
   vec2 ratio = vec2(coverScale / texToScreen.x, coverScale / texToScreen.y);
-  vec2 uv = v_uv * ratio + (1.0 - ratio) * 0.5;
+//  vec2 uv = v_uv * ratio + (1.0 - ratio) * 0.5;
+  vec2 uv = mod(gl_FragCoord.xy, u_imageResolution * u_scale) / (u_imageResolution * u_scale);
   gl_FragColor = mainImage(uv, u_texture, u_resolution, u_time);
 }`.trim();
   }
@@ -280,6 +309,7 @@ void main() {
     currentShaderEntry: null,
     imageEl: null,
     startTime: performance.now(),
+    scale: 2,
   };
 
   // ---------------------------------------------------------------------
@@ -291,6 +321,7 @@ void main() {
   const readoutShader = document.getElementById("readout-shader");
   const errorToast = document.getElementById("error-toast");
   const errorBody = document.getElementById("error-body");
+  const selectScale = document.getElementById("select-scale");
 
   const btnTextures = document.getElementById("btn-textures");
   const btnShaders = document.getElementById("btn-shaders");
@@ -420,8 +451,9 @@ void main() {
     gl.uniform1i(gl.getUniformLocation(program, "u_texture"), 0);
     gl.uniform2f(gl.getUniformLocation(program, "u_resolution"), canvas.width, canvas.height);
     gl.uniform2f(gl.getUniformLocation(program, "u_imageResolution"), imageResolution[0], imageResolution[1]);
-    gl.uniform1f(gl.getUniformLocation(program, "u_time"), (performance.now() - state.startTime) / 1000);
-
+//    gl.uniform1f(gl.getUniformLocation(program, "u_time"), (performance.now() - state.startTime) / 1000);
+//    gl.uniform1f(gl.getUniformLocation(program, "u_scale"), 2.0);
+    gl.uniform1f(gl.getUniformLocation(program, "u_scale"), state.scale);
     gl.drawArrays(gl.TRIANGLES, 0, 3);
   }
   requestAnimationFrame(render);
@@ -521,6 +553,10 @@ void main() {
   btnNewImage.addEventListener("click", applyRandomImage);
   btnNewShader.addEventListener("click", applyRandomShader);
   btnShuffle.addEventListener("click", shuffleAll);
+
+  selectScale.addEventListener("change", (e) => {
+    state.scale = Number(e.target.value);
+  });
 
   canvas.addEventListener("click", () => {
     if (state.textureFiles.length) shuffleAll();
