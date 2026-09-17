@@ -109,6 +109,7 @@
             <li> <a href="https://livellosegreto.it/@hn250@social.lansky.name" target="_blank"><b>HackerNews250★</b></a>
             <li> <a href="https://gwern.net/turing-complete" target="_blank"><b>Gwern ★</b></a>
             <li> <a href="https://loadingpleasewait.substack.com/" target="_blank" title="Valentina Tanni"><b>Loading★</b></a>
+            <li> <a href="https://theuselessweb.com/" target="_blank" title="Valentina Tanni"><b>UselessWeb★</b></a>
             <li> <a href="https://www.theguardian.com/profile/marinahyde" target="_blank">Marina Hyde</a> </li>
           </ul>
         </p>
