@@ -35,7 +35,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 
     <!-- php_image_show -->
     <?php
-      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/');
+      $ai_dirs    = array('/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/',
+                          '/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/NADA/',
+                          '/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/CREATURES/',
+                          '/var/www/html/inspire/PROJECTS/solomon-reference/@REFERENCES/CREATURES/NEW_monsters/',
+                         );
       $directory  = $ai_dirs[array_rand($ai_dirs, 1)];
       // echo "directory: $directory";
       $images     = glob($directory . '*.{jpg,jpeg,png,gif,svg,webp}', GLOB_BRACE);
