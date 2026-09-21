@@ -187,7 +187,7 @@ function pagenewtemp($dir, $tag) {
 
     $embed_asset = "<img src=\"$file\" style=\"width: 100%;\" title=\"$file\">";
 
-    if (preg_match('/.mp4$/', $file)) {
+    if (preg_match('/.mp4$/', $file) or preg_match('/.webm$/', $file)) {
       $embed_asset = "
         <div class=\"embed-responsive embed-responsive-16by9\">
           <div style=\"float: left; padding-right: 5px;\">
