@@ -25,7 +25,7 @@ function count_assets($dir, $tag) {
 
   $dir_fullpath   = '/var/www/html' . $dir; 
   
-  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp,mp4}", GLOB_BRACE);
+  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp,webm,mp4}", GLOB_BRACE);
 
   return count($files);
 
@@ -39,7 +39,7 @@ function pagenewtemp($dir, $tag) {
 
   $dir_fullpath   = '/var/www/html' . $dir; 
   
-  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp,mp4}", GLOB_BRACE);
+  $files = glob("$dir_fullpath/*$tag*.{jpg,png,gif,webp,webm,mp4}", GLOB_BRACE);
 
   // print "pagenewtemp<br><pre>"; print_r($files); print "</pre>";
 
