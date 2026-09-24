@@ -317,6 +317,7 @@
           <p>
             <ul>
               <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
+                  <a href="https://copynpaste.xyz/"><b>C&P</b></a> 
                   <a href="https://products.aspose.app/words/editor/rtf"><b>Aspose</b></a> </li>
               <li><a href="https://docs.google.com"><b>GoogleDocs</b></a> 
                   <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
