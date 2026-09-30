@@ -96,6 +96,7 @@
       <li> <a href="/HTML5/holden/index.php?art1=232&art2=232" title="Palette"><b>Palette</b></a> 
            <a href="/HTML5/holden/index.php?art1=109&art2=109" title="Palette"><b>Pixelart</b></a> 
            <a href="/HTML5/holden/index.php?art1=236&art2=236" title="Palette"><b>Uplifting</b></a> </li>
+      <li> <a href="/HTML5/holden/index.php?art1=237&art2=237" title="Palette"><b>GameDesign</b></a> 
 
     </ul>
 
@@ -269,8 +270,6 @@
         <li>  <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
               
               <a href="https://en.app/"><b>Books</b></a> </li>
-        <li>  <a href="https://ukdataexplorer.com/european-translator/?word=thanks"><b>EUWords★</b></a> 
-              <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
         <li>  <a href="https://www.masayume.it/blog9/web/content/verification-tools"><b>Verification Tools★</b></a> </li>
 
       </ul>
@@ -300,7 +299,24 @@
         <summary><strong><h4>WORDS ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
           <p>
             <ul>
-              <li> <a href="https://sfmqrb.github.io/rishe/" title="farsi etimology" target="_blank">rishe</a> </li>
+              <li>  <a href="https://sfmqrb.github.io/rishe/" title="farsi etimology" target="_blank">rishe</a> 
+                    <a href="https://ukdataexplorer.com/european-translator/?word=thanks"><b>EUWords★</b></a> 
+                    <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
+
+              <li>  <a href="https://rhapsodycolor.com/color/" title="rhapsody" target="_blank">colors</a> 
+<!--
+                    <a href="URL"><b>LINK</b></a> 
+                    <a href="URL"><b>LINK</b></a>  </li>
+-->
+
+              <li>  <a href="https://animation-cel.com/glossary" title="animation glossary" target="_blank">animation</a> 
+                    <a href="https://en.wikipedia.org/wiki/Glossary_of_anime_and_manga" title="anime glossary" target="_blank"><b>anime</b></a> 
+<!--
+                    <a href="URL"><b>LINK</b></a>  </li>
+-->
+
+
+
               <!--
                 <li> <a href="LINK" target="_blank">hackernoon</a> </li>
                 <li> <a href="LINK" target="_blank">hackernoon</a> </li>
