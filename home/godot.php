@@ -260,6 +260,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     <details>
       <summary><strong><h4><b>SHADERS ⬇️</b></h4></strong></summary> 
       <ul>
+         <li> <a href="https://www.gdquest.com/library/first_shader_godot4_portal/"><b>1st Shader Tutorial</b></a> </li>
          <li> <a href="/HTML5/holden/index.php?art1=202&art2=202"><b>Holden Gallery</b></a> </li>
          <li> <a href="https://danielchasehooper.com/posts/code-animated-rick/"><b>Learn Shaders★</b></a></li> 
          <li> <a href="https://godotshaders.com/"><b>Godot Shaders</b></a></li> 
