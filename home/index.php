@@ -236,7 +236,6 @@
           <li><a href="https://lingojam.com/FontChanger"><b>FontChangr</b></a> 
               <a href="https://luciole-vision.com/fr/math.html"><b>LucioleMath</b></a> </li>
           <li><a href="https://imgflip.com/"><b>ImgFlipMeme</b></a>
-              <a href="https://emojipedia.org/"><b>emojipedia</b></a>
           <li><a href="https://instaclip.app/"><b>Instagram</b></a>/ 
               <a href="https://inflact.com/downloader/instagram/photo/"><b>Downloader</b></a> </li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
@@ -280,17 +279,39 @@
 
       </ul>
 
+
       <details>
-        <summary><strong><h4>WRITE ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <summary><strong><h4>TEXT/EDITORS ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
           <p>
             <ul>
-              <li> <a href="https://notebook.google.com/"><b>NotebookLM★</b></a>
-                   <a href="https://wondertools.substack.com/p/notebooklm-the-complete-guide"><b>Guide</b></a> </li>
-              <li> <a href="https://kraa.io/"><b>Kraa★</b></a>
-                   <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
-              <li> <a href="https://browsernotes.xyz/"><b>Browser Notes★</b></a> </li>
-              <li> <a href="https://tikz.dev/editor/" title="TikZ Latex Grah editor"><b>TikZ</b></a>
-                   <a href="https://www.gingersoftware.com/grammarcheck"><b>grammarcheck</b></a> </li>
+              <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
+                  <a href="https://copynpaste.xyz/"><b>C&P</b></a> 
+                  <a href="https://products.aspose.app/words/editor/rtf"><b>Aspose</b></a> </li>
+              <li><a href="https://www.rich-text-to-markdown.com/"><b>RichText to Markdown</b></a> </li>
+              <li><a href="https://docs.google.com"><b>GoogleDocs</b></a> 
+                  <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
+              <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
+                  <a href="https://codepen.io/wavebeem/pen/JoRPQOj"><b>CRT FX ★</b></a> </li>
+            </ul>
+          </p>
+      </details>
+
+      <details>
+        <summary><strong><h4>ISOTOPE ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
+                   <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
+                   <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
+              <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
+                   <a href="/html5/isotope/isotope-media/"><b>MEDIA</b></a> </li>
+              <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> 
+                   <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> 
+                   <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
+              <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> 
+                   <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li></li>
+              <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
+              <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
             </ul>
           </p>
       </details>
@@ -329,19 +350,42 @@
       </details>
 
       <details>
-        <summary><strong><h4>TEXT/EDITORS ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+        <summary><strong><h4>WRITE ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
           <p>
             <ul>
-              <li><a href="https://onlinehtmleditor.dev/"><b>RichText</b></a> 
-                  <a href="https://copynpaste.xyz/"><b>C&P</b></a> 
-                  <a href="https://products.aspose.app/words/editor/rtf"><b>Aspose</b></a> </li>
-              <li><a href="https://docs.google.com"><b>GoogleDocs</b></a> 
-                  <a href="https://stackedit.io/app"><b>StackEdit</b></a> </li>
-              <li><a href="https://notepad-online.co/"><b>Notepad onl.</b></a> 
-                  <a href="https://codepen.io/wavebeem/pen/JoRPQOj"><b>CRT FX ★</b></a> </li>
+              <li> <a href="https://notebook.google.com/"><b>NotebookLM★</b></a>
+                   <a href="https://wondertools.substack.com/p/notebooklm-the-complete-guide"><b>Guide</b></a> </li>
+              <li> <a href="https://kraa.io/"><b>Kraa★</b></a>
+                   <a href="https://brevity.sh"><b>Brevity★</b></a> </li>
+              <li> <a href="https://browsernotes.xyz/"><b>Browser Notes★</b></a> </li>
+              <li> <a href="https://tikz.dev/editor/" title="TikZ Latex Grah editor"><b>TikZ</b></a>
+                   <a href="https://www.gingersoftware.com/grammarcheck"><b>grammarcheck</b></a> </li>
             </ul>
           </p>
       </details>
+
+      <details>
+        <summary><strong><h4>EMOJI ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+            <ul>
+              <li> <a href="https://emojipedia.org/"><b>emojipedia</b></a> </li>
+              <li> <a href="https://frankmoji.com/"><b>frankmoji</b></a> </li>
+            </ul>
+          </p>
+      </details>
+
+      <details>
+        <summary><strong><h4>BUY ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
+          <p>
+
+            <ul>
+              <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
+                   <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
+            </ul>
+
+          </p>
+      </details>
+
 
       <details>
         <summary><strong><h4>AI ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
@@ -363,37 +407,8 @@
           </p>
       </details>
 
-      <details>
-        <summary><strong><h4>ISOTOPE ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
-          <p>
-            <ul>
-              <li> <a href="/html5/isotope/isotope-projects/"><b>projects</b></a>
-                   <a href="/html5/isotope/isotope-books/"><b>BOOKS</b></a> 
-                   <a href="/html5/isotope/isotope-AI/"><b>AI</b></a> </li>
-              <li> <a href="/html5/isotope/isotope-boardgame/"><b>boardgames</b></a> 
-                   <a href="/html5/isotope/isotope-media/"><b>MEDIA</b></a> </li>
-              <li> <a href="/html5/isotope/isotope-WF-PX/"><b>pixelartWF</b></a> 
-                   <a href="/html5/isotope/isotope-WF/"><b>workflows</b></a> 
-                   <a href="/HTML5/inspire/workflows/workflows.infogen.htm">old</a></li>
-              <li> <a href="/html5/isotope/isotope-VGinfo/"><b>VG by Year</b></a> 
-                   <a href="/html5/isotope/isotope-unitytuts/"><b>unity</b></a> </li></li>
-              <li> <a href="/html5/isotope/isotope-VG/">ISOgamedesign</a> <a href="https://www.masayume.it/games/design/">onl.</a> </li>
-              <li> <a href="/html5/isotope/isotope-tools/">ISOtools (WIP)</a> </li>
-            </ul>
-          </p>
-      </details>
 
-      <details>
-        <summary><strong><h4>BUY ⬇️</h4></strong></summary> <!-- ALSO on INSPIRE,UNITY,PIXELART,TOOLS -->
-          <p>
 
-            <ul>
-              <li> <a href="https://www.facebook.com/marketplace"><b>FB_market</b></a> 
-                   <a href="https://www.vinted.it"><b>Vinted</b></a> </li>
-            </ul>
-
-          </p>
-      </details>
 
 </div>
 
