@@ -31,7 +31,7 @@
 <div class="container-fluid">
 
   <div class="_exa">
-    <h4>PAGES</h4>
+<!--    <h4>PAGES</h4>   -->
       <ul>
         <li> <a href="tools.php" target="_blank"><b>TOOLS</b></a> 
              <a href="godot.php" target="_blank"><b>GODOT</b></a>
@@ -69,10 +69,7 @@
            <a href="/HTML5/holden/index.php?art1=133&art2=133" title="texturing"><b>textring</b></a>  
            <a href="/HTML5/holden/index.php?art1=132&art2=132"><b>textures</b></a> 
            <a href="/HTML5/holden/index.php?art1=134&art2=134"><b>@AI</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b ></a>  
-           <a href="/HTML5/holden/index.php?art1=192&art2=192"><b>Songs♬</b ></a>  
-           <a href="/HTML5/holden/index.php?art1=203&art2=203"><b>LEGO</b></a>  </li>
-      <li> <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Books</b></a>     
+      <li> <a href="/HTML5/holden/index.php?art1=203&art2=203"><b>LEGO</b></a> 
            <a href="/HTML5/holden/index.php?art1=171&art2=171"><b>M</b></a>  
            <a href="/HTML5/holden/index.php?art1=174&art2=174"><b>M<sup>2</sup></b></a> 
            <a href="/HTML5/holden/index.php?art1=201&art2=201" title="Mxxx" target="_blank"><b>M<sup>X</sup></b></a> 
@@ -80,7 +77,7 @@
       <li> <a href="/HTML5/holden/index.php?art1=28&art2=28"><b>WFs</b></a>  
            <a href="/HTML5/holden/index.php?art1=204&art2=204"><b>Logo</b></a> 
            <a href="/HTML5/holden/index.php?art1=202&art2=202" title="@REF-SHADERS"><b>Shaders</b></a> 
-           <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Emoji</b></a> </li>     
+           <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>Dixit</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Sktch1Day</b></a>  
            <a href="/HTML5/holden/index.php?art1=206&art2=206"><b>Philosophers</b></a>    </li> 
       <li> <a href="/HTML5/holden/index.php?art1=214&art2=214" title="Dynamic Textures"><b>dynText</b></a>  
@@ -97,7 +94,26 @@
            <a href="/HTML5/holden/index.php?art1=109&art2=109" title="Palette"><b>Pixelart</b></a> 
            <a href="/HTML5/holden/index.php?art1=236&art2=236" title="Palette"><b>Uplifting</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=237&art2=237" title="Palette"><b>GameDesign</b></a> 
+           <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> 
+           <a href="/HTML5/holden/index.php?art1=139&art2=139" title="Kento Iida"><b>Iida</b></a> </li>
 
+        <details>
+        <summary><strong><h4><b>♀️⬇️</b></h4></strong></summary> 
+            <p>
+              <ul>
+                <li>  <a href="/HTML5/holden/index.php?art1=185&art2=185"><b>Fantasy + sources</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=99&art2=99"><b>Chun Li</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=110&art2=110"><b>Asuka</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=113&art2=113"><b>Lamu</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=114&art2=114"><b>MIKU</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=115&art2=115"><b>Misato</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=116&art2=116"><b>Mona</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=117&art2=117"><b>Morrigan</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=118&art2=118"><b>Quorra</b></a>  </li>
+                <li>  <a href="/HTML5/holden/index.php?art1=119&art2=119"><b>Motoko</b></a>  </li>
+              </ul>
+            </p>
+      </details>
     </ul>
 
   </div>
@@ -129,7 +145,7 @@
             <li> <a href="https://www.facebook.com/Cardinalofchaos/" target="_blank"><b>Cardinalofchaos</b></a> 
           </ul>
     <details>
-      <summary><strong><h4><b>IMAGES ⬇️</b></h4></strong></summary> 
+      <summary><strong><h4><b>IMAGES src.⬇️</b></h4></strong></summary> 
         <p>
           <ul>
             <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social" target="_blank"><b>𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥★</b></a>
@@ -155,6 +171,63 @@
     </details>
 
     <details>
+      <summary><strong><h4><b>MUSIC src.⬇️</b></h4></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://kworb.net/youtube/" target="_blank"><b>kworb YT</b></a>
+                 <a href="https://kworb.net/spotify/" target="_blank"><b>spotify</b></a> </li>
+            <li> <a href="/HTML5/holden/index.php?art1=15&art2=15"><b>Albums♬</b ></a>  
+                 <a href="/HTML5/holden/index.php?art1=192&art2=192"><b>Songs♬</b ></a> </li>
+          </ul>
+        </p>
+    </details>
+
+    <details>
+      <summary><strong><h4><b>GAMES src.⬇️</b></h4></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
+            <li> <a href="https://glitchwave.com/"><b>Glitchwave</b></a> </li>
+            <li> <a href="https://opencritic.com/"><b>Open Critic</b></a> </li>
+          </ul>
+        </p>
+    </details>
+
+    <details>
+      <summary><strong><h4><b>BOOKS src.⬇️</b></h4></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://book.sv/" target="_blank"><b>book.sv</b></a>
+                 <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>holden</b></a> </li>
+          </ul>
+        </p>
+    </details>
+
+    <details>
+      <summary><strong><h4><b>NEWS src.⬇️</b></h4></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://www.icij.org/" target="_blank"><b>ICIJ★</b></a>
+                 <a href="https://news.web.nhk/news/easy/" target="_blank"><b>NHK★</b></a> </li>
+          </ul>
+        </p>
+    </details>
+
+<!--
+    <details>
+      <summary><strong><h4><b>TEMPLATE ⬇️</b></h4></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="URL" target="_blank"><b>NAME★</b></a>
+                 <a href="URL" target="_blank"><b>NAME★</b></a> </li>
+
+          </ul>
+        </p>
+    </details>
+-->
+
+
+    <details>
       <summary><strong><h4><b>h-Covers ~⬇️</b></h4></strong></summary> 
           <p>
             <ul>
@@ -163,24 +236,6 @@
               <li>  <a href="/HTML5/holden/index.php?art1=145&art2=145"><b>Book Covers</b></a>  </li>
               <li>  <a href="/HTML5/holden/index.php?art1=186&art2=186"><b>Movie Posters</b></a>  </li>
               <li>  <a href="/HTML5/holden/index.php?art1=187&art2=187"><b>Classic Sci-fi</b></a>  </li>
-            </ul>
-          </p>
-    </details>
-
-    <details>
-      <summary><strong><h4><b>holden♀️⬇️</b></h4></strong></summary> 
-          <p>
-            <ul>
-              <li>  <a href="/HTML5/holden/index.php?art1=185&art2=185"><b>Fantasy + sources</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=99&art2=99"><b>Chun Li</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=110&art2=110"><b>Asuka</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=113&art2=113"><b>Lamu</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=114&art2=114"><b>MIKU</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=115&art2=115"><b>Misato</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=116&art2=116"><b>Mona</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=117&art2=117"><b>Morrigan</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=118&art2=118"><b>Quorra</b></a>  </li>
-              <li>  <a href="/HTML5/holden/index.php?art1=119&art2=119"><b>Motoko</b></a>  </li>
             </ul>
           </p>
     </details>
@@ -198,10 +253,7 @@
               <li> <a href="https://twitter.com/FlohOfWoe/media" target="_blank">Floh'Woe</a>
                    <a href="https://twitter.com/ericjang11/media" target="_blank">ericJang</a> </li>
 -->
-              <li> <a href="https://www.youtube.com/c/AlphaBetaGamer/videos" target="_blank">AlphaBetaGamer</a> </li>
-              <li> <a href="https://twitter.com/qntm" target="_blank">QNTM</a> 
-                   <a href="https://twitter.com/icijorg" target="_blank">ICIJ</a>
-                   <a href="https://wiki.nikitavoloboev.xyz/media" target="_blank">Niki</a> </li>
+
               <li> <a href="https://twitter.com/josephpeter1997" target="_blank"><b>RetroAnimeLova</b></a> </li>
               <li> <a href="https://www.youtube.com/c/Stevem/videos" target="_blank">Stevem ★</a> 
                    <a href="https://www.youtube.com/c/PauseandSelectForReal/videos" target="_blank">P&S ★</a></li>
@@ -236,8 +288,6 @@
           <li><a href="https://lingojam.com/FontChanger"><b>FontChangr</b></a> 
               <a href="https://luciole-vision.com/fr/math.html"><b>LucioleMath</b></a> </li>
           <li><a href="https://imgflip.com/"><b>ImgFlipMeme</b></a>
-          <li><a href="https://instaclip.app/"><b>Instagram</b></a>/ 
-              <a href="https://inflact.com/downloader/instagram/photo/"><b>Downloader</b></a> </li>
           <li><a href="/HTML5/SVGbackgrounds">SVG backs</a>
               <a href="https://garden.bradwoods.io/notes/css/blend-modes">Blend Modes</a></li>
           <li><a href="http://www.colorzilla.com/gradient-editor/">gradient</a> 
@@ -250,6 +300,32 @@
               <a href="http://jupyter.org/">jupyter</a></li>
           <li><a href="http://jsoneditoronline.org/">JSONEdit</a> (<a href="https://github.com/josdejong/jsoneditor">git</a>) <a href="https://jsonformatter.org/json-editor">JSONF</a></li>
         </ul>
+
+    <details>
+      <summary><strong><b>DOWNLOADERS⬇️</b></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://fdown.net/download.php" title="facebook downloader"><b>FDown</b></a> 
+            <li><a href="https://instaclip.app/"><b>Instagram</b></a>/ 
+                <a href="https://inflact.com/downloader/instagram/photo/"><b>Downloader</b></a> </li>
+<!--
+            <li> <a href="URL"><b>Text</b></a> 
+-->
+          </ul>
+        </p>  
+    </details>
+
+    <details>
+      <summary><strong><b>MY WEB APPS⬇️</b></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="/html5/texture-shader-viewer/"><b>TextureShader</b></a>  </li>
+<!--
+            <li> <a href="URL"><b>Text</b></a> 
+-->
+          </ul>
+        </p>  
+    </details>
 
   </div>
 
@@ -268,7 +344,6 @@
               <a href="https://12ft.io/"><b>12FT</b></a> </li>
         <li>  <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
               
-              <a href="https://en.app/"><b>Books</b></a> </li>
         <li>  <a href="https://www.masayume.it/blog9/web/content/verification-tools"><b>Verification Tools★</b></a> </li>
 
       </ul>
@@ -370,6 +445,7 @@
             <ul>
               <li> <a href="https://emojipedia.org/"><b>emojipedia</b></a> </li>
               <li> <a href="https://frankmoji.com/"><b>frankmoji</b></a> </li>
+              <li> <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Holden</b></a> </li>
             </ul>
           </p>
       </details>
@@ -502,18 +578,6 @@
             </p>  
     </details>
 
-    <details>
-      <summary><strong><b>DOWNLOADERS ⬇️</b></strong></summary> 
-        <p>
-          <ul>
-            <li> <a href="https://fdown.net/download.php" title="facebook downloader"><b>FDown</b></a> 
-            <li> <a href="URL"><b>Text</b></a> 
-            <li> <a href="URL"><b>Text</b></a> 
-            <li> <a href="URL"><b>Text</b></a> 
-          </ul>
-        </p>  
-    </details>
-
 
     <details>
           <summary><strong><b>RADIO/MUSIC ⬇️</b></strong></summary> 
@@ -619,41 +683,11 @@
         <li> <a href="https://griddyicons.com/"><b>griddyicons</b></a> </li>
       </ul>
 
-    <h4>BOOKS</h4>
-      <ul>
-        <li> <a href="https://book.sv/"><b>Book.sv</b></a> </li>
-      </ul>
-
-
-    <h4>CRITIC</h4>
-      <ul>
-        <li> <a href="https://glitchwave.com/"><b>Glitchwave</b></a>
-            <a href="https://opencritic.com/"><b>OpenCr.</b></a> </li>
-      </ul>
-
 
   </div>
 
 
     <div class="_exa">
-
-      <h4>GRAPH</h4>
-      <ul>
-        <li> <a href="/html5/texture-shader-viewer/"><b>TextureShader</b></a>  </li>
-<!--
-        <li> <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
--->
-      </ul>
-
-
-      <h4>ART</h4>
-      <ul>
-        <li> <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a>  </li>
-        <li> <a href="/HTML5/holden/index.php?art1=139&art2=139"><b>Kento Iida</b></a> </li>
-        <li> <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>myDixit</b></a> </li>
-      </ul>
-
 
       <h4>ARTISTS</h4>
         <ul>
