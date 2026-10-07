@@ -3679,8 +3679,23 @@
       "dir": "digitale",
       "url": "https://en.wikipedia.org/wiki/Understanding_Comics",
       "goodreads": "https://www.goodreads.com/book/show/102920.Understanding_Comics"
+    },
+     "VictorianNotes": {
+      "name": "How Romantics and Victorians Organized Information",
+      "number": "236",
+      "data_cat": "player",
+      "class": ["books", "saggio", "notes"],
+      "theme": ["arcade", "meta"],
+      "img": "0236.jpg",
+      "author": "Jillian Hess",
+      "store": "???", 
+      "weight": "", 
+      "year": 2022,
+      "players": [1],
+      "length": 336,
+      "dir": "digitale",
+      "url": "https://global.oup.com/academic/product/how-romantics-and-victorians-organized-information-9780192896070"
     }
-
 
   },
   "template":
