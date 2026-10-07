@@ -446,6 +446,7 @@
               <li> <a href="https://emojipedia.org/"><b>emojipedia</b></a> </li>
               <li> <a href="https://frankmoji.com/"><b>frankmoji</b></a> </li>
               <li> <a href="/HTML5/holden/index.php?art1=205&art2=205"><b>Holden</b></a> </li>
+              <li> <a href="https://livellosegreto.it/@daily_emoji@mastodon.social"><b>daily_emoji</b></a> </li>
             </ul>
           </p>
       </details>
