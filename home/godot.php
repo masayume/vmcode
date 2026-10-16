@@ -375,6 +375,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
 
     </details>
 
+
+    <details>
+      <summary><strong><h4><b>PIXELART ⬇️</b></h4></strong></summary> 
+      <ul>
+        <li> <a href="https://www.youtube.com/watch?v=iPbYzFWECz4"><b>Stylized Grass & Trees</b></a> 
+        <li> <a href="https://www.youtube.com/watch?v=7wwE5FLZceY"><b>3D pixelart</b></a> 
+        <li> <a href="https://www.youtube.com/watch?v=jCWyXKJdHCk"><b>3D Compositor</b></a> 
+        <li> <a href="https://www.youtube.com/watch?v=NNr7_fcJqWQ"><b>3D pixelart #2</b></a> 
+      </ul>
+    </details>
+
+
+
     <details>
       <summary><strong><h4><b>ALGORITHMS ⬇️</b></h4></strong></summary> 
       <ul>
