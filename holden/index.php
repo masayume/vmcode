@@ -187,7 +187,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@AI'               // 134
                   , '/inspire/@AI/ai-pixelart/'  // 135  
                   , '/inspire/@pixelart/src-MIXED'            // 136
-                  , '/inspire/@CARTOONS/Magritte'
+                  , '/inspire/@ART/Magritte/'
                   , '/inspire/@CARTOONS/myDixit'
                   , '/inspire/@JAPAN/@J-kento_iida'
 // 140
@@ -297,8 +297,8 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/PROJECTS/MAKE'  
                   , '/inspire/@COVERS/Series/'
                   , '/inspire/UPLIFTING'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/GAMEDESIGN'
+                  , '/inspire/@ANIME/'
                   , '/inspire/@pixelart/ref-TEXT'  
 
 
