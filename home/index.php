@@ -96,6 +96,9 @@
       <li> <a href="/HTML5/holden/index.php?art1=237&art2=237" title="Palette"><b>GameDesign</b></a> 
            <a href="/HTML5/holden/index.php?art1=137&art2=137"><b>Magritte</b></a> 
            <a href="/HTML5/holden/index.php?art1=139&art2=139" title="Kento Iida"><b>Iida</b></a> </li>
+      <li>
+        <a href="/HTML5/holden/index.php?art1=238&art2=238" title="Anime"><b>Anime</b></a> 
+      </li>
 
         <details>
         <summary><strong><h4><b>♀️⬇️</b></h4></strong></summary> 
@@ -113,7 +116,7 @@
                 <li>  <a href="/HTML5/holden/index.php?art1=119&art2=119"><b>Motoko</b></a>  </li>
               </ul>
             </p>
-      </details>
+        </details>
     </ul>
 
   </div>
