@@ -316,6 +316,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', end
     </details>
 
     <details>
+      <summary><strong><h4><b>TWEENS ⬇️</b></h4></strong></summary> 
+      <ul>
+          <li> <a href="https://tweens.gd/gdscript/sequences/"><b>sequences</b></a></li> 
+      </ul>
+
+    </details>
+
+    <details>
       <summary><strong><h4><b>LINKS ⬇️</b></h4></strong></summary> 
       <ul>
         <li> <a href="https://github.com/Calinou/awesome-godot"><b>awesome godot ★</b></a> </li>
