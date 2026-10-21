@@ -174,6 +174,31 @@
     </details>
 
     <details>
+      <summary><strong><h4><b>STOCK ⬇️</b></h4></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="https://openverse.org/" target="_blank"><b>openverse</b></a>
+            <li> <a href="https://wordpress.org/photos/" target="_blank"><b>wordpress</b></a>
+            <li> <a href="https://unsplash.com/" target="_blank"><b>unsplash</b></a>
+            <li> <a href="https://pixabay.com/" target="_blank"><b>pixabay</b></a>
+            <li> <a href="https://www.pexels.com/" target="_blank"><b>pexels</b></a>
+            <li> <a href="https://www.rawpixel.com/" target="_blank"><b>rawpixel</b></a>
+            <li> <a href="https://openclipart.org/" target="_blank"><b>openclipart</b></a>
+            <li> <a href="https://www.getty.edu/projects/open-content-program/#about" target="_blank"><b>getty</b></a>
+            <li> <a href="https://www.nga.gov/artworks/free-images-and-open-access" target="_blank"><b>nga</b></a>
+            <li> <a href="https://www.loc.gov/free-to-use/" target="_blank"><b>free</b></a>
+            <li> <a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank"><b>wikimedia</b></a>
+            <li> <a href="https://www.flickr.com/search" target="_blank"><b>flickr</b></a>
+            <li> <a href="https://picryl.com/" target="_blank"><b>picryl</b></a>
+            <li> <a href="https://etc.usf.edu/clipart/" target="_blank"><b>clipart</b></a>
+            <li> <a href="https://pdimagearchive.org/" target="_blank"><b>pdimagearchive</b></a>
+            <li> <a href="https://www.europeana.eu/" target="_blank"><b>europeana</b></a>
+          </ul>
+        </p>
+    </details>
+
+
+    <details>
       <summary><strong><h4><b>MUSIC src.⬇️</b></h4></strong></summary> 
         <p>
           <ul>
@@ -403,8 +428,8 @@
                     <a href="https://www.omniglot.com/writing/greek.htm"><b>Greek</b></a> </li>
 
               <li>  <a href="https://rhapsodycolor.com/color/" title="rhapsody" target="_blank">colors</a> 
+                    <a href="https://www.aidesign.guide/design-systems" title="Design systems, component libraries, and UI toolkits from around the world."><b>Design systems</b></a> 
 <!--
-                    <a href="URL"><b>LINK</b></a> 
                     <a href="URL"><b>LINK</b></a>  </li>
 -->
 
