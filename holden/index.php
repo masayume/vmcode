@@ -189,7 +189,7 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/src-MIXED'            // 136
                   , '/inspire/@ART/Magritte/'
                   , '/inspire/@CARTOONS/myDixit'
-                  , '/inspire/@JAPAN/@J-kento_iida'
+                  , '/inspire/@CARTOONS/Kento_Iida'
 // 140
                   , '/inspire/@JAPAN/@J-hiroshi_yoshida'      // 140
                   , '/inspire/@JAPAN/@J-ikenaga_yasunari'     // 141
