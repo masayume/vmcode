@@ -8,7 +8,7 @@ function gamepage($jfile) {
 
   $string = file_get_contents($jfile);
   $json_a = json_decode($string, true);
-  $gdata = $json_a[data];
+  $gdata = $json_a['data'];
   $html_elements = "";
 
 // print "<pre>"; print_r($json_a);
@@ -24,12 +24,11 @@ function gamepage($jfile) {
     }
 
     $template =<<<TEM
-  <div class="element-item $class " data-category="{$item[data_cat]}" style="background-image: url('img/{$item[img]}'); background-size: 100%;">
+  <div class="element-item $class " data-category="{$item['data_cat']}" style="background-image: url('img/{$item['img']}'); background-size: 100%;">
     <h3 class="name">$key</h3>
-    <p class="symbol">{$item[symbol]}</p>
-    <p class="game">{$item[game]}</p>
-    <p class="number">{$item[number]}</p>
-    <p class="year">{$item[year]}</p>
+    <p class="symbol">{$item['symbol']}</p>
+    <p class="number">{$item['number']}</p>
+    <p class="year">{$item['year']}</p>
   </div>
 TEM;
 
