@@ -520,6 +520,7 @@
                    <a href="https://claude.ai/"><b>Claude</b></a> </li>
               <li> <a href="https://duck.ai/"><b>duck.ai</b></a>
                    <a href="https://proton.me/lumo"><b>lumo</b></a> 
+                   <a href="https://www.kimi.ai/en"><b>kimi</b></a>  </li>
       <!--
                    <a href="https://chat.mistral.ai/chat"><b>Mistral</b></a> </li>
       -->
