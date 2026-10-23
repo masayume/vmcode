@@ -174,6 +174,21 @@
     </details>
 
     <details>
+      <summary><strong><h4><b>SCIENCE ⬇️</b></h4></strong></summary> 
+        <p>
+          <ul>
+            <li> <a href="/HTML5/holden/index.php?art1=206&art2=206" target="_blank"><b>BRAIN ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=239&art2=239" target="_blank"><b>electronics ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=240&art2=240" target="_blank"><b>history ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=200&art2=200" target="_blank"><b>philosophy ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=231&art2=231" target="_blank"><b>psychology ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=241&art2=241" target="_blank"><b>math ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=242&art2=242" target="_blank"><b>geography ★</b></a>
+          </ul>
+        </p>
+    </details>
+
+    <details>
       <summary><strong><h4><b>STOCK ⬇️</b></h4></strong></summary> 
         <p>
           <ul>
