@@ -389,7 +389,7 @@
   <div class="_exa">
 
       <details>
-        <summary><strong><b>PIXEL ARTISTS ⬇️⬇️⬇️</b></strong></summary>
+        <summary><strong><b>PIXELARTISTS⬇️⬇️⬇️</b></strong></summary>
         <p>
           <ul>
             <li> <a href="https://www.masayume.it/blog/content/thomas-feichtmeir-cyangmou" target="_blank"><b>cyangmou</b></a>
@@ -399,11 +399,29 @@
                  <a href="https://x.com/hainsaw" target="_blank"><b>tw</b></a>
             <li> <a href="https://bsky.app/profile/potemki11.bsky.social"><b>potemki12★</b></a>  </li>
             <li> <a href="https://bsky.app/profile/drsmey.bsky.social"><b>DrSmey★</b></a>  </li>
-            <li> <a href="LINK"><b>artist★</b></a>  </li>
-            <li> <a href="LINK"><b>artist★</b></a>  </li>
-            <li> <a href="LINK"><b>artist★</b></a>  </li>
-            <li> <a href="LINK"><b>artist★</b></a>  </li>
-
+            <li> <a href="https://bsky.app/profile/tofupixel.bsky.social"><b>Tofu★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/nauris.bsky.social"><b>nauris★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/pixelflag.bsky.social"><b>pixelflag★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/dmitrydeceiver.bsky.social"><b>deceiver★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/ekvitki.art"><b>Traveler ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/mrmotarius.bsky.social"><b>Mrmo Tarius ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/pixelmima"><b>pixelmima ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/aliasmcdoe.eurosky.social"><b>Alias McDoe ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/aminus.bsky.social"><b>A. Marmot ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/rappenem.bsky.social"><b>Rappenem ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/noppixels.bsky.social"><b>NOP ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/neoriceisgood.bsky.social"><b>Neoriceisgood ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/goawayimcrabby.bsky.social"><b>Crabby Sam ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/ndchristie.bsky.social"><b>Christie ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/evsailey.bsky.social"><b>Evsailey ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/batfeula.bsky.social"><b>Batfeula ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/nurapixel.bsky.social"><b>Nura ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/stuntmaenbob.bsky.social"><b>StuntmAEn Bob ✨★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/johanpeitz.com"><b>Johan Peitz ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/pixeljess.bsky.social"><b>Pixel Jess ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/ilta222.com"><b>ilta ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/frogapples.bsky.social"><b>Apple ★</b></a>  </li>
+            <li> <a href="https://bsky.app/profile/moonfell-rpg.com"><b>Moonfell RPG ★</b></a>  </li>
         </ul>
         </p>
       </details>
