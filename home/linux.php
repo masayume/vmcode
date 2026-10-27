@@ -56,7 +56,6 @@
              <a href="ai.php" target="_blank"><b>AI</b></a> </li>
         <li> <a href="retro.php" target="_blank"><b>RETRO</b></a>
              <a href='/training'>training</a>/<a href="https://www.masayume.it/training">remote</a></li>
-        <li> <a href="unity.php" target="_blank">UNITY</a> </li>
       </ul>
 
     <h4>TOOLS</h4>
