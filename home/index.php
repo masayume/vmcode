@@ -185,6 +185,11 @@
             <li> <a href="/HTML5/holden/index.php?art1=231&art2=231" target="_blank"><b>psychology ★</b></a>
             <li> <a href="/HTML5/holden/index.php?art1=241&art2=241" target="_blank"><b>math ★</b></a>
             <li> <a href="/HTML5/holden/index.php?art1=242&art2=242" target="_blank"><b>geography ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=244&art2=244" target="_blank"><b>medicine ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=245&art2=245" target="_blank"><b>astronomy ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=246&art2=246" target="_blank"><b>language ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=247&art2=247" target="_blank"><b>chemistry ★</b></a>
+            <li> <a href="/HTML5/holden/index.php?art1=248&art2=248" target="_blank"><b>infotech ★</b></a>
           </ul>
         </p>
     </details>
@@ -385,8 +390,8 @@
               <a href="https://www.matthewsiu.com/pathfinder?utm_source=masayume.it"><b>pathfinder</b></a> </li>
         <li>  <a href="https://duckduckgo.com"><b>Duck<sup>2</sup>go</b></a>
               <a href="https://clippy.kenobit.it/"><b>Clippy</b></a> 
-              <a href="https://12ft.io/"><b>12FT</b></a> </li>
         <li>  <a href="https://thegigabrain.com/search/"><b>Giga</b></a>
+              <a href="https://www.removepaywall.com/"><b>removepaywall</b></a> </li>
               
         <li>  <a href="https://www.masayume.it/blog9/web/content/verification-tools"><b>Verification Tools★</b></a> </li>
 
@@ -594,12 +599,31 @@
     </details>
 
     <details>
+          <summary><strong><b>masayumeP ⬇️⬇️⬇️</b></strong></summary> 
+            <p>
+              <ul>
+                <li> <a href="/HTML5/holden/index.php?art1=180&art2=210" title="Malika Favre + Bitartbot" target="_blank"><b>MalikaBitBot</b></a> </li>
+<!--
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+                <li> <a href="URL" title="TITLE" target="_blank"><b>NAME</b></a> </li>
+-->
+              </ul>
+            </p>  
+    </details>
+
+    <details>
           <summary><strong><b>PROJECTS ⬇️⬇️⬇️</b></strong></summary> 
             <p>
               <ul>
                 <li> <a href="/godot/solomon.php" title="Godot Solomon Key" target="_blank"><b>Solomon's Key</b></a> </li>
                 <li> <a href="/godot/starforce.php" title="Godot Star Force" target="_blank"><b>Star Force</b></a> </li>
-                <li> <a href="/HTML5/holden/index.php?art1=180&art2=210" title="Malika Favre + Bitartbot" target="_blank"><b>MalikaBitBot</b></a> </li>
                 <li> <a href="/HTML5/holden/index.php?art1=200&art2=200" title="philosophers battle link Magic" target="_blank"><b>philosofight</b></a> </li>
               </ul>
             </p>  
