@@ -305,11 +305,11 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@SCIENCE/MATH/'
                   , '/inspire/@SCIENCE/@GEO/'
                   , '/inspire/@SCIENCE/PHYSICS/'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
-                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@SCIENCE/MEDICINE/'
+                  , '/inspire/@SCIENCE/ASTRO/'
+                  , '/inspire/@SCIENCE/LANGUAGE/'
+                  , '/inspire/@SCIENCE/CHEMISTRY/'
+                  , '/inspire/@SCIENCE/INFOTECH/'
                   , '/inspire/@pixelart/ref-TEXT'  
 
                   , '/inspire/@pixelart/ref-TEXT'             // 250
@@ -322,6 +322,18 @@ $artists = array(   '/inspire/@CARTOONS/ANTHONY\ HOLDEN/'
                   , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'
                   , '/inspire/@pixelart/ref-TEXT'  
+
+                  , '/inspire/@pixelart/ref-TEXT'             // 260
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'
+                  , '/inspire/@pixelart/ref-TEXT'  
+
 
 
                 );
