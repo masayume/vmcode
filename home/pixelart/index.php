@@ -283,7 +283,7 @@
 
   <div class="_exa">
 
-    <h4>CONVERT🔥🔥</h4>
+    <h4>CONVERTwf🔥</h4>
       <ul>
         <li><a href="/html5/isotope/isotope-WF-PX/" title="0. Isotope Pixelart Workflows"><b>0. ISO PX WF</b></a> </li>
         <li><a href="/HTML5/holden/index.php?art1=59&art2=59&tag1=PROMPT&tag2=PROMPT" title="masayumep workflow: 1. holden for mabius reference source + conversion PROMPT"><b>1. mabiusPX source</b></a>
@@ -293,11 +293,19 @@
         <li><a href="/html5/pixelizer01.htm" title="3. Ditherer"><b>3b. 1bit pixelizer</b></a> </li>
       </ul>
 
-    <h4>CONV.AI🔥</h4>
-      <ul>
-        <li><a href="/HTML5/holden/index.php?art1=135&art2=135&tag1=REF&tag2=REF" title="masayumep workflow: 1. holden for mabius reference source + conversion REFERENCE"><b>mabiusPX.REF</b></a>
-        <li><a href="/HTML5/holden/index.php?art1=135&art2=135&tag1=PROMPT&tag2=PROMPT" title="ai-pixelart DIR workflow: 1. holden for mabius reference source + conversion PROMPT"><b>mabiusPX.prompt</b></a>
-      </ul>
+    
+      <details>
+        <summary><h4>CONVERT🔥</h4></summary>
+          <p>
+
+            <ul>
+                <li> <a href="https://polytricity.itch.io/painterly-processor" title="bought & installed"><b>painterly-processor🔥</b></a></li> 
+                <li> <a href="/HTML5/holden/index.php?art1=135&art2=135&tag1=REF&tag2=REF" title="masayumep workflow: 1. holden for mabius reference source + conversion REFERENCE"><b>mabiusPX.REF</b></a>
+                <li> <a href="/HTML5/holden/index.php?art1=135&art2=135&tag1=PROMPT&tag2=PROMPT" title="ai-pixelart DIR workflow: 1. holden for mabius reference source + conversion PROMPT"><b>mabiusPX.prompt</b></a>
+            </ul>
+          </p>
+      </details>
+
 
     <h4>ASEPRITE</h4>
       <ul>
