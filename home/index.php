@@ -198,6 +198,17 @@
       <summary><strong><h4><b>STOCK ⬇️</b></h4></strong></summary> 
         <p>
           <ul>
+            <li> <a href="https://artvee.com/" target="_blank"><b>artvee</b></a>
+            <li> <a href="https://arkivism.com/explore" target="_blank"><b>arkivism</b></a>
+            <li> <a href="https://lastmuseum.com/" target="_blank"><b>lastmuseum</b></a>
+            <li> <a href="https://app.flim.ai/?ft=commodore+64" target="_blank"><b>flim</b></a>
+            <li> <a href="https://www.si.edu/explore/topics" target="_blank"><b>smithsonian</b></a>
+
+            <li> <a href="https://parismuseescollections.paris.fr/en" target="_blank"><b>parismuseescollections</b></a>
+            <li> <a href="https://museo.app/" target="_blank"><b>museo.appm</b></a>
+            <li> <a href="https://pdimagearchive.org/" target="_blank"><b>pdimagearchive</b></a>
+            <li> <a href="https://search.creativecommons.org/" target="_blank"><b>creativecommons</b></a>
+
             <li> <a href="https://openverse.org/" target="_blank"><b>openverse</b></a>
             <li> <a href="https://wordpress.org/photos/" target="_blank"><b>wordpress</b></a>
             <li> <a href="https://unsplash.com/" target="_blank"><b>unsplash</b></a>
