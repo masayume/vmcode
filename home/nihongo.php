@@ -320,6 +320,7 @@
       <li> <a href="https://en.fontworks.co.jp/fontsearch/MatissePro-EB/?word=%E3%83%9E%E3%83%86%E3%82%A3%E3%82%B9%C2%A0EB%C2%A0%20%E6%AD%A3%E5%A4%A2%C2%A0%20%C2%A0%C2%A0">matisse EB ★</a> </li>
       <li> <a href="https://fontsinuse.com/typefaces/42771/matisse">fonts in use ★</a> </li>
       <li> <a href="https://fonts.google.com/specimen/Darumadrop+One/tester">darumadrop ★</a> </li>
+      <li> <a href="https://www.freejapanesefont.com/">freejapanesefont★</a> </li>
     </ul>
 
     <h4>ZASSHI</h4>
