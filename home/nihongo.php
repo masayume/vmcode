@@ -204,6 +204,8 @@
 
   <h4>VIDEO</h4>
   <ul>
+    <li><a href="https://www.youtube.com/watch?v=rohvvk9ZmKI"><b>91 Verbs★</b></a>
+        <a href="https://www.youtube.com/watch?v=9RLLmcs1KEQ"><b>81 Verbs★</b></a></li>
     <li><a href="https://www.youtube.com/watch?v=N1-WE32N3G8"><b>All N4 kanji ★</b></a></li>
     <li><a href="https://www.instagram.com/taka_nihongo_dojo/?utm_source=masayume.it"><b>Taka Nihongo</b></a></li>
     <li><a href="https://www.bilibili.com/video/av884399804/">Bilibili</a></li>
