@@ -748,7 +748,8 @@
       <ul>
         <li> <a href="/HTML5/holden/index.php?art1=235&art2=235"><b>Series★</b></a> </li>
         <li> <a href="http://localhost:8096"><b>Jellyfin★</b></a> </li>
-        <li> <a href="https://en.jff.jpf.go.jp/"><b>Japan JFF★</b></a> </li>
+        <li> <a href="https://en.jff.jpf.go.jp/"><b>JapanJFF</b></a> 
+             <a href="https://spelunkr.tv/"><b>Spelunkr</b></a> </li>
         <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
         <li> <a href="https://flickmetrix.com/">flickmetrix</a> - <a href="https://www.justwatch.com/">justwatch</a> </li>
         <li> <a href="https://opencritic.com/" target="_blank"><b>opencrit</b></a> 
