@@ -79,7 +79,7 @@
            <a href="/HTML5/holden/index.php?art1=202&art2=202" title="@REF-SHADERS"><b>Shaders</b></a> 
            <a href="/HTML5/holden/index.php?art1=138&art2=138"><b>Dixit</b></a> </li>
       <li> <a href="/HTML5/holden/index.php?art1=190&art2=190"><b>Sktch1Day</b></a>  
-           <a href="/HTML5/holden/index.php?art1=206&art2=206"><b>Philosophers</b></a>    </li> 
+            </li> 
       <li> <a href="/HTML5/holden/index.php?art1=214&art2=214" title="Dynamic Textures"><b>dynText</b></a>  
            <a href="/HTML5/holden/index.php?art1=185&art2=185" title="Fantasy Art Gallery"><b>Fantasy</b></a>     
            <a href="/HTML5/holden/index.php?art1=213&art2=213" title="Oblique Strategies"><b>Oblique</b></a>    </li> 
@@ -136,27 +136,18 @@
           </ul>
         </p>
     </details>
-               
 
-    <h4></h4>
-          <ul>
-            <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social" target="_blank"><b>𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥★</b></a>
-            <li> <a href="https://bsky.app/profile/dungeonlust.com" target="_blank"><b>𝕯𝖚𝖓𝖌𝖊𝖔𝖓𝖑𝖚𝖘𝖙★</b></a> 
-                 <a href="https://dungeonlust.tumblr.com/" target="_blank"><b>T</b></a> </li>
-            <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin★</b></a> 
-                 <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bs</b></a> </li>
-            <li> <a href="https://www.facebook.com/Cardinalofchaos/" target="_blank"><b>Cardinalofchaos</b></a> 
-          </ul>
     <details>
       <summary><strong><h4><b>IMAGES src.⬇️</b></h4></strong></summary> 
         <p>
           <ul>
-            <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social" target="_blank"><b>𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥★</b></a>
-                 <a href="https://bsky.app/profile/dungeonlust.com" target="_blank"><b>𝕯𝖚𝖓𝖌𝖊𝖔𝖓𝖑𝖚𝖘𝖙★</b></a> </li>
-            <li> <a href="https://dungeonlust.tumblr.com/" target="_blank"><b>dungeonlust</b></a> </li>
+            <li> <a href="https://bsky.app/profile/thatsgoodweb.bsky.social" target="_blank"><b>𝔻𝕖𝕖𝕡𝕋𝕙𝕠𝕥★</b></a> </li>
+            <li> <a href="https://bsky.app/profile/dungeonlust.com" target="_blank"><b>𝕯𝖚𝖓𝖌𝖊𝖔𝖓𝖑𝖚𝖘𝖙★</b></a> 
+                 <a href="https://dungeonlust.tumblr.com/" target="_blank"><b>T</b></a> </li>
             <li> <a href="https://lookcaitlin.tumblr.com/" target="_blank"><b>lookcaitlin ★</b></a>
-                 <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bluesky</b></a>
+                 <a href="https://bsky.app/profile/lookcaitlin.bsky.social" target="_blank"><b>bs</b></a>
                  <a href="https://www.masayume.it/blog9/web/content/lookcaitlin" target="_blank"><b> my</b></a></li>
+            <li> <a href="https://www.facebook.com/Cardinalofchaos/" target="_blank"><b>Cardinalofchaos</b></a> 
             <li> <a href="https://70sscifiart.tumblr.com/" target="_blank"><b>70sscifiart</b></a> </li>
             <li> <a href="https://phantastische-illustrationen.tumblr.com/" target="_blank">phantastische</a> </li>
             <li> <a href="https://dreamsrecurring.tumblr.com/" target="_blank">dreamsrecurring</a> </li>
@@ -746,10 +737,11 @@
 
     <h4>VIDEO</h4>
       <ul>
+        <li> <a href="https://spelunkr.tv/"><b>Spelunkr</b></a> 
+             <a href="https://80s.myretrotvs.com/#"><b>80s TV</b></a> </li>
         <li> <a href="/HTML5/holden/index.php?art1=235&art2=235"><b>Series★</b></a> </li>
         <li> <a href="http://localhost:8096"><b>Jellyfin★</b></a> </li>
         <li> <a href="https://en.jff.jpf.go.jp/"><b>JapanJFF</b></a> 
-             <a href="https://spelunkr.tv/"><b>Spelunkr</b></a> </li>
         <li> <a href="https://www.netflixlovers.it/">netflixlovers ★</a> <a href="https://filmschoolrejects.com/best-netflix-original-series-ranked/">top50</a></li>
         <li> <a href="https://flickmetrix.com/">flickmetrix</a> - <a href="https://www.justwatch.com/">justwatch</a> </li>
         <li> <a href="https://opencritic.com/" target="_blank"><b>opencrit</b></a> 
